@@ -10,3 +10,5 @@ As unidades dos geradores mecânicos são milímetros. O eixo X aponta da base p
 6. Para ensaiar os estágios isolados, usar o [construtor do divisor](../P1H/Divisor_10X_PTFE/construir_radial.py) e `resolver_divisor.py` no AEDT, com `P1H_RADIAL_DIR` apontando a cada geometria. O alvo é ΔS ≤ 0,012 em dois passes consecutivos a 5,17 GHz. Exportar as matrizes nas 17 frequências. O ensaio de rede usa o diretório `rede/1x2` para o primeiro estágio e `revisao/1x5` para os divisores de grupo. As duas geometrias do 1:2 são idênticas. `ensaiar_rede.py` fecha as conexões bidirecionais nas quatro linhas e termina as vinte saídas em 50 Ω. Os comprimentos elétricos descontam 1,5 mm por lançamento já contido no FEM de cada placa.
 
 [Mecânica completa e comprimentos](../../freecad/mecanica_R02/README.md) · [Modelo integrado HFSS](../../hfss/antenas/P1H_R02.aedt) · [Cotação](../../resultados/r02/cotacao.md)
+
+[Ensaio da rede nas 17 frequências](../../resultados/r02/rede/README.md) · [Verificação independente das conexões](verificar_rede.py)

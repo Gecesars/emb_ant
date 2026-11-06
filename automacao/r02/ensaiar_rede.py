@@ -50,6 +50,8 @@ def calculate(parts,input_names,output_names,feed,branch,trunks):
 
 def evaluate(work,previous,dest):
     lengths=json.loads((work/"compacta/verificacao_cad.json").read_text())["comprimentos_mm"]
+    repo=Path(__file__).resolve().parents[2]
+    old_lengths=json.loads((repo/"freecad/mecanica_R01/verificacao.json").read_text())["cabos"]
     first=read(work/"rede/1x2/divisor.s6p","R_")
     lower=read(work/"revisao/1x5/divisor.s12p","L_")
     upper=(["U_"+n[2:] for n in lower[0]],lower[1])
@@ -58,7 +60,8 @@ def evaluate(work,previous,dest):
     joins=[("R_"+p+str(i),g+p+"_IN",lengths["TR_"+h+"_"+p])
            for i,g,h in [(1,"L_","INF"),(2,"U_","SUP")] for p in "AB"]
     split=calculate([first,lower,upper],inputs,outputs,lengths["IN_A"],lengths["INF_A1"],joins)
-    old=calculate([read(previous,"")],["A_IN","B_IN"],[p+str(i) for p in "AB" for i in range(1,11)],306.6389,254,[])
+    old=calculate([read(previous,"")],["A_IN","B_IN"],[p+str(i) for p in "AB" for i in range(1,11)],
+                  old_lengths["IN_A"]["eixo_mm"],old_lengths["A1"]["eixo_mm"],[])
     dest.mkdir(exist_ok=True,parents=True)
     incident=np.array([1,1])/np.sqrt(2)
     with (dest/"rede_cargas_50ohm.csv").open("w",newline="",encoding="utf8") as file:
