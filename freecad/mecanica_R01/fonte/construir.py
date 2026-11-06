@@ -126,6 +126,8 @@ def rail(x,side):
         sh=sh.cut(cz(x,y,-8.75,1.025,7.0))
     for y in [-PIN,PIN]:
         sh=sh.cut(cz(DIV_X+side*PASSO/2,y,-10.1,2.60,8.2))
+    # Folga de 0,25 mm ao redor e abaixo da flange traseira do passa-cabos.
+    sh=sh.cut(oval(DIV_X+side*PASSO/2,4.90,-3.45,1.55))
     return sh
 def make_capsule_grommet(x):
     sh=union([oval(x,4.65,-3.2,1.2),oval(x,3.49,-2,2),oval(x,4.65,0,1.2)])
@@ -207,6 +209,8 @@ def assembly(ref):
             obstacles.append((f"Par_trilho_{i}_{j}",fix))
     for i,x in enumerate(CENTROS):
         sh=make_capsule_grommet(x);add("Passagens",f"Passa_cabos_{i+1:02d}",sh,SI)
+        for trilho in (d.Trilho_1.Shape,d.Trilho_2.Shape):
+            assert trilho.distToShape(sh)[0] >= .249, i
     for sign,pol in [(-1,"A"),(1,"B")]:
         for n,s in zip(["Conector","Porca","Arruela","Junta","Termorretratil"],connector(sign*N_Y)):
             add("Entradas_N",n+"_N_"+pol,s,SI if n=="Junta" else (POM if n=="Termorretratil" else STEEL))

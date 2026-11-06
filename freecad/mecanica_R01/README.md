@@ -20,6 +20,8 @@ Cinco berços recortados em POM-C de **5 mm de espessura** sustentam a face infe
 
 Dois trilhos traseiros espelhados, de POM-C de **8 mm**, prendem as bordas da PCB do divisor de 39 × 78 × 1,52 mm. As quatro meias-luas acomodam as subidas dos cabos centrais. A face das trilhas fica em Z = −6,00 e a face das malhas coaxiais em Z = −7,52. O centro do divisor está deslocado +2,509 mm em X para acompanhar a linha real das sondas.
 
+Na face de cada trilho voltada à chapa, usinar o rebaixo oblongo indicado nos STEP P03/P04 e na prancha 3. Os arcos de raio 4,90 mm e a profundidade de 1,45 mm deixam folga nominal mínima de 0,25 mm em relação à flange traseira de silicone. Essa distância foi medida entre os sólidos da montagem.
+
 ## Cabos, vedação e entradas em CC
 
 Cada um dos dez rasgos de 7,00 × 12,018 mm recebe um passa-cabos duplo de silicone com garganta para a chapa de 2 mm. Instalar antes de soldar os coaxiais. O arquivo de formação descreve as linhas de centro em coordenadas da antena. Os vinte caminhos de saída somam 254 mm cada, incluindo 3 mm reservados à terminação do radiador. Os dois caminhos entre a traseira dos conectores N e as entradas do divisor medem 306,64 mm cada. Somar a inserção no conector e aplicar a preparação de pontas correspondente ao gabarito usado na bancada. O menor raio ao eixo é 4,40 mm, que equivale a cerca de 2,61 mm internos para este coaxial. A ficha do UT-141C indica um mínimo interno de 1,905 mm. Reservar pelo menos 114 mm atrás de Z = 0 para o envelope nominal dos cabos, além da folga de montagem. [Ficha Micro-Coax UT-141C](https://www.micro-coax.com/wp-content/uploads/2024/12/micro-coax-ut-141c-datasheet.pdf)

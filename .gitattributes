@@ -1,5 +1,5 @@
 * text=auto
-*.aedt -text
+*.aedt binary
 *.FCStd -text
 *.zip -text
 *.png -text

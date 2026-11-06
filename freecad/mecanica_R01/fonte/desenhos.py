@@ -130,7 +130,7 @@ def sheet3(pdf):
     table(f,[.045,.102,.91,.214],["Componente","Qtd.","Usinagem e montagem"],[
         ["P01  •  berço em POM-C natural","5","Chapa 5 × 36 × 19,60. Canal 29,00 × 1,01 a Z = 16,61. Dois roscados M2,5 por baixo."],
         ["P02  •  batente em POM-C","2","5 × 31 × 19,60. Entre faces internas 502,80 para PCB de 501,7125. Folga nominal 0,54 em cada ponta."],
-        ["P03 / P04  •  trilhos do divisor","1 + 1","POM-C de 8 × 82 × 8. Rebaixo de 1,75 de altura e 78,60 de comprimento. Alívios para cabos Ø5,20."],
+        ["P03 / P04  •  trilhos do divisor","1 + 1","POM 8 × 82 × 8. Canal 78,60 × 1,75. Cabos Ø5,20. Flange do passa-cabos: R4,90 × 1,45 de profundidade."],
         ["Fixação dos perfis","18","M2,5 × 8 + arruela 0,50. Pré-furo Ø2,05. Berços/batentes: profundidade 8. Trilhos: 6,75. Rosquear antes de montar."],
         ["P05  •  passa-cabos duplo","10","Silicone flexível. Pescoço 6,98 no rasgo de 7; lábios 9,30 de largura × 1,20; duas passagens Ø3,63 a 5,018."]],[.26,.065,.675],8.6)
     pdf.savefig(f);plt.close(f)
