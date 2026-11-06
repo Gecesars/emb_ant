@@ -16,4 +16,6 @@ Exemplo no PowerShell (a pasta de saída deve estar vazia):
 
 **Convenções.** X é o eixo da coluna e +Z é a frente. O corte horizontal está no plano YZ e o vertical no XZ. O painel é resolvido com vinte portas físicas, sem aproximação por fator de arranjo. A rede usa o divisor eletromagnético, vinte coaxiais com perdas e as transições soldadas. A co-simulação inclui reflexões entre as portas e o acoplamento de cada modelo EM. A radiação ou o acoplamento externo de cabos e suportes entre os blocos depende de uma instalação mecânica definida.
 
+Depois de uma nova simulação, `py -3.12 automacao/importar_comparacao.py D:/Simulacoes/P1H-novo/Comparacao_PCB` importa somente modelos, tabelas, diagramas e convergências. O importador confere as duas listas de 17 frequências, os resultados do circuito independente e o relatório antes de atualizar o índice. Depois de preparar os arquivos no Git, rode `py -3.12 automacao/verificar_acervo.py` para conferir os links, o conteúdo dos Gerbers e a exclusão das malhas.
+
 As referências FreeCAD podem ser regeneradas com o [script](../freecad/gerar_referencias.py) no Python do FreeCAD. As formas de cobre, furos, laminados e refletores são nominais. Use os arquivos KiCad e os Gerbers para as camadas de fabricação.

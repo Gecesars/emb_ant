@@ -46,6 +46,6 @@ Os cortes do candidato têm passo angular de 0,25°. O resultado do arranjo pres
 
 ## Abrir os resultados
 
-- [Arquivo HFSS portátil com resultados](../../hfss/historico/elemento/arranjo/synth_dipole_array2_2024.aedt). Para consultar nesta máquina, abrir também o [projeto com o candidato e os seis relatórios de campo](../../hfss/historico/elemento/arranjo/synth_dipole_array2_2024.aedt), mantendo a pasta `.aedtresults` ao lado dele. Esta cópia reproduz a geometria do elemento original. Em **Radiation → Antenna Array → Antenna Array Setup**, inspecionar os centros e pesos. Os CSVs de X e Y capturam as configurações anteriores à seleção do candidato.
+- [Projeto HFSS do candidato](../../hfss/historico/elemento/arranjo/synth_dipole_array2_2024.aedt). Esta cópia guarda a geometria e as definições dos relatórios. Para recalcular os campos, abra o projeto e execute a análise. Em **Radiation → Antenna Array → Antenna Array Setup**, consulte os centros e os pesos.
 - [Coordenadas e pesos do candidato](../../hfss/historico/elemento/arranjo/coluna_obliqua.txt) e [gráfico a 5,17 GHz](../../resultados/historico/elemento/diagramas_5170.png).
 - Para editar as dimensões do elemento, usar os modelos com o refletor parametrizado a [42 mm](../../hfss/historico/elemento/variante/P1H_refletor.aedt), [24 mm](../../hfss/historico/elemento/refletor24/P1H_refletor.aedt), [18 mm](../../hfss/historico/elemento/refletor18/P1H_refletor.aedt) ou [12 mm](../../hfss/historico/elemento/refletor12/P1H_refletor.aedt).

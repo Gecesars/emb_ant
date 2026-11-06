@@ -28,4 +28,4 @@ Para o elemento isolado em A+B, o pior coeficiente de reflexão ativo entre os 2
 
 O FEM inclui as duas portas do elemento. O HFSS sintetizou a coluna pelo fator de arranjo, com pesos de tensão unitários e fases de 0°. A validação física do painel ainda depende do acoplamento entre elementos, da rede de distribuição e das perdas e diferenças de fase nos seus caminhos.
 
-[Projeto HFSS com campos e relatórios](../../hfss/antenas/P1H_AB_em_fase.aedt) · [Tabela numérica](../../resultados/historico/elemento/resumo_AB.csv) · [Gráfico em frequência](../../resultados/historico/elemento/banda_AB.png)
+[Projeto HFSS do elemento para recalcular os campos](../../hfss/antenas/P1H_AB_em_fase.aedt) · [Tabela numérica](../../resultados/historico/elemento/resumo_AB.csv) · [Gráfico em frequência](../../resultados/historico/elemento/banda_AB.png)
