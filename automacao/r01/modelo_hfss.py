@@ -53,6 +53,13 @@ try:
     d.GetModule("ModelSetup").CreateOpenRegion(["NAME:Settings","OpFreq:=","5.09GHz","Boundary:=","Radiation","ApplyInfiniteGP:=",False])
     d.GetModule("RadField").InsertInfiniteSphereSetup(["NAME:HV","UseCustomRadiationSurface:=",False,"CSDefinition:=","Theta-Phi","Polarization:=","Linear","ThetaStart:=","-180deg","ThetaStop:=","180deg","ThetaStep:=","0.25deg","PhiStart:=","0deg","PhiStop:=","90deg","PhiStep:=","90deg","UseLocalCS:=",False])
     d.GetModule("AnalysisSetup").InsertSetup("HfssDriven",["NAME:Banda","SolveType:=","Single","Frequency:=","5.17GHz","MaxDeltaS:=",.015,"MaximumPasses:=",12,"MinimumPasses:=",3,"MinimumConvergedPasses:=",2,"PercentRefinement:=",23,"BasisOrder:=",-1,"SaveAnyFields:=",True,"SaveRadFieldsOnly:=",False])
+    if os.environ.get("P1H_ITERATIVO") == "1":
+        d.GetModule("MeshSetup").InitialMeshSettings(["NAME:MeshSettings",
+            ["NAME:GlobalSurfApproximation","CurvedSurfaceApproxChoice:=","ManualSettings","SurfDevChoice:=",2,
+             "SurfDev:=","0.035mm","NormalDevChoice:=",2,"NormalDev:=","25deg","AspectRatioChoice:=",2,"AspectRatio:=","25"],
+            ["NAME:GlobalCurvilinear","Apply:=",True],["NAME:GlobalModelRes","UseAutoLength:=",False,"DefeatureLength:=","0.002mm"],
+            "MeshMethod:=","AnsoftTAU","DynamicSurfaceResolution:=",False,"UseFlexMeshingForTAUvolumeMesh:=",True,
+            "UseLegacyFaceterForTauVolumeMesh:=",False,"UseAlternativeMeshMethodsAsFallBack:=",True,"AllowPhiForLayeredGeometry:=",False])
     d.GetModule("Solutions").EditSources([["IncludePortPostProcessing:=",False,"SpecifySystemPower:=",False]]+[["Name:=","N_"+p+":1","Magnitude:=","0.5W","Phase:=","0deg"] for p in "AB"])
     project.SaveAs(os.path.join(work,"P1H_R01.aedt"),True)
     valid=d.ValidateDesign();log(("valid",valid,list(oDesktop.GetMessages(project.GetName(),d.GetName(),1))))

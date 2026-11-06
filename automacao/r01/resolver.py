@@ -35,13 +35,19 @@ def export_matrix(solution, filename):
 
 
 try:
-    assert open(os.path.join(folder, "modelo.log")).read().strip().endswith("MODELO_OK")
     project = oDesktop.OpenProject(os.path.join(folder, "P1H_R01.aedt"))
     design = project.SetActiveDesign("Painel_montado")
     solutions = design.GetModule("Solutions")
     reports = design.GetModule("ReportSetup")
     setup = design.GetModule("AnalysisSetup")
     assert len(solutions.GetAllSources()) == 2
+    if os.environ.get("P1H_ITERATIVO") == "1":
+        setup.EditSetup("Banda", ["NAME:Banda", "SolveType:=", "Single", "Frequency:=", "5.17GHz",
+            "MaxDeltaS:=", .015, "MaximumPasses:=", 15, "MinimumPasses:=", 3, "MinimumConvergedPasses:=", 2,
+            "PercentRefinement:=", 15, "BasisOrder:=", -1, "DrivenSolverType:=", "Iterative Solver",
+            "IterativeResidual:=", .00001, "SaveAnyFields:=", True, "SaveRadFieldsOnly:=", False])
+        project.Save()
+    assert design.ValidateDesign() == 1
     log("ADAPTATIVO_INICIADO")
     design.Analyze("Banda")
     log(list(oDesktop.GetMessages(project.GetName(), design.GetName(), 2)))
