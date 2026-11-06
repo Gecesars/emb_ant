@@ -1,0 +1,52 @@
+"""Vistas FreeCAD da montagem, refletor e chicote R02."""
+import json
+import os
+import traceback
+from pathlib import Path
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore
+
+base=Path(os.environ["P1H_R02"])/"compacta"
+cores=json.loads((Path(os.environ["P1H_REPO"])/"freecad/mecanica_R01/fonte/cores.json").read_text())
+
+def cor(nome):
+    for prefix,rgb in [
+        ("Trilho_",(.20,.23,.26)),("PCB_",(.20,.49,.39)),("RF_",(.87,.62,.32)),
+        ("INF_A",(.74,.46,.24)),("SUP_A",(.74,.46,.24)),("INF_B",(.86,.63,.42)),("SUP_B",(.86,.63,.42)),
+        ("IN_",(.60,.36,.19)),("TR_",(.64,.40,.23)),("Refletor",(.73,.77,.80))]:
+        if nome.startswith(prefix):return (.48,.53,.58) if "_par_" in nome else rgb
+    return tuple(cores.get(nome,(.73,.77,.80)))
+
+def run():
+    original=set(App.listDocuments())
+    try:
+        for file,tip in [("01_Refletor_dobrado","Refletor_dobrado"),("02_Refletor_planificado","Chapa_plana"),("P1H_R02_compacta",None)]:
+            d=App.openDocument(str(base/(file+".FCStd")))
+            assert d.Name not in original
+            for o in d.Objects:
+                if not hasattr(o.ViewObject,"ShapeColor"):continue
+                o.ViewObject.Visibility=(tip is None or o.Name==tip)
+                if o.ViewObject.Visibility:
+                    o.ViewObject.ShapeColor=cor(o.Name)
+                    o.ViewObject.LineColor=(.19,.20,.21)
+                    o.ViewObject.LineWidth=.65
+            view=Gui.activeDocument().activeView()
+            if tip=="Chapa_plana":view.viewTop()
+            elif tip:view.viewAxonometric()
+            else:
+                eye=App.Vector(-.12,.60,-1).normalize()
+                right=App.Vector(1,0,0)
+                view.setCameraOrientation(App.Rotation(right,eye.cross(right),eye,"ZXY"))
+            view.fitAll();Gui.updateGui()
+            if not tip:
+                for _ in range(3):view.zoomIn()
+                Gui.updateGui();view.saveImage(str(base/"Verso_R02.png"),1800,760,"White")
+                view.fitAll()
+            d.recompute();d.save();App.closeDocument(d.Name)
+        (base/"vista.ok").write_text("OK")
+    except Exception:(base/"vista.erro").write_text(traceback.format_exc())
+    finally:
+        for name in set(App.listDocuments())-original:App.closeDocument(name)
+        if not original:Gui.getMainWindow().close()
+QtCore.QTimer.singleShot(350,run)

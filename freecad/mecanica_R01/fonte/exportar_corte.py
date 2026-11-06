@@ -20,10 +20,11 @@ def main():
     filename=SAIDA/"04_Refletor_CORTE_1a1.dxf"
     doc.saveas(filename)
     back=ezdxf.readfile(filename);model=back.modelspace()
-    assert not back.audit().has_errors and back.units==4 and len(model)==31
+    nfix=len(ref_bolts())
+    assert not back.audit().has_errors and back.units==4 and len(model)==13+nfix
     loops=list(model.query("LWPOLYLINE"));assert len(loops)==13 and all(e.closed for e in loops)
     areas=[Polygon([(v.x,v.y) for v in path.make_path(e).flattening(.0001)]).area for e in loops]
-    dxf_volume=(areas[0]-sum(areas[1:])-18*math.pi*1.4**2)*T
+    dxf_volume=(areas[0]-sum(areas[1:])-nfix*math.pi*1.4**2)*T
     import zipfile,xml.etree.ElementTree as ET
     # Checagem independente com a seção do arquivo nativo calculada no FreeCAD.
     import json
@@ -32,7 +33,7 @@ def main():
     bendwidth=82+2*sum(b-a for a,b in TRECHOS)
     flat_volume=folded-T*math.pi/2*(.5-K)*T*bendwidth
     assert abs(flat_volume-dxf_volume)<.25,(flat_volume,dxf_volume)
-    data.update({"volume_planificado_mm3":round(flat_volume,6),"dxf_contornos_fechados":31,"dxf_unidade":"mm",
+    data.update({"volume_planificado_mm3":round(flat_volume,6),"dxf_contornos_fechados":13+nfix,"dxf_unidade":"mm",
                  "BA_90_mm":round(BA,6),"planificado_limites_X":[FIM_FLAT,TOPO],"modelo_dobrado_limites_X":[BASE-RO,TOPO]})
     (SAIDA/"verificacao.json").write_text(json.dumps(data,indent=2,ensure_ascii=False),encoding="utf8")
     doc.layers.new("EIXOS_DOBRA",dxfattribs={"color":1})

@@ -1,8 +1,8 @@
 """Layout KiCad 10. Mesmo cobre, vias, resistores e portas do FEM."""
-import json,math
+import json,math,os
 from pathlib import Path
 import pcbnew as k
-root=Path(__file__).resolve().parent
+root=Path(os.environ.get("P1H_RADIAL_DIR", Path(__file__).resolve().parent))
 g=json.loads((root/"geometria.json").read_text())
 board=k.BOARD()
 def mm(x): return k.FromMM(x)
@@ -15,7 +15,7 @@ def layers(*indices):
 settings=board.GetDesignSettings()
 settings.SetBoardThickness(mm(1.61))
 nets={}
-for net in ("GND","POL_A","POL_B"):
+for net in ["GND"]+["POL_"+pol for pol in g["copper"]]:
     item=k.NETINFO_ITEM(board,net);board.Add(item);nets[net]=item
 def poly(layer,points,net=None):
     shape=k.PCB_SHAPE(board)
@@ -42,15 +42,16 @@ def text(s,x,y,scale=.8,back=False):
     t=k.PCB_TEXT(board);t.SetText(s);t.SetPosition(pos(x,y));t.SetLayer(k.B_SilkS if back else k.F_SilkS);t.SetMirrored(back);t.SetTextSize(size(scale,scale));t.SetTextThickness(mm(.13));board.Add(t)
 hx=g["half_x"];hy=g["half_y"]
 def corners(x,y):return [(-x,-y),(x,-y),(x,y),(-x,y)]
-outline=corners(hx,hy)
-for a,b in zip(outline,outline[1:]+outline[:1]):
-    e=k.PCB_SHAPE(board);e.SetShape(k.SHAPE_T_SEGMENT);e.SetLayer(k.Edge_Cuts);e.SetWidth(mm(.05));e.SetStart(pos(*a));e.SetEnd(pos(*b));board.Add(e)
+outline=g.get("outline",corners(hx,hy))
+for loop in [outline]+([g["janela"]] if "janela" in g else []):
+    for a,b in zip(loop,loop[1:]+loop[:1]):
+        e=k.PCB_SHAPE(board);e.SetShape(k.SHAPE_T_SEGMENT);e.SetLayer(k.Edge_Cuts);e.SetWidth(mm(.05));e.SetStart(pos(*a));e.SetEnd(pos(*b));board.Add(e)
 for pol,pts in g["copper"].items():
     poly(k.F_Cu,pts,"POL_"+pol);poly(k.F_Mask,pts)
 z=k.ZONE(board);z.SetNet(nets["GND"]);z.SetLayer(k.B_Cu);z.SetPadConnection(k.ZONE_CONNECTION_FULL)
 z.SetLocalClearance(mm(.785));z.SetMinThickness(mm(.10))
 z.Outline().NewOutline()
-for x,y in corners(hx-.52,hy-.52):z.Outline().Append(pos(x,y))
+for x,y in g.get("outline_gnd",corners(hx-.52,hy-.52)):z.Outline().Append(pos(x,y))
 board.Add(z)
 def maskring(x,y):
     shp=k.PCB_SHAPE(board);shp.SetShape(k.SHAPE_T_POLY);shp.SetLayer(k.B_Mask)
@@ -63,7 +64,8 @@ def maskring(x,y):
     ps.Fracture();shp.SetPolyShape(ps);shp.SetFilled(True);shp.SetWidth(0);board.Add(shp)
 for idx,(name,x,y) in enumerate(g["ports"],1):
     f=fp("J"+str(idx),name+"_UT141C",x,y)
-    q=k.PAD(f);q.SetNumber("1");q.SetNet(nets["POL_"+name[0]]);q.SetSize(size(1.46,1.46))
+    net=g.get("port_net",{}).get(name,name[0])
+    q=k.PAD(f);q.SetNumber("1");q.SetNet(nets["POL_"+net]);q.SetSize(size(1.46,1.46))
     q.SetShape(k.PAD_SHAPE_CIRCLE);q.SetAttribute(k.PAD_ATTRIB_PTH);q.SetDrillSize(size(1.,1.));q.SetPosition(pos(x,y))
     q.SetLayerSet(layers(k.F_Cu,k.B_Cu,k.F_Mask,k.B_Mask));f.Add(q)
     for dx,dy in [(1,0),(-1,0),(0,1),(0,-1)]:
@@ -72,13 +74,15 @@ for idx,(name,x,y) in enumerate(g["ports"],1):
         q.SetLayerSet(layers(k.B_Cu,k.B_Mask));f.Add(q)
     maskring(x,y)
     cy=-19.25 if name.startswith("A") else 19.25
-    if name.endswith("IN"):text(name.replace("_"," "),x,y+3.8,.9,back=True)
+    if name in g.get("rotulos",{}):
+        txt,tx,ty=g["rotulos"][name];text(txt,tx,ty,.85,back=True)
+    elif name.endswith("IN"):text(name.replace("_"," "),x,y+3.8,.9,back=True)
     else:
         a=math.atan2(y-cy,x)
         text(name,x+3.82*math.cos(a)+{"A6":1.6,"B5":-1.6}.get(name,0),y+3.82*math.sin(a),.85,back=True)
-text("P1H  2 x 1:10",0,0,1.1)
+text(g.get("legenda","P1H  2 x 1:10"),*g.get("legenda_xy",[0,36.5 if "janela" in g else 0]),1.1)
 k.ZONE_FILLER(board).Fill(board.Zones())
-path=root/"Divisor_2x10_PTFE.kicad_pcb"
+path=root/(g.get("arquivo","Divisor_2x10_PTFE")+".kicad_pcb")
 k.SaveBoard(str(path),board)
 stackup = """(stackup
     (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
@@ -97,7 +101,7 @@ path.write_text(source.replace("(setup\n","(setup\n"+stackup+"\n",1),encoding="u
 loaded=k.LoadBoard(str(path))
 k.SaveBoard(str(path),loaded)
 assert 'ZYF300CA-C' in path.read_text(encoding="utf-8")
-assert len(loaded.GetFootprints())==22 and loaded.GetCopperLayerCount()==2
+assert len(loaded.GetFootprints())==len(g["ports"]) and loaded.GetCopperLayerCount()==2
 print("PCB",loaded.GetFootprints().__len__(),"footprints")
 
 

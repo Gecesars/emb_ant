@@ -1,0 +1,38 @@
+{
+  "comprimentos_mm": {
+    "INF_A1": 130.0,
+    "INF_A5": 130.0,
+    "INF_B1": 130.0,
+    "INF_B5": 130.0,
+    "INF_A2": 130.0,
+    "INF_A4": 130.0,
+    "INF_B2": 130.0,
+    "INF_B4": 130.0,
+    "INF_A3": 130.0,
+    "INF_B3": 130.0,
+    "SUP_A1": 130.0,
+    "SUP_A5": 130.0,
+    "SUP_B1": 130.0,
+    "SUP_B5": 130.0,
+    "SUP_A2": 130.0,
+    "SUP_A4": 130.0,
+    "SUP_B2": 130.0,
+    "SUP_B4": 130.0,
+    "SUP_A3": 130.0,
+    "SUP_B3": 130.0,
+    "TR_INF_A": 132.0,
+    "TR_INF_B": 132.0,
+    "TR_SUP_A": 132.0,
+    "TR_SUP_B": 132.0,
+    "IN_A": 271.792113,
+    "IN_B": 271.792113
+  },
+  "interferencias_mm3": [],
+  "placas_fisicas": 2,
+  "raio_eixo_mm": 4.4,
+  "folga_minima_entre_capas_mm": 0.645837,
+  "par_critico": [
+    "TR_INF_A",
+    "IN_A"
+  ]
+}

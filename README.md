@@ -10,6 +10,7 @@ Projeto de uma coluna de antenas impressas com duas polarizações. A versão de
 | Referências dimensionais FreeCAD | [Uma placa](freecad/P1H_10_Continua.FCStd) · [Dez placas](freecad/P1H_10_Separadas.FCStd) · [Envelope do divisor](freecad/Divisor_2x10_PTFE.FCStd) |
 | Mecânica do protótipo com refletor contínuo | [Montagem, chapa dobrada, planificação e desenho de fabricação](freecad/mecanica_R01/README.md) |
 | Painel integrado R01 | [Modelo HFSS com duas portas N](hfss/antenas/P1H_R01.aedt) · [Premissas e reprodução](automacao/r01/README.md) · [Cotação da placa contínua e do divisor](resultados/r01/cotacao.md) |
+| R02 com divisores inferior e superior | [Montagem, chapa e chicote](freecad/mecanica_R02/README.md) · [HFSS integrado](hfss/antenas/P1H_R02.aedt) · [Reprodução](automacao/r02/README.md) · [Cotação das três placas](resultados/r02/cotacao.md) |
 | Fabricação | [Três pacotes Gerber com furação](fabricacao/gerbers) · [Ligação dos cabos](fabricacao/montagem/ligacao_dos_cabos.csv) · [Cotação JLCPCB](fabricacao/cotacao/Cotacao_JLCPCB.md) |
 | Estudos anteriores | [Colunas de 8, 9 e 10 elementos](documentacao/historico/comparacao_colunas.md) · [Elemento com ambas as portas em fase](documentacao/historico/analise_AB.md) · [Dados numéricos](resultados/historico) |
 | Como reproduzir | [Procedimento e convenções](automacao/README.md) |

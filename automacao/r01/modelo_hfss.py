@@ -61,7 +61,7 @@ try:
             "MeshMethod:=","AnsoftTAU","DynamicSurfaceResolution:=",False,"UseFlexMeshingForTAUvolumeMesh:=",True,
             "UseLegacyFaceterForTauVolumeMesh:=",False,"UseAlternativeMeshMethodsAsFallBack:=",True,"AllowPhiForLayeredGeometry:=",False])
     d.GetModule("Solutions").EditSources([["IncludePortPostProcessing:=",False,"SpecifySystemPower:=",False]]+[["Name:=","N_"+p+":1","Magnitude:=","0.5W","Phase:=","0deg"] for p in "AB"])
-    project.SaveAs(os.path.join(work,"P1H_R01.aedt"),True)
+    project.SaveAs(os.path.join(work,os.environ.get("P1H_NOME","P1H_R01")+".aedt"),True)
     valid=d.ValidateDesign();log(("valid",valid,list(oDesktop.GetMessages(project.GetName(),d.GetName(),1))))
     assert valid==1 and len(d.GetModule("Solutions").GetAllSources())==2
     log("MODELO_OK")

@@ -3,7 +3,7 @@
 import os,json,traceback
 import ScriptEnv
 ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-root=os.path.dirname(os.path.abspath(__file__))
+root=os.environ.get("P1H_RADIAL_DIR",os.path.dirname(os.path.abspath(__file__)))
 g=json.load(open(os.path.join(root,"geometria.json")))
 h=g["h"];hy=g["half_y"];hx=g["half_x"]
 def log(value):
@@ -22,7 +22,7 @@ def rect(name,x1,y1,x2,y2,z):
     sheet(name,[(x1,y1,z),(x2,y1,z),(x2,y2,z),(x1,y2,z)])
 def vec(x,y,z):return [u(x),u(y),u(z)]
 try:
-    target=os.path.join(root,"Divisor_2x10_PTFE.aedt")
+    target=os.path.join(root,g.get("arquivo","Divisor_2x10_PTFE")+".aedt")
     if os.path.exists(target): raise RuntimeError("Projeto existente: abrir ou usar nova revisao")
     p=oDesktop.NewProject()
     p.InsertDesign("HFSS","Duplo_radial","DrivenModal","")
@@ -75,6 +75,14 @@ try:
         tip="Solda_top_"+name
         cyl(tip,x,y,.74,h,.17,"SAC305")
     sub("GND",disks,False);sub("Laminado",pins,True)
+    if "janela" in g:
+        sheet("Canal_mecanico",[(x,y,0) for x,y in g["janela"]])
+        ed.SweepAlongVector(["NAME:Selections","Selections:=","Canal_mecanico","NewPartsModelFlag:=","Model"],
+            ["NAME:VectorSweepParameters","DraftAngle:=","0deg","DraftType:=","Round","CheckFaceFaceIntersection:=",False,
+             "SweepVectorX:=","0mm","SweepVectorY:=","0mm","SweepVectorZ:=",u(h)])
+        sub("Laminado",["Canal_mecanico"])
+        sheet("Folga_massa",[(x,y,0) for x,y in g["janela_sem_cobre"]])
+        sub("GND",["Folga_massa"])
     b.AssignFiniteCond(["NAME:Cobre_35um","Objects:=",copper,"UseMaterial:=",True,"Material:=","copper","UseThickness:=",True,"Thickness:=","0.035mm","Roughness:=","0.5um","InfGroundPlane:=",False,"IsTwoSided:=",False])
     for name,x,y in g["ports"]:
         s="Porta_"+name
@@ -88,7 +96,7 @@ try:
     d.GetModule("ModelSetup").CreateOpenRegion(["NAME:Settings","OpFreq:=","5.09GHz","Boundary:=","Radiation","ApplyInfiniteGP:=",False])
     an=d.GetModule("AnalysisSetup")
     an.InsertSetup("HfssDriven",["NAME:Divisor","Frequency:=","5.17GHz","MaxDeltaS:=",0.015,"MaximumPasses:=",14,"MinimumPasses:=",2,"MinimumConvergedPasses:=",1,"PercentRefinement:=",28,"BasisOrder:=",1])
-    assert len(d.GetModule("Solutions").GetAllSources())==22
+    assert len(d.GetModule("Solutions").GetAllSources())==len(g["ports"])
     p.SaveAs(target,True)
     valid=d.ValidateDesign()
     log(("valid",valid,list(oDesktop.GetMessages(p.GetName(),d.GetName(),1))))

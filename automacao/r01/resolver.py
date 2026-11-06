@@ -35,7 +35,7 @@ def export_matrix(solution, filename):
 
 
 try:
-    project = oDesktop.OpenProject(os.path.join(folder, "P1H_R01.aedt"))
+    project = oDesktop.OpenProject(os.path.join(folder, os.environ.get("P1H_NOME","P1H_R01")+".aedt"))
     design = project.SetActiveDesign("Painel_montado")
     solutions = design.GetModule("Solutions")
     reports = design.GetModule("ReportSetup")
