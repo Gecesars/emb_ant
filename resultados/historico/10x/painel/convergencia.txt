@@ -1,0 +1,24 @@
+DesignVariation : array_element_plane_z='16.609999999999999mm' array_has_B1='0' array_has_P1='0' array_has_P1H='1' array_has_R1='0' array_has_Y1='0' array_model_count='1' array_P1H_band_start='5090MHz' array_P1H_band_stop='5250MHz' array_P1H_element_z='16.609999999999999mm' array_P1H_geometry_revision='1' array_P1H_pcb_thickness='0.76000000000000001mm' array_P1H_polarization_scale_A='1.0124' array_P1H_polarization_scale_B='1.0006999999999999' array_P1H_reference_frequency='5170MHz' array_P1H_reflector_spacing='16.609999999999999mm' array_P1H_ring_opening_scale='1' array_P1H_xy_scale='0.755' array_pcb_thickness='0.76000000000000001mm' array_reflector_height='36mm' array_reflector_spacing='16.609999999999999mm' array_reflector_width='48.3125mm' array_reflector_z='0mm' E001_element_z='16.609999999999999mm'
+Setup : Setup_Multiband
+
+==================
+Number of Passes
+Completed : 6
+Maximum   : 10
+Minimum   : 2
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.02
+Current   : 0.012765
+Target Consecutive Passes  : 1
+Current Consecutive Passes : 1
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|         156507|             N/A|
+          2|         194318|         0.87857|
+          3|         242725|         0.30979|
+          4|         302833|        0.063732|
+          5|         374642|        0.027146|
+          6|         461251|        0.012765|
+

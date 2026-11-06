@@ -1,0 +1,9 @@
+* text=auto
+*.aedt -text
+*.FCStd -text
+*.zip -text
+*.png -text
+*.jpg -text
+*.kicad_pcb text eol=lf
+*.md text eol=lf
+*.py text eol=lf

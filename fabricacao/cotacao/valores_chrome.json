@@ -1,0 +1,82 @@
+{
+  "longa": {
+    "identified": "- generic: Detected 2 layer board of 28.31x501.71mm(1.115x19.752 inches).",
+    "quantity": "5",
+    "selected": [
+      "Rogers",
+      "2",
+      "Industrial/Consumer electronics",
+      "Yes",
+      "1",
+      "Single PCB",
+      "0.76mm",
+      "Green",
+      "White",
+      "RO4350B(Dk=3.48,Df=0.0037)",
+      "ENIG",
+      "1 U\"",
+      "1 oz",
+      "Untented",
+      "Horizontal Electroless Copper Plating",
+      "No",
+      "Remove Mark",
+      "Flying Probe Fully Test",
+      "No",
+      "No"
+    ],
+    "breakdown": "generic: Charge Details\n      - generic: \n      - text: Engineering fee\n      - generic: R$431.28\n      - text: Via Covering\n      - generic: R$0.00\n      - text: Surface Finish\n      - generic: R$94.57\n      - text: Deburring/Edge rounding\n      - generic: R$0.52\n      - text: Board\n      - generic: R$111.20\n      - text: Via Plating Method\n      - generic: R$18.08\n      - strong: PCB Build Time\n      - generic: \n      - generic: 4~5 days\n      - generic: R$0.00\n    - separator\n    - heading \"Calculated Price\" [level=2]\n    - paragraph:\n      - text: Additional charges may apply for\n      - link \"special cases\":\n        - /url: https://jlcpcb.com/help/article/In-what-cases-will-there-be-charged-extra?\n    - generic: R$655.64\n    - generic: Web Price\n    - generic: \n    - text: From R$629.66\n    - generic: \n    - generic: Desktop Price\n    - button \"SAVE TO CART\":\n      - generic: SAVE TO CART\n    - heading \"Shipping Estimate\" [level=2]\n    - generic: R$221.61\n    - generic: \n    - generic \"DHL Express\"\n    - generic \"4-6 business days\"\n    - text: Weight\n    - generic: \n    - generic: 0.27kg\n    - "
+  },
+  "avulsas50": {
+    "identified": "- generic: Detected 2 layer board of 28.31x28.31mm(1.115x1.115 inches).",
+    "quantity": "50",
+    "selected": [
+      "Rogers",
+      "2",
+      "Industrial/Consumer electronics",
+      "Yes",
+      "1",
+      "Single PCB",
+      "0.76mm",
+      "Green",
+      "White",
+      "RO4350B(Dk=3.48,Df=0.0037)",
+      "ENIG",
+      "1 U\"",
+      "1 oz",
+      "Untented",
+      "Horizontal Electroless Copper Plating",
+      "No",
+      "Remove Mark",
+      "Flying Probe Fully Test",
+      "No",
+      "No"
+    ],
+    "breakdown": "generic: Charge Details\n      - generic: \n      - text: Engineering fee\n      - generic: R$431.28\n      - text: Via Covering\n      - generic: R$0.00\n      - text: Surface Finish\n      - generic: R$90.93\n      - text: Testing\n      - generic: R$87.81\n      - text: Film\n      - generic: R$1.56\n      - text: Deburring/Edge rounding\n      - generic: R$5.72\n      - text: Board\n      - generic: R$62.87\n      - generic: ENIG Area Surcharge\n      - generic: R$1.09\n      - text: Package Box\n      - generic: R$2.55\n      - text: Via Plating Method\n      - generic: R$17.72\n      - strong: PCB Build Time\n      - generic: \n      - generic: 6~7 days\n      - generic: R$0.00\n    - separator\n    - heading \"Calculated Price\" [level=2]\n    - paragraph:\n      - text: Additional charges may apply for\n      - link \"special cases\":\n        - /url: https://jlcpcb.com/help/article/In-what-cases-will-there-be-charged-extra?\n    - generic: R$701.53\n    - generic: Web Price\n    - generic: \n    - text: From R$675.54\n    - generic: \n    - generic: Desktop Price\n    - button \"SAVE TO CART\":\n      - generic: SAVE TO CART\n    - heading \"Shipping Estimate\" [level=2]\n    - generic: R$221.61\n    - generic: \n    - generic \"DHL Express\"\n    - generic \"4-6 business days\"\n    - text: Weight\n    - generic: \n    - generic: 0.21kg\n    - "
+  },
+  "divisor": {
+    "identified": "- generic: Detected 2 layer board of 78x39mm(3.071x1.535 inches).",
+    "quantity": "5",
+    "selected": [
+      "PTFE Teflon",
+      "2",
+      "Industrial/Consumer electronics",
+      "1",
+      "Single PCB",
+      "1.52mm",
+      "Green",
+      "White",
+      "ZYF300CA-C(Dk=2.94,Df=0.0016)",
+      "ENIG",
+      "1 U\"",
+      "1 oz",
+      "Tented",
+      "Horizontal Electroless Copper Plating",
+      "No",
+      "Remove Mark",
+      "Flying Probe Fully Test",
+      "No",
+      "No"
+    ],
+    "breakdown": "generic: Charge Details\n      - generic: \n      - text: Special Offer\n      - generic: R$431.28\n      - text: Via Covering\n      - generic: R$0.00\n      - text: Surface Finish\n      - generic: R$87.81\n      - text: Via Plating Method\n      - generic: R$17.41\n      - strong: PCB Build Time\n      - generic: \n      - generic: 4~5 days\n      - generic: R$0.00\n    - separator\n    - heading \"Calculated Price\" [level=2]\n    - paragraph:\n      - text: Additional charges may apply for\n      - link \"special cases\":\n        - /url: https://jlcpcb.com/help/article/In-what-cases-will-there-be-charged-extra?\n    - generic: R$536.50\n    - generic: Web Price\n    - generic: \n    - text: From R$510.52\n    - generic: \n    - generic: Desktop Price\n    - button \"SAVE TO CART\":\n      - generic: SAVE TO CART\n    - heading \"Shipping Estimate\" [level=2]\n    - generic: R$221.61\n    - generic: \n    - generic \"DHL Express\"\n    - generic \"4-6 business days\"\n    - text: Weight\n    - generic: \n    - generic: 0.16kg\n    - "
+  }
+}

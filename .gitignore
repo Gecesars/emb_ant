@@ -1,0 +1,41 @@
+# Resultados de solver, malhas e bibliotecas temporárias AEDT
+*.aedtresults/
+*.aedb/
+*.aedt.lock
+*.aedt.auto
+*.aedt.bak
+*.aedtz
+*.asol*
+*.semaphore
+*.hfss
+*.ngmesh
+*.mesh
+*.msh
+*.g3derr
+*.field
+*.fld
+*.profile
+*.tmp
+*.log
+*.raw
+Verificacao_Malha/
+# Estado local de CAD e cópias automáticas
+*.kicad_prl
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+fp-info-cache
+*.FCStd1
+*.FCBak
+*.bak
+*.lock
+~$*
+# Ambiente, credenciais e cópias de execução
+.env*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+execucao/

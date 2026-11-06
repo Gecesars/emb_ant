@@ -1,0 +1,23 @@
+Setup : Junta
+
+==================
+Number of Passes
+Completed : 6
+Maximum   : 12
+Minimum   : 2
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.008
+Current   : 0.0014252
+Target Consecutive Passes  : 1
+Current Consecutive Passes : 1
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|           2851|             N/A|
+          2|           3629|         0.30575|
+          3|           4656|         0.16101|
+          4|           5647|        0.030856|
+          5|           6482|        0.010001|
+          6|           7541|       0.0014252|
+

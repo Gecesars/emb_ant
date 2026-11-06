@@ -1,0 +1,106 @@
+"""Layout KiCad 10. Mesmo cobre, vias, resistores e portas do FEM."""
+import json,math
+from pathlib import Path
+import pcbnew as k
+root=Path(__file__).resolve().parent
+g=json.loads((root/"geometria.json").read_text())
+board=k.BOARD()
+def mm(x): return k.FromMM(x)
+def size(w,h): return k.VECTOR2I(mm(w),mm(h))
+def pos(x,y): return size(80+x,65-y)
+def layers(*indices):
+    ls=k.LSET()
+    for index in indices: ls.AddLayer(index)
+    return ls
+settings=board.GetDesignSettings()
+settings.SetBoardThickness(mm(1.61))
+nets={}
+for net in ("GND","POL_A","POL_B"):
+    item=k.NETINFO_ITEM(board,net);board.Add(item);nets[net]=item
+def poly(layer,points,net=None):
+    shape=k.PCB_SHAPE(board)
+    shape.SetShape(k.SHAPE_T_POLY)
+    ps=k.SHAPE_POLY_SET();ps.NewOutline()
+    for x,y in points:ps.Append(pos(x,y))
+    shape.SetPolyShape(ps);shape.SetFilled(True);shape.SetWidth(0);shape.SetLayer(layer)
+    if net: shape.SetNet(nets[net])
+    board.Add(shape)
+def fp(ref,value,x,y):
+    f=k.FOOTPRINT(board);f.SetReference(ref);f.SetValue(value);f.SetPosition(pos(x,y))
+    f.Reference().SetVisible(False);f.Value().SetVisible(False)
+    board.Add(f);return f
+def pad(f,num,x,y,w,dy,net,through=False,paste=False):
+    q=k.PAD(f);q.SetNumber(num);q.SetNet(nets[net]);q.SetSize(size(w,dy));q.SetPosition(pos(x,y))
+    if through:
+        q.SetShape(k.PAD_SHAPE_CIRCLE);q.SetAttribute(k.PAD_ATTRIB_PTH);q.SetDrillSize(size(.3,.3))
+        q.SetLayerSet(layers(k.F_Cu,k.B_Cu,k.F_Mask,k.B_Mask))
+    else:
+        q.SetAttribute(k.PAD_ATTRIB_SMD);q.SetShape(k.PAD_SHAPE_RECT)
+        q.SetLayerSet(layers(k.F_Cu,k.F_Mask,*([k.F_Paste] if paste else [])))
+    f.Add(q)
+def text(s,x,y,scale=.8,back=False):
+    t=k.PCB_TEXT(board);t.SetText(s);t.SetPosition(pos(x,y));t.SetLayer(k.B_SilkS if back else k.F_SilkS);t.SetMirrored(back);t.SetTextSize(size(scale,scale));t.SetTextThickness(mm(.13));board.Add(t)
+hx=g["half_x"];hy=g["half_y"]
+def corners(x,y):return [(-x,-y),(x,-y),(x,y),(-x,y)]
+outline=corners(hx,hy)
+for a,b in zip(outline,outline[1:]+outline[:1]):
+    e=k.PCB_SHAPE(board);e.SetShape(k.SHAPE_T_SEGMENT);e.SetLayer(k.Edge_Cuts);e.SetWidth(mm(.05));e.SetStart(pos(*a));e.SetEnd(pos(*b));board.Add(e)
+for pol,pts in g["copper"].items():
+    poly(k.F_Cu,pts,"POL_"+pol);poly(k.F_Mask,pts)
+z=k.ZONE(board);z.SetNet(nets["GND"]);z.SetLayer(k.B_Cu);z.SetPadConnection(k.ZONE_CONNECTION_FULL)
+z.SetLocalClearance(mm(.785));z.SetMinThickness(mm(.10))
+z.Outline().NewOutline()
+for x,y in corners(hx-.52,hy-.52):z.Outline().Append(pos(x,y))
+board.Add(z)
+def maskring(x,y):
+    shp=k.PCB_SHAPE(board);shp.SetShape(k.SHAPE_T_POLY);shp.SetLayer(k.B_Mask)
+    ps=k.SHAPE_POLY_SET();ps.NewOutline()
+    for n in range(48):
+        a=math.tau*n/48;ps.Append(pos(x+2.24*math.cos(a),y+2.24*math.sin(a)))
+    hole=ps.NewHole()
+    for n in range(48):
+        a=-math.tau*n/48;ps.Append(pos(x+1.515*math.cos(a),y+1.515*math.sin(a)),0,hole)
+    ps.Fracture();shp.SetPolyShape(ps);shp.SetFilled(True);shp.SetWidth(0);board.Add(shp)
+for idx,(name,x,y) in enumerate(g["ports"],1):
+    f=fp("J"+str(idx),name+"_UT141C",x,y)
+    q=k.PAD(f);q.SetNumber("1");q.SetNet(nets["POL_"+name[0]]);q.SetSize(size(1.46,1.46))
+    q.SetShape(k.PAD_SHAPE_CIRCLE);q.SetAttribute(k.PAD_ATTRIB_PTH);q.SetDrillSize(size(1.,1.));q.SetPosition(pos(x,y))
+    q.SetLayerSet(layers(k.F_Cu,k.B_Cu,k.F_Mask,k.B_Mask));f.Add(q)
+    for dx,dy in [(1,0),(-1,0),(0,1),(0,-1)]:
+        q=k.PAD(f);q.SetNumber("2");q.SetNet(nets["GND"]);q.SetSize(size(.35,.35))
+        q.SetShape(k.PAD_SHAPE_CIRCLE);q.SetAttribute(k.PAD_ATTRIB_SMD);q.SetPosition(pos(x+1.87*dx,y+1.87*dy))
+        q.SetLayerSet(layers(k.B_Cu,k.B_Mask));f.Add(q)
+    maskring(x,y)
+    cy=-19.25 if name.startswith("A") else 19.25
+    if name.endswith("IN"):text(name.replace("_"," "),x,y+3.8,.9,back=True)
+    else:
+        a=math.atan2(y-cy,x)
+        text(name,x+3.82*math.cos(a)+{"A6":1.6,"B5":-1.6}.get(name,0),y+3.82*math.sin(a),.85,back=True)
+text("P1H  2 x 1:10",0,0,1.1)
+k.ZONE_FILLER(board).Fill(board.Zones())
+path=root/"Divisor_2x10_PTFE.kicad_pcb"
+k.SaveBoard(str(path),board)
+stackup = """(stackup
+    (layer "F.SilkS" (type "Top Silk Screen") (color "White"))
+    (layer "F.Paste" (type "Top Solder Paste"))
+    (layer "F.Mask" (type "Top Solder Mask") (color "Green") (thickness 0.01))
+    (layer "F.Cu" (type "copper") (thickness 0.035))
+    (layer "dielectric 1" (type "core") (thickness 1.52) (material "ZYF300CA-C") (epsilon_r 2.94) (loss_tangent 0.0016))
+    (layer "B.Cu" (type "copper") (thickness 0.035))
+    (layer "B.Mask" (type "Bottom Solder Mask") (color "Green") (thickness 0.01))
+    (layer "B.Paste" (type "Bottom Solder Paste"))
+    (layer "B.SilkS" (type "Bottom Silk Screen") (color "White"))
+    (copper_finish "ENIG") (dielectric_constraints yes))"""
+source=path.read_text(encoding="utf-8")
+assert source.count("(setup\n")==1
+path.write_text(source.replace("(setup\n","(setup\n"+stackup+"\n",1),encoding="utf-8")
+loaded=k.LoadBoard(str(path))
+k.SaveBoard(str(path),loaded)
+assert 'ZYF300CA-C' in path.read_text(encoding="utf-8")
+assert len(loaded.GetFootprints())==22 and loaded.GetCopperLayerCount()==2
+print("PCB",loaded.GetFootprints().__len__(),"footprints")
+
+
+
+
+

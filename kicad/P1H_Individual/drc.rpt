@@ -1,0 +1,246 @@
+** Drc report for P1H_Individual.kicad_pcb **
+** Created on 2026-11-06T14:15:33 **
+** Report includes: Errors, Warnings **
+
+** Found 57 DRC violations **
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(35.4040 mm, 44.9184 mm): Polygon [E01_RET_A] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(35.2491 mm, 31.6124 mm): Polygon [E01_RET_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 42.5092 mm): PTH pad 1 [E01_SIG_A] of J1
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(25.5592 mm, 37.4908 mm): Pad 2 [E01_RET_B] of J2 on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(25.5592 mm, 42.5092 mm): Pad 2 [E01_RET_A] of J1 on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.7356 mm, 42.4068 mm): Polygon [E01_Q3] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(35.2491 mm, 31.6124 mm): Polygon [E01_RET_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 42.5092 mm): PTH pad 1 [E01_SIG_A] of J1
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(25.5592 mm, 37.4908 mm): Pad 2 [E01_RET_B] of J2 on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.7356 mm, 42.4068 mm): Polygon [E01_Q3] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(22.1335 mm, 39.1725 mm): Polygon [E01_SIG_B] on F.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(14.8312 mm, 42.0225 mm): Polygon [E01_SIG_B] on F.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 42.5092 mm): PTH pad 1 [E01_SIG_A] of J1
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(25.5592 mm, 42.5092 mm): Pad 2 [E01_RET_A] of J1 on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.7356 mm, 42.4068 mm): Polygon [E01_Q3] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(22.1335 mm, 39.1725 mm): Polygon [E01_SIG_B] on F.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(14.8312 mm, 42.0225 mm): Polygon [E01_SIG_B] on F.Cu
+[solder_mask_bridge]: A abertura da máscara de solda da frente conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on F.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 42.5092 mm): PTH pad 1 [E01_SIG_A] of J1
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(25.5592 mm, 42.5092 mm): Pad 2 [E01_RET_A] of J1 on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.7356 mm, 42.4068 mm): Polygon [E01_Q3] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(25.5592 mm, 42.5092 mm): Pad 2 [E01_RET_A] of J1 on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.7356 mm, 42.4068 mm): Polygon [E01_Q3] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.7356 mm, 42.4068 mm): Polygon [E01_Q3] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(21.2526 mm, 40.7474 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(22.7474 mm, 39.2526 mm): Via [E01_SIG_B] on F.Cu - B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(20.6386 mm, 40.6673 mm): Polygon [E01_SIG_B] on B.Cu
+[solder_mask_bridge]: A abertura da máscara de solda de trás conecta itens com redes diferentes
+    Rule: configuração da placa, largura mínima da máscara de solda; warning
+    @(8.0938 mm, 53.9062 mm): Polygon on B.Mask
+    @(24.5092 mm, 37.4908 mm): PTH pad 1 [E01_SIG_B] of J2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
