@@ -12,3 +12,9 @@ As unidades dos geradores mecânicos são milímetros. O eixo X aponta da base p
 [Mecânica completa e comprimentos](../../freecad/mecanica_R02/README.md) · [Modelo integrado HFSS](../../hfss/antenas/P1H_R02.aedt) · [Cotação](../../resultados/r02/cotacao.md)
 
 [Ensaio da rede nas 17 frequências](../../resultados/r02/rede/README.md) · [Verificação independente das conexões](verificar_rede.py)
+
+## Controle com dez radiadores individuais
+
+A [R02-S](../../hfss/antenas/P1H_R02_10Separadas.aedt) compara as PCBs fabricáveis na mesma montagem externa. A coluna contínua vira dez núcleos RO4350B de 28,3125 × 28,3125 × 0,76 mm. As posições das soldas, o cobre de cada elemento, o refletor único, ambas as redes, os conectores e os 26 cabos vêm da R02. As cinco posições de berço recebem duas guias laterais em POM com bolsões e batentes. As guias retêm as dez PCBs na altura original. A diferença de resultado inclui as guias e o laminado retirado entre os elementos. Esta configuração constitui um controle de RF com montagem nominal. Os arquivos de fabricação e a cotação principal se referem à alternativa contínua.
+
+Para reproduzir, definir `P1H_R02_CAD` como os STEP por material da R02 e `P1H_R01` como outra pasta, destinada apenas ao controle. Executar [separar_radiadores.py](separar_radiadores.py) no Python do FreeCAD com essas variáveis. Ele verifica os dez sólidos do laminado e a ausência de penetração das guias nas placas. Criar `estudo` na pasta de destino, definir `P1H_NOME=P1H_R02_10Separadas` e executar os mesmos scripts nativos de modelagem e solução. Para a campanha de bancada com um único painel pesado por vez, a R02 e a R02-S têm bases FEM de ordem zero (`P1H_ORDEM=0`) e alvo de ΔS de 0,015. A referência R01 usa a ordem mista (`P1H_ORDEM=-1`). Avaliar também a estabilidade de ganho e abertura e os avisos de solução ao qualificar os resultados.

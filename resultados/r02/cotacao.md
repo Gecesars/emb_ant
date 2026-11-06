@@ -11,6 +11,8 @@ Cotação instantânea de 6 de novembro de 2026 pelo configurador da JLCPCB na e
 
 São **R$ 364,56 de PCBs por conjunto**. A R01 com divisor único custou R$ 1.192,14 por cinco conjuntos. A segunda placa acrescenta R$ 630,65 por cinco, ou R$ 126,13 por conjunto. Prazo de fabricação indicado de 4 a 5 dias. Cada tela indicou DHL Express por R$ 221,61 e trânsito de 4 a 6 dias úteis. O total acima considera somente fabricação das PCBs. Frete consolidado, tributos, coaxiais, montagem e ferragens dependem do pedido.
 
+Para cinco painéis com dez radiadores individuais, a cotação de 50 PCBs de antena foi de R$ 701,53. Com os mesmos divisores inferior e superior, são R$ 1.868,68 em PCBs, R$ 45,89 acima de cinco conjuntos com a coluna contínua. [Cotação de 10 e 50 radiadores individuais](../../fabricacao/cotacao/Cotacao_JLCPCB.md)
+
 Duas camadas, cobre externo de 1 oz, ENIG de 1 µin e categoria Industrial/Consumer electronics. O PTFE escolhido exibe Dk 2,94 e Df 0,0016. [Comprovante inferior](JLC_Inferior.jpg) · [Comprovante superior](JLC_Superior.jpg) · [Comprovante da placa contínua](../r01/cotacao_jlc_continua.jpg)
 
 | Gerber enviado | SHA-256 |

@@ -42,9 +42,11 @@ try:
     setup = design.GetModule("AnalysisSetup")
     assert len(solutions.GetAllSources()) == 2
     if os.environ.get("P1H_ITERATIVO") == "1":
+        order=int(os.environ.get("P1H_ORDEM","-1"))
+        assert order in (-1,0,1)
         setup.EditSetup("Banda", ["NAME:Banda", "SolveType:=", "Single", "Frequency:=", "5.17GHz",
             "MaxDeltaS:=", .015, "MaximumPasses:=", 15, "MinimumPasses:=", 3, "MinimumConvergedPasses:=", 2,
-            "PercentRefinement:=", 15, "BasisOrder:=", -1, "DrivenSolverType:=", "Iterative Solver",
+            "PercentRefinement:=", 15, "BasisOrder:=", order, "DrivenSolverType:=", "Iterative Solver",
             "IterativeResidual:=", .00001, "SaveAnyFields:=", True, "SaveRadFieldsOnly:=", False])
         project.Save()
     assert design.ValidateDesign() == 1
