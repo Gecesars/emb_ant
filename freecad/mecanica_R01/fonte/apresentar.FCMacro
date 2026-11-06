@@ -1,0 +1,46 @@
+# Executar em uma instância gráfica isolada, com P1H_MEC_DIR definido.
+import os,json,traceback
+from pathlib import Path
+from PySide import QtCore
+import FreeCAD as App, FreeCADGui as Gui
+base=Path(os.environ["P1H_MEC_DIR"])
+def run():
+    original=set(App.listDocuments())
+    try:
+        for flag in ("apresentacao.erro","apresentacao.ok"):
+            marker=base/"fonte"/flag
+            if marker.exists():marker.unlink()
+        colors=json.loads((base/"fonte/cores.json").read_text())
+        for file,tip in [("01_Refletor_dobrado","Refletor_dobrado"),("02_Refletor_planificado","Chapa_plana"),("03_Antena_montada",None)]:
+            d=App.openDocument(str(base/(file+".FCStd")))
+            if d.Name in original:raise RuntimeError("Documento já aberto nesta sessão")
+            for obj in d.Objects:
+                v=obj.ViewObject
+                if not hasattr(v,"ShapeColor"):continue
+                v.Visibility=(tip is None or obj.Name==tip)
+                if v.Visibility:
+                    v.ShapeColor=tuple(colors.get(obj.Name,[.75,.78,.82]))
+                    v.LineColor=(.17,.20,.23);v.LineWidth=.7
+                    if obj.Name.startswith("UT141_"):v.DisplayMode="Flat Lines"
+            d.recompute()
+            gv=Gui.activeDocument().activeView()
+            if file.startswith("02"):gv.viewTop()
+            else:gv.viewAxonometric()
+            if tip is None:
+                for label,eye in [("Frente",App.Vector(-.19,-.55,.94)),("Verso",App.Vector(-.23,.76,-.93))]:
+                    normal=eye.normalize();right=App.Vector(1,0,0);up=normal.cross(right)
+                    gv.setCameraOrientation(App.Rotation(right,up,normal,"ZXY"))
+                    gv.fitAll()
+                    for _ in range(3):gv.zoomIn()
+                    Gui.updateGui()
+                    gv.saveImage(str(base/("07_"+label+".png")),1800,760,"White")
+                gv.setCameraOrientation(App.Rotation(App.Vector(1,0,0),App.Vector(0,1,0),App.Vector(-.19,-.55,.94),"ZXY"))
+            gv.fitAll();Gui.updateGui();d.save()
+            App.closeDocument(d.Name)
+        (base/"fonte"/"apresentacao.ok").write_text("OK",encoding="utf8")
+    except Exception:
+        (base/"fonte"/"apresentacao.erro").write_text(traceback.format_exc(),encoding="utf8")
+    finally:
+        for docname in set(App.listDocuments())-original:App.closeDocument(docname)
+        if not original:Gui.getMainWindow().close()
+QtCore.QTimer.singleShot(300,run)

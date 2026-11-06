@@ -1,0 +1,109 @@
+{
+  "cabos": {
+    "IN_A": {
+      "eixo_mm": 306.6389,
+      "traseira_z_mm": -40.3005
+    },
+    "IN_B": {
+      "eixo_mm": 306.6389,
+      "traseira_z_mm": -40.3005
+    },
+    "B10": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -15.0063
+    },
+    "A1": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -15.0063
+    },
+    "A10": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -15.2469
+    },
+    "B1": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -15.2469
+    },
+    "A9": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -41.1475
+    },
+    "B2": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -37.8989
+    },
+    "B9": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -41.462
+    },
+    "A2": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -41.462
+    },
+    "B8": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -63.6648
+    },
+    "A3": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -63.6648
+    },
+    "A8": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -65.1182
+    },
+    "B3": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -65.1182
+    },
+    "B4": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -88.7679
+    },
+    "A7": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -88.7679
+    },
+    "A4": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -91.1321
+    },
+    "B7": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -91.1321
+    },
+    "A5": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -105.9564
+    },
+    "B6": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -105.9564
+    },
+    "A6": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -113.4715
+    },
+    "B5": {
+      "eixo_mm": 254.0,
+      "traseira_z_mm": -113.4715
+    }
+  },
+  "volume_dobrado_mm3": 61867.664614572604,
+  "largura_face_mm": 36,
+  "passagens_duplas": 10,
+  "parafusos": 18,
+  "interferencias_cabos_com_chapa_bercos_trilhos_e_entre_si": [],
+  "volume_planificado_mm3": 61255.682366,
+  "dxf_contornos_fechados": 31,
+  "dxf_unidade": "mm",
+  "BA_90_mm": 4.39823,
+  "planificado_limites_X": [
+    -327.3982297150257,
+    258.0
+  ],
+  "modelo_dobrado_limites_X": [
+    -275.0,
+    258.0
+  ]
+}
