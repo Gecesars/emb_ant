@@ -57,16 +57,24 @@ function Painel([string]$Pasta,[string]$Nome,[string]$Identificador) {
 }
 
 Registrar 'Aguardando a solução anterior. Uma rede ou painel grande por vez.'
-AguardarAedt $AguardarCupons
-ExecutarAedt "$PSScriptRoot/cupons_hfss.py" "$estudo/cupons_refinamento.log"
-& py -3.12 "$PSScriptRoot/extrair_cupons.py" $estudo
 AguardarAedt $AguardarPainel
 PublicarMetricas "$DiretorioP1H/R01_Flex/estudo" 'r01'
 Rede 'ZYF300CA-C'
 Rede 'ZYF255DA'
+AguardarAedt $AguardarCupons
+ExecutarAedt "$PSScriptRoot/cupons_hfss.py" "$estudo/cupons_refinamento.log"
+& py -3.12 "$PSScriptRoot/extrair_cupons.py" $estudo
 Painel "$estudo/painel_C" 'P1H_R03_Alongada' 'r03'
 Painel "$DiretorioP1H/R02_FEM" 'P1H_R02' 'r02'
 Painel "$DiretorioP1H/R02_Separadas" 'P1H_R02_10Separadas' 'r02_separadas'
 Rede 'ZYF265D'
 Rede 'ZYF300CA-P'
+if ((Get-Content "$DiretorioP1H/R01_Flex/estudo/solucao.log" -Tail 1) -ne 'FEM_OK') {
+    # Manter a ordem de base que gerou o ponto de centro convergido da R01.
+    $env:P1H_R01 = "$DiretorioP1H/R01_Flex"
+    $env:P1H_NOME = 'P1H_R01'
+    $env:P1H_ITERATIVO = '0'
+    ExecutarAedt "$repo/automacao/r01/resolver.py" "$env:P1H_R01/estudo/aedt_retomada.log"
+    PublicarMetricas "$env:P1H_R01/estudo" 'r01'
+}
 Registrar 'Fila terminada. Conferir convergência, exportações e relatório.'
