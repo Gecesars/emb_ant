@@ -1,0 +1,26 @@
+{
+  "L": {
+    "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\divisor.s18p",
+    "sha256": "2fecb980ba50307f7d1e613a6e0e28055ede15038039fc60728316d62c783a67"
+  },
+  "U": {
+    "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\divisor.s12p",
+    "sha256": "e6c4961bdb16449319ae2d23f801432a12128f29edbc757edb69fea1dd9cc3f6"
+  },
+  "ANT": {
+    "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\antena.s20p",
+    "sha256": "b40cb9fa78928cd570bda0421d426bea3251f189005f5890dd7368ada846b474"
+  },
+  "CONTROLE": {
+    "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Controle_fechado\\cupom.s2p",
+    "sha256": "b0a1b9ef91b3ba7396067a39d2530a44a39d991c12cec75940baae26e5131974"
+  },
+  "CA": {
+    "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+    "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+  },
+  "CB": {
+    "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+    "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+  }
+}

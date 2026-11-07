@@ -23,10 +23,15 @@ native=load(root/'circuito/verificacao_nexxim.json',{})
 divs=load(root/'circuito/divisores.json',{})
 mesh_check=load(root/'circuito/comparacao_malhas.json',{})
 fabrication=load(root/'fabricacao/verificacao.json',{})
+config=load(root/'configuracao_circuito.json',{})
+mechanics=load(root/'mecanica/rastreabilidade.json',{})
+input_mm,trunk_mm,branch_mm=config.get('comprimentos_mm',[290,132,133])
+def fmt(value,dec=2):return ('%.*f'%(dec,value)).replace('.',',')
 if not draft:
     assert result.get('criterios_numericos_atendidos') and conv.get('convergencia_aprovada')
     assert native.get('matriz_s_independente_conferida') and len(divs)==2
     assert mesh_check.get('estabilidade_local_aprovada') and fabrication
+    assert tuple(result['comprimentos_fisicos_mm'])==tuple(config['comprimentos_mm'])==tuple(mechanics['comprimentos_mm'])
 pdfmetrics.registerFont(TTFont('Arial','C:/Windows/Fonts/arial.ttf'))
 pdfmetrics.registerFont(TTFont('Arial-Bold','C:/Windows/Fonts/arialbd.ttf'))
 pdfmetrics.registerFontFamily('Arial',normal='Arial',bold='Arial-Bold')
@@ -93,7 +98,10 @@ table([['Bloco','Representação','Incluído'],
  ['Curto em DC','Cupom HFSS de duas portas','Duas espiras de fio de cobre, janela na blindagem e terminais locais.']],[38,54,86])
 add('A extração de cada distribuidora usa as outras portas terminadas em 50 Ω. No circuito final, essas cargas são substituídas pelas matrizes complexas das demais placas. O cálculo resolve as reflexões múltiplas e o acoplamento entre todas as portas; não soma apenas perdas em dB.')
 add('Os vinte campos embutidos da PCB são recombinados coerentemente com as amplitudes e fases calculadas pelo circuito. Cada campo foi exportado com 1 W incidente em uma porta e as demais casadas. A recomposição uniforme é conferida contra o diagrama exportado diretamente pelo HFSS.')
-table([['Percurso físico no CAD','Ajuste entre planos HFSS'],['Entrada: 290 mm','Com bobina: 282 mm até o cupom e −4,18 mm de deslocamento da saída até o plano da distribuidora.'],['Quatro enlaces: 132 mm','131,64 mm de linha ideal; os 0,18 mm de terminal em cada PCB já estão no HFSS.'],['Vinte ramais: 135 mm','133,82 mm de coaxial ideal + 0,965 mm de trecho em ar até a terminação da PCB.']],[63,115])
+table([['Percurso físico no CAD','Ajuste entre planos HFSS'],
+ [f'Entrada: {input_mm:g} mm',f'Com bobina: {fmt(input_mm-8,0)} mm até o cupom e −4,18 mm de deslocamento da saída até o plano da distribuidora.'],
+ [f'Quatro enlaces: {trunk_mm:g} mm',f'{fmt(trunk_mm-.36)} mm de linha ideal; os 0,18 mm de terminal em cada PCB já estão no HFSS.'],
+ [f'Vinte ramais: {branch_mm:g} mm',f'{fmt(branch_mm-1.18)} mm de coaxial ideal + 0,965 mm de trecho em ar até a terminação da PCB.']],[63,115])
 add('Velocidade de fase do coaxial: 1 / (50 × 95,2 pF/m). Comprimentos negativos representam deslocamento matemático de referência, não cabos físicos negativos. A entrada comum mantém a mesma fase entre polarizações.')
 add('A análise separada não inclui radiação ou acoplamento direto dos trajetos de cabo com o painel, nem acoplamento eletromagnético entre as distribuidoras e a antena. Essa delimitação segue o método solicitado. A montagem 3D mantém os cabos para fabricação.','caption')
 
@@ -169,9 +177,15 @@ table(rows,[71,47,60])
 page('Montagem e chicote')
 fig('montagem_frontal.png','Vista frontal: PCB contínua, cinco berços, dois batentes e refletor.',maxh=66)
 fig('montagem_traseira.png','Vista traseira: duas distribuidoras, dois N fêmea na base e 26 segmentos de cabo.',maxh=79)
-table([['Grupo','Quantidade','Comprimento ao eixo'],['Entrada N → distribuição central','2','290 mm'],['Divisão central → redes 1:5','4','132 mm'],['Distribuidoras → radiadores','20','135 mm'],['Total de coaxial no CAD','26','3.808 mm'],['Percurso por radiador','10 por polarização','557 mm']],[87,35,56])
+table([['Grupo','Quantidade','Comprimento ao eixo'],
+ ['Entrada N → distribuição central','2',f'{input_mm:g} mm'],
+ ['Divisão central → redes 1:5','4',f'{trunk_mm:g} mm'],
+ ['Distribuidoras → radiadores','20',f'{branch_mm:g} mm'],
+ ['Total de coaxial no CAD','26',fmt(mechanics.get('total_coax_mm',2*input_mm+4*trunk_mm+20*branch_mm),0)+' mm'],
+ ['Percurso por radiador','10 por polarização',fmt(input_mm+trunk_mm+branch_mm,0)+' mm']],[87,35,56])
 add('Os comprimentos da tabela são entre interfaces geométricas e não comprimentos brutos de corte. Compensar as inserções e decapagens da junta soldada na preparação do chicote. Os percursos equivalentes são mantidos iguais para preservar fase.')
-add('A revisão mecânica registra folga mínima de 1,25953 mm entre capas e ausência de interseções volumétricas dos cabos. O envelope traseiro atinge Z = −52,66358 mm. As curvas do CAD usam raio de 4,4 mm ao eixo.','caption')
+add(f"A revisão mecânica registra folga mínima de {fmt(mechanics.get('folga_minima_mm',.761075489),5)} mm entre capas e ausência de interseções volumétricas dos cabos. O envelope traseiro atinge Z = {fmt(mechanics.get('envelope_zmin_mm',-51.663580469),5)} mm, obtido do CAD sem depender da triangulação de visualização. As curvas usam raio de 4,4 mm ao eixo.",'caption')
+add('O ajuste dos vinte ramais de 135 para 133 mm preserva a igualdade dos caminhos. Com a primeira malha da PCB, o comprimento anterior produziu VSWR convencional de 1,531 na entrada B. A seleção usa as reflexões múltiplas do circuito; não altera as trilhas, os Gerbers nem a chapa. O aceite deste relatório usa a malha refinada e os comprimentos atualizados.','caption')
 
 page('Apoios, passagem de cabos e fixações')
 pair('suporte_pom_5mm.png','apoio_passagem.png',['Berço de poliacetal de 5 mm sustentando a PCB.','Passagens pelo refletor com proteção local.'],100)
@@ -204,7 +218,7 @@ add('Arquivos de fabricação preservados: Gerber_P1H_Coluna_10.zip, Gerber_R02_
 add('DRC repetido no KiCad 10.0.5 em 7/11: zero erros e zero itens desconectados nas três placas. A coluna apresenta 203 avisos de ponte de máscara devido às aberturas amplas sobre os radiadores RF; os divisores não apresentam avisos. Os avisos foram preservados no relatório DRC, sem alterar os Gerbers.','caption')
 
 page('Rastreabilidade e reprodução')
-table([['Conteúdo','Local no repositório / pacote'],['PCBs editáveis','kicad/P1H_Coluna_10, kicad/R02_Inferior e kicad/R02_Superior.'],['Gerbers','fabricacao/gerbers; mesmos pacotes da revisão R02, hashes conferidos.'],['Mecânica','freecad/mecanica_R05: montagem, chapa, planificação, desenhos, listas do chicote e verificações.'],['Simulação separada R06','hfss/antenas e hfss/alimentacao: nativos e fontes correspondentes, sem malhas no Git.'],['Circuito e evidências R06','resultados/r06: matrizes S, cortes, convergência, comparações e cotação.'],['Reprodução','automacao/r06: CAD separado, setup, extração de campos, circuito, auditoria, gráficos e relatório.']],[49,129])
+table([['Conteúdo','Local no repositório / pacote'],['PCBs editáveis','kicad/P1H_Coluna_10, kicad/R02_Inferior e kicad/R02_Superior.'],['Gerbers','fabricacao/gerbers; mesmos pacotes da revisão R02, hashes conferidos.'],['Mecânica','freecad/mecanica_R06: montagem, chapa, planificação, desenhos, listas do chicote e verificações. R05 permanece como histórico.'],['Simulação separada R06','hfss/antenas e hfss/alimentacao: nativos e fontes correspondentes, sem malhas no Git.'],['Circuito e evidências R06','resultados/r06: matrizes S, cortes, convergência, comparações e cotação.'],['Reprodução','automacao/r06: CAD separado, setup, extração de campos, circuito, auditoria, gráficos e relatório.']],[49,129])
 add('<b>Materiais:</b> RO4350B e ZYF300CA-C seguem os valores nominais declarados. O NiP usa 4,5 µm e 1,5 MS/m como hipótese nominal; ouro de 1 µin. POM e aço têm propriedades nominais, não certificados de lote. A relação entre o modelo e o stackup deve permanecer registrada na fabricação.')
 add('<b>Validação numérica:</b> convergência de S e campos, passividade/reciprocidade das matrizes, recomposição coerente dos campos, balanço de potência e comparação com Nexxim. Resultados da malha intermediária e tentativas descartadas não são usados para o aceite.')
 add('<b>Validação física ainda distinta:</b> a qualificação no centro da banda não substitui medição de ganho e diagrama, VSWR do conjunto real, inspeção da bobina nem ensaio de vedação. As perdas reais dos cabos foram excluídas por orientação do usuário.')

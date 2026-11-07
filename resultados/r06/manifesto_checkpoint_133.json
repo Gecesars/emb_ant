@@ -1,0 +1,803 @@
+{
+  "estado": "Checkpoint: RF preliminar com primeira malha; refinamento da PCB ainda ativo",
+  "artefatos": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\01_Refletor_dobrado.FCStd",
+      "arquivo": "freecad/mecanica_R06/01_Refletor_dobrado.FCStd",
+      "sha256": "9e63f3fbebd361c6f95c72ace6fb865e71485027b11ce5e1c1c46fab5391e238",
+      "bytes": 66770
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\01_Refletor_dobrado.step",
+      "arquivo": "freecad/mecanica_R06/01_Refletor_dobrado.step",
+      "sha256": "c7df5ab0b1ee31b518ad62436a534ba2cc35c172ac45653165630f4969cee3d8",
+      "bytes": 163579
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\02_Refletor_planificado.FCStd",
+      "arquivo": "freecad/mecanica_R06/02_Refletor_planificado.FCStd",
+      "sha256": "32dbf8dc0a9f389b4db939aff951dd44d118f9aa50c9dee41fcf3d289534e886",
+      "bytes": 20816
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\04_Refletor_CORTE_1a1.dxf",
+      "arquivo": "freecad/mecanica_R06/04_Refletor_CORTE_1a1.dxf",
+      "sha256": "b28c377410b3a6b3304b560dfc2fa2892f97679efdece64ffc0c82a7da3a7773",
+      "bytes": 26196
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\05_Refletor_marcacao_dobras.dxf",
+      "arquivo": "freecad/mecanica_R06/05_Refletor_marcacao_dobras.dxf",
+      "sha256": "e24126253d63820740111c8ac3781dd102f8720b8bc681d28512627f344a2003",
+      "bytes": 27226
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\06_Desenho_de_fabricacao_R06.pdf",
+      "arquivo": "freecad/mecanica_R06/06_Desenho_de_fabricacao_R06.pdf",
+      "sha256": "480be77df07cb20000117d2bdb84f72c83f61a355123845e0586572c1dbaf4a6",
+      "bytes": 114262
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\caminhos.json",
+      "arquivo": "freecad/mecanica_R06/caminhos.json",
+      "sha256": "12d9cf408fd438e3f47ec1da05e5a50561a73a0a2af5dfc951b675fc41cdcd4c",
+      "bytes": 22503
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\chicote_26_cabos.csv",
+      "arquivo": "freecad/mecanica_R06/chicote_26_cabos.csv",
+      "sha256": "4cae2c7aec4787af088911970c5aae48834d034588f9ef9ff8f29d79b7cebb14",
+      "bytes": 1472
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\chicote_ajustado.json",
+      "arquivo": "freecad/mecanica_R06/chicote_ajustado.json",
+      "sha256": "80150895030e5c53805fc3797b1692c348b520d0f387e081c24af1c31439500c",
+      "bytes": 305
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\comparacao_geometria.json",
+      "arquivo": "freecad/mecanica_R06/comparacao_geometria.json",
+      "sha256": "4c9e73d2cc5218eae8dc127246c676f0bd0df95d9b0a665c8c122f997fbc4efc",
+      "bytes": 24601
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\enlaces.json",
+      "arquivo": "freecad/mecanica_R06/enlaces.json",
+      "sha256": "0fce0e2d3de3fe9371d62038bec11595a6dc233e9cfbecba78164af354580fdd",
+      "bytes": 8902
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\frente.png",
+      "arquivo": "freecad/mecanica_R06/frente.png",
+      "sha256": "20f1795b7bbe9f3bd8409d1cd9eb1c0bf8e539d88b7423d6d56166b347fb0ad0",
+      "bytes": 35771
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\P1H_R06_compacta.FCStd",
+      "arquivo": "freecad/mecanica_R06/P1H_R06_compacta.FCStd",
+      "sha256": "9a5568afd43d5c94eaba0159f58781f118198dccf6b47271b0520a2f72726c5a",
+      "bytes": 1158004
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\rastreabilidade.json",
+      "arquivo": "freecad/mecanica_R06/rastreabilidade.json",
+      "sha256": "b6a83e38f51b7c079d2085ef43f5b43751fd324ef82f4cf0028aed94a0f012c9",
+      "bytes": 3704
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\README.md",
+      "arquivo": "freecad/mecanica_R06/README.md",
+      "sha256": "6d81b58fc01b83eb5f27683d3984d87b3c898799b64199d5ae9d73814fa6dd6f",
+      "bytes": 3226
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\traseira.png",
+      "arquivo": "freecad/mecanica_R06/traseira.png",
+      "sha256": "641f1fca826e4eeb692d539cd994d0ded48ce76a9db29abb178045da77bb89f2",
+      "bytes": 131866
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\verificacao_cad.json",
+      "arquivo": "freecad/mecanica_R06/verificacao_cad.json",
+      "sha256": "806a1e286fecc2479675f5b5478d25a3ba036efabcead89c5fa66f8f5a8f6e21",
+      "bytes": 1217
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\mecanica\\verificacao_chapa.json",
+      "arquivo": "freecad/mecanica_R06/verificacao_chapa.json",
+      "sha256": "5ed2b10bf41dd81ef2e29cd91b58bd3b3f4c91cf5791d13c6ed580f83dca6267",
+      "bytes": 942
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\apoio_passagem.png",
+      "arquivo": "resultados/r06/imagens/apoio_passagem.png",
+      "sha256": "f23cdad884864eb62319fdde759594977e7c32ef5987e8c2f1597e4afb3fdb62",
+      "bytes": 46169
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\base_conectores.png",
+      "arquivo": "resultados/r06/imagens/base_conectores.png",
+      "sha256": "d18af6ec7a19c9aad9c53957ea69d7ca0257de767f132a84d66083c2a7b5d9df",
+      "bytes": 34431
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\bobina_dc.png",
+      "arquivo": "resultados/r06/imagens/bobina_dc.png",
+      "sha256": "741aeab93226394cdbc5b2a48a1b630110ef332168bc48f64526f7f9daa50830",
+      "bytes": 50960
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\circuito_funcional.png",
+      "arquivo": "resultados/r06/imagens/circuito_funcional.png",
+      "sha256": "e0e27eed62769398e87d782ef367534a6ac3ee792532d6a6fdd7348e3e38963c",
+      "bytes": 149295
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\divisor_inferior_inferior.png",
+      "arquivo": "resultados/r06/imagens/divisor_inferior_inferior.png",
+      "sha256": "09cdc080473cbd8789357a4db8b195f3fe943a5a298573830c8e24f64218fcc8",
+      "bytes": 17197
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\divisor_inferior_superior.png",
+      "arquivo": "resultados/r06/imagens/divisor_inferior_superior.png",
+      "sha256": "1d481a40801eda7b829fdf59da04aaa9c437f257bd364dcf977ad56cd6c3011a",
+      "bytes": 19609
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\divisor_superior_inferior.png",
+      "arquivo": "resultados/r06/imagens/divisor_superior_inferior.png",
+      "sha256": "3771368f7aad8bf7771ef6c603b69c7f1cec7342580733f99d5cb8f5a4a3b4a9",
+      "bytes": 13371
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\divisor_superior_superior.png",
+      "arquivo": "resultados/r06/imagens/divisor_superior_superior.png",
+      "sha256": "f8b436fa57ede297d00928118c445e14686e5ee822b0b14280f7bd343f974d72",
+      "bytes": 15761
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\elemento_inferior.png",
+      "arquivo": "resultados/r06/imagens/elemento_inferior.png",
+      "sha256": "e8931751a46f9318638d507cb9a47a041503cb17ab67890cb74b4a3b8152d32a",
+      "bytes": 25618
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\elemento_superior.png",
+      "arquivo": "resultados/r06/imagens/elemento_superior.png",
+      "sha256": "9359836e268b32f8eb7faa435e423c8f99c457d941e5e4f60d15ef5ddc3419fb",
+      "bytes": 13480
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\envelopes_cabos.json",
+      "arquivo": "resultados/r06/imagens/envelopes_cabos.json",
+      "sha256": "f2d6986cf07807db8d98e40ce5fd91dbf3ecf17085f3aa76e0c36001a4bc4ae1",
+      "bytes": 871
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\fixacao_divisor.png",
+      "arquivo": "resultados/r06/imagens/fixacao_divisor.png",
+      "sha256": "fb1c7348c61ce2d2b1c68f45ffedb716bd10e54361c2af0e534ef16fac51594e",
+      "bytes": 131431
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\manifesto_montagem.json",
+      "arquivo": "resultados/r06/imagens/manifesto_montagem.json",
+      "sha256": "4c9e73d2cc5218eae8dc127246c676f0bd0df95d9b0a665c8c122f997fbc4efc",
+      "bytes": 24601
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\montagem_frontal.png",
+      "arquivo": "resultados/r06/imagens/montagem_frontal.png",
+      "sha256": "20f1795b7bbe9f3bd8409d1cd9eb1c0bf8e539d88b7423d6d56166b347fb0ad0",
+      "bytes": 35771
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\montagem_traseira.png",
+      "arquivo": "resultados/r06/imagens/montagem_traseira.png",
+      "sha256": "641f1fca826e4eeb692d539cd994d0ded48ce76a9db29abb178045da77bb89f2",
+      "bytes": 131866
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\pcb_continua_inferior.png",
+      "arquivo": "resultados/r06/imagens/pcb_continua_inferior.png",
+      "sha256": "374e4cf873642448c87e9f05895ad5d42a60db8a53de6cf9b8fd1b11920793f6",
+      "bytes": 10751
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\pcb_continua_superior.png",
+      "arquivo": "resultados/r06/imagens/pcb_continua_superior.png",
+      "sha256": "7e0cdf05618e2aa3c863f107f019d04cdaa468b98c6007e4ea08682d6a41e922",
+      "bytes": 4719
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\refletor_dobrado.png",
+      "arquivo": "resultados/r06/imagens/refletor_dobrado.png",
+      "sha256": "18c04546d3a07393a368737b7e29c9c2693342407f7969b3d97fb80d1b5cd2d2",
+      "bytes": 17172
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\refletor_planificado.png",
+      "arquivo": "resultados/r06/imagens/refletor_planificado.png",
+      "sha256": "6369b420859d6dac25e1811a22666ed0942e9720ebe387448ba4e1bfe5168e70",
+      "bytes": 12311
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\suporte_pom_5mm.png",
+      "arquivo": "resultados/r06/imagens/suporte_pom_5mm.png",
+      "sha256": "d294d2f9d1ea78a6844c0186f7249ac91ba8a87ed9c5b115e5571702d79b3917",
+      "bytes": 18809
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\Divisor_inferior.aedt",
+      "arquivo": "hfss/alimentacao/r06/Divisor_inferior.aedt",
+      "sha256": "7a08592c4e19d78ccb789810092e544732b15adf801f852cb83446cd8928e79a",
+      "bytes": 3929968
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\divisor.s18p",
+      "arquivo": "resultados/r06/divisor_inferior/divisor.s18p",
+      "sha256": "2fecb980ba50307f7d1e613a6e0e28055ede15038039fc60728316d62c783a67",
+      "bytes": 298572
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\convergencia.txt",
+      "arquivo": "resultados/r06/divisor_inferior/convergencia.txt",
+      "sha256": "37c2a3a5371d19ab4b002591344292b1f6da9b36fc94fc3c64684c69f201d700",
+      "bytes": 766
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\malha.json",
+      "arquivo": "resultados/r06/divisor_inferior/malha.json",
+      "sha256": "90dfea584d05ecf0701bde5bb7767b86a8adf5655e57344bcb9702bf4cf7c1ab",
+      "bytes": 17313
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\Divisor_superior.aedt",
+      "arquivo": "hfss/alimentacao/r06/Divisor_superior.aedt",
+      "sha256": "9004f499de8f2ebb47b7e7cfd187f80e750ace0b93e33d3ce428a98c58908d75",
+      "bytes": 2778622
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\divisor.s12p",
+      "arquivo": "resultados/r06/divisor_superior/divisor.s12p",
+      "sha256": "e6c4961bdb16449319ae2d23f801432a12128f29edbc757edb69fea1dd9cc3f6",
+      "bytes": 132160
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\convergencia.txt",
+      "arquivo": "resultados/r06/divisor_superior/convergencia.txt",
+      "sha256": "5754ef3d6a10ded714019adfa56825828c4028a12c9dbc02d5c8dffe3f446a97",
+      "bytes": 767
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\malha.json",
+      "arquivo": "resultados/r06/divisor_superior/malha.json",
+      "sha256": "9a706460b12bb7917892092267824c94ab175c53174dd971489689e354550aa3",
+      "bytes": 11402
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito\\divisores.json",
+      "arquivo": "resultados/r06/circuito/divisores.json",
+      "sha256": "c25464ea296d91838c2bcf2a536c4a9a6de4debf953136bd47287666934b8e05",
+      "bytes": 1605
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito\\divisores_cargas50.csv",
+      "arquivo": "resultados/r06/circuito/divisores_cargas50.csv",
+      "sha256": "88aae1fa08584eca562f08302c03b9408c01c5cf3543acf11be330c685c7d1f8",
+      "bytes": 7174
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\resultado.json",
+      "arquivo": "resultados/r06/preliminar_133/resultado.json",
+      "sha256": "2a5c11438d90f73c8e317bc59179169905e8eab5e949df3dd7c33c1026cd792c",
+      "bytes": 1905
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\verificacao_nexxim.json",
+      "arquivo": "resultados/r06/preliminar_133/verificacao_nexxim.json",
+      "sha256": "05b04236846df97ed23bef46740dc92c70131f177c935ce29e77eafd88fd264a",
+      "bytes": 166
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\nexxim.s2p",
+      "arquivo": "resultados/r06/preliminar_133/nexxim.s2p",
+      "sha256": "0aacaf998574945a97ba54c255662f0a12d08e458471d407c0ea316f78830981",
+      "bytes": 363
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\comparacao_comprimentos.json",
+      "arquivo": "resultados/r06/preliminar_133/comparacao_comprimentos.json",
+      "sha256": "3f3ded88564fce6a04734897651131a56a7db906a4253105ba7f2617b72a4aa0",
+      "bytes": 3319
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\fontes.json",
+      "arquivo": "resultados/r06/preliminar_133/fontes.json",
+      "sha256": "468644dc6c186e0aed3a1b6647644eff9b7b68f085010725f950cc8baf28ed1a",
+      "bytes": 1135
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\pinos_circuito.json",
+      "arquivo": "resultados/r06/preliminar_133/pinos_circuito.json",
+      "sha256": "87e9170d0c57ad115861462569176cbd9fa29faf38d14b59cda3622b6421dc7e",
+      "bytes": 770
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\manifesto.json",
+      "arquivo": "resultados/r06/preliminar_133/componentes/manifesto.json",
+      "sha256": "78fa5f8d9e411e6747607cde9d614f360979e06e7a1f68ab2fcdb3691a2d2ec3",
+      "bytes": 3407
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\painel.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/painel.s2p",
+      "sha256": "67f3cc18b6b022f1076d3070af2caccc73ba3ce0a8f78f3ea42a6a7838a535be",
+      "bytes": 335
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\R06_ANT.s20p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/R06_ANT.s20p",
+      "sha256": "e801603aeeac6bcb1fad7800505b197c55decf100e1bb65ac3c7bb8b7eb7244e",
+      "bytes": 22879
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\R06_CA.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/R06_CA.s2p",
+      "sha256": "5b25f6807731d3243c9ba3404998f2fe0e651b810e8a66b39b9d04771b0e9626",
+      "bytes": 343
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\R06_CB.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/R06_CB.s2p",
+      "sha256": "5b25f6807731d3243c9ba3404998f2fe0e651b810e8a66b39b9d04771b0e9626",
+      "bytes": 343
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\R06_L.s18p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/R06_L.s18p",
+      "sha256": "f1be3de5d32a21b42724b3dff4d97cfe34f32f129986e231fb811060074e2a25",
+      "bytes": 18642
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\R06_U.s12p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/R06_U.s12p",
+      "sha256": "6c6e95b364376cebf8d16dc184445cf3619124545a3deeb30ed408c390c5ba0e",
+      "bytes": 8054
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL00.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL00.s2p",
+      "sha256": "1cb0fa06e85bbab64f5157d07f599b23d29f5cf475bc8032be7d80196bb81885",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL01.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL01.s2p",
+      "sha256": "1cb0fa06e85bbab64f5157d07f599b23d29f5cf475bc8032be7d80196bb81885",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL02.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL02.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL03.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL03.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL04.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL04.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL05.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL05.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL06.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL06.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL07.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL07.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL08.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL08.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL09.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL09.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL10.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL10.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL11.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL11.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL12.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL12.s2p",
+      "sha256": "4782f92521abd38d2c4706e0e1a34d8ecd87bc05372e44be85c69279be3c2a40",
+      "bytes": 261
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL13.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL13.s2p",
+      "sha256": "1cb0fa06e85bbab64f5157d07f599b23d29f5cf475bc8032be7d80196bb81885",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL14.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL14.s2p",
+      "sha256": "1cb0fa06e85bbab64f5157d07f599b23d29f5cf475bc8032be7d80196bb81885",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL15.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL15.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL16.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL16.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL17.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL17.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL18.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL18.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL19.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL19.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL20.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL20.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL21.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL21.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL22.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL22.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL23.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL23.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL24.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL24.s2p",
+      "sha256": "79a9071349c17995dfd8145b6d121af29d2a25ddf3664e13d347aedda089357a",
+      "bytes": 265
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL25.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL25.s2p",
+      "sha256": "4782f92521abd38d2c4706e0e1a34d8ecd87bc05372e44be85c69279be3c2a40",
+      "bytes": 261
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito_preliminar_133\\componentes\\TL_IN.s2p",
+      "arquivo": "resultados/r06/preliminar_133/componentes/TL_IN.s2p",
+      "sha256": "db92985b423da119636f0af91ffc186fbcd31d00ae88b86cd17fdc0d7ae8c8bf",
+      "bytes": 261
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E01_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E01_A_H.csv",
+      "sha256": "c05211bca1b103ac00b955b072cbf4c7261428511afce541a732adecc76b5edf",
+      "bytes": 148295
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E01_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E01_A_V.csv",
+      "sha256": "7e92726ea2353d83376465f09e16269c1fa41afc58e71a4fe47911f7f88674e2",
+      "bytes": 145879
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E01_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E01_B_H.csv",
+      "sha256": "110371b74b54ddcdba07ccf7946b7b9767e4db6e9dad9077edbe62e9a6573b0c",
+      "bytes": 147769
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E01_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E01_B_V.csv",
+      "sha256": "75278ccac0c2e549d37801a89508ebab69bac53978578323af9ddf4d930e13e9",
+      "bytes": 145730
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E02_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E02_A_H.csv",
+      "sha256": "9e7aa68dded7c3438b3b51d3b34bf995413c71fc5dcceaa6df942a88b65a2f5d",
+      "bytes": 148358
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E02_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E02_A_V.csv",
+      "sha256": "a6b6f8c5139058b7ee14db84593fff4175dc72848edc772110c391cdcf5c0684",
+      "bytes": 145577
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E02_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E02_B_H.csv",
+      "sha256": "279704a18c1377b620ab0575b965c73f563c05d61f655d8ca108e9b0506ff7ab",
+      "bytes": 147644
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E02_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E02_B_V.csv",
+      "sha256": "eea3015196cbe9a7453c61d5166ad319091a9d6fdb682b88207e5c5407649233",
+      "bytes": 145556
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E03_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E03_A_H.csv",
+      "sha256": "bb92bdf5320f598c96564565641bad4978230039a2f415bcfe544552826a5b9b",
+      "bytes": 148679
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E03_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E03_A_V.csv",
+      "sha256": "29929fc12ebbff9329aff038a2005ed3dac08738fff6760a3909b63b81c3d25d",
+      "bytes": 145613
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E03_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E03_B_H.csv",
+      "sha256": "7b0969ed67c1954f47232cee3c1e7ff13940082214d7fd8f31f800c18b23b198",
+      "bytes": 147279
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E03_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E03_B_V.csv",
+      "sha256": "6fb2d90fd6fbcda56fdfff9c18ee4e0bfabf7cd7fbb1d518e99f6650e9d945c3",
+      "bytes": 145844
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E04_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E04_A_H.csv",
+      "sha256": "9de3f0431809a5de6754d8a708b7e671991354f9c304556832162ddd74c9e653",
+      "bytes": 148640
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E04_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E04_A_V.csv",
+      "sha256": "aadf4967c89940f0da2fe858d1fa8636c6878f7dbda64d94d1bcd9b682af2cab",
+      "bytes": 145297
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E04_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E04_B_H.csv",
+      "sha256": "76c0179dcdd9b97f0471c00b0034860c52b70c55e36e6582ddbb9183752093f5",
+      "bytes": 147456
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E04_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E04_B_V.csv",
+      "sha256": "d297acb70d2a40e283770cb890642abaa8fdbe8de847297229c64aedbe4fef32",
+      "bytes": 145406
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E05_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E05_A_H.csv",
+      "sha256": "9223a20c09d48115d2c80d4835b0d93f2e24781aabba6d3fd4d45462c7748feb",
+      "bytes": 148428
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E05_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E05_A_V.csv",
+      "sha256": "b52247263a7a7df4b8ecd034cc5cf30aa7fec30dae7b9a3032229dd7d4d5959b",
+      "bytes": 145956
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E05_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E05_B_H.csv",
+      "sha256": "6762507517331c93505dce18b470da970b6c6a14757b7500f5dcc5385594ebbe",
+      "bytes": 147323
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E05_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E05_B_V.csv",
+      "sha256": "ae0eb0a3e39f34a3db8ce55d2423e4b6bf5228a8a247321de14645b732400737",
+      "bytes": 145814
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E06_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E06_A_H.csv",
+      "sha256": "0ca7aa73027b1ad829cf2c778642280a50d0095c1b4fe663c29c1fef58511181",
+      "bytes": 148490
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E06_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E06_A_V.csv",
+      "sha256": "9d8af67a8f8700aee75bc9b0d4f6cf8ebd194dbc5685dc2e06779af3bb72eb21",
+      "bytes": 146069
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E06_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E06_B_H.csv",
+      "sha256": "6e94228e8313cf96eabd79504a4634ee69d78294a03ffd3530a15d78608283af",
+      "bytes": 147705
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E06_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E06_B_V.csv",
+      "sha256": "b8da548511142d7ccbe77d4d7828cdf052265a18a4c79b7198ad6037bb5b7640",
+      "bytes": 145934
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E07_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E07_A_H.csv",
+      "sha256": "0b83074b2f70237fceea515b9ad4386cd7efdcdec0f75981d758b3fb76c5e592",
+      "bytes": 148708
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E07_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E07_A_V.csv",
+      "sha256": "91ffb4252e013c83ab6145b13e9cabd570f5721bd191114af1249a271c0601ce",
+      "bytes": 145470
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E07_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E07_B_H.csv",
+      "sha256": "48ae4bf1b88ae4bede5f9617cd2a58d014835929f6db8f331513bf6d741664f9",
+      "bytes": 147195
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E07_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E07_B_V.csv",
+      "sha256": "311d97b321d753904576bbbac62b8905d066333703b3e73807bd97ee4b7ad90e",
+      "bytes": 145403
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E08_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E08_A_H.csv",
+      "sha256": "8e1c992a899da25e796bc60e6464a14f4041411dd71e383e41f5d267fd477837",
+      "bytes": 148528
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E08_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E08_A_V.csv",
+      "sha256": "7d1e7789767d4a5638bd89f5d8e2951e1665cab9be1e47f27b5df937e1e7aa54",
+      "bytes": 145677
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E08_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E08_B_H.csv",
+      "sha256": "f7105a7eb81b153572c649e3570cae6c036ea17cb82954c5fdb4677a556f8e5e",
+      "bytes": 147349
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E08_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E08_B_V.csv",
+      "sha256": "26986dee4fccb3ba117e77c4210fe15dec371c0e0cf9eb2671cf8256233cb06b",
+      "bytes": 145883
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E09_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E09_A_H.csv",
+      "sha256": "6b50fc32db12d94c4f34cb016c8e491c917661b8d9e76d503522a84f5c79cfcc",
+      "bytes": 148605
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E09_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E09_A_V.csv",
+      "sha256": "0d658b9d0ce9bb63ee2b8fc697509bda8ecd0fa24194dd99cab2ebd3ec7525de",
+      "bytes": 145636
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E09_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E09_B_H.csv",
+      "sha256": "659cccd45a1357f789d4b561292df399aad15f16065b66565f6178ccc99d169d",
+      "bytes": 147704
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E09_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E09_B_V.csv",
+      "sha256": "a2d81a2cb04a79e94940079186504146a26a67a48e2fab542ba07bf6fead1ead",
+      "bytes": 145563
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E10_A_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E10_A_H.csv",
+      "sha256": "3abfdfc7c80236705fdfff5039deb65b3a3f8144362ef4f0b4821916662783bd",
+      "bytes": 148485
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E10_A_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E10_A_V.csv",
+      "sha256": "603aaaed80cee0836beea171be771257a23f98a56b17510b218457088bdee292",
+      "bytes": 145859
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E10_B_H.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E10_B_H.csv",
+      "sha256": "5a450a186302213fbc65566e31fb1ac5f18975ae1ddd225e20fba39e6e2bfdba",
+      "bytes": 147732
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\padroes\\E10_B_V.csv",
+      "arquivo": "resultados/r06/antena_malha_inicial/padroes/E10_B_V.csv",
+      "sha256": "db04709b154d1a28effc77679e8740a0060d4380c4a2470bc4e6c003be9948d1",
+      "bytes": 145732
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "arquivo": "resultados/r06/cupons/Bobina_r090/cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8",
+      "bytes": 6687
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\convergencia.txt",
+      "arquivo": "resultados/r06/cupons/Bobina_r090/convergencia.txt",
+      "sha256": "f4a9e44f681f905226391a0f245b5556f14efeb2651fe23e0d9429a1b340567e",
+      "bytes": 624
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Controle_fechado\\cupom.s2p",
+      "arquivo": "resultados/r06/cupons/Controle_fechado/cupom.s2p",
+      "sha256": "b0a1b9ef91b3ba7396067a39d2530a44a39d991c12cec75940baae26e5131974",
+      "bytes": 6768
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Controle_fechado\\convergencia.txt",
+      "arquivo": "resultados/r06/cupons/Controle_fechado/convergencia.txt",
+      "sha256": "0cfe9fd25c176e4a5e16019a28720ac4f7a6c238c36805db2a39fd09764c27a8",
+      "bytes": 578
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\configuracao_circuito.json",
+      "arquivo": "resultados/r06/configuracao_circuito.json",
+      "sha256": "3e7bef15c27b53f7147cac0a669bc8f4b74137aca4e2650c1a2ff0ccaa975e8c",
+      "bytes": 482
+    }
+  ]
+}

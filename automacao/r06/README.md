@@ -15,3 +15,13 @@ O estudo de trabalho fica em `D:/dev/EMBRAER/P1H/R06_sem_cabos`. HFSS/AEDT 2024 
 Os cabos não são simulados junto à antena. Suas linhas ideais têm módulo unitário. N é uma interface ideal. As bobinas usam os cupons R05 já resolvidos; a comparação inclui o cupom bruto e a remoção simétrica da atenuação dos acessos, mantendo a fase. O resultado final é de **5,17 GHz**; a PCB não deve ser congelada para declarar ganho de banda.
 
 As malhas `.aedtresults`, `*.g3derr`, campos volumétricos e temporários ficam apenas no diretório de trabalho. O PDF final deve ser renderizado e revisado em todas as páginas antes da entrega.
+
+## Ajuste de fase e recuperação de 7/11
+
+`configuracao_circuito.json` define os comprimentos físicos `[entrada, enlace, ramal]`, em mm. A seleção atual é `[290, 132, 133]`; a configuração acompanha o pacote. `explorar_fase.py` varia as linhas ideais com matrizes de um ponto e não inicia nova simulação eletromagnética. Preservar a distinção entre seleção com a primeira malha e aceite com a refinada.
+
+`circuito.py` atribui os nomes das portas após construir cada `skrf.Network`, pois o argumento no construtor não os conserva nesta versão. O exportador reimporta as matrizes e confere nomes e números. `circuito_aedt.py --subdir circuito_preliminar_133` permite confrontar um candidato sem sobrescrever o circuito final.
+
+`retomar_divisor.py` foi usado após confirmar a falha de licença e o encerramento dos processos próprios. Abre o projeto salvo, preserva e exporta o centro e retoma a varredura; não altera a configuração global de licença. `qualificar.ps1 -AposBaseline` retoma depois de uma baseline preservada e exige ausência de refinamento já iniciado. Não usar para iniciar outro cálculo enquanto o pipeline atual estiver ativo.
+
+Na GUI FreeCAD, `atualizar_imagens.py` sincroniza apenas o clone visual próprio, compara os 275 objetos externos ao chicote e confere igualdade de todas as formas com o CAD selecionado. Os envelopes usam `optimalBoundingBox(False, False)` para não depender da triangulação de tela. `preparar_mecanica.py` copia nativos e chapa preservada para a pasta de trabalho `mecanica`, cria a lista dos 26 cabos e a rastreabilidade. `desenho_fabricacao.py` gera as três pranchas A3 com os comprimentos selecionados. R05 permanece como histórico.

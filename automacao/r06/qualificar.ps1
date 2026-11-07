@@ -1,4 +1,4 @@
-param([Parameter(Mandatory)][int]$AntenaId, [Parameter(Mandatory)][int]$FilaDivisoresId)
+param([Parameter(Mandatory)][int]$AntenaId, [Parameter(Mandatory)][int]$FilaDivisoresId, [switch]$AposBaseline)
 $ErrorActionPreference='Stop'
 $root='D:/dev/EMBRAER/P1H/R06_sem_cabos'
 $py='C:/Users/geral/AppData/Local/Programs/Python/Python312/python.exe'
@@ -31,6 +31,7 @@ function Auditar {
     if (-not $audit.convergencia_aprovada) { throw 'PCB sem dois passes de convergencia S/campo.' }
 }
 try {
+    if (-not $AposBaseline) {
     Estado 'aguardando_pcb_inicial' $AntenaId
     Esperar $AntenaId 'r06[/\\]pcb_hfss.py'
     Auditar
@@ -45,8 +46,12 @@ try {
     }
     Copy-Item -LiteralPath "$root/antena/padroes" -Destination $baseline -Recurse
     Python 'auditar_malha.py' @("$root/antena", "$baseline/malha.json")
+    } else {
+        if ((Get-ChildItem -LiteralPath "$root/antena_malha_inicial/padroes" -Filter '*.csv').Count -ne 40) { throw 'Baseline preservada incompleta.' }
+        if (Test-Path -LiteralPath "$root/antena/refinamento.log") { throw 'Refinamento ja iniciado; verificar antes de retomar.' }
+    }
     Estado 'aguardando_divisores_para_refinar' $FilaDivisoresId
-    Esperar $FilaDivisoresId 'r06[/\\]fila_divisores.ps1'
+    Esperar $FilaDivisoresId 'r06[/\\](fila_divisores.ps1|retomar_divisor.py)'
     Python 'analisar_divisores.py' @($root)
     Nativo 'refinar_pcb.py' 'refinamento_aedt.log'
     if ((Get-Content -LiteralPath "$root/antena/refinamento.log" -Tail 1) -ne 'REFINAMENTO_LOCAL_CONCLUIDO_VERIFICAR') { throw 'Refinamento HFSS incompleto.' }

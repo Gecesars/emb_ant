@@ -1,0 +1,199 @@
+{
+  "componentes": {
+    "L": "R06_L.s18p",
+    "U": "R06_U.s12p",
+    "ANT": "R06_ANT.s20p",
+    "CA": "R06_CA.s2p",
+    "CB": "R06_CB.s2p"
+  },
+  "conexoes": [
+    [
+      "L/RA1",
+      "L/A_IN",
+      131.64,
+      0
+    ],
+    [
+      "L/RA2",
+      "U/A_IN",
+      131.64,
+      0
+    ],
+    [
+      "L/A1",
+      "ANT/E01_A",
+      131.82,
+      0.965
+    ],
+    [
+      "L/A2",
+      "ANT/E02_A",
+      131.82,
+      0.965
+    ],
+    [
+      "L/A3",
+      "ANT/E03_A",
+      131.82,
+      0.965
+    ],
+    [
+      "L/A4",
+      "ANT/E04_A",
+      131.82,
+      0.965
+    ],
+    [
+      "L/A5",
+      "ANT/E05_A",
+      131.82,
+      0.965
+    ],
+    [
+      "U/A1",
+      "ANT/E06_A",
+      131.82,
+      0.965
+    ],
+    [
+      "U/A2",
+      "ANT/E07_A",
+      131.82,
+      0.965
+    ],
+    [
+      "U/A3",
+      "ANT/E08_A",
+      131.82,
+      0.965
+    ],
+    [
+      "U/A4",
+      "ANT/E09_A",
+      131.82,
+      0.965
+    ],
+    [
+      "U/A5",
+      "ANT/E10_A",
+      131.82,
+      0.965
+    ],
+    [
+      "CA/Saida",
+      "L/RA_IN",
+      -4.18,
+      0
+    ],
+    [
+      "L/RB1",
+      "L/B_IN",
+      131.64,
+      0
+    ],
+    [
+      "L/RB2",
+      "U/B_IN",
+      131.64,
+      0
+    ],
+    [
+      "L/B1",
+      "ANT/E01_B",
+      131.82,
+      0.965
+    ],
+    [
+      "L/B2",
+      "ANT/E02_B",
+      131.82,
+      0.965
+    ],
+    [
+      "L/B3",
+      "ANT/E03_B",
+      131.82,
+      0.965
+    ],
+    [
+      "L/B4",
+      "ANT/E04_B",
+      131.82,
+      0.965
+    ],
+    [
+      "L/B5",
+      "ANT/E05_B",
+      131.82,
+      0.965
+    ],
+    [
+      "U/B1",
+      "ANT/E06_B",
+      131.82,
+      0.965
+    ],
+    [
+      "U/B2",
+      "ANT/E07_B",
+      131.82,
+      0.965
+    ],
+    [
+      "U/B3",
+      "ANT/E08_B",
+      131.82,
+      0.965
+    ],
+    [
+      "U/B4",
+      "ANT/E09_B",
+      131.82,
+      0.965
+    ],
+    [
+      "U/B5",
+      "ANT/E10_B",
+      131.82,
+      0.965
+    ],
+    [
+      "CB/Saida",
+      "L/RB_IN",
+      -4.18,
+      0
+    ]
+  ],
+  "entradas": [
+    "CA/Entrada",
+    "CB/Entrada"
+  ],
+  "fontes": {
+    "L": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\divisor.s18p",
+      "sha256": "2fecb980ba50307f7d1e613a6e0e28055ede15038039fc60728316d62c783a67"
+    },
+    "U": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\divisor.s12p",
+      "sha256": "e6c4961bdb16449319ae2d23f801432a12128f29edbc757edb69fea1dd9cc3f6"
+    },
+    "ANT": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\antena.s20p",
+      "sha256": "b40cb9fa78928cd570bda0421d426bea3251f189005f5890dd7368ada846b474"
+    },
+    "CA": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    },
+    "CB": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    }
+  },
+  "comprimentos_fisicos_mm": [
+    290.0,
+    132.0,
+    133.0
+  ],
+  "nota": "Somente 5.17 GHz. Linhas sem atenuacao; plano de referencia corrigido para terminais HFSS."
+}

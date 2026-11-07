@@ -1,0 +1,96 @@
+{
+  "estado": "PRELIMINAR: primeira malha da PCB; verificacao refinada ainda em calculo",
+  "frequencia_Hz": 5170000000,
+  "selecionado": {
+    "frequencia_Hz": 5170000000.0,
+    "bobina": "corrigida",
+    "comprimentos_fisicos_mm": [
+      290.0,
+      132.0,
+      133.0
+    ],
+    "ganho_frontal_realizado_dBi": 17.34772292797517,
+    "abertura_H_graus": 95.2058571491358,
+    "abertura_V_graus": 5.619728064815054,
+    "VSWR_ativo_AB": [
+      1.2303303822238785,
+      1.1539065605330259
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      1.1964979237591942,
+      1.225985320777236
+    ],
+    "potencia_incidente_W": 0.9999999999999998,
+    "refletida_W": 0.007885420125886342,
+    "aceita_antena_W": 0.9496678246760407,
+    "perdas_blocos_W": {
+      "L": 0.030321831699702984,
+      "U": 0.01078474221203065,
+      "CA": 0.0006790676338747637,
+      "CB": 0.0006611136524645178
+    },
+    "perda_linhas_W": 0,
+    "excitacoes_antena_amplitude_pp_dB": 0.6936895330389632,
+    "excitacoes_antena_fase_pp_graus": 4.671215816810186,
+    "criterios_numericos_atendidos": true
+  },
+  "anterior_135mm": {
+    "frequencia_Hz": 5170000000.0,
+    "bobina": "corrigida",
+    "comprimentos_fisicos_mm": [
+      290.0,
+      132.0,
+      135.0
+    ],
+    "ganho_frontal_realizado_dBi": 17.38247708597714,
+    "abertura_H_graus": 95.1950779957492,
+    "abertura_V_graus": 5.645281378232649,
+    "VSWR_ativo_AB": [
+      1.0445560467058854,
+      1.1240890030396968
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      1.4501717849717461,
+      1.5309689176724643
+    ],
+    "potencia_incidente_W": 0.9999999999999998,
+    "refletida_W": 0.0019438977523964535,
+    "aceita_antena_W": 0.9558544842789758,
+    "perdas_blocos_W": {
+      "L": 0.030604135477960676,
+      "U": 0.01046010228848615,
+      "CA": 0.0005833031516175868,
+      "CB": 0.0005540770505632064
+    },
+    "perda_linhas_W": 0,
+    "excitacoes_antena_amplitude_pp_dB": 0.9708442648353284,
+    "excitacoes_antena_fase_pp_graus": 2.0752110935898935,
+    "criterios_numericos_atendidos": false
+  },
+  "fontes": {
+    "L": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\divisor.s18p",
+      "sha256": "2fecb980ba50307f7d1e613a6e0e28055ede15038039fc60728316d62c783a67"
+    },
+    "U": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\divisor.s12p",
+      "sha256": "e6c4961bdb16449319ae2d23f801432a12128f29edbc757edb69fea1dd9cc3f6"
+    },
+    "ANT": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_malha_inicial\\antena.s20p",
+      "sha256": "b40cb9fa78928cd570bda0421d426bea3251f189005f5890dd7368ada846b474"
+    },
+    "CONTROLE": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Controle_fechado\\cupom.s2p",
+      "sha256": "b0a1b9ef91b3ba7396067a39d2530a44a39d991c12cec75940baae26e5131974"
+    },
+    "CA": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    },
+    "CB": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    }
+  }
+}

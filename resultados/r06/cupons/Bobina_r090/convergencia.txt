@@ -1,0 +1,23 @@
+Setup : Cupom
+
+==================
+Number of Passes
+Completed : 6
+Maximum   : 14
+Minimum   : 3
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.008
+Current   : 0.002037
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|          13443|             N/A|
+          2|          16347|         0.19812|
+          3|          17745|        0.020269|
+          4|          17933|        0.011614|
+          5|          17944|        0.003806|
+          6|          19822|        0.002037|
+

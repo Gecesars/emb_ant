@@ -5,8 +5,9 @@ import numpy as np
 import skrf
 from ansys.aedt.core import Circuit
 
-parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('root',type=Path);args=parser.parse_args()
-folder=args.root/'circuito';data=folder/'componentes'
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('root',type=Path)
+parser.add_argument('--subdir',default='circuito');args=parser.parse_args()
+folder=args.root/args.subdir;data=folder/'componentes'
 manifest=json.loads((data/'manifesto.json').read_text())
 project=folder/'P1H_R06_Circuito.aedt'
 assert not project.exists(),'Preservar o circuito ja criado; usar outra pasta para nova tentativa.'

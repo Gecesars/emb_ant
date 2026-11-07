@@ -1,0 +1,84 @@
+{
+  "estado": "Geometria verificada; RF refinado pendente",
+  "comprimentos_mm": [
+    290,
+    132,
+    133
+  ],
+  "total_coax_mm": 3768.0,
+  "percurso_por_radiador_mm": 555,
+  "folga_minima_mm": 0.7610754889221973,
+  "envelope_zmin_mm": -51.66358046862277,
+  "fontes": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\Painel_R05.FCStd",
+      "arquivo": "P1H_R06_compacta.FCStd",
+      "sha256": "9a5568afd43d5c94eaba0159f58781f118198dccf6b47271b0520a2f72726c5a"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\freecad\\mecanica_R05\\01_Refletor_dobrado.FCStd",
+      "arquivo": "01_Refletor_dobrado.FCStd",
+      "sha256": "9e63f3fbebd361c6f95c72ace6fb865e71485027b11ce5e1c1c46fab5391e238"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\freecad\\mecanica_R05\\01_Refletor_dobrado.step",
+      "arquivo": "01_Refletor_dobrado.step",
+      "sha256": "c7df5ab0b1ee31b518ad62436a534ba2cc35c172ac45653165630f4969cee3d8"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\freecad\\mecanica_R05\\02_Refletor_planificado.FCStd",
+      "arquivo": "02_Refletor_planificado.FCStd",
+      "sha256": "32dbf8dc0a9f389b4db939aff951dd44d118f9aa50c9dee41fcf3d289534e886"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\freecad\\mecanica_R05\\04_Refletor_CORTE_1a1.dxf",
+      "arquivo": "04_Refletor_CORTE_1a1.dxf",
+      "sha256": "b28c377410b3a6b3304b560dfc2fa2892f97679efdece64ffc0c82a7da3a7773"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\freecad\\mecanica_R05\\05_Refletor_marcacao_dobras.dxf",
+      "arquivo": "05_Refletor_marcacao_dobras.dxf",
+      "sha256": "e24126253d63820740111c8ac3781dd102f8720b8bc681d28512627f344a2003"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\freecad\\mecanica_R05\\verificacao_chapa.json",
+      "arquivo": "verificacao_chapa.json",
+      "sha256": "5ed2b10bf41dd81ef2e29cd91b58bd3b3f4c91cf5791d13c6ed580f83dca6267"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\compacta\\caminhos.json",
+      "arquivo": "caminhos.json",
+      "sha256": "12d9cf408fd438e3f47ec1da05e5a50561a73a0a2af5dfc951b675fc41cdcd4c"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\compacta\\enlaces.json",
+      "arquivo": "enlaces.json",
+      "sha256": "0fce0e2d3de3fe9371d62038bec11595a6dc233e9cfbecba78164af354580fdd"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\compacta\\chicote_ajustado.json",
+      "arquivo": "chicote_ajustado.json",
+      "sha256": "80150895030e5c53805fc3797b1692c348b520d0f387e081c24af1c31439500c"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\verificacao.json",
+      "arquivo": "verificacao_cad.json",
+      "sha256": "806a1e286fecc2479675f5b5478d25a3ba036efabcead89c5fa66f8f5a8f6e21"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\manifesto_montagem.json",
+      "arquivo": "comparacao_geometria.json",
+      "sha256": "4c9e73d2cc5218eae8dc127246c676f0bd0df95d9b0a665c8c122f997fbc4efc"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\montagem_frontal.png",
+      "arquivo": "frente.png",
+      "sha256": "20f1795b7bbe9f3bd8409d1cd9eb1c0bf8e539d88b7423d6d56166b347fb0ad0"
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\imagens\\montagem_traseira.png",
+      "arquivo": "traseira.png",
+      "sha256": "641f1fca826e4eeb692d539cd994d0ded48ce76a9db29abb178045da77bb89f2"
+    }
+  ]
+}

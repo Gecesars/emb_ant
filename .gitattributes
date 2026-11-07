@@ -11,6 +11,8 @@
 # Preservar os bytes dos arquivos de engenharia exportados pelos aplicativos.
 *.s[0-9]*p -text whitespace=-blank-at-eol,-blank-at-eof
 *.step -text whitespace=-blank-at-eol,-blank-at-eof
+*.dxf -text whitespace=-blank-at-eol,-blank-at-eof
 *.csv -text whitespace=-blank-at-eol,-blank-at-eof
+freecad/**/*.json -text whitespace=-blank-at-eol,-blank-at-eof
 resultados/**/*.txt -text whitespace=-blank-at-eol,-blank-at-eof
 resultados/**/*.json -text whitespace=-blank-at-eol,-blank-at-eof

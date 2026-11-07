@@ -1,0 +1,51 @@
+{
+  "inferior": {
+    "max_valor_singular": 0.9947071887788687,
+    "reciprocidade_erro_max": 1.0269562977782698e-15,
+    "portas": 18,
+    "reparos_major": 0,
+    "centro": [
+      {
+        "placa": "inferior",
+        "estagio": "1x5",
+        "frequencia_MHz": 5170.0,
+        "perda_excedente_dB": 0.32813274014190735,
+        "potencia_destinos_W": 0.9272284018312327,
+        "refletida_W": 0.048277359316435925,
+        "nao_entregue_destinos_W": 0.0244942388523314,
+        "VSWR_ativo_A": 1.5649325582843234,
+        "VSWR_ativo_B": 1.5614376783647816
+      },
+      {
+        "placa": "inferior",
+        "estagio": "1x2",
+        "frequencia_MHz": 5170.0,
+        "perda_excedente_dB": 0.23614850302298776,
+        "potencia_destinos_W": 0.9470766944957677,
+        "refletida_W": 0.03186898337458106,
+        "nao_entregue_destinos_W": 0.02105432212965124,
+        "VSWR_ativo_A": 1.4370440937286892,
+        "VSWR_ativo_B": 1.4322032478916153
+      }
+    ]
+  },
+  "superior": {
+    "max_valor_singular": 0.994688149045559,
+    "reciprocidade_erro_max": 1.0179146870343963e-15,
+    "portas": 12,
+    "reparos_major": 0,
+    "centro": [
+      {
+        "placa": "superior",
+        "estagio": "1x5",
+        "frequencia_MHz": 5170.0,
+        "perda_excedente_dB": 0.32809412143836725,
+        "potencia_destinos_W": 0.9272366470472015,
+        "refletida_W": 0.04827977057062943,
+        "nao_entregue_destinos_W": 0.024483582382169022,
+        "VSWR_ativo_A": 1.5633903072785877,
+        "VSWR_ativo_B": 1.5630178058687618
+      }
+    ]
+  }
+}

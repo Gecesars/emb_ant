@@ -1,0 +1,1111 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\Painel_R05.FCStd",
+  "sha256": "9a5568afd43d5c94eaba0159f58781f118198dccf6b47271b0520a2f72726c5a",
+  "objetos": 351,
+  "comparacao_fora_do_chicote": [
+    {
+      "objeto": "Par_0_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_0_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_0_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_0_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_1_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_1_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_1_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_1_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_2_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_2_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_2_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_2_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_3_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_3_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_3_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_3_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_4_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_4_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_4_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_4_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_5_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_5_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_5_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_5_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_6_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_6_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_6_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Par_6_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_E_par_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_E_par_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_E_par_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_E_par_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_D_par_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_D_par_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_D_par_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_D_par_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_E_par_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_E_par_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_E_par_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_E_par_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_D_par_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_D_par_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_D_par_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_D_par_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_E_par_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_E_par_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_E_par_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_E_par_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_D_par_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_D_par_001",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_D_par_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_D_par_003",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Refletor_R05",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via00_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via00_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via01_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via01_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via02_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via02_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via03_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via03_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via04_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via04_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via05_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via05_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via06_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via06_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via07_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via07_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via08_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via08_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via09_0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Via09_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant01_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant02_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant03_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant04_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant05_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant06_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant07_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant08_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant09_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Ring_Q1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Ring_Q2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Ring_Q3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Ring_Q4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Crossover_Bridge",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Feed_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Feed_B_Outer",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_Feed_B_Inner",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_PadB0",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Ant10_PadB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_A_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_A1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_A2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_A3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_A4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_A5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_B_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_B1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_B2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_B3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_B4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_B5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_RA_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_RA1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_RA2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_RB_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_RB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Inferior_RB2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Massa_Inferior",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Estrela_Inferior_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Estrela_Inferior_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Estrela_Inferior_RA",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Estrela_Inferior_RB",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_A_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_A1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_A2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_A3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_A4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_A5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_B_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_B1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_B2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_B3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_B4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Pad_Superior_B5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Massa_Superior",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Estrela_Superior_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Estrela_Superior_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "N_corpo_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "N_pino_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "N_corpo_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "N_pino_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Termorretratil_N_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Termorretratil_N_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Berco_1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Berco_2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Berco_3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Berco_4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Berco_5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Batente_6",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Batente_7",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_E",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_INF_D",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_E",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_SUP_D",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_E",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Trilho_RAIZ_D",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "N_isol_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "N_isol_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Rogers",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_A_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_A1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_A2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_A3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_A4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_A5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_B_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_B1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_B2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_B3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_B4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_B5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_RA1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_RA2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_RB1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Inferior_RB2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_A_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_A1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_A2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_A3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_A4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_A5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_B_IN",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_B1",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_B2",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_B3",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_B4",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Solda_Superior_B5",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_01",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_02",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_03",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_04",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_05",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_06",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_07",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_08",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_09",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Passa_cabos_10",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Junta_N_A",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "Junta_N_B",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "PCB_Inferior",
+      "diferenca_simetrica_mm3": 0.0
+    },
+    {
+      "objeto": "PCB_Superior",
+      "diferenca_simetrica_mm3": 0.0
+    }
+  ],
+  "envelope_coax_zmin_mm": -51.66358046862277,
+  "envelope_coax_zmax_mm": 16.61,
+  "metodo_envelope": "OCCT optimalBoundingBox(False,False), independente de triangulacao",
+  "comparacao_visual_diferenca_max_mm3": 0.0
+}

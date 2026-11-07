@@ -27,6 +27,13 @@ for side in ['inferior','superior']:
     folder=root/('divisor_'+side)
     copy(folder/('Divisor_'+side+'.aedt'),repo/'hfss/alimentacao/r06'/('Divisor_'+side+'.aedt'))
 copy(root/'circuito/P1H_R06_Circuito_sem_malhas.aedtz',repo/'hfss/circuito/R06/P1H_R06_Circuito_sem_malhas.aedtz')
+copy(root/'configuracao_circuito.json',dest/'configuracao_circuito.json')
+metrics=load(root/'circuito/resultado.json')['corrigida']
+mechanics=load(root/'mecanica/rastreabilidade.json')
+assert metrics['comprimentos_fisicos_mm']==mechanics['comprimentos_mm']
+for source in sorted((root/'mecanica').iterdir()):
+    if source.is_file() and source.suffix.lower() in ['.fcstd','.step','.dxf','.pdf','.json','.csv','.png','.md']:
+        copy(source,repo/'freecad/mecanica_R06'/source.name)
 for folder,native in [('antena','PCB_R06.FCStd'),('divisor_inferior','Divisor_Inferior.FCStd'),('divisor_superior','Divisor_Superior.FCStd')]:
     copy(root/folder/native,repo/'freecad/modelos_RF_R06'/folder/native)
     for source in sorted((root/folder/'cad').iterdir()):
@@ -51,7 +58,7 @@ for name in ['Bobina_r090','Controle_fechado']:
     for file in ['cupom.s2p','convergencia.txt']:
         copy(old/name/file,dest/'cupons'/name/file)
 copy(old/'Controle_fechado/Controle_fechado.aedt',repo/'hfss/alimentacao/r06/Controle_acessos_bobina.aedt')
-for folder,suffixes in [('imagens',['.png']),('cotacao',['.jpg','.txt']),('fabricacao',['.json'])]:
+for folder,suffixes in [('imagens',['.png','.json']),('cotacao',['.jpg','.txt']),('fabricacao',['.json'])]:
     for source in sorted((root/folder).iterdir()):
         if source.is_file() and source.suffix in suffixes:copy(source,dest/folder/source.name)
 copy(root/'relatorio/P1H_R06_Relatorio.pdf',dest/'P1H_R06_Relatorio.pdf')
