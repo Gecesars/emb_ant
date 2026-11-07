@@ -24,7 +24,8 @@ def make(mat,painel=False):
         assert shape.isValid() and not shape.isNull(),label
         obj=doc.addObject("Part::Feature",label);obj.Label=label;obj.Shape=shape
         pieces.setdefault(material,[]).append(obj)
-    center=15.4; yseam=31.5;h=1.52
+    center=15.4; yseam=31.5
+    h=json.loads((p/"Inferior/geometria.json").read_text())["h"]
     w=json.loads((p/"linhas.json").read_text())["larguras"]["50.0"]["largura_mm"]
     polaridades=[1,-1] if painel else [1]
     strap=Part.makeCompound([rect(center-3,center+3,s*yseam-w/2,s*yseam+w/2,h) for s in polaridades])

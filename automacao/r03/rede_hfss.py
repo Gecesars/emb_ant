@@ -7,7 +7,7 @@ def u(x):return "%.10gmm"%x
 
 def model(mat):
     path=os.path.join(root,mat,"rede_hfss")
-    native="R03_Alongada_"+mat.replace("-","_")
+    native=os.environ.get("P1H_REVISAO","R03")+"_Alongada_"+mat.replace("-","_")
     file=os.path.join(path,native+".aedt")
     def log(msg):
         with open(os.path.join(path,"calculo.log"),"a") as stream:stream.write(str(msg)+"\n")
@@ -79,6 +79,8 @@ def model(mat):
             s=d.GetModule("Solutions")
             s.ExportNetworkData("",["Rede : LastAdaptive"],3,os.path.join(path,"centro.s11p"),["All"],True,50,"S",-1,1,15,False,True,False)
             log("CENTRO_OK")
+            if os.environ.get("P1H_SOMENTE_CENTRO")=="1":
+                p.Save();oDesktop.CloseProject(p.GetName());return
             if "Banda" not in an.GetSweeps("Rede"):
                 an.InsertFrequencySweep("Rede",["NAME:Banda","IsEnabled:=",True,"RangeType:=","LinearStep","RangeStart:=","5090MHz",
                     "RangeEnd:=","5250MHz","RangeStep:=","10MHz","Type:=","Discrete","SaveFields:=",False,"SaveRadFields:=",False])

@@ -190,7 +190,14 @@ def generate(path):
     para(c,413,"A última coluna aplica a propagação extraída apenas aos trechos de 50 Ω da R03. Os transformadores de impedância e as junções conservam o modelo por linhas. As curvas e emendas estão incluídas no modelo de rede física em qualificação. A perda do painel requer também bobinas, N, casamento dos radiadores e acoplamento.")
     text(c,46,306,"Premissas da comparação",13,True,TEAL)
     para(c,283,"Núcleo de 1,52 mm, cobre de 35 µm, rugosidade de 0,5 µm e Dk/Df constantes nos cupons. O ENIG da cotação inclui níquel sob o ouro. O modelo atual usa cobre finito e as perdas dielétricas nominais. A camada de níquel-fósforo, as tolerâncias do laminado e a execução das soldas acrescentam incerteza à fabricação.")
-    para(c,175,"Os divisores alongados em ZYF300CA-C foram escolhidos como referência geométrica e de custo para o painel, antes do resultado dos cupons. O ganho e as aberturas finais continuam condicionados à solução convergida do conjunto montado.")
+    native=repo/"resultados/r03/rede_hfss_centro.csv"
+    if native.exists():
+        record=next(r for r in rows(native) if r["material"]=="ZYF300CA-C")
+        para(c,175,"A rede física alongada de 1,52 mm reprovou no centro. O HFSS convergido entregou "+
+            br(float(record["potencia_entregue_por_W"])*100)+"% às cargas, com "+br(record["perda_excedente_dB"],3)+
+            " dB de perda e "+br(record["dispersao_amplitude_dB"])+" dB de diferença entre saídas. O controle com núcleo de 0,76 mm e trilhas redimensionadas está em avaliação.")
+    else:
+        para(c,175,"Os divisores alongados em ZYF300CA-C foram escolhidos como referência geométrica e de custo para o painel, antes do resultado dos cupons. O ganho e as aberturas finais continuam condicionados à solução convergida do conjunto montado.")
     c.showPage()
 
     if cases["R01"] or cases["R02"]:

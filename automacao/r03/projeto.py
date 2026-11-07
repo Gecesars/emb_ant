@@ -152,10 +152,14 @@ def layout(material,h):
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("trabalho",type=Path)
+    parser.add_argument("--espessura",type=float,default=1.52)
+    parser.add_argument("--revisao",default="R03")
     args=parser.parse_args()
     for mat in LAMINADOS:
-        boards,edges,w=layout(mat,1.52)
+        boards,edges,w=layout(mat,args.espessura)
         for side,g in boards.items():
+            g["arquivo"]=g["arquivo"].replace("R03_",args.revisao+"_")
+            g["legenda"]=g["legenda"].replace("R03",args.revisao)
             out=args.trabalho/mat/side;out.mkdir(parents=True,exist_ok=True)
             (out/"geometria.json").write_text(json.dumps(g,indent=1),encoding="utf8")
         (args.trabalho/mat/"linhas.json").write_text(json.dumps(dict(larguras=w,rede=edges),indent=1),encoding="utf8")

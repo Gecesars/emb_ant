@@ -1,5 +1,15 @@
 # Comparação das placas compactas e alongadas
 
+## Resultado da rede física no centro da banda
+
+**A primeira alongada R03 de 1,52 mm reprovou como rede de alimentação uniforme.** A solução convergida do HFSS a 5,17 GHz entregou 40,98% da potência às cargas, com perda excedente de **3,874 dB**, retorno ativo de **6,89 dB**, diferença de amplitude de **16,27 dB** e dispersão circular de fase de **239,65°** entre saídas. A adaptação terminou em 18 passes, com 1.014.456 tetraedros e ΔS de 0,00659, cumprindo dois passes consecutivos abaixo de 0,009. [Matriz S11P e convergência](rede_C_centro) · [Métricas](rede_hfss_centro.csv)
+
+A compacta C entregou 82,25%, com perda de 0,849 dB e dispersões de 0,089 dB e 0,528°. Na compacta ZYF255DA, os dois estágios físicos e os mesmos coaxiais entregaram 80,49%, com 0,943 dB de perda no centro. Assim, a menor perda por metro do material 255DA, isoladamente, foi insuficiente para superar a compacta C.
+
+Os cálculos por linhas abaixo registram a etapa de síntese. A diferença encontrada no modelo físico exige revisar a interação entre as trilhas longas e as transições. Foi iniciado um controle de espessura com núcleo de 0,76 mm, disponível no configurador da JLCPCB, e trilhas redimensionadas. Essa revisão experimental usa diretório próprio e conserva os resultados da R03 original. A revisão do painel radiador continua usando RO4350B de 0,76 mm.
+
+## Geometria e custo
+
 A R03 reduz o coaxial instalado em **2,997 m por painel (81,6%)** frente à R02 e alinha cada uma das vinte saídas com a respectiva solda do radiador. A contrapartida é aumentar a microstrip por percurso de aproximadamente 30,4 para 494,2 mm. Na comparação por linhas de transmissão com ZYF300CA-C, a compacta tem 0,061 dB de vantagem no centro. O custo de placas nuas da alongada aumenta R$ 38,44 por antena no lote de cinco.
 
 | Percurso nominal | R02 compacta | R03 alongada |
