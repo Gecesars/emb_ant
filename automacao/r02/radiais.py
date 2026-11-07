@@ -11,22 +11,24 @@ from skrf import Frequency
 from skrf.media.mline import MLine
 
 
-def microstrip(ohms):
+def microstrip(ohms,dk=2.94,df=.0016):
     frequency = Frequency(5.17, 5.17, 1, "GHz")
     def line(w):
-        return MLine(frequency=frequency, w=w/1000, h=.00152, t=.000035, ep_r=2.94, tand=.0016,
+        return MLine(frequency=frequency, w=w/1000, h=.00152, t=.000035, ep_r=dk, tand=df,
                      rho=1/5.8e7, rough=.5e-6)
     w = brentq(lambda w: line(w).z0[0].real-ohms,.03,10)
     return round(w,3), round(math.pi/(2*line(w).beta[0])*1000,3)
 
 
-def layout(n,folder):
-    width50,_ = microstrip(50)
-    width,quarter = microstrip(50*math.sqrt(n))
+def layout(n,folder,material=None,dk=2.94,df=.0016):
+    width50,_ = microstrip(50,dk,df)
+    width,quarter = microstrip(50*math.sqrt(n),dk,df)
     rpad, radius = .86, 15.2
     geometry = dict(arquivo=f"R02_Duplo_1x{n}", legenda=f"P1H 2 x 1:{n}", h=1.52,
                     width=width,l_arm=quarter,r_pad=rpad,r_out=radius,w50=width50,
                     half_x=19.5,half_y=39.0,ports=[],copper={})
+    if material:
+        geometry.update(material=material,dk=dk,df=df,arquivo=f"Compacta_{material.replace('-','_')}_1x{n}")
     if n==5:
         # Janela usinada para os dois coaxiais que atravessam a PCB rumo ao elemento central.
         axis=LineString([(0,-2.50916841304063),(0,2.50916841304063)])

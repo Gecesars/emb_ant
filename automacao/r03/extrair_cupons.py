@@ -23,13 +23,15 @@ def extract(base,mat):
     np.testing.assert_allclose(a.f,b.f,rtol=0,atol=2)
     model=dimensionar(mat,1.52)[Z50][2]
     # A cadeia T120 inv(T20) é semelhante à propagação de 100 mm pela linha.
-    # A fase prevista escolhe o sinal e a volta de 2pi sem impor atenuação positiva.
+    # O quociente complexo de transmissão define a direção perto de múltiplos de pi.
+    # A fase prevista serve somente para escolher a volta inteira de 2pi.
     out=[]
     for i,f in enumerate(a.f):
         t=b.a[i]@np.linalg.inv(a.a[i]);v=np.linalg.eigvals(t)
         target=model.beta[i]*.1
         delta=np.angle(v*np.exp(-1j*target))
-        j=np.argmin(abs(delta));gamma=(np.log(abs(v[j]))+1j*(target+delta[j]))/.1
+        anchor=a.s[i,1,0]/b.s[i,1,0]
+        j=np.argmin(abs(v-anchor));gamma=(np.log(abs(v[j]))+1j*(target+delta[j]))/.1
         assert abs(delta[j])<.8,(mat,f,delta)
         assert abs(np.prod(v)-1)<1e-5
         for nt in pair:
@@ -38,6 +40,8 @@ def extract(base,mat):
         out.append([mat,round(f/1e6),8.685889638*gamma.real,gamma.imag,
                     -20*np.log10(abs(b.s[i,1,0]/a.s[i,1,0]))/.1,
                     count[0][0],count[1][0],all(c>=t for c,t in count)])
+    betas=np.array([r[3] for r in out])
+    assert np.all((np.diff(betas)>.15)&(np.diff(betas)<.5)),(mat,betas)
     return out
 
 

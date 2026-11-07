@@ -29,7 +29,7 @@ def solve(links,external):
     return np.linalg.solve(eye+50*eq,eye-50*eq)
 
 
-def test(material,geometry,ff,coax,kind):
+def test(material,geometry,ff,coax,kind,gamma50=None):
     model=dimensionar(material,1.52)
     data=[];mats=[]
     for k,f in enumerate(ff):
@@ -38,7 +38,8 @@ def test(material,geometry,ff,coax,kind):
             t=np.eye(2)
             for length,z in segments:
                 line=model[z][2]
-                t=t@abcd(line.gamma[k],line.z0[k],length)
+                gamma=gamma50[k] if gamma50 is not None and z==Z50 else line.gamma[k]
+                t=t@abcd(gamma,line.z0[k],length)
             links.append((a,b,t))
         def cable(a,b,length):
             loss=np.interp(f/1e9,[5.,10.],[27.6,41.6])/30.48
@@ -71,22 +72,30 @@ def test(material,geometry,ff,coax,kind):
     return data,np.stack(mats)
 
 
-def run(root):
+def run(root,cupons=False):
     p=root/"mecanica/verificacao_chicote.json"
     ends=json.loads(p.read_text())["comprimentos_mm"]
     out=root/"perdas";out.mkdir(exist_ok=True)
     allrows=[]
+    if cupons:
+        with (out/"cupons_hfss.csv").open(newline="") as f:ensaios=list(csv.DictReader(f))
     for mat in LAMINADOS:
+        gamma50=None
+        if cupons:
+            valid=[r for r in ensaios if r["material"]==mat and r["criterio_completo"]=="True"]
+            if not valid:continue
+            assert [int(r["MHz"]) for r in valid]==list(range(5090,5251,10))
+            gamma50=np.array([float(r["atenuacao_dB_m"])/8.685889638+1j*float(r["beta_rad_m"]) for r in valid])
         g=json.loads((root/mat/"linhas.json").read_text())
         for kind,coax in [("compacta",{"N":271.792113,"T":132,"ramal":130}),
                           ("alongada",{"N":ends["IN_A"],"ramal":ends["E01_A"]})]:
-            rows,matrix=test(mat,g["rede"],FREQUENCIAS.f,coax,kind)
+            rows,matrix=test(mat,g["rede"],FREQUENCIAS.f,coax,kind,gamma50=gamma50)
             allrows.extend(rows)
-            n=skrf.Network(frequency=FREQUENCIAS,s=matrix,z0=50,name=kind+"_"+mat)
+            n=skrf.Network(frequency=FREQUENCIAS,s=matrix,z0=50,name=kind+"_"+mat+("_cupons" if cupons else ""))
             n.port_names=["N"]+["E%02d"%i for i in range(1,11)]
             n.write_touchstone(dir=out,form="ri")
             print(mat,kind,"L0/550 [dB]",round(rows[8][3],4),"pp",round(rows[8][-1],3))
-    with (out/"comparacao_linhas.csv").open("w",newline="",encoding="utf8") as f:
+    with (out/("comparacao_com_cupons.csv" if cupons else "comparacao_linhas.csv")).open("w",newline="",encoding="utf8") as f:
         w=csv.writer(f)
         w.writerow(["MHz","material","geometria","perda_excedente_dB","perda_aceita_dB","retorno_dB",
                     "potencia_entregue_por_W","dispersao_amplitude_dB","dispersao_fase_graus"])
@@ -94,4 +103,5 @@ def run(root):
 
 
 if __name__=="__main__":
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument("dir",type=Path);run(p.parse_args().dir)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument("dir",type=Path);p.add_argument("--cupons",action="store_true")
+    args=p.parse_args();run(args.dir,args.cupons)

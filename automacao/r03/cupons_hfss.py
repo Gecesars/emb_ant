@@ -65,5 +65,5 @@ def run(mat,length):
         "RangeEnd:=","5250MHz","RangeStep:=","10MHz","Type:=","Discrete","SaveFields:=",False,"SaveRadFields:=",False])
     project.SaveAs(native,True)
     finish(project,d)
-for material in ["ZYF300CA-C","ZYF255DA","ZYF265D","ZYF300CA-P"]:
+for material in os.environ.get("P1H_MATERIAIS_CUPONS","ZYF300CA-C,ZYF255DA,ZYF265D,ZYF300CA-P").split(","):
     for length in [20,120]:run(material,length)

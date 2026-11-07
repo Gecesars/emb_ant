@@ -29,9 +29,9 @@ try:
     d=p.SetActiveDesign("Duplo_radial")
     ed=d.SetActiveEditor("3D Modeler")
     b=d.GetModule("BoundarySetup")
-    mat="ZYF300CA_C"
+    mat=g.get("material","ZYF300CA-C").replace("-","_")
     p.GetDefinitionManager().AddMaterial(["NAME:"+mat,"CoordinateSystemType:=","Cartesian","BulkOrSurfaceType:=",1,
-        ["NAME:PhysicsTypes","set:=",["Electromagnetic"]],"permittivity:=","2.94","dielectric_loss_tangent:=","0.0016","conductivity:=","0"])
+        ["NAME:PhysicsTypes","set:=",["Electromagnetic"]],"permittivity:=",str(g.get("dk",2.94)),"dielectric_loss_tangent:=",str(g.get("df",.0016)),"conductivity:=","0"])
     ed.CreateBox(["NAME:BoxParameters","XPosition:=",u(-hx),"YPosition:=",u(-hy),"ZPosition:=","0mm","XSize:=",u(2*hx),"YSize:=",u(2*hy),"ZSize:=",u(h)],attrs("Laminado",mat))
     rect("GND",-hx+.52,-hy+.52,hx-.52,hy-.52,0)
     copper=["GND"]
