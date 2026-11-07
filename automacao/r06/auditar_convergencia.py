@@ -12,10 +12,23 @@ def audit(project):
     setup_ff=[float(x) for x in re.findall(r'MaxConvergenceDelta=([^\s]+)',native)]
     assert len(setup_s)==1 and len(setup_ff)==9 and len(set(setup_ff))==1
     limit_s=min(.008,setup_s[0]);limit_ff=min(.05,setup_ff[0])
+    maximum=int(re.search(r'MaximumPasses=(\d+)',native)[1])
+    minimum=int(re.search(r'MinimumPasses=(\d+)',native)[1])
     folder = project.with_suffix('.aedtresults')
     files = list(folder.rglob('*.EMConvData'))
-    assert len(files) == 1, files
-    data = files[0].read_text()
+    # Ao continuar um setup, o AEDT pode conservar EMConvData da variacao
+    # anterior. Selecionar pelos criterios do nativo, nao por IsConverged.
+    candidates=[]
+    for file in files:
+        text=file.read_text()
+        target=re.search(r"ConvTarget='([^']+)'",text)
+        upper=re.search(r"MaxPasses='(\d+)'",text)
+        lower=re.search(r"MinPasses='(\d+)'",text)
+        if (target and upper and lower and abs(float(target[1])-setup_s[0])<1e-12
+            and int(upper[1])==maximum and int(lower[1])==minimum):
+            candidates.append((file,text))
+    assert len(candidates)==1,[(str(p),p.stat().st_mtime) for p,_ in candidates]
+    convergence_file,data=candidates[0]
     history = {}
     for block in data.split("$begin 'QuantityValues'")[1:]:
         block = block.split("$end 'QuantityValues'")[0]
@@ -66,7 +79,8 @@ def audit(project):
     ff_ok = len(traces) == 9 and len(recent) == 2 and all(
         r['delta_campo_max_dB'] is not None and r['delta_campo_max_dB'] <= limit_ff for r in recent)
     native_ok = 'IsConverged=true' in data
-    result = dict(projeto=str(project), cache_fonte=str(cache), convergencia_fonte=str(files[0]),
+    result = dict(projeto=str(project), cache_fonte=str(cache), convergencia_fonte=str(convergence_file),
+        historicos_de_outras_configuracoes=[str(p) for p in files if p!=convergence_file],
         convergiu_nativo=native_ok,
         criterio_s_usado=limit_s,criterio_campo_dB_usado=limit_ff,
         passes_cache_restaurados_da_continuacao=restored,
