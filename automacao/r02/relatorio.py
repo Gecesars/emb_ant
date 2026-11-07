@@ -58,7 +58,7 @@ def table(c,top,widths,labels,data,size=9.7,rh=25):
 def begin(c,n,total,title,sub):
     day=date.today().strftime("%d/%m/%Y")
     text(c,46,802,"P1H   /   ENGENHARIA DE ANTENAS",9,True,TEAL)
-    text(c,419,802,"R01–R03     "+day,8.4,False,MUTED)
+    text(c,419,802,"R01–R04     "+day,8.4,False,MUTED)
     c.setStrokeColor(colors.HexColor(TEAL));c.setLineWidth(1);c.line(46,788,549,788)
     text(c,46,751,title,22,True);text(c,46,730,sub,10,False,MUTED)
     c.setStrokeColor(colors.HexColor("#CEDCDE"));c.line(46,48,549,48)
@@ -81,7 +81,7 @@ def generate(path):
         pdfmetrics.registerFont(TTFont(name,str(Path("C:/Windows/Fonts")/file)))
     cases={name:band(name) for name in ("R01","R02","R02-S","R03")}
     complete=all(cases.values())
-    count=6+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
+    count=7+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
     c=Canvas(str(path),pagesize=A4,pageCompression=1)
     c.setTitle("P1H | Distribuição inferior e superior, mecânica, RF e cotação")
     c.setAuthor("Projeto P1H")
@@ -100,13 +100,15 @@ def generate(path):
                 r=rows(center)[0]
                 parcial="Reprova no centro" if "False" in (r["atende_H"],r["atende_ganho"]) else "Centro aprovado"
                 data.append([name,br(r["ganho_frontal_dBi"])+" dBi (centro)",br(r["H_graus"])+"° (centro)",parcial])
+            elif name=="R03" and (repo/"resultados/r03/rede_hfss_centro.csv").exists():
+                data.append([name,"Estudo da rede","Estudo da rede","Rede reprovada"])
             else:data.append([name,"Em qualificação","Em qualificação","Pendente"])
     text(c,46,689,"Ganho e cobertura com o painel montado",14,True,TEAL)
     table(c,674,[56,142,160,145],["Painel","Ganho frontal¹","Abertura horizontal¹","H e ganho na meta"],data,9.6,23)
     if complete:
         verdict="A tabela resume a aprovação conjunta de ganho e abertura horizontal por frequência. A página de dados identifica os pontos e as aberturas verticais."
     else:
-        verdict="¹ O centro corresponde a 5,17 GHz. Quando há 17 pontos, a tabela mostra o menor ganho e a faixa de H. Um ponto fora do critério já reprova a exigência de atender toda a banda. A R01 apresentou 6,19° na vertical no centro."
+        verdict="¹ Os painéis foram comparados a 5,17 GHz após convergência. A placa contínua R02 atende H e apresenta 12,00 dBi. As dez placas R02-S atingem 13,48 dBi e H de 105,13°. Ambas reprovam o requisito conjunto de banda por esse ponto."
     para(c,547,verdict)
     text(c,46,487,"O que mudou no chicote",14,True,TEAL)
     para(c,467,"Uma placa distribui A e B aos cinco elementos inferiores e outra atende os cinco superiores. Na R02 compacta, os vinte ramais têm 130 mm. Na R03 alongada, as saídas ficam sob os radiadores e cada ramal reto tem 26,61 mm. A R02-S usa dez PCBs individuais em guias de POM e a mesma alimentação da R02.")
@@ -218,11 +220,30 @@ def generate(path):
         ["Núcleo 0,76 mm","2,402 dB","4,38 dB","36,81°"]],9.6,26)
     para(c,315,"A primeira alongada convergiu em 18 passes. O controle de 0,76 mm convergiu em 19 passes. A espessura menor e as trilhas redimensionadas reduziram a perda e o desequilíbrio, que ainda superam os valores das compactas. A previsão por linhas com junções ideais superestimou o desempenho das alongadas.")
     text(c,46,200,"Escolha para a comparação dos painéis",13,True,TEAL)
-    para(c,177,"A compacta exige mais coaxial e apresentou menor perda de RF e melhor uniformidade de alimentação. O HFSS do painel completo compara a coluna contínua e dez radiadores individuais com os mesmos divisores compactos, refletor, bobinas, N e comprimentos de cabos. A aprovação depende dos campos convergidos.")
+    para(c,177,"A compacta exige mais coaxial e apresentou menor perda de RF e melhor uniformidade de alimentação. O painel completo foi comparado com placa contínua e dez radiadores individuais, usando os mesmos divisores compactos, refletor, bobinas, N e comprimentos de cabos. Os campos convergidos da página seguinte mostram a reprovação em ganho.")
+    c.showPage()
+
+    begin(c,7,count,"Placa contínua ou dez radiadores","Painel completo em 5,17 GHz   •   0,5 W a 0° em cada conector N")
+    centers={}
+    for tag,folder in [("R01","r01"),("R02","r02"),("R02-S","r02_separadas")]:
+        p=repo/"resultados"/folder
+        centers[tag]=(rows(p/"metricas_Centro.csv")[0],rows(p/"diretividade_Centro.csv")[0])
+    table(c,695,[139,90,86,86,102],["Montagem","Ganho (dBi)","H (°)","V (°)","Refletida (%)"],[
+        [label,br(centers[k][0]["ganho_frontal_dBi"]),br(centers[k][0]["H_graus"]),
+         br(centers[k][0]["V_graus"]),br(100*float(centers[k][0]["potencia_refletida_W"]))]
+        for k,label in [("R01","R01 / divisor único"),("R02","R02 / placa contínua"),("R02-S","R02-S / dez placas")]],9.4,26)
+    text(c,46,556,"O ganho caiu com o descasamento do painel montado",13,True,TEAL)
+    para(c,534,"Na R02, 55,00% da potência incidente voltou aos conectores. Na R02-S foram 39,68%. A abertura horizontal da contínua atende à tolerância. A versão com dez radiadores teve 1,48 dB a mais de ganho frontal e abertura horizontal de 105,13°. Ambas ficaram abaixo de 16 dBi.")
+    table(c,430,[113,130,130,130],["Painel","Diretividade (dBi)","Ganho aceito (dBi)","Ganho realizado"],[
+        [k,br(v[1]["dB(DirTotal) []"]),br(v[1]["dB(GainTotal) []"]),br(v[1]["dB(RealizedGainTotal) []"])]
+        for k,v in centers.items()],9.5,25)
+    para(c,306,"A diretividade descreve a distribuição angular da potência radiada. O ganho aceito incorpora a dissipação na montagem. O ganho realizado também incorpora a potência refletida nos N e é a grandeza usada na meta de 16 dBi. Os valores acima se referem a +Z, nas mesmas condições de excitação.")
+    text(c,46,198,"Escopo e convergência",13,True,TEAL)
+    para(c,176,"A R02 terminou em oito passes, 2.694.533 tetraedros e ΔS = 0,01413. A R02-S terminou em quinze passes, 7.746.579 tetraedros e ΔS = 0,01184. Ambas cumpriram dois passes consecutivos ≤ 0,015. Os painéis foram avaliados no centro. Esse ponto reprovado resolve a exigência de manter a meta em toda a banda. As redes compactas e os cupons foram varridos nos 17 pontos.")
     c.showPage()
 
     if cases["R01"] or cases["R02"]:
-        begin(c,7,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
+        begin(c,8,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
         data=[]
         for i,f in enumerate(range(5090,5251,10)):
             line=[br(f/1000)]

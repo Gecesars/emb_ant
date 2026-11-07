@@ -1,0 +1,25 @@
+Setup : Banda
+
+==================
+Number of Passes
+Completed : 8
+Maximum   : 15
+Minimum   : 3
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.015
+Current   : 0.014126
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|        1484633|             N/A|
+          2|        1664593|         0.66937|
+          3|        1869896|         0.23167|
+          4|        2111763|         0.16159|
+          5|        2308559|        0.074798|
+          6|        2425277|         0.03601|
+          7|        2541153|        0.012953|
+          8|        2694533|        0.014126|
+
