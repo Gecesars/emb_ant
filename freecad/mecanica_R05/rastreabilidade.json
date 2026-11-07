@@ -1,0 +1,11 @@
+{
+  "coaxial_total_mm": 3808.0,
+  "percurso_por_radiador_mm": 557,
+  "menor_Z_externo_mm": -52.66358,
+  "gerbers_inalterados_sha256": {
+    "fabricacao/gerbers/Gerber_P1H_Coluna_10.zip": "6f7b16622e02315e772a2115624d73dff43d2ac2e488a7dcc91708f004db86d8",
+    "fabricacao/gerbers/Gerber_R02_Inferior.zip": "b2fe4fc91d02352b0b645f4bb0b78cc56f26a9cc7d5b875ef14f434f2af69a93",
+    "fabricacao/gerbers/Gerber_R02_Superior.zip": "fdf3b822a98f9ea16f61fa1edad377cc326f1d7ac41b446f7b3e9ce63b489c60"
+  },
+  "estado": "Geometria validada; aprova\u00e7\u00e3o de RF depende do FEM integral da R05"
+}

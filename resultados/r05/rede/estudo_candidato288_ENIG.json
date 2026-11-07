@@ -1,0 +1,87 @@
+{
+  "hipotese": "Os campos e S20 da antena ficam congelados em 5,17 GHz. As matrizes dos demais blocos variam nos 17 pontos. N\u00e3o \u00e9 um resultado de ganho do painel na banda.",
+  "cupons": {
+    "1x2": {
+      "cobre": {
+        "singular_max": 0.9938195333804691,
+        "erro_reciprocidade": 9.992007221626409e-16,
+        "perda_excedente_min_dB": 0.2155886312159047,
+        "perda_excedente_max_dB": 0.24400328463963492,
+        "perda_excedente_centro_dB": 0.22902431761993808,
+        "reflexao_centro_W": 0.029087934323981816
+      },
+      "enig": {
+        "singular_max": 0.9927179305324684,
+        "erro_reciprocidade": 9.992007221626409e-16,
+        "perda_excedente_min_dB": 0.22894316008615873,
+        "perda_excedente_max_dB": 0.2581160161505367,
+        "perda_excedente_centro_dB": 0.24276782705719324,
+        "reflexao_centro_W": 0.02953935162025047
+      },
+      "acrescimo_min_dB": 0.013354528870254012,
+      "acrescimo_max_dB": 0.014112731510901783
+    },
+    "1x5": {
+      "cobre": {
+        "singular_max": 0.9942683608977146,
+        "erro_reciprocidade": 1.4130832128153977e-15,
+        "perda_excedente_min_dB": 0.32223538222707376,
+        "perda_excedente_max_dB": 0.33274516072479393,
+        "perda_excedente_centro_dB": 0.3248461581943582,
+        "reflexao_centro_W": 0.04698718989282237
+      },
+      "enig": {
+        "singular_max": 0.9934367139119028,
+        "erro_reciprocidade": 1.0179146870343963e-15,
+        "perda_excedente_min_dB": 0.3291914101492469,
+        "perda_excedente_max_dB": 0.3396547927404709,
+        "perda_excedente_centro_dB": 0.33179042567961387,
+        "reflexao_centro_W": 0.046438931942632385
+      },
+      "acrescimo_min_dB": 0.006909632015676959,
+      "acrescimo_max_dB": 0.006956027922173147
+    }
+  },
+  "construido_centro": {
+    "ganho_frontal_dBi": 16.681369200642536,
+    "H_graus": 97.13344760767126,
+    "V_graus": 5.5813356305950235,
+    "H_esquerda": -48.382724448086215,
+    "H_direita": 48.75072315958504,
+    "refletida_W": 0.00113103825715286,
+    "aceita_antena_W": 0.8236543088578616,
+    "perda_rede_W": 0.1752146528849855,
+    "dispersao_fase_graus": 4.80956251997037,
+    "dispersao_amplitude_dB": 0.5315229807020536,
+    "comprimentos_mm": [
+      288.0,
+      134.0,
+      142.0
+    ]
+  },
+  "construido_sensibilidade": {
+    "ganho_com_antena_congelada_min_dBi": 15.735217270210898,
+    "ganho_com_antena_congelada_max_dBi": 16.681369200642536
+  },
+  "alternativa_nao_construida_centro": {
+    "ganho_frontal_dBi": 16.74267699975217,
+    "H_graus": 97.26452278971857,
+    "V_graus": 5.654349949849391,
+    "H_esquerda": -48.478965814910644,
+    "H_direita": 48.785556974807925,
+    "refletida_W": 0.001562410470578275,
+    "aceita_antena_W": 0.8355303165149053,
+    "perda_rede_W": 0.16290727301451646,
+    "dispersao_fase_graus": 2.2598773705664548,
+    "dispersao_amplitude_dB": 0.9974609942697885,
+    "comprimentos_mm": [
+      271.792113,
+      145.04592889,
+      135.16068993
+    ]
+  },
+  "alternativa_nao_construida_sensibilidade": {
+    "ganho_com_antena_congelada_min_dBi": 15.953868235046231,
+    "ganho_com_antena_congelada_max_dBi": 16.74267699975217
+  }
+}

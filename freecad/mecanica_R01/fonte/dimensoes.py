@@ -28,12 +28,12 @@ DIV_RAIL = [DIV_X-21.5,DIV_X+21.5]
 CENTROS = [(i-4.5)*PASSO+PIN for i in range(10)]
 ROSCA_Y = 11.0
 def face_ext():
-    return [(BASE,-41),(-259,-41),(-252,-18),(TOPO,-18),(TOPO,18),(-252,18),(-259,41),(BASE,41)]
+    return [(BASE,-MEIA_BASE),(-259,-MEIA_BASE),(-252,-MEIA_FACE),(TOPO,-MEIA_FACE),(TOPO,MEIA_FACE),(-252,MEIA_FACE),(-259,MEIA_BASE),(BASE,MEIA_BASE)]
 def contorno_plano():
-    neg=[(FIM_FLAT,-41),(-259,-41),(-252,-18)]
+    neg=[(FIM_FLAT,-MEIA_BASE),(-259,-MEIA_BASE),(-252,-MEIA_FACE)]
     for a,b in TRECHOS:
-        neg.extend([(a,-18),(a,-LADO_FLAT),(b,-LADO_FLAT)])
-        if b!=TOPO:neg.append((b,-18))
+        neg.extend([(a,-MEIA_FACE),(a,-LADO_FLAT),(b,-LADO_FLAT)])
+        if b!=TOPO:neg.append((b,-MEIA_FACE))
     return neg+[(x,-y) for x,y in neg[::-1]]
 def ref_bolts():
     return [(x,y) for x in SUP_X+BAT_X+DIV_RAIL for y in (-ROSCA_Y,ROSCA_Y)]

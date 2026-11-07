@@ -1,0 +1,15 @@
+{
+  "hipotese": {
+    "espessura_mm": 0.02,
+    "permissividade": 4.5,
+    "tangente_perdas": 0.03,
+    "volume_mm3": 0.22552649083484155,
+    "hipotese": "Ensaio de sensibilidade; n\u00e3o \u00e9 ficha do fio comprado. Pel\u00edcula somente na h\u00e9lice; pontas sem esmalte."
+  },
+  "IL_centro_dB": 0.020940291274942364,
+  "RL_min_dB": 30.784247602347577,
+  "acrescimo_IL_max_dB": -0.000384458592182637,
+  "efeito_ganho_min_dB": -0.002390299947762742,
+  "efeito_ganho_max_dB": 0.00123788272265557,
+  "ressalva": "Pel\u00edcula hipot\u00e9tica, somente na h\u00e9lice. Campos e S20 da antena congelados em 5,17 GHz; n\u00e3o substitui o painel integral nem qualifica o fio real."
+}

@@ -1,0 +1,55 @@
+{
+  "volume_dobrado_mm3": 65877.14426895604,
+  "volume_planificado_mm3": 65265.16202,
+  "largura_face_mm": 40,
+  "espessura_mm": 2.0,
+  "raio_interno_mm": 2.0,
+  "fator_K": 0.4,
+  "novos_furos_mm": [
+    [
+      -150.49083158695936,
+      -6.5
+    ],
+    [
+      -150.49083158695936,
+      6.5
+    ],
+    [
+      -107.49083158695936,
+      -6.5
+    ],
+    [
+      -107.49083158695936,
+      6.5
+    ],
+    [
+      112.50916841304064,
+      -6.5
+    ],
+    [
+      112.50916841304064,
+      6.5
+    ],
+    [
+      155.50916841304064,
+      -6.5
+    ],
+    [
+      155.50916841304064,
+      6.5
+    ]
+  ],
+  "diametro_furos_mm": 2.8,
+  "diferenca_simetrica_com_geometria_RF_mm3": 0.0,
+  "dxf_contornos_fechados": 39,
+  "dxf_unidade": "mm",
+  "BA_90_mm": 4.39823,
+  "planificado_limites_X": [
+    -327.3982297150257,
+    258.0
+  ],
+  "modelo_dobrado_limites_X": [
+    -275.0,
+    258.0
+  ]
+}

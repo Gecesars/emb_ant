@@ -1,0 +1,365 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "hfss/alimentacao/r05/Bobina_r090.aedt",
+      "origem": "cupons/Bobina_r090/Bobina_r090.aedt",
+      "bytes": 205687,
+      "sha256": "52a2f3b3458c02afaeeaa4b9a6b67c4e64c02ce38b7b67bf84afcd2ecccd1b05"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_r090/cupom.s2p",
+      "origem": "cupons/Bobina_r090/cupom.s2p",
+      "bytes": 6687,
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_r090/convergencia.txt",
+      "origem": "cupons/Bobina_r090/convergencia.txt",
+      "bytes": 624,
+      "sha256": "f4a9e44f681f905226391a0f245b5556f14efeb2651fe23e0d9429a1b340567e"
+    },
+    {
+      "arquivo": "hfss/alimentacao/r05/Bobina_esmalte20.aedt",
+      "origem": "cupons/Bobina_esmalte20/Bobina_esmalte20.aedt",
+      "bytes": 274851,
+      "sha256": "44123ada016ae23c3891302b08fca2fd5d24bb0e487c76b5d3e05794057c0c1d"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_esmalte20/cupom.s2p",
+      "origem": "cupons/Bobina_esmalte20/cupom.s2p",
+      "bytes": 6708,
+      "sha256": "c95cc7d8bb3500c9528a9e68bab07f6197dd432de05c23e477a29ddef28d0d73"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_esmalte20/convergencia.txt",
+      "origem": "cupons/Bobina_esmalte20/convergencia.txt",
+      "bytes": 578,
+      "sha256": "0e979697a1d8abc3e46f81bbc061b62c932104122f8208f399d29d4e707ba17e"
+    },
+    {
+      "arquivo": "hfss/alimentacao/r05/Conector_N.aedt",
+      "origem": "cupons/Conector_N/Conector_N.aedt",
+      "bytes": 167613,
+      "sha256": "a3984a91c33a4aef477a35a4e377bc10c016d21252c479b7418af3157f70b399"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Conector_N/cupom.s2p",
+      "origem": "cupons/Conector_N/cupom.s2p",
+      "bytes": 6597,
+      "sha256": "495f987d65849e391941b44593f17f07d0a0fc9000ca5e9d4508eeb8bb83a39f"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Conector_N/convergencia.txt",
+      "origem": "cupons/Conector_N/convergencia.txt",
+      "bytes": 578,
+      "sha256": "3e06759944da50ad777a15cea8d1784c72371654ddb8f52e94f3b7ba0d115fe6"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_esmalte20/hipotese.json",
+      "origem": "cupons/Bobina_esmalte20/hipotese.json",
+      "bytes": 260,
+      "sha256": "6269913192107f92fef95958a529f76a1991a5a9aee958276d1ad38b919da2dd"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_esmalte20/resultado.json",
+      "origem": "cupons/Bobina_esmalte20/resultado.json",
+      "bytes": 697,
+      "sha256": "e57d822322491d607ab16290fe19ae961cd588b6d87e23444627440602f1323e"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/entrada/Bobina_esmalte20/comparacao.csv",
+      "origem": "cupons/Bobina_esmalte20/comparacao.csv",
+      "bytes": 2354,
+      "sha256": "1533d970b208bbcbd6bacb22d20f8eaee57ffeda8d3e3f8fa4e8433513df38bd"
+    },
+    {
+      "arquivo": "hfss/alimentacao/r05/ENIG_shell_1x2.aedt",
+      "origem": "enig/1x2/ENIG_1x2.aedt",
+      "bytes": 2318917,
+      "sha256": "8293c74a7d9e40e7525e0a9683d56ce602f30ed7002535802b109f1812140abb"
+    },
+    {
+      "arquivo": "hfss/alimentacao/r05/ENIG_shell_1x5.aedt",
+      "origem": "enig/1x5/ENIG_1x5.aedt",
+      "bytes": 4915010,
+      "sha256": "69ab4ac598fc35b2703f35f6a84430ec97ede42db320cb01ce1ae6a41ad737d2"
+    },
+    {
+      "arquivo": "resultados/r05/rede/cobre_solido_1x2/divisor.s6p",
+      "origem": "enig_solido/1x2/divisor.s6p",
+      "bytes": 38947,
+      "sha256": "c3a72a43b424a2549efcfa5313f2429519acd67ca8d6b49ce32945d9be6c78ac"
+    },
+    {
+      "arquivo": "resultados/r05/rede/cobre_solido_1x2/convergencia.txt",
+      "origem": "enig_solido/1x2/convergencia.txt",
+      "bytes": 721,
+      "sha256": "3529553169db7ccd91cf7aa3dff4a83f00890c0d6e24e93f0f700ec6b974b1e9"
+    },
+    {
+      "arquivo": "resultados/r05/rede/cobre_solido_1x2/comparacao.json",
+      "origem": "enig_solido/1x2/comparacao.json",
+      "bytes": 1038,
+      "sha256": "12eabc75485d9f2985099ed6ddcf639802bb39fa6f0099a1aa39aa17cde3b1db"
+    },
+    {
+      "arquivo": "resultados/r05/rede/cobre_solido_1x2/enig_solido_hfss.json",
+      "origem": "enig_solido/1x2/enig_solido_hfss.json",
+      "bytes": 15253,
+      "sha256": "35911aeb517f1614e24a5de96f5de9ff9d335ff26bc90b50d855dc9aff33b878"
+    },
+    {
+      "arquivo": "hfss/alimentacao/r05/ENIG_solido_1x2.aedt",
+      "origem": "enig_solido/1x2/Divisor_solido.aedt",
+      "bytes": 4796823,
+      "sha256": "1d948235e39b25090792407dd2ff02ca8bb90be5d77cd0ef13a6fcb005af81f7"
+    },
+    {
+      "arquivo": "hfss/antenas/R05_Diagnostico_face40.aedt",
+      "origem": "face40/antena_direta/Antena_direta.aedt",
+      "bytes": 4444112,
+      "sha256": "fa2e171c0a37fa843ce3fc14bfccb2524024c0ff5ced0280e10c684a046fa3cd"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E01_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E01_A_H.csv",
+      "bytes": 146229,
+      "sha256": "44ec0081b8350f92d280c1ee31b6dcda0e6216b69639cfbfb74984a50758e231"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E01_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E01_A_V.csv",
+      "bytes": 145554,
+      "sha256": "bca8177aee171c2892de90824c80f4d7946be95bd21264eb782ca0e89faec364"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E01_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E01_B_H.csv",
+      "bytes": 146761,
+      "sha256": "1280c36d5d8f5f4fb8a5f86985076fdaea15c3023bb7c1d1fc297ccefdf8fd25"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E01_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E01_B_V.csv",
+      "bytes": 145702,
+      "sha256": "66ca946b19ba1d6a1d4fdbaaa6ae6bcdd14a7d8ab46735f00808159e57191e30"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E02_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E02_A_H.csv",
+      "bytes": 146070,
+      "sha256": "bccb18bfb4caecf6a437a5ac9f5cf130593eec742774cc022cfb54be0671f5e3"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E02_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E02_A_V.csv",
+      "bytes": 145641,
+      "sha256": "957f0e4b9af92b9e237d8cf831ee18c5bf693f5fc5082f0087ec91e6a4310686"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E02_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E02_B_H.csv",
+      "bytes": 146667,
+      "sha256": "1b4fcb7a48e3dc2bde617540cde917bfffd9c3b4a659a3fdcf5712bc6013e868"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E02_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E02_B_V.csv",
+      "bytes": 145662,
+      "sha256": "5da64658031a03a11f54d35aa3cbe2bfbdf06cfd78fb34175f55b405aa40c9fa"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E03_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E03_A_H.csv",
+      "bytes": 145755,
+      "sha256": "f6b5a7e23dbbf0b965a4f6e0dddc643e76bf9382499821337ec47583c38bc563"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E03_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E03_A_V.csv",
+      "bytes": 145868,
+      "sha256": "d121c2a86212e3a1f5264824f78979fff4ff043888dda7125ee7b282a743dc33"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E03_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E03_B_H.csv",
+      "bytes": 146976,
+      "sha256": "bd216f4150260584b551162add5f340668e4ab44b5eaa5cd997a4e349bf7653d"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E03_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E03_B_V.csv",
+      "bytes": 145648,
+      "sha256": "c1ed63b9b578904b9890fc2e6c13a3bfa52c93d74f0012b0bffc8c6d8e68a32d"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E04_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E04_A_H.csv",
+      "bytes": 145656,
+      "sha256": "dab4691277a9c6364aadfb91079bea739d2776faa8ef8ea12cd5953f7ce19b2b"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E04_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E04_A_V.csv",
+      "bytes": 145966,
+      "sha256": "b6d69662bf28397f4a618788a792465d6ccf4c6701857e87d598caa38a0b1459"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E04_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E04_B_H.csv",
+      "bytes": 146954,
+      "sha256": "b5d372216b643b1b83827efa54a45adf8cdf88e8c10422654149977391243ea2"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E04_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E04_B_V.csv",
+      "bytes": 145871,
+      "sha256": "69b6ab5359225628839550be89cb3c4c311455b01fd519c27c31ab3f7dddcf0f"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E05_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E05_A_H.csv",
+      "bytes": 145856,
+      "sha256": "d4a81a21800188f85f1817dfee7921b05bd346ea67db5493ac2830df7c81a9c9"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E05_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E05_A_V.csv",
+      "bytes": 145469,
+      "sha256": "6086b0deae3a37aa407802b6686552d37d1ab2b7afa67f8dd32b3aab22ea498d"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E05_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E05_B_H.csv",
+      "bytes": 147082,
+      "sha256": "8140fad2d253328e64f9b0e81077db9a4c274d50c6fb245f1f808e4275b15fe0"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E05_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E05_B_V.csv",
+      "bytes": 145584,
+      "sha256": "386bad3b57c1b4e21829a19a81b555519388b37a27e255e3095405320152c2d1"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E06_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E06_A_H.csv",
+      "bytes": 145911,
+      "sha256": "5c0bc7d0dff1027fe7c036c00a4ce955735189f10420dab02868a0aa60965d6d"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E06_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E06_A_V.csv",
+      "bytes": 145973,
+      "sha256": "e4b480c37193b8bcc74a20a2ded597040c77bc9219e7d75751473db0da070b6f"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E06_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E06_B_H.csv",
+      "bytes": 146793,
+      "sha256": "92e36eae0c7b2b7b5eca8009fd0af2b1c8e30f16dae20f63736e047d979991b1"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E06_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E06_B_V.csv",
+      "bytes": 145913,
+      "sha256": "b57818fdeb2c9d860f5d4898714bcab9b7dd1e65c3dc03a549bd137dd52e23c2"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E07_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E07_A_H.csv",
+      "bytes": 145662,
+      "sha256": "97c3cff6a17e9df5718eaa2a0223e2b411b48c5f9354cb1b04b4dbc5cf484dd0"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E07_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E07_A_V.csv",
+      "bytes": 146143,
+      "sha256": "59f4b00e96e1fdad504f09ea5f380e8110c0dc3175a44cf5eb03aa0f4a73c3b7"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E07_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E07_B_H.csv",
+      "bytes": 147160,
+      "sha256": "2c917dce4a08221a2fcd6fcf45935c47af7897417b763d7555b5b16b4173bfb1"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E07_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E07_B_V.csv",
+      "bytes": 146101,
+      "sha256": "6df26482c5cb9bab41a682f563b51d2d5be9ff78ad607048c9d0de7321806d30"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E08_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E08_A_H.csv",
+      "bytes": 145738,
+      "sha256": "2abdba3cc7b6a1aae91ca4a836f59387508c650656b1ce0f73ebe11c07e4a30c"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E08_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E08_A_V.csv",
+      "bytes": 145743,
+      "sha256": "8665f4253c22a988828ae6d8f8aa13c97487704c8ff64ff857f8c063d2621929"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E08_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E08_B_H.csv",
+      "bytes": 146887,
+      "sha256": "b5fddd607a0f55ae4c5392ca6cebc7bfe17e289d27eaa19d8e84514cc077e7ca"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E08_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E08_B_V.csv",
+      "bytes": 145606,
+      "sha256": "0b4a02329cc29d3c02e22ca36ea6fc7c7cbe76052b706ba345fbb66b7d28fe2f"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E09_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E09_A_H.csv",
+      "bytes": 145775,
+      "sha256": "881c6e711636afcebfd4a24aff2c5bffcd29204c3cfd4d31cfc1697f619beda4"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E09_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E09_A_V.csv",
+      "bytes": 145759,
+      "sha256": "326b5c2709dd784b688e66a0bac60f002cc2c5c167b7ceb71c7eae0899f27e1c"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E09_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E09_B_H.csv",
+      "bytes": 146753,
+      "sha256": "c9d0bbc37cc288c3554b12faa59faa5ab43214d6522cb8ea1d4995aedd4834a9"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E09_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E09_B_V.csv",
+      "bytes": 145870,
+      "sha256": "de317de7d1a8995f09d9314a6b7daf438337afe892eaa012c10347e39f9a11ea"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E10_A_H.csv",
+      "origem": "face40/antena_direta/padroes/E10_A_H.csv",
+      "bytes": 145960,
+      "sha256": "00340ec6c04565d208a5dab337a760b9db333b3929c6dd04cb9fc18f9d16d7e9"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E10_A_V.csv",
+      "origem": "face40/antena_direta/padroes/E10_A_V.csv",
+      "bytes": 145474,
+      "sha256": "484e291846abd837e6bfe5f58ef9ef5d7b2a844535ac9ebbb50bd0905df20b0a"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E10_B_H.csv",
+      "origem": "face40/antena_direta/padroes/E10_B_H.csv",
+      "bytes": 146691,
+      "sha256": "ad5a57712c06b695e15322f2ca1c03d06dada5e91c339c4ce631ef1037a75877"
+    },
+    {
+      "arquivo": "resultados/r05/diagnostico/face40/padroes/E10_B_V.csv",
+      "origem": "face40/antena_direta/padroes/E10_B_V.csv",
+      "bytes": 145667,
+      "sha256": "a55d52207492ddedbce9e5a9170a56b47190aa9eb527398082d796d0b3de1ed7"
+    }
+  ],
+  "nota": "Nativos sem resultados volum\u00e9tricos e malhas; S e cortes exportados s\u00e3o evid\u00eancia dos estudos conclu\u00eddos. O painel integral n\u00e3o integra este pacote de diagn\u00f3stico."
+}

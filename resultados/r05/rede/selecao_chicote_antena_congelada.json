@@ -1,0 +1,958 @@
+{
+  "hipotese": "Antena S20 e campos congelados em 5,17 GHz; n\u00e3o substitui FEM integral ou varredura dos radiadores.",
+  "solver_sucesso": true,
+  "iteracoes": 62,
+  "casos": {
+    "construido": {
+      "comprimentos_mm": [
+        288.0,
+        134.0,
+        142.0
+      ],
+      "ganho_antena_congelada_min_dBi": 15.7352172702109,
+      "ganho_antena_congelada_max_dBi": 16.681369200642536,
+      "resultados": [
+        {
+          "MHz": 5090.0,
+          "ganho_frontal_dBi": 15.735217270210898,
+          "H_graus": 97.15648023235843,
+          "V_graus": 5.606060104363388,
+          "H_esquerda": -48.28550775263758,
+          "H_direita": 48.870972479720855,
+          "refletida_W": 0.19735547202280718,
+          "aceita_antena_W": 0.6620005044634818,
+          "perda_rede_W": 0.14064402351371097,
+          "dispersao_fase_graus": 5.696927475954762,
+          "dispersao_amplitude_dB": 0.35627987569336916,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5100.0,
+          "ganho_frontal_dBi": 15.856108198758129,
+          "H_graus": 97.15557431120816,
+          "V_graus": 5.602588317541598,
+          "H_esquerda": -48.28949771367193,
+          "H_direita": 48.86607659753623,
+          "refletida_W": 0.1744946608634187,
+          "aceita_antena_W": 0.6807389466681723,
+          "perda_rede_W": 0.14476639246840906,
+          "dispersao_fase_graus": 5.692438344436134,
+          "dispersao_amplitude_dB": 0.32539748795777257,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5110.0,
+          "ganho_frontal_dBi": 16.00520713666845,
+          "H_graus": 97.15463412961626,
+          "V_graus": 5.5992483641353825,
+          "H_esquerda": -48.30043117240973,
+          "H_direita": 48.85420295720653,
+          "refletida_W": 0.14555765246193753,
+          "aceita_antena_W": 0.7045724539027137,
+          "perda_rede_W": 0.14986989363534875,
+          "dispersao_fase_graus": 5.6601375366914,
+          "dispersao_amplitude_dB": 0.348687703997701,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5120.0,
+          "ganho_frontal_dBi": 16.170557975308917,
+          "H_graus": 97.15319582148265,
+          "V_graus": 5.595866253210517,
+          "H_esquerda": -48.317583472089545,
+          "H_direita": 48.8356123493931,
+          "refletida_W": 0.11236614776646595,
+          "aceita_antena_W": 0.7319754233251116,
+          "perda_rede_W": 0.15565842890842252,
+          "dispersao_fase_graus": 5.5996340405128,
+          "dispersao_amplitude_dB": 0.36560312813130835,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5130.0,
+          "ganho_frontal_dBi": 16.336854894554133,
+          "H_graus": 97.15082154191211,
+          "V_graus": 5.592440001403479,
+          "H_esquerda": -48.338468870212175,
+          "H_direita": 48.81235267169993,
+          "refletida_W": 0.07772234830024993,
+          "aceita_antena_W": 0.760608736346068,
+          "perda_rede_W": 0.1616689153536821,
+          "dispersao_fase_graus": 5.509318518784168,
+          "dispersao_amplitude_dB": 0.3913899214240022,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5140.0,
+          "ganho_frontal_dBi": 16.486619983837308,
+          "H_graus": 97.14730941218357,
+          "V_graus": 5.589260760363986,
+          "H_esquerda": -48.35898502372537,
+          "H_direita": 48.7883243884582,
+          "refletida_W": 0.04536320939439348,
+          "aceita_antena_W": 0.7873569687067682,
+          "perda_rede_W": 0.1672798218988384,
+          "dispersao_fase_graus": 5.386612202430321,
+          "dispersao_amplitude_dB": 0.4332173611045036,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5150.0,
+          "ganho_frontal_dBi": 16.602423824407715,
+          "H_graus": 97.14285920218529,
+          "V_graus": 5.586342851514173,
+          "H_esquerda": -48.37472994712656,
+          "H_direita": 48.76812925505873,
+          "refletida_W": 0.019517726256684593,
+          "aceita_antena_W": 0.8086952060432377,
+          "perda_rede_W": 0.17178706770007768,
+          "dispersao_fase_graus": 5.229116859759056,
+          "dispersao_amplitude_dB": 0.4742695090809814,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5160.0,
+          "ganho_frontal_dBi": 16.669985820269538,
+          "H_graus": 97.1380237091183,
+          "V_graus": 5.583697977679532,
+          "H_esquerda": -48.382808730640896,
+          "H_direita": 48.75521497847741,
+          "refletida_W": 0.004007283388771535,
+          "aceita_antena_W": 0.8214357740545373,
+          "perda_rede_W": 0.17455694255669119,
+          "dispersao_fase_graus": 5.036176197242074,
+          "dispersao_amplitude_dB": 0.5025151902874221,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5170.0,
+          "ganho_frontal_dBi": 16.681369200642536,
+          "H_graus": 97.13344760767126,
+          "V_graus": 5.5813356305950235,
+          "H_esquerda": -48.382724448086215,
+          "H_direita": 48.75072315958504,
+          "refletida_W": 0.00113103825715286,
+          "aceita_antena_W": 0.8236543088578616,
+          "perda_rede_W": 0.1752146528849855,
+          "dispersao_fase_graus": 4.80956251997037,
+          "dispersao_amplitude_dB": 0.5315229807020536,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5180.0,
+          "ganho_frontal_dBi": 16.637064706116863,
+          "H_graus": 97.12960547559288,
+          "V_graus": 5.579261285580715,
+          "H_esquerda": -48.37588242924825,
+          "H_direita": 48.75372304634463,
+          "refletida_W": 0.010862451280143754,
+          "aceita_antena_W": 0.8153578870584507,
+          "perda_rede_W": 0.17377966166140557,
+          "dispersao_fase_graus": 4.5526695858039155,
+          "dispersao_amplitude_dB": 0.5572006695809737,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5190.0,
+          "ganho_frontal_dBi": 16.54602300628869,
+          "H_graus": 97.12671561471012,
+          "V_graus": 5.577472347492037,
+          "H_esquerda": -48.36451116751581,
+          "H_direita": 48.76220444719431,
+          "refletida_W": 0.03082417306016931,
+          "aceita_antena_W": 0.7985062840433692,
+          "perda_rede_W": 0.17066954289646152,
+          "dispersao_fase_graus": 4.2691066718145585,
+          "dispersao_amplitude_dB": 0.5787756240020894,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5200.0,
+          "ganho_frontal_dBi": 16.42361965517646,
+          "H_graus": 97.12481205701678,
+          "V_graus": 5.575935696526021,
+          "H_esquerda": -48.350848331454664,
+          "H_direita": 48.77396372556212,
+          "refletida_W": 0.05705261062208486,
+          "aceita_antena_W": 0.7763763342978867,
+          "perda_rede_W": 0.16657105508002845,
+          "dispersao_fase_graus": 3.969591567465842,
+          "dispersao_amplitude_dB": 0.6236310410664316,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5210.0,
+          "ganho_frontal_dBi": 16.288457923661905,
+          "H_graus": 97.12385902642703,
+          "V_graus": 5.5742796131390655,
+          "H_esquerda": -48.336805853843586,
+          "H_direita": 48.78705317258344,
+          "refletida_W": 0.08510009735284696,
+          "aceita_antena_W": 0.7526449714232294,
+          "perda_rede_W": 0.16225493122392365,
+          "dispersao_fase_graus": 3.836301579033288,
+          "dispersao_amplitude_dB": 0.6732352782787476,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5220.0,
+          "ganho_frontal_dBi": 16.159186398246952,
+          "H_graus": 97.12382442838259,
+          "V_graus": 5.572891811005679,
+          "H_esquerda": -48.32394663630187,
+          "H_direita": 48.799877792080714,
+          "refletida_W": 0.11094812611889782,
+          "aceita_antena_W": 0.7306288076266594,
+          "perda_rede_W": 0.1584230662544428,
+          "dispersao_fase_graus": 3.644441256793521,
+          "dispersao_amplitude_dB": 0.7172339003429027,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5230.0,
+          "ganho_frontal_dBi": 16.052109365260797,
+          "H_graus": 97.12469282950184,
+          "V_graus": 5.571780898245681,
+          "H_esquerda": -48.31357544889767,
+          "H_direita": 48.811117380604166,
+          "refletida_W": 0.13147928080258134,
+          "aceita_antena_W": 0.7128903544145425,
+          "perda_rede_W": 0.15563036478287617,
+          "dispersao_fase_graus": 3.3881137683388483,
+          "dispersao_amplitude_dB": 0.7576483188113965,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5240.0,
+          "ganho_frontal_dBi": 15.979761001396795,
+          "H_graus": 97.12643721963556,
+          "V_graus": 5.570944761003931,
+          "H_esquerda": -48.306834774646255,
+          "H_direita": 48.819602444989314,
+          "refletida_W": 0.14456094495606742,
+          "aceita_antena_W": 0.7011671147862077,
+          "perda_rede_W": 0.15427194025772484,
+          "dispersao_fase_graus": 3.133488109619363,
+          "dispersao_amplitude_dB": 0.7905362964655147,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        },
+        {
+          "MHz": 5250.0,
+          "ganho_frontal_dBi": 15.95020212998419,
+          "H_graus": 97.12897696036974,
+          "V_graus": 5.570374720963773,
+          "H_esquerda": -48.30475767843627,
+          "H_direita": 48.82421928193347,
+          "refletida_W": 0.14893228698237515,
+          "aceita_antena_W": 0.6964648243791539,
+          "perda_rede_W": 0.15460288863847094,
+          "dispersao_fase_graus": 2.982285062066161,
+          "dispersao_amplitude_dB": 0.81823815049259,
+          "comprimentos_mm": [
+            288.0,
+            134.0,
+            142.0
+          ]
+        }
+      ]
+    },
+    "minimax": {
+      "comprimentos_mm": [
+        290.39340117038773,
+        132.05155443677782,
+        134.75126590510519
+      ],
+      "ganho_antena_congelada_min_dBi": 16.585660946428767,
+      "ganho_antena_congelada_max_dBi": 16.66857929025153,
+      "resultados": [
+        {
+          "MHz": 5090.0,
+          "ganho_frontal_dBi": 16.585661641515642,
+          "H_graus": 97.25963762037354,
+          "V_graus": 5.6386893773493245,
+          "H_esquerda": -48.52514594061422,
+          "H_direita": 48.734491679759316,
+          "refletida_W": 0.04061162411520631,
+          "aceita_antena_W": 0.8064428900298625,
+          "perda_rede_W": 0.15294548585493117,
+          "dispersao_fase_graus": 4.925091981998518,
+          "dispersao_amplitude_dB": 0.8039238650663911,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5100.0,
+          "ganho_frontal_dBi": 16.643660046118903,
+          "H_graus": 97.260794598495,
+          "V_graus": 5.641173366448358,
+          "H_esquerda": -48.50122773455359,
+          "H_direita": 48.75956686394141,
+          "refletida_W": 0.02876903359971178,
+          "aceita_antena_W": 0.8172210055436424,
+          "perda_rede_W": 0.15400996085664587,
+          "dispersao_fase_graus": 4.739258051199052,
+          "dispersao_amplitude_dB": 0.8259410804356264,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5110.0,
+          "ganho_frontal_dBi": 16.66857929025153,
+          "H_graus": 97.26235474084007,
+          "V_graus": 5.643547615880182,
+          "H_esquerda": -48.47998895024813,
+          "H_direita": 48.782365790591946,
+          "refletida_W": 0.02395162083617655,
+          "aceita_antena_W": 0.8218607890872939,
+          "perda_rede_W": 0.1541875900765296,
+          "dispersao_fase_graus": 4.475992228492434,
+          "dispersao_amplitude_dB": 0.855834640072084,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5120.0,
+          "ganho_frontal_dBi": 16.667655689290765,
+          "H_graus": 97.2644476897226,
+          "V_graus": 5.645782878975581,
+          "H_esquerda": -48.46311137576533,
+          "H_direita": 48.801336313957265,
+          "refletida_W": 0.024667234130949203,
+          "aceita_antena_W": 0.8216243006086433,
+          "perda_rede_W": 0.1537084652604075,
+          "dispersao_fase_graus": 4.147634331905246,
+          "dispersao_amplitude_dB": 0.8864464759722424,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5130.0,
+          "ganho_frontal_dBi": 16.650319275901378,
+          "H_graus": 97.26681206316702,
+          "V_graus": 5.647849878356229,
+          "H_esquerda": -48.451871722370434,
+          "H_direita": 48.81494034079659,
+          "refletida_W": 0.028828085966456377,
+          "aceita_antena_W": 0.8182898938063916,
+          "perda_rede_W": 0.15288202022715203,
+          "dispersao_fase_graus": 3.769637437805568,
+          "dispersao_amplitude_dB": 0.9126596125124333,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5140.0,
+          "ganho_frontal_dBi": 16.626295401129795,
+          "H_graus": 97.26909134577004,
+          "V_graus": 5.649719476060719,
+          "H_esquerda": -48.447241412433556,
+          "H_direita": 48.82184993333648,
+          "refletida_W": 0.034262614254989596,
+          "aceita_antena_W": 0.8137142994785468,
+          "perda_rede_W": 0.15202308626646366,
+          "dispersao_fase_graus": 3.3600474329219843,
+          "dispersao_amplitude_dB": 0.9346028170923226,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5150.0,
+          "ganho_frontal_dBi": 16.603997747182184,
+          "H_graus": 97.27085259415009,
+          "V_graus": 5.651362919088155,
+          "H_esquerda": -48.44968844379852,
+          "H_direita": 48.82116415035157,
+          "refletida_W": 0.039121794301908375,
+          "aceita_antena_W": 0.8094838258656984,
+          "perda_rede_W": 0.15139437983239312,
+          "dispersao_fase_graus": 3.010880708859731,
+          "dispersao_amplitude_dB": 0.9543726055364488,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5160.0,
+          "ganho_frontal_dBi": 16.589435422140646,
+          "H_graus": 97.27161724017404,
+          "V_graus": 5.652752282805709,
+          "H_esquerda": -48.458820681236666,
+          "H_direita": 48.812796558937364,
+          "refletida_W": 0.04211971473235253,
+          "aceita_antena_W": 0.8067073017052558,
+          "perda_rede_W": 0.15117298356239162,
+          "dispersao_fase_graus": 2.6798842617684517,
+          "dispersao_amplitude_dB": 0.9723185608466469,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5170.0,
+          "ganho_frontal_dBi": 16.585660946428764,
+          "H_graus": 97.27094302132288,
+          "V_graus": 5.6538610131639055,
+          "H_esquerda": -48.47302066081014,
+          "H_direita": 48.797922360512736,
+          "refletida_W": 0.04262765524437015,
+          "aceita_antena_W": 0.8059350252022945,
+          "perda_rede_W": 0.15143731955333528,
+          "dispersao_fase_graus": 2.32767913213866,
+          "dispersao_amplitude_dB": 0.9861928627914374,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5180.0,
+          "ganho_frontal_dBi": 16.592690835773045,
+          "H_graus": 97.26855287627765,
+          "V_graus": 5.654664414412796,
+          "H_esquerda": -48.489368158709794,
+          "H_direita": 48.77918471756785,
+          "refletida_W": 0.040668144260439035,
+          "aceita_antena_W": 0.8071640917310448,
+          "perda_rede_W": 0.15216776400851617,
+          "dispersao_fase_graus": 2.0044674287741637,
+          "dispersao_amplitude_dB": 1.001940356825358,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5190.0,
+          "ganho_frontal_dBi": 16.607822108064042,
+          "H_graus": 97.26444520865907,
+          "V_graus": 5.655140091446352,
+          "H_esquerda": -48.504129866264066,
+          "H_direita": 48.760315342395,
+          "refletida_W": 0.03684314989201401,
+          "aceita_antena_W": 0.8099005352145372,
+          "perda_rede_W": 0.15325631489344882,
+          "dispersao_fase_graus": 1.7926625825323503,
+          "dispersao_amplitude_dB": 1.0110333399432196,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5200.0,
+          "ganho_frontal_dBi": 16.626289352738354,
+          "H_graus": 97.25889935333745,
+          "V_graus": 5.65526856442518,
+          "H_esquerda": -48.51379649176316,
+          "H_direita": 48.74510286157429,
+          "refletida_W": 0.03220629085675652,
+          "aceita_antena_W": 0.813269180458949,
+          "perda_rede_W": 0.15452452868429445,
+          "dispersao_fase_graus": 1.8678078552389044,
+          "dispersao_amplitude_dB": 1.008075000309839,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5210.0,
+          "ganho_frontal_dBi": 16.64220630225461,
+          "H_graus": 97.2524657319476,
+          "V_graus": 5.655034237611715,
+          "H_esquerda": -48.516157463168696,
+          "H_direita": 48.7363082687789,
+          "refletida_W": 0.028074983858000106,
+          "aceita_antena_W": 0.8161739396050167,
+          "perda_rede_W": 0.15575107653698317,
+          "dispersao_fase_graus": 2.2656181895680985,
+          "dispersao_amplitude_dB": 0.9925803210438904,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5220.0,
+          "ganho_frontal_dBi": 16.649695128174645,
+          "H_graus": 97.24592825570171,
+          "V_graus": 5.654426587117374,
+          "H_esquerda": -48.51075812144107,
+          "H_direita": 48.73517013426064,
+          "refletida_W": 0.02578530444607185,
+          "aceita_antena_W": 0.8175055299445529,
+          "perda_rede_W": 0.1567091656093752,
+          "dispersao_fase_graus": 2.635843057925273,
+          "dispersao_amplitude_dB": 0.9656611495543164,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5230.0,
+          "ganho_frontal_dBi": 16.644041873171386,
+          "H_graus": 97.23975207184239,
+          "V_graus": 5.653441182801869,
+          "H_esquerda": -48.49846768791281,
+          "H_direita": 48.741284383929575,
+          "refletida_W": 0.02641822295320547,
+          "aceita_antena_W": 0.8163719062317824,
+          "perda_rede_W": 0.15720987081501214,
+          "dispersao_fase_graus": 2.964169554679784,
+          "dispersao_amplitude_dB": 0.9294145113829959,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5240.0,
+          "ganho_frontal_dBi": 16.62266232544044,
+          "H_graus": 97.23414954752948,
+          "V_graus": 5.652080243584358,
+          "H_esquerda": -48.48086845376989,
+          "H_direita": 48.7532810937596,
+          "refletida_W": 0.030556568559991518,
+          "aceita_antena_W": 0.8123012449946823,
+          "perda_rede_W": 0.15714218644532618,
+          "dispersao_fase_graus": 3.2442242655976115,
+          "dispersao_amplitude_dB": 0.8878677872419125,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        },
+        {
+          "MHz": 5250.0,
+          "ganho_frontal_dBi": 16.58566123424892,
+          "H_graus": 97.2290785405792,
+          "V_graus": 5.650352690769946,
+          "H_esquerda": -48.459741666028364,
+          "H_direita": 48.76933687455084,
+          "refletida_W": 0.03814433517786171,
+          "aceita_antena_W": 0.8053576096607875,
+          "perda_rede_W": 0.15649805516135074,
+          "dispersao_fase_graus": 3.4759805074382766,
+          "dispersao_amplitude_dB": 0.8493973316492074,
+          "comprimentos_mm": [
+            290.39340117038773,
+            132.05155443677782,
+            134.75126590510519
+          ]
+        }
+      ]
+    },
+    "minimax_arredondado": {
+      "comprimentos_mm": [
+        290.0,
+        132.0,
+        135.0
+      ],
+      "ganho_antena_congelada_min_dBi": 16.54543266330412,
+      "ganho_antena_congelada_max_dBi": 16.659833724143564,
+      "resultados": [
+        {
+          "MHz": 5090.0,
+          "ganho_frontal_dBi": 16.54543266330412,
+          "H_graus": 97.25942119066112,
+          "V_graus": 5.641202656825106,
+          "H_esquerda": -48.52545507473647,
+          "H_direita": 48.733966115924645,
+          "refletida_W": 0.05025638553239986,
+          "aceita_antena_W": 0.7989428153923913,
+          "perda_rede_W": 0.15080079907520882,
+          "dispersao_fase_graus": 4.808530024422278,
+          "dispersao_amplitude_dB": 0.8464874034423531,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5100.0,
+          "ganho_frontal_dBi": 16.607189714594018,
+          "H_graus": 97.2601851008479,
+          "V_graus": 5.643569460248113,
+          "H_esquerda": -48.50122564288333,
+          "H_direita": 48.758959457964586,
+          "refletida_W": 0.03758606664637431,
+          "aceita_antena_W": 0.8103180500915399,
+          "perda_rede_W": 0.15209588326208578,
+          "dispersao_fase_graus": 4.593900059756042,
+          "dispersao_amplitude_dB": 0.8629822756233647,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5110.0,
+          "ganho_frontal_dBi": 16.638504601493842,
+          "H_graus": 97.26135440283154,
+          "V_graus": 5.645797589080126,
+          "H_esquerda": -48.479393291417864,
+          "H_direita": 48.78196111141368,
+          "refletida_W": 0.03127806080782108,
+          "aceita_antena_W": 0.8161162956688749,
+          "perda_rede_W": 0.15260564352330408,
+          "dispersao_fase_graus": 4.303859517519619,
+          "dispersao_amplitude_dB": 0.889065559315874,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5120.0,
+          "ganho_frontal_dBi": 16.645505851886863,
+          "H_graus": 97.26304382816679,
+          "V_graus": 5.647856918470762,
+          "H_esquerda": -48.46156885181094,
+          "H_direita": 48.80147497635584,
+          "refletida_W": 0.030117681305472568,
+          "aceita_antena_W": 0.8173686786772466,
+          "perda_rede_W": 0.15251364001728085,
+          "dispersao_fase_graus": 3.950705460736067,
+          "dispersao_amplitude_dB": 0.9144966219460038,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5130.0,
+          "ganho_frontal_dBi": 16.636543746277866,
+          "H_graus": 97.2650236413514,
+          "V_graus": 5.649717641792607,
+          "H_esquerda": -48.449019402510466,
+          "H_direita": 48.81600423884094,
+          "refletida_W": 0.03229568269685561,
+          "aceita_antena_W": 0.8156203124386527,
+          "perda_rede_W": 0.1520840048644917,
+          "dispersao_fase_graus": 3.549410312958501,
+          "dispersao_amplitude_dB": 0.9354236186028917,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5140.0,
+          "ganho_frontal_dBi": 16.620453163463605,
+          "H_graus": 97.26696121239547,
+          "V_graus": 5.65135054957846,
+          "H_esquerda": -48.44276627854744,
+          "H_direita": 48.82419493384803,
+          "refletida_W": 0.035863252044273285,
+          "aceita_antena_W": 0.8125407403872048,
+          "perda_rede_W": 0.15159600756852187,
+          "dispersao_fase_graus": 3.1172604098239596,
+          "dispersao_amplitude_dB": 0.9539578495129479,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5150.0,
+          "ganho_frontal_dBi": 16.605020993773095,
+          "H_graus": 97.26844798462352,
+          "V_graus": 5.6527274594819605,
+          "H_esquerda": -48.443424378801495,
+          "H_direita": 48.82502360582203,
+          "refletida_W": 0.03911637495435283,
+          "aceita_antena_W": 0.8095941118183853,
+          "perda_rede_W": 0.15128951322726192,
+          "dispersao_fase_graus": 2.7375022222777563,
+          "dispersao_amplitude_dB": 0.9706959551004779,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5160.0,
+          "ganho_frontal_dBi": 16.595893259825903,
+          "H_graus": 97.26901932526658,
+          "V_graus": 5.653821844759069,
+          "H_esquerda": -48.45086072183906,
+          "H_direita": 48.81815860342752,
+          "refletida_W": 0.040842674847716046,
+          "aceita_antena_W": 0.8078272068725973,
+          "perda_rede_W": 0.15133011827968657,
+          "dispersao_fase_graus": 2.3854314949149167,
+          "dispersao_amplitude_dB": 0.9824528660218057,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5170.0,
+          "ganho_frontal_dBi": 16.595980656614095,
+          "H_graus": 97.26822281230241,
+          "V_graus": 5.654609511950728,
+          "H_esquerda": -48.46379378106997,
+          "H_direita": 48.80442903123244,
+          "refletida_W": 0.040434724128257195,
+          "aceita_antena_W": 0.8077723885303483,
+          "perda_rede_W": 0.1517928873413945,
+          "dispersao_fase_graus": 2.030304286089769,
+          "dispersao_amplitude_dB": 0.98874530990396,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5180.0,
+          "ganho_frontal_dBi": 16.6053234632857,
+          "H_graus": 97.26573977975633,
+          "V_graus": 5.6550691383303775,
+          "H_esquerda": -48.479605440530854,
+          "H_direita": 48.78613433922548,
+          "refletida_W": 0.03790376788268237,
+          "aceita_antena_W": 0.8094364461856476,
+          "perda_rede_W": 0.15265978593167007,
+          "dispersao_fase_graus": 1.7758990528629581,
+          "dispersao_amplitude_dB": 0.994372348320578,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5190.0,
+          "ganho_frontal_dBi": 16.621356866554457,
+          "H_graus": 97.26151837283973,
+          "V_graus": 5.655182648416329,
+          "H_esquerda": -48.49469574545696,
+          "H_direita": 48.76682262738278,
+          "refletida_W": 0.03382181798842182,
+          "aceita_antena_W": 0.8123510051213209,
+          "perda_rede_W": 0.15382717689025738,
+          "dispersao_fase_graus": 1.8022355543967956,
+          "dispersao_amplitude_dB": 0.9981525576433352,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5200.0,
+          "ganho_frontal_dBi": 16.63952890433417,
+          "H_graus": 97.25581643469552,
+          "V_graus": 5.654935653587088,
+          "H_esquerda": -48.505419865720036,
+          "H_direita": 48.75039656897548,
+          "refletida_W": 0.029200841807994392,
+          "aceita_antena_W": 0.8156763838337967,
+          "perda_rede_W": 0.15512277435820887,
+          "dispersao_fase_graus": 2.1695698716134175,
+          "dispersao_amplitude_dB": 0.9902752315872032,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5210.0,
+          "ganho_frontal_dBi": 16.654215819172837,
+          "H_graus": 97.24906607642221,
+          "V_graus": 5.654318201135655,
+          "H_esquerda": -48.50920576571352,
+          "H_direita": 48.73986031070869,
+          "refletida_W": 0.02530669119819322,
+          "aceita_antena_W": 0.8183601939891694,
+          "perda_rede_W": 0.15633311481263745,
+          "dispersao_fase_graus": 2.5552757464725335,
+          "dispersao_amplitude_dB": 0.9700086166617155,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5220.0,
+          "ganho_frontal_dBi": 16.659833724143564,
+          "H_graus": 97.24206617666582,
+          "V_graus": 5.6533257670477575,
+          "H_esquerda": -48.505245415010265,
+          "H_direita": 48.73682076165556,
+          "refletida_W": 0.023413818776168153,
+          "aceita_antena_W": 0.8193449540512581,
+          "perda_rede_W": 0.15724122717257383,
+          "dispersao_fase_graus": 2.914336106953349,
+          "dispersao_amplitude_dB": 0.9382796705953957,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5230.0,
+          "ganho_frontal_dBi": 16.651978046488665,
+          "H_graus": 97.2353517879926,
+          "V_graus": 5.6519601120158836,
+          "H_esquerda": -48.49416786861538,
+          "H_direita": 48.74118391937722,
+          "refletida_W": 0.024532949533122274,
+          "aceita_antena_W": 0.8177971238119747,
+          "perda_rede_W": 0.1576699266549031,
+          "dispersao_fase_graus": 3.2313892186580677,
+          "dispersao_amplitude_dB": 0.8971251573303647,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5240.0,
+          "ganho_frontal_dBi": 16.628370506784304,
+          "H_graus": 97.22920470138743,
+          "V_graus": 5.650229656522242,
+          "H_esquerda": -48.47746451643981,
+          "H_direita": 48.75174018494763,
+          "refletida_W": 0.029173014969289868,
+          "aceita_antena_W": 0.8133058164561187,
+          "perda_rede_W": 0.15752116857459142,
+          "dispersao_fase_graus": 3.4992718806173064,
+          "dispersao_amplitude_dB": 0.8489302609816551,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        },
+        {
+          "MHz": 5250.0,
+          "ganho_frontal_dBi": 16.589397608949902,
+          "H_graus": 97.22362040426458,
+          "V_graus": 5.6481493186284295,
+          "H_esquerda": -48.45689429004696,
+          "H_direita": 48.76672611421762,
+          "refletida_W": 0.03720816853904174,
+          "aceita_antena_W": 0.8059920247444509,
+          "perda_rede_W": 0.1567998067165074,
+          "dispersao_fase_graus": 3.717642425537454,
+          "dispersao_amplitude_dB": 0.8043639549971591,
+          "comprimentos_mm": [
+            290.0,
+            132.0,
+            135.0
+          ]
+        }
+      ]
+    }
+  }
+}

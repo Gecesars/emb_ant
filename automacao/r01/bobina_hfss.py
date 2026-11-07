@@ -17,24 +17,29 @@ def mm(x):
     return "%.12gmm" % x
 
 
-def make_port(editor, boundaries, name, z):
-    x, y = 2.50916841304063, -19.25
+def make_port(editor, boundaries, name, z, x=2.50916841304063, y=-19.25,
+              axis="Z", inner=.45975, outer=1.515):
     sheet = "Secao_" + name
     inside = "Interior_" + name
-    for obj, rad in [(sheet, 1.515), (inside, .45975)]:
+    for obj, rad in [(sheet, outer), (inside, inner)]:
         editor.CreateCircle(["NAME:CircleParameters", "IsCovered:=", True, "XCenter:=", mm(x), "YCenter:=", mm(y),
-            "ZCenter:=", mm(z), "Radius:=", mm(rad), "WhichAxis:=", "Z", "NumSegments:=", "0"],
+            "ZCenter:=", mm(z), "Radius:=", mm(rad), "WhichAxis:=", axis, "NumSegments:=", "0"],
             ["NAME:Attributes", "Name:=", obj, "MaterialValue:=", '"vacuum"', "SolveInside:=", True])
     editor.Subtract(["NAME:Selections","Blank Parts:=",sheet,"Tool Parts:=",inside],["NAME:SubtractParameters","KeepOriginals:=",False])
-    bounds = ["NAME:IntLine", "Start:=", [mm(x + .45975), mm(y), mm(z)], "End:=", [mm(x + 1.515), mm(y), mm(z)]]
+    if axis == "X":
+        start, end = [mm(x), mm(y + inner), mm(z)], [mm(x), mm(y + outer), mm(z)]
+    else:
+        start, end = [mm(x + inner), mm(y), mm(z)], [mm(x + outer), mm(y), mm(z)]
+    bounds = ["NAME:IntLine", "Start:=", start, "End:=", end]
     boundaries.AssignLumpedPort(["NAME:" + name, "Objects:=", [sheet], "DoDeembed:=", False, "RenormalizeAllTerminals:=", True,
         ["NAME:Modes", ["NAME:Mode1", "ModeNum:=", 1, "UseIntLine:=", True, bounds, "AlignmentGroup:=", 0,
          "CharImp:=", "Zpi", "RenormImp:=", "50ohm"]], "Impedance:=", "50ohm"])
 
 
-def solve(case):
+def solve(case, desktop=None, ports=None, conductivity=None, extra_dielectrics=None):
     folder = os.path.join(root, case)
-    project = oDesktop.NewProject()
+    desktop = desktop or oDesktop
+    project = desktop.NewProject()
     project.InsertDesign("HFSS", case, "DrivenModal", "")
     d = project.SetActiveDesign(case)
     ed = d.SetActiveEditor("3D Modeler")
@@ -42,7 +47,19 @@ def solve(case):
     project.GetDefinitionManager().AddMaterial(["NAME:PTFE_cabo", "CoordinateSystemType:=", "Cartesian",
         "BulkOrSurfaceType:=", 1, ["NAME:PhysicsTypes","set:=",["Electromagnetic"]],
         "permittivity:=", "2.036363533774732", "dielectric_loss_tangent:=", "0.00027683055"])
-    for key, mat in [("copper","copper"),("PTFE","PTFE_cabo")]:
+    metal = "copper"
+    if conductivity is not None:
+        metal = "Metal_cupom"
+        project.GetDefinitionManager().AddMaterial(["NAME:" + metal, "CoordinateSystemType:=", "Cartesian",
+            "BulkOrSurfaceType:=", 1, ["NAME:PhysicsTypes", "set:=", ["Electromagnetic"]],
+            "conductivity:=", str(conductivity)])
+    imports = [("copper",metal,False),("PTFE","PTFE_cabo",True)]
+    for key, permittivity, tangent in (extra_dielectrics or []):
+        project.GetDefinitionManager().AddMaterial(["NAME:" + key, "CoordinateSystemType:=", "Cartesian",
+            "BulkOrSurfaceType:=", 1, ["NAME:PhysicsTypes", "set:=", ["Electromagnetic"]],
+            "permittivity:=", str(permittivity), "dielectric_loss_tangent:=", str(tangent)])
+        imports.append((key,key,True))
+    for key, mat, solve_inside in imports:
         before = set(ed.GetObjectsInGroup("Solids"))
         ed.Import(["NAME:NativeBodyParameters","HealOption:=",0,"Options:=","-1","FileType:=","UnRecognized",
             "MaxStitchTol:=",-1,"ImportFreeSurfaces:=",True,"GroupByAssembly:=",False,"CreateGroup:=",False,
@@ -52,10 +69,12 @@ def solve(case):
         names = set(ed.GetObjectsInGroup("Solids")) - before
         assert names
         ed.AssignMaterial(["NAME:Selections","Selections:=",",".join(names)],
-            ["NAME:Attributes","MaterialValue:=",'"'+mat+'"',"SolveInside:=",key=="PTFE"])
+            ["NAME:Attributes","MaterialValue:=",'"'+mat+'"',"SolveInside:=",solve_inside])
     bd = d.GetModule("BoundarySetup")
-    make_port(ed,bd,"Entrada",-15.52)
-    make_port(ed,bd,"Saida",-3.52)
+    if ports is None:
+        ports = [dict(name="Entrada", z=-15.52), dict(name="Saida", z=-3.52)]
+    for port in ports:
+        make_port(ed, bd, **port)
     d.GetModule("ModelSetup").CreateOpenRegion(["NAME:Settings","OpFreq:=","5.09GHz","Boundary:=","Radiation","ApplyInfiniteGP:=",False])
     an = d.GetModule("AnalysisSetup")
     an.InsertSetup("HfssDriven",["NAME:Cupom","SolveType:=","Single","Frequency:=","5.17GHz","MaxDeltaS:=",.008,
@@ -71,12 +90,13 @@ def solve(case):
     d.GetModule("Solutions").ExportNetworkData("",["Cupom : Banda"],3,os.path.join(folder,"cupom.s2p"),
         ["All"],True,50,"S",-1,1,15,False,True,False)
     project.Save()
-    oDesktop.CloseProject(project.GetName())
+    desktop.CloseProject(project.GetName())
     log("OK " + case)
 
 
-for case in ["Controle","Com_bobina"]:
-    try:
-        solve(case)
-    except:
-        log(traceback.format_exc())
+if __name__ == "__main__":
+    for case in ["Controle", "Com_bobina"]:
+        try:
+            solve(case)
+        except:
+            log(traceback.format_exc())

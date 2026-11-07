@@ -1,5 +1,7 @@
 # Painel setorial P1H · 5,09 a 5,25 GHz
 
+**Revisão R05 em qualificação:** correção da entrada com curto DC, face do refletor de 40 mm e chicote de 290/132/135 mm, mantendo as PCBs compactas. O novo painel ainda depende de resultados convergidos em toda a banda. [Estado e evidências](resultados/r05/README.md) · [Mecânica atualizada](freecad/mecanica_R05/README.md). Os resultados reprovados abaixo são a referência R02 anterior à correção.
+
 **Resultado da campanha de 7 de novembro de 2026.** As duas montagens com divisores compactos reprovam o requisito conjunto de abertura horizontal e ganho em toda a banda. A 5,17 GHz, a placa contínua produziu **94,82° / 5,54° / 12,00 dBi** e as dez placas individuais **105,13° / 5,57° / 13,48 dBi**, respectivamente em H, V e ganho frontal realizado. A compacta teve a menor perda de distribuição entre as arquiteturas estudadas. [Comparação dos painéis](resultados/r02/comparacao_paineis.md) · [Relatório de engenharia](resultados/r02/Relatorio_P1H.pdf) · [Quatro materiais e divisores alongados](resultados/r03/README.md)
 
 Projeto de uma coluna de dez antenas impressas com duas polarizações e passo de 52,6 mm no eixo X. A comparação atual usa duas PCBs distribuidoras, uma para os cinco radiadores inferiores e outra para os cinco superiores. Cada PCB atende às duas polarizações. A referência de ganho é a potência incidente nas duas entradas N, com 0,5 W a 0° em cada uma. Os modelos anteriores com divisor único e ramais de 254 mm também estão preservados.

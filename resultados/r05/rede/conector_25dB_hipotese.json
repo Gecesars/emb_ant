@@ -1,0 +1,14 @@
+{
+  "hipotese": "Limite de projeto para N: retorno 25 dB e perda 0,15 dB, fase de reflex\u00e3o livre.\n\nA perda de 0,15 dB \u00e9 uma hip\u00f3tese de projeto, n\u00e3o especifica\u00e7\u00e3o do 082-6784.\nOs campos e a matriz da antena continuam congelados no centro da banda.\n",
+  "comprimentos_mm": [
+    290,
+    132,
+    135
+  ],
+  "fase_transmissao": "Modelo nominal; dois conectores iguais",
+  "perda_insercao_dB": 0.15,
+  "retorno_dB": 25,
+  "pontos_fase": 73,
+  "minimo_dBi": 16.482852079548476,
+  "maximo_dBi": 16.669592184639438
+}

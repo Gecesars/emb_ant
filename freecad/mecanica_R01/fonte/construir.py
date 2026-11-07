@@ -82,7 +82,7 @@ def folded():
         orient=App.Rotation(Y*side,Z,X*side,"XYZ")
         for j,(a,b) in enumerate(TRECHOS):
             suffix=("E" if side<0 else "D")+str(j+1)
-            p=sketch(d,"Perfil_nervura_"+suffix,trace(bend_profile(PROF_NERV)),place(a,side*18,0,orient))
+            p=sketch(d,"Perfil_nervura_"+suffix,trace(bend_profile(PROF_NERV)),place(a,side*MEIA_FACE,0,orient))
             parts.append(ext(d,"Nervura_"+suffix,p,X,b-a))
     blank=d.addObject("Part::MultiFuse","Dobras_unidas");blank.Shapes=parts;blank.Refine=True
     # Local X = Z físico, local Y = Y físico. Normal para -X.

@@ -40,7 +40,7 @@ def main():
     def fold(a,b):m.add_line(a,b,dxfattribs={"layer":"EIXOS_DOBRA"})
     fold((BASE-BA/2,-41),(BASE-BA/2,41))
     for a,b in TRECHOS:
-        for s in (-1,1):fold((a,s*(18+BA/2)),(b,s*(18+BA/2)))
+        for s in (-1,1):fold((a,s*(MEIA_FACE+BA/2)),(b,s*(MEIA_FACE+BA/2)))
     doc.saveas(SAIDA/"05_Refletor_marcacao_dobras.dxf")
     print("DXF_OK",len(model),round(dxf_volume,4),round(flat_volume,4))
 if __name__=="__main__":main()

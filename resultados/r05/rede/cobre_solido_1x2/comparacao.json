@@ -1,0 +1,26 @@
+{
+  "solido": {
+    "singular_max": 0.9935985535165158,
+    "erro_reciprocidade": 9.992007221626409e-16,
+    "perda_excedente_min_dB": 0.208570546551857,
+    "perda_excedente_max_dB": 0.2363235863609994,
+    "perda_excedente_centro_dB": 0.2216646489816128,
+    "reflexao_centro_W": 0.027756569870947732
+  },
+  "shell": {
+    "singular_max": 0.9927179305324684,
+    "erro_reciprocidade": 9.992007221626409e-16,
+    "perda_excedente_min_dB": 0.22894316008615873,
+    "perda_excedente_max_dB": 0.2581160161505367,
+    "perda_excedente_centro_dB": 0.24276782705719324,
+    "reflexao_centro_W": 0.02953935162025047
+  },
+  "diferenca_IL_min_dB": -0.0217924297895373,
+  "diferenca_IL_max_dB": -0.020372613534301726,
+  "diferenca_S_max_abs": 0.010365594943986764,
+  "passes": 8,
+  "tetraedros": 66571,
+  "deltaS_final": 0.0064887,
+  "pontos": 17,
+  "observacao": "O cobre volum\u00e9trico acrescenta os 35um f\u00edsicos e suas bordas; o shell tinha espessura geom\u00e9trica nula. N\u00e3o \u00e9 resultado do painel."
+}

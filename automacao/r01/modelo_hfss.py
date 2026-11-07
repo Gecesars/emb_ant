@@ -39,8 +39,14 @@ try:
         newsol=sorted(objs("Solids")-solids);newsh=sorted(objs("Sheets")-sheets)
         counts[mat]=(len(newsol),len(newsh));log((mat,counts[mat],(newsol+newsh)[:4]))
         if mat=="folha_cu":
-            assert not newsol and len(newsh)>=10
-            bd.AssignFiniteCond(["NAME:Metais_impressos_35um","Objects:=",newsh,"UseMaterial:=",True,"Material:=","copper","UseThickness:=",True,"Thickness:=","0.035mm","Roughness:=","0.5um","InfGroundPlane:=",False,"IsTwoSided:=",False])
+            if os.path.isfile(os.path.join(cad,"folhas_solidas.json")):
+                assert newsol and not newsh
+                assert set(newsol)==set(json.load(open(os.path.join(cad,"folhas_solidas.json"))))
+                ed.AssignMaterial(["NAME:Selections","Selections:=",",".join(newsol)],
+                    ["NAME:Attributes","MaterialValue:=",'"copper"',"SolveInside:=",False])
+            else:
+                assert not newsol and len(newsh)>=10
+                bd.AssignFiniteCond(["NAME:Metais_impressos_35um","Objects:=",newsh,"UseMaterial:=",True,"Material:=","copper","UseThickness:=",True,"Thickness:=","0.035mm","Roughness:=","0.5um","InfGroundPlane:=",False,"IsTwoSided:=",False])
         else:
             assert newsol and not newsh,(mat,newsol,newsh)
             ed.AssignMaterial(["NAME:Selections","Selections:=",",".join(newsol)],["NAME:Attributes","MaterialValue:=",'"'+mat+'"',"SolveInside:=",mat in diel])
