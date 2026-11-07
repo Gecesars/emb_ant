@@ -19,4 +19,4 @@ A primeira tentativa integral com ENIG por shell elements falhou na representaç
 
 As condutividades do NiP e os dielétricos dos acessórios são hipóteses nominais. O conector N usa dimensões internas aproximadas e ainda precisa ser substituído ou correlacionado com dados do componente comprado. O teste de esmalte de 20 µm, εr = 4,5 e tanδ = 0,03, alterou a previsão da rede em menos de 0,0024 dB; isso não certifica um fio comercial. A fabricação permanece condicionada ao resultado integral e à validação do protótipo.
 
-[Mecânica, chapa dobrada e planificada](../../freecad/mecanica_R05/README.md) · [Procedimento e histórico técnico](../../automacao/r05/README.md) · [Referência R02](../r02/comparacao_paineis.md)
+[Mecânica, chapa dobrada e planificada](../../freecad/mecanica_R05/README.md) · [Procedimento e histórico técnico](../../automacao/r05/README.md) · [Referência de conector encontrada no Drive](referencia_conector_drive.md) · [Referência R02](../r02/comparacao_paineis.md)
