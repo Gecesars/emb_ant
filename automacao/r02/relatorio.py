@@ -81,7 +81,7 @@ def generate(path):
         pdfmetrics.registerFont(TTFont(name,str(Path("C:/Windows/Fonts")/file)))
     cases={name:band(name) for name in ("R01","R02","R02-S","R03")}
     complete=all(cases.values())
-    count=4+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
+    count=5+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
     c=Canvas(str(path),pagesize=A4,pageCompression=1)
     c.setTitle("P1H | Distribuição inferior e superior, mecânica, RF e cotação")
     c.setAuthor("Projeto P1H")
@@ -174,8 +174,27 @@ def generate(path):
     c.linkURL("https://github.com/Gecesars/emb_ant/tree/main/resultados/r03",(46,92,420,111))
     c.showPage()
 
+    begin(c,5,count,"Perda de linha nos quatro PTFE","Cupons HFSS de 20 e 120 mm   •   dezessete frequências e dois passes convergidos")
+    tests=rows(repo/"resultados/r03/cupons_hfss.csv")
+    adjusted=rows(repo/"resultados/r03/comparacao_com_cupons.csv")
+    data=[]
+    for material in ["ZYF300CA-C","ZYF300CA-P","ZYF265D","ZYF255DA"]:
+        series=[r for r in tests if r["material"]==material]
+        assert len(series)==17 and all(r["criterio_completo"]=="True" for r in series)
+        alpha=[float(r["atenuacao_dB_m"]) for r in series]
+        pred=next(r for r in adjusted if r["MHz"]=="5170" and r["material"]==material and r["geometria"]=="alongada")
+        data.append([material,br(alpha[8],3),br(min(alpha),3)+"–"+br(max(alpha),3),br(pred["perda_excedente_dB"],3)])
+    table(c,693,[137,122,130,114],["Laminado","5,17 GHz (dB/m)","Banda (dB/m)","R03 prevista (dB)"],data,9.4,24)
+    text(c,46,541,"A linha ZYF255DA apresentou a menor perda nominal",13,True,TEAL)
+    para(c,519,"A extração usa os autovalores da matriz de transferência formada por uma linha de 120 mm e a inversa de uma linha de 20 mm, com lançamentos iguais. A diferença é de 100 mm. A análise confere passividade, reciprocidade, as 17 frequências e a continuidade de fase. Cada modelo atingiu ΔS de até 0,003 em dois passes consecutivos.")
+    para(c,413,"A última coluna aplica a propagação extraída apenas aos trechos de 50 Ω da R03. Os transformadores de impedância e as junções conservam o modelo por linhas. As curvas e emendas estão incluídas no modelo de rede física em qualificação. A perda do painel requer também bobinas, N, casamento dos radiadores e acoplamento.")
+    text(c,46,306,"Premissas da comparação",13,True,TEAL)
+    para(c,283,"Núcleo de 1,52 mm, cobre de 35 µm, rugosidade de 0,5 µm e Dk/Df constantes nos cupons. O ENIG da cotação inclui níquel sob o ouro. O modelo atual usa cobre finito e as perdas dielétricas nominais. A camada de níquel-fósforo, as tolerâncias do laminado e a execução das soldas acrescentam incerteza à fabricação.")
+    para(c,175,"Os divisores alongados em ZYF300CA-C foram escolhidos como referência geométrica e de custo para o painel, antes do resultado dos cupons. O ganho e as aberturas finais continuam condicionados à solução convergida do conjunto montado.")
+    c.showPage()
+
     if cases["R01"] or cases["R02"]:
-        begin(c,5,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
+        begin(c,6,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
         data=[]
         for i,f in enumerate(range(5090,5251,10)):
             line=[br(f/1000)]

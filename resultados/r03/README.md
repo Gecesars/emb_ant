@@ -28,6 +28,19 @@ Para o ZYF300CA-C, a alongada apresenta menos perda prevista nos cinco pontos en
 
 O cálculo por linhas favorece o ZYF255DA sobre o ZYF300CA-C em apenas 0,011 dB na alongada a 5,17 GHz. Para a compacta C, as matrizes HFSS dos dois estágios, interligadas pelos coaxiais, dão 0,849 dB no centro e 0,726–1,076 dB na banda. A diferença de 0,097 dB entre métodos para a compacta é maior que a diferença entre os dois melhores materiais previstos na alongada. A escolha inicial de ZYF300CA-C mantém uma referência comum para a cotação e o painel integrado. [HFSS da compacta em 50 Ω](../r02/rede/README.md)
 
-O estudo dos cupons extrai a atenuação de 100 mm de linha a partir das matrizes de duas linhas físicas com 20 e 120 mm e os mesmos lançamentos. O estudo da rede alongada usa os dois divisores, as emendas de sinal e massa, os planos de cobre e os lançamentos coaxiais. A simetria magnética aplica-se à rede sob excitação par das duas polarizações. O painel completo tem domínio inteiro e duas portas nos N. O modelo de painel inclui suporte, refletor, bobinas e acoplamento. O teste de geometria do HFSS foi concluído para os quatro modelos de rede e para o painel em ZYF300CA-C. A aprovação de ganho e abertura requer os campos radiados. [Modelos das quatro redes](../../hfss/alimentacao/R03) · [Modelo do painel](../../hfss/antenas/P1H_R03_Alongada.aedt)
+## Ensaio HFSS dos quatro laminados
+
+Os oito cupons físicos concluíram as 17 frequências. Cada linha atingiu dois passes consecutivos com ΔS ≤ 0,003. A atenuação de 100 mm foi extraída dos autovalores da matriz composta pelas linhas de 20 e 120 mm. A fase do quociente de transmissão resolve o sinal dos autovalores perto de múltiplos de π, e a fase prevista seleciona apenas a volta inteira. Foram conferidas reciprocidade, passividade e continuidade da fase. [Matrizes e convergência](cupons) · [Dados completos](cupons_hfss.csv)
+
+| PTFE | Atenuação de 50 Ω a 5,17 GHz | Mín.–máx. em 5,09–5,25 GHz | Alongada com trechos de 50 Ω corrigidos pelos cupons, a 5,17 GHz |
+|---|---:|---:|---:|
+| ZYF300CA-C | 2,281 dB/m | 2,246–2,318 dB/m | 1,214 dB |
+| ZYF300CA-P | 2,454 dB/m | 2,416–2,494 dB/m | 1,299 dB |
+| ZYF265D | 2,301 dB/m | 2,266–2,336 dB/m | 1,225 dB |
+| ZYF255DA | 2,175 dB/m | 2,143–2,208 dB/m | 1,163 dB |
+
+O ZYF255DA teve a menor atenuação nominal no cupom de 50 Ω. A coluna da direita combina a propagação HFSS desses trechos com os modelos analíticos dos transformadores e das junções. Ela mostra o efeito da perda de linha sobre os cerca de 494 mm da alongada. O ensaio com toda a rede física inclui as curvas, as divisões e as emendas. [Previsão intermediária nos 17 pontos](comparacao_com_cupons.csv)
+
+O estudo da rede alongada usa os dois divisores, as emendas de sinal e massa, os planos de cobre e os lançamentos coaxiais. A simetria magnética aplica-se à rede sob excitação par das duas polarizações. As portas coaxiais são inteiras e afastadas do plano de simetria, com referência de 50 Ω e multiplicador unitário. O painel completo tem domínio inteiro e duas portas nos N. O modelo de painel inclui suporte, refletor, bobinas e acoplamento. O teste de geometria do HFSS foi concluído para os quatro modelos de rede e para o painel em ZYF300CA-C. A aprovação de ganho e abertura requer os campos radiados. [Modelos das quatro redes](../../hfss/alimentacao/R03) · [Modelo do painel](../../hfss/antenas/P1H_R03_Alongada.aedt)
 
 O acabamento cotado é ENIG. Os modelos de cobre finito usam propriedades nominais sem a camada de níquel-fósforo do banho, e as fitas da emenda usam contato metálico ideal nas superfícies soldadas. O resultado de fabricação depende dessas perdas, das tolerâncias de Dk e das soldas. A cotação e a ficha do fabricante identificam os quatro laminados. [Materiais JLCPCB](https://rs.jlcpcb.com/static/file/ptfe-teflon-datasheet.pdf) · [Acabamentos JLCPCB](https://jlcpcb.com/help/article/jlcpcb-surface-finish) · [Influência do ENIG em microstrip, Rogers](https://www.rogerscorp.com/blog/2020/comparing-pcbs-for-microstrip-and-grounded-coplanar-waveguide-circuits)

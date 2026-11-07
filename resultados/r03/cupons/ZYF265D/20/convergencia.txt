@@ -1,0 +1,27 @@
+Setup : Perda
+
+==================
+Number of Passes
+Completed : 10
+Maximum   : 18
+Minimum   : 4
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.003
+Current   : 0.0021628
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|           1119|             N/A|
+          2|           1410|         0.11987|
+          3|           1782|        0.041465|
+          4|           2251|        0.027952|
+          5|           2839|        0.025689|
+          6|           3584|       0.0088387|
+          7|           4519|       0.0053456|
+          8|           5695|       0.0038775|
+          9|           7178|       0.0024489|
+         10|           9050|       0.0021628|
+
