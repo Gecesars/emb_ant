@@ -1,5 +1,6 @@
 """Auditar S e nove amostras de campo a partir dos resultados nativos HFSS."""
 import argparse
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -7,6 +8,10 @@ from pathlib import Path
 
 def audit(project):
     native = project.read_bytes().decode('latin1')
+    setup_s=[float(x) for x in re.findall(r'MaxDeltaS=([^\s]+)',native)]
+    setup_ff=[float(x) for x in re.findall(r'MaxConvergenceDelta=([^\s]+)',native)]
+    assert len(setup_s)==1 and len(setup_ff)==9 and len(set(setup_ff))==1
+    limit_s=min(.008,setup_s[0]);limit_ff=min(.05,setup_ff[0])
     folder = project.with_suffix('.aedtresults')
     files = list(folder.rglob('*.EMConvData'))
     assert len(files) == 1, files
@@ -34,6 +39,22 @@ def audit(project):
         m = re.match(r"(\d+)\s+Pass='(\d+)'\s+([^\s]+)", line)
         if m and int(m[1]) in traces:
             fields.setdefault(int(m[2]), {})[traces[int(m[1])]] = float(m[3])
+    # EditSetup pode atribuir novos TraceID ao mesmo cache, sem reset de malha.
+    # Recuperar somente os passes preservados e conferir suas identidades.
+    continuation_path=project.parent/'cache_continuacao.json'
+    restored=[]
+    if continuation_path.exists():
+        continuation=json.loads(continuation_path.read_text(encoding='utf8'))
+        reference=project.parent.parent/continuation['pasta_referencia']/'auditoria_convergencia.json'
+        assert hashlib.sha256(reference.read_bytes()).hexdigest()==continuation['sha256_auditoria_referencia']
+        previous=json.loads(reference.read_text(encoding='utf8'))
+        for row in previous['historico']:
+            number=row['passe']
+            if number not in history:continue
+            assert history[number]['tetraedros']==row['tetraedros'],'A malha nao e continuacao da referencia'
+            if not fields.get(number):
+                assert len(row['campo_dBi'])==9
+                fields[number]=row['campo_dBi'];restored.append(number)
     for number, row in history.items():
         row['campo_dBi'] = fields.get(number, {})
         previous = fields.get(number-1, {})
@@ -41,12 +62,14 @@ def audit(project):
         row['delta_campo_max_dB'] = (max(abs(values[k]-previous[k]) for k in traces.values())
             if len(values) == len(previous) == len(traces) == 9 else None)
     recent = [history[k] for k in sorted(history)[-2:]]
-    s_ok = len(recent) == 2 and all(r['delta_s'] is not None and r['delta_s'] <= .008 for r in recent)
+    s_ok = len(recent) == 2 and all(r['delta_s'] is not None and r['delta_s'] <= limit_s for r in recent)
     ff_ok = len(traces) == 9 and len(recent) == 2 and all(
-        r['delta_campo_max_dB'] is not None and r['delta_campo_max_dB'] <= .05 for r in recent)
+        r['delta_campo_max_dB'] is not None and r['delta_campo_max_dB'] <= limit_ff for r in recent)
     native_ok = 'IsConverged=true' in data
     result = dict(projeto=str(project), cache_fonte=str(cache), convergencia_fonte=str(files[0]),
         convergiu_nativo=native_ok,
+        criterio_s_usado=limit_s,criterio_campo_dB_usado=limit_ff,
+        passes_cache_restaurados_da_continuacao=restored,
         s_008_dois_passes=s_ok, campo_005dB_nove_direcoes_dois_passes=ff_ok,
         convergencia_aprovada=bool(native_ok and s_ok and ff_ok), historico=list(history.values()))
     (project.parent/'auditoria_convergencia.json').write_text(json.dumps(result, indent=2), encoding='utf8')

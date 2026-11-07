@@ -36,6 +36,8 @@ O Nexxim conferiu a matriz do circuito com erro máximo de **9,05 × 10⁻¹⁵*
 
 A nova [montagem R06](../../freecad/mecanica_R06/README.md) foi verificada, com folga nominal mínima de 0,7611 mm e nenhum cruzamento dos cabos. As geometrias fora do chicote são iguais às da R05; os Gerbers permanecem iguais. A recuperação da licença preservou o centro convergido da distribuidora superior e retomou apenas a varredura restante.
 
+Atualização às 19:58: a malha local refinada concluiu em 11 passes e manteve **17,3447 dBi, H 94,3761° e VSWR máximo 1,23735**. Entretanto, H mudou 0,82976° em relação à primeira malha, acima da tolerância de estabilidade de 0,5°. A continuação iniciou no passe 12 com critérios mais rigorosos de S/campo, preservando a malha. O Major anteriormente contado era histórico: a execução refinada possui zero Major e dois Minor. [Conferência e evidências](conferencia_malha.md). O aceite continua pendente.
+
 O DRC de 7/11 no KiCad 10.0.5 encontrou zero erros e zero itens desconectados nas três placas. A coluna tem 203 avisos de ponte de máscara nas aberturas RF; os divisores não têm avisos. [Evidências e hashes](fabricacao/verificacao.json). Os Gerbers não foram alterados.
 
 [Cotação JLCPCB de 7/11](cotacao.md) · [Vistas detalhadas do CAD](imagens) · [Scripts R06](../../automacao/r06) · [Montagem e fabricação da chapa](../../freecad/mecanica_R06/README.md).

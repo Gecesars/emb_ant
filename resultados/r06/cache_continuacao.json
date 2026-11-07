@@ -1,0 +1,5 @@
+{
+  "pasta_referencia": "antena_refinada1",
+  "sha256_auditoria_referencia": "af44e41e77a7f5c15b9ee51d233a001dab666d0ee347b4c31daf5aba76701d97",
+  "motivo": "EditSetup mantem a malha (solver retomou passe12), mas mudou TraceID174-182 para672-680. Reutilizar os campos dos passes1-11 preservados, exigindo mesmos tetraedros por passe."
+}

@@ -25,3 +25,11 @@ As malhas `.aedtresults`, `*.g3derr`, campos volumétricos e temporários ficam 
 `retomar_divisor.py` foi usado após confirmar a falha de licença e o encerramento dos processos próprios. Abre o projeto salvo, preserva e exporta o centro e retoma a varredura; não altera a configuração global de licença. `qualificar.ps1 -AposBaseline` retoma depois de uma baseline preservada e exige ausência de refinamento já iniciado. Não usar para iniciar outro cálculo enquanto o pipeline atual estiver ativo.
 
 Na GUI FreeCAD, `atualizar_imagens.py` sincroniza apenas o clone visual próprio, compara os 275 objetos externos ao chicote e confere igualdade de todas as formas com o CAD selecionado. Os envelopes usam `optimalBoundingBox(False, False)` para não depender da triangulação de tela. `preparar_mecanica.py` copia nativos e chapa preservada para a pasta de trabalho `mecanica`, cria a lista dos 26 cabos e a rastreabilidade. `desenho_fabricacao.py` gera as três pranchas A3 com os comprimentos selecionados. R05 permanece como histórico.
+
+## Continuação para estabilidade da abertura horizontal
+
+`apertar_convergencia.py` continua o setup existente com ΔS 0,004 e campo 0,02 dB, mínimo 13 e máximo 24 passes, sem resetar a malha ou a geometria. Os dados de 11 passes ficam em `antena_refinada1`. `continuar_qualificacao.ps1` coordena essa etapa e o pós-processamento, interrompendo em qualquer reprovação.
+
+`auditar_convergencia.py` lê os critérios efetivamente salvos no nativo e usa o menor entre eles e os critérios originais. `auditar_malha.py` aceita `malha_execucao.json` com início ISO, filtra os metadados TimeStamp dos blocos e mantém as contagens históricas. Isso evita atribuir à malha atual avisos acumulados de outra execução. `comparar_malhas.py --referencia antena_refinada1` mantém todas as tolerâncias e confronta duas etapas com a mesma discretização superficial, refinadas globalmente em sequência.
+
+A edição de critérios reatribuiu os TraceID do cache, mas o solver continuou no passe 12. `cache_continuacao.json` identifica a auditoria preservada por SHA-256. O auditor recupera apenas campos ausentes dos passes anteriores e exige igualdade de número de tetraedros em cada passe; os passes novos vêm do cache nativo atual.

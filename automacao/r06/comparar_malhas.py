@@ -5,8 +5,9 @@ import numpy as np
 from circuito import Circuit
 
 parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('root',type=Path)
+parser.add_argument('--referencia',default='antena_malha_inicial')
 args=parser.parse_args();root=args.root
-baseline=Circuit(root,antenna_folder=root/'antena_malha_inicial')
+baseline=Circuit(root,antenna_folder=root/args.referencia)
 final=Circuit(root)
 a,theta,ca,_=baseline.calculate();b,_,cb,_=final.calculate()
 delta={k:float(b[k]-a[k]) for k in ['ganho_frontal_realizado_dBi','abertura_H_graus','abertura_V_graus']}
@@ -20,7 +21,7 @@ mesh=json.loads((root/'antena/malha.json').read_text())
 stable=(abs(delta['ganho_frontal_realizado_dBi'])<=.05 and abs(delta['abertura_H_graus'])<=.5
         and abs(delta['abertura_V_graus'])<=.1 and max(abs(x) for x in delta['VSWR_ativo_AB'])<=.05
         and max(abs(x) for x in delta['VSWR_outro_porto_casado_AB'])<=.05)
-result=dict(inicial=a,refinada=b,diferencas=delta,reparo_major_final=mesh['reparos_major'],
+result=dict(pasta_referencia=args.referencia,inicial=a,refinada=b,diferencas=delta,reparo_major_final=mesh['reparos_major'],
             estabilidade_local_aprovada=bool(stable and mesh['reparos_major']==0),
             limites_comparacao=dict(ganho_dB=.05,H_graus=.5,V_graus=.1,VSWR=.05))
 (root/'circuito/comparacao_malhas.json').write_text(json.dumps(result,indent=2),encoding='utf8')

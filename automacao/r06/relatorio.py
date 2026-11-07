@@ -136,15 +136,15 @@ fig('convergencia.png','Histórico adaptativo da PCB: ΔS e maior variação de 
 hist=conv.get('historico',[])
 last=hist[-1] if hist else {}
 table([['Verificação','Evidência'],['Malha final da PCB',str(last.get('tetraedros','Pendente'))+' tetraedros; passe '+str(last.get('passe','—'))],
- ['Convergência de S','ΔS ≤ 0,008 em dois passes consecutivos.'],['Convergência de campo','Variação ≤ 0,05 dB em nove direções, em dois passes consecutivos.'],
+ ['Convergência de S','ΔS ≤ '+fmt(conv.get('criterio_s_usado',.004),3)+' em dois passes consecutivos.'],['Convergência de campo','Variação ≤ '+fmt(conv.get('criterio_campo_dB_usado',.02),2)+' dB em nove direções, em dois passes consecutivos.'],
  ['Circuito independente / Nexxim','Erro máximo em S: '+str(native.get('erro_absoluto_max','Pendente'))],
  ['Conservação de potência','Potência incidente = refletida + aceita na antena + perdas nos blocos. Linhas ideais dissipam zero.']],[60,118])
 add('As nove direções de auditoria são θ = 0°, ±40°, ±50°, ±60° em φ = 90°, e θ = ±3° em φ = 0°. Encerrar por limite de passes não atende ao critério. A revisão de malha e as hipóteses são registradas com os resultados.','caption')
 
 page('Conferência local da malha')
 add('A primeira malha indicou um reparo de superfície no pequeno fragmento Ant08_Feed_A_Cu1, próximo à solda. O sólido CAD tem volume de 0,00794 mm³ e foi validado geometricamente. O aviso motivou uma verificação adicional, sem alterar a geometria nominal da PCB.')
-add('O refinamento usa desvio superficial de 0,0005 mm e desvio angular de 5° nos vinte fragmentos de cobre e quarenta terminais de solda, além de comprimento máximo de 0,06 mm nos fragmentos. O setup e suas nove amostras de campo são preservados.')
-rows=[['Comparação em 5,17 GHz','Malha inicial','Malha refinada']]
+add('O refinamento usa desvio superficial de 0,0005 mm e desvio angular de 5° nos vinte fragmentos de cobre e quarenta soldas, além de comprimento máximo de 0,06 mm nos fragmentos. Convergiu em 11 passes, mas H mudou 0,830° em relação à malha inicial de 16 passes. Por superar a tolerância de 0,5°, foi continuado com ΔS ≤ 0,004 e campo ≤ 0,02 dB. A tabela compara a malha refinada de 11 passes com essa continuação mais rigorosa.')
+rows=[['Comparação em 5,17 GHz','Refinada, 11 passes','Continuação estrita']]
 for key,label,unit in [('ganho_frontal_realizado_dBi','Ganho com rede','dBi'),('abertura_H_graus','Abertura horizontal','°'),('abertura_V_graus','Abertura vertical','°')]:
     row=[label]
     for stage in ['inicial','refinada']:
@@ -155,6 +155,7 @@ for i,pol in enumerate('AB'):
     rows.append(['VSWR ativo '+pol]+[('%.4f'%mesh_check[stage]['VSWR_ativo_AB'][i]).replace('.',',') if stage in mesh_check else 'Pendente' for stage in ['inicial','refinada']])
 table(rows,[78,50,50])
 add('A comparação usa exatamente os mesmos divisores, bobinas e linhas ideais. Assim, a diferença decorre da discretização da PCB. Limites desta conferência: 0,05 dB em ganho, 0,5° na horizontal, 0,1° na vertical e 0,05 em VSWR. A análise final também exige ausência de reparos classificados como Major.')
+add('O arquivo g3derr agrega avisos de várias execuções. O Major do corpo 4550 tem TimeStamp de 16:49:21, da malha inicial. O filtro auditável usa o início do refinamento, 18:36:29 de 7/11, e preserva as contagens históricas. A superfície refinada de 18:38:17 tem dois corpos Minor e nenhum Major.','caption')
 table([['Controle','Evidência'],['Reparos Major na malha final',str(mesh_check.get('reparo_major_final','Pendente'))],
  ['Variação de S nos dois passes finais',' / '.join('%.7f'%r['delta_s'] for r in hist[-2:]) if hist else 'Pendente'],
  ['Variação máxima de campo nos dois passes finais',' / '.join('%.6f dB'%r['delta_campo_max_dB'] for r in hist[-2:]) if hist else 'Pendente'],

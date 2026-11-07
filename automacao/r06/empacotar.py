@@ -38,11 +38,13 @@ for folder,native in [('antena','PCB_R06.FCStd'),('divisor_inferior','Divisor_In
     copy(root/folder/native,repo/'freecad/modelos_RF_R06'/folder/native)
     for source in sorted((root/folder/'cad').iterdir()):
         if source.suffix in ['.step','.json']:copy(source,repo/'freecad/modelos_RF_R06'/folder/'cad'/source.name)
-for folder in ['antena','antena_malha_inicial']:
+for folder in ['antena','antena_malha_inicial','antena_refinada1']:
     for name in ['antena.s20p','Centro_H.csv','Centro_V.csv','convergencia.txt','auditoria_convergencia.json','malha.json']:
         copy(root/folder/name,dest/folder/name)
     patterns=sorted((root/folder/'padroes').glob('*.csv'));assert len(patterns)==40
     for source in patterns:copy(source,dest/folder/'padroes'/source.name)
+    for name in ['malha_execucao.json','malha_agregada.json','cache_continuacao.json']:
+        if (root/folder/name).exists():copy(root/folder/name,dest/folder/name)
 for side,count in [('inferior',18),('superior',12)]:
     folder='divisor_'+side
     for name in ['divisor.s%dp'%count,'convergencia.txt','malha.json']:

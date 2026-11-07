@@ -18,12 +18,12 @@ for ax,axis,width in zip(axes,'HV',[110,15]):
     ax.grid(alpha=.2)
 axes[0].legend(fontsize=8);fig.suptitle('5,17 GHz · duas entradas de 0,5 W / 0° · cabos sem atenuação')
 fig.savefig(output/'diagramas.png',dpi=210);plt.close(fig)
-conv=json.loads((root/'antena/auditoria_convergencia.json').read_text())['historico']
+audit=json.loads((root/'antena/auditoria_convergencia.json').read_text());conv=audit['historico']
 fig,axes=plt.subplots(1,2,figsize=(9.6,3.3),layout='constrained')
 axes[0].semilogy([r['passe'] for r in conv[1:]],[r['delta_s'] for r in conv[1:]],'o-',color='#106d95')
-axes[0].axhline(.008,color='#da7b32',ls='--');axes[0].set(ylabel='ΔS máximo',xlabel='Passe adaptativo',title='Parâmetros S')
+axes[0].axhline(audit.get('criterio_s_usado',.008),color='#da7b32',ls='--');axes[0].set(ylabel='ΔS máximo',xlabel='Passe adaptativo',title='Parâmetros S')
 axes[1].semilogy([r['passe'] for r in conv[1:]],[r['delta_campo_max_dB'] for r in conv[1:]],'o-',color='#106d95')
-axes[1].axhline(.05,color='#da7b32',ls='--')
+axes[1].axhline(audit.get('criterio_campo_dB_usado',.05),color='#da7b32',ls='--')
 axes[1].set(ylabel='Variação máxima (dB)',xlabel='Passe adaptativo',title='Campo nas nove direções')
 for ax in axes:ax.grid(alpha=.2)
 fig.savefig(output/'convergencia.png',dpi=210);plt.close(fig)
