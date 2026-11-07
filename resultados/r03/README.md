@@ -6,7 +6,20 @@
 
 A compacta C entregou 82,25%, com perda de 0,849 dB e dispersões de 0,089 dB e 0,528°. Na compacta ZYF255DA, os dois estágios físicos e os mesmos coaxiais entregaram 80,49%, com 0,943 dB de perda no centro. Assim, a menor perda por metro do material 255DA, isoladamente, foi insuficiente para superar a compacta C.
 
-Os cálculos por linhas abaixo registram a etapa de síntese. A diferença encontrada no modelo físico exige revisar a interação entre as trilhas longas e as transições. Foi iniciado um controle de espessura com núcleo de 0,76 mm, disponível no configurador da JLCPCB, e trilhas redimensionadas. Essa revisão experimental usa diretório próprio e conserva os resultados da R03 original. A revisão do painel radiador continua usando RO4350B de 0,76 mm.
+Os cálculos por linhas abaixo registram a etapa de síntese. A diferença encontrada no modelo físico exige revisar a interação entre as trilhas longas e as transições. O controle R04 com núcleo de 0,76 mm e trilhas redimensionadas terminou em 19 passes e 1.367.804 tetraedros, com ΔS de 0,00603. Entregou 57,52% da potência, com **2,402 dB de perda**, retorno de 12,44 dB e dispersões de **4,38 dB e 36,81°**. A redução de espessura melhorou a alimentação, mas o desequilíbrio persiste. A espessura de 0,76 mm apareceu disponível no configurador da JLCPCB para o PTFE C. [Resultado do controle](controle_076) · [HFSS R04 de 0,76 mm](../../hfss/alimentacao/R03/R04_Alongada_ZYF300CA_C.aedt)
+
+### Quatro materiais nas compactas
+
+Os dois estágios físicos de cada material concluíram as 17 frequências, com dois passes consecutivos abaixo de ΔS = 0,012. A interligação conserva os comprimentos da R02. A tabela mostra a perda excedente para as vinte cargas casadas. [Matrizes de todos os materiais](compactas) · [Resultados completos](compactas_hfss.csv) · [Matrizes C de referência](../r02/rede)
+
+| Material da compacta | A 5,17 GHz | Mín.–máx. nos 17 pontos | Maior diferença de amplitude | Maior dispersão de fase |
+|---|---:|---:|---:|---:|
+| ZYF300CA-C | 0,849 dB | 0,726–1,076 dB | 0,089 dB | 0,543° |
+| ZYF300CA-P | 0,843 dB | 0,728–1,067 dB | 0,095 dB | 0,537° |
+| ZYF265D | 0,924 dB | 0,760–1,160 dB | 0,104 dB | 0,604° |
+| ZYF255DA | 0,943 dB | 0,770–1,179 dB | 0,082 dB | 0,614° |
+
+Os dois ZYF300CA têm resultados próximos, com diferença de 0,006 dB no centro e menos de 0,009 dB na maior perda da banda. Essa diferença é pequena frente à tolerância de convergência e às variações de fabricação. Mantém-se a compacta C de 1,52 mm como referência do painel completo. As variantes alongadas estudadas economizam cabo, mas aumentam a perda e introduzem desequilíbrio entre os radiadores. Os arquivos de fabricação R03 documentam o protótipo avaliado.
 
 ## Geometria e custo
 

@@ -81,7 +81,7 @@ def generate(path):
         pdfmetrics.registerFont(TTFont(name,str(Path("C:/Windows/Fonts")/file)))
     cases={name:band(name) for name in ("R01","R02","R02-S","R03")}
     complete=all(cases.values())
-    count=5+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
+    count=6+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
     c=Canvas(str(path),pagesize=A4,pageCompression=1)
     c.setTitle("P1H | Distribuição inferior e superior, mecânica, RF e cotação")
     c.setAuthor("Projeto P1H")
@@ -195,13 +195,34 @@ def generate(path):
         record=next(r for r in rows(native) if r["material"]=="ZYF300CA-C")
         para(c,175,"A rede física alongada de 1,52 mm reprovou no centro. O HFSS convergido entregou "+
             br(float(record["potencia_entregue_por_W"])*100)+"% às cargas, com "+br(record["perda_excedente_dB"],3)+
-            " dB de perda e "+br(record["dispersao_amplitude_dB"])+" dB de diferença entre saídas. O controle com núcleo de 0,76 mm e trilhas redimensionadas está em avaliação.")
+            " dB de perda e "+br(record["dispersao_amplitude_dB"])+" dB de diferença entre saídas. O controle de 0,76 mm melhorou para 2,402 dB de perda, ainda com desequilíbrio de 4,38 dB e 36,81°.")
     else:
         para(c,175,"Os divisores alongados em ZYF300CA-C foram escolhidos como referência geométrica e de custo para o painel, antes do resultado dos cupons. O ganho e as aberturas finais continuam condicionados à solução convergida do conjunto montado.")
     c.showPage()
 
+    begin(c,6,count,"Comparação física das redes","Matrizes HFSS convergidas dos divisores e coaxiais terminados em vinte cargas de 50 Ω")
+    compact=rows(repo/"resultados/r03/compactas_hfss.csv")
+    data=[]
+    for mat in ["ZYF300CA-C","ZYF300CA-P","ZYF265D","ZYF255DA"]:
+        rr=[r for r in compact if r["material"]==mat]
+        assert len(rr)==17
+        value=[float(r["perda_excedente_dB"]) for r in rr]
+        data.append([mat,br(value[8],3),br(min(value),3)+"–"+br(max(value),3),
+            br(max(float(r["dispersao_amplitude_dB"]) for r in rr),3),
+            br(max(float(r["dispersao_fase_graus"]) for r in rr),3)])
+    table(c,694,[118,88,123,87,87],["Compacta","Centro (dB)","Banda (dB)","Máx. ΔA (dB)","Máx. Δφ (°)"],data,9.2,24)
+    text(c,46,541,"Os dois ZYF300CA ficaram próximos",13,True,TEAL)
+    para(c,519,"A diferença de perda C–P foi de 0,006 dB no centro e inferior a 0,009 dB no pior ponto da banda. É pequena frente à tolerância de convergência e à variação de fabricação. A referência do painel completo continua sendo ZYF300CA-C de 1,52 mm.")
+    table(c,420,[150,110,122,121],["Alongada C","Perda central","ΔA no centro","Δφ no centro"],[
+        ["Núcleo 1,52 mm","3,874 dB","16,27 dB","239,65°"],
+        ["Núcleo 0,76 mm","2,402 dB","4,38 dB","36,81°"]],9.6,26)
+    para(c,315,"A primeira alongada convergiu em 18 passes. O controle de 0,76 mm convergiu em 19 passes. A espessura menor e as trilhas redimensionadas reduziram a perda e o desequilíbrio, que ainda superam os valores das compactas. A previsão por linhas com junções ideais superestimou o desempenho das alongadas.")
+    text(c,46,200,"Escolha para a comparação dos painéis",13,True,TEAL)
+    para(c,177,"A compacta exige mais coaxial e apresentou menor perda de RF e melhor uniformidade de alimentação. O HFSS do painel completo compara a coluna contínua e dez radiadores individuais com os mesmos divisores compactos, refletor, bobinas, N e comprimentos de cabos. A aprovação depende dos campos convergidos.")
+    c.showPage()
+
     if cases["R01"] or cases["R02"]:
-        begin(c,6,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
+        begin(c,7,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
         data=[]
         for i,f in enumerate(range(5090,5251,10)):
             line=[br(f/1000)]

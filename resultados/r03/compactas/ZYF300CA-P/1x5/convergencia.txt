@@ -1,0 +1,26 @@
+Setup : Divisor
+
+==================
+Number of Passes
+Completed : 9
+Maximum   : 16
+Minimum   : 3
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.012
+Current   : 0.0063085
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|          31134|             N/A|
+          2|          38179|         0.44638|
+          3|          47340|         0.26454|
+          4|          58697|        0.075362|
+          5|          72768|         0.05433|
+          6|          90106|        0.019784|
+          7|         111486|        0.013638|
+          8|         137902|       0.0099779|
+          9|         170149|       0.0063085|
+

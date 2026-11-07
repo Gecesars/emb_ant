@@ -8,6 +8,10 @@ ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
 folder = os.path.join(os.environ["P1H_R01"], "estudo")
 
 
+class CentroSomente(Exception):
+    pass
+
+
 def log(line):
     with open(os.path.join(folder, "solucao.log"), "a") as stream:
         stream.write(str(line) + "\n")
@@ -59,6 +63,9 @@ try:
     export_fields("Banda : LastAdaptive", "Centro", [5170])
     project.Save()
     log("CENTRO_CONVERGIDO")
+    if os.environ.get("P1H_SOMENTE_CENTRO")=="1":
+        oDesktop.CloseProject(project.GetName())
+        raise CentroSomente()
     sweep = "Discreta_10MHz"
     if sweep not in setup.GetSweeps("Banda"):
         setup.InsertFrequencySweep("Banda", ["NAME:" + sweep, "IsEnabled:=", True,
@@ -71,5 +78,7 @@ try:
     export_fields("Banda : " + sweep, "Discreta", range(5090, 5251, 10))
     project.Save()
     log("FEM_OK")
+except CentroSomente:
+    pass
 except:
     log(traceback.format_exc())
