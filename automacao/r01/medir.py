@@ -43,6 +43,9 @@ def ler_corte(arquivo, mhz, phi):
 def analisar(work, dest, apenas_centro):
     conv = (work / "convergencia.txt").read_text(encoding="utf-8-sig")
     assert re.search(r"Converged\s*:\s*Yes", conv), "Malha sem convergência documentada"
+    atual=int(re.search(r"Current Consecutive Passes\s*:\s*(\d+)",conv)[1])
+    minimo=int(re.search(r"Target Consecutive Passes\s*:\s*(\d+)",conv)[1])
+    assert atual>=minimo, "Número insuficiente de passes consecutivos"
     frequencias = [5170] if apenas_centro else list(range(5090, 5251, 10))
     tag = "Centro" if apenas_centro else "Discreta"
     retorno, refletida, sigmax, rec = resumo_rede(work / ("centro.s2p" if apenas_centro else "painel.s2p"), frequencias)

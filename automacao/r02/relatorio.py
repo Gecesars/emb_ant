@@ -58,7 +58,7 @@ def table(c,top,widths,labels,data,size=9.7,rh=25):
 def begin(c,n,total,title,sub):
     day=date.today().strftime("%d/%m/%Y")
     text(c,46,802,"P1H   /   ENGENHARIA DE ANTENAS",9,True,TEAL)
-    text(c,429,802,"R01  /  R02     "+day,8.4,False,MUTED)
+    text(c,419,802,"R01–R03     "+day,8.4,False,MUTED)
     c.setStrokeColor(colors.HexColor(TEAL));c.setLineWidth(1);c.line(46,788,549,788)
     text(c,46,751,title,22,True);text(c,46,730,sub,10,False,MUTED)
     c.setStrokeColor(colors.HexColor("#CEDCDE"));c.line(46,48,549,48)
@@ -79,9 +79,9 @@ def band(tag):
 def generate(path):
     for name,file in [("P1H","segoeui.ttf"),("P1H-bold","segoeuib.ttf")]:
         pdfmetrics.registerFont(TTFont(name,str(Path("C:/Windows/Fonts")/file)))
-    cases={name:band(name) for name in ("R01","R02","R02-S")}
+    cases={name:band(name) for name in ("R01","R02","R02-S","R03")}
     complete=all(cases.values())
-    count=3+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))
+    count=4+int(bool(cases["R01"] or cases["R02"]))+int(bool(cases["R02-S"]))+int(bool(cases["R03"]))
     c=Canvas(str(path),pagesize=A4,pageCompression=1)
     c.setTitle("P1H | Distribuição inferior e superior, mecânica, RF e cotação")
     c.setAuthor("Projeto P1H")
@@ -93,16 +93,23 @@ def generate(path):
             lo=min(float(r["ganho_frontal_dBi"]) for r in rr)
             vals=[float(r["H_graus"]) for r in rr]
             data.append([name,br(lo)+" dBi",br(min(vals))+"–"+br(max(vals))+"°",f"{passing}/17"])
-        else:data.append([name,"Em qualificação","Em qualificação","Pendente"])
+        else:
+            folder="r02_separadas" if name=="R02-S" else name.lower()
+            center=repo/"resultados"/folder/"metricas_Centro.csv"
+            if center.exists():
+                r=rows(center)[0]
+                parcial="Reprova no centro" if "False" in (r["atende_H"],r["atende_ganho"]) else "Centro aprovado"
+                data.append([name,br(r["ganho_frontal_dBi"])+" dBi (centro)",br(r["H_graus"])+"° (centro)",parcial])
+            else:data.append([name,"Em qualificação","Em qualificação","Pendente"])
     text(c,46,689,"Ganho e cobertura com o painel montado",14,True,TEAL)
-    table(c,674,[56,142,160,145],["Painel","Menor ganho frontal","Faixa de abertura H","H e ganho na meta"],data)
+    table(c,674,[56,142,160,145],["Painel","Ganho frontal¹","Abertura horizontal¹","H e ganho na meta"],data,9.6,23)
     if complete:
         verdict="A tabela resume a aprovação conjunta de ganho e abertura horizontal por frequência. A página de dados identifica os pontos e as aberturas verticais."
     else:
-        verdict="Relatório parcial. A validação de ganho e cobertura aguarda os campos convergidos do painel nas 17 frequências. Os resultados de rede da página seguinte já passaram pela verificação independente."
-    para(c,555,verdict)
+        verdict="¹ O centro corresponde a 5,17 GHz. Quando há 17 pontos, a tabela mostra o menor ganho e a faixa de H. Um ponto fora do critério já reprova a exigência de atender toda a banda. A R01 apresentou 6,19° na vertical no centro."
+    para(c,547,verdict)
     text(c,46,487,"O que mudou no chicote",14,True,TEAL)
-    para(c,467,"A R02 mantém duas entradas N. Uma placa distribui as polarizações A e B aos cinco elementos inferiores e a outra atende aos cinco superiores. Os vinte ramais passaram de 254 para 130 mm. Cada percurso N–radiador passou de 560,64 para 533,79 mm de coaxial. A R02-S usa as mesmas redes e dez PCBs individuais em guias de POM.")
+    para(c,467,"Uma placa distribui A e B aos cinco elementos inferiores e outra atende os cinco superiores. Na R02 compacta, os vinte ramais têm 130 mm. Na R03 alongada, as saídas ficam sob os radiadores e cada ramal reto tem 26,61 mm. A R02-S usa dez PCBs individuais em guias de POM e a mesma alimentação da R02.")
     with Image.open(repo/"freecad/mecanica_R02/Verso_R02.png") as source:
         art=source.convert("RGB")
         bounds=ImageChops.difference(art,Image.new("RGB",art.size,"white")).getbbox()
@@ -144,8 +151,31 @@ def generate(path):
     c.linkURL("https://github.com/Gecesars/emb_ant",(46,84,285,105))
     c.showPage()
 
+    begin(c,4,count,"Divisores compactos ou alongados","Duas placas para os dez radiadores   •   entrada central de cada grupo e polarização")
+    with Image.open(repo/"freecad/mecanica_R03/Verso_R03.png") as source:
+        art=source.convert("RGB");bounds=ImageChops.difference(art,Image.new("RGB",art.size,"white")).getbbox()
+        c.drawImage(ImageReader(art.crop(bounds)),46,614,503,90,preserveAspectRatio=True,mask="auto")
+    text(c,46,595,"Verso da R03, com os dois conectores N na base à esquerda.",8.9,False,MUTED)
+    table(c,575,[190,150,163],["Por painel ou caminho","R02 compacta","R03 alongada"],[
+        ["Coaxial total","3,672 m (26 peças)","0,674 m (22 peças)"],
+        ["Coaxial por N–radiador","533,792 mm","97,718 mm"],
+        ["Microstrip por N–radiador","≈ 30,4 mm","≈ 494,2 mm"],
+        ["Três PCBs por conjunto¹","R$ 364,56","R$ 403,00"]],9.5,23)
+    text(c,46,442,"Perda prevista a 5,17 GHz com as vinte saídas em 50 Ω",13,True,TEAL)
+    materialrows=rows(repo/"resultados/r03/comparacao_linhas.csv")
+    nominal={(r["material"],r["geometria"]):br(r["perda_excedente_dB"],3) for r in materialrows if r["MHz"]=="5170"}
+    table(c,426,[136,112,123,132],["PTFE de 1,52 mm","Dk / Df","Compacta (dB)","Alongada (dB)"],[
+        [k,v,nominal[k,"compacta"],nominal[k,"alongada"]] for k,v in [
+        ("ZYF300CA-C","2,94 / 0,0016"),("ZYF300CA-P","3,00 / 0,0018"),
+        ("ZYF265D","2,65 / 0,0019"),("ZYF255DA","2,55 / 0,0018")]],9.5,22)
+    para(c,299,"Cálculo nominal de linhas com perdas e junções ideais. Em ZYF300CA-C, o ensaio independente com as matrizes HFSS dos dois estágios compactos deu 0,849 dB. Na alongada, C e ZYF255DA ficam a 0,011 dB um do outro no modelo de linhas. A comparação física exige incluir as curvas, as emendas e os lançamentos. O banho de níquel do ENIG pode acrescentar perda.")
+    para(c,194,"¹ A JLCPCB reconheceu as alongadas de 260,15 × 82 e 229,35 × 82 mm. Os lotes de cinco custaram R$ 688,85 e R$ 670,50. Com o radiador contínuo RO4350B de 0,76 mm, são R$ 2.014,99 para cinco conjuntos de três placas, antes de frete, tributos e montagem.")
+    text(c,46,98,"Arquivos KiCad, FreeCAD, DXFs, dados e comprovantes",9.7,True,TEAL)
+    c.linkURL("https://github.com/Gecesars/emb_ant/tree/main/resultados/r03",(46,92,420,111))
+    c.showPage()
+
     if cases["R01"] or cases["R02"]:
-        begin(c,4,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
+        begin(c,5,count,"Diagrama e ganho por frequência","Ganho realizado frontal em dBi   •   H e V a −3 dB em graus")
         data=[]
         for i,f in enumerate(range(5090,5251,10)):
             line=[br(f/1000)]
@@ -159,7 +189,7 @@ def generate(path):
         para(c,140,"O interior dos conectores N, os polímeros mecânicos e as soldas usam propriedades nominais. Confirmar diagrama, potência refletida, continuidade e estanqueidade no protótipo físico.")
         c.showPage()
     if cases["R02-S"]:
-        begin(c,count,count,"Uma placa ou dez radiadores","R02 e R02-S com a mesma rede de alimentação, refletor de 2 mm e comprimento dos cabos")
+        begin(c,count-int(bool(cases["R03"])),count,"Uma placa ou dez radiadores","R02 e R02-S com a mesma rede de alimentação, refletor de 2 mm e comprimento dos cabos")
         data=[]
         for i,r in enumerate(cases["R02-S"]):
             ccont=cases["R02"][i] if cases["R02"] else None
@@ -168,6 +198,12 @@ def generate(path):
         table(c,695,[64,118,100,90,131],["GHz","R02-S ganho (dBi)","R02-S H (°)","R02-S V (°)","Δ ganho vs. R02 (dB)"],data,9.6,23)
         text(c,46,246,"Comparação montada no mesmo refletor",12,True,TEAL)
         para(c,226,"As dez PCBs quadradas têm 28,3125 mm de lado. O cobre, as soldas, o posicionamento, os divisores e os planos de referência são os mesmos da placa contínua. Na R02-S, duas guias de POM com alojamentos mantêm os radiadores nas coordenadas nominais. A comparação inclui o efeito desse apoio e da retirada de laminado entre os elementos.")
+        c.showPage()
+    if cases["R03"]:
+        begin(c,count,count,"Painel com divisores alongados","Cortes do painel completo R03, referidos às duas entradas N")
+        table(c,695,[73,112,104,92,122],["GHz","Ganho (dBi)","H (°)","V (°)","H e ganho"],[
+            [br(int(r["MHz"])/1000),br(r["ganho_frontal_dBi"]),br(r["H_graus"]),br(r["V_graus"]),
+             "Atende" if r["atende_H"]==r["atende_ganho"]=="True" else "Reprova"] for r in cases["R03"]],9.7,23)
         c.showPage()
     c.save()
 

@@ -22,6 +22,8 @@ try:
     diel={"POM_nom":(3.4,.01),"Silicone_nom":(2.77,.02),"PE_nom":(2.3,.001),
           "PTFE_cabo":(er,tand),"RO4350B_R01":(3.66,.0037),"ZYF300":(2.94,.0016)}
     cond={"AL5052":2.0e7,"aco_nom":1.4e6,"latao_nom":1.6e7,"SAC305":7.575758e6}
+    materiais=os.path.join(cad,"laminados.json")
+    if os.path.isfile(materiais):diel.update(json.load(open(materiais)))
     for key,(dk,lt) in diel.items():
         dm.AddMaterial(["NAME:"+key,"CoordinateSystemType:=","Cartesian","BulkOrSurfaceType:=",1,["NAME:PhysicsTypes","set:=",["Electromagnetic"]],"permittivity:=",str(dk),"dielectric_loss_tangent:=",str(lt)])
     for key,s in cond.items():

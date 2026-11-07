@@ -4,6 +4,7 @@
 *.zip -text
 *.png -text
 *.jpg -text
+*.pdf binary
 *.kicad_pcb text eol=lf
 *.md text eol=lf
 *.py text eol=lf
