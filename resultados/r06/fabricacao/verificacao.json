@@ -1,0 +1,38 @@
+{
+  "P1H_Coluna_10": {
+    "erros": 0,
+    "nao_conectados": 0,
+    "avisos": {
+      "solder_mask_bridge": 203
+    },
+    "data": "2026-11-07T17:26:30",
+    "versao": "10.0.5",
+    "pcb": "kicad\\P1H_Coluna_10\\P1H_Coluna_10.kicad_pcb",
+    "pcb_sha256": "80d835fbb9635689423de97bed3746977b155de3d1c30475befafd81e37a8eec",
+    "gerber": "fabricacao\\gerbers\\Gerber_P1H_Coluna_10.zip",
+    "gerber_sha256": "6f7b16622e02315e772a2115624d73dff43d2ac2e488a7dcc91708f004db86d8"
+  },
+  "R02_Inferior": {
+    "erros": 0,
+    "nao_conectados": 0,
+    "avisos": {},
+    "data": "2026-11-07T17:26:32",
+    "versao": "10.0.5",
+    "pcb": "kicad\\R02_Inferior\\R02_Inferior.kicad_pcb",
+    "pcb_sha256": "19062a38272bb7614dcd7725efcb2b5f532856207dc6c0d53a7edcb04bdfa695",
+    "gerber": "fabricacao\\gerbers\\Gerber_R02_Inferior.zip",
+    "gerber_sha256": "b2fe4fc91d02352b0b645f4bb0b78cc56f26a9cc7d5b875ef14f434f2af69a93"
+  },
+  "R02_Superior": {
+    "erros": 0,
+    "nao_conectados": 0,
+    "avisos": {},
+    "data": "2026-11-07T17:26:35",
+    "versao": "10.0.5",
+    "pcb": "kicad\\R02_Superior\\R02_Superior.kicad_pcb",
+    "pcb_sha256": "8e1dfaf81a0c2ece47e31efe161557586b399d97527ca86e2bc838c0009caf09",
+    "gerber": "fabricacao\\gerbers\\Gerber_R02_Superior.zip",
+    "gerber_sha256": "fdf3b822a98f9ea16f61fa1edad377cc326f1d7ac41b446f7b3e9ce63b489c60"
+  },
+  "nota": "As aberturas amplas de mascara nos radiadores RF geram avisos de ponte de mascara. Nao foram suprimidos. Nenhum erro eletrico ou item desconectado no DRC; nenhuma placa foi alterada por esta verificacao."
+}

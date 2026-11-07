@@ -2,7 +2,7 @@
 
 A revisão usa a placa contínua com dez radiadores, os dois divisores compactos da R02 e ambas as entradas N em fase. A face plana do refletor passou a **40 mm**. O chicote usa **duas entradas de 290 mm, quatro enlaces de 132 mm e vinte ramais de 135 mm**. A bobina de curto DC recebe uma abertura radial de Ø1 mm que preserva o restante da blindagem do coaxial.
 
-**Estado:** geometria e interferências verificadas; o resultado de RF depende da simulação integral da R05. O desenho não constitui aprovação de desempenho nem qualificação da vedação.
+**Estado:** geometria e interferências verificadas. Em 7/11/2026, o usuário substituiu a análise integral por simulação separada das PCBs e circuito sem atenuação dos cabos; consultar a [qualificação R06](../../resultados/r06/README.md). A montagem continua mostrando os cabos para fabricação. O desenho não constitui qualificação da vedação.
 
 | Entrega | Arquivo |
 |---|---|

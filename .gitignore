@@ -5,6 +5,7 @@
 *.aedt.auto
 *.aedt.bak
 *.aedtz
+!hfss/circuito/R06/P1H_R06_Circuito_sem_malhas.aedtz
 *.asol*
 *.semaphore
 *.hfss
