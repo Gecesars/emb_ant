@@ -1,0 +1,12 @@
+{
+  "comprimentos_mm": [
+    290,
+    132,
+    133
+  ],
+  "estado": "Verificacao R07 em17pontos pendente; R06 permanece qualificado somente em5.17GHz",
+  "justificativa": "Ramais reduzidos de135 para133mm para corrigir VSWR individual da entrada B; nenhuma perda nos cabos.",
+  "geometria": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\Painel_R05.FCStd",
+  "verificacao": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\verificacao.json",
+  "qualificacao_rf": "circuito/resultado_banda.json"
+}

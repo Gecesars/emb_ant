@@ -1,0 +1,13 @@
+{
+  "regressao_centro_delta_max": {
+    "ganho_frontal_realizado_dBi": 0.0,
+    "abertura_H_graus": 0.0,
+    "abertura_V_graus": 0.0,
+    "VSWR_ativo_AB": 0.0,
+    "VSWR_outro_porto_casado_AB": 0.0
+  },
+  "auditor_R06_preservado": true,
+  "antena_centro_rejeitada_fora_frequencia": true,
+  "divisores_17_frequencias_validos": true,
+  "linhas_ideais_modulo1": true
+}

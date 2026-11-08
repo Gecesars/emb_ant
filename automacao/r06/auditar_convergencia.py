@@ -6,12 +6,12 @@ import re
 from pathlib import Path
 
 
-def audit(project, write=True):
+def audit(project, write=True, max_delta_s=.008, max_delta_campo=.05):
     native = project.read_bytes().decode('latin1')
     setup_s=[float(x) for x in re.findall(r'MaxDeltaS=([^\s]+)',native)]
     setup_ff=[float(x) for x in re.findall(r'MaxConvergenceDelta=([^\s]+)',native)]
     assert len(setup_s)==1 and len(setup_ff)==9 and len(set(setup_ff))==1
-    limit_s=min(.008,setup_s[0]);limit_ff=min(.05,setup_ff[0])
+    limit_s=min(max_delta_s,setup_s[0]);limit_ff=min(max_delta_campo,setup_ff[0])
     maximum=int(re.search(r'MaximumPasses=(\d+)',native)[1])
     minimum=int(re.search(r'MinimumPasses=(\d+)',native)[1])
     folder = project.with_suffix('.aedtresults')
@@ -80,14 +80,16 @@ def audit(project, write=True):
         r['delta_campo_max_dB'] is not None and r['delta_campo_max_dB'] <= limit_ff for r in recent)
     native_ok = 'IsConverged=true' in data
     minimum_ok = bool(history) and max(history) >= minimum
+    maximum_ok = bool(history) and max(history) <= maximum
     result = dict(projeto=str(project), cache_fonte=str(cache), convergencia_fonte=str(convergence_file),
         historicos_de_outras_configuracoes=[str(p) for p in files if p!=convergence_file],
         convergiu_nativo=native_ok,
         criterio_s_usado=limit_s,criterio_campo_dB_usado=limit_ff,
         minimo_passes_configurado=minimum,minimo_passes_atendido=minimum_ok,
+        maximo_passes_configurado=maximum,maximo_passes_respeitado=maximum_ok,
         passes_cache_restaurados_da_continuacao=restored,
         s_008_dois_passes=s_ok, campo_005dB_nove_direcoes_dois_passes=ff_ok,
-        convergencia_aprovada=bool(native_ok and minimum_ok and s_ok and ff_ok), historico=list(history.values()))
+        convergencia_aprovada=bool(native_ok and minimum_ok and maximum_ok and s_ok and ff_ok), historico=list(history.values()))
     if write:
         (project.parent/'auditoria_convergencia.json').write_text(json.dumps(result, indent=2), encoding='utf8')
     return result
