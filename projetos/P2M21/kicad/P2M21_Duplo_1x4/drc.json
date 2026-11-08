@@ -1,0 +1,497 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-08T15:40:46",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "P2M21_Duplo_1x4.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 97.1,
+                        "y": 89.25
+                    },
+                    "uuid": "63b939aa-fd85-4116-b60b-341f999d4ee1"
+                },
+                {
+                    "description": "Ilha PTH 1 [A] de J2",
+                    "pos": {
+                        "x": 94.8,
+                        "y": 89.25
+                    },
+                    "uuid": "9edd9e28-0c2d-4d7b-9a43-222f65efcf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 35.55
+                    },
+                    "uuid": "d8b85dcf-541b-4fbe-baa0-f62fbdae3e15"
+                },
+                {
+                    "description": "Ilha PTH 1 [B] de J8",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 35.55
+                    },
+                    "uuid": "97d7ca4a-9e60-4332-b177-7d5c14630fd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 89.25
+                    },
+                    "uuid": "d058488f-f046-444e-ac60-346a6e85cdf7"
+                },
+                {
+                    "description": "Ilha 2 [GND] de J5 no B.Cu",
+                    "pos": {
+                        "x": 127.05,
+                        "y": 89.25
+                    },
+                    "uuid": "a48d0ff3-8f27-4320-9728-6456ebf5851e"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 89.25
+                    },
+                    "uuid": "d058488f-f046-444e-ac60-346a6e85cdf7"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 32.972505
+                    },
+                    "uuid": "f71efac7-c8e3-482b-b7aa-c852f28618ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 104.45
+                    },
+                    "uuid": "409295cd-c5ac-4716-9c05-8663a8e6ee0d"
+                },
+                {
+                    "description": "Ilha 2 [GND] de J3 no B.Cu",
+                    "pos": {
+                        "x": 111.85,
+                        "y": 104.45
+                    },
+                    "uuid": "05506e72-d647-42da-b270-dc0308838178"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 104.45
+                    },
+                    "uuid": "409295cd-c5ac-4716-9c05-8663a8e6ee0d"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 32.972505
+                    },
+                    "uuid": "f71efac7-c8e3-482b-b7aa-c852f28618ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 35.55
+                    },
+                    "uuid": "d8b85dcf-541b-4fbe-baa0-f62fbdae3e15"
+                },
+                {
+                    "description": "Ilha PTH 1 [B] de J8",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 35.55
+                    },
+                    "uuid": "97d7ca4a-9e60-4332-b177-7d5c14630fd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 50.75
+                    },
+                    "uuid": "aa78bc8c-b940-4f59-b742-c009a1bb1b9d"
+                },
+                {
+                    "description": "Ilha PTH 1 [B] de J6",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 50.75
+                    },
+                    "uuid": "50c9e0cd-4238-46f3-adf5-354b3dc6ddd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 50.75
+                    },
+                    "uuid": "aa78bc8c-b940-4f59-b742-c009a1bb1b9d"
+                },
+                {
+                    "description": "Ilha PTH 1 [B] de J6",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 50.75
+                    },
+                    "uuid": "50c9e0cd-4238-46f3-adf5-354b3dc6ddd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 50.75
+                    },
+                    "uuid": "73b6aa93-d9ce-42e9-ad1a-47d29190eb39"
+                },
+                {
+                    "description": "Ilha 2 [GND] de J10 no B.Cu",
+                    "pos": {
+                        "x": 127.05,
+                        "y": 50.75
+                    },
+                    "uuid": "abd675ea-d1e3-4966-8789-ba040ad8267b"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 127.5,
+                        "y": 50.75
+                    },
+                    "uuid": "73b6aa93-d9ce-42e9-ad1a-47d29190eb39"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 32.972505
+                    },
+                    "uuid": "f71efac7-c8e3-482b-b7aa-c852f28618ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 74.05
+                    },
+                    "uuid": "3df461a3-b8eb-4be7-9728-a4679fb89e44"
+                },
+                {
+                    "description": "Ilha PTH 1 [A] de J4",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 74.05
+                    },
+                    "uuid": "b3af68cf-2943-47bc-9191-8947af2df9c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 89.25
+                    },
+                    "uuid": "91793160-121c-4137-a0cb-a424c750ce67"
+                },
+                {
+                    "description": "Ilha 2 [GND] de J1 no B.Cu",
+                    "pos": {
+                        "x": 111.85,
+                        "y": 89.25
+                    },
+                    "uuid": "94c18303-a792-4de6-8bb8-b1da6be2d4cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 89.25
+                    },
+                    "uuid": "91793160-121c-4137-a0cb-a424c750ce67"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 32.972505
+                    },
+                    "uuid": "f71efac7-c8e3-482b-b7aa-c852f28618ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 65.95
+                    },
+                    "uuid": "c603701a-6ac4-4c5a-abd1-9a10b9a5c98c"
+                },
+                {
+                    "description": "Ilha 2 [GND] de J9 no B.Cu",
+                    "pos": {
+                        "x": 111.85,
+                        "y": 65.95
+                    },
+                    "uuid": "89ff2233-a410-48df-b28e-998f340ef009"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 65.95
+                    },
+                    "uuid": "c603701a-6ac4-4c5a-abd1-9a10b9a5c98c"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 32.972505
+                    },
+                    "uuid": "f71efac7-c8e3-482b-b7aa-c852f28618ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 97.1,
+                        "y": 50.75
+                    },
+                    "uuid": "0d935fc1-0672-4596-a03f-5ed5268d51e6"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 129.0,
+                        "y": 32.972505
+                    },
+                    "uuid": "f71efac7-c8e3-482b-b7aa-c852f28618ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 97.1,
+                        "y": 50.75
+                    },
+                    "uuid": "0d935fc1-0672-4596-a03f-5ed5268d51e6"
+                },
+                {
+                    "description": "Ilha 2 [GND] de J7 no B.Cu",
+                    "pos": {
+                        "x": 96.65,
+                        "y": 50.75
+                    },
+                    "uuid": "3a999038-511f-4057-95f3-68ea356ad0a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 97.1,
+                        "y": 89.25
+                    },
+                    "uuid": "63b939aa-fd85-4116-b60b-341f999d4ee1"
+                },
+                {
+                    "description": "Ilha PTH 1 [A] de J2",
+                    "pos": {
+                        "x": 94.8,
+                        "y": 89.25
+                    },
+                    "uuid": "9edd9e28-0c2d-4d7b-9a43-222f65efcf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda de trás conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no B.Mask",
+                    "pos": {
+                        "x": 112.3,
+                        "y": 74.05
+                    },
+                    "uuid": "3df461a3-b8eb-4be7-9728-a4679fb89e44"
+                },
+                {
+                    "description": "Ilha PTH 1 [A] de J4",
+                    "pos": {
+                        "x": 110.0,
+                        "y": 74.05
+                    },
+                    "uuid": "b3af68cf-2943-47bc-9191-8947af2df9c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

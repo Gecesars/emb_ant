@@ -16,3 +16,8 @@
 freecad/**/*.json -text whitespace=-blank-at-eol,-blank-at-eof
 resultados/**/*.txt -text whitespace=-blank-at-eol,-blank-at-eof
 resultados/**/*.json -text whitespace=-blank-at-eol,-blank-at-eof
+# Evidencias e nativos P2M21: manifesto confere exatamente os bytes exportados.
+projetos/P2M21/**/*.json -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2M21/**/*.txt -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2M21/**/*.kicad_pcb -text whitespace=cr-at-eol
+projetos/P2M21/**/*.kicad_pro -text whitespace=cr-at-eol

@@ -1,0 +1,1239 @@
+{
+  "ligacoes": [
+    {
+      "tipo": "ramal",
+      "origem": "D1:A1",
+      "destino": "E02_A",
+      "comprimento_ortogonal_mm": 126.20666317391871,
+      "inicio": [
+        -330.8,
+        -19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        -391.99083158695936,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A2",
+      "destino": "E03_A",
+      "comprimento_ortogonal_mm": 48.806663173918736,
+      "inicio": [
+        -326.34802307403555,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -339.3908315869594,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A3",
+      "destino": "E04_A",
+      "comprimento_ortogonal_mm": 67.31061702584769,
+      "inicio": [
+        -326.34802307403555,
+        -8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        -339.3908315869594,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A4",
+      "destino": "E01_A",
+      "comprimento_ortogonal_mm": 116.60666317391872,
+      "inicio": [
+        -315.6,
+        -34.45,
+        -11.7
+      ],
+      "fim": [
+        -391.99083158695936,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A5",
+      "destino": "E08_A",
+      "comprimento_ortogonal_mm": 131.22500000000002,
+      "inicio": [
+        -315.6,
+        -4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        -234.19083158695938,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A6",
+      "destino": "E05_A",
+      "comprimento_ortogonal_mm": 53.82500000000002,
+      "inicio": [
+        -304.8519769259645,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -286.79083158695937,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A7",
+      "destino": "E06_A",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        -304.8519769259645,
+        -8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        -286.79083158695937,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:A8",
+      "destino": "E07_A",
+      "comprimento_ortogonal_mm": 97.74333682608128,
+      "inicio": [
+        -300.40000000000003,
+        -19.25,
+        -11.7
+      ],
+      "fim": [
+        -234.19083158695938,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B1",
+      "destino": "E01_B",
+      "comprimento_ortogonal_mm": 126.20666317391871,
+      "inicio": [
+        -330.8,
+        19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        -391.99083158695936,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B2",
+      "destino": "E02_B",
+      "comprimento_ortogonal_mm": 101.4066631739187,
+      "inicio": [
+        -326.34802307403555,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -391.99083158695936,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B3",
+      "destino": "E03_B",
+      "comprimento_ortogonal_mm": 67.31061702584769,
+      "inicio": [
+        -326.34802307403555,
+        8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        -339.3908315869594,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B4",
+      "destino": "E04_B",
+      "comprimento_ortogonal_mm": 64.00666317391875,
+      "inicio": [
+        -315.6,
+        34.45,
+        -11.7
+      ],
+      "fim": [
+        -339.3908315869594,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B5",
+      "destino": "E07_B",
+      "comprimento_ortogonal_mm": 131.22500000000002,
+      "inicio": [
+        -315.6,
+        4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        -234.19083158695938,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B6",
+      "destino": "E06_B",
+      "comprimento_ortogonal_mm": 53.82500000000002,
+      "inicio": [
+        -304.8519769259645,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -286.79083158695937,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B7",
+      "destino": "E05_B",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        -304.8519769259645,
+        8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        -286.79083158695937,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D1:B8",
+      "destino": "E08_B",
+      "comprimento_ortogonal_mm": 97.74333682608128,
+      "inicio": [
+        -300.40000000000003,
+        19.25,
+        -11.7
+      ],
+      "fim": [
+        -234.19083158695938,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A1",
+      "destino": "E11_A",
+      "comprimento_ortogonal_mm": 40.12499999999998,
+      "inicio": [
+        -120.4,
+        -19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        -128.99083158695936,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A2",
+      "destino": "E09_A",
+      "comprimento_ortogonal_mm": 101.40666317391876,
+      "inicio": [
+        -115.94802307403552,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -181.59083158695938,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A3",
+      "destino": "E12_A",
+      "comprimento_ortogonal_mm": 67.31061702584768,
+      "inicio": [
+        -115.94802307403553,
+        -8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        -128.99083158695936,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A4",
+      "destino": "E15_A",
+      "comprimento_ortogonal_mm": 121.625,
+      "inicio": [
+        -105.2,
+        -34.45,
+        -11.7
+      ],
+      "fim": [
+        -23.790831586959367,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A5",
+      "destino": "E10_A",
+      "comprimento_ortogonal_mm": 126.20666317391874,
+      "inicio": [
+        -105.2,
+        -4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        -181.59083158695938,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A6",
+      "destino": "E13_A",
+      "comprimento_ortogonal_mm": 53.825,
+      "inicio": [
+        -94.45197692596449,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -76.39083158695938,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A7",
+      "destino": "E14_A",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        -94.45197692596449,
+        -8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        -76.39083158695938,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:A8",
+      "destino": "E16_A",
+      "comprimento_ortogonal_mm": 131.225,
+      "inicio": [
+        -90.0,
+        -19.25,
+        -11.7
+      ],
+      "fim": [
+        -23.790831586959367,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B1",
+      "destino": "E12_B",
+      "comprimento_ortogonal_mm": 40.12499999999998,
+      "inicio": [
+        -120.4,
+        19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        -128.99083158695936,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B2",
+      "destino": "E10_B",
+      "comprimento_ortogonal_mm": 101.40666317391876,
+      "inicio": [
+        -115.94802307403552,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -181.59083158695938,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B3",
+      "destino": "E11_B",
+      "comprimento_ortogonal_mm": 67.31061702584768,
+      "inicio": [
+        -115.94802307403553,
+        8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        -128.99083158695936,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B4",
+      "destino": "E16_B",
+      "comprimento_ortogonal_mm": 121.625,
+      "inicio": [
+        -105.2,
+        34.45,
+        -11.7
+      ],
+      "fim": [
+        -23.790831586959367,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B5",
+      "destino": "E09_B",
+      "comprimento_ortogonal_mm": 126.20666317391874,
+      "inicio": [
+        -105.2,
+        4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        -181.59083158695938,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B6",
+      "destino": "E14_B",
+      "comprimento_ortogonal_mm": 53.825,
+      "inicio": [
+        -94.45197692596449,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        -76.39083158695938,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B7",
+      "destino": "E13_B",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        -94.45197692596449,
+        8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        -76.39083158695938,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D2:B8",
+      "destino": "E15_B",
+      "comprimento_ortogonal_mm": 131.225,
+      "inicio": [
+        -90.0,
+        19.25,
+        -11.7
+      ],
+      "fim": [
+        -23.790831586959367,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A1",
+      "destino": "E19_A",
+      "comprimento_ortogonal_mm": 40.12499999999999,
+      "inicio": [
+        90.0,
+        -19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        81.40916841304063,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A2",
+      "destino": "E17_A",
+      "comprimento_ortogonal_mm": 101.40666317391876,
+      "inicio": [
+        94.45197692596449,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        28.809168413040627,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A3",
+      "destino": "E20_A",
+      "comprimento_ortogonal_mm": 67.31061702584769,
+      "inicio": [
+        94.45197692596447,
+        -8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        81.40916841304063,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A4",
+      "destino": "E21_A",
+      "comprimento_ortogonal_mm": 69.025,
+      "inicio": [
+        105.2,
+        -34.45,
+        -11.7
+      ],
+      "fim": [
+        134.00916841304064,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A5",
+      "destino": "E18_A",
+      "comprimento_ortogonal_mm": 126.20666317391874,
+      "inicio": [
+        105.2,
+        -4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        28.809168413040627,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A6",
+      "destino": "E23_A",
+      "comprimento_ortogonal_mm": 106.42500000000004,
+      "inicio": [
+        115.94802307403552,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        186.60916841304066,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A7",
+      "destino": "E22_A",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        115.94802307403552,
+        -8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        134.00916841304064,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:A8",
+      "destino": "E24_A",
+      "comprimento_ortogonal_mm": 131.22500000000002,
+      "inicio": [
+        120.4,
+        -19.25,
+        -11.7
+      ],
+      "fim": [
+        186.60916841304066,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B1",
+      "destino": "E20_B",
+      "comprimento_ortogonal_mm": 40.12499999999999,
+      "inicio": [
+        90.0,
+        19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        81.40916841304063,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B2",
+      "destino": "E18_B",
+      "comprimento_ortogonal_mm": 101.40666317391876,
+      "inicio": [
+        94.45197692596449,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        28.809168413040627,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B3",
+      "destino": "E19_B",
+      "comprimento_ortogonal_mm": 67.31061702584769,
+      "inicio": [
+        94.45197692596447,
+        8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        81.40916841304063,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B4",
+      "destino": "E22_B",
+      "comprimento_ortogonal_mm": 69.025,
+      "inicio": [
+        105.2,
+        34.45,
+        -11.7
+      ],
+      "fim": [
+        134.00916841304064,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B5",
+      "destino": "E17_B",
+      "comprimento_ortogonal_mm": 126.20666317391874,
+      "inicio": [
+        105.2,
+        4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        28.809168413040627,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B6",
+      "destino": "E24_B",
+      "comprimento_ortogonal_mm": 106.42500000000004,
+      "inicio": [
+        115.94802307403552,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        186.60916841304066,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B7",
+      "destino": "E21_B",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        115.94802307403552,
+        8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        134.00916841304064,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D3:B8",
+      "destino": "E23_B",
+      "comprimento_ortogonal_mm": 131.22500000000002,
+      "inicio": [
+        120.4,
+        19.25,
+        -11.7
+      ],
+      "fim": [
+        186.60916841304066,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A1",
+      "destino": "E27_A",
+      "comprimento_ortogonal_mm": 40.12500000000001,
+      "inicio": [
+        300.40000000000003,
+        -19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        291.80916841304065,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A2",
+      "destino": "E25_A",
+      "comprimento_ortogonal_mm": 101.40666317391873,
+      "inicio": [
+        304.8519769259645,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        239.20916841304066,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A3",
+      "destino": "E28_A",
+      "comprimento_ortogonal_mm": 67.31061702584769,
+      "inicio": [
+        304.8519769259645,
+        -8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        291.80916841304065,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A4",
+      "destino": "E29_A",
+      "comprimento_ortogonal_mm": 69.02500000000003,
+      "inicio": [
+        315.6,
+        -34.45,
+        -11.7
+      ],
+      "fim": [
+        344.4091684130407,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A5",
+      "destino": "E26_A",
+      "comprimento_ortogonal_mm": 126.20666317391874,
+      "inicio": [
+        315.6,
+        -4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        239.20916841304066,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A6",
+      "destino": "E31_A",
+      "comprimento_ortogonal_mm": 106.42499999999998,
+      "inicio": [
+        326.34802307403555,
+        -29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        397.00916841304064,
+        -22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A7",
+      "destino": "E30_A",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        326.34802307403555,
+        -8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        344.4091684130407,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:A8",
+      "destino": "E32_A",
+      "comprimento_ortogonal_mm": 131.225,
+      "inicio": [
+        330.8,
+        -19.25,
+        -11.7
+      ],
+      "fim": [
+        397.00916841304064,
+        17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B1",
+      "destino": "E25_B",
+      "comprimento_ortogonal_mm": 126.20666317391874,
+      "inicio": [
+        300.40000000000003,
+        19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        239.20916841304066,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B2",
+      "destino": "E26_B",
+      "comprimento_ortogonal_mm": 101.40666317391873,
+      "inicio": [
+        304.8519769259645,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        239.20916841304066,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B3",
+      "destino": "E27_B",
+      "comprimento_ortogonal_mm": 67.31061702584769,
+      "inicio": [
+        304.8519769259645,
+        8.50197692596448,
+        -11.7
+      ],
+      "fim": [
+        291.80916841304065,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B4",
+      "destino": "E28_B",
+      "comprimento_ortogonal_mm": 64.00666317391875,
+      "inicio": [
+        315.6,
+        34.45,
+        -11.7
+      ],
+      "fim": [
+        291.80916841304065,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B5",
+      "destino": "E31_B",
+      "comprimento_ortogonal_mm": 131.225,
+      "inicio": [
+        315.6,
+        4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        397.00916841304064,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B6",
+      "destino": "E30_B",
+      "comprimento_ortogonal_mm": 53.82500000000002,
+      "inicio": [
+        326.34802307403555,
+        29.998023074035522,
+        -11.7
+      ],
+      "fim": [
+        344.4091684130407,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B7",
+      "destino": "E29_B",
+      "comprimento_ortogonal_mm": 72.32895385192896,
+      "inicio": [
+        326.34802307403555,
+        8.501976925964476,
+        -11.7
+      ],
+      "fim": [
+        344.4091684130407,
+        -17.49083158695937,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "ramal",
+      "origem": "D4:B8",
+      "destino": "E32_B",
+      "comprimento_ortogonal_mm": 97.74333682608125,
+      "inicio": [
+        330.8,
+        19.25,
+        -11.7
+      ],
+      "fim": [
+        397.00916841304064,
+        22.50916841304063,
+        16.575
+      ],
+      "comprimento_reservado_mm": 165
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:A1",
+      "destino": "D2:A_IN",
+      "comprimento_ortogonal_mm": 90.0,
+      "inicio": [
+        -15.2,
+        -19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        -105.2,
+        -19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:A2",
+      "destino": "D3:A_IN",
+      "comprimento_ortogonal_mm": 120.4,
+      "inicio": [
+        9.307315673519883e-16,
+        -34.45,
+        -11.7
+      ],
+      "fim": [
+        105.2,
+        -19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:A3",
+      "destino": "D1:A_IN",
+      "comprimento_ortogonal_mm": 330.8,
+      "inicio": [
+        -2.792194702055965e-15,
+        -4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        -315.6,
+        -19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:A4",
+      "destino": "D4:A_IN",
+      "comprimento_ortogonal_mm": 300.40000000000003,
+      "inicio": [
+        15.2,
+        -19.25,
+        -11.7
+      ],
+      "fim": [
+        315.6,
+        -19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:B1",
+      "destino": "D2:B_IN",
+      "comprimento_ortogonal_mm": 90.0,
+      "inicio": [
+        -15.2,
+        19.250000000000004,
+        -11.7
+      ],
+      "fim": [
+        -105.2,
+        19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:B2",
+      "destino": "D3:B_IN",
+      "comprimento_ortogonal_mm": 120.4,
+      "inicio": [
+        9.307315673519883e-16,
+        34.45,
+        -11.7
+      ],
+      "fim": [
+        105.2,
+        19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:B3",
+      "destino": "D1:B_IN",
+      "comprimento_ortogonal_mm": 330.8,
+      "inicio": [
+        -2.792194702055965e-15,
+        4.050000000000001,
+        -11.7
+      ],
+      "fim": [
+        -315.6,
+        19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    },
+    {
+      "tipo": "tronco",
+      "origem": "RAIZ:B4",
+      "destino": "D4:B_IN",
+      "comprimento_ortogonal_mm": 300.40000000000003,
+      "inicio": [
+        15.2,
+        19.25,
+        -11.7
+      ],
+      "fim": [
+        315.6,
+        19.25,
+        -11.7
+      ],
+      "comprimento_reservado_mm": 365
+    }
+  ],
+  "reservas_comprimento_mm": {
+    "ramal": 165,
+    "tronco": 365
+  },
+  "nota": "Comprimentos preliminares para reserva de roteamento; nao e lista de corte liberada. Custo Manhattan mais30mm, sem curva 3D otimizada. Cabos ideais de fase no circuito. Ajuste por fase eletrica apos matrizes S reais.",
+  "entradas": "Duas entradas independentes A/B, mesma abertura de32radiadores por entrada, outra casada50ohms.",
+  "comparacao_posicao": {
+    "centro_distancia_longitudinal_max_mm": 315.6,
+    "base_distancia_longitudinal_max_mm": 740.6,
+    "criterio": "Distancia geometrica entre centros, sem somar arcos, conexoes e entradas N."
+  }
+}

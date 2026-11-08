@@ -1,0 +1,264 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\P2M21_Duplo_1x4.aedtresults\\PCB_separada.results\\nominalmesh.g3derr",
+  "bytes": 305217,
+  "escopo_execucao": null,
+  "blocos_historicos_excluidos": 0,
+  "corpos_major_historicos_ids": [],
+  "origem_timestamps": [
+    1794163846,
+    1794163860,
+    1794163873,
+    1794163890,
+    1794163906,
+    1794163924
+  ],
+  "reparos_major": 0,
+  "reparos_minor": 0,
+  "corpos_major_ids": [],
+  "corpos_minor_ids": [],
+  "ocorrencias_major": 0,
+  "ocorrencias_minor": 0,
+  "avisos": [
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : Estrela_B",
+        "Small mesh segment detected on body : Estrela_B",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017736mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "1 -1  # nfids, fids[]",
+        "1 678  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : Estrela_A",
+        "Small mesh segment detected on body : Estrela_A",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018060mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "1 -1  # nfids, fids[]",
+        "1 1528  # nbids, bids[]"
+      ],
+      "ocorrencias": 1
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1548  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  803  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1610  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  768  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  729  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1649  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1587  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  694  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1616  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 6
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : Estrela_A",
+        "Small mesh segment detected on body : Estrela_A",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.019081mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "1 -1  # nfids, fids[]",
+        "1 1528  # nbids, bids[]"
+      ],
+      "ocorrencias": 1
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  797  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 5
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : Estrela_A",
+        "Small mesh segment detected on body : Estrela_A",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.020501mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "1 -1  # nfids, fids[]",
+        "1 1528  # nbids, bids[]"
+      ],
+      "ocorrencias": 1
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : Estrela_B",
+        "Small mesh segment detected on body : Estrela_B",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  762  # nfids, fids[]",
+        "2 678  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 4
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1542  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 4
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : Estrela_A",
+        "Small mesh segment detected on body : Estrela_A",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.021538mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "1 -1  # nfids, fids[]",
+        "1 1528  # nbids, bids[]"
+      ],
+      "ocorrencias": 3
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  735  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 3
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1581  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 3
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  683  700  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 2
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "3 -1  1533  1655  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 2
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "4 -1  239  1532  1610  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 1
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "4 -1  239  682  694  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 1
+    },
+    {
+      "cabecalho": [
+        "26 Small mesh segment detected on body : RadiatingSurface",
+        "Small mesh segment detected on body : RadiatingSurface",
+        "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.025900mm. The cutoff frequency for S-Matrix Only Solve is 2.55593382389628MHz",
+        "4 -1  239  682  729  # nfids, fids[]",
+        "2 2826  -1  # nbids, bids[]"
+      ],
+      "ocorrencias": 1
+    }
+  ],
+  "nota": "Corpos unicos no escopo. G3derr agrega execucoes; filtro usa o TimeStamp de cada bloco, preservando a contagem historica. Codigos dos cabecalhos nao sao contagens."
+}

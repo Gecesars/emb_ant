@@ -1,0 +1,2562 @@
+{
+  "E01_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E01_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E01_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E01_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E01_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E01_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E01_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E01_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E01_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E01_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E02_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E02_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E02_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E02_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E02_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E02_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E02_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E02_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E02_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E02_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E03_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E03_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E03_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E03_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E03_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E03_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E03_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E03_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E03_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E03_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E04_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E04_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E04_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E04_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E04_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E04_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E04_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E04_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E04_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E04_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E05_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E05_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E05_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E05_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E05_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E05_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E05_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E05_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E05_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E05_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E06_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E06_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E06_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E06_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E06_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E06_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E06_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E06_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E06_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E06_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E07_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E07_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E07_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E07_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E07_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E07_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E07_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E07_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E07_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E07_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E08_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E08_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E08_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E08_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E08_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E08_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E08_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E08_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E08_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E08_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E09_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E09_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E09_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E09_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E09_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E09_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E09_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E09_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E09_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E09_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E10_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E10_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E10_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E10_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E10_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E10_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E10_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E10_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E10_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E10_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E11_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E11_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E11_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E11_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E11_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E11_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E11_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E11_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E11_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E11_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E12_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E12_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E12_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E12_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E12_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E12_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E12_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E12_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E12_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E12_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E13_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E13_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E13_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E13_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E13_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E13_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E13_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E13_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E13_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E13_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E14_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E14_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E14_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E14_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E14_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E14_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E14_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E14_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E14_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E14_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E15_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E15_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E15_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E15_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E15_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E15_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E15_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E15_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E15_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E15_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E16_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E16_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E16_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E16_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E16_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E16_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E16_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E16_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E16_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E16_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E17_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E17_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E17_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E17_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E17_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E17_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E17_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E17_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E17_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E17_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E18_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E18_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E18_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E18_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E18_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E18_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E18_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E18_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E18_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E18_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E19_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E19_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E19_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E19_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E19_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E19_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E19_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E19_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E19_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E19_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E20_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E20_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E20_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E20_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E20_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E20_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E20_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E20_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E20_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E20_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E21_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E21_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E21_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E21_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E21_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E21_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E21_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E21_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E21_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E21_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E22_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E22_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E22_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E22_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E22_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E22_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E22_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E22_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E22_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E22_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E23_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E23_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E23_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E23_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E23_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E23_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E23_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E23_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E23_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E23_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E24_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E24_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E24_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E24_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E24_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E24_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E24_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E24_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E24_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E24_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E25_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E25_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E25_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E25_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E25_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E25_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E25_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E25_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E25_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E25_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E26_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E26_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E26_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E26_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E26_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E26_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E26_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E26_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E26_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E26_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E27_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E27_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E27_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E27_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E27_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E27_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E27_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E27_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E27_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E27_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E28_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E28_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E28_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E28_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E28_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E28_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E28_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E28_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E28_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E28_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E29_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E29_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E29_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E29_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E29_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E29_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E29_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E29_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E29_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E29_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E30_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E30_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E30_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E30_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E30_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E30_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E30_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E30_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E30_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E30_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E31_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E31_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E31_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E31_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E31_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E31_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E31_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E31_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E31_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E31_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E32_Ant01_Ring_Q1": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 1.9939542848138496,
+    "volume_final_mm3": 1.9939542848138496,
+    "contatos": []
+  },
+  "E32_Ant01_Ring_Q2": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.222495579753563,
+    "volume_final_mm3": 2.222495579753563,
+    "contatos": []
+  },
+  "E32_Ant01_Ring_Q3": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.1714229943296517,
+    "volume_final_mm3": 2.1714229943296517,
+    "contatos": []
+  },
+  "E32_Ant01_Ring_Q4": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 2.0450268702373466,
+    "volume_final_mm3": 2.0450268702373466,
+    "contatos": []
+  },
+  "E32_Ant01_Crossover_Bridge": {
+    "base_z_mm": 16.61,
+    "exposto": -1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.08742430353393618,
+    "volume_final_mm3": 0.08742430353393618,
+    "contatos": []
+  },
+  "E32_Ant01_Feed_A_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E32_Ant01_Feed_A_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.5810458742363145,
+    "volume_final_mm3": 0.5810458742363145,
+    "contatos": []
+  },
+  "E32_Ant01_Feed_B_Outer": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.4229774507558995,
+    "volume_final_mm3": 0.4229774507558995,
+    "contatos": []
+  },
+  "E32_Ant01_Feed_B_Inner_Cu0": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  },
+  "E32_Ant01_Feed_B_Inner_Cu1": {
+    "base_z_mm": 17.37,
+    "exposto": 1,
+    "espessura_mm": 0.035,
+    "volume_original_mm3": 0.10025035701500164,
+    "volume_final_mm3": 0.10025035701500164,
+    "contatos": []
+  }
+}

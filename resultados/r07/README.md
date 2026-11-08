@@ -1,3 +1,5 @@
+> **Estado atual: SEMIPRONTA / CONGELADA em 8/11/2026 a pedido do usuário.** A fila e o acompanhamento R07 foram encerrados; o conteúdo abaixo registra o histórico anterior. Banda completa não qualificada. Novo projeto: [P2M21](../../projetos/P2M21/README.md).
+
 # R07 — verificação em 17 frequências
 
 **Em execução, sem conclusão de banda.** Pedido de 8/11/2026: verificar a PCB contínua de dez elementos com os dois divisores compactos em 5,09–5,25 GHz, a cada 10 MHz. Os requisitos em cada um dos 17 pontos são ganho frontal realizado total ≥16 dBi, abertura horizontal a −3 dB entre81° e99°, VSWR<1,5 em ambas as entradas, tanto simultaneamente ativas quanto com a outra entrada casada. Excitação: 0,5 W/0° em cada entrada.

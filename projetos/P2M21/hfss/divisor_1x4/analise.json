@@ -1,0 +1,266 @@
+{
+  "n_saidas_por_polarizacao": 4,
+  "passivo": true,
+  "reciproco": true,
+  "max_valor_singular": 0.9944765746901978,
+  "erro_reciprocidade": 1.0269562977782698e-15,
+  "pontos": [
+    {
+      "frequencia_GHz": 5.09,
+      "A": {
+        "VSWR": 1.5311737903029878,
+        "perda_excedente_dB": 0.32507427944327116,
+        "amplitude_pp_dB": 0.05072096562335204,
+        "fase_pp_graus": 0.6860275333952092
+      },
+      "B": {
+        "VSWR": 1.5296203761011324,
+        "perda_excedente_dB": 0.322835317510875,
+        "amplitude_pp_dB": 0.06242669542491264,
+        "fase_pp_graus": 0.714089341799203
+      }
+    },
+    {
+      "frequencia_GHz": 5.1,
+      "A": {
+        "VSWR": 1.5314153231551733,
+        "perda_excedente_dB": 0.3256746027890187,
+        "amplitude_pp_dB": 0.051784247929760774,
+        "fase_pp_graus": 0.6865515068269006
+      },
+      "B": {
+        "VSWR": 1.53002908026136,
+        "perda_excedente_dB": 0.3235192451190897,
+        "amplitude_pp_dB": 0.06298883839794556,
+        "fase_pp_graus": 0.7140505061304461
+      }
+    },
+    {
+      "frequencia_GHz": 5.11,
+      "A": {
+        "VSWR": 1.5317837948808313,
+        "perda_excedente_dB": 0.3263480827592734,
+        "amplitude_pp_dB": 0.0528593670198676,
+        "fase_pp_graus": 0.6868983584143097
+      },
+      "B": {
+        "VSWR": 1.5305660412354882,
+        "perda_excedente_dB": 0.3242771751455287,
+        "amplitude_pp_dB": 0.06355719895708667,
+        "fase_pp_graus": 0.7138413445367591
+      }
+    },
+    {
+      "frequencia_GHz": 5.12,
+      "A": {
+        "VSWR": 1.5322790573446532,
+        "perda_excedente_dB": 0.3270948223430705,
+        "amplitude_pp_dB": 0.05394539684688482,
+        "fase_pp_graus": 0.6870652186486277
+      },
+      "B": {
+        "VSWR": 1.5312310332373955,
+        "perda_excedente_dB": 0.32510919583914216,
+        "amplitude_pp_dB": 0.0641312279164552,
+        "fase_pp_graus": 0.7134591131534478
+      }
+    },
+    {
+      "frequencia_GHz": 5.13,
+      "A": {
+        "VSWR": 1.5329009027823313,
+        "perda_excedente_dB": 0.3279149189281139,
+        "amplitude_pp_dB": 0.055041402601629486,
+        "fase_pp_graus": 0.687049514444023
+      },
+      "B": {
+        "VSWR": 1.5320237703032422,
+        "perda_excedente_dB": 0.3260153893319718,
+        "amplitude_pp_dB": 0.06471036372674366,
+        "fase_pp_graus": 0.7129013483870434
+      }
+    },
+    {
+      "frequencia_GHz": 5.14,
+      "A": {
+        "VSWR": 1.5336490644702936,
+        "perda_excedente_dB": 0.3288084637066079,
+        "amplitude_pp_dB": 0.05614644332052965,
+        "fase_pp_graus": 0.6868489662340758
+      },
+      "B": {
+        "VSWR": 1.532943907196608,
+        "perda_excedente_dB": 0.32699583106696584,
+        "amplitude_pp_dB": 0.0653943133259407,
+        "fase_pp_graus": 0.7121658642727513
+      }
+    },
+    {
+      "frequencia_GHz": 5.15,
+      "A": {
+        "VSWR": 1.5345232175571506,
+        "perda_excedente_dB": 0.329775541082088,
+        "amplitude_pp_dB": 0.05725957436590612,
+        "fase_pp_graus": 0.6864615835636513
+      },
+      "B": {
+        "VSWR": 1.5339910404600898,
+        "perda_excedente_dB": 0.32805058922026165,
+        "amplitude_pp_dB": 0.06641935648773423,
+        "fase_pp_graus": 0.7112507485246866
+      }
+    },
+    {
+      "frequencia_GHz": 5.16,
+      "A": {
+        "VSWR": 1.5355229800425196,
+        "perda_excedente_dB": 0.3308162280779834,
+        "amplitude_pp_dB": 0.05837984977946853,
+        "fase_pp_graus": 0.6858856597590379
+      },
+      "B": {
+        "VSWR": 1.5351647096401824,
+        "perda_excedente_dB": 0.3291797241430893,
+        "amplitude_pp_dB": 0.06744952493816925,
+        "fase_pp_graus": 0.7101543578726415
+      }
+    },
+    {
+      "frequencia_GHz": 5.17,
+      "A": {
+        "VSWR": 1.5366479139179567,
+        "perda_excedente_dB": 0.3319305937637802,
+        "amplitude_pp_dB": 0.059506324459275284,
+        "fase_pp_graus": 0.685119765401303
+      },
+      "B": {
+        "VSWR": 1.5364643986338682,
+        "perda_excedente_dB": 0.33038328780092396,
+        "amplitude_pp_dB": 0.0684838788081299,
+        "fase_pp_graus": 0.7088753123198716
+      }
+    },
+    {
+      "frequencia_GHz": 5.18,
+      "A": {
+        "VSWR": 1.5378975264399262,
+        "perda_excedente_dB": 0.33311869869049004,
+        "amplitude_pp_dB": 0.060638056199679546,
+        "fase_pp_graus": 0.6841627411186338
+      },
+      "B": {
+        "VSWR": 1.5378895371875196,
+        "perda_excedente_dB": 0.3316613232385962,
+        "amplitude_pp_dB": 0.06952147965692923,
+        "fase_pp_graus": 0.7074124886772195
+      }
+    },
+    {
+      "frequencia_GHz": 5.19,
+      "A": {
+        "VSWR": 1.5392712715325683,
+        "perda_excedente_dB": 0.3343805943428372,
+        "amplitude_pp_dB": 0.061774107561596736,
+        "fase_pp_graus": 0.6830136893984713
+      },
+      "B": {
+        "VSWR": 1.5394395025104495,
+        "perda_excedente_dB": 0.33301386405736794,
+        "amplitude_pp_dB": 0.07056139231925673,
+        "fase_pp_graus": 0.705765013386755
+      }
+    },
+    {
+      "frequencia_GHz": 5.2,
+      "A": {
+        "VSWR": 1.540768551322662,
+        "perda_excedente_dB": 0.3357163226177631,
+        "amplitude_pp_dB": 0.06291354756443646,
+        "fase_pp_graus": 0.6816719658522623
+      },
+      "B": {
+        "VSWR": 1.5411136210095966,
+        "perda_excedente_dB": 0.33444093391835494,
+        "amplitude_pp_dB": 0.07160268664014602,
+        "fase_pp_graus": 0.7039322548738205
+      }
+    },
+    {
+      "frequencia_GHz": 5.21,
+      "A": {
+        "VSWR": 1.5423887177705045,
+        "perda_excedente_dB": 0.33712591531784747,
+        "amplitude_pp_dB": 0.06405545319529438,
+        "fase_pp_graus": 0.6801371699042854
+      },
+      "B": {
+        "VSWR": 1.5429111701127396,
+        "perda_excedente_dB": 0.33594254606147794,
+        "amplitude_pp_dB": 0.07264443901123929,
+        "fase_pp_graus": 0.701913815246739
+      }
+    },
+    {
+      "frequencia_GHz": 5.22,
+      "A": {
+        "VSWR": 1.5441310744229997,
+        "perda_excedente_dB": 0.338609393682823,
+        "amplitude_pp_dB": 0.06519891075774353,
+        "fase_pp_graus": 0.6784091350453849
+      },
+      "B": {
+        "VSWR": 1.5448313801986542,
+        "perda_excedente_dB": 0.3375187028612645,
+        "amplitude_pp_dB": 0.07368573380161259,
+        "fase_pp_graus": 0.6997095217354291
+      }
+    },
+    {
+      "frequencia_GHz": 5.23,
+      "A": {
+        "VSWR": 1.5459948782329977,
+        "perda_excedente_dB": 0.3401667679358874,
+        "amplitude_pp_dB": 0.06634301703324308,
+        "fase_pp_graus": 0.6764879186460496
+      },
+      "B": {
+        "VSWR": 1.5468734365968881,
+        "perda_excedente_dB": 0.339169395405347,
+        "amplitude_pp_dB": 0.07472566465060648,
+        "fase_pp_graus": 0.6973194178266124
+      }
+    },
+    {
+      "frequencia_GHz": 5.24,
+      "A": {
+        "VSWR": 1.5479793414804086,
+        "perda_excedente_dB": 0.3417980368734577,
+        "amplitude_pp_dB": 0.06748688027062055,
+        "fase_pp_graus": 0.6743737917617123
+      },
+      "B": {
+        "VSWR": 1.549036481652443,
+        "perda_excedente_dB": 0.3408946031028144,
+        "amplitude_pp_dB": 0.07576333559321213,
+        "fase_pp_graus": 0.6947437540910384
+      }
+    },
+    {
+      "frequencia_GHz": 5.25,
+      "A": {
+        "VSWR": 1.550083633741409,
+        "perda_excedente_dB": 0.34350318747561087,
+        "amplitude_pp_dB": 0.06862962098662084,
+        "fase_pp_graus": 0.6720672285671726
+      },
+      "B": {
+        "VSWR": 1.551319616850172,
+        "perda_excedente_dB": 0.34269429332730494,
+        "amplitude_pp_dB": 0.07679786206604344,
+        "fase_pp_graus": 0.6919829789538421
+      }
+    }
+  ],
+  "sha256": "a3b7fe23fd7057da06adbcfe1c63b47ea4a7a64c1fede6d5d468fe8d2e6ff434",
+  "nota": "Outras portas casadas50ohms. Perda excedente inclui reflexao e potencia que nao chega as saidas da mesma polarizacao. Nao e resultado do painel carregado."
+}

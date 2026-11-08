@@ -1,0 +1,67 @@
+{
+  "Pad_A_IN": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_A1": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_A2": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_A3": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_A4": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_B_IN": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_B1": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_B2": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_B3": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Pad_B4": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "GND": {
+    "base_z_mm": 0,
+    "exposto": -1,
+    "espessura_mm": 0.035
+  },
+  "Estrela_A": {
+    "base_z_mm": 1.52,
+    "exposto": 1,
+    "espessura_mm": 0.035
+  },
+  "Estrela_B": {
+    "base_z_mm": 1.52,
+    "exposto": 1,
+    "espessura_mm": 0.035
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "face_mm": [
+    850,
+    100
+  ],
+  "espessura_mm": 2,
+  "raio_interno_mm": 2,
+  "fator_K_assumido": 0.4,
+  "angulo_graus": 90,
+  "aba_reta_mm": 41,
+  "comprimento_plano_mm": 895.3982297150258,
+  "nota": "Raio e K para projeto; confirmar ferramental antes da fabricacao. Montagem por posicionamento, nao cinematica.",
+  "furos_passagem_mm": 4.2,
+  "furos_N_mm": 16,
+  "furos_montagem_mm": 3.2,
+  "centros_divisores": [
+    0,
+    -315.6,
+    -105.2,
+    105.2,
+    315.6
+  ],
+  "apoios_POM_espessura_mm": 5,
+  "pecas": 1021,
+  "objetos_validos": true
+}

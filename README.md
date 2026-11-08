@@ -1,6 +1,8 @@
 # Painel setorial P1H · 5,09 a 5,25 GHz
 
-**R07 em cálculo — verificação dos 17 pontos:** o pedido de 8/11 amplia o aceite para 5,09–5,25 GHz, a cada 10 MHz, preservando as PCBs separadas e os cabos ideais no circuito. A tentativa de readaptação, limitada a **6 passes e ΔS ≤0,02**, falhou por falta de memória no segundo passe. A recuperação usa a malha R06 já convergida, com **zero novos passes adaptativos** e soluções discretas nas frequências solicitadas, após conferir novamente o centro. Ainda não há resultado de banda aprovado. [Estado, método e reprodução R07](resultados/r07/README.md).
+**P1H semipronta — campanha R07 suspensa a pedido do usuário em 8/11.** A R06 permanece qualificada somente em 5,17 GHz. O centro R07 foi conferido; a varredura de 17 frequências foi interrompida voluntariamente para iniciar o novo projeto. Não há aprovação de banda R07. [Registro do congelamento](resultados/r07/estado_semipronta.json).
+
+**Novo projeto P2M21:** duas colunas, 16 níveis e duas entradas MIMO independentes, com meta de **21 dBi por entrada em 5,09–5,25 GHz**, a outra entrada casada em 50 Ω. [Concepção, placas KiCad, montagem FreeCAD e HFSS separado](projetos/P2M21/README.md).
 
 **R06 qualificada numericamente em 5,17 GHz:** PCB contínua de dez elementos com divisores compactos, duas entradas de 0,5 W a 0°, cabos ideais sem atenuação. Resultado final: **17,3593 dBi, H 96,0643°, V 5,6158°**, VSWR ativo A/B **1,2115 / 1,1292** e com a outra entrada casada **1,2321 / 1,2474**. Convergência de 23 passes, estabilidade de malha aprovada e circuito conferido no Nexxim. [Relatório ilustrado de 15 páginas](resultados/r06/P1H_R06_Relatorio.pdf) · [Resultados e limites](resultados/r06/README.md) · [Cotação JLCPCB](resultados/r06/cotacao.md) · [Montagem e chapa R06](freecad/mecanica_R06/README.md). O aceite é somente no centro da banda, sem perdas dos cabos e com conectores N ideais. Os resultados reprovados abaixo são históricos, sob o método anterior.
 

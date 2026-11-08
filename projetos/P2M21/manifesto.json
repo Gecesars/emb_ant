@@ -1,0 +1,443 @@
+{
+  "estado": "CONCEPCAO_NAO_QUALIFICADA_RF",
+  "arquivos": [
+    {
+      "arquivo": "configuracao.json",
+      "bytes": 4075,
+      "sha256": "dc339514bf197c3201a9fa2919790dd8727c9523a90778dfc60d2ec261857800",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\configuracao.json"
+    },
+    {
+      "arquivo": "rede.json",
+      "bytes": 27553,
+      "sha256": "4fe9075e2c9744ee5a2c48a005c468839dec633ce12d46ae5d03fba829e17d05",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\rede.json"
+    },
+    {
+      "arquivo": "mapa_conexoes.csv",
+      "bytes": 2910,
+      "sha256": "7bb5794bee2b274fba0f24e5110ebab76b5a330b106d79a38d9509cc006f20ce",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mapa_conexoes.csv"
+    },
+    {
+      "arquivo": "planejamento/comparacao.csv",
+      "bytes": 3839,
+      "sha256": "df5688b765102ef1a7d82bf65482f70e3824218e103a5d7cf97add7c2fa34bdf",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\planejamento\\comparacao.csv"
+    },
+    {
+      "arquivo": "planejamento/comparacao.json",
+      "bytes": 18039,
+      "sha256": "4932bc8cefeaffd362e63680f44a2b312bab72a6dbba00739eb72f1899e4963a",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\planejamento\\comparacao.json"
+    },
+    {
+      "arquivo": "planejamento/predimensionamento.png",
+      "bytes": 184733,
+      "sha256": "6999114920aa6db38a69f6ca0e741720d903559a48457e04dff072e2cebf32d8",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\planejamento\\predimensionamento.png"
+    },
+    {
+      "arquivo": "imagens/divisores_detalhados.png",
+      "bytes": 131180,
+      "sha256": "3408c6108ec6071bf7f1748a2b699a5591dd48ca382fa825038d6af815664c9f",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\imagens\\divisores_detalhados.png"
+    },
+    {
+      "arquivo": "imagens/montagem_e_placas.png",
+      "bytes": 536186,
+      "sha256": "d36af08ea7627b0489de5c56bec76a70a5d5bbb26a2f5f8332c6d489708f166b",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\imagens\\montagem_e_placas.png"
+    },
+    {
+      "arquivo": "imagens/pcb_duas_faces.png",
+      "bytes": 191672,
+      "sha256": "d355ace3d67efd9b4f384ce024c0d83ab1a0efd3d8678e9525a0ed3bd2304536",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\imagens\\pcb_duas_faces.png"
+    },
+    {
+      "arquivo": "freecad/P2M21_Montagem.FCStd",
+      "bytes": 2446038,
+      "sha256": "89be86640a469cff6365c8701830f52044146974f32d131e7d81272491c881c4",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mecanica\\P2M21_Montagem.FCStd"
+    },
+    {
+      "arquivo": "freecad/parametros.json",
+      "bytes": 582,
+      "sha256": "1f0bf44fe84d715de44624f6214997bc1059575f9bcda5102d7eeb4bd1736cb8",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mecanica\\parametros.json"
+    },
+    {
+      "arquivo": "freecad/Refletor_corte_dobra_R00.dxf",
+      "bytes": 33426,
+      "sha256": "a856ad3f1bc8305f77ed72e4e2ecc57dc5c47ee91f277e16e424dc126dec9fc4",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mecanica\\Refletor_corte_dobra_R00.dxf"
+    },
+    {
+      "arquivo": "freecad/Refletor_dobrado.step",
+      "bytes": 176928,
+      "sha256": "4d9a54703aa3f7112d59f0d9afd46b1bdab915bb381216ad3684709aa76042bb",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mecanica\\Refletor_dobrado.step"
+    },
+    {
+      "arquivo": "freecad/Refletor_planificado.FCStd",
+      "bytes": 17778,
+      "sha256": "0f9a48bd9ecefc600843e0214e80223f6dc4c5621c48c83ede3e3fb130e05a6b",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mecanica\\Refletor_planificado.FCStd"
+    },
+    {
+      "arquivo": "freecad/Refletor_planificado.step",
+      "bytes": 171123,
+      "sha256": "a1d7750f3c0dcee380fdc20194da5cbe1131e2679d16d1ef6ee3ba627cd71600",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\mecanica\\Refletor_planificado.step"
+    },
+    {
+      "arquivo": "kicad/P2M21_Duplo_1x4/drc.json",
+      "bytes": 17874,
+      "sha256": "71fbcb28ec58211081026cfc029e7300c0f29a9e066b18f44633d22ee1e0bfe9",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Duplo_1x4\\drc.json"
+    },
+    {
+      "arquivo": "kicad/P2M21_Duplo_1x4/P2M21_Duplo_1x4.kicad_pcb",
+      "bytes": 78689,
+      "sha256": "810ee9b4fd3ebd628101bfb141826ce438fe75a410ad0f46398f099dba25de0d",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Duplo_1x4\\P2M21_Duplo_1x4.kicad_pcb"
+    },
+    {
+      "arquivo": "kicad/P2M21_Duplo_1x4/P2M21_Duplo_1x4.kicad_pro",
+      "bytes": 9935,
+      "sha256": "073ffcb7d0abbdb8509fb3c9ad37624bd6fa72f472655d544d9ef48e8b65b637",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Duplo_1x4\\P2M21_Duplo_1x4.kicad_pro"
+    },
+    {
+      "arquivo": "kicad/P2M21_Duplo_1x8/drc.json",
+      "bytes": 31473,
+      "sha256": "4b29832655f43cf1427489176136ed3c7b6bdad271ac9906a681c8db04819677",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Duplo_1x8\\drc.json"
+    },
+    {
+      "arquivo": "kicad/P2M21_Duplo_1x8/P2M21_Duplo_1x8.kicad_pcb",
+      "bytes": 134069,
+      "sha256": "990453401b45297195fea31192143967e525ebf0eef410d2170b482741d5cd84",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Duplo_1x8\\P2M21_Duplo_1x8.kicad_pcb"
+    },
+    {
+      "arquivo": "kicad/P2M21_Duplo_1x8/P2M21_Duplo_1x8.kicad_pro",
+      "bytes": 9935,
+      "sha256": "61a907dcf0710dd50a4042a4413abe56cc7c1abb3ef4336efe06720215e84c1a",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Duplo_1x8\\P2M21_Duplo_1x8.kicad_pro"
+    },
+    {
+      "arquivo": "kicad/P2M21_Modulo_2x4/drc.json",
+      "bytes": 175446,
+      "sha256": "06826691262781efa7ab949735f352378ffe90b44c4103e263dd7a47bef1f6e4",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Modulo_2x4\\drc.json"
+    },
+    {
+      "arquivo": "kicad/P2M21_Modulo_2x4/P2M21_Modulo_2x4.kicad_pcb",
+      "bytes": 229994,
+      "sha256": "4b002afa9fe2ea9482318a77393156c5d24531bce17588913569e325f95cb3e7",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Modulo_2x4\\P2M21_Modulo_2x4.kicad_pcb"
+    },
+    {
+      "arquivo": "kicad/P2M21_Modulo_2x4/P2M21_Modulo_2x4.kicad_pro",
+      "bytes": 9936,
+      "sha256": "e73d9c0cf66969b12d5b92015e9cce8e75f59f92e1e2aad787a85bb0d42eb231",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\kicad\\P2M21_Modulo_2x4\\P2M21_Modulo_2x4.kicad_pro"
+    },
+    {
+      "arquivo": "hfss/antena/hfss_validacao.json",
+      "bytes": 245,
+      "sha256": "040bf3f5750231c1737a2f5df87e831bb30e6187f1c6ead68489f534ebbead50",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\hfss_validacao.json"
+    },
+    {
+      "arquivo": "hfss/antena/P2M21_Antena.aedt",
+      "bytes": 19827801,
+      "sha256": "5d890b96525e2bce63fcf0af238d688faa89f34e5e101ac8be835e7ccc91b6dd",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\P2M21_Antena.aedt"
+    },
+    {
+      "arquivo": "hfss/antena/P2M21_Antena.FCStd",
+      "bytes": 1405745,
+      "sha256": "ebc576b0135036ba68865a844809bd34ad4db07f61a0ae55a6a5ff6683ed8ff0",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\P2M21_Antena.FCStd"
+    },
+    {
+      "arquivo": "hfss/antena/cad/AL5052.step",
+      "bytes": 176928,
+      "sha256": "35b650681399ff51347c339fdff5f33073e01faa2852f66e9d5bee18a73ca806",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\AL5052.step"
+    },
+    {
+      "arquivo": "hfss/antena/cad/copper.step",
+      "bytes": 994997,
+      "sha256": "7132488156f00672d0492abcfa55d8585ea7de82a28d25294fad7f097c39a39f",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\copper.step"
+    },
+    {
+      "arquivo": "hfss/antena/cad/enig_hfss.json",
+      "bytes": 176430,
+      "sha256": "a857f3db84188ba6f85b44d1881f3ad7842dd366ab3ec388c9d0f8591fe7d8db",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\enig_hfss.json"
+    },
+    {
+      "arquivo": "hfss/antena/cad/folhas_solidas.json",
+      "bytes": 70947,
+      "sha256": "a4cb545f74e3a81f5bd7c4e252d9cc8aef38bc5ec42c841678b3b53d0318124d",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\folhas_solidas.json"
+    },
+    {
+      "arquivo": "hfss/antena/cad/folha_cu.step",
+      "bytes": 6452554,
+      "sha256": "a7c93794b07e37a94d1ab9102a6507410debc861eaecf0c3d51da5bf4abfd1ed",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\folha_cu.step"
+    },
+    {
+      "arquivo": "hfss/antena/cad/intersecoes.json",
+      "bytes": 92,
+      "sha256": "358b583d9ad36d5a4affc0ec1e8aa998693ab38d9f60b54ea01ca097be01e052",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\intersecoes.json"
+    },
+    {
+      "arquivo": "hfss/antena/cad/manifesto.json",
+      "bytes": 23940,
+      "sha256": "67dd476baa203b27f1d7f2749da6fd2566f2150f6864d978d0c6a6ffa34a18c7",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\manifesto.json"
+    },
+    {
+      "arquivo": "hfss/antena/cad/POM_nom.step",
+      "bytes": 130083,
+      "sha256": "2e42db61be058056a2cb9c26b6ced40be94847f3fd074a1b15844a94a0c35b89",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\POM_nom.step"
+    },
+    {
+      "arquivo": "hfss/antena/cad/portas.json",
+      "bytes": 14351,
+      "sha256": "1431690cb05b61483bc260e64ab4d1489f7b3d4954ff477a7172d96b2031e59f",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\portas.json"
+    },
+    {
+      "arquivo": "hfss/antena/cad/RO4350B_R01.step",
+      "bytes": 246246,
+      "sha256": "82800ebcb04524fdd3c8a2d4bf26587d4331a6aee1844ba185b421c1b0d028af",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\RO4350B_R01.step"
+    },
+    {
+      "arquivo": "hfss/antena/cad/SAC305.step",
+      "bytes": 503896,
+      "sha256": "3c5f2b82ead60aa52835f96890867624a2ac6bd441e557ff78736145841718c8",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\SAC305.step"
+    },
+    {
+      "arquivo": "hfss/antena/cad/verificacao.json",
+      "bytes": 31725,
+      "sha256": "3bb59edb8ed1ec88f8a790d2c25f562a009138363606124268dde4a446d0f52b",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\cad\\verificacao.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/analise.json",
+      "bytes": 8207,
+      "sha256": "946743d1760d46a30e846d67dd86859ee84cb2427d186ff944d486b8000d3c1b",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\analise.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/geometria.json",
+      "bytes": 21550,
+      "sha256": "6900b1e0f354375444a3fa859cd8802562fdd600c834ed84b68bc32f94fb4166",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\geometria.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/hfss_validacao.json",
+      "bytes": 248,
+      "sha256": "b2b3baa05dc8bee10c81aa8c3147756b21178e0cc784ffcaf850ae1707312e88",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\hfss_validacao.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/malha.json",
+      "bytes": 11450,
+      "sha256": "394a5c210e0d38d3db3df63c6b0ea3a16875ba9d246db1908695a7ec00176730",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\malha.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/P2M21_Duplo_1x4.aedt",
+      "bytes": 1846826,
+      "sha256": "2ec144d01343f11952a2f7f4d81291df5eecd039a6d43d3e36943e2bb644fb00",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\P2M21_Duplo_1x4.aedt"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/P2M21_Duplo_1x4.FCStd",
+      "bytes": 77529,
+      "sha256": "0381bbd03012385d9f56ac56ab60434783b20e56a6eb33c3142281376e98fde3",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\P2M21_Duplo_1x4.FCStd"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/copper.step",
+      "bytes": 109272,
+      "sha256": "53c482a09a502cad3157a93db653e378128aeac312227d8d1182101afe6f9cac",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\copper.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/enig_hfss.json",
+      "bytes": 8321,
+      "sha256": "634a918b47c4a4dd405fc2767523e602793e6e0dd2cc13ca7cb0226d1205c518",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\enig_hfss.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/folhas_solidas.json",
+      "bytes": 1171,
+      "sha256": "50f81eb43890dfb68086d20cead2d660e210f72861b854584712551d48d57947",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\folhas_solidas.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/folha_cu.step",
+      "bytes": 517184,
+      "sha256": "e498d3f3ace99c877a5570867dedd84207a17d2f4f4ca9ea83d10d67a629340d",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\folha_cu.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/intersecoes.json",
+      "bytes": 91,
+      "sha256": "35a824e8d11e6b046fe27bd83d2d0eef05049e092af02d3f94ae6de606ce4d2c",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\intersecoes.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/manifesto.json",
+      "bytes": 1387,
+      "sha256": "8c163713c882ec64df1ea46deb2bcc81cc0e4c85d6fc623b5ec18c69e9c929f3",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\manifesto.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/portas.json",
+      "bytes": 1282,
+      "sha256": "95e58735ef4587c8ed1ca6fb9a7703d35680f7543501aca975fec6ed9610f6f6",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\portas.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/PTFE_terminal.step",
+      "bytes": 71546,
+      "sha256": "887fcf75d6643e092cd71d70c23ae5827c141b44a11af0e246cbd79f7eac8f83",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\PTFE_terminal.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/verificacao.json",
+      "bytes": 1950,
+      "sha256": "b2eab9230fca825c8a649e166a4ec8d02515875afaf558b1f7b0761a5a5f78e0",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\verificacao.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/cad/ZYF300.step",
+      "bytes": 27691,
+      "sha256": "55207ae9049f4a46e48b1860391fd6cf775f3a9cbde03693e5042360f6c1ae8a",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\cad\\ZYF300.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/geometria.json",
+      "bytes": 43054,
+      "sha256": "cc44db58abe4672340aaa76350914ac89a1ad6fa8d2d133c6743ab7f613a50ca",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\geometria.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/hfss_validacao.json",
+      "bytes": 248,
+      "sha256": "c9277b57585074fe86eef843edd9de4abe93d69d977d1cfd33d0a40a5793c4c6",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\hfss_validacao.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/P2M21_Duplo_1x8.aedt",
+      "bytes": 3414194,
+      "sha256": "7cab42a0f2362a4634bd49756fbacf8495a72dbf9e350d780dbd866ba18f310a",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\P2M21_Duplo_1x8.aedt"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/P2M21_Duplo_1x8.FCStd",
+      "bytes": 147107,
+      "sha256": "2b2fe6ab761e7d02fb987743a54beaba50be142fd6b00e24c1f2dfe8a7b96668",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\P2M21_Duplo_1x8.FCStd"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/copper.step",
+      "bytes": 201121,
+      "sha256": "66b85c5377af7b6b7138d5ecbcae83053881db3aadfbb67020abaa3c6fb58176",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\copper.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/enig_hfss.json",
+      "bytes": 15096,
+      "sha256": "32c09add899930d3593cae4f3cd43e59ea707e03de2b5852aa8bb32f219f99d4",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\enig_hfss.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/folhas_solidas.json",
+      "bytes": 1883,
+      "sha256": "1a38d019c283bac87e86ac8e5d7d3178b4e0162b405430b9e6014bc661d2ed0a",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\folhas_solidas.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/folha_cu.step",
+      "bytes": 1026786,
+      "sha256": "24d862ddb2802c28faaec3da6643cf1b78d5ade72142c46b52b2eeabe56b3931",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\folha_cu.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/intersecoes.json",
+      "bytes": 91,
+      "sha256": "94357d34bdf264c61febce04afd919aa1d3ff927e2d2f8907076ce5f6790195e",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\intersecoes.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/manifesto.json",
+      "bytes": 2403,
+      "sha256": "60d8cee8621f275cefeb39993a19fb4bf3901f323f3d751f47395523b022a55f",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\manifesto.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/portas.json",
+      "bytes": 2418,
+      "sha256": "60aa5cc6afd2fb2e1e72330446bffa0e6944063d2f8cdd017fba8fda182e4bff",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\portas.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/PTFE_terminal.step",
+      "bytes": 132133,
+      "sha256": "f3c165122b3ddf47ade6b07718de4e513dae890e580d12abcc165ec99fbba048",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\PTFE_terminal.step"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/verificacao.json",
+      "bytes": 3278,
+      "sha256": "83c2771a4fecb9eddcca0e6916d569c3b20ee62bb9a7611ba221da9dad0a0aed",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\verificacao.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x8/cad/ZYF300.step",
+      "bytes": 40533,
+      "sha256": "9825314915cb4dcca17592ab6d791910aaea1de4ca7d6d4d0b027770439f8b96",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x8\\cad\\ZYF300.step"
+    },
+    {
+      "arquivo": "qualificacao.json",
+      "bytes": 108,
+      "sha256": "6943cb50423afd3af134e1d6e8814a128ab045ec938d98f92262392e388175eb",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\qualificacao.json"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/convergencia.txt",
+      "bytes": 622,
+      "sha256": "2589e9e03ebdf6edb1c581381efef28216d339081de9dc1fa4a45e6cb226e8a8",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\convergencia.txt"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/centro.s10p",
+      "bytes": 6198,
+      "sha256": "53380e941861c1ddb676d3d1e6c2081f051e25a72beac8a80b6a6a6c0e47c64b",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\centro.s10p"
+    },
+    {
+      "arquivo": "hfss/divisor_1x4/divisor.s10p",
+      "bytes": 96466,
+      "sha256": "a3b7fe23fd7057da06adbcfe1c63b47ea4a7a64c1fede6d5d468fe8d2e6ff434",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\divisor_1x4\\divisor.s10p"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "modo": "PCB separada, restantes portas casadas em50ohms; cabos apenas no circuito", 
+  "max_passes": 6, 
+  "modelo": "P2M21_Antena", 
+  "max_delta_s": 0.02, 
+  "simulado": false, 
+  "portas": 64
+}
