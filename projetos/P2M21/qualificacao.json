@@ -1,6 +1,6 @@
 {
-  "divisor": 8, 
   "max_passes": 6, 
-  "estado": "SIMULANDO_CENTRO_DIVISOR", 
-  "max_delta_s": 0.02
+  "estado": "SIMULANDO_CENTRO_ANTENA", 
+  "max_delta_s": 0.02, 
+  "portas": 64
 }
