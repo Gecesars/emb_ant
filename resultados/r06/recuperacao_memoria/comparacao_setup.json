@@ -1,0 +1,18 @@
+{
+  "setup_equal_except_3_settings": true,
+  "changes": {
+    "MaximumPasses": [
+      24,
+      25
+    ],
+    "MinimumPasses": [
+      13,
+      23
+    ],
+    "PercentRefinement": [
+      15,
+      5
+    ]
+  },
+  "cache_trace_ids_preserved": true
+}

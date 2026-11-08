@@ -1,0 +1,25 @@
+ 
+Ansys Electronics Desktop Version 2024.2.0, Build: 2024-05-23 02:23:50
+Location: C:\Program Files\AnsysEM\v242\Win64\ansysedt.exe
+Batch Script: D:/dev/EMBRAER/emb_ant/automacao/r06/validar_estabilidade.py
+Starting Batch Run: 10:57:21 PM  Nov 07, 2026
+Running as user : RF01\geral
+Temp directory: C:\Users\geral\AppData\Local\Temp
+Project directory: D:\Simulations\Simulations\#IFTX
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_P0_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_M60_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_M50_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_M40_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_P40_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_P50_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_P60_P90' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_M3_P0' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[info] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Could not evaluate convergence for 'G_P3_P0' ::= 'dB(RealizedGainTotal)' for pass '21'.  Continuing with next pass. (10:57:36 PM  Nov 07, 2026)
+[error] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d error: Matrix solver exception: SOLVER_OUT_OF_MEMORY: please verify RAM Limit (%) setting. Please contact Ansys technical support. (11:45:04 PM  Nov 07, 2026)
+[warning] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d: Out of memory (11:45:04 PM  Nov 07, 2026)
+[warning] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d: Out of memory (11:45:04 PM  Nov 07, 2026)
+[error] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d error: Matrix solver exception: SOLVER_OUT_OF_MEMORY. Please contact Ansys technical support. (11:45:04 PM  Nov 07, 2026)
+[error] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Simulation completed with execution error on server: Local Machine. (11:45:08 PM  Nov 07, 2026)
+[error] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Script macro error: Simulation for PCB_R06 : PCB_sem_cabos : Banda has failed with execution error.  (11:45:08 PM  Nov 07, 2026)
+[error] Error in command execution
+Stopping Batch Run: 11:45:10 PM  Nov 07, 2026

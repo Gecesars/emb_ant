@@ -1,5 +1,7 @@
 # Conferência da malha refinada de 11 passes
 
+**Estado em 8/11, 00:03:** a tentativa adicional com crescimento de 15% falhou por falta de memória. Foi iniciada a recuperação com 5%, descrita ao final. A solução de 21 passes continua sendo o último resultado válido; ainda não há aceite final.
+
 Em 7/11 às 19:12, o HFSS concluiu a malha com refinamento local dos fragmentos de cobre e das soldas. Foram 11 passes, 1.580.950 tetraedros; os últimos ΔS foram 0,00740689 / 0,00680733 e as maiores mudanças de campo 0,0367667 / 0,0303877 dB. O setup cumpriu ΔS ≤ 0,008 e campo ≤ 0,05 dB por dois passes.
 
 Com os mesmos divisores, bobinas e linhas de 290 / 132 / 133 mm, o circuito apresentou **17,3447 dBi, H = 94,3761°, V = 5,6193°**, VSWR ativo **1,22727 / 1,15010** e convencional **1,20474 / 1,23735**. Todos os valores atendem às metas, porém a mudança horizontal de **−0,82976°** em relação à malha inicial excedeu o limite interno de estabilidade de 0,5°. O ganho mudou −0,00304 dB e os VSWR menos de 0,012.
@@ -24,3 +26,13 @@ No circuito completo sem atenuação dos cabos: **17,35987 dBi, H 95,94548°, V 
 Os dados ficaram congelados em `antena_estrita21`. A verificação seguinte mantém ΔS 0,004, campo 0,02 dB, refinamento de 15%, geometria, portas e materiais. Apenas o mínimo de passes sobe a 23, com máximo 25, para confrontar a solução convergida de 21 passes com pelo menos dois passes adicionais. Os limites de comparação permanecem os mesmos. Os campos anteriores são recuperados pela referência com SHA-256, exigindo identidade dos tetraedros por passe.
 
 A tentativa de editar o setup pelo serializador PyAEDT não aceitou o contexto do cache de campo nesta release. Foi encerrada sem modificar o nativo: o SHA-256 permaneceu idêntico ao arquivo de 21 passes. A sessão própria de inspeção foi fechada, e seu lock só foi removido após confirmar o PID encerrado. A execução seguinte usa a API nativa já validada para reconstruir as mesmas nove expressões; as mensagens informativas de que o novo cache não consegue avaliar o passe 21 decorrem da mudança de TraceID. Os campos preservados do passe 21 continuam disponíveis para a auditoria. Isso não é uma falha RF nem uma mudança do modelo.
+
+## Falta de memória e recuperação de 8/11
+
+Às **23:45 de 7/11**, o solver encerrou o passe adicional 22 com `SOLVER_OUT_OF_MEMORY`. Não houve novo S20 ou campo válido. A solução convergida de 21 passes, seus campos e resultados do circuito continuam preservados. O arquivo de paginação já estava disponível; não foram alteradas as opções globais de memória, licença ou programas do usuário.
+
+Foi escolhido um crescimento de malha de **5% por passe**, em lugar de 15%, para reduzir o aumento de memória por etapa. Isso não reduz os critérios de erro: permanecem **ΔS ≤ 0,004, nove campos ≤ 0,02 dB por dois passes**, mínimo 23 / máximo 25. A comparação final continua exigindo variações de ganho ≤0,05 dB, H ≤0,5°, V ≤0,1° e ambos os VSWR ≤0,05, além de zero reparos Major. A alternativa ainda precisa concluir o cálculo e a auditoria.
+
+Um teste em cópia sem solver demonstrou que `EditSetup` parcial altera somente mínimo/máximo de passes e percentual de refinamento. Todo o restante do bloco nativo é idêntico, incluindo os nove TraceID 672–680. Na retomada real, a mesma igualdade foi conferida após salvar e fechar o projeto. Uma primeira leitura antes do fechamento detectou conteúdo ainda não atualizado e interrompeu o script **antes de analisar**; o guard foi mantido, com a gravação confirmada após fechamento.
+
+A recuperação iniciou em **8/11 às 00:03**, com pipeline 234268, AEDT 165852 e engine 240476, reutilizando a solução e malha de 21 passes. São identificadores históricos desta execução, a confirmar antes de qualquer intervenção. As evidências compactas estão em [recuperacao_memoria](recuperacao_memoria); os arquivos de malha continuam somente no diretório local de trabalho. O aceite final e o e-mail permanecem pendentes.

@@ -1,0 +1,10 @@
+{
+  "field_delta": 0.02, 
+  "referencia": "antena_estrita21", 
+  "nota": "Mesma geometria, malha e criterios; min23 exige pelo menos dois passes adicionais.", 
+  "minimum_passes": 23, 
+  "percent_refinement": 15, 
+  "max_delta_s": 0.0040000000000000001, 
+  "maximum_passes": 25, 
+  "reset": false
+}

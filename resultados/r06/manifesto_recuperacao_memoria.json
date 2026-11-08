@@ -1,0 +1,51 @@
+{
+  "estado": "recuperacao_ativa_nao_qualificado",
+  "sem_malhas": true,
+  "artefatos": [
+    {
+      "arquivo": "resultados/r06/estabilidade_setup.json",
+      "sha256": "7e29e64c0ce129aa79d261b5b3e5737159774d9ec79be364f6877a500d10c330",
+      "bytes": 504
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/comparacao_setup.json",
+      "sha256": "89a57120b0cfa7bdcdacab91c697c49af04c3f978039d75eb027e8c0e75c7b4c",
+      "bytes": 266
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/falha_15pct_aedt.txt",
+      "sha256": "7136f58a6ca9ba0ab260877c8f4bc66b4337078c63e19ff852557e89489c39de",
+      "bytes": 3616
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/falha_15pct_script.txt",
+      "sha256": "728180257cb2fc73e045aa1f0eef24df7a1980b85001b3178c6239ec10db0e97",
+      "bytes": 368
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/guard_antes_fechar.txt",
+      "sha256": "a5bf7aac4ee2e9d700984bd364641527cd1a1b4f1fbef88d730845b09909834f",
+      "bytes": 285
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/recuperacao.json",
+      "sha256": "9127e78c11772402bce4b6b9e3a2d86cdcced721fe091c743d07460eaf0896ba",
+      "bytes": 372
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/setup_recuperacao_5pct.json",
+      "sha256": "7e29e64c0ce129aa79d261b5b3e5737159774d9ec79be364f6877a500d10c330",
+      "bytes": 504
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/setup_tentativa_15pct.json",
+      "sha256": "7ddc4ea54ec14803367a349ca8d6419bee172ece428afbd63d483b15705dce2d",
+      "bytes": 307
+    },
+    {
+      "arquivo": "resultados/r06/recuperacao_memoria/teste_edicao_parcial.json",
+      "sha256": "dbdb044bdf4c3d65420664113cfe5a1bb74d0885ce65e0d743f53470c3ec3149",
+      "bytes": 1035
+    }
+  ]
+}

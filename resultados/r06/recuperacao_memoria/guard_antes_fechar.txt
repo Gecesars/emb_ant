@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "D:/dev/EMBRAER/emb_ant/automacao/r06/recuperar_memoria.py", line 32, in <module>
+    assert setup(new)==expected, 'O setup mudou alem dos tres parametros autorizados.'
+AssertionError: O setup mudou alem dos tres parametros autorizados.
+

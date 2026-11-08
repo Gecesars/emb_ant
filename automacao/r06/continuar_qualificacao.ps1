@@ -1,4 +1,4 @@
-param([switch]$EstabilidadeFinal)
+param([switch]$EstabilidadeFinal,[switch]$RecuperarMemoria)
 $ErrorActionPreference='Stop'
 $root='D:/dev/EMBRAER/P1H/R06_sem_cabos'
 $env:P1H_R06=$root
@@ -19,13 +19,17 @@ function Nativo([string]$script,[string]$log) {
     if ($p.ExitCode -ne 0) {throw "Falha AEDT em $script, codigo $($p.ExitCode)"}
 }
 try {
+    if($RecuperarMemoria -and -not $EstabilidadeFinal) {throw 'Recuperacao de memoria exige -EstabilidadeFinal.'}
     $referencia=if($EstabilidadeFinal){'antena_estrita21'}else{'antena_refinada1'}
-    $logEstado=if($EstabilidadeFinal){'estabilidade_final.log'}else{'convergencia_estrita.log'}
+    $logEstado=if($RecuperarMemoria){'estabilidade_memoria.log'}elseif($EstabilidadeFinal){'estabilidade_final.log'}else{'convergencia_estrita.log'}
     if (Test-Path -LiteralPath "$root/antena/$logEstado") {throw 'Continuacao ja iniciada; nao duplicar.'}
     if (-not (Test-Path -LiteralPath "$root/$referencia/antena.s20p")) {throw 'Falta preservar a malha de referencia.'}
     $running=Get-CimInstance Win32_Process | Where-Object {$_.Name -eq 'ansysedt.exe' -and $_.CommandLine -match 'R06_sem_cabos|automacao[/\\]r06'}
     if ($running) {throw 'Existe AEDT do R06 ativo; confirmar antes de iniciar outro.'}
-    if($EstabilidadeFinal) {
+    if($RecuperarMemoria) {
+        Nativo 'recuperar_memoria.py' 'estabilidade_memoria_aedt.log'
+        if ((Get-Content -LiteralPath "$root/antena/estabilidade_memoria.log" -Tail 1) -ne 'ESTABILIDADE_MEMORIA_CONCLUIDA') {throw 'Recuperacao de memoria incompleta.'}
+    } elseif($EstabilidadeFinal) {
         Nativo 'validar_estabilidade.py' 'estabilidade_final_aedt.log'
         if ((Get-Content -LiteralPath "$root/antena/estabilidade_final.log" -Tail 1) -ne 'ESTABILIDADE_FINAL_CONCLUIDA') {throw 'Verificacao de estabilidade incompleta.'}
     } else {

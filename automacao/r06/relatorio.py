@@ -144,7 +144,7 @@ add('As nove direções de auditoria são θ = 0°, ±40°, ±50°, ±60° em φ
 
 page('Conferência local da malha')
 add('A primeira malha indicou um reparo de superfície no pequeno fragmento Ant08_Feed_A_Cu1, próximo à solda. O sólido CAD tem volume de 0,00794 mm³ e foi validado geometricamente. O aviso motivou uma verificação adicional, sem alterar a geometria nominal da PCB.')
-add('O refinamento local usa desvio superficial de 0,0005 mm / 5° no cobre e nas soldas, e comprimento máximo de 0,06 mm nos fragmentos. Convergiu em 11 passes, mas H mudou 0,830° frente à primeira malha. A continuação com ΔS ≤ 0,004 e campo ≤ 0,02 dB convergiu em 21 passes; H mudou mais 1,569°. Essas diferenças motivaram a conferência final com pelo menos dois passes adicionais, sem mudar critérios, geometria ou percentual de refinamento. A tabela compara a solução de 21 passes com essa verificação final.')
+add('O refinamento local usa desvio superficial de 0,0005 mm / 5° no cobre e nas soldas e comprimento de 0,06 mm nos fragmentos. Convergiu em 11 passes, mas H mudou 0,830°. A continuação com ΔS ≤ 0,004 e campo ≤ 0,02 dB convergiu em 21 passes; H mudou mais 1,569°. A conferência adicional com crescimento de 15% falhou por falta de memória. A retomada usa crescimento de 5% por passe, mantendo geometria, critérios de erro e tolerâncias de estabilidade. A tabela compara os 21 passes com a verificação final.')
 rows=[['Comparação em 5,17 GHz','Estrita, 21 passes','Verificação final']]
 for key,label,unit in [('ganho_frontal_realizado_dBi','Ganho com rede','dBi'),('abertura_H_graus','Abertura horizontal','°'),('abertura_V_graus','Abertura vertical','°')]:
     row=[label]

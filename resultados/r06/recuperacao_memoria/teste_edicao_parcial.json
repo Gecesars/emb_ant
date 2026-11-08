@@ -1,0 +1,80 @@
+{
+  "field_delta": [
+    "0.02", 
+    "0.02", 
+    "0.02", 
+    "0.02", 
+    "0.02", 
+    "0.02", 
+    "0.02", 
+    "0.02", 
+    "0.02"
+  ], 
+  "IterativeResidual": [
+    "1e-05"
+  ], 
+  "MinimumPasses": [
+    "23"
+  ], 
+  "MaximumPasses": [
+    "25"
+  ], 
+  "BasisOrder": [
+    "0"
+  ], 
+  "MaxDeltaS": [
+    "0.004"
+  ], 
+  "MinimumConvergedPasses": [
+    "2"
+  ], 
+  "PercentRefinement": [
+    "5"
+  ], 
+  "cache": [
+    [
+      "G_P0_P90", 
+      "672"
+    ], 
+    [
+      "G_M60_P90", 
+      "673"
+    ], 
+    [
+      "G_M50_P90", 
+      "674"
+    ], 
+    [
+      "G_M40_P90", 
+      "675"
+    ], 
+    [
+      "G_P40_P90", 
+      "676"
+    ], 
+    [
+      "G_P50_P90", 
+      "677"
+    ], 
+    [
+      "G_P60_P90", 
+      "678"
+    ], 
+    [
+      "G_M3_P0", 
+      "679"
+    ], 
+    [
+      "G_P3_P0", 
+      "680"
+    ]
+  ], 
+  "DrivenSolverType": [
+    "'Iterative Solver'"
+  ], 
+  "Frequency": [
+    "'0GHz'", 
+    "'5.17GHz'", 
+    "'1GHz'"
+  ]
+}

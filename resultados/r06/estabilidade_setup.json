@@ -1,9 +1,12 @@
 {
   "field_delta": 0.02, 
   "referencia": "antena_estrita21", 
-  "nota": "Mesma geometria, malha e criterios; min23 exige pelo menos dois passes adicionais.", 
+  "edicao_parcial_verificada": true, 
+  "nota": "Tentativa15% falhou por SOLVER_OUT_OF_MEMORY. Crescimento reduzido5%; criterios e tolerancias preservados.", 
   "minimum_passes": 23, 
-  "percent_refinement": 15, 
+  "percent_refinement": 5, 
+  "sha256_native_referencia": "19b6540a62e240713ff7a888fc4f1410e76c0f6e2e34a7deb8b0ac569dc18f24", 
+  "cache_ids_preservados": true, 
   "max_delta_s": 0.0040000000000000001, 
   "maximum_passes": 25, 
   "reset": false

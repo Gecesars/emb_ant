@@ -1,0 +1,6 @@
+ESTABILIDADE_FINAL_INICIADA
+Traceback (most recent call last):
+  File "D:/dev/EMBRAER/emb_ant/automacao/r06/validar_estabilidade.py", line 30, in <module>
+    log('ESTABILIDADE_FINAL_INICIADA');design.Analyze('Banda')
+Exception: Analyze(string simulationName, [bool isBlocking /*optional*/])(Banda) - call failed. Logs or message window might have more details
+
