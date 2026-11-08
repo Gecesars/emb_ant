@@ -1,0 +1,26 @@
+<!doctype html><html><body style="font-family:Arial,sans-serif;color:#13374b;line-height:1.5;max-width:780px">
+<p>César,</p>
+<p>A <strong>R06 da PCB contínua de dez elementos com divisores compactos está qualificada numericamente em 5,17 GHz</strong>, pelo método solicitado: PCBs simuladas separadamente no HFSS e circuito com parâmetros S e campos complexos. Os cabos entram somente como linhas ideais de fase, sem atenuação.</p>
+<table cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse;border-color:#ccd5dc">
+<tr><th>Métrica</th><th>Resultado final</th><th>Critério</th></tr>
+<tr><td>Ganho frontal realizado total</td><td><strong>17,3593 dBi</strong></td><td>≥16 dBi</td></tr>
+<tr><td>Abertura horizontal</td><td><strong>96,0643°</strong></td><td>81° a 99°</td></tr>
+<tr><td>Abertura vertical</td><td>5,6158°</td><td>Feixe mais estreito permitido</td></tr>
+<tr><td>VSWR ativo A / B</td><td>1,2115 / 1,1292</td><td>Ambos &lt;1,5</td></tr>
+<tr><td>VSWR com outra entrada casada A / B</td><td>1,2321 / 1,2474</td><td>Ambos &lt;1,5</td></tr>
+</table>
+<p>Referência: <strong>duas entradas de 0,5 W a 0°, 1 W total incidente</strong>. Inclui descasamento e perdas das PCBs e das bobinas, com correção da atenuação dos acessos do cupom. Os conectores N são interfaces ideais.</p>
+<p>O HFSS terminou em 23 passes, com 6.665.585 tetraedros. Os dois últimos ΔS foram 0,003156 / 0,001363, e as maiores variações de campo 0,010089 / 0,006865 dB. A comparação com a solução de 21 passes mudou o ganho em apenas −0,000581 dB e a abertura horizontal em +0,118830°. Todos os limites de estabilidade foram cumpridos. O Nexxim confirmou a matriz do circuito, com erro máximo de 4,65 × 10⁻¹⁵; passividade, reciprocidade, recomposição dos campos e balanço de potência foram conferidos.</p>
+<p><strong>Anexos:</strong> relatório ilustrado de 15 páginas e desenho de fabricação com três pranchas A3. Incluem as vistas detalhadas da PCB, das duas distribuidoras e da montagem FreeCAD, refletor de alumínio de 2 mm dobrado e planificado, apoios de poliacetal de 5 mm, passagens dos cabos, fixações, base dos N e bobinas de curto DC.</p>
+<p>O chicote usa entrada / enlace / ramal de <strong>290 / 132 / 133 mm</strong>, com 555 mm por caminho e 3.768 mm no conjunto. A montagem foi verificada sem interseções e com folga nominal mínima de 0,7611 mm. Os comprimentos de corte devem considerar inserções e decapagens reais.</p>
+<p>A cotação JLCPCB de 7/11, já documentada, totaliza <strong>R$1.828,86 para cinco conjuntos de três PCBs</strong>, ou R$365,77 por conjunto, sem frete consolidado e tributos. Antena RO4350B de 0,76 mm e divisores ZYF300CA-C de 1,52 mm. Os Gerbers permanecem os mesmos; nenhuma compra foi efetuada.</p>
+<ul>
+<li><a href="https://github.com/Gecesars/emb_ant/blob/e4efa7a54ba92c9a4ba88561eddf84d454331642/resultados/r06/P1H_R06_Relatorio.pdf">Relatório completo</a></li>
+<li><a href="https://github.com/Gecesars/emb_ant/blob/e4efa7a54ba92c9a4ba88561eddf84d454331642/freecad/mecanica_R06/README.md">FreeCAD, chapa dobrada/planificada, DXF e desenhos</a></li>
+<li><a href="https://github.com/Gecesars/emb_ant/tree/e4efa7a54ba92c9a4ba88561eddf84d454331642/kicad">Projetos KiCad</a></li>
+<li><a href="https://github.com/Gecesars/emb_ant/blob/e4efa7a54ba92c9a4ba88561eddf84d454331642/resultados/r06/README.md">HFSS, Circuit/Nexxim, dados, cotação e limites do estudo</a></li>
+<li><a href="https://github.com/Gecesars/emb_ant/commit/e4efa7a54ba92c9a4ba88561eddf84d454331642">Commit da qualificação: e4efa7a</a></li>
+</ul>
+<p>O repositório contém 343 artefatos conferidos no pacote final, sem malhas ou campos volumétricos. As tentativas anteriores e a recuperação de memória estão documentadas.</p>
+<p><strong>Alcance:</strong> o aceite é somente em 5,17 GHz. Os 17 pontos dos divisores não qualificam ganho/VSWR do painel em toda a banda. A análise separada exclui perdas dos cabos/N e acoplamento eletromagnético entre placas distintas. A qualificação numérica não substitui medições do conjunto real, inspeção da continuidade DC e ensaio de vedação.</p>
+</body></html>

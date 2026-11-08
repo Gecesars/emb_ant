@@ -1,0 +1,28 @@
+{
+  "estado": "enviado_e_conferido",
+  "para": "gecesars@gmail.com",
+  "assunto": "P1H R06 qualificada — relatório completo e desenhos de fabricação",
+  "message_id": "1a1b98c667ef431b",
+  "thread_id": "1a1b98c667ef431b",
+  "data_email": "Sat, 7 Nov 2026 21:05:48 -0800",
+  "marcador_enviado": true,
+  "commit_pacote": "e4efa7a54ba92c9a4ba88561eddf84d454331642",
+  "anexos": [
+    {
+      "arquivo": "P1H_R06_Relatorio.pdf",
+      "mime": "application/pdf",
+      "bytes": 1499435,
+      "sha256": "ae76c9bfa296c233eaed11f2f7629835c0d9e1de56d6cbec542f793e5ebb333a"
+    },
+    {
+      "arquivo": "06_Desenho_de_fabricacao_R06.pdf",
+      "mime": "application/pdf",
+      "bytes": 114262,
+      "sha256": "480be77df07cb20000117d2bdb84f72c83f61a355123845e0586572c1dbaf4a6"
+    }
+  ],
+  "reenvio_R02": false,
+  "heartbeat_encerrado": true,
+  "automation_id": "concluir-a-qualifica-o-hfss-do-painel-p1h",
+  "instante_registro": "2026-11-08T02:06:45.873062-03:00"
+}

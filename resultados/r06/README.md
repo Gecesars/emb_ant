@@ -41,3 +41,5 @@ DRC de 7/11: **zero erros e zero itens desconectados** nas três PCBs. A coluna 
 O aceite é **somente em 5,17 GHz**. As distribuidoras têm 17 pontos em 5,09–5,25 GHz; a antena S20 de um ponto não qualifica ganho/VSWR do painel em toda a banda. O modelo separado exclui radiação dos trajetos de cabo, acoplamento eletromagnético entre placas distintas e perdas dos cabos/N. Materiais e ENIG são nominais. A qualificação numérica não substitui medição do conjunto real, inspeção de continuidade DC e ensaio de vedação.
 
 O pacote inclui HFSS/Circuit, Touchstone, quarenta campos H/V por malha preservada, KiCad/Gerbers, FreeCAD, STEP/DXF, desenhos A3, imagens e relatório. **Sem malhas, campos volumétricos ou resultados nativos de solver no Git.** [Manifesto de entrega](manifesto_entrega.json) · [Revisão do PDF](revisao_relatorio.json) · [Scripts de reprodução](../../automacao/r06).
+
+Relatório e três pranchas A3 enviados para **gecesars@gmail.com em 8/11/2026**, com confirmação do marcador de enviado e dos dois anexos. [Registro da entrega](entrega_email.json). A automação de acompanhamento foi encerrada.
