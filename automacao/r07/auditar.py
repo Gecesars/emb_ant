@@ -3,6 +3,7 @@ import sys,json,re,hashlib,argparse
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'r06'))
 from auditar_convergencia import audit
+from auditar_malha import audit as audit_mesh
 
 def main(root):
     folder=root/'antena';native=folder/'PCB_R07.aedt'
@@ -17,6 +18,9 @@ def main(root):
     (folder/'auditoria_convergencia.json').write_text(json.dumps(result,indent=2),encoding='utf8')
     print(json.dumps({k:v for k,v in result.items() if k!='historico'},indent=2))
     assert result['convergencia_aprovada'],'Sem convergencia real dentro dos seis passes; nao aprovar por limite.'
+    mesh=audit_mesh(folder)
+    (folder/'malha.json').write_text(json.dumps(mesh,indent=2),encoding='utf8')
+    assert mesh['reparos_major']==0,'Reparo Major na malha R07: investigar antes de continuar.'
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('root',type=Path);main(p.parse_args().root)
