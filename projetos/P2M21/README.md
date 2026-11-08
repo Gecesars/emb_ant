@@ -2,6 +2,8 @@
 
 **R00: concepção criada, ainda sem qualificação eletromagnética do novo painel.** A P1H foi preservada como semipronta; seus resultados não aprovam esta nova geometria.
 
+**Atualização de 8/11, após a execução:** a antena terminou às 16h43 sem convergir em seis passes: ΔS = 0,040859, contra o limite de 0,02. Foram identificados sete corpos com reparos Major. A fila interrompeu antes da varredura do painel e do circuito; ganho e VSWR por entrada nos 17 pontos continuam sem confirmação. [Diagnóstico e evidências](diagnostico_20261108.md). Não há solver P2M21 ativo nesta verificação.
+
 O requisito confirmado é ganho frontal realizado **≥21 dBi em cada entrada**, de **5,09 a 5,25 GHz**, nos 17 pontos separados por 10 MHz, com a outra entrada terminada em 50 Ω. Cada entrada alimenta uma polarização dos 32 radiadores, distribuídos nas duas colunas. Os dois canais permanecem independentes. Não se soma a potência dos canais para alegar 21 dBi por entrada.
 
 ## Arquitetura escolhida
@@ -52,7 +54,7 @@ O cobre do radiador foi copiado do CAD R06, incluindo vias e soldas locais; os s
 
 O primeiro ensaio do divisor duplo 1:4 convergiu em seis passes, com ΔS final 0,01449 e dois passes consecutivos aprovados. Em 5,17 GHz, com todas as saídas casadas, VSWR A/B = 1,53665 / 1,53646; perda excedente = 0,33193 / 0,33038 dB. Isso ainda não aprova o casamento nem o ganho do painel carregado. A fila inicial resolve os divisores em separado e só então o centro da antena, sem aumentar o limite de seis passes. O estado de execução está em [qualificacao.json](qualificacao.json).
 
-O divisor duplo 1:8 também convergiu em seis passes, com ΔS 0,018707 e dois consecutivos aprovados. No centro, VSWR A/B = 1,69614 / 1,69673 e perda excedente = 0,52494 / 0,52296 dB. As terminações casadas desse ensaio não reproduzem a impedância ativa da antena; o casamento final depende do circuito carregado. **Ambos completaram os 17 pontos**, com passividade/reciprocidade verificadas e zero reparos Major/Minor. A simulação do centro da antena de 64 portas iniciou em 8/11 às 16:03, após liberar os divisores; ainda não há ganho novo do painel.
+O divisor duplo 1:8 também convergiu em seis passes, com ΔS 0,018707 e dois consecutivos aprovados. No centro, VSWR A/B = 1,69614 / 1,69673 e perda excedente = 0,52494 / 0,52296 dB. As terminações casadas desse ensaio não reproduzem a impedância ativa da antena; o casamento final depende do circuito carregado. **Ambos completaram os 17 pontos**, com passividade/reciprocidade verificadas e zero reparos Major/Minor. A execução da antena de 64 portas ocorreu em 8/11 das 16:03 às 16:43 e terminou sem convergência; ainda não há ganho qualificado do painel.
 
 Os modelos CAD foram reabertos e verificados: 653 objetos na antena, 44 no divisor 1:4 e 76 no 1:8, todos válidos, sem interseções volumétricas indevidas entre corpos. Contatos tangentes entre materiais são permitidos. O DRC das três placas tem **zero erros e zero itens desconectados**. Permanecem respectivamente 203, 20 e 36 avisos de máscara aberta/ponte de máscara nas áreas RF; os relatórios completos acompanham os nativos.
 

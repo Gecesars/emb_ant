@@ -29,6 +29,8 @@ for folder in ['antena','divisor_1x4','divisor_1x8']:
         if p.suffix in ('.step','.json'):copy(p,Path('hfss')/folder/'cad'/p.name)
 # Estado do primeiro estudo e resultados pequenos, quando efetivamente existentes.
 if (root/'qualificacao.json').exists():copy(root/'qualificacao.json',Path('qualificacao.json'))
+for p in root.glob('diagnostico_*.json'):copy(p,Path(p.name))
+if (root/'antena/convergencia.txt').exists():copy(root/'antena/convergencia.txt',Path('hfss/antena/convergencia.txt'))
 for p in root.glob('divisor_1x*/convergencia.txt'):copy(p,Path('hfss')/p.parent.name/p.name)
 for p in root.glob('divisor_1x*/*.s*p'):copy(p,Path('hfss')/p.parent.name/p.name)
 (dest/'manifesto.json').write_text(json.dumps(dict(estado='CONCEPCAO_NAO_QUALIFICADA_RF',arquivos=items),indent=2),encoding='utf8')

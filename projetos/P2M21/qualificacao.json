@@ -1,6 +1,5 @@
 {
-  "max_passes": 6, 
-  "estado": "SIMULANDO_CENTRO_ANTENA", 
-  "max_delta_s": 0.02, 
-  "portas": 64
+  "estado": "REQUER_VERIFICACAO", 
+  "erro": "Traceback (most recent call last):\n  File \"D:/dev/EMBRAER/emb_ant/projetos/P2M21/automacao/resolver_antena_centro.py\", line 27, in <module>\n    assert 2<=passes<=6 and consecutive>=2 and delta<=.02 and 'Converged : Yes' in conv,conv\nAssertionError: Setup : Centro\n\n==================\nNumber of Passes\nCompleted : 6\nMaximum   : 6\nMinimum   : 2\n==================\nCriterion : Max Mag. Delta S\nTarget    : 0.02\nCurrent   : 0.040859\nTarget Consecutive Passes  : 2\nCurrent Consecutive Passes : 0\nConverged : No\n==================\nPass Number|Solved Elements|Max Mag. Delta S|\n          1|        1018643|             N/A|\n          2|        1212185|         0.84424|\n          3|        1367770|         0.38767|\n          4|        1532027|         0.22306|\n          5|        1823016|        0.089949|\n          6|        1984665|        0.040859|\n\n\n", 
+  "etapa": "antena_centro"
 }

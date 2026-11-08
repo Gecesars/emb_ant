@@ -152,9 +152,15 @@
       "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\hfss_validacao.json"
     },
     {
+      "arquivo": "hfss/antena/malha.json",
+      "bytes": 73564,
+      "sha256": "30b95b1533dc3b25ec48a0749be0c2c5a4db28cd6b2847e7fa022adbdf67b621",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\malha.json"
+    },
+    {
       "arquivo": "hfss/antena/P2M21_Antena.aedt",
-      "bytes": 19827385,
-      "sha256": "27d776fba6ba116747b288358791e3b8c3ff9f435799936d624698180a2d73d8",
+      "bytes": 19828755,
+      "sha256": "e37aea2b33a181ad415dd300137ee1cd24004f21060a6b5c4d57281a7c181525",
       "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\P2M21_Antena.aedt"
     },
     {
@@ -429,9 +435,21 @@
     },
     {
       "arquivo": "qualificacao.json",
-      "bytes": 107,
-      "sha256": "91c589c96471509fb8a8e9e276a0f5ef544ae2cee8f8e456fca09f2f820771eb",
+      "bytes": 962,
+      "sha256": "cf2b26a78d33f80bf65574d72e0b858b470099b6590179bc2d020e98def8f372",
       "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\qualificacao.json"
+    },
+    {
+      "arquivo": "diagnostico_20261108.json",
+      "bytes": 4259,
+      "sha256": "3864610ca0b2d693dc412966e99b1b6072caf74c95e9950baad895f59ed87ffc",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\diagnostico_20261108.json"
+    },
+    {
+      "arquivo": "hfss/antena/convergencia.txt",
+      "bytes": 622,
+      "sha256": "8d09ca5d007eb81c3d2170537bb21438929d52fb3d97a58116c3417da4efc362",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R00_Concepcao\\antena\\convergencia.txt"
     },
     {
       "arquivo": "hfss/divisor_1x4/convergencia.txt",

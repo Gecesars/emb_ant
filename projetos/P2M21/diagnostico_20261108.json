@@ -1,0 +1,147 @@
+{
+  "estado": "NAO_QUALIFICADA_NUMERICAMENTE",
+  "termino_execucao_local": "2026-11-08T16:43:00-03:00",
+  "verificacao_local": "2026-11-08T18:51:30.239889-03:00",
+  "passes": 6,
+  "max_passes_usuario": 6,
+  "delta_s_final": 0.040859,
+  "delta_s_alvo": 0.02,
+  "passes_consecutivos_aprovados": 0,
+  "convergiu": false,
+  "reparos": {
+    "major": [
+      {
+        "id": 6078,
+        "nome": "E32_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448729
+      },
+      {
+        "id": 13866,
+        "nome": "E21_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448794
+      },
+      {
+        "id": 18114,
+        "nome": "E15_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448794
+      },
+      {
+        "id": 18938,
+        "nome": "E14_Ant01_Feed_A_Cu1",
+        "volume_mm3": 0.007938825999681771
+      },
+      {
+        "id": 19498,
+        "nome": "E13_Ant01_Feed_B_Inner_Cu1",
+        "volume_mm3": 0.007938826000203411
+      },
+      {
+        "id": 20206,
+        "nome": "E12_Ant01_Feed_B_Inner_Cu1",
+        "volume_mm3": 0.007938826000203413
+      },
+      {
+        "id": 23746,
+        "nome": "E07_Ant01_Feed_B_Inner_Cu1",
+        "volume_mm3": 0.007938826000203413
+      }
+    ],
+    "minor": [
+      {
+        "id": 3278,
+        "nome": "E02_Solda_terminal_03",
+        "volume_mm3": 0.05654866776461685
+      },
+      {
+        "id": 8910,
+        "nome": "E28_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448728
+      },
+      {
+        "id": 12450,
+        "nome": "E23_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448793
+      },
+      {
+        "id": 13158,
+        "nome": "E22_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448794
+      },
+      {
+        "id": 14574,
+        "nome": "E20_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448796
+      },
+      {
+        "id": 15282,
+        "nome": "E19_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448794
+      },
+      {
+        "id": 18230,
+        "nome": "E15_Ant01_Feed_A_Cu1",
+        "volume_mm3": 0.007938825999681771
+      },
+      {
+        "id": 23778,
+        "nome": "E07_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.07499350151448794
+      },
+      {
+        "id": 27434,
+        "nome": "E02_Ant01_Feed_A_Cu1",
+        "volume_mm3": 0.007938825999681765
+      },
+      {
+        "id": 28026,
+        "nome": "E01_Ant01_Feed_B_Inner_Cu0",
+        "volume_mm3": 0.0749935015144886
+      }
+    ]
+  },
+  "antena_matriz_exportada": false,
+  "campos_exportados": 0,
+  "banda17_antena_executada": false,
+  "circuito_painel_calculado": false,
+  "ganho_21dBi_por_entrada_confirmado": false,
+  "vswr_1_5_por_entrada_confirmado": false,
+  "nota": "Falta qualificacao numerica. Nao e demonstracao de que a antena fisica tenha ganho abaixo21dBi ou VSWR acima1.5. Divisores isolados nao substituem circuito carregado.",
+  "divisores": {
+    "4": {
+      "pontos": 17,
+      "passivo": true,
+      "reciproco": true,
+      "A": {
+        "VSWR_min": 1.5311737903029878,
+        "VSWR_max": 1.550083633741409,
+        "perda_excedente_min_dB": 0.32507427944327116,
+        "perda_excedente_max_dB": 0.34350318747561087
+      },
+      "B": {
+        "VSWR_min": 1.5296203761011324,
+        "VSWR_max": 1.551319616850172,
+        "perda_excedente_min_dB": 0.322835317510875,
+        "perda_excedente_max_dB": 0.34269429332730494
+      }
+    },
+    "8": {
+      "pontos": 17,
+      "passivo": true,
+      "reciproco": true,
+      "A": {
+        "VSWR_min": 1.6675925849204796,
+        "VSWR_max": 1.738227887685925,
+        "perda_excedente_min_dB": 0.5128863253603708,
+        "perda_excedente_max_dB": 0.5462620404616634
+      },
+      "B": {
+        "VSWR_min": 1.6677489092036486,
+        "VSWR_max": 1.739593323136721,
+        "perda_excedente_min_dB": 0.5102975785624528,
+        "perda_excedente_max_dB": 0.5451353306592568
+      }
+    }
+  },
+  "sha256_native": "e37aea2b33a181ad415dd300137ee1cd24004f21060a6b5c4d57281a7c181525",
+  "sha256_convergencia": "8d09ca5d007eb81c3d2170537bb21438929d52fb3d97a58116c3417da4efc362"
+}
