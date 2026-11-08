@@ -1,0 +1,50 @@
+{
+  "projeto": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\PCB_R06.aedt",
+  "cache_fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\PCB_R06.aedtresults\\PCB_sem_cabos.results\\DV171_SOL170_V1248.ExprCache",
+  "convergencia_fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\PCB_R06.aedtresults\\PCB_sem_cabos.results\\DV171_S168_V1197.EMConvData",
+  "historicos_de_outras_configuracoes": [
+    "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\PCB_R06.aedtresults\\PCB_sem_cabos.results\\DV171_S168_V444.EMConvData"
+  ],
+  "convergiu_nativo": true,
+  "criterio_s_usado": 0.004,
+  "criterio_campo_dB_usado": 0.02,
+  "minimo_passes_configurado": 23,
+  "minimo_passes_atendido": false,
+  "passes_cache_restaurados_da_continuacao": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "s_008_dois_passes": true,
+  "campo_005dB_nove_direcoes_dois_passes": true,
+  "convergencia_aprovada": false,
+  "ultimo_passe": {
+    "passe": 22,
+    "tetraedros": 6357446,
+    "delta_s": 0.0031557461942090634,
+    "campo_dBi": {
+      "G_P0_P90": 17.4470011204883,
+      "G_M60_P90": 12.9227989198284,
+      "G_M50_P90": 14.2146462767927,
+      "G_M40_P90": 15.343235956411,
+      "G_P40_P90": 15.3327595989758,
+      "G_P50_P90": 14.1796773214485,
+      "G_P60_P90": 12.8585523719333,
+      "G_M3_P0": 14.0185043486397,
+      "G_P3_P0": 13.8060455714401
+    },
+    "delta_campo_max_dB": 0.010088767730199066
+  },
+  "malha_preparada_passe23_tetraedros": 7289142,
+  "percent_refinement_configurado": 5,
+  "instante_observacao": "2026-11-08T01:04:38.604402-03:00",
+  "somente_leitura_sem_alterar_solver": true
+}

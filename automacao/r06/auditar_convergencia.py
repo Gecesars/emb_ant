@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 
-def audit(project):
+def audit(project, write=True):
     native = project.read_bytes().decode('latin1')
     setup_s=[float(x) for x in re.findall(r'MaxDeltaS=([^\s]+)',native)]
     setup_ff=[float(x) for x in re.findall(r'MaxConvergenceDelta=([^\s]+)',native)]
@@ -79,14 +79,17 @@ def audit(project):
     ff_ok = len(traces) == 9 and len(recent) == 2 and all(
         r['delta_campo_max_dB'] is not None and r['delta_campo_max_dB'] <= limit_ff for r in recent)
     native_ok = 'IsConverged=true' in data
+    minimum_ok = bool(history) and max(history) >= minimum
     result = dict(projeto=str(project), cache_fonte=str(cache), convergencia_fonte=str(convergence_file),
         historicos_de_outras_configuracoes=[str(p) for p in files if p!=convergence_file],
         convergiu_nativo=native_ok,
         criterio_s_usado=limit_s,criterio_campo_dB_usado=limit_ff,
+        minimo_passes_configurado=minimum,minimo_passes_atendido=minimum_ok,
         passes_cache_restaurados_da_continuacao=restored,
         s_008_dois_passes=s_ok, campo_005dB_nove_direcoes_dois_passes=ff_ok,
-        convergencia_aprovada=bool(native_ok and s_ok and ff_ok), historico=list(history.values()))
-    (project.parent/'auditoria_convergencia.json').write_text(json.dumps(result, indent=2), encoding='utf8')
+        convergencia_aprovada=bool(native_ok and minimum_ok and s_ok and ff_ok), historico=list(history.values()))
+    if write:
+        (project.parent/'auditoria_convergencia.json').write_text(json.dumps(result, indent=2), encoding='utf8')
     return result
 
 

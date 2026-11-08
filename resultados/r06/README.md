@@ -12,7 +12,7 @@ O aceite é em **5,17 GHz**, com duas entradas de **0,5 W a 0°**: ganho frontal
 - Circuito: reflexão múltipla e acoplamento por matrizes S completas; linhas ideais de fase conservam os comprimentos elétricos, com correção dos planos de referência.
 - Bobinas: cupom R05 de duas espiras, raio médio 0,9 mm, fio de 0,3 mm; comparação com e sem bobina e correção da atenuação dos acessos do cupom.
 
-A qualificação exige convergência de S e das nove amostras de campo. O critério é ΔS ≤0,008 e variação de campo ≤0,05 dB, ambos em dois passes consecutivos. Os vinte campos unitários serão recombinados coerentemente com as excitações calculadas pelo circuito. O resultado matricial será confrontado com o Ansys Circuit/Nexxim.
+A qualificação exige convergência de S e das nove amostras de campo. O critério inicial de ΔS ≤0,008 e campo ≤0,05 dB foi apertado na PCB para **ΔS ≤0,004 e campo ≤0,02 dB**, ambos em dois passes consecutivos. O mínimo de passes configurado também deve ser cumprido. Os vinte campos unitários serão recombinados coerentemente com as excitações calculadas pelo circuito. O resultado matricial será confrontado com o Ansys Circuit/Nexxim.
 
 Os materiais nominais são RO4350B de 0,76 mm na antena e ZYF300CA-C de 1,52 mm nas distribuidoras. O cobre físico tem 35 µm e acabamento ENIG unilateral, com NiP de 4,5 µm / 1,5 MS/m nominal e Au de 0,0254 µm. O modelo mantém a rugosidade de cobre equivalente adotada na R05. As dimensões dos Gerbers permanecem iguais à R02.
 
@@ -41,6 +41,8 @@ Atualização às 19:58: a malha local refinada concluiu em 11 passes e manteve 
 Atualização às 22:58: a continuação rigorosa convergiu em **21 passes**, com **17,3599 dBi, H 95,9455° e VSWR máximo 1,24633** no circuito. A mudança de H em relação aos 11 passes ainda superou a tolerância interna de estabilidade. Uma conferência com pelo menos dois passes adicionais foi iniciada, preservando os mesmos critérios e o refinamento de 15%. [Histórico completo](conferencia_malha.md). **Ainda não é aceite final.**
 
 Atualização em **8/11 às 00:03**: a conferência adicional falhou por **falta de memória** às 23:45, sem produzir resultado válido do passe 22. A solução de 21 passes está preservada. A continuação foi retomada com crescimento de malha de **5% por passe**, mantendo os critérios de erro e as tolerâncias de estabilidade. Os números acima atendem às metas de RF, mas a liberação e o relatório final ainda dependem dessa conferência. [Evidências da recuperação](recuperacao_memoria).
+
+Às **01:04 de 8/11**, o passe 22 já concluiu: **6.357.446 tetraedros, ΔS 0,00315575 e campo 0,0100888 dB**. O passe 23 está em execução. Embora o parâmetro de refinamento esteja configurado em 5%, o crescimento efetivo observado da malha foi de cerca de 14,6%; a redução nominal não comprova economia proporcional de memória. Ainda faltam o término do mínimo de 23 passes e a comparação final com a solução de 21 passes. [Monitor somente de leitura](recuperacao_memoria/monitor_passe22.json).
 
 O DRC de 7/11 no KiCad 10.0.5 encontrou zero erros e zero itens desconectados nas três placas. A coluna tem 203 avisos de ponte de máscara nas aberturas RF; os divisores não têm avisos. [Evidências e hashes](fabricacao/verificacao.json). Os Gerbers não foram alterados.
 
