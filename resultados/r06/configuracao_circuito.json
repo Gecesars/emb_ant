@@ -4,8 +4,9 @@
     132,
     133
   ],
-  "estado": "CAD verificado; qualificacao RF final pendente",
+  "estado": "Geometria verificada; RF qualificado numericamente em 5.17GHz, sem perdas nos cabos",
   "justificativa": "Ramais reduzidos de135 para133mm para corrigir VSWR individual da entrada B; nenhuma perda nos cabos.",
   "geometria": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\Painel_R05.FCStd",
-  "verificacao": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\verificacao.json"
+  "verificacao": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\estudo_fase\\candidato_290_132_133\\cad\\verificacao.json",
+  "qualificacao_rf": "circuito/qualificacao_final.json"
 }

@@ -1,5 +1,5 @@
 {
-  "estado": "Geometria verificada; RF refinado pendente",
+  "estado": "Geometria verificada; RF qualificado numericamente em 5.17GHz, sem perdas nos cabos",
   "comprimentos_mm": [
     290,
     132,
@@ -80,5 +80,6 @@
       "arquivo": "traseira.png",
       "sha256": "641f1fca826e4eeb692d539cd994d0ded48ce76a9db29abb178045da77bb89f2"
     }
-  ]
+  ],
+  "qualificacao_rf": "circuito/qualificacao_final.json"
 }

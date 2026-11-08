@@ -1,0 +1,2511 @@
+{
+  "faces_ENIG": 1200, 
+  "metodo": "Cobre geometrico, solve inside falso; Au/NiP sobre superficie exposta. Base condutora semi-infinita pois 35um excede muitas profundidades de penetracao.", 
+  "condutividade_Cu_Sm": 28688604.125122771, 
+  "Cu_um": 35, 
+  "NiP_um": 4.5, 
+  "Au_um": 0.025399999999999999, 
+  "objetos": {
+    "Ant02_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        8683, 
+        8684, 
+        8685, 
+        8686, 
+        8688, 
+        8689
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8687
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant05_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075590054, 
+      "faces_ENIG": [
+        6593, 
+        6594, 
+        6595, 
+        6596, 
+        6597, 
+        6598, 
+        6599, 
+        6600, 
+        6601, 
+        6602, 
+        6603, 
+        6604, 
+        6605, 
+        6607
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075590054, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6606
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant05_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533937306, 
+      "faces_ENIG": [
+        6783, 
+        6784, 
+        6785, 
+        6786, 
+        6787, 
+        6788, 
+        6790
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533937306, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6789
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant07_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631704, 
+      "faces_ENIG": [
+        5259, 
+        5260, 
+        5261, 
+        5262, 
+        5264
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631704, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5263
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant01_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        9507, 
+        9508, 
+        9509, 
+        9510, 
+        9512
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9511
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant08_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        4551, 
+        4552, 
+        4553, 
+        4554, 
+        4556
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4555
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant02_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        8651, 
+        8652, 
+        8653, 
+        8655, 
+        8656
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8654
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant07_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500153, 
+      "faces_ENIG": [
+        5143, 
+        5144, 
+        5145, 
+        5146, 
+        5148, 
+        5149
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500153, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5147
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant06_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631793, 
+      "faces_ENIG": [
+        5999, 
+        6000, 
+        6001, 
+        6002, 
+        6004, 
+        6005, 
+        6006, 
+        6007, 
+        6008, 
+        6009, 
+        6010, 
+        6011, 
+        6012
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631793, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6003
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant01_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500164, 
+      "faces_ENIG": [
+        9391, 
+        9392, 
+        9393, 
+        9394, 
+        9396, 
+        9397
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500164, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9395
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant04_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631704, 
+      "faces_ENIG": [
+        7383, 
+        7384, 
+        7385, 
+        7386, 
+        7388
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631704, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7387
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant09_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533936182, 
+      "faces_ENIG": [
+        3951, 
+        3952, 
+        3953, 
+        3954, 
+        3955, 
+        3956, 
+        3958
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533936182, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3957
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant10_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500164, 
+      "faces_ENIG": [
+        2987, 
+        2988, 
+        2989, 
+        2991, 
+        2992
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500164, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        2990
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant03_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        8123, 
+        8124, 
+        8125, 
+        8126, 
+        8128, 
+        8129, 
+        8130, 
+        8131, 
+        8132, 
+        8133, 
+        8134, 
+        8135, 
+        8136
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8127
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant09_Ring_Q2": {
+      "volume_original_mm3": 2.2224955797535624, 
+      "faces_ENIG": [
+        4197, 
+        4198, 
+        4199, 
+        4200, 
+        4201, 
+        4202, 
+        4203, 
+        4204, 
+        4205, 
+        4206, 
+        4207, 
+        4208, 
+        4209, 
+        4210, 
+        4211, 
+        4212, 
+        4214
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.2224955797535624, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4213
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant09_Ring_Q3": {
+      "volume_original_mm3": 2.171422994329651, 
+      "faces_ENIG": [
+        4097, 
+        4098, 
+        4099, 
+        4100, 
+        4101, 
+        4102, 
+        4103, 
+        4104, 
+        4105, 
+        4106, 
+        4107, 
+        4108, 
+        4109, 
+        4110, 
+        4111, 
+        4112, 
+        4114
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.171422994329651, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4113
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant09_Ring_Q1": {
+      "volume_original_mm3": 1.99395428481385, 
+      "faces_ENIG": [
+        4297, 
+        4298, 
+        4299, 
+        4300, 
+        4301, 
+        4302, 
+        4303, 
+        4304, 
+        4305, 
+        4306, 
+        4307, 
+        4308, 
+        4309, 
+        4310, 
+        4311, 
+        4312, 
+        4313, 
+        4315
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.99395428481385, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4314
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant09_Ring_Q4": {
+      "volume_original_mm3": 2.0450268702373458, 
+      "faces_ENIG": [
+        3991, 
+        3992, 
+        3993, 
+        3994, 
+        3995, 
+        3996, 
+        3997, 
+        3998, 
+        3999, 
+        4000, 
+        4001, 
+        4002, 
+        4003, 
+        4004, 
+        4005, 
+        4006, 
+        4007, 
+        4009
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.0450268702373458, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4008
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant05_Ring_Q4": {
+      "volume_original_mm3": 2.0450268702373444, 
+      "faces_ENIG": [
+        6823, 
+        6824, 
+        6825, 
+        6826, 
+        6827, 
+        6828, 
+        6829, 
+        6830, 
+        6831, 
+        6832, 
+        6833, 
+        6834, 
+        6835, 
+        6836, 
+        6837, 
+        6838, 
+        6839, 
+        6841
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.0450268702373444, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6840
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant05_Ring_Q2": {
+      "volume_original_mm3": 2.2224955797535557, 
+      "faces_ENIG": [
+        7029, 
+        7030, 
+        7031, 
+        7032, 
+        7033, 
+        7034, 
+        7035, 
+        7036, 
+        7037, 
+        7038, 
+        7039, 
+        7040, 
+        7041, 
+        7042, 
+        7043, 
+        7044, 
+        7046
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.2224955797535557, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7045
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant05_Ring_Q3": {
+      "volume_original_mm3": 2.1714229943296552, 
+      "faces_ENIG": [
+        6929, 
+        6930, 
+        6931, 
+        6932, 
+        6933, 
+        6934, 
+        6935, 
+        6936, 
+        6937, 
+        6938, 
+        6939, 
+        6940, 
+        6941, 
+        6942, 
+        6943, 
+        6944, 
+        6946
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.1714229943296552, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6945
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant07_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500153, 
+      "faces_ENIG": [
+        5111, 
+        5112, 
+        5113, 
+        5115, 
+        5116
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500153, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5114
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant05_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138545, 
+      "faces_ENIG": [
+        7129, 
+        7130, 
+        7131, 
+        7132, 
+        7133, 
+        7134, 
+        7135, 
+        7136, 
+        7137, 
+        7138, 
+        7139, 
+        7140, 
+        7141, 
+        7142, 
+        7143, 
+        7144, 
+        7145, 
+        7147
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138545, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7146
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant01_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500164, 
+      "faces_ENIG": [
+        9359, 
+        9360, 
+        9361, 
+        9363, 
+        9364
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500164, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9362
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant02_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533936182, 
+      "faces_ENIG": [
+        8907, 
+        8908, 
+        8909, 
+        8910, 
+        8911, 
+        8912, 
+        8914
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533936182, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8913
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant06_Ring_Q4": {
+      "volume_original_mm3": 2.045026870237345, 
+      "faces_ENIG": [
+        6115, 
+        6116, 
+        6117, 
+        6118, 
+        6119, 
+        6120, 
+        6121, 
+        6122, 
+        6123, 
+        6124, 
+        6125, 
+        6126, 
+        6127, 
+        6128, 
+        6129, 
+        6130, 
+        6131, 
+        6133
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.045026870237345, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6132
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant06_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138563, 
+      "faces_ENIG": [
+        6421, 
+        6422, 
+        6423, 
+        6424, 
+        6425, 
+        6426, 
+        6427, 
+        6428, 
+        6429, 
+        6430, 
+        6431, 
+        6432, 
+        6433, 
+        6434, 
+        6435, 
+        6436, 
+        6437, 
+        6439
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138563, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6438
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant06_Ring_Q3": {
+      "volume_original_mm3": 2.1714229943296552, 
+      "faces_ENIG": [
+        6221, 
+        6222, 
+        6223, 
+        6224, 
+        6225, 
+        6226, 
+        6227, 
+        6228, 
+        6229, 
+        6230, 
+        6231, 
+        6232, 
+        6233, 
+        6234, 
+        6235, 
+        6236, 
+        6238
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.1714229943296552, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6237
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant06_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753555, 
+      "faces_ENIG": [
+        6321, 
+        6322, 
+        6323, 
+        6324, 
+        6325, 
+        6326, 
+        6327, 
+        6328, 
+        6329, 
+        6330, 
+        6331, 
+        6332, 
+        6333, 
+        6334, 
+        6335, 
+        6336, 
+        6338
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753555, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6337
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant09_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        3875, 
+        3876, 
+        3877, 
+        3878, 
+        3880, 
+        3881, 
+        3882, 
+        3883, 
+        3884, 
+        3885, 
+        3886, 
+        3887, 
+        3888
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3879
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant01_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753563, 
+      "faces_ENIG": [
+        9861, 
+        9862, 
+        9863, 
+        9864, 
+        9865, 
+        9866, 
+        9867, 
+        9868, 
+        9869, 
+        9870, 
+        9871, 
+        9872, 
+        9873, 
+        9874, 
+        9875, 
+        9876, 
+        9878
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753563, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9877
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant01_Ring_Q3": {
+      "volume_original_mm3": 2.1714229943296517, 
+      "faces_ENIG": [
+        9761, 
+        9762, 
+        9763, 
+        9764, 
+        9765, 
+        9766, 
+        9767, 
+        9768, 
+        9769, 
+        9770, 
+        9771, 
+        9772, 
+        9773, 
+        9774, 
+        9775, 
+        9776, 
+        9778
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.1714229943296517, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9777
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant06_Crossover_Bridge": {
+      "volume_original_mm3": 0.08742430353393732, 
+      "faces_ENIG": [
+        6075, 
+        6076, 
+        6077, 
+        6078, 
+        6079, 
+        6080, 
+        6082
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.08742430353393732, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6081
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant01_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138496, 
+      "faces_ENIG": [
+        9961, 
+        9962, 
+        9963, 
+        9964, 
+        9965, 
+        9966, 
+        9967, 
+        9968, 
+        9969, 
+        9970, 
+        9971, 
+        9972, 
+        9973, 
+        9974, 
+        9975, 
+        9976, 
+        9977, 
+        9979
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138496, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9978
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant01_Ring_Q4": {
+      "volume_original_mm3": 2.0450268702373466, 
+      "faces_ENIG": [
+        9655, 
+        9656, 
+        9657, 
+        9658, 
+        9659, 
+        9660, 
+        9661, 
+        9662, 
+        9663, 
+        9664, 
+        9665, 
+        9666, 
+        9667, 
+        9668, 
+        9669, 
+        9670, 
+        9671, 
+        9673
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.0450268702373466, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9672
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant05_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631793, 
+      "faces_ENIG": [
+        6707, 
+        6708, 
+        6709, 
+        6710, 
+        6712, 
+        6713, 
+        6714, 
+        6715, 
+        6716, 
+        6717, 
+        6718, 
+        6719, 
+        6720
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631793, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6711
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant02_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138492, 
+      "faces_ENIG": [
+        9253, 
+        9254, 
+        9255, 
+        9256, 
+        9257, 
+        9258, 
+        9259, 
+        9260, 
+        9261, 
+        9262, 
+        9263, 
+        9264, 
+        9265, 
+        9266, 
+        9267, 
+        9268, 
+        9269, 
+        9271
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138492, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9270
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant02_Ring_Q3": {
+      "volume_original_mm3": 2.1714229943296517, 
+      "faces_ENIG": [
+        9053, 
+        9054, 
+        9055, 
+        9056, 
+        9057, 
+        9058, 
+        9059, 
+        9060, 
+        9061, 
+        9062, 
+        9063, 
+        9064, 
+        9065, 
+        9066, 
+        9067, 
+        9068, 
+        9070
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.1714229943296517, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9069
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant02_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753562, 
+      "faces_ENIG": [
+        9153, 
+        9154, 
+        9155, 
+        9156, 
+        9157, 
+        9158, 
+        9159, 
+        9160, 
+        9161, 
+        9162, 
+        9163, 
+        9164, 
+        9165, 
+        9166, 
+        9167, 
+        9168, 
+        9170
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753562, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9169
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant02_Ring_Q4": {
+      "volume_original_mm3": 2.045026870237346, 
+      "faces_ENIG": [
+        8947, 
+        8948, 
+        8949, 
+        8950, 
+        8951, 
+        8952, 
+        8953, 
+        8954, 
+        8955, 
+        8956, 
+        8957, 
+        8958, 
+        8959, 
+        8960, 
+        8961, 
+        8962, 
+        8963, 
+        8965
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.045026870237346, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8964
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant03_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        7943, 
+        7944, 
+        7945, 
+        7947, 
+        7948
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7946
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant10_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631437, 
+      "faces_ENIG": [
+        3167, 
+        3168, 
+        3169, 
+        3170, 
+        3172, 
+        3173, 
+        3174, 
+        3175, 
+        3176, 
+        3177, 
+        3178, 
+        3179, 
+        3180
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631437, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3171
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant08_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        4435, 
+        4436, 
+        4437, 
+        4438, 
+        4440, 
+        4441
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4439
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant03_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589938, 
+      "faces_ENIG": [
+        8009, 
+        8010, 
+        8011, 
+        8012, 
+        8013, 
+        8014, 
+        8015, 
+        8016, 
+        8017, 
+        8018, 
+        8019, 
+        8020, 
+        8021, 
+        8023
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589938, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8022
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant04_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500154, 
+      "faces_ENIG": [
+        7235, 
+        7236, 
+        7237, 
+        7239, 
+        7240
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500154, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7238
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant06_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500121, 
+      "faces_ENIG": [
+        5819, 
+        5820, 
+        5821, 
+        5823, 
+        5824
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500121, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5822
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant10_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589938, 
+      "faces_ENIG": [
+        3053, 
+        3054, 
+        3055, 
+        3056, 
+        3057, 
+        3058, 
+        3059, 
+        3060, 
+        3061, 
+        3062, 
+        3063, 
+        3064, 
+        3065, 
+        3067
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589938, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3066
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant05_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500121, 
+      "faces_ENIG": [
+        6559, 
+        6560, 
+        6561, 
+        6562, 
+        6564, 
+        6565
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500121, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6563
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant03_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533936182, 
+      "faces_ENIG": [
+        8199, 
+        8200, 
+        8201, 
+        8202, 
+        8203, 
+        8204, 
+        8206
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533936182, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8205
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant08_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589938, 
+      "faces_ENIG": [
+        4469, 
+        4470, 
+        4471, 
+        4472, 
+        4473, 
+        4474, 
+        4475, 
+        4476, 
+        4477, 
+        4478, 
+        4479, 
+        4480, 
+        4481, 
+        4483
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589938, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4482
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant07_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533937694, 
+      "faces_ENIG": [
+        5367, 
+        5368, 
+        5369, 
+        5370, 
+        5371, 
+        5372, 
+        5374
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533937694, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5373
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant08_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        4403, 
+        4404, 
+        4405, 
+        4407, 
+        4408
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4406
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant07_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631704, 
+      "faces_ENIG": [
+        5291, 
+        5292, 
+        5293, 
+        5294, 
+        5296, 
+        5297, 
+        5298, 
+        5299, 
+        5300, 
+        5301, 
+        5302, 
+        5303, 
+        5304
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631704, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5295
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant07_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589993, 
+      "faces_ENIG": [
+        5177, 
+        5178, 
+        5179, 
+        5180, 
+        5181, 
+        5182, 
+        5183, 
+        5184, 
+        5185, 
+        5186, 
+        5187, 
+        5188, 
+        5189, 
+        5191
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589993, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5190
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant10_Ring_Q2": {
+      "volume_original_mm3": 2.2224955797535624, 
+      "faces_ENIG": [
+        3489, 
+        3490, 
+        3491, 
+        3492, 
+        3493, 
+        3494, 
+        3495, 
+        3496, 
+        3497, 
+        3498, 
+        3499, 
+        3500, 
+        3501, 
+        3502, 
+        3503, 
+        3504, 
+        3506
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.2224955797535624, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3505
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant09_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        3727, 
+        3728, 
+        3729, 
+        3730, 
+        3732, 
+        3733
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3731
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant10_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138498, 
+      "faces_ENIG": [
+        3589, 
+        3590, 
+        3591, 
+        3592, 
+        3593, 
+        3594, 
+        3595, 
+        3596, 
+        3597, 
+        3598, 
+        3599, 
+        3600, 
+        3601, 
+        3602, 
+        3603, 
+        3604, 
+        3605, 
+        3607
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138498, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3606
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant10_Ring_Q3": {
+      "volume_original_mm3": 2.1714229943296517, 
+      "faces_ENIG": [
+        3389, 
+        3390, 
+        3391, 
+        3392, 
+        3393, 
+        3394, 
+        3395, 
+        3396, 
+        3397, 
+        3398, 
+        3399, 
+        3400, 
+        3401, 
+        3402, 
+        3403, 
+        3404, 
+        3406
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.1714229943296517, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3405
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant08_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        4583, 
+        4584, 
+        4585, 
+        4586, 
+        4588, 
+        4589, 
+        4590, 
+        4591, 
+        4592, 
+        4593, 
+        4594, 
+        4595, 
+        4596
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4587
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant10_Ring_Q4": {
+      "volume_original_mm3": 2.0450268702373475, 
+      "faces_ENIG": [
+        3283, 
+        3284, 
+        3285, 
+        3286, 
+        3287, 
+        3288, 
+        3289, 
+        3290, 
+        3291, 
+        3292, 
+        3293, 
+        3294, 
+        3295, 
+        3296, 
+        3297, 
+        3298, 
+        3299, 
+        3301
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.0450268702373475, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3300
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant04_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631704, 
+      "faces_ENIG": [
+        7415, 
+        7416, 
+        7417, 
+        7418, 
+        7420, 
+        7421, 
+        7422, 
+        7423, 
+        7424, 
+        7425, 
+        7426, 
+        7427, 
+        7428
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631704, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7419
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant05_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500121, 
+      "faces_ENIG": [
+        6527, 
+        6528, 
+        6529, 
+        6531, 
+        6532
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500121, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6530
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant01_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533936182, 
+      "faces_ENIG": [
+        9615, 
+        9616, 
+        9617, 
+        9618, 
+        9619, 
+        9620, 
+        9622
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533936182, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9621
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant04_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075590004, 
+      "faces_ENIG": [
+        7301, 
+        7302, 
+        7303, 
+        7304, 
+        7305, 
+        7306, 
+        7307, 
+        7308, 
+        7309, 
+        7310, 
+        7311, 
+        7312, 
+        7313, 
+        7315
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075590004, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7314
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant09_Feed_B_Inner_Cu1": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        3695, 
+        3696, 
+        3697, 
+        3699, 
+        3700
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3698
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant06_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631793, 
+      "faces_ENIG": [
+        5967, 
+        5968, 
+        5969, 
+        5970, 
+        5972
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631793, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5971
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant04_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533937694, 
+      "faces_ENIG": [
+        7491, 
+        7492, 
+        7493, 
+        7494, 
+        7495, 
+        7496, 
+        7498
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533937694, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7497
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant10_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500164, 
+      "faces_ENIG": [
+        3019, 
+        3020, 
+        3021, 
+        3022, 
+        3024, 
+        3025
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500164, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3023
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant03_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        8091, 
+        8092, 
+        8093, 
+        8094, 
+        8096
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8095
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant07_Ring_Q4": {
+      "volume_original_mm3": 2.045026870237345, 
+      "faces_ENIG": [
+        5407, 
+        5408, 
+        5409, 
+        5410, 
+        5411, 
+        5412, 
+        5413, 
+        5414, 
+        5415, 
+        5416, 
+        5417, 
+        5418, 
+        5419, 
+        5420, 
+        5421, 
+        5422, 
+        5423, 
+        5425
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.045026870237345, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5424
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant07_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138565, 
+      "faces_ENIG": [
+        5713, 
+        5714, 
+        5715, 
+        5716, 
+        5717, 
+        5718, 
+        5719, 
+        5720, 
+        5721, 
+        5722, 
+        5723, 
+        5724, 
+        5725, 
+        5726, 
+        5727, 
+        5728, 
+        5729, 
+        5731
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138565, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5730
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant07_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753557, 
+      "faces_ENIG": [
+        5613, 
+        5614, 
+        5615, 
+        5616, 
+        5617, 
+        5618, 
+        5619, 
+        5620, 
+        5621, 
+        5622, 
+        5623, 
+        5624, 
+        5625, 
+        5626, 
+        5627, 
+        5628, 
+        5630
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753557, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5629
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant07_Ring_Q3": {
+      "volume_original_mm3": 2.171422994329655, 
+      "faces_ENIG": [
+        5513, 
+        5514, 
+        5515, 
+        5516, 
+        5517, 
+        5518, 
+        5519, 
+        5520, 
+        5521, 
+        5522, 
+        5523, 
+        5524, 
+        5525, 
+        5526, 
+        5527, 
+        5528, 
+        5530
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.171422994329655, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5529
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant02_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        8831, 
+        8832, 
+        8833, 
+        8834, 
+        8836, 
+        8837, 
+        8838, 
+        8839, 
+        8840, 
+        8841, 
+        8842, 
+        8843, 
+        8844
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8835
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant03_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138554, 
+      "faces_ENIG": [
+        8545, 
+        8546, 
+        8547, 
+        8548, 
+        8549, 
+        8550, 
+        8551, 
+        8552, 
+        8553, 
+        8554, 
+        8555, 
+        8556, 
+        8557, 
+        8558, 
+        8559, 
+        8560, 
+        8561, 
+        8563
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138554, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8562
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant03_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753563, 
+      "faces_ENIG": [
+        8445, 
+        8446, 
+        8447, 
+        8448, 
+        8449, 
+        8450, 
+        8451, 
+        8452, 
+        8453, 
+        8454, 
+        8455, 
+        8456, 
+        8457, 
+        8458, 
+        8459, 
+        8460, 
+        8462
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753563, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8461
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant03_Ring_Q3": {
+      "volume_original_mm3": 2.171422994329651, 
+      "faces_ENIG": [
+        8345, 
+        8346, 
+        8347, 
+        8348, 
+        8349, 
+        8350, 
+        8351, 
+        8352, 
+        8353, 
+        8354, 
+        8355, 
+        8356, 
+        8357, 
+        8358, 
+        8359, 
+        8360, 
+        8362
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.171422994329651, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8361
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant03_Ring_Q4": {
+      "volume_original_mm3": 2.045026870237349, 
+      "faces_ENIG": [
+        8239, 
+        8240, 
+        8241, 
+        8242, 
+        8243, 
+        8244, 
+        8245, 
+        8246, 
+        8247, 
+        8248, 
+        8249, 
+        8250, 
+        8251, 
+        8252, 
+        8253, 
+        8254, 
+        8255, 
+        8257
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.045026870237349, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8256
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant03_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500162, 
+      "faces_ENIG": [
+        7975, 
+        7976, 
+        7977, 
+        7978, 
+        7980, 
+        7981
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500162, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7979
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant08_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533936182, 
+      "faces_ENIG": [
+        4659, 
+        4660, 
+        4661, 
+        4662, 
+        4663, 
+        4664, 
+        4666
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533936182, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4665
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant10_Crossover_Bridge": {
+      "volume_original_mm3": 0.087424303533936196, 
+      "faces_ENIG": [
+        3243, 
+        3244, 
+        3245, 
+        3246, 
+        3247, 
+        3248, 
+        3250
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.087424303533936196, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3249
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant10_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631437, 
+      "faces_ENIG": [
+        3135, 
+        3136, 
+        3137, 
+        3138, 
+        3140
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631437, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3139
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant09_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        3843, 
+        3844, 
+        3845, 
+        3846, 
+        3848
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3847
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant05_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631793, 
+      "faces_ENIG": [
+        6675, 
+        6676, 
+        6677, 
+        6678, 
+        6680
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631793, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        6679
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant02_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589938, 
+      "faces_ENIG": [
+        8717, 
+        8718, 
+        8719, 
+        8720, 
+        8721, 
+        8722, 
+        8723, 
+        8724, 
+        8725, 
+        8726, 
+        8727, 
+        8728, 
+        8729, 
+        8731
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589938, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8730
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant08_Ring_Q3": {
+      "volume_original_mm3": 2.171422994329654, 
+      "faces_ENIG": [
+        4805, 
+        4806, 
+        4807, 
+        4808, 
+        4809, 
+        4810, 
+        4811, 
+        4812, 
+        4813, 
+        4814, 
+        4815, 
+        4816, 
+        4817, 
+        4818, 
+        4819, 
+        4820, 
+        4822
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.171422994329654, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4821
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant08_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753561, 
+      "faces_ENIG": [
+        4905, 
+        4906, 
+        4907, 
+        4908, 
+        4909, 
+        4910, 
+        4911, 
+        4912, 
+        4913, 
+        4914, 
+        4915, 
+        4916, 
+        4917, 
+        4918, 
+        4919, 
+        4920, 
+        4922
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753561, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4921
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant08_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138498, 
+      "faces_ENIG": [
+        5005, 
+        5006, 
+        5007, 
+        5008, 
+        5009, 
+        5010, 
+        5011, 
+        5012, 
+        5013, 
+        5014, 
+        5015, 
+        5016, 
+        5017, 
+        5018, 
+        5019, 
+        5020, 
+        5021, 
+        5023
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138498, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5022
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant06_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500121, 
+      "faces_ENIG": [
+        5851, 
+        5852, 
+        5853, 
+        5854, 
+        5856, 
+        5857
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500121, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5855
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant04_Feed_B_Inner_Cu0": {
+      "volume_original_mm3": 0.10025035701500154, 
+      "faces_ENIG": [
+        7267, 
+        7268, 
+        7269, 
+        7270, 
+        7272, 
+        7273
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.10025035701500154, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7271
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant08_Ring_Q4": {
+      "volume_original_mm3": 2.045026870237347, 
+      "faces_ENIG": [
+        4699, 
+        4700, 
+        4701, 
+        4702, 
+        4703, 
+        4704, 
+        4705, 
+        4706, 
+        4707, 
+        4708, 
+        4709, 
+        4710, 
+        4711, 
+        4712, 
+        4713, 
+        4714, 
+        4715, 
+        4717
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.045026870237347, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        4716
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant09_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589949, 
+      "faces_ENIG": [
+        3761, 
+        3762, 
+        3763, 
+        3764, 
+        3765, 
+        3766, 
+        3767, 
+        3768, 
+        3769, 
+        3770, 
+        3771, 
+        3772, 
+        3773, 
+        3775
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589949, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        3774
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant02_Feed_A_Cu1": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        8799, 
+        8800, 
+        8801, 
+        8802, 
+        8804
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        8803
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant01_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075589949, 
+      "faces_ENIG": [
+        9425, 
+        9426, 
+        9427, 
+        9428, 
+        9429, 
+        9430, 
+        9431, 
+        9432, 
+        9433, 
+        9434, 
+        9435, 
+        9436, 
+        9437, 
+        9439
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075589949, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9438
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant04_Ring_Q4": {
+      "volume_original_mm3": 2.045026870237345, 
+      "faces_ENIG": [
+        7531, 
+        7532, 
+        7533, 
+        7534, 
+        7535, 
+        7536, 
+        7537, 
+        7538, 
+        7539, 
+        7540, 
+        7541, 
+        7542, 
+        7543, 
+        7544, 
+        7545, 
+        7546, 
+        7547, 
+        7549
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.045026870237345, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7548
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant04_Ring_Q3": {
+      "volume_original_mm3": 2.1714229943296552, 
+      "faces_ENIG": [
+        7637, 
+        7638, 
+        7639, 
+        7640, 
+        7641, 
+        7642, 
+        7643, 
+        7644, 
+        7645, 
+        7646, 
+        7647, 
+        7648, 
+        7649, 
+        7650, 
+        7651, 
+        7652, 
+        7654
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.1714229943296552, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7653
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant04_Ring_Q2": {
+      "volume_original_mm3": 2.222495579753557, 
+      "faces_ENIG": [
+        7737, 
+        7738, 
+        7739, 
+        7740, 
+        7741, 
+        7742, 
+        7743, 
+        7744, 
+        7745, 
+        7746, 
+        7747, 
+        7748, 
+        7749, 
+        7750, 
+        7751, 
+        7752, 
+        7754
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 2.222495579753557, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7753
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant04_Ring_Q1": {
+      "volume_original_mm3": 1.9939542848138563, 
+      "faces_ENIG": [
+        7837, 
+        7838, 
+        7839, 
+        7840, 
+        7841, 
+        7842, 
+        7843, 
+        7844, 
+        7845, 
+        7846, 
+        7847, 
+        7848, 
+        7849, 
+        7850, 
+        7851, 
+        7852, 
+        7853, 
+        7855
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 1.9939542848138563, 
+      "exposto": -1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        7854
+      ], 
+      "base_z_mm": 16.61
+    }, 
+    "Ant01_Feed_A_Cu0": {
+      "volume_original_mm3": 0.58104587423631449, 
+      "faces_ENIG": [
+        9539, 
+        9540, 
+        9541, 
+        9542, 
+        9544, 
+        9545, 
+        9546, 
+        9547, 
+        9548, 
+        9549, 
+        9550, 
+        9551, 
+        9552
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.58104587423631449, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        9543
+      ], 
+      "base_z_mm": 17.37
+    }, 
+    "Ant06_Feed_B_Outer": {
+      "volume_original_mm3": 0.42297745075590054, 
+      "faces_ENIG": [
+        5885, 
+        5886, 
+        5887, 
+        5888, 
+        5889, 
+        5890, 
+        5891, 
+        5892, 
+        5893, 
+        5894, 
+        5895, 
+        5896, 
+        5897, 
+        5899
+      ], 
+      "contatos": [], 
+      "volume_final_mm3": 0.42297745075590054, 
+      "exposto": 1, 
+      "espessura_mm": 0.035000000000000003, 
+      "faces_Cu_substrato": [
+        5898
+      ], 
+      "base_z_mm": 17.37
+    }
+  }, 
+  "faces_Cu_substrato": 100
+}

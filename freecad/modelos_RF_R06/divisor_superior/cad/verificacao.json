@@ -1,0 +1,15 @@
+{
+  "placa": "Superior",
+  "portas": 12,
+  "chicote_3d": false,
+  "terminal_mm": 0.18,
+  "solda_sinal_topo_raio_mm": 0.65,
+  "solda_sinal_topo_altura_mm": 0.07,
+  "objetos": {
+    "copper": 24,
+    "PTFE_terminal": 12,
+    "ZYF300": 1,
+    "folha_cu": 15,
+    "SAC305": 12
+  }
+}

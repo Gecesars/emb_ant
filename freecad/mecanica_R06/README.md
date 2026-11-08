@@ -1,6 +1,6 @@
 # R06 · montagem com ramais de 133 mm
 
-**Geometria verificada; qualificação RF refinada pendente.** Esta revisão reduz os vinte ramais de 135 para 133 mm. As duas entradas de 290 mm e os quatro enlaces de 132 mm permanecem iguais. O circuito de parâmetros S usa somente a fase dos cabos, sem atenuação; eles permanecem no FreeCAD para fabricação.
+**Geometria verificada e RF qualificado numericamente em 5,17 GHz, sem perdas dos cabos.** Esta revisão reduz os vinte ramais de 135 para 133 mm. As duas entradas de 290 mm e os quatro enlaces de 132 mm permanecem iguais. O circuito de parâmetros S usa somente a fase dos cabos, sem atenuação; eles permanecem no FreeCAD para fabricação.
 
 A montagem tem dez radiadores na PCB contínua, dois divisores compactos, refletor de alumínio de 2 mm, apoios de poliacetal de 5 mm e duas bobinas de curto DC nas entradas. As geometrias da chapa, das PCBs e dos apoios são iguais às da R05: 275 objetos fora do chicote foram comparados por diferença simétrica de volume, inferior a 10⁻⁶ mm³. A visualização confere com o CAD fonte.
 
@@ -23,4 +23,4 @@ A planificação mantém raio interno de 2 mm e K = 0,4. Os 39 contornos DXF inc
 
 Cada bobina tem duas espiras de fio Ø0,30 mm, raio médio 0,90 mm e passo 0,73 mm; a janela radial é Ø1 mm. Conferir continuidade pino–carcaça após a montagem. A referência N do Drive não tem internos separados e não substitui um modelo eletromagnético do conector; o circuito usa N ideal. A vedação desenhada requer ensaio físico.
 
-Os Gerbers são os mesmos da [cotação de 7/11](../../resultados/r06/cotacao.md). A seleção preliminar de comprimento atende às metas no circuito com a primeira malha da PCB, mas o aceite aguarda o refinamento e a comparação numérica descritos na [qualificação R06](../../resultados/r06/README.md). O histórico [R05](../mecanica_R05/README.md) permanece preservado.
+Os Gerbers são os mesmos da [cotação de 7/11](../../resultados/r06/cotacao.md). O circuito final com a PCB refinada atende: **17,3593 dBi, H 96,0643° e VSWR máximo 1,2474**, com estabilidade de malha aprovada. Ver [qualificação R06](../../resultados/r06/README.md) e [relatório ilustrado](../../resultados/r06/P1H_R06_Relatorio.pdf). O histórico [R05](../mecanica_R05/README.md) permanece preservado.

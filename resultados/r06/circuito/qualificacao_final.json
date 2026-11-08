@@ -1,0 +1,129 @@
+{
+  "estado": "qualificado_numericamente_em_5.17GHz",
+  "instante_consolidacao": "2026-11-08T01:59:51.720548-03:00",
+  "metodo": "PCBs completas separadas; circuito com matrizes S e campos complexos; cabos ideais sem atenuacao; N ideal.",
+  "resultado": {
+    "frequencia_Hz": 5170000000.0,
+    "bobina": "corrigida",
+    "comprimentos_fisicos_mm": [
+      290.0,
+      132.0,
+      133.0
+    ],
+    "ganho_frontal_realizado_dBi": 17.35928563353138,
+    "abertura_H_graus": 96.06430624769636,
+    "abertura_V_graus": 5.615764364366969,
+    "VSWR_ativo_AB": [
+      1.2114687792683214,
+      1.1292124449876426
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      1.2321395904530816,
+      1.2474011329105903
+    ],
+    "potencia_incidente_W": 0.9999999999999998,
+    "refletida_W": 0.006413312397538248,
+    "aceita_antena_W": 0.9512705729106044,
+    "perdas_blocos_W": {
+      "L": 0.030139463625994012,
+      "U": 0.010874546233095611,
+      "CA": 0.0006578360707050201,
+      "CB": 0.000644268762062139
+    },
+    "perda_linhas_W": 0,
+    "excitacoes_antena_amplitude_pp_dB": 0.642444860186794,
+    "excitacoes_antena_fase_pp_graus": 5.0236521294065675,
+    "criterios_numericos_atendidos": true
+  },
+  "convergencia": {
+    "passe": 23,
+    "tetraedros": 6665585,
+    "delta_s_ultimos2": [
+      0.0031557461942090634,
+      0.0013625618089967875
+    ],
+    "campo_delta_ultimos2_dB": [
+      0.010088767730199066,
+      0.006865472664500771
+    ]
+  },
+  "estabilidade": {
+    "ganho_frontal_realizado_dBi": -0.0005809487227956822,
+    "abertura_H_graus": 0.11882992079516441,
+    "abertura_V_graus": -0.0007844425954690593,
+    "VSWR_ativo_AB": [
+      -0.0009061763640123566,
+      -0.0012732365704282156
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      0.002716461846008489,
+      0.001073782447611693
+    ],
+    "S_antena_max": 0.004182163351454165,
+    "corte_H_max_dB": 0.01095327978699423,
+    "corte_V_max_dB": 0.010404998301732249
+  },
+  "reparos_major": 0,
+  "matrizes_centro": {
+    "L": {
+      "valor_singular_max": 0.9947013155584645,
+      "reciprocidade_erro_max": 1.0039119183961513e-15
+    },
+    "U": {
+      "valor_singular_max": 0.9946816453848053,
+      "reciprocidade_erro_max": 1.1102230246251565e-16
+    },
+    "ANT": {
+      "valor_singular_max": 0.3351601157539865,
+      "reciprocidade_erro_max": 3.943618267805592e-15
+    },
+    "CA": {
+      "valor_singular_max": 0.9998222836290019,
+      "reciprocidade_erro_max": 9.992007221626409e-16
+    },
+    "CB": {
+      "valor_singular_max": 0.9998222836290019,
+      "reciprocidade_erro_max": 9.992007221626409e-16
+    }
+  },
+  "recomposicao_uniforme_erro_max_dB": {
+    "H": 6.572520305780927e-14,
+    "V": 6.359357485052897e-13
+  },
+  "balanco_potencia_residuo_W": 3.608224830031759e-16,
+  "nexxim": {
+    "matriz_s_independente_conferida": true,
+    "erro_absoluto_max": 4.650327420923727e-15,
+    "frequencia_Hz": 5170000000.0,
+    "componentes": 5,
+    "enlaces": 28
+  },
+  "fontes": {
+    "L": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_inferior\\divisor.s18p",
+      "sha256": "2fecb980ba50307f7d1e613a6e0e28055ede15038039fc60728316d62c783a67"
+    },
+    "U": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\divisor_superior\\divisor.s12p",
+      "sha256": "e6c4961bdb16449319ae2d23f801432a12128f29edbc757edb69fea1dd9cc3f6"
+    },
+    "ANT": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\antena.s20p",
+      "sha256": "43ef2d140b8aa7c82c389b0c96eba9346cf8656ab42e25352fc86244f104f1ef"
+    },
+    "CONTROLE": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Controle_fechado\\cupom.s2p",
+      "sha256": "b0a1b9ef91b3ba7396067a39d2530a44a39d991c12cec75940baae26e5131974"
+    },
+    "CA": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    },
+    "CB": {
+      "arquivo": "D:\\dev\\EMBRAER\\P1H\\R05_Correcao\\cupons\\Bobina_r090\\cupom.s2p",
+      "sha256": "773a4add35198a95f81164528491611856451b91bc34747babddfb29223975d8"
+    }
+  },
+  "banda_completa_qualificada": false,
+  "medicao_fisica": false
+}

@@ -44,3 +44,10 @@ Essa tentativa falhou por `SOLVER_OUT_OF_MEMORY` no passe 22, às 23:45 de 7/11.
 `testar_edicao_parcial.py` foi executado em uma cópia sem solver. Confirmou que a edição parcial preserva todas as propriedades do setup, exceto mínimo/máximo de passes e percentual de refinamento, incluindo os nove TraceID 672–680. `recuperar_memoria.py` repete essa comparação exata antes de analisar. É necessário salvar **e fechar** o projeto antes de conferir o arquivo gravado; a primeira leitura antes de fechar ainda mostrava o conteúdo anterior e o guard encerrou sem solver. A tentativa, os logs e o setup anterior estão preservados localmente em `recuperacao_memoria_20261108`. A recuperação iniciada em 8/11 às 00:03 tem logs próprios e não autoriza outra instância em paralelo.
 
 Na conferência de 01:04, o passe 22 concluiu e o 23 estava em cálculo. O crescimento efetivo foi de cerca de 14,6% por passe, apesar de `PercentRefinement=5`; registrar os tetraedros observados, sem inferir economia de memória a partir do parâmetro nominal. `auditar_convergencia.audit(project, write=False)` permite monitorar sem sobrescrever a auditoria de trabalho. O auditor exige explicitamente o mínimo de passes, pois `IsConverged=true` já aparecia no 22, antes do mínimo 23. Esse caso real foi verificado em modo somente de leitura e permaneceu corretamente reprovado.
+
+
+## Entrega final de 8/11
+
+A solução final concluiu em 23 passes, 6.665.585 tetraedros, e passou na estabilidade frente a `antena_estrita21`. A contagem temporária de 7.289.142 no monitor do passe 23 não é a malha final resolvida; os dados nativos finais são a referência. O crescimento final do passe 23 foi 4,85%.
+
+`consolidar_final.py` repete o pós-processamento de circuito (sem nova simulação EM), registra passividade, reciprocidade, balanço de potência, recomposição uniforme, métricas e fontes SHA-256; atualiza o estado da configuração e da rastreabilidade mecânica. `empacotar.py` também exige o SHA do PDF revisado e todas as páginas registradas em `relatorio/revisao_final.json`. O pacote exclui malhas e campos volumétricos.

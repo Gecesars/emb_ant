@@ -1,0 +1,16 @@
+{
+  "objetos": {
+    "AL5052": 1,
+    "RO4350B_R01": 1,
+    "POM_nom": 7,
+    "aco_nom": 14,
+    "folha_cu": 100,
+    "copper": 60,
+    "SAC305": 40
+  },
+  "z_porta_mm": 16.575,
+  "comprimento_terminal_sob_pcb_mm": 0.035,
+  "chicote_3d": false,
+  "todos_validos": true,
+  "modelo": "PCB completa + refletor + apoios; sem cabos, N ou divisores"
+}

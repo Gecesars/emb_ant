@@ -1,0 +1,99 @@
+{
+  "corrigida": {
+    "frequencia_Hz": 5170000000.0,
+    "bobina": "corrigida",
+    "comprimentos_fisicos_mm": [
+      290.0,
+      132.0,
+      133.0
+    ],
+    "ganho_frontal_realizado_dBi": 17.35928563353138,
+    "abertura_H_graus": 96.06430624769636,
+    "abertura_V_graus": 5.615764364366969,
+    "VSWR_ativo_AB": [
+      1.2114687792683214,
+      1.1292124449876426
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      1.2321395904530816,
+      1.2474011329105903
+    ],
+    "potencia_incidente_W": 0.9999999999999998,
+    "refletida_W": 0.006413312397538248,
+    "aceita_antena_W": 0.9512705729106044,
+    "perdas_blocos_W": {
+      "L": 0.030139463625994012,
+      "U": 0.010874546233095611,
+      "CA": 0.0006578360707050201,
+      "CB": 0.000644268762062139
+    },
+    "perda_linhas_W": 0,
+    "excitacoes_antena_amplitude_pp_dB": 0.642444860186794,
+    "excitacoes_antena_fase_pp_graus": 5.0236521294065675,
+    "criterios_numericos_atendidos": true
+  },
+  "bruta": {
+    "frequencia_Hz": 5170000000.0,
+    "bobina": "bruta",
+    "comprimentos_fisicos_mm": [
+      290.0,
+      132.0,
+      133.0
+    ],
+    "ganho_frontal_realizado_dBi": 17.346512041454886,
+    "abertura_H_graus": 96.06430361521353,
+    "abertura_V_graus": 5.615764377518316,
+    "VSWR_ativo_AB": [
+      1.210855218705499,
+      1.1288902270602466
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      1.231287466044548,
+      1.2464799817242185
+    ],
+    "potencia_incidente_W": 0.9999999999999998,
+    "refletida_W": 0.006380726316200441,
+    "aceita_antena_W": 0.9484767664948679,
+    "perdas_blocos_W": {
+      "L": 0.030050945924751604,
+      "U": 0.010842608208024906,
+      "CA": 0.002134527652461693,
+      "CB": 0.002114425403693443
+    },
+    "perda_linhas_W": 0,
+    "excitacoes_antena_amplitude_pp_dB": 0.6424381537148331,
+    "excitacoes_antena_fase_pp_graus": 5.023734499190372,
+    "criterios_numericos_atendidos": true
+  },
+  "sem": {
+    "frequencia_Hz": 5170000000.0,
+    "bobina": "sem",
+    "comprimentos_fisicos_mm": [
+      290.0,
+      132.0,
+      133.0
+    ],
+    "ganho_frontal_realizado_dBi": 17.376862922714476,
+    "abertura_H_graus": 96.06252248805345,
+    "abertura_V_graus": 5.61577329417207,
+    "VSWR_ativo_AB": [
+      1.1670605252070045,
+      1.0794311419899356
+    ],
+    "VSWR_outro_porto_casado_AB": [
+      1.2925210143573136,
+      1.3147776476689272
+    ],
+    "potencia_incidente_W": 0.9999999999999998,
+    "refletida_W": 0.003701061670904354,
+    "aceita_antena_W": 0.9551195312067695,
+    "perdas_blocos_W": {
+      "L": 0.030261091534179385,
+      "U": 0.010918315588146509
+    },
+    "perda_linhas_W": 0,
+    "excitacoes_antena_amplitude_pp_dB": 0.6379266907595831,
+    "excitacoes_antena_fase_pp_graus": 5.079207582528182,
+    "criterios_numericos_atendidos": true
+  }
+}

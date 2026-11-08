@@ -11,6 +11,9 @@ assert load(root/'antena/auditoria_convergencia.json')['convergencia_aprovada']
 assert load(root/'circuito/comparacao_malhas.json')['estabilidade_local_aprovada']
 assert load(root/'circuito/verificacao_nexxim.json')['matriz_s_independente_conferida']
 assert (root/'relatorio/P1H_R06_Relatorio.pdf').is_file()
+review=load(root/'relatorio/revisao_final.json')
+assert review['paginas_revisadas']==list(range(1,review['paginas']+1))
+assert review['sha256']==hashlib.sha256((root/'relatorio/P1H_R06_Relatorio.pdf').read_bytes()).hexdigest()
 
 def copy(source,target):
     assert source.is_file(),source
@@ -64,6 +67,7 @@ for folder,suffixes in [('imagens',['.png','.json']),('cotacao',['.jpg','.txt'])
     for source in sorted((root/folder).iterdir()):
         if source.is_file() and source.suffix in suffixes:copy(source,dest/folder/source.name)
 copy(root/'relatorio/P1H_R06_Relatorio.pdf',dest/'P1H_R06_Relatorio.pdf')
+copy(root/'relatorio/revisao_final.json',dest/'revisao_relatorio.json')
 manifest=dict(estado='qualificacao_numerica_em_5.17GHz',sem_malhas=True,artefatos=records)
 (dest/'manifesto_entrega.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
 print('PACOTE_CONFERIDO',len(records),'arquivos',sum(r['bytes'] for r in records),'bytes')

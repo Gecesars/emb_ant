@@ -1,51 +1,43 @@
-# R06 · PCBs separadas e circuito sem perda de cabos
+# R06 · PCB contínua e divisores compactos qualificados
 
-**Em qualificação, ainda sem resultado final aprovado.** O usuário alterou o método e o aceite em 7 de novembro de 2026. O cálculo integral R05 com cabos foi encerrado; não será retomado.
+**Qualificação numérica concluída em 8/11/2026.** A PCB contínua completa e as duas distribuidoras foram resolvidas separadamente no HFSS. O circuito combina as matrizes S20/S18/S12 e os campos complexos, com acoplamento dentro de cada placa e reflexões múltiplas. Os cabos são linhas ideais de fase, sem atenuação; os conectores N são interfaces ideais.
 
-O aceite é em **5,17 GHz**, com duas entradas de **0,5 W a 0°**: ganho frontal realizado total **≥16 dBi**, abertura horizontal **81–99°** e **VSWR <1,5** nas duas entradas. O feixe vertical pode ser mais estreito que 7°. As perdas dos cabos são excluídas. O relatório distingue VSWR ativo e VSWR com a outra entrada casada.
+[Relatório completo ilustrado — 15 páginas](P1H_R06_Relatorio.pdf) · [Síntese rastreável](circuito/qualificacao_final.json) · [Mecânica e desenhos A3](../../freecad/mecanica_R06/README.md).
 
-## Modelos
+## Resultado final em 5,17 GHz
 
-- PCB contínua completa de dez elementos: matriz de vinte portas e campos embutidos, incluindo acoplamento entre radiadores, refletor e apoios. Sem chicote 3D, N ou distribuidoras.
-- Distribuidora inferior: matriz de dezoito portas, com as duas divisões 1:2 e as duas redes 1:5 na mesma placa.
-- Distribuidora superior: matriz de doze portas, com ambas as polarizações. Todas as portas não excitadas ficam casadas em 50 Ω na extração.
-- Circuito: reflexão múltipla e acoplamento por matrizes S completas; linhas ideais de fase conservam os comprimentos elétricos, com correção dos planos de referência.
-- Bobinas: cupom R05 de duas espiras, raio médio 0,9 mm, fio de 0,3 mm; comparação com e sem bobina e correção da atenuação dos acessos do cupom.
+Duas entradas de **0,5 W a 0°**, normalizadas em 50 Ω. O ganho inclui descasamento e perdas das PCBs e das bobinas, com correção da atenuação dos acessos do cupom.
 
-A qualificação exige convergência de S e das nove amostras de campo. O critério inicial de ΔS ≤0,008 e campo ≤0,05 dB foi apertado na PCB para **ΔS ≤0,004 e campo ≤0,02 dB**, ambos em dois passes consecutivos. O mínimo de passes configurado também deve ser cumprido. Os vinte campos unitários serão recombinados coerentemente com as excitações calculadas pelo circuito. O resultado matricial será confrontado com o Ansys Circuit/Nexxim.
+| Métrica | Resultado | Critério |
+|---|---:|---:|
+| Ganho frontal realizado total | **17,3593 dBi** | ≥16 dBi |
+| Abertura horizontal a −3 dB | **96,0643°** | 81–99° |
+| Abertura vertical a −3 dB | **5,6158°** | Feixe mais estreito permitido |
+| VSWR ativo A / B | **1,2115 / 1,1292** | Ambos <1,5 |
+| VSWR com outra entrada casada A / B | **1,2321 / 1,2474** | Ambos <1,5 |
 
-Os materiais nominais são RO4350B de 0,76 mm na antena e ZYF300CA-C de 1,52 mm nas distribuidoras. O cobre físico tem 35 µm e acabamento ENIG unilateral, com NiP de 4,5 µm / 1,5 MS/m nominal e Au de 0,0254 µm. O modelo mantém a rugosidade de cobre equivalente adotada na R05. As dimensões dos Gerbers permanecem iguais à R02.
+A margem de ganho é **1,3593 dB**. O caso com cupom bruto da bobina também atende, com 17,3465 dBi. [Resultados completos](circuito/resultado.json) · [Diagrama numérico](circuito/diagrama.csv).
 
-## Evidências disponíveis
+## Verificação numérica
 
-Em 7/11, a primeira malha da PCB isolada convergiu em **16 passes**, com **2.192.285 tetraedros**. Os dois últimos ΔS foram 0,0064491 e 0,0059832; a maior mudança das nove amostras de campo foi 0,046556 e 0,049962 dB. Com vinte entradas diretas uniformes, apresentou **17,3975 dBi, H = 95,0569° e V = 5,5589°**, apenas em 5,17 GHz.
+A PCB convergiu em **23 passes e 6.665.585 tetraedros**, antes do máximo de 25. Os dois últimos ΔS foram **0,00315575 / 0,00136256**, abaixo de 0,004; as maiores variações nas nove direções foram **0,0100888 / 0,00686547 dB**, abaixo de 0,02 dB. A auditoria confirma o mínimo de passes, dois passes em S/campo e ausência de reparos Major na execução refinada. Há dois corpos Minor.
 
-Esses números **não aprovam ainda o painel com a rede**. Há um aviso de reparo superficial em um pequeno fragmento de cobre; sua verificação com malha local mais fina está em execução. Os dois divisores completos concluíram os 17 pontos de 5,09 a 5,25 GHz, ambos em nove passes, com dois passes de convergência e sem reparos Major/Minor. Os quarenta campos H/V exportados recompõem o diagrama uniforme com erro máximo de 6,3 × 10⁻¹³ dB.
+Frente à solução preservada de 21 passes, as mudanças foram **−0,000581 dB** no ganho, **+0,118830°** em H, **−0,000784°** em V e no máximo **0,002717** em VSWR. Todos os limites de estabilidade foram cumpridos. O Nexxim reproduziu a matriz do circuito com erro máximo **4,65 × 10⁻¹⁵**. As matrizes são passivas e recíprocas; o balanço de potência fecha com resíduo **3,61 × 10⁻¹⁶ W**, e a recomposição uniforme dos campos confere com o HFSS a menos de **6,36 × 10⁻¹³ dB**.
 
-O circuito original de 290 / 132 / 135 mm falhou no VSWR convencional da entrada B: **1,531**, apesar de o VSWR ativo atender. O ajuste de vinte ramais para **133 mm**, com os enlaces e as entradas preservados, apresenta os seguintes resultados **preliminares**, usando a primeira malha da PCB e as matrizes finais dos divisores:
+[Convergência final](antena/auditoria_convergencia.json) · [Comparação de malhas](circuito/comparacao_malhas.json) · [Nexxim](circuito/verificacao_nexxim.json) · [Histórico de malha e recuperação de memória](conferencia_malha.md). As comparações anteriores reprovadas e a falha por falta de memória permanecem documentadas.
 
-| Métrica em 5,17 GHz | Resultado preliminar |
-|---|---:|
-| Ganho frontal realizado total | 17,3477 dBi |
-| Abertura horizontal | 95,2059° |
-| Abertura vertical | 5,6197° |
-| VSWR ativo A / B | 1,2303 / 1,1539 |
-| VSWR com outra entrada casada A / B | 1,1965 / 1,2260 |
+## Construção e fabricação
 
-O Nexxim conferiu a matriz do circuito com erro máximo de **9,05 × 10⁻¹⁵**. As perdas das PCBs e da bobina corrigida estão incluídas, com zero atenuação nos cabos. **Ainda não há aceite final:** falta a solução refinada e a verificação de estabilidade de ganho, diagrama e VSWR. [Evidências preliminares](preliminar_133/resultado.json) · [Nexxim](preliminar_133/verificacao_nexxim.json).
+Antena em **RO4350B de 0,76 mm**, εr de projeto 3,66 / tanδ 0,0037. Distribuidoras em **ZYF300CA-C de 1,52 mm**, εr 2,94 / tanδ 0,0016. Cobre físico 35 µm e ENIG unilateral com Au 0,0254 µm e NiP nominal de 4,5 µm / 1,5 MS/m. O modelo mantém a rugosidade equivalente de cobre de 0,5 µm.
 
-A nova [montagem R06](../../freecad/mecanica_R06/README.md) foi verificada, com folga nominal mínima de 0,7611 mm e nenhum cruzamento dos cabos. As geometrias fora do chicote são iguais às da R05; os Gerbers permanecem iguais. A recuperação da licença preservou o centro convergido da distribuidora superior e retomou apenas a varredura restante.
+A montagem usa refletor de alumínio de **2 mm**, apoios de poliacetal de **5 mm**, dois N fêmea e duas bobinas de curto DC. Comprimentos de entrada/enlace/ramal: **290 / 132 / 133 mm**, total do chicote 3.768 mm, caminho por radiador 555 mm. Folga nominal mínima de 0,7611 mm e zero interseções volumétricas. Os cabos permanecem no FreeCAD para fabricação.
 
-Atualização às 19:58: a malha local refinada concluiu em 11 passes e manteve **17,3447 dBi, H 94,3761° e VSWR máximo 1,23735**. Entretanto, H mudou 0,82976° em relação à primeira malha, acima da tolerância de estabilidade de 0,5°. A continuação iniciou no passe 12 com critérios mais rigorosos de S/campo, preservando a malha. O Major anteriormente contado era histórico: a execução refinada possui zero Major e dois Minor. [Conferência e evidências](conferencia_malha.md). O aceite continua pendente.
+DRC de 7/11: **zero erros e zero itens desconectados** nas três PCBs. A coluna tem 203 avisos de ponte de máscara nas aberturas RF, preservados; os divisores não têm avisos. Os Gerbers R02 permanecem inalterados. [Verificação de fabricação](fabricacao/verificacao.json).
 
-Atualização às 22:58: a continuação rigorosa convergiu em **21 passes**, com **17,3599 dBi, H 95,9455° e VSWR máximo 1,24633** no circuito. A mudança de H em relação aos 11 passes ainda superou a tolerância interna de estabilidade. Uma conferência com pelo menos dois passes adicionais foi iniciada, preservando os mesmos critérios e o refinamento de 15%. [Histórico completo](conferencia_malha.md). **Ainda não é aceite final.**
+[Cotação JLCPCB de 7/11](cotacao.md): cinco colunas por R$657,83, cinco distribuidoras inferiores por R$632,75 e cinco superiores por R$538,28. Total **R$1.828,86 para cinco conjuntos**, equivalente a **R$365,77 por conjunto**, sem frete consolidado e tributos; nenhuma compra efetuada.
 
-Atualização em **8/11 às 00:03**: a conferência adicional falhou por **falta de memória** às 23:45, sem produzir resultado válido do passe 22. A solução de 21 passes está preservada. A continuação foi retomada com crescimento de malha de **5% por passe**, mantendo os critérios de erro e as tolerâncias de estabilidade. Os números acima atendem às metas de RF, mas a liberação e o relatório final ainda dependem dessa conferência. [Evidências da recuperação](recuperacao_memoria).
+## Alcance da entrega
 
-Às **01:04 de 8/11**, o passe 22 já concluiu: **6.357.446 tetraedros, ΔS 0,00315575 e campo 0,0100888 dB**. O passe 23 está em execução. Embora o parâmetro de refinamento esteja configurado em 5%, o crescimento efetivo observado da malha foi de cerca de 14,6%; a redução nominal não comprova economia proporcional de memória. Ainda faltam o término do mínimo de 23 passes e a comparação final com a solução de 21 passes. [Monitor somente de leitura](recuperacao_memoria/monitor_passe22.json).
+O aceite é **somente em 5,17 GHz**. As distribuidoras têm 17 pontos em 5,09–5,25 GHz; a antena S20 de um ponto não qualifica ganho/VSWR do painel em toda a banda. O modelo separado exclui radiação dos trajetos de cabo, acoplamento eletromagnético entre placas distintas e perdas dos cabos/N. Materiais e ENIG são nominais. A qualificação numérica não substitui medição do conjunto real, inspeção de continuidade DC e ensaio de vedação.
 
-O DRC de 7/11 no KiCad 10.0.5 encontrou zero erros e zero itens desconectados nas três placas. A coluna tem 203 avisos de ponte de máscara nas aberturas RF; os divisores não têm avisos. [Evidências e hashes](fabricacao/verificacao.json). Os Gerbers não foram alterados.
-
-[Cotação JLCPCB de 7/11](cotacao.md) · [Vistas detalhadas do CAD](imagens) · [Scripts R06](../../automacao/r06) · [Montagem e fabricação da chapa](../../freecad/mecanica_R06/README.md).
-
-O relatório completo, os nativos RF finais e a mensagem por e-mail serão publicados após a qualificação. A varredura dos divisores não será apresentada como banda validada da antena; não se congela a matriz da PCB em 5,17 GHz para alegar aprovação entre 5,09 e 5,25 GHz.
+O pacote inclui HFSS/Circuit, Touchstone, quarenta campos H/V por malha preservada, KiCad/Gerbers, FreeCAD, STEP/DXF, desenhos A3, imagens e relatório. **Sem malhas, campos volumétricos ou resultados nativos de solver no Git.** [Manifesto de entrega](manifesto_entrega.json) · [Revisão do PDF](revisao_relatorio.json) · [Scripts de reprodução](../../automacao/r06).

@@ -1,6 +1,6 @@
 # Conferência da malha refinada de 11 passes
 
-**Estado em 8/11, 00:03:** a tentativa adicional com crescimento de 15% falhou por falta de memória. Foi iniciada a recuperação com 5%, descrita ao final. A solução de 21 passes continua sendo o último resultado válido; ainda não há aceite final.
+**Estado final em 8/11, 01:20: qualificação aprovada.** A solução de 23 passes atende às metas e à comparação de estabilidade frente aos 21 passes. O histórico abaixo preserva as tentativas anteriores e a recuperação de memória.
 
 Em 7/11 às 19:12, o HFSS concluiu a malha com refinamento local dos fragmentos de cobre e das soldas. Foram 11 passes, 1.580.950 tetraedros; os últimos ΔS foram 0,00740689 / 0,00680733 e as maiores mudanças de campo 0,0367667 / 0,0303877 dB. O setup cumpriu ΔS ≤ 0,008 e campo ≤ 0,05 dB por dois passes.
 
@@ -40,3 +40,14 @@ A recuperação iniciou em **8/11 às 00:03**, com pipeline 234268, AEDT 165852 
 Atualização às **01:04 de 8/11**: o passe 22 concluiu às 00:39:59, com **6.357.446 tetraedros, ΔS 0,003155746 e mudança máxima de campo de 0,01008877 dB**. O passe 23 está em cálculo; a malha preparada contém **7.289.142 tetraedros**. Apesar do parâmetro nativo `PercentRefinement=5`, o crescimento efetivo foi de 14,60% e 14,66%, respectivamente. Esses números são observados nos arquivos do solver; a redução nominal não demonstra redução proporcional da malha ou do consumo de memória, e não é apresentada como causa comprovada da recuperação.
 
 O metadado HFSS já indica `IsConverged=true` no passe 22, com três passes de ΔS atendido, mas o mínimo configurado continua sendo 23. O auditor agora exige explicitamente esse mínimo, além dos dois passes de S/campo; a solução intermediária de 22 não libera o painel. A comparação final de diagrama/VSWR e o Nexxim permanecem pendentes.
+
+
+## Conclusão: 23 passes e estabilidade aprovada
+
+O HFSS terminou normalmente às **01:19 de 8/11**, em **23 passes e 6.665.585 tetraedros**, antes do máximo 25. Últimos ΔS: **0,003155746 / 0,001362562**; maiores mudanças de campo: **0,010088768 / 0,006865473 dB**. Os critérios estritos e o mínimo de passes foram cumpridos.
+
+A contagem de 7.289.142 tetraedros observada anteriormente em `Banda.stats` era intermediária e **não é a malha final resolvida**. O histórico nativo EMConvData e a exportação de convergência confirmam 6.665.585 tetraedros no passe 23, crescimento de 4,8469% sobre o 22. O monitor anterior permanece como registro do estado observado, sem ser usado no aceite final.
+
+Com a rede, o resultado final é **17,359286 dBi, H 96,064306°, V 5,615764°**, VSWR ativo **1,211469 / 1,129212** e convencional **1,232140 / 1,247401**. Frente aos 21 passes, as mudanças de ganho/H/V foram −0,000581 dB / +0,118830° / −0,000784°, com diferença máxima de VSWR de 0,002717. Todas as tolerâncias foram cumpridas, com zero Major na execução refinada.
+
+O circuito Nexxim final confirmou a matriz com erro máximo de 4,65 × 10⁻¹⁵. A recomposição uniforme confere com o HFSS a menos de 6,36 × 10⁻¹³ dB, e o balanço de potência tem resíduo 3,61 × 10⁻¹⁶ W. Os dados finais estão em [qualificacao_final.json](circuito/qualificacao_final.json), [comparacao_malhas.json](circuito/comparacao_malhas.json) e no [relatório](P1H_R06_Relatorio.pdf). O aceite é em 5,17 GHz, sem perdas dos cabos e com interfaces N ideais.
