@@ -1,0 +1,317 @@
+{
+  "estado": "Estrita21 convergida; RF atende; comparacao contra11passes reprovada em H; novos passes ativos para conferir estabilidade",
+  "artefatos": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\antena.s20p",
+      "arquivo": "resultados/r06/antena_estrita21/antena.s20p",
+      "sha256": "d8fd881026647b3dc84a2077d0364a0eee99d70b0df6607cee59b7e5d81d90eb",
+      "bytes": 21623
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\Centro_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/Centro_H.csv",
+      "sha256": "04543792d27c53904b7e8d53aee4933d6fcfebf47e60f290f026e53bbeb220a1",
+      "bytes": 116126
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\Centro_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/Centro_V.csv",
+      "sha256": "3f7cadaba6d6a2ef28df16024dc1175eb86c902915e8154c5b6faeb99b081b06",
+      "bytes": 97262
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\convergencia.txt",
+      "arquivo": "resultados/r06/antena_estrita21/convergencia.txt",
+      "sha256": "ecf2e0b479de2616981f33537d47368a63c65c674c05485e4da03b09583cb662",
+      "bytes": 1332
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\auditoria_convergencia.json",
+      "arquivo": "resultados/r06/antena_estrita21/auditoria_convergencia.json",
+      "sha256": "68f25447844eba7fc90f1f5113fcafd3ead746f12c057af8a8eefda422d886ef",
+      "bytes": 12055
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\malha.json",
+      "arquivo": "resultados/r06/antena_estrita21/malha.json",
+      "sha256": "011af33137f818f085241eb229c1ed6c6080222852a3a09a0e82a41136010334",
+      "bytes": 72240
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\malha_execucao.json",
+      "arquivo": "resultados/r06/antena_estrita21/malha_execucao.json",
+      "sha256": "0b92151e5e8ca56d32edacd8adc20fa93542a8278478a461e298e187cc1af5c0",
+      "bytes": 349
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\cache_continuacao.json",
+      "arquivo": "resultados/r06/antena_estrita21/cache_continuacao.json",
+      "sha256": "0e4b4f20c3e0fd2dc4a6fa8791a3022e41f2ec34a75f62943f782b3c56b9426b",
+      "bytes": 340
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E01_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E01_A_H.csv",
+      "sha256": "3bf8eb0335501d496dc25b60b208173193749ef6eec07036164e67a019632480",
+      "bytes": 148252
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E01_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E01_A_V.csv",
+      "sha256": "32a000df102ff6e66856e18f2687013c7b44d3b0b4faf6ca44bed7e2ffe5bb37",
+      "bytes": 145886
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E01_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E01_B_H.csv",
+      "sha256": "b345314e771b8a907006897298dbe63c7a527a5c95429aacad89496fe7fca01f",
+      "bytes": 147622
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E01_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E01_B_V.csv",
+      "sha256": "0105cbb163445193691b764e894370dee37e1915870d0f26247bae95870b4d0a",
+      "bytes": 145641
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E02_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E02_A_H.csv",
+      "sha256": "bfcdb625ffd8d62f66225c1f8e0121922a96c55f68dbec0ece0425c8eec3aa20",
+      "bytes": 148328
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E02_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E02_A_V.csv",
+      "sha256": "dbb9e314d3537b171b01244407ded3555721ef2157092f8c17ae5ad203b0a44f",
+      "bytes": 145510
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E02_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E02_B_H.csv",
+      "sha256": "558b309c1c698e3aff31e4b658fdb96b1a8a33925c66fbd7c6350fa5d0e54ec6",
+      "bytes": 147573
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E02_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E02_B_V.csv",
+      "sha256": "7e592652e5e45faf5ff5f8523a6b52222a2bb8be07bbbca7d7dce3a3a75bbb3a",
+      "bytes": 145544
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E03_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E03_A_H.csv",
+      "sha256": "8e84c2209060e47728a65b05dbacd5a5855099a553d9c11fa4d5937f53b4ea59",
+      "bytes": 148670
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E03_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E03_A_V.csv",
+      "sha256": "c9091947569a9a1a6ff71dc8f7863ddc8aa12c44e78d1d9eb2f0d49c4f51e5bc",
+      "bytes": 145606
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E03_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E03_B_H.csv",
+      "sha256": "360542ac8b19208e614d9d34704929375e83bc0f96b3293d922bf77e8c4c1136",
+      "bytes": 147221
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E03_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E03_B_V.csv",
+      "sha256": "ed2e7b9901dca5c7e5d5df61734a15dbb5faabd68b2966cf4b7944e624795017",
+      "bytes": 145884
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E04_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E04_A_H.csv",
+      "sha256": "147c41536c773d714d8cb216bcfa5333020a9fc600db24fbd46d358e45b96e0f",
+      "bytes": 148689
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E04_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E04_A_V.csv",
+      "sha256": "928f1b96b4afc0a34494cb5fdb837e0f7df6de02e5ef711caf1d0e30dd9862f3",
+      "bytes": 145389
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E04_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E04_B_H.csv",
+      "sha256": "13f7b41d5efbd721777881166d5af01f190ece4dd3d629db4309977df50ef541",
+      "bytes": 147436
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E04_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E04_B_V.csv",
+      "sha256": "3cb204aa0ad480c7d99c62e7fea6287e1ed1dcd7016d6957fb5b322a93500585",
+      "bytes": 145434
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E05_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E05_A_H.csv",
+      "sha256": "67a562ecd29c148626a35e4aa2173e88efaebb52e77b8166677b8d7a759bc3f5",
+      "bytes": 148480
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E05_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E05_A_V.csv",
+      "sha256": "f3852ee0d1640516b7df854f8ddea6fef213bcfbf5eb6927d09ffb4bf6a8bf7f",
+      "bytes": 145858
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E05_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E05_B_H.csv",
+      "sha256": "074557ba63c56118a39ba422de2c85daaa0b876c5550d745f67af7992b11a5d6",
+      "bytes": 147369
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E05_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E05_B_V.csv",
+      "sha256": "ebd35d8b17dfb248b088a2169304baa792a7b4f660a1d025497089b4ef2e1531",
+      "bytes": 145754
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E06_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E06_A_H.csv",
+      "sha256": "75ca7c5d5d250d3be447fa23b96573f0a3970f1040b94b55767466c605cb3830",
+      "bytes": 148481
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E06_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E06_A_V.csv",
+      "sha256": "2ba1bb10e90484f0a27797a47c0beba8b5c62ea9e798ea7ef6086caba2c50529",
+      "bytes": 146001
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E06_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E06_B_H.csv",
+      "sha256": "f2505d687092b9ada634b8534b0c245c693a81cf4bc410fdd45b411d8dd7aeba",
+      "bytes": 147680
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E06_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E06_B_V.csv",
+      "sha256": "cc2088a0a60dd8919f3bdcd805ab19a66b04e5e936d9c7310a8a7be9f4fc1935",
+      "bytes": 146000
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E07_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E07_A_H.csv",
+      "sha256": "510325ad8b45d843299d588916350d953eff3eb26ee94efc41012c979c41e0b3",
+      "bytes": 148696
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E07_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E07_A_V.csv",
+      "sha256": "1e482627cab9ac86584dd31699e5dd4b3281ace0b5797f932548d3ebd4f34876",
+      "bytes": 145489
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E07_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E07_B_H.csv",
+      "sha256": "edb80af01a3310d402f07a699b65d18b7a628cda091739265ff3e80b0f52ff9a",
+      "bytes": 147174
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E07_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E07_B_V.csv",
+      "sha256": "eaa986b14853745eddf8d16bf5140b2a39eefc86b0533e394c3271bae775ebf8",
+      "bytes": 145384
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E08_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E08_A_H.csv",
+      "sha256": "63591bac77733d17867d4f89dbfc3e3358d5b924097c12dfa8f03d06a152384d",
+      "bytes": 148594
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E08_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E08_A_V.csv",
+      "sha256": "33159bd877bf0082be315cbfb72350c3aba1915e10df6590753f48866cd69513",
+      "bytes": 145664
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E08_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E08_B_H.csv",
+      "sha256": "4a77cff31670d6cd1ecf17108366b97604da3534d67613eda42fcfb9efb92b05",
+      "bytes": 147297
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E08_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E08_B_V.csv",
+      "sha256": "90012f817208439930cd4a40c9163a94b0872f094592010b9fa65675a75d63f4",
+      "bytes": 145791
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E09_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E09_A_H.csv",
+      "sha256": "e5a4237d1e8aa6f41a93c1f8514da040b2069125ba25a3a3ad3781f27b85ad76",
+      "bytes": 148604
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E09_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E09_A_V.csv",
+      "sha256": "34c97b760de0eb1767c0ca048952d16fd5208289170be5ebe0ac9edbaaf9b4d0",
+      "bytes": 145585
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E09_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E09_B_H.csv",
+      "sha256": "baa32063b9aa5a942cc0738cfb04187fac0967431f4667e16a755ddc03c5ef4b",
+      "bytes": 147587
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E09_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E09_B_V.csv",
+      "sha256": "5d2c323a2435d30bf305e65fcc890984483edf86ad8bbd3fb606c2fb28ce37d3",
+      "bytes": 145491
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E10_A_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E10_A_H.csv",
+      "sha256": "1cf11c138f3a6599c930e6394e2183948941f10de9c0f4c9dea8e887e8d4531d",
+      "bytes": 148445
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E10_A_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E10_A_V.csv",
+      "sha256": "6dc9f2b1eafb251bf688a2c5e5041014cd5e4f348341e17b6168f680a6b442c2",
+      "bytes": 145839
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E10_B_H.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E10_B_H.csv",
+      "sha256": "334749914662801d34d5e5f4ff6e16ced5e983cb9b2b4dfa46f9d6211a811f26",
+      "bytes": 147720
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena_estrita21\\padroes\\E10_B_V.csv",
+      "arquivo": "resultados/r06/antena_estrita21/padroes/E10_B_V.csv",
+      "sha256": "a95af42b9abab53adcd2bdf83b7d421ccd8e54fab6bbb8fcc2202a9074f4acdd",
+      "bytes": 145675
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito\\resultado_estrita21.json",
+      "arquivo": "resultados/r06/circuito/resultado_estrita21.json",
+      "sha256": "cdc5b6d3bccb3c410436c056243475e4293d38f72e50dca98c70025a1d98685f",
+      "bytes": 2893
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\circuito\\comparacao_malhas_estrita21.json",
+      "arquivo": "resultados/r06/circuito/comparacao_malhas_estrita21.json",
+      "sha256": "cfd24005569e38834e4181a58a8e4c178069a653132cf70a504d73d6256e8145",
+      "bytes": 2713
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\cache_continuacao.json",
+      "arquivo": "resultados/r06/cache_continuacao.json",
+      "sha256": "ba2026a47bec7eb5cd8fe58a6599ba05b68bb3669c13207c33c455ea8ee8d6b1",
+      "bytes": 289
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P1H\\R06_sem_cabos\\antena\\estabilidade_setup.json",
+      "arquivo": "resultados/r06/estabilidade_setup.json",
+      "sha256": "7ddc4ea54ec14803367a349ca8d6419bee172ece428afbd63d483b15705dce2d",
+      "bytes": 307
+    }
+  ]
+}

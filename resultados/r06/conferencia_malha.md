@@ -13,3 +13,14 @@ O arquivo nativo agrega 59 blocos de metadados de execuções diferentes. Os 18 
 O auditor passou a respeitar os TimeStamp de cada bloco, usando o início documentado em `malha_execucao.json`. Ele conserva a contagem histórica e não remove dados do solver. `antena_refinada1/malha.json` contém a auditoria filtrada, e `malha_agregada.json` preserva a contagem anterior sem filtro. O arquivo `circuito/comparacao_malha_inicial_refinada1.json` é o diagnóstico original, que ainda contém `reparo_major_final: 1`; esse campo foi posteriormente identificado como contagem histórica. A reprovação por diferença de H continua válida independentemente dessa correção.
 
 Os dados convergidos, quarenta campos complexos e matrizes S desta etapa estão preservados. A ausência de Major, isoladamente, não aprova RF; falta confirmar a estabilidade com a continuação mais rigorosa, verificar o circuito Nexxim final e revisar o relatório.
+
+
+## Solução rigorosa de 21 passes e verificação adicional
+
+Às 22:14 de 7/11, a continuação convergiu em **21 passes e 5.547.337 tetraedros**, sem atingir o limite de 24. ΔS dos dois passes finais: **0,003906903 / 0,003699192**; variação máxima nas nove direções: **0,01746426 / 0,01185886 dB**. Assim, cumpriu ΔS ≤ 0,004 e campo ≤ 0,02 dB por dois passes. O resultado direto uniforme de 17,4447 dBi é distinto do ganho do painel com a rede.
+
+No circuito completo sem atenuação dos cabos: **17,35987 dBi, H 95,94548°, V 5,61655°**, VSWR ativo **1,21237 / 1,13049**, e com outra entrada casada **1,22942 / 1,24633**. As metas de RF são atendidas. A diferença frente à malha de 11 passes foi +0,01519 dB no ganho, +1,56938° em H, −0,00279° em V e menos de 0,025 nos VSWR. H excedeu novamente a tolerância interna de estabilidade de 0,5°; não houve liberação final.
+
+Os dados ficaram congelados em `antena_estrita21`. A verificação seguinte mantém ΔS 0,004, campo 0,02 dB, refinamento de 15%, geometria, portas e materiais. Apenas o mínimo de passes sobe a 23, com máximo 25, para confrontar a solução convergida de 21 passes com pelo menos dois passes adicionais. Os limites de comparação permanecem os mesmos. Os campos anteriores são recuperados pela referência com SHA-256, exigindo identidade dos tetraedros por passe.
+
+A tentativa de editar o setup pelo serializador PyAEDT não aceitou o contexto do cache de campo nesta release. Foi encerrada sem modificar o nativo: o SHA-256 permaneceu idêntico ao arquivo de 21 passes. A sessão própria de inspeção foi fechada, e seu lock só foi removido após confirmar o PID encerrado. A execução seguinte usa a API nativa já validada para reconstruir as mesmas nove expressões; as mensagens informativas de que o novo cache não consegue avaliar o passe 21 decorrem da mudança de TraceID. Os campos preservados do passe 21 continuam disponíveis para a auditoria. Isso não é uma falha RF nem uma mudança do modelo.

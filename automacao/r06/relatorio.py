@@ -31,6 +31,7 @@ if not draft:
     assert result.get('criterios_numericos_atendidos') and conv.get('convergencia_aprovada')
     assert native.get('matriz_s_independente_conferida') and len(divs)==2
     assert mesh_check.get('estabilidade_local_aprovada') and fabrication
+    assert mesh_check.get('pasta_referencia')=='antena_estrita21'
     assert tuple(result['comprimentos_fisicos_mm'])==tuple(config['comprimentos_mm'])==tuple(mechanics['comprimentos_mm'])
 pdfmetrics.registerFont(TTFont('Arial','C:/Windows/Fonts/arial.ttf'))
 pdfmetrics.registerFont(TTFont('Arial-Bold','C:/Windows/Fonts/arialbd.ttf'))
@@ -143,8 +144,8 @@ add('As nove direções de auditoria são θ = 0°, ±40°, ±50°, ±60° em φ
 
 page('Conferência local da malha')
 add('A primeira malha indicou um reparo de superfície no pequeno fragmento Ant08_Feed_A_Cu1, próximo à solda. O sólido CAD tem volume de 0,00794 mm³ e foi validado geometricamente. O aviso motivou uma verificação adicional, sem alterar a geometria nominal da PCB.')
-add('O refinamento usa desvio superficial de 0,0005 mm e desvio angular de 5° nos vinte fragmentos de cobre e quarenta soldas, além de comprimento máximo de 0,06 mm nos fragmentos. Convergiu em 11 passes, mas H mudou 0,830° em relação à malha inicial de 16 passes. Por superar a tolerância de 0,5°, foi continuado com ΔS ≤ 0,004 e campo ≤ 0,02 dB. A tabela compara a malha refinada de 11 passes com essa continuação mais rigorosa.')
-rows=[['Comparação em 5,17 GHz','Refinada, 11 passes','Continuação estrita']]
+add('O refinamento local usa desvio superficial de 0,0005 mm / 5° no cobre e nas soldas, e comprimento máximo de 0,06 mm nos fragmentos. Convergiu em 11 passes, mas H mudou 0,830° frente à primeira malha. A continuação com ΔS ≤ 0,004 e campo ≤ 0,02 dB convergiu em 21 passes; H mudou mais 1,569°. Essas diferenças motivaram a conferência final com pelo menos dois passes adicionais, sem mudar critérios, geometria ou percentual de refinamento. A tabela compara a solução de 21 passes com essa verificação final.')
+rows=[['Comparação em 5,17 GHz','Estrita, 21 passes','Verificação final']]
 for key,label,unit in [('ganho_frontal_realizado_dBi','Ganho com rede','dBi'),('abertura_H_graus','Abertura horizontal','°'),('abertura_V_graus','Abertura vertical','°')]:
     row=[label]
     for stage in ['inicial','refinada']:

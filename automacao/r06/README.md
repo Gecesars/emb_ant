@@ -35,3 +35,6 @@ Na GUI FreeCAD, `atualizar_imagens.py` sincroniza apenas o clone visual próprio
 A edição de critérios reatribuiu os TraceID do cache, mas o solver continuou no passe 12. `cache_continuacao.json` identifica a auditoria preservada por SHA-256. O auditor recupera apenas campos ausentes dos passes anteriores e exige igualdade de número de tetraedros em cada passe; os passes novos vêm do cache nativo atual.
 
 O AEDT também conserva EMConvData da configuração anterior. O auditor seleciona o histórico cujos ΔS alvo, máximo e mínimo de passes coincidem com o setup salvo no nativo; não usa o antigo `IsConverged=true` para aprovar a continuação. A seleção foi verificada com cópias dos metadados reais V444/V617, sem alterar arquivos do solver ativo.
+
+
+`continuar_qualificacao.ps1 -EstabilidadeFinal` usa `validar_estabilidade.py` e a referência congelada `antena_estrita21`. Mantém ΔS 0,004, campo 0,02 dB, refinamento de 15% e a mesma malha; exige mínimo 23 e máximo 25 passes. O setup é atualizado pela API nativa, pois a serialização do contexto de campo do PyAEDT não foi aceita nesta release. Não reexecutar enquanto `estabilidade_final.log` existir sem examinar o estado. A execução de 21 passes e a comparação anterior reprovada são preservadas.
