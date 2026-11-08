@@ -1,0 +1,16 @@
+ 
+Ansys Electronics Desktop Version 2024.2.0, Build: 2024-05-23 02:23:50
+Location: C:\Program Files\AnsysEM\v242\Win64\ansysedt.exe
+Batch Script: D:/dev/EMBRAER/emb_ant/automacao/r07/resolver_centro.py
+Starting Batch Run: 12:19:05 PM  Nov 08, 2026
+Running as user : RF01\geral
+Temp directory: C:\Users\geral\AppData\Local\Temp
+Project directory: D:\Simulations\Simulations\#IFTX
+[error] Project:PCB_R07, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d error: Matrix solver exception: SOLVER_OUT_OF_MEMORY: please verify RAM Limit (%) setting. Please contact Ansys technical support. (01:47:18 PM  Nov 08, 2026)
+[warning] Project:PCB_R07, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d: Out of memory (01:47:18 PM  Nov 08, 2026)
+[warning] Project:PCB_R07, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d: Out of memory (01:47:18 PM  Nov 08, 2026)
+[error] Project:PCB_R07, Design:PCB_sem_cabos (Hybrid Modal Network), Solving adaptive frequency ..., process hf3d error: Matrix solver exception: SOLVER_OUT_OF_MEMORY. Please contact Ansys technical support. (01:47:18 PM  Nov 08, 2026)
+[error] Project:PCB_R07, Design:PCB_sem_cabos (Hybrid Modal Network), Simulation completed with execution error on server: Local Machine. (01:47:19 PM  Nov 08, 2026)
+[error] Project:PCB_R06, Design:PCB_sem_cabos (Hybrid Modal Network), Script macro error: Simulation for PCB_R07 : PCB_sem_cabos : Banda has failed with execution error.  (01:47:20 PM  Nov 08, 2026)
+[error] Error in command execution
+Stopping Batch Run: 1:47:23 PM  Nov 08, 2026

@@ -65,7 +65,10 @@ def combine(root):
     save(output/'manifesto.json',common)
 
 def main(root,stage):
-    assert json.loads((root/'antena/auditoria_convergencia.json').read_text())['convergencia_aprovada']
+    config=json.loads((root/'antena/configuracao_hfss.json').read_text())
+    if config.get('modo')=='malha_fixa_validada_R06':
+        assert json.loads((root/'antena/fonte_malha.json').read_text())['fonte_convergida']
+    else:assert json.loads((root/'antena/auditoria_convergencia.json').read_text())['convergencia_aprovada']
     if stage=='centro':
         result=one(root,root/'centro/5170',5170,root/'circuito/centro')
         compare(root,result['corrigida']);print(json.dumps(result['corrigida'],indent=2));return

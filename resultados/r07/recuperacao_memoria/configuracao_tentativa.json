@@ -1,0 +1,33 @@
+{
+  "field_delta_dB": 0.02, 
+  "save_rad_fields_only": true, 
+  "minimum_converged_passes": 2, 
+  "sha256_fonte": "5725d3770ce65c592565a869af356483d69362f8d369374bb177e57fce0f8e00", 
+  "source_resolve": false, 
+  "minimum_passes": 2, 
+  "estado": "preparado_sem_solve", 
+  "percent_refinement": 2, 
+  "frequencia_adaptativa_GHz": 5.17, 
+  "fonte": "D:/dev/EMBRAER/P1H\\R06_sem_cabos\\antena\\PCB_R06.aedt", 
+  "max_delta_s": 0.02, 
+  "maximum_passes": 6, 
+  "frequencias_MHz": [
+    5090, 
+    5100, 
+    5110, 
+    5120, 
+    5130, 
+    5140, 
+    5150, 
+    5160, 
+    5170, 
+    5180, 
+    5190, 
+    5200, 
+    5210, 
+    5220, 
+    5230, 
+    5240, 
+    5250
+  ]
+}

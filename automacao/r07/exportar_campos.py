@@ -8,11 +8,14 @@ folder=os.path.join(root,'antena')
 def log(s):
     with open(os.path.join(folder,'campos_'+stage+'.log'),'a') as f:f.write(str(s)+'\n')
 try:
-    assert json.load(open(os.path.join(folder,'auditoria_convergencia.json')))['convergencia_aprovada']
-    p=oDesktop.OpenProject(os.path.join(folder,'PCB_R07.aedt'));d=p.SetActiveDesign('PCB_sem_cabos')
+    config=json.load(open(os.path.join(folder,'configuracao_hfss.json')))
+    if config.get('modo')=='malha_fixa_validada_R06':
+        assert json.load(open(os.path.join(folder,'fonte_malha.json')))['fonte_convergida']
+    else:assert json.load(open(os.path.join(folder,'auditoria_convergencia.json')))['convergencia_aprovada']
+    p=oDesktop.OpenProject(os.path.join(folder,config.get('native','PCB_R07.aedt')));d=p.SetActiveDesign('PCB_sem_cabos')
     sol=d.GetModule('Solutions');reports=d.GetModule('ReportSetup')
     ports=list(sol.GetAllSources());assert len(ports)==20
-    solution='Banda : LastAdaptive' if stage=='centro' else 'Banda : Discreta_10MHz'
+    solution=config.get('solucao_centro','Banda : LastAdaptive') if stage=='centro' else 'Banda : Discreta_10MHz'
     def excite(active=None):
         sol.EditSources([['IncludePortPostProcessing:=',False,'SpecifySystemPower:=',False]]+
           [['Name:=',s+':1','Magnitude:=',('0.05W' if active is None else ('1W' if s==active else '0W')),

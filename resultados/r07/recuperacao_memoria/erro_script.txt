@@ -1,0 +1,6 @@
+CENTRO_R07_INICIADO
+Traceback (most recent call last):
+  File "D:/dev/EMBRAER/emb_ant/automacao/r07/resolver_centro.py", line 17, in <module>
+    log('CENTRO_R07_INICIADO');d.Analyze('Banda')
+Exception: Analyze(string simulationName, [bool isBlocking /*optional*/])(Banda) - call failed. Logs or message window might have more details
+

@@ -1,16 +1,4 @@
 {
-  "field_delta_dB": 0.02, 
-  "save_rad_fields_only": true, 
-  "minimum_converged_passes": 2, 
-  "sha256_fonte": "5725d3770ce65c592565a869af356483d69362f8d369374bb177e57fce0f8e00", 
-  "source_resolve": false, 
-  "minimum_passes": 2, 
-  "estado": "preparado_sem_solve", 
-  "percent_refinement": 2, 
-  "frequencia_adaptativa_GHz": 5.17, 
-  "fonte": "D:/dev/EMBRAER/P1H\\R06_sem_cabos\\antena\\PCB_R06.aedt", 
-  "max_delta_s": 0.02, 
-  "maximum_passes": 6, 
   "frequencias_MHz": [
     5090, 
     5100, 
@@ -29,5 +17,24 @@
     5230, 
     5240, 
     5250
-  ]
+  ], 
+  "nota": "Nenhuma nova adaptacao. Malha R06 ja convergida e preservada; comparar controle5170 antes da banda.", 
+  "native": "PCB_R07_SWEEP.aedt", 
+  "save_rad_fields_only": true, 
+  "sha256_fonte": "5725d3770ce65c592565a869af356483d69362f8d369374bb177e57fce0f8e00", 
+  "limite_usuario_novos_adaptativos": 6, 
+  "source_resolve": false, 
+  "estado": "preparado_sem_solve", 
+  "criterio_s_fonte": 0.0040000000000000001, 
+  "solucao_centro": "Banda : Controle5170", 
+  "secoes_fisicas_sha256": {
+    "BoundarySetup": "9ce65251e69a86a540264ee7a9a812ac238826da381dc29d8f61fa1ead778a2d", 
+    "MeshSetup": "ea1d4b8a736a9867ef13383ecc86f3d11abb4993d4e0fc1029064bc0d904ed55", 
+    "RadField": "ed9bda0d9ea11f88d93e0db73318278fd2af77f0a6000d2710efa726e5e4d2a7", 
+    "ModelSetup": "ee70734bef1d7e3b3e718479c77704b12168916385c5fed9849c5ae12524cb3d"
+  }, 
+  "fonte": "D:/dev/EMBRAER/P1H\\R06_sem_cabos\\antena\\PCB_R06.aedt", 
+  "max_delta_s": 0.02, 
+  "maximum_passes": 0, 
+  "modo": "malha_fixa_validada_R06"
 }
