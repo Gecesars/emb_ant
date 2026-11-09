@@ -1,0 +1,21 @@
+{
+  "variantes": [
+    "v00_terra6",
+    "v01_central",
+    "v02_central_terra6",
+    "v03_B_longo",
+    "v04_superior_16",
+    "v05_B_longo_inferior_15",
+    "v06_B12_superior2",
+    "v07_B10_superior3",
+    "v08_B145_inferior05_terra33",
+    "v09_B968_superior366"
+  ],
+  "objetivo": "Reduzir deslocamento dos maximos H/V em relacao a0graus com A=B=.5W/0graus.",
+  "limite": "Seis passes por geometria; relatar DeltaS real, nao validar resultado nao convergido.",
+  "referencia": "R08: H+15.25graus,V-6.25graus,8.1283dBi,DeltaS.0893184.",
+  "fontes_sha256": {
+    "dois_verticais_layout.py": "dde2627757f7041b063a15e09860978538620011099da2a53920414efca986bf",
+    "dois_verticais_cad.py": "53e1001edf705090b458625b353a8375f38a7d9f28ee4f8b211199e552980294"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "variante": "v02_central_terra6",
+  "passes": 6,
+  "delta_s": 0.043763,
+  "convergiu": false,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "hfss_indicou_convergencia": false,
+  "passes_consecutivos": 0,
+  "consecutivos_exigidos": 2,
+  "major": 0,
+  "minor": 0,
+  "passivo": true,
+  "max_singular": 0.2635474522240027,
+  "residuo_reciprocidade": 7.388059841762039e-06,
+  "VSWR_ativo": [
+    1.6252161060497199,
+    1.7711445130650292
+  ],
+  "VSWR_casado": [
+    1.4137452267247794,
+    1.5546615900004566
+  ],
+  "potencia_aceita_W": 0.9329214766455434,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 8.061404776882553,
+      "ganho_pico_dBi": 8.332708385520684,
+      "pico_graus": 16.75,
+      "abertura_graus": 90.74216522934421,
+      "limites_graus": [
+        -39.611513208857765,
+        51.13065202048644
+      ],
+      "picos_individuais_graus": {
+        "A": -2.75,
+        "B": 11.5
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 8.061404776882553,
+      "ganho_pico_dBi": 8.333402726377336,
+      "pico_graus": -4.25,
+      "abertura_graus": 28.392090483314476,
+      "limites_graus": [
+        -18.958929113222386,
+        9.43316137009209
+      ],
+      "picos_individuais_graus": {
+        "A": 2.0,
+        "B": 0.5
+      }
+    }
+  },
+  "erros_recomposicao": {
+    "H": 5.513788004326712e-15,
+    "V": 5.6223755375687785e-15
+  },
+  "desvio_maximo_graus": 16.75,
+  "centrado_na_grade_025grau": false,
+  "validado": false
+}

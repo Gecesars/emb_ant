@@ -1,0 +1,22 @@
+{
+  "native": "Divisor_v00_terra6.aedt",
+  "variante": "v00_terra6",
+  "conexoes_centrais": false,
+  "largura_retorno_mm": 6.0,
+  "espacamento_vertical_mm": 48,
+  "radiadores": 2,
+  "borda_retorno": "Retorno novo limitado a0.2mm da borda daPCB; largura nominal pode ser recortada junto ao meandroB.",
+  "cabos_fisicos_com_perdas": true,
+  "comprimento_cabo_mm": 50,
+  "apoios_plasticos": false,
+  "frequencia_GHz": 5.17,
+  "max_passes": 6,
+  "max_delta_s": 0.04,
+  "nucleos": 14,
+  "gui": true,
+  "sweep": false,
+  "potencia_por_porta_W": 0.5,
+  "fase_graus": 0,
+  "descricao": "Roteamento R08 preservado; apenas largura nominal do retorno3.6->6mm.",
+  "referencia": "D:/dev/EMBRAER/P2M21/R08_Dois_Verticais_Sem_Suportes"
+}

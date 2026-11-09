@@ -1,0 +1,15 @@
+! Touchstone file exported from HFSS 2024.2.0
+!        File:           D:/dev/EMBRAER/P2M21/R09_Divisor_Simetria/v01_central/Divisor_v01_central.aedt
+!        Generated:      10:15:08 AM Nov  9, 2026
+!        Design:         PCB_separada
+!        Project:        Divisor_v01_central
+!        Setup:          Centro
+!        Solution:       LastAdaptive
+!
+# GHz S RI R 50.000000
+! Terminal data exported
+! Port[1] = A
+! Port[2] = B
+5.17                           0.128443578281815 -0.0715065180429974 0.105299557151454 -0.0177637359774399 0.105335820282572 -0.0177831359976758 0.131027471201999 -0.0521514754362685 
+! Gamma         0                0                0                0                
+! Port Impedance         50               0                50               0                

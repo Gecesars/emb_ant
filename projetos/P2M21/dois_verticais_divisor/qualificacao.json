@@ -1,0 +1,19 @@
+{
+  "estado": "ENSAIOS_CONCLUIDOS_META_ZERO_NAO_ATINGIDA",
+  "variantes_novas": 10,
+  "frequencia_GHz": 5.17,
+  "solver_ativo": false,
+  "pid_gui": 206748,
+  "max_passes": 6,
+  "nucleos": 14,
+  "selecionada": "v05_B_longo_inferior_15",
+  "convergiu_selecionada": true,
+  "melhor_apontamento": "v09_B968_superior366",
+  "convergiu_melhor_apontamento": false,
+  "revisao_visual": [
+    "polar_selecionada.png",
+    "comparacao_diagramas.png",
+    "v09_B968_superior366/layout.png"
+  ],
+  "email_enviado": false
+}

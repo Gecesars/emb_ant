@@ -1,0 +1,22 @@
+{
+  "native": "Divisor_v01_central.aedt",
+  "variante": "v01_central",
+  "conexoes_centrais": true,
+  "largura_retorno_mm": 3.6,
+  "espacamento_vertical_mm": 48,
+  "radiadores": 2,
+  "borda_retorno": "Retorno novo limitado a0.2mm da borda daPCB; largura nominal pode ser recortada junto ao meandroB.",
+  "cabos_fisicos_com_perdas": true,
+  "comprimento_cabo_mm": 50,
+  "apoios_plasticos": false,
+  "frequencia_GHz": 5.17,
+  "max_passes": 6,
+  "max_delta_s": 0.04,
+  "nucleos": 14,
+  "gui": true,
+  "sweep": false,
+  "potencia_por_porta_W": 0.5,
+  "fase_graus": 0,
+  "descricao": "Entradas x=2.509mm, y=+/-18mm; quatro ramos espelhados sem meandros.",
+  "referencia": "D:/dev/EMBRAER/P2M21/R08_Dois_Verticais_Sem_Suportes"
+}

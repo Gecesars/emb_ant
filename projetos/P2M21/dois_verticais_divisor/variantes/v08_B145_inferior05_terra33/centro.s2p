@@ -1,0 +1,15 @@
+! Touchstone file exported from HFSS 2024.2.0
+!        File:           D:/dev/EMBRAER/P2M21/R09_Divisor_Simetria/v08_B145_inferior05_terra33/Divisor_v08_B145_inferior05_terra33.aedt
+!        Generated:      11:26:12 AM Nov  9, 2026
+!        Design:         PCB_separada
+!        Project:        Divisor_v08_B145_inferior05_terra33
+!        Setup:          Centro
+!        Solution:       LastAdaptive
+!
+# GHz S RI R 50.000000
+! Terminal data exported
+! Port[1] = A
+! Port[2] = B
+5.17                           0.100597508901039 0.0331722758229778 0.00897201157545856 -0.117335223149197 0.00900241293136337 -0.117343323887726 -0.0366542060124584 0.138877167658575 
+! Gamma         0                0                0                0                
+! Port Impedance         50               0                50               0                
