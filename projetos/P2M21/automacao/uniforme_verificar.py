@@ -31,11 +31,12 @@ def progress():
     results=(folder/cfg['native']).with_suffix('.aedtresults')
     setup=native.split("$begin 'AnalysisSetup'",1)[1].split("$end 'AnalysisSetup'",1)[0]
     actual_max=int(re.search(r'MaximumPasses=(\d+)',setup)[1])
+    actual_min=int(re.search(r'MinimumPasses=(\d+)',setup)[1])
     candidates=[]
     for p in results.rglob('*.EMConvData'):
         text=p.read_text()
         target=re.search(r"ConvTarget='([^']+)'",text)
-        if target and abs(float(target[1])-.04)<1e-12 and ("MaxPasses='%d'"%actual_max) in text:candidates.append((p,text))
+        if target and abs(float(target[1])-.04)<1e-12 and ("MaxPasses='%d'"%actual_max) in text and ("MinPasses='%d'"%actual_min) in text:candidates.append((p,text))
     if not candidates:return dict(estado='sem_historico_adaptativo_ainda')
     assert len(candidates)==1,[str(p) for p,t in candidates]
     p,text=candidates[0];history={};traces={};fields={}
