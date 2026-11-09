@@ -1,0 +1,29 @@
+{
+  "estado": "EXECUCAO_EM_ANDAMENTO_SEM_RESULTADO_RF",
+  "arquivos": [
+    {
+      "caminho": "projetos/P2M21/ensaio_uniforme/configuracao.json",
+      "bytes": 1269,
+      "sha256": "63d696507fbc0bc0acacd608097154f96444b0d9d293c38735853bffcd114f78",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R02_Malha_Uniforme17\\configuracao.json"
+    },
+    {
+      "caminho": "projetos/P2M21/ensaio_uniforme/execucao_inicial.json",
+      "bytes": 311,
+      "sha256": "a0488e2f8235aa5ab4f6ed964b45893e8c11cc030840764b8f72d4ca66bd21f9",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R02_Malha_Uniforme17\\qualificacao.json"
+    },
+    {
+      "caminho": "projetos/P2M21/ensaio_uniforme/hfss/preparacao.json",
+      "bytes": 9935,
+      "sha256": "836af3e463462fe1be4328b74a3631b0697bc9a4e7c984d8926c4bb0a0cc99b4",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R02_Malha_Uniforme17\\antena\\preparacao.json"
+    },
+    {
+      "caminho": "projetos/P2M21/ensaio_uniforme/hfss/verificacao_preparacao.json",
+      "bytes": 401,
+      "sha256": "2d4505cff3216ce6a33072e093da50195cf72c1a207641b335d7256923a6a06f",
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R02_Malha_Uniforme17\\antena\\verificacao_preparacao.json"
+    }
+  ]
+}
