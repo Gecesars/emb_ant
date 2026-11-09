@@ -1,0 +1,84 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/configuracao.json",
+      "bytes": 2455,
+      "sha256": "d723b61c2c20e9b95c558144ec5d82a15f2c2a838be6c37fbd54508141a2fdaa"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/freecad/P2M21_Dez_1x4_Posicionamento.FCStd",
+      "bytes": 2016347,
+      "sha256": "d455e1149afbeb21c35a6deaab421d687ba734cb401c35a0c656ad1a88574ca9"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/freecad/verificacao.json",
+      "bytes": 357,
+      "sha256": "7eb1b59666138dc844f19e6de9370cbc3b2d905d3e2f116356636a92733fb954"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/imagens/distribuicao_dez_1x4.png",
+      "bytes": 231332,
+      "sha256": "92be2e0016f0a51ebafa18a73fa31fbce7a9677bb41d3eab16d4a331fb0aafbd"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/imagens/pcb_referencia_1x4.png",
+      "bytes": 81451,
+      "sha256": "2c93876734c7aef0b4a688fb39317e15d3997d40b65b587d98ae3e0dbce2b1bd"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/mapa_logico.csv",
+      "bytes": 3382,
+      "sha256": "23205274af8a03d23d8c3a167c0b4511914d37933e3c5793bd6d7f7afd3bfc0e"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/origem_referencias.json",
+      "bytes": 2169,
+      "sha256": "6b802b4a74385ba1096b01f119b7d16a8c0d84b5dabc71f6af7dc213c887a883"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/analise.json",
+      "bytes": 8207,
+      "sha256": "946743d1760d46a30e846d67dd86859ee84cb2427d186ff944d486b8000d3c1b"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/convergencia.txt",
+      "bytes": 622,
+      "sha256": "2589e9e03ebdf6edb1c581381efef28216d339081de9dc1fa4a45e6cb226e8a8"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/divisor.s10p",
+      "bytes": 96466,
+      "sha256": "a3b7fe23fd7057da06adbcfe1c63b47ea4a7a64c1fede6d5d468fe8d2e6ff434"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/drc.json",
+      "bytes": 17874,
+      "sha256": "71fbcb28ec58211081026cfc029e7300c0f29a9e066b18f44633d22ee1e0bfe9"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/geometria.json",
+      "bytes": 21550,
+      "sha256": "6900b1e0f354375444a3fa859cd8802562fdd600c834ed84b68bc32f94fb4166"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/P2M21_Duplo_1x4.aedt",
+      "bytes": 1846826,
+      "sha256": "2ec144d01343f11952a2f7f4d81291df5eecd039a6d43d3e36943e2bb644fb00"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/P2M21_Duplo_1x4.FCStd",
+      "bytes": 77529,
+      "sha256": "0381bbd03012385d9f56ac56ab60434783b20e56a6eb33c3142281376e98fde3"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/P2M21_Duplo_1x4.kicad_pcb",
+      "bytes": 78689,
+      "sha256": "810ee9b4fd3ebd628101bfb141826ce438fe75a410ad0f46398f099dba25de0d"
+    },
+    {
+      "arquivo": "projetos/P2M21/rede_dez_1x4/referencia_1x4/P2M21_Duplo_1x4.kicad_pro",
+      "bytes": 9935,
+      "sha256": "073ffcb7d0abbdb8509fb3c9ad37624bd6fa72f472655d544d9ef48e8b65b637"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "revisao": "R05_Dez_Divisores_1x4",
+  "estado": "POSICIONAMENTO_PREPARADO_INTERFACE_FINAL_PENDENTE",
+  "niveis": 16,
+  "colunas": 2,
+  "radiadores": 32,
+  "portas_radiantes": 64,
+  "entradas": 2,
+  "divisores_1x4": 10,
+  "pcbs_duplas_propostas": 5,
+  "saidas_finais_por_entrada": 16,
+  "saidas_finais_total": 32,
+  "posicoes": [
+    {
+      "pcb": "D0",
+      "centro_x_mm": 0,
+      "centro_y_mm": 0,
+      "base_z_mm": -11.52,
+      "niveis": null,
+      "redes": [
+        "D0A",
+        "D0B"
+      ]
+    },
+    {
+      "pcb": "D1",
+      "centro_x_mm": -315.6,
+      "centro_y_mm": 0,
+      "base_z_mm": -11.52,
+      "niveis": [
+        1,
+        4
+      ],
+      "redes": [
+        "D1A",
+        "D1B"
+      ]
+    },
+    {
+      "pcb": "D2",
+      "centro_x_mm": -105.2,
+      "centro_y_mm": 0,
+      "base_z_mm": -11.52,
+      "niveis": [
+        5,
+        8
+      ],
+      "redes": [
+        "D2A",
+        "D2B"
+      ]
+    },
+    {
+      "pcb": "D3",
+      "centro_x_mm": 105.2,
+      "centro_y_mm": 0,
+      "base_z_mm": -11.52,
+      "niveis": [
+        9,
+        12
+      ],
+      "redes": [
+        "D3A",
+        "D3B"
+      ]
+    },
+    {
+      "pcb": "D4",
+      "centro_x_mm": 315.6,
+      "centro_y_mm": 0,
+      "base_z_mm": -11.52,
+      "niveis": [
+        13,
+        16
+      ],
+      "redes": [
+        "D4A",
+        "D4B"
+      ]
+    }
+  ],
+  "placa_referencia_mm": [
+    39,
+    78,
+    1.52
+  ],
+  "material": "ZYF300CA-C",
+  "dk": 2.94,
+  "df": 0.0016,
+  "cu_um": 35,
+  "geometria_1x4": "Referencia R00, inalterada; nao representa novo casamento aprovado.",
+  "interface_pendente": "Definir ligacao das 32 saidas finais as 64 portas A/B. Nenhuma porta suprimida ou ligada em paralelo sem aprovacao.",
+  "proposta": "Uma entrada por polarizacao; cada saida local atende duas colunas do mesmo nivel mediante 1:2 integrado na PCB. Requer 32 redes 1:2 adicionais e revisao das placas radiantes.",
+  "divisoes_1x2_propostas": 32,
+  "divisoes_1x2_implementadas": 0,
+  "solver_executado": false,
+  "geometria_antena_alterada": false,
+  "proximos_ensaios": {
+    "frequencia_GHz": 5.17,
+    "sweep": false,
+    "nucleos": 14,
+    "max_passes": 4,
+    "delta_s_referencia": 0.04
+  },
+  "comprimentos_cabos": "Nao liberados. Caminhos devem ter atraso eletrico equilibrado, com cabos sem atenuacao apenas no circuito."
+}
