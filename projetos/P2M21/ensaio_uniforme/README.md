@@ -4,6 +4,8 @@ Pedido de 9/11/2026: corrigir a malha e calcular ganho total e aberturas horizon
 
 **Estado: cálculo em andamento, sem resultado novo aprovado.** Esta página será atualizada após a auditoria. Os números de [pré-dimensionamento](../estimativa_uniforme/README.md) são estimativas e não resultados deste ensaio.
 
+**Verificação de 9/11 às 03:18:** quatro passes concluídos, 3.432.963 tetraedros e ΔS = 0,249792, ainda acima de 0,04; a adaptação para o quinto passe está ativa. O cache frontal do quarto passe registra 22,94745 dBi em 5,17 GHz, exclusivamente como resultado preliminar sem convergência. A nova malha tem zero reparos graves e sete menores até esta verificação. A banda de 17 pontos ainda não começou e não há aberturas H/V exportadas. [Evidências do monitoramento, sem interferir no solver](monitor_20261109_0318.json).
+
 ## Modelo e excitação
 
 - Mesma geometria R00: 32 radiadores de duas polarizações, quatro módulos 2×4, refletor e apoios. Passos de 52,6 mm vertical e 40 mm horizontal.

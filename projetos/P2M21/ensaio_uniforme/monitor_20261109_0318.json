@@ -1,0 +1,117 @@
+{
+  "verificado_em": "2026-11-09T03:19:39.046254-03:00",
+  "estado": "CENTRO_EM_EXECUCAO_NAO_CONVERGIDO",
+  "historico": {
+    "fonte": "D:\\dev\\EMBRAER\\P2M21\\R02_Malha_Uniforme17\\antena\\P2M21_Uniforme.aedtresults\\PCB_separada.results\\DV535_S475_V605.EMConvData",
+    "nativo_convergiu": false,
+    "cache_somente_monitoramento": true,
+    "historico": [
+      {
+        "passe": 1,
+        "tetraedros": 2026415,
+        "delta_s": null,
+        "campos_dBi": {
+          "U_R02_00": 18.7029483241697,
+          "U_R02_01": 14.9671341036523,
+          "U_R02_02": 15.1700816347107,
+          "U_R02_03": 14.0453018300788,
+          "U_R02_04": 14.2725431666707,
+          "U_R02_05": 13.0013977513125,
+          "U_R02_06": 13.2481554164781,
+          "U_R02_07": 15.8780660967649,
+          "U_R02_08": 15.4877525941704
+        },
+        "delta_campo_max_dB": null
+      },
+      {
+        "passe": 2,
+        "tetraedros": 2415481,
+        "delta_s": 0.8099522527439413,
+        "campos_dBi": {
+          "U_R02_00": 21.2973551371988,
+          "U_R02_01": 18.2042358418638,
+          "U_R02_02": 17.3108507164442,
+          "U_R02_03": 17.3605794583213,
+          "U_R02_04": 16.3594360245929,
+          "U_R02_05": 16.3866599253907,
+          "U_R02_06": 15.2739642644062,
+          "U_R02_07": 18.3144033018663,
+          "U_R02_08": 18.2109029320433
+        },
+        "delta_campo_max_dB": 3.3852621740782
+      },
+      {
+        "passe": 3,
+        "tetraedros": 2879240,
+        "delta_s": 0.5702977879126616,
+        "campos_dBi": {
+          "U_R02_00": 22.6346243704398,
+          "U_R02_01": 19.1294425416349,
+          "U_R02_02": 18.761551486654,
+          "U_R02_03": 18.2147340941917,
+          "U_R02_04": 17.7809200847444,
+          "U_R02_05": 17.1593698779651,
+          "U_R02_06": 16.6470219519497,
+          "U_R02_07": 19.6717536468902,
+          "U_R02_08": 19.5076458383122
+        },
+        "delta_campo_max_dB": 1.4507007702097994
+      },
+      {
+        "passe": 4,
+        "tetraedros": 3432963,
+        "delta_s": 0.2497924664844609,
+        "campos_dBi": {
+          "U_R02_00": 22.9474517089015,
+          "U_R02_01": 19.2179331358646,
+          "U_R02_02": 19.1169208020628,
+          "U_R02_03": 18.2474870504714,
+          "U_R02_04": 18.1210826116162,
+          "U_R02_05": 17.1198485915189,
+          "U_R02_06": 16.960509973368,
+          "U_R02_07": 19.9257420872385,
+          "U_R02_08": 19.8927367791396
+        },
+        "delta_campo_max_dB": 0.3850909408273999
+      }
+    ]
+  },
+  "max_passes_configurado": 6,
+  "delta_s_configurado": 0.04,
+  "reparos_major": 0,
+  "reparos_minor": [
+    {
+      "id": 8170,
+      "nome": "E29_Ant01_Feed_B_Inner_Cu1"
+    },
+    {
+      "id": 11150,
+      "nome": "E25_Ant01_Feed_A_Cu1"
+    },
+    {
+      "id": 16666,
+      "nome": "E17_Ant01_Feed_B_Inner_Cu1"
+    },
+    {
+      "id": 17374,
+      "nome": "E16_Ant01_Feed_B_Inner_Cu1"
+    },
+    {
+      "id": 18790,
+      "nome": "E14_Ant01_Feed_B_Inner_Cu1"
+    },
+    {
+      "id": 19646,
+      "nome": "E13_Ant01_Feed_A_Cu1"
+    },
+    {
+      "id": 21062,
+      "nome": "E11_Ant01_Feed_A_Cu1"
+    }
+  ],
+  "ganho_frontal_ultimo_passe_dBi": 22.9474517089015,
+  "banda17_iniciada": false,
+  "pontos_de_banda_exportados": 0,
+  "ganho_21dBi_toda_banda_confirmado": false,
+  "nota": "Monitoramento de leitura. Ganho de cache do ultimo passe e preliminar, nao qualificado. Aberturas H/V ainda nao exportadas. Nenhum solver adicional iniciado."
+}
