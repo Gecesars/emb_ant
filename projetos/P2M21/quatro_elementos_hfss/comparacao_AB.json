@@ -1,0 +1,110 @@
+{
+  "variante": "R10_Quatro_Verticais",
+  "passes": 6,
+  "delta_s": 0.048783,
+  "convergiu": false,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "hfss_indicou_convergencia": false,
+  "passes_consecutivos": 0,
+  "consecutivos_exigidos": 2,
+  "major": 0,
+  "minor": 0,
+  "passivo": true,
+  "max_singular": 0.3709087528446345,
+  "residuo_reciprocidade": 1.1381508299054531e-05,
+  "VSWR_ativo": [
+    1.4470052817395391,
+    1.577426844199142
+  ],
+  "VSWR_casado": [
+    1.5319811117122824,
+    1.9456989795498432
+  ],
+  "potencia_aceita_W": 0.958219793304043,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 11.094610938846612,
+      "ganho_pico_dBi": 11.498404448071092,
+      "pico_graus": -25.25,
+      "abertura_graus": 83.85837862699967,
+      "limites_graus": [
+        -50.485230038245874,
+        33.3731485887538
+      ],
+      "picos_individuais_graus": {
+        "A": 16.75,
+        "B": -21.5
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 11.094610938846612,
+      "ganho_pico_dBi": 11.108324020915397,
+      "pico_graus": 0.5,
+      "abertura_graus": 14.96096204788654,
+      "limites_graus": [
+        -6.945339571880768,
+        8.015622476005772
+      ],
+      "picos_individuais_graus": {
+        "A": 0.25,
+        "B": -1.0
+      }
+    }
+  },
+  "erros_recomposicao": {
+    "H": 4.215484740982238e-15,
+    "V": 3.3437507477414847e-15
+  },
+  "desvio_maximo_graus": 25.25,
+  "centrado_na_grade_025grau": false,
+  "frequencia_GHz": 5.17,
+  "entradas": [
+    "A",
+    "B"
+  ],
+  "potencia_incidente_total_W": 1.0,
+  "potencia_por_entrada_W": 0.5,
+  "fase_por_entrada_graus": 0.0,
+  "gui": false,
+  "radiadores": 4,
+  "divisores_1x4": 2,
+  "cabos_fisicos_com_perdas": true,
+  "comprimento_por_cabo_mm": 50.0,
+  "grade_angular_graus": 0.25,
+  "definicao_H": "Phi=90 graus; plano YZ",
+  "definicao_V": "Phi=0 graus; plano XZ",
+  "direcao_frontal": "+Z; Theta=0 graus",
+  "balanco_potencia": [
+    {
+      "corte": "H",
+      "ganho_frontal_dBi": 11.0946109388466,
+      "diretividade_frontal_dBi": 12.0488270430489,
+      "potencia_aceita_por_razao_ganhos_W": 0.9582197933040503,
+      "eficiencia_radiacao": 0.8377477151669959,
+      "eficiencia_total": 0.8027464424682591,
+      "potencia_radiada_W": 0.8027464424682591,
+      "erro_aceita_vs_S_W": 7.216449660063518e-15
+    },
+    {
+      "corte": "V",
+      "ganho_frontal_dBi": 11.0946109388466,
+      "diretividade_frontal_dBi": 12.0488270430489,
+      "potencia_aceita_por_razao_ganhos_W": 0.9582197933040503,
+      "eficiencia_radiacao": 0.8377477151669959,
+      "eficiencia_total": 0.8027464424682591,
+      "potencia_radiada_W": 0.8027464424682591,
+      "erro_aceita_vs_S_W": 7.216449660063518e-15
+    }
+  ],
+  "ressalvas_fisicas": [],
+  "checagens_fisicas_aprovadas": true,
+  "resultado_preliminar": true,
+  "nota_convergencia": "DeltaS entre passes; nao e limite rigoroso do erro fisico. S-convergencia nao comprova independencia de malha do diagrama."
+}

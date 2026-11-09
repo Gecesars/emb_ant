@@ -1,0 +1,32 @@
+[
+  {
+    "passe": 1,
+    "tetraedros": 53955,
+    "delta_s": null
+  },
+  {
+    "passe": 2,
+    "tetraedros": 63119,
+    "delta_s": 1.236
+  },
+  {
+    "passe": 3,
+    "tetraedros": 74111,
+    "delta_s": 0.91167
+  },
+  {
+    "passe": 4,
+    "tetraedros": 87292,
+    "delta_s": 0.14319
+  },
+  {
+    "passe": 5,
+    "tetraedros": 102628,
+    "delta_s": 0.10874
+  },
+  {
+    "passe": 6,
+    "tetraedros": 120557,
+    "delta_s": 0.048783
+  }
+]

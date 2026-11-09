@@ -1,0 +1,18 @@
+{
+  "instante": "2026-11-09T13:21:19.7554372-03:00",
+  "descricao": "Execucao AEDT -ng e worker HFSS no centro; nenhuma varredura cadastrada no setup.",
+  "processos": [
+    {
+      "Name": "ansysedt.exe",
+      "ProcessId": 26772,
+      "ParentProcessId": 7732,
+      "CommandLine": "\"C:\\Program Files\\AnsysEM\\v242\\Win64\\ansysedt.exe\" -ng -LogFile D:\\dev\\EMBRAER\\P2M21\\R10_Quatro_Verticais\\centro_aedt.log -RunScriptAndExit D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\automacao\\quatro_elementos_resolver.py"
+    },
+    {
+      "Name": "hf3d.exe",
+      "ProcessId": 27484,
+      "ParentProcessId": 25952,
+      "CommandLine": "25952_18 25952_19 \"C:\\Users\\geral\\AppData\\Local\\Temp\\hfss_RF01_25952.pjt/\" \"-exedir 'C:/Program Files/AnsysEM/v242/Win64/'  -solve_adapt 6 -freq 5170000000 -max_processors 14 -save_fields -numParallelGroups 1 -solve_frequency_sweep\""
+    }
+  ]
+}

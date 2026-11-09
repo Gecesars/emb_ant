@@ -1,0 +1,215 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "P2M21_4_elementos.aedt",
+      "sha256": "1605f379342ef3dbb89041ffbb5d3a3269c4ec36384e5344b4663259b8ea4228",
+      "origem_sha256": "1605f379342ef3dbb89041ffbb5d3a3269c4ec36384e5344b4663259b8ea4228",
+      "bytes": 10674779
+    },
+    {
+      "arquivo": "4_elementos.FCStd",
+      "sha256": "b560b58ea5e297fd9636e629af617942bcd6dd1e190e0fafe1bee71b90204ed7",
+      "origem_sha256": "b560b58ea5e297fd9636e629af617942bcd6dd1e190e0fafe1bee71b90204ed7",
+      "bytes": 370775
+    },
+    {
+      "arquivo": "README.md",
+      "sha256": "9fe0fe71d9e0cfda61b826054ce8daf695e8c0c402de1b8f9fbd305d9c6d0dc9",
+      "origem_sha256": "79cce5d355d144cab442e4a7558f509466c6e1124fa766e448e35b98458d1e70",
+      "bytes": 4763
+    },
+    {
+      "arquivo": "configuracao.json",
+      "sha256": "0ba3bf31d00ac3f6e8599bd3e073f3e3d676b95b456c9ad5392c1fc0edaba9cb",
+      "origem_sha256": "0ba3bf31d00ac3f6e8599bd3e073f3e3d676b95b456c9ad5392c1fc0edaba9cb",
+      "bytes": 1151
+    },
+    {
+      "arquivo": "geometria.json",
+      "sha256": "f6932be872e4827804f5db8a0e1d411fab1ea10c58bf73c5b750dcc5165bc309",
+      "origem_sha256": "f6932be872e4827804f5db8a0e1d411fab1ea10c58bf73c5b750dcc5165bc309",
+      "bytes": 346989
+    },
+    {
+      "arquivo": "HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "qualificacao.json",
+      "sha256": "bd5e5b779169e69fd3c054e77ee3c0e5e5a1f9ed054035f8d804ab4e562843f6",
+      "origem_sha256": "bd5e5b779169e69fd3c054e77ee3c0e5e5a1f9ed054035f8d804ab4e562843f6",
+      "bytes": 152
+    },
+    {
+      "arquivo": "hfss_validacao.json",
+      "sha256": "ba4fb35f8a46b7357a158a27c3bdd86b5168b47ef27f5ca5e83eb9546bcfe808",
+      "origem_sha256": "ba4fb35f8a46b7357a158a27c3bdd86b5168b47ef27f5ca5e83eb9546bcfe808",
+      "bytes": 329
+    },
+    {
+      "arquivo": "execucao_headless.json",
+      "sha256": "f44d5a5c14a12441ca6212811ae95e636481e720bb80dde05bacc64032952b39",
+      "origem_sha256": "f44d5a5c14a12441ca6212811ae95e636481e720bb80dde05bacc64032952b39",
+      "bytes": 915
+    },
+    {
+      "arquivo": "resultado.json",
+      "sha256": "bc57f9ba130e571fc8dc104c3f8d495e71b821fbe9abd60b6e97302a554da41c",
+      "origem_sha256": "bc57f9ba130e571fc8dc104c3f8d495e71b821fbe9abd60b6e97302a554da41c",
+      "bytes": 3082
+    },
+    {
+      "arquivo": "comparacao_AB.json",
+      "sha256": "bc57f9ba130e571fc8dc104c3f8d495e71b821fbe9abd60b6e97302a554da41c",
+      "origem_sha256": "bc57f9ba130e571fc8dc104c3f8d495e71b821fbe9abd60b6e97302a554da41c",
+      "bytes": 3082
+    },
+    {
+      "arquivo": "malha.json",
+      "sha256": "f5fc961ee27b06c055d76ae6262930938f16a334c2349b83d2a1ab791fe6e5e6",
+      "origem_sha256": "f5fc961ee27b06c055d76ae6262930938f16a334c2349b83d2a1ab791fe6e5e6",
+      "bytes": 22145
+    },
+    {
+      "arquivo": "historico_passes.json",
+      "sha256": "be16c42f2ef2fea17374d8bb3da5a9676dfd1754d95346305e09d32635acb2e6",
+      "origem_sha256": "be16c42f2ef2fea17374d8bb3da5a9676dfd1754d95346305e09d32635acb2e6",
+      "bytes": 471
+    },
+    {
+      "arquivo": "convergencia.txt",
+      "sha256": "80de90dccd6d6a97b3de0e2217133321d9a084862a2840d293836b2d762b9011",
+      "origem_sha256": "80de90dccd6d6a97b3de0e2217133321d9a084862a2840d293836b2d762b9011",
+      "bytes": 622
+    },
+    {
+      "arquivo": "centro.s2p",
+      "sha256": "66b162deb1989ab7bf32d3138fa75d102bbac8df302945d40ef653c40431c2fb",
+      "origem_sha256": "66b162deb1989ab7bf32d3138fa75d102bbac8df302945d40ef653c40431c2fb",
+      "bytes": 794
+    },
+    {
+      "arquivo": "mensagens.json",
+      "sha256": "1ee3f8c5c330723345588fa4fe28d9a6b31ea4b67a7c45046c656bb039ad72bc",
+      "origem_sha256": "1ee3f8c5c330723345588fa4fe28d9a6b31ea4b67a7c45046c656bb039ad72bc",
+      "bytes": 365
+    },
+    {
+      "arquivo": "resumo.csv",
+      "sha256": "761546ae9bdf281a4ec8d59a1a9750b0a8f7ad9d21ff99104776de0192943b16",
+      "origem_sha256": "761546ae9bdf281a4ec8d59a1a9750b0a8f7ad9d21ff99104776de0192943b16",
+      "bytes": 337
+    },
+    {
+      "arquivo": "perfil_14_nucleos.txt",
+      "sha256": "e415b72281ed757cdc8140ea1ed7dc42607244bd0d9cbcdb1e8fd86ab99e3793",
+      "origem_sha256": "e415b72281ed757cdc8140ea1ed7dc42607244bd0d9cbcdb1e8fd86ab99e3793",
+      "bytes": 1806
+    },
+    {
+      "arquivo": "diagramas_HV.png",
+      "sha256": "88a7c5426b6d724e1c1b1f0bd92910efc75d46d3ee101078964705f926a94e85",
+      "origem_sha256": "88a7c5426b6d724e1c1b1f0bd92910efc75d46d3ee101078964705f926a94e85",
+      "bytes": 136781
+    },
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "b58b0e5a6c2efc567f477d172d8a9a18fce2fbc52f18cc17371fe9ca029f0b41",
+      "origem_sha256": "b58b0e5a6c2efc567f477d172d8a9a18fce2fbc52f18cc17371fe9ca029f0b41",
+      "bytes": 249235
+    },
+    {
+      "arquivo": "polar_HV.pdf",
+      "sha256": "8a1f3b9265c574e24b0b88ab711d755c0396bd2bcf4d72f4b6854651aded3379",
+      "origem_sha256": "8a1f3b9265c574e24b0b88ab711d755c0396bd2bcf4d72f4b6854651aded3379",
+      "bytes": 31812
+    },
+    {
+      "arquivo": "convergencia.png",
+      "sha256": "1f58aea2350a037d60ccf687ba5ace52b46b5acdda3af8ad360084a54bffec3c",
+      "origem_sha256": "1f58aea2350a037d60ccf687ba5ace52b46b5acdda3af8ad360084a54bffec3c",
+      "bytes": 46677
+    },
+    {
+      "arquivo": "criar_cad.py",
+      "sha256": "58bebcd17669cdf068ed2584e1925b56e7ac6cfe567cc6611169f6b08ae03cf6",
+      "origem_sha256": "1eec0aa6c4d76f977d7ccc38367a5a1ebb26af79be98e019723599ea37a49388",
+      "bytes": 4377
+    },
+    {
+      "arquivo": "criar_hfss.py",
+      "sha256": "f51ca6e1d458c0056c42ae45ccb8521b0dfcb5f4a11929e8728a5046d3c3e6cd",
+      "origem_sha256": "7a3d0cf197aee16be472772973bf837ca723a944b7510a64db489fd25245e70f",
+      "bytes": 6982
+    },
+    {
+      "arquivo": "cad/intersecoes.json",
+      "sha256": "f6e14e8646ca6dcead04424c0a48a916fb56673a54fa317e7d68294958e6b5bf",
+      "origem_sha256": "f6e14e8646ca6dcead04424c0a48a916fb56673a54fa317e7d68294958e6b5bf",
+      "bytes": 391
+    },
+    {
+      "arquivo": "cad/portas.json",
+      "sha256": "0a9dfdf80cc1766d0a6503908062f761ff687d509d4550c0adeb45c6acabf00c",
+      "origem_sha256": "0a9dfdf80cc1766d0a6503908062f761ff687d509d4550c0adeb45c6acabf00c",
+      "bytes": 262
+    },
+    {
+      "arquivo": "cad/folhas_solidas.json",
+      "sha256": "dcffa2b0f021b39d39db68efddf67066253cd943ba6939298d152b309d913531",
+      "origem_sha256": "dcffa2b0f021b39d39db68efddf67066253cd943ba6939298d152b309d913531",
+      "bytes": 2155
+    },
+    {
+      "arquivo": "cad/manifesto.json",
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c",
+      "origem_sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c",
+      "bytes": 1159
+    },
+    {
+      "arquivo": "cad/enig_hfss.json",
+      "sha256": "177b2d60690101db951319962bc4827a5d68120ec9fcc7161e69b09658941b04",
+      "origem_sha256": "177b2d60690101db951319962bc4827a5d68120ec9fcc7161e69b09658941b04",
+      "bytes": 44702
+    },
+    {
+      "arquivo": "AB_H.csv",
+      "sha256": "e2f338b53161d51dd4d22c433a21587697a0ac0ed012332f39fadd68c3552bab",
+      "origem_sha256": "e2f338b53161d51dd4d22c433a21587697a0ac0ed012332f39fadd68c3552bab",
+      "bytes": 197819
+    },
+    {
+      "arquivo": "AB_V.csv",
+      "sha256": "49a75507328a90925d6a0627f8b216cdae9e4cf30919f49da275a3023f30db43",
+      "origem_sha256": "49a75507328a90925d6a0627f8b216cdae9e4cf30919f49da275a3023f30db43",
+      "bytes": 197744
+    },
+    {
+      "arquivo": "A_H.csv",
+      "sha256": "1212c3362f7410b3880b86f513ba94b06427c995efb44718e43c8a0f3107a873",
+      "origem_sha256": "1212c3362f7410b3880b86f513ba94b06427c995efb44718e43c8a0f3107a873",
+      "bytes": 198258
+    },
+    {
+      "arquivo": "A_V.csv",
+      "sha256": "9b3a3181b21938f19ee9f636b63c6cf229e3621889e59f0ac68e510b34cdcf70",
+      "origem_sha256": "9b3a3181b21938f19ee9f636b63c6cf229e3621889e59f0ac68e510b34cdcf70",
+      "bytes": 197732
+    },
+    {
+      "arquivo": "B_H.csv",
+      "sha256": "b5a873b11adaa7bfe18da80ea53c28dcf94140824da5d33a17dd7c783f940039",
+      "origem_sha256": "b5a873b11adaa7bfe18da80ea53c28dcf94140824da5d33a17dd7c783f940039",
+      "bytes": 197300
+    },
+    {
+      "arquivo": "B_V.csv",
+      "sha256": "438e21fb2bfbeab35c90cbad1e6300ee1e63e3b4ec81a3264e4a3cdd343a6b87",
+      "origem_sha256": "438e21fb2bfbeab35c90cbad1e6300ee1e63e3b4ec81a3264e4a3cdd343a6b87",
+      "bytes": 197324
+    }
+  ],
+  "total_bytes": 13144265
+}
