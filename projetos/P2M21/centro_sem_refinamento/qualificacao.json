@@ -1,17 +1,20 @@
-﻿{
-    "max_passes":  4,
-    "delta_s":  0.04,
-    "nucleos":  14,
-    "frequencia_GHz":  5.17,
-    "processo_pipeline":  234180,
-    "detalhe":  {
-                    "retomada4passes":  true,
-                    "base":  "Mixed Order",
-                    "retomada14":  false,
-                    "sem_refinamento_inicial":  true,
-                    "processo_aedt":  203200
-                },
-    "instante":  "2026-11-09T04:17:59.8671953-03:00",
-    "sweeps":  0,
-    "estado":  "CENTRO_EM_EXECUCAO"
+{
+  "estado": "CONCLUIDO_PRELIMINAR_NAO_CONVERGIDO",
+  "instante": "2026-11-09T04:52:32.021160-03:00",
+  "termino_solver_local": "2026-11-09T04:29:12-03:00",
+  "frequencia_GHz": 5.17,
+  "passes": 4,
+  "max_passes": 4,
+  "nucleos_finais": 14,
+  "primeiros_dois_passes_nucleos": 4,
+  "sweeps": 0,
+  "delta_s": 0.6176809963052374,
+  "convergiu": false,
+  "qualidade_numerica_aprovada": false,
+  "ganho_frontal_total_realizado_dBi": 23.063118795073,
+  "abertura_H_graus": 32.723210046449495,
+  "abertura_V_graus": 3.49607342414405,
+  "meta_21dBi_observada": true,
+  "meta_21dBi_validada": false,
+  "nota": "Entrega preliminar solicitada no limite de quatro passes. Extracao e auditoria concluidas sem novo solve; reciprocidade e eficiencia reprovadas permanecem explicitas."
 }

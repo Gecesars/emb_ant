@@ -1,6 +1,36 @@
 # P2M21 R04 — ganho e diagrama somente em 5,17 GHz
 
-Pedido mais recente de 9/11/2026: otimizar o setup, retirar o refinamento imposto antes do solve, manter apenas os programas essenciais e não executar varredura de frequência. Esta instrução substitui a fila de 17 pontos. **Atualização de 9/11 às 04:18:** perfil de 14 núcleos efetivamente usado pelo solver. O limite de quatro passes totais foi aplicado via API e conferido no nativo, preservando os três passes concluídos. O setup não foi recriado: a comparação do `AnalysisSetup` confirmou mudança somente em `MaximumPasses`. A etapa final retoma no quarto passe e entrega o ΔS e os diagramas mesmo sem convergência; nenhum sweep está autorizado.
+**Concluído em 9/11 às 04:29, no quarto passe. Resultado preliminar, sem convergência nem aprovação numérica.** A execução parou no limite solicitado; não houve sweep nem passes adicionais. Os passes 3 e 4 usaram 14 núcleos, confirmados no processo do solver; os dois iniciais usaram quatro núcleos e foram preservados.
+
+## Resultado em 5,17 GHz
+
+| Grandeza | Valor calculado | Interpretação |
+|---|---:|---|
+| Ganho frontal realizado total | 23,0631 dBi | 2,0631 dB acima de 21 dBi numericamente; **não validado** |
+| Abertura horizontal a −3 dB | 32,7232° | Corte φ = 90° |
+| Abertura vertical a −3 dB | 3,4961° | Corte φ = 0° |
+| ΔS final | 0,617680996 | Acima da referência 0,04; **não convergiu** |
+| Passes / teto | 4 / 4 | Limite respeitado |
+| Tetraedros finais | 315.408 | Classic; zero reparos Major ou Minor |
+
+As 64 portas receberam 0,015625 W a 0°, totalizando 1 W incidente. Não há divisor ou cabo nesta excitação direta. O número não é ganho MIMO por entrada e não demonstra comportamento em toda a banda. A grade angular é de 0,25° e os cruzamentos de −3 dB foram interpolados; o pico H ficou em −0,25° e o pico V em 0°.
+
+![Diagramas preliminares em 5,17 GHz](diagramas_5170MHz.png)
+
+| Passe | Tetraedros | ΔS | Ganho frontal (dBi) | Núcleos |
+|---:|---:|---:|---:|---:|
+| 1 | 188.299 | — | 17,0269 | 4 |
+| 2 | 223.568 | 1,050241 | 20,4620 | 4 |
+| 3 | 265.565 | 0,643468 | 21,9971 | 14 |
+| 4 | 315.408 | 0,617681 | 23,0631 | 14 |
+
+O ganho mudou **1,0661 dB** entre os dois últimos passes; a maior mudança nas nove direções monitoradas foi **1,3026 dB**. Portanto, o ganho ainda não estabilizou. ΔS é mudança da matriz S entre passes, não porcentagem de erro físico do ganho.
+
+A auditoria preservou os limites e registrou duas falhas: erro máximo de reciprocidade `|Sij−Sji| = 1,11016×10⁻⁴`, acima do limite adotado de `10⁻⁶`; e eficiência de radiação calculada de **100,3485%**, não física. Esta corresponde a uma perda interna calculada de −3,089 mW; os dados não foram truncados para ocultar a inconsistência. A matriz passou no teste de passividade (maior valor singular 0,661124). A potência aceita foi 0,886321 W e a normalização entre ganho realizado e ganho concordou com S64 com erro de 3,77×10⁻¹⁵ W. Essas verificações parciais não anulam as reprovações nem a falta de convergência.
+
+A primeira auditoria parou no limite de reciprocidade. O pós-processamento foi ajustado para registrar essa reprovação e a eficiência não física, mantendo `aprovado=false`, e disponibilizar os valores preliminares solicitados. **Nenhum novo solve foi realizado para esta entrega.**
+
+[Dados completos em CSV](resultados_centro.csv) · [Auditoria](resultados/auditoria_centro.json) · [Convergência nativa](resultados/convergencia_centro.txt) · [S64](resultados/centro.s64p) · [Corte H](resultados/Uniforme_H.csv) · [Corte V](resultados/Uniforme_V.csv)
 
 | Configuração verificada no arquivo nativo | Valor |
 |---|---|
@@ -27,7 +57,7 @@ O R02, com refinamentos locais, foi interrompido por nova instrução do usuári
 
 A correção dirigida R04 seleciona Classic, mantendo a resolução global padrão e os controles locais desligados. O HFSS oferece Classic e TAU como geradores alternativos de malha inicial; a escolha pode alterar o consumo e a convergência conforme a geometria. [Documentação Ansys 2024 R2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/HFSS/Content/HFSS/MeshingMethod.htm).
 
-Desligar o refinamento lambda segue a instrução do usuário e exige cuidado ao interpretar uma convergência precoce. A documentação recomenda esse refinamento para ajudar a representar os campos em estruturas eletricamente grandes. A auditoria continuará verificando reparos, potência e evolução dos campos antes de aceitar um resultado. [Refinamento lambda no HFSS](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v252/en/Subsystems/Circuit/Content/HFSS/SettingLambdaRefinement.htm).
+Desligar o refinamento lambda segue a instrução do usuário e exige cuidado ao interpretar uma convergência precoce. A documentação recomenda esse refinamento para ajudar a representar os campos em estruturas eletricamente grandes. A auditoria verificou reparos, potência e evolução dos campos; os resultados e as reprovações estão apresentados acima. [Refinamento lambda no HFSS](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v252/en/Subsystems/Circuit/Content/HFSS/SettingLambdaRefinement.htm).
 
 ## Execução e entrega
 
@@ -35,7 +65,7 @@ O [arquivo HFSS](hfss/P2M21_Ganho_Diagrama.aedt) foi atualizado para máximo qua
 
 Trabalho local: `D:/dev/EMBRAER/P2M21/R04_Centro_Classic`. A [fila](../automacao/centro_automatico_pipeline.ps1) resolve exclusivamente o centro, exporta dois cortes complexos H/V e a S64 de um ponto, audita a convergência, reparos e normalização, e gera o gráfico. A S64 é usada para verificar potência e consistência; não há sweep de VSWR ou qualificação da faixa nesta etapa. Os scripts bloqueiam a execução de banda quando `apenas_centro=true`.
 
-No pós-processamento serão apresentados ganho frontal realizado total, aberturas H/V a −3 dB, apontamento e evolução dos nove campos. Convergência exige os dois últimos passes realmente dentro de ΔS 0,04 e ausência de reparos Major. Mesmo sem convergência, entregar o estudo como preliminar, com ganho, H/V e ΔS final, respeitando quatro passes. Falhas de malha/potência continuam sendo reportadas; não reiniciar ciclos automaticamente.
+No pós-processamento foram apresentados ganho frontal realizado total, aberturas H/V a −3 dB, apontamento e evolução dos nove campos. Convergência exige os dois últimos passes realmente dentro de ΔS 0,04; a ausência de reparos Major é uma verificação separada da malha. Mesmo sem convergência, entregar o estudo como preliminar, com ganho, H/V e ΔS final, respeitando quatro passes. Falhas de malha/potência continuam sendo reportadas; não reiniciar ciclos automaticamente.
 
 Chrome, JLCONE e utilitários de áudio/configuração foram encerrados. HWMonitor e Gerenciador de Tarefas recusaram encerramento por privilégio do Windows; não se elevou acesso para forçá-los. O terminal de outro trabalho, Codex, acesso remoto e serviços/drivers foram preservados. Nenhum documento de outro trabalho foi descartado.
 

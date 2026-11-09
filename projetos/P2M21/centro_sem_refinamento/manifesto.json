@@ -1,5 +1,5 @@
 {
-  "tipo": "Setup quatro passes/14nucleos confirmado; quarto passe em execucao",
+  "tipo": "Entrega preliminar real apos quatro passes; sem convergencia ou aprovacao numerica",
   "arquivos": [
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/configuracao.json",
@@ -7,9 +7,19 @@
       "sha256": "28e696c894f7eca18ad98753c6954a10e80f2c1e2aa1915f0ecf72dea0e6806f"
     },
     {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/diagramas_5170MHz.png",
+      "bytes": 120488,
+      "sha256": "6d6ab704ddf2c8ec8c5585326b9fd878bdb14f4ceef77402c559f6a538cc82d5"
+    },
+    {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/cancelamento_anterior.json",
       "bytes": 454,
       "sha256": "fad97ff059faeb265cf16258de16541b25ee237a19bc496d68466d398aa9c853"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/centro_4passes_aedt.log",
+      "bytes": 989,
+      "sha256": "394008ae1ec18b25c17c7eb4b0b1d9f07212d29d0c4257071f5d9afecb4c6692"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/historico_tres_passes.json",
@@ -47,6 +57,11 @@
       "sha256": "ce0d42ce1b92c247d62b0d3673e8e2607fe07e084f03d7dcbe3033aed25c7b17"
     },
     {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/pipeline.log",
+      "bytes": 2725,
+      "sha256": "aea1f18a6c74aa39570186488b80452605dec4cbf04a12b4abafb26b0ef71425"
+    },
+    {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/preparacao.json",
       "bytes": 1482,
       "sha256": "944310508b504f06e9bc4cef5602716673cdd47d0e61a38d571cc5cc2f665098"
@@ -55,6 +70,11 @@
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/preparacao_aedt.log",
       "bytes": 454,
       "sha256": "57773fb749df52af14ddcf14437198597720c5db9f564d310b797b8fd31076ea"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/qualificacao_antes_extracao.json",
+      "bytes": 317,
+      "sha256": "2c0168b082fdb84e9ea062f1a2275b3308f8904f1310f3fe3b2517341aa22c66"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/R03_centro_aedt.log",
@@ -82,6 +102,11 @@
       "sha256": "bd18982b81590bc6facdd1d40a54bdd9cb5f2c9b57464c6e74e042a8ec00574a"
     },
     {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/revisao_final.json",
+      "bytes": 460,
+      "sha256": "9cb5d176c082f3f01c729793481e56065b07beb8c0841c08635225f0e76a5e8d"
+    },
+    {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/verificacao_preparacao.json",
       "bytes": 480,
       "sha256": "bd46bbc811b1da812608a4bdc6fade0fd0ea2b0bb6c30e9019565a1f466f46b6"
@@ -89,7 +114,7 @@
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/hfss/P2M21_Ganho_Diagrama.aedt",
       "bytes": 19828747,
-      "sha256": "ef3734ae3835b1f54f487efef40d666fdc07d1fb6ecce4109925e7f640a0e9ab"
+      "sha256": "2299bb649f2b42c3dbf2a55c672bf7cdbd9b959c21803ce36c51ddabcf15544c"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/HFSS_14nucleos.acf",
@@ -98,8 +123,58 @@
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/qualificacao.json",
+      "bytes": 791,
+      "sha256": "7ae6108c48a0772e46388619feb040ca18c409eec8c68a152dd4cf859831685a"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/auditoria_centro.json",
+      "bytes": 3343,
+      "sha256": "7cd9f24ebe37a16ea62501c347557b149ff71d8c99cec10587cf3e16e6b89007"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/centro.s64p",
+      "bytes": 208207,
+      "sha256": "4656fc61d761a04df0b29f15a679fae6578680d8cf29c517f374c17631813ef5"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/convergencia_centro.txt",
       "bytes": 527,
-      "sha256": "406fedaaf41b1b175a744304fe6edff9997f68772a7cc0765f95f2fc3a9eeff0"
+      "sha256": "bd8bd83d6f0938d8febe5d88daa11099bf29eef39d188e6fa664702a72f65e58"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/evolucao_passes.csv",
+      "bytes": 305,
+      "sha256": "0c99a75c19135b50547a420488feb6e9d5a30d005ff8ded3178176dd2cfb0c70"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/historico_centro.json",
+      "bytes": 2339,
+      "sha256": "884c3d6cad4ef06d288cb5b542dd49d639b4979bab199ae0a446a7897bec10f9"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/malha_centro.json",
+      "bytes": 29946,
+      "sha256": "61e8a2e0e2b60b647cd7f44e8dcb1e145ebfe2f5554b8ca01712e9faaa0c75a1"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/mensagens_centro.json",
+      "bytes": 363,
+      "sha256": "fa28306978c9d7ca1b1b1a7a52c0cff3d6beffefe1b4c3309979b4ccbdf89bfb"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/Uniforme_H.csv",
+      "bytes": 196182,
+      "sha256": "f3361a3fd08ef535326b6fe845ab9dcf62787a3930c6ad0ea976173e751f56db"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados/Uniforme_V.csv",
+      "bytes": 197344,
+      "sha256": "00d1e8725630e87b0355d5dd5a1c7423a056ecbbe04f59d363234550401a7cbe"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/resultados_centro.csv",
+      "bytes": 771,
+      "sha256": "e5e55bcf511216b961df964062cfd4eec56f68a93f8e902eb7c6134c675149ee"
     }
   ]
 }

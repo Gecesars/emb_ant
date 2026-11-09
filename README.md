@@ -2,7 +2,7 @@
 
 **P1H semipronta — campanha R07 suspensa a pedido do usuário em 8/11.** A R06 permanece qualificada somente em 5,17 GHz. O centro R07 foi conferido; a varredura de 17 frequências foi interrompida voluntariamente para iniciar o novo projeto. Não há aprovação de banda R07. [Registro do congelamento](resultados/r07/estado_semipronta.json).
 
-**Etapa atual P2M21:** ganho total e diagramas somente em 5,17 GHz, 64 portas iguais/em fase, sem sweep ou refinamentos locais impostos; 14 núcleos e máximo quatro passes, mostrando o ΔS obtido mesmo sem convergência. [Configuração R04](projetos/P2M21/centro_sem_refinamento/README.md).
+**Etapa central P2M21 concluída:** 5,17 GHz, quatro passes, 14 núcleos nos passes finais; ganho total 23,06 dBi, H 32,72° e V 3,50°. **Preliminar: ΔS 0,617681, sem convergência e com reprovações numéricas.** Sem sweep. [Configuração R04](projetos/P2M21/centro_sem_refinamento/README.md).
 
 **Novo projeto P2M21:** duas colunas, 16 níveis e duas entradas MIMO independentes, com meta de **21 dBi por entrada em 5,09–5,25 GHz**, a outra entrada casada em 50 Ω. [Concepção, placas KiCad, montagem FreeCAD e HFSS separado](projetos/P2M21/README.md).
 

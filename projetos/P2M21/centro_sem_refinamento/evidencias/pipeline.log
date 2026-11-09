@@ -1,0 +1,25 @@
+﻿{"geometria_preservada": true, "blocos_geometria": 782, "max_passes": 6, "delta_s": 0.04, "basis_order": -1, "lambda_refine": false, "mesher": "AnsoftClassic", "operacoes_locais": 0, "sweeps": 0, "frequencia_GHz": 5.17, "potencia_incidente_total_W": 1, "portas": 64, "native_sha256": "a5da69676c85ecf1ffe334f60a1ec06dd8fd144c56cb2f7a4feab9bef7037f04", "fonte_sha256": "782590cd626dac258372f9be1622cf92a7642dffef08ff8fe75204a14df94253"}
+{"geometria_preservada": true, "blocos_geometria": 782, "max_passes": 6, "delta_s": 0.04, "basis_order": -1, "lambda_refine": false, "mesher": "AnsoftClassic", "operacoes_locais": 0, "sweeps": 0, "frequencia_GHz": 5.17, "potencia_incidente_total_W": 1, "portas": 64, "native_sha256": "d1bd9e762f2c223276e87a74aaa02e8b7ecd63a81820432abed0f77478301219", "fonte_sha256": "782590cd626dac258372f9be1622cf92a7642dffef08ff8fe75204a14df94253"}
+{"geometria_preservada": true, "blocos_geometria": 782, "max_passes": 4, "delta_s": 0.04, "basis_order": -1, "lambda_refine": false, "mesher": "AnsoftClassic", "operacoes_locais": 0, "sweeps": 0, "frequencia_GHz": 5.17, "potencia_incidente_total_W": 1, "portas": 64, "native_sha256": "adc953dfa9f82adb3477c4cb961393ee5f18230b9fe9d82487b04be1ad6e1b6f", "fonte_sha256": "782590cd626dac258372f9be1622cf92a7642dffef08ff8fe75204a14df94253"}
+python.exe : Traceback (most recent call last):
+No D:\dev\EMBRAER\emb_ant\projetos\P2M21\automacao\centro_automatico_pipeline.ps1:14 caractere:5
++     & $taskPython (Join-Path $PSScriptRoot 'centro_automatico_verific ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "D:\dev\EMBRAER\emb_ant\projetos\P2M21\automacao\centro_automatico_verificar.py", line 55, in <module>
+    try:common.check('centro')
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dev\EMBRAER\emb_ant\projetos\P2M21\automacao\uniforme_verificar.py", line 119, in check
+    assert singular<=1.0001 and reciprocity<1e-6,(singular,reciprocity)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (0.6611241814606955, 0.00011101568140221256)
+Auditoria falhou em centro; ver pipeline.log
+No D:\dev\EMBRAER\emb_ant\projetos\P2M21\automacao\centro_automatico_pipeline.ps1:16 caractere:26
++ ... askCode -ne 0) {throw "Auditoria falhou em $phase; ver pipeline.log"}
++                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Auditoria falho...er pipeline.log:String) [], RuntimeException
+    + FullyQualifiedErrorId : Auditoria falhou em centro; ver pipeline.log
+ 
+

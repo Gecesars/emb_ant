@@ -98,6 +98,12 @@ def check_preparation():
     write(folder/'verificacao_preparacao.json',evidence);print(json.dumps(evidence))
 def check(stage):
     cfg=read(root/'configuracao.json');assert sha(Path(cfg['fonte']))==cfg['fonte_sha256']
+    preliminary=bool(cfg.get('relatar_sem_convergencia',False))
+    quality_issues=[]
+    def quality(condition,name,details):
+        if not condition:
+            quality_issues.append(dict(verificacao=name,detalhes=details))
+            if not preliminary:raise AssertionError((name,details))
     if cfg.get('apenas_centro'):assert stage=='centro','Sweep nao autorizado nesta etapa.'
     conv=conv_info(folder/('convergencia_'+stage+'.txt'))
     assert conv['max_passes']==cfg['max_passes'],'Relatorio de convergencia nao corresponde ao teto atual.'
@@ -106,6 +112,10 @@ def check(stage):
       conv['consecutivos']>=2 and conv['alvo']==.04 and conv['delta_s']<=.04)
     monitor=progress();write(folder/('historico_'+stage+'.json'),monitor)
     recent=monitor.get('historico',[])[-2:]
+    if recent and recent[-1]['passe']==conv['passes']:
+        exact=recent[-1]['delta_s']
+        assert exact is not None and abs(exact-conv['delta_s'])<1e-5
+        conv['delta_s_relatorio_arredondado']=conv['delta_s'];conv['delta_s']=exact
     converged=bool(converged and len(recent)==2 and all(r['delta_s'] is not None and r['delta_s']<=.04 for r in recent))
     if stage=='banda':
         previous=read(folder/'auditoria_centro.json')
@@ -116,7 +126,9 @@ def check(stage):
     assert nw.nports==64 and np.allclose(nw.z0,50)
     singular=float(np.linalg.svd(nw.s,compute_uv=False).max())
     reciprocity=float(np.abs(nw.s-nw.s.transpose(0,2,1)).max())
-    assert singular<=1.0001 and reciprocity<1e-6,(singular,reciprocity)
+    passive=singular<=1.0001;reciprocal=reciprocity<1e-6
+    quality(passive,'passividade',dict(max_valor_singular=singular,limite=1.0001))
+    quality(reciprocal,'reciprocidade',dict(max_abs_Sij_menos_Sji=reciprocity,limite=1e-6))
     records=[];a=np.ones(64,dtype=complex)/8;hashes={}
     for f,s in zip(nw.f,nw.s):
         mhz=int(round(f/1e6));row=dict(frequencia_GHz=float(f/1e9),potencia_incidente_W=1.)
@@ -134,9 +146,13 @@ def check(stage):
             center=int(np.argmin(abs(angles)));centers.append(gains[center])
             gain=float(data[center]['dB(GainTotal) []']);directivity=float(data[center]['dB(DirTotal) []'])
             frac=10**((gains[center]-gain)/10)
-            assert abs(frac-accepted)<1e-5,(frac,accepted)
-            eta=10**((gain-directivity)/10);assert 0<eta<=1.0001
-            theta,field=read_pattern(path) # Confere potencia dos campos complexos contra o ganho nativo.
+            norm_error=abs(frac-accepted)
+            quality(norm_error<1e-5,'normalizacao_'+axis,dict(erro_W=norm_error,limite_W=1e-5))
+            eta=10**((gain-directivity)/10)
+            quality(0<eta<=1.0001,'eficiencia_'+axis,dict(eficiencia_radiacao=eta,limite=1.0001))
+            try:theta,field=read_pattern(path)
+            except AssertionError as error:
+                quality(False,'recomposicao_campo_'+axis,dict(erro=str(error)))
             width,left,right=beam(angles,gains);front=np.abs(angles)<=90
             peak=np.flatnonzero(front)[np.argmax(gains[front])]
             row['abertura_'+axis+'_graus']=float(width)
@@ -145,15 +161,18 @@ def check(stage):
             if axis=='H':
                 row.update(ganho_frontal_total_realizado_dBi=float(gains[center]),ganho_frontal_total_dBi=gain,
                   diretividade_frontal_total_dBi=directivity,eficiencia_radiacao=eta,
+                  erro_normalizacao_potencia_W=norm_error,
                   potencia_radiada_W=float(accepted*eta),perda_interna_W=float(accepted*(1-eta)))
         assert abs(centers[0]-centers[1])<1e-8
         records.append(row)
-    result=dict(aprovado=bool(converged and mesh['reparos_major']==0),convergencia=conv,
+    result=dict(aprovado=bool(converged and mesh['reparos_major']==0 and not quality_issues),convergencia=conv,
+      falhas_qualidade=quality_issues,qualidade_numerica_aprovada=not quality_issues,
       convergencia_aprovada=bool(converged),resultado_nao_convergido_permitido=bool(cfg.get('relatar_sem_convergencia',False)),
       max_passes_solicitado=cfg['max_passes'],nucleos_solicitados=cfg.get('nucleos'),
       malha_major=mesh['reparos_major'],malha_minor=mesh['reparos_minor'],max_valor_singular=singular,
-      erro_reciprocidade=reciprocity,passivo=True,reciproco=True,normalizacao_incidente_W=1,
+      erro_reciprocidade=reciprocity,passivo=passive,reciproco=reciprocal,normalizacao_incidente_W=1,
       max_erro_balanco_W=max(abs(r['potencia_refletida_W']+r['potencia_radiada_W']+r['perda_interna_W']-1) for r in records),
+      nota_balanco='Saldo algebrico obtido de S, ganho e diretividade; nao e integracao independente. Eficiencia acima de1 ou perda negativa reprova qualidade e nao e corrigida por truncamento.',
       pontos=records,n_pontos=len(records),matriz_sha256=sha(folder/(stage+'.s64p')),campos_sha256=hashes,
       ganho_min_dBi=min(r['ganho_frontal_total_realizado_dBi'] for r in records),
       ganho_max_dBi=max(r['ganho_frontal_total_realizado_dBi'] for r in records),
