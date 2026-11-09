@@ -13,5 +13,5 @@ for axis in ['Horizontal','Vertical']:
     assert hashlib.sha256(blob).hexdigest()==review['sha256'][name]
     parts.append(dict(mime_type='image/png',filename=name,content_disposition='attachment',body=dict(base64_url_content=base64.urlsafe_b64encode(blob).decode('ascii').rstrip('='))))
 payload=dict(to='gecesars@gmail.com',subject='P2M21 — 6 passes — diagramas polares E/Emax em 5,17 GHz',payload=dict(mime_type='multipart/mixed',parts=parts),response_fields=['id','thread_id','label_ids','size_estimate'])
-path=root/'email_payload_6passes.json';path.write_text(json.dumps(payload,ensure_ascii=False),encoding='utf-8')
+path=root/'email_payload_6passes.json';path.write_text(json.dumps(payload,ensure_ascii=True),encoding='utf-8')
 print(json.dumps(dict(payload=str(path),bytes=path.stat().st_size,anexos=[p['filename'] for p in parts[1:]],enviado=False)))

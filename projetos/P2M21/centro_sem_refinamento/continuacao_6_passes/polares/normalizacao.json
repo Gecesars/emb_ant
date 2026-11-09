@@ -1,0 +1,29 @@
+{
+  "frequencia_GHz": 5.17,
+  "passes": 6,
+  "delta_s": 0.11042357580384611,
+  "aprovado": false,
+  "normalizacao": "sqrt(|Etheta|^2+|Ephi|^2), dividido pelo maximo de cada corte completo; amplitude linear, nao potencia.",
+  "potencia_incidente_total_W": 1,
+  "portas": 64,
+  "fase_graus": 0,
+  "amplitude_igual": true,
+  "curvas": {
+    "H": {
+      "abertura_graus": 32.54292212694659,
+      "phi_graus": 90,
+      "amostras": 1441,
+      "max_erro_equivalencia_amplitude": 6.328271240363392e-15,
+      "csv_fonte_sha256": "fb034a5516b29c0ec411d604945d10d59a6715ac9af29c834e07f7eed785caaa",
+      "png": "D:\\dev\\EMBRAER\\P2M21\\R04_Centro_Classic\\polares\\P2M21_Horizontal_polar_E_Emax.png"
+    },
+    "V": {
+      "abertura_graus": 3.4842678283566535,
+      "phi_graus": 0,
+      "amostras": 1441,
+      "max_erro_equivalencia_amplitude": 5.329070518200751e-15,
+      "csv_fonte_sha256": "17b9f297a5468688235fb1ff294b2a0cd70bd1c2134596306be883598c81166a",
+      "png": "D:\\dev\\EMBRAER\\P2M21\\R04_Centro_Classic\\polares\\P2M21_Vertical_polar_E_Emax.png"
+    }
+  }
+}

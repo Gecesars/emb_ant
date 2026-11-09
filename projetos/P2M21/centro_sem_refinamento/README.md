@@ -1,5 +1,8 @@
 # P2M21 R04 — ganho e diagrama somente em 5,17 GHz
 
+**Continuação posterior:** os dois passes adicionais solicitados em 9/11 estão em [seis passes, comparação e polares E/Emax](continuacao_6_passes/README.md). Os dados abaixo preservam a entrega histórica de quatro passes.
+
+
 **Concluído em 9/11 às 04:29, no quarto passe. Resultado preliminar, sem convergência nem aprovação numérica.** A execução parou no limite solicitado; não houve sweep nem passes adicionais. Os passes 3 e 4 usaram 14 núcleos, confirmados no processo do solver; os dois iniciais usaram quatro núcleos e foram preservados.
 
 ## Resultado em 5,17 GHz

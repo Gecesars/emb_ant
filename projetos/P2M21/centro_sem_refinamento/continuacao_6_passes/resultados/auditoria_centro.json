@@ -1,0 +1,90 @@
+{
+  "aprovado": false,
+  "convergencia": {
+    "passes": 6,
+    "max_passes": 6,
+    "minimo": 6,
+    "alvo": 0.04,
+    "delta_s": 0.11042357580384611,
+    "consecutivos": 0,
+    "convergiu": false,
+    "sha256": "230c9a606d3980cd4599f8a470933ad019f4b10e41667268de58d942ae060beb",
+    "delta_s_relatorio_arredondado": 0.11042
+  },
+  "falhas_qualidade": [
+    {
+      "verificacao": "reciprocidade",
+      "detalhes": {
+        "max_abs_Sij_menos_Sji": 8.859948900518336e-05,
+        "limite": 1e-06
+      }
+    },
+    {
+      "verificacao": "eficiencia_H",
+      "detalhes": {
+        "eficiencia_radiacao": 1.0042495316952746,
+        "limite": 1.0001
+      }
+    },
+    {
+      "verificacao": "eficiencia_V",
+      "detalhes": {
+        "eficiencia_radiacao": 1.0042495316952746,
+        "limite": 1.0001
+      }
+    }
+  ],
+  "qualidade_numerica_aprovada": false,
+  "convergencia_aprovada": false,
+  "resultado_nao_convergido_permitido": true,
+  "max_passes_solicitado": 6,
+  "nucleos_solicitados": 14,
+  "malha_major": 0,
+  "malha_minor": 0,
+  "max_valor_singular": 0.4239302166425793,
+  "erro_reciprocidade": 8.859948900518336e-05,
+  "passivo": true,
+  "reciproco": false,
+  "normalizacao_incidente_W": 1,
+  "max_erro_balanco_W": 0.0,
+  "nota_balanco": "Saldo algebrico obtido de S, ganho e diretividade; nao e integracao independente. Eficiencia acima de1 ou perda negativa reprova qualidade e nao e corrigida por truncamento.",
+  "pontos": [
+    {
+      "frequencia_GHz": 5.17,
+      "potencia_incidente_W": 1.0,
+      "potencia_refletida_W": 0.08711084241234447,
+      "potencia_aceita_W": 0.9128891575876555,
+      "abertura_H_graus": 32.54292212694659,
+      "limite_H_esquerdo_graus": -16.297604092539537,
+      "limite_H_direito_graus": 16.24531803440706,
+      "pico_H_graus": 0.0,
+      "ganho_pico_H_dBi": 23.3226687618986,
+      "ganho_frontal_total_realizado_dBi": 23.3226687618986,
+      "ganho_frontal_total_dBi": 23.718488272102,
+      "diretividade_frontal_total_dBi": 23.7000718932798,
+      "eficiencia_radiacao": 1.0042495316952746,
+      "erro_normalizacao_potencia_W": 9.2148511043888e-15,
+      "potencia_radiada_W": 0.9167685089970968,
+      "perda_interna_W": -0.0038793514094413117,
+      "abertura_V_graus": 3.4842678283566535,
+      "limite_V_esquerdo_graus": -1.755980921518358,
+      "limite_V_direito_graus": 1.7282869068382958,
+      "pico_V_graus": 0.0,
+      "ganho_pico_V_dBi": 23.3226687618986
+    }
+  ],
+  "n_pontos": 1,
+  "matriz_sha256": "e5aec76e23b5b94719129d410deb1705d50da54497386027e489bbd701bfd5f4",
+  "campos_sha256": {
+    "antena\\centro\\5170\\Uniforme_H.csv": "fb034a5516b29c0ec411d604945d10d59a6715ac9af29c834e07f7eed785caaa",
+    "antena\\centro\\5170\\Uniforme_V.csv": "17b9f297a5468688235fb1ff294b2a0cd70bd1c2134596306be883598c81166a"
+  },
+  "ganho_min_dBi": 23.3226687618986,
+  "ganho_max_dBi": 23.3226687618986,
+  "H_min_graus": 32.54292212694659,
+  "H_max_graus": 32.54292212694659,
+  "V_min_graus": 3.4842678283566535,
+  "V_max_graus": 3.4842678283566535,
+  "meta_21dBi_todos_pontos": true,
+  "nota": "Ganho total com todas as portas A/B coerentes; nao e ganho MIMO por entrada nem inclui a rede externa. Somente solucao central em5.17GHz, sem sweep; limite de passes nao equivale a convergencia."
+}

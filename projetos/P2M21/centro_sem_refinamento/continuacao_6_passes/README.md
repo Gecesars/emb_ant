@@ -1,11 +1,32 @@
-# P2M21 — dois passes adicionais e diagramas polares
+# P2M21 — continuação de quatro para seis passes
 
-**Em cálculo: os passes adicionais 5 e 6 foram autorizados em 9/11. Ainda não há resultados novos nem email enviado.** A adaptação continua a partir da malha do quarto passe, somente em 5,17 GHz, com 14 núcleos e sem sweep. O mínimo/máximo foi fixado em seis para executar exatamente os dois passes pedidos. Os quatro anteriores e sua classificação preliminar estão preservados no diretório pai e no histórico Git.
+**PRELIMINAR / NÃO QUALIFICADO. NÃO CONVERGIU; ΔS final 0.110423576, referência 0,04.** Foram executados apenas os passes adicionais 5 e 6, preservando os quatro anteriores. 5,17 GHz, 14 núcleos nos passes 3–6, sem sweep. Nenhuma mudança de geometria, materiais, alimentação ou controles iniciais de malha; o setup mudou somente mínimo/máximo de passes para seis.
 
-A conferência do nativo confirmou alterações somente nos limites mínimo/máximo de passes. Geometria, fontes, expressões de campo e demais opções de setup ficaram idênticas. O quinto passe iniciou em 9/11 às 05:27:50 com `-solve_adapt 5 -max_processors 14`.
+| Grandeza | Quatro passes | Seis passes |
+|---|---:|---:|
+| Ganho frontal realizado total (dBi) | 23.063119 | 23.322669 |
+| Abertura horizontal −3 dB (°) | 32.723210 | 32.542922 |
+| Abertura vertical −3 dB (°) | 3.496073 | 3.484268 |
+| ΔS | 0.617680996 | 0.110423576 |
 
-Após o sexto passe serão revisados ganho, H/V, DeltaS, qualidade numérica e comparação com quatro passes. Os diagramas H/V usarão amplitude linear total `E/Emax = sqrt(|Etheta|²+|Ephi|²)/máximo do corte`, e serão conferidos contra `10^((G-Gmax)/20)`. O vertical terá detalhe frontal para leitura do feixe estreito.
+O ganho observado supera 21 dBi. O valor só constitui um resultado numericamente qualificado quando convergência e verificações forem aprovadas; a classificação acima é a deste cálculo. As 64 portas diretas recebem 0,015625 W/0°, total 1 W incidente. Não há rede externa no modelo; não se trata de ganho MIMO por entrada.
 
-O usuário autorizou envio de dois PNG finais para **gecesars@gmail.com**. Não enviar prévias ou reutilizar os gráficos do quarto passe. `email_payload_polares.py` exige seis passes reais e registro de revisão visual com hashes; somente prepara a mensagem. O envio efetivo usa o conector Gmail e deve guardar o recibo, evitando duplicatas.
+## Diagramas polares de amplitude
 
-Scripts: `continuacao_dois_preparar.py`, `continuacao_dois_pipeline.ps1`, `continuacao_dois_verificar.py`, `continuacao_dois_entregar.py`, `polares_emax.py` e `email_payload_polares.py`, em `projetos/P2M21/automacao`. Trabalho local: `D:/dev/EMBRAER/P2M21/R04_Centro_Classic`. Não executar novamente a fila existente.
+Normalização por corte completo: `E/Emax = sqrt(|Eθ|² + |Eφ|²) / máximo`. A escala é amplitude linear de 0 a 1. A curva foi conferida contra `10^((G−Gmax)/20)`. A referência de −3 dB corresponde a E/Emax = 0,707946. A frente está em 0°, a grade angular tem passo de 0,25° e o diagrama vertical inclui detalhe frontal radial de 0,55 a 1. Os dois arquivos PNG são os anexos previstos do email autorizado.
+
+![Horizontal](polares/P2M21_Horizontal_polar_E_Emax.png)
+
+![Vertical](polares/P2M21_Vertical_polar_E_Emax.png)
+
+## Auditoria
+
+Malha: 0 reparos Major e 0 Minor. Eficiência calculada: 100.424953%. Maior valor singular S: 0.423930217. Erro máximo de reciprocidade: 8.8599489e-05. As inconsistências permanecem registradas; não foram simetrizadas as matrizes nem truncadas eficiências para aprovar o resultado.
+
+- reciprocidade: `{"max_abs_Sij_menos_Sji": 8.859948900518336e-05, "limite": 1e-06}`.
+- eficiencia_H: `{"eficiencia_radiacao": 1.0042495316952746, "limite": 1.0001}`.
+- eficiencia_V: `{"eficiencia_radiacao": 1.0042495316952746, "limite": 1.0001}`.
+
+[CSV dos resultados](resultados_centro.csv) · [Comparação com quatro passes](comparacao_4_6.json) · [Auditoria](resultados/auditoria_centro.json) · [Convergência nativa](resultados/convergencia_centro.txt) · [HFSS](hfss/P2M21_Ganho_Diagrama.aedt)
+
+O nativo e os dados compactos são arquivados; a malha e os campos volumétricos permanecem locais, fora do Git. O `.aedt` sozinho não restaura a solução FEM. Envio solicitado para gecesars@gmail.com, somente depois da revisão visual e numérica dos anexos finais. O recibo do envio será registrado separadamente.

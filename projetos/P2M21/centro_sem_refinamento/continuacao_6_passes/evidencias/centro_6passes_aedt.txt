@@ -1,0 +1,12 @@
+ 
+Ansys Electronics Desktop Version 2024.2.0, Build: 2024-05-23 02:23:50
+Location: C:\Program Files\AnsysEM\v242\Win64\ansysedt.exe
+Batch Script: D:/dev/EMBRAER/emb_ant/projetos/P2M21/automacao/uniforme_resolver.py
+Starting Batch Run: 5:27:19 AM  Nov 09, 2026
+Running as user : RF01\geral
+Temp directory: C:\Users\geral\AppData\Local\Temp
+Project directory: D:\Simulations\Simulations\#IFTX
+[warning] Project:P2M21_Ganho_Diagrama, Design:PCB_separada (Hybrid Modal Network), Adaptive Passes did not converge based on specified criteria. (05:53:55 AM  Nov 09, 2026)
+[info] Project:P2M21_Ganho_Diagrama, Design:PCB_separada (Hybrid Modal Network), Normal completion of simulation on server: Local Machine. (05:53:55 AM  Nov 09, 2026)
+[info] Project:P2M21_Ganho_Diagrama, Design:PCB_separada (Hybrid Modal Network), Touchstone export: Writing to "D:/dev/EMBRAER/P2M21/R04_Centro_Classic/antena/centro.s64p" (05:53:55 AM  Nov 09, 2026)
+Stopping Batch Run: 5:54:00 AM  Nov 09, 2026

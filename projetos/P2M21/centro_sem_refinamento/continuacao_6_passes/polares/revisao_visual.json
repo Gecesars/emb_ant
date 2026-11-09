@@ -1,0 +1,15 @@
+{
+  "revisado": true,
+  "instante": "2026-11-09T05:59:40.628529-03:00",
+  "passes": 6,
+  "sha256": {
+    "P2M21_Horizontal_polar_E_Emax.png": "da1a543e085c5909a93539f07093ee8aa3cd6bd803a45bab0436af5328087ce1",
+    "P2M21_Vertical_polar_E_Emax.png": "0de62fd1296faa00b1927eb6848db5a3d6ba217dff17164a8dc24bdb490a2f96"
+  },
+  "notas": [
+    "Duas imagens finais abertas e conferidas individualmente.",
+    "Titulos, valores, legendas, escalas e rotulos preliminares legiveis, sem cortes.",
+    "Amplitude linear E/Emax; corte completo e detalhe frontal; normalizacao conferida numericamente.",
+    "Sem convergencia: DeltaS 0.1104235758; nenhuma aprovacao RF."
+  ]
+}

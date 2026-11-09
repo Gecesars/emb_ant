@@ -1,14 +1,14 @@
-﻿{
-    "min_passes":  6,
-    "max_passes":  6,
-    "nucleos":  14,
-    "frequencia_GHz":  5.17,
-    "processo_pipeline":  217000,
-    "detalhe":  {
-                    "processo_aedt":  220224,
-                    "script":  "uniforme_resolver.py"
-                },
-    "instante":  "2026-11-09T05:27:17.7894799-03:00",
-    "sweeps":  0,
-    "estado":  "CONTINUACAO_EM_EXECUCAO"
+{
+  "estado": "SEIS_PASSES_REVISADOS_PRONTOS_PARA_ENVIO",
+  "instante": "2026-11-09T05:54:35.189723-03:00",
+  "passes": 6,
+  "nucleos": 14,
+  "frequencia_GHz": 5.17,
+  "sweeps": 0,
+  "aprovado": false,
+  "convergiu": false,
+  "delta_s": 0.11042357580384611,
+  "email_destinatario": "gecesars@gmail.com",
+  "email_enviado": false,
+  "revisao_visual": true
 }
