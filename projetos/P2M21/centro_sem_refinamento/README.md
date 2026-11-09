@@ -1,6 +1,6 @@
 # P2M21 R04 — ganho e diagrama somente em 5,17 GHz
 
-Pedido mais recente de 9/11/2026: otimizar o setup, retirar o refinamento imposto antes do solve, manter apenas os programas essenciais e não executar varredura de frequência. Esta instrução substitui a fila de 17 pontos. **O centro foi iniciado em 9/11 às 03:45; ainda não há ganho ou aberturas qualificados desta revisão.**
+Pedido mais recente de 9/11/2026: otimizar o setup, retirar o refinamento imposto antes do solve, manter apenas os programas essenciais e não executar varredura de frequência. Esta instrução substitui a fila de 17 pontos. **Atualização de 9/11 às 04:18:** perfil de 14 núcleos efetivamente usado pelo solver. O limite de quatro passes totais foi aplicado via API e conferido no nativo, preservando os três passes concluídos. O setup não foi recriado: a comparação do `AnalysisSetup` confirmou mudança somente em `MaximumPasses`. A etapa final retoma no quarto passe e entrega o ΔS e os diagramas mesmo sem convergência; nenhum sweep está autorizado.
 
 | Configuração verificada no arquivo nativo | Valor |
 |---|---|
@@ -12,12 +12,12 @@ Pedido mais recente de 9/11/2026: otimizar o setup, retirar o refinamento impost
 | Refinamento lambda inicial / malha importada | Desligado / nenhuma |
 | Gerador inicial | Classic, resolução automática, slider global padrão 5, sem fallback TAU |
 | Funções de base | Ordem mista (`BasisOrder=-1`) |
-| Solver | Iterativo, residual 1e-5, quatro cores, limite de RAM 90% |
-| Adaptação durante o cálculo | Mínimo 2, máximo 6 passes; ΔS ≤0,04 em dois passes consecutivos |
+| Solver | Iterativo, residual 1e-5, 14 núcleos em uma tarefa, limite de RAM 90% |
+| Adaptação durante o cálculo | Mínimo 2, máximo 4 passes no total; ΔS de referência 0,04, dois consecutivos para declarar convergência |
 | Crescimento adaptativo configurado | 20%; não é refinamento imposto antes do solve |
 | Campo salvo | Apenas campos radiados para ganho e cortes H/V |
 
-A geração da malha inicial indispensável ao FEM permanece automática. Não há etapa separada de refinamento local ou por comprimento de onda antes da solução. Nove direções de ganho são registradas por passe somente para monitoramento, sem impor um critério adicional. O ΔS é a mudança da matriz entre passes, não uma garantia de erro de 4% no ganho. O limite de seis passes não será ampliado automaticamente.
+A geração da malha inicial indispensável ao FEM permanece automática. Não há etapa separada de refinamento local ou por comprimento de onda antes da solução. Nove direções de ganho são registradas por passe somente para monitoramento, sem impor um critério adicional. O ΔS é a mudança da matriz entre passes, não uma garantia de erro de 4% no ganho. O limite mais recente é de quatro passes no total. Os valores serão apresentados mesmo sem atingir o ΔS de referência; o estado de convergência e o ΔS final serão explícitos. Não há autorização para ultrapassar quatro passes.
 
 ## Modelo preservado e tentativas anteriores
 
@@ -31,12 +31,14 @@ Desligar o refinamento lambda segue a instrução do usuário e exige cuidado ao
 
 ## Execução e entrega
 
-O arquivo [HFSS preparado](hfss/P2M21_Ganho_Diagrama.aedt) é uma cópia fechada e conferida **anterior ao solve**, sem resultados ou malha. [Configuração](configuracao.json), [auditoria do setup](evidencias/verificacao_preparacao.json) e [estado registrado](qualificacao.json) acompanham o nativo.
+O [arquivo HFSS](hfss/P2M21_Ganho_Diagrama.aedt) foi atualizado para máximo quatro passes e conferido após a transição. Seus resultados e sua malha permanecem apenas no trabalho local R04; o nativo no Git sozinho não restaura a solução de campos. A revisão inicial de seis passes continua no histórico Git. [Configuração](configuracao.json), [auditoria do setup](evidencias/verificacao_preparacao.json) e [estado registrado](qualificacao.json) acompanham o nativo.
 
 Trabalho local: `D:/dev/EMBRAER/P2M21/R04_Centro_Classic`. A [fila](../automacao/centro_automatico_pipeline.ps1) resolve exclusivamente o centro, exporta dois cortes complexos H/V e a S64 de um ponto, audita a convergência, reparos e normalização, e gera o gráfico. A S64 é usada para verificar potência e consistência; não há sweep de VSWR ou qualificação da faixa nesta etapa. Os scripts bloqueiam a execução de banda quando `apenas_centro=true`.
 
-No pós-processamento serão apresentados ganho frontal realizado total, aberturas H/V a −3 dB, apontamento e evolução dos nove campos. Convergência exige os dois últimos passes realmente dentro de ΔS 0,04 e ausência de reparos Major. Se houver falha, conservar evidências e diagnosticar; não reiniciar ciclos indefinidamente nem relaxar os limites.
+No pós-processamento serão apresentados ganho frontal realizado total, aberturas H/V a −3 dB, apontamento e evolução dos nove campos. Convergência exige os dois últimos passes realmente dentro de ΔS 0,04 e ausência de reparos Major. Mesmo sem convergência, entregar o estudo como preliminar, com ganho, H/V e ΔS final, respeitando quatro passes. Falhas de malha/potência continuam sendo reportadas; não reiniciar ciclos automaticamente.
 
 Chrome, JLCONE e utilitários de áudio/configuração foram encerrados. HWMonitor e Gerenciador de Tarefas recusaram encerramento por privilégio do Windows; não se elevou acesso para forçá-los. O terminal de outro trabalho, Codex, acesso remoto e serviços/drivers foram preservados. Nenhum documento de outro trabalho foi descartado.
 
 Malhas, `.aedtresults`, `g3derr`, campos volumétricos e locks não são incluídos no Git. Nenhum email de checkpoint é enviado.
+
+O [perfil HPC](HFSS_14nucleos.acf) usa 14 núcleos, uma tarefa e nenhuma GPU. O comando do solver no terceiro passe confirmou `-max_processors 14`. O licenciamento Auto foi preservado. A troca de recursos preservou os dois primeiros passes; o ajuste do teto preservou os três primeiros.

@@ -23,3 +23,4 @@ projetos/P2M21/**/*.kicad_pcb -text whitespace=cr-at-eol
 projetos/P2M21/**/*.kicad_pro -text whitespace=cr-at-eol
 # Compact HFSS mesher diagnostic logs, retained byte-for-byte.
 projetos/P2M21/centro_sem_refinamento/evidencias/*.log -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2M21/**/*.acf -text whitespace=cr-at-eol

@@ -29,11 +29,13 @@ def conv_info(path):
 def progress():
     cfg=read(root/'configuracao.json');native=(folder/cfg['native']).read_text(errors='replace')
     results=(folder/cfg['native']).with_suffix('.aedtresults')
+    setup=native.split("$begin 'AnalysisSetup'",1)[1].split("$end 'AnalysisSetup'",1)[0]
+    actual_max=int(re.search(r'MaximumPasses=(\d+)',setup)[1])
     candidates=[]
     for p in results.rglob('*.EMConvData'):
         text=p.read_text()
         target=re.search(r"ConvTarget='([^']+)'",text)
-        if target and abs(float(target[1])-.04)<1e-12 and "MaxPasses='6'" in text:candidates.append((p,text))
+        if target and abs(float(target[1])-.04)<1e-12 and ("MaxPasses='%d'"%actual_max) in text:candidates.append((p,text))
     if not candidates:return dict(estado='sem_historico_adaptativo_ainda')
     assert len(candidates)==1,[str(p) for p,t in candidates]
     p,text=candidates[0];history={};traces={};fields={}
@@ -98,8 +100,9 @@ def check(stage):
     cfg=read(root/'configuracao.json');assert sha(Path(cfg['fonte']))==cfg['fonte_sha256']
     if cfg.get('apenas_centro'):assert stage=='centro','Sweep nao autorizado nesta etapa.'
     conv=conv_info(folder/('convergencia_'+stage+'.txt'))
+    assert conv['max_passes']==cfg['max_passes'],'Relatorio de convergencia nao corresponde ao teto atual.'
     mesh=mesh_audit(folder);write(folder/('malha_'+stage+'.json'),mesh)
-    converged=(conv['convergiu'] and 2<=conv['passes']<=6 and conv['max_passes']==6 and
+    converged=(conv['convergiu'] and 2<=conv['passes']<=cfg['max_passes'] and conv['max_passes']==cfg['max_passes'] and
       conv['consecutivos']>=2 and conv['alvo']==.04 and conv['delta_s']<=.04)
     monitor=progress();write(folder/('historico_'+stage+'.json'),monitor)
     recent=monitor.get('historico',[])[-2:]
@@ -146,6 +149,8 @@ def check(stage):
         assert abs(centers[0]-centers[1])<1e-8
         records.append(row)
     result=dict(aprovado=bool(converged and mesh['reparos_major']==0),convergencia=conv,
+      convergencia_aprovada=bool(converged),resultado_nao_convergido_permitido=bool(cfg.get('relatar_sem_convergencia',False)),
+      max_passes_solicitado=cfg['max_passes'],nucleos_solicitados=cfg.get('nucleos'),
       malha_major=mesh['reparos_major'],malha_minor=mesh['reparos_minor'],max_valor_singular=singular,
       erro_reciprocidade=reciprocity,passivo=True,reciproco=True,normalizacao_incidente_W=1,
       max_erro_balanco_W=max(abs(r['potencia_refletida_W']+r['potencia_radiada_W']+r['perda_interna_W']-1) for r in records),
@@ -155,12 +160,17 @@ def check(stage):
       H_min_graus=min(r['abertura_H_graus'] for r in records),H_max_graus=max(r['abertura_H_graus'] for r in records),
       V_min_graus=min(r['abertura_V_graus'] for r in records),V_max_graus=max(r['abertura_V_graus'] for r in records),
       meta_21dBi_todos_pontos=all(r['ganho_frontal_total_realizado_dBi']>=21 for r in records),
-      nota='Ganho total com todas as portas A/B coerentes; nao e ganho MIMO por entrada nem inclui a rede externa. Malha adaptada no centro; pontos discretos reais.')
+      nota=('Ganho total com todas as portas A/B coerentes; nao e ganho MIMO por entrada nem inclui a rede externa. '+
+            ('Somente solucao central em5.17GHz, sem sweep; limite de passes nao equivale a convergencia.' if cfg.get('apenas_centro') else 'Malha adaptada no centro; pontos discretos reais.')))
     write(folder/('auditoria_'+stage+'.json'),result)
     with (root/('resultados_'+stage+'.csv')).open('w',newline='',encoding='utf8') as f:
         w=csv.DictWriter(f,fieldnames=list(records[0]));w.writeheader();w.writerows(records)
     print(json.dumps({k:v for k,v in result.items() if k not in ('pontos','campos_sha256')},indent=2))
-    assert result['aprovado'],'Convergencia ou malha nao aprovada; interromper antes da banda.'
+    assert mesh['reparos_major']==0,'Malha com reparos Major; resultado nao qualificado.'
+    if not cfg.get('relatar_sem_convergencia',False):
+        assert result['aprovado'],'Convergencia nao aprovada; interromper antes da banda.'
+    else:
+        assert stage=='centro' and conv['passes']<=cfg['max_passes'],'Limite de passes ou escopo excedido.'
     if stage=='banda':plot(records)
 def plot(records):
     import matplotlib

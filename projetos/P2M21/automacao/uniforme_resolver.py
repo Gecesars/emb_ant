@@ -10,6 +10,11 @@ def log(s):
 try:
     cfg=json.load(open(os.path.join(root,'configuracao.json')))
     if cfg.get('apenas_centro'):assert stage=='centro','Sweep nao autorizado nesta etapa.'
+    if cfg.get('hpc_acf'):
+        oDesktop.SetRegistryFromFile(os.path.join(root,cfg['hpc_acf']))
+        oDesktop.SetRegistryString('Desktop/ActiveDSOConfigurations/HFSS',cfg['hpc_config_name'])
+        assert oDesktop.GetRegistryString('Desktop/ActiveDSOConfigurations/HFSS')==cfg['hpc_config_name']
+        log('HPC_CONFIGURADO_%s_NUCLEOS'%cfg['nucleos'])
     if stage=='banda':assert json.load(open(os.path.join(folder,'auditoria_centro.json')))['aprovado']
     p=oDesktop.OpenProject(os.path.join(folder,cfg['native']));d=p.SetActiveDesign('PCB_separada')
     sol=d.GetModule('Solutions');reports=d.GetModule('ReportSetup');ports=list(sol.GetAllSources())

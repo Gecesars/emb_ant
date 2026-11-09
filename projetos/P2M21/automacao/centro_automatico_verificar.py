@@ -11,7 +11,11 @@ def prepare():
     assert common.sha(source)==cfg['fonte_sha256']
     assert common.geometry(text)==common.geometry(source.read_text(errors='replace'))
     analysis=text.split("$begin 'AnalysisSetup'",1)[1].split("$end 'AnalysisSetup'",1)[0]
-    for term in ['MaxDeltaS=0.04','MaximumPasses=6','MinimumConvergedPasses=2','BasisOrder=-1','DoLambdaRefine=false',"Frequency='5.17GHz'",'ImportMesh=false']:
+    transition=root/'transicao_4passes/P2M21_Ganho_Diagrama_antes_retomada.aedt'
+    if transition.exists():
+        old=transition.read_text(errors='replace').split("$begin 'AnalysisSetup'",1)[1].split("$end 'AnalysisSetup'",1)[0]
+        assert old.replace('MaximumPasses=6','MaximumPasses=4')==analysis,'Alteracao alem do limite de passes no AnalysisSetup.'
+    for term in ['MaxDeltaS=0.04','MaximumPasses=%d'%cfg['max_passes'],'MinimumConvergedPasses=2','BasisOrder=-1','DoLambdaRefine=false',"Frequency='5.17GHz'",'ImportMesh=false']:
         assert term in analysis,term
     assert "$begin 'Banda17'" not in analysis and 'RangeStart=' not in analysis
     operations=text.split("$begin 'MeshOperations'",1)[1].split("$end 'MeshOperations'",1)[0]
@@ -22,7 +26,7 @@ def prepare():
     assert 'UseAutoLength=true' in settings and 'SliderMeshSettings=5' in settings
     assert text.count("Magnitude='0.015625W'")==64
     info=common.read(root/'antena/preparacao.json');assert info['validacao']==1 and not info['erros'] and not info['sweeps']
-    data=dict(geometria_preservada=True,blocos_geometria=len(common.geometry(text)),max_passes=6,
+    data=dict(geometria_preservada=True,blocos_geometria=len(common.geometry(text)),max_passes=cfg['max_passes'],
       delta_s=.04,basis_order=-1,lambda_refine=False,mesher='AnsoftClassic',operacoes_locais=0,sweeps=0,frequencia_GHz=5.17,
       potencia_incidente_total_W=1,portas=64,native_sha256=common.sha(path),fonte_sha256=common.sha(source))
     common.write(root/'antena/verificacao_preparacao.json',data);print(json.dumps(data))
@@ -40,7 +44,8 @@ def plot():
         front=abs(theta)<=90;peak=float(gain[front].max());ax.plot(theta,gain-peak)
         ax.axhline(-3,color='#a63c27',ls=':');ax.set(xlim=window,ylim=(-30,1),xlabel='Angulo (graus)',ylabel='Nivel relativo (dB)',title=f'{axis}: {row["abertura_"+axis+"_graus"]:.2f} graus');ax.grid(alpha=.3)
     label='AUDITADO' if data['aprovado'] else 'PRELIMINAR / NAO QUALIFICADO'
-    fig.suptitle(f'P2M21 16 x 2 — 5,17 GHz — ganho frontal {row["ganho_frontal_total_realizado_dBi"]:.2f} dBi — {label}')
+    conv=data['convergencia']
+    fig.suptitle(f'P2M21 16 x 2 — 5,17 GHz — ganho frontal {row["ganho_frontal_total_realizado_dBi"]:.2f} dBi\n{conv["passes"]} passes; Delta S = {conv["delta_s"]:.6f} — {label}')
     fig.tight_layout();fig.savefig(root/'diagramas_5170MHz.png',dpi=180);plt.close(fig)
 
 if __name__=='__main__':

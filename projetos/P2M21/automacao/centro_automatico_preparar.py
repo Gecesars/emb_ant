@@ -26,7 +26,7 @@ try:
     old=list(setup.GetSetups())
     if old:setup.DeleteSetups(old)
     setup.InsertSetup('HfssDriven',['NAME:Centro','Frequency:=','5.17GHz','MaxDeltaS:=',.04,
-      'MaximumPasses:=',6,'MinimumPasses:=',2,'MinimumConvergedPasses:=',2,'PercentRefinement:=',20,
+      'MaximumPasses:=',cfg['max_passes'],'MinimumPasses:=',2,'MinimumConvergedPasses:=',2,'PercentRefinement:=',20,
       'BasisOrder:=',-1,'DoLambdaRefine:=',False,'SetLambdaTarget:=',False,
       'DrivenSolverType:=','Iterative Solver','IterativeResidual:=',1e-5,
       'SaveAnyFields:=',True,'SaveRadFieldsOnly:=',True])
@@ -40,7 +40,7 @@ try:
           'UseRelativeConvergence:=',0,'MaxConvergenceDelta:=',.1,'MaxConvergeValue:=','0.1',
           'ReportType:=','Far Fields',['NAME:ExpressionContext','Context:=','HV']])
     setup.EditSetup('Centro',['NAME:Centro','BasisOrder:=',-1,'DoLambdaRefine:=',False,
-      'MaxDeltaS:=',.04,'MaximumPasses:=',6,'MinimumPasses:=',2,'MinimumConvergedPasses:=',2,
+      'MaxDeltaS:=',.04,'MaximumPasses:=',cfg['max_passes'],'MinimumPasses:=',2,'MinimumConvergedPasses:=',2,
       'DrivenSolverType:=','Iterative Solver','IterativeResidual:=',1e-5,
       'SaveAnyFields:=',True,'SaveRadFieldsOnly:=',True,'UseCacheFor:=',['Pass'],cache])
     sweeps=list(setup.GetSweeps('Centro'));assert not sweeps,sweeps
@@ -48,7 +48,7 @@ try:
     with open(os.path.join(folder,'preparacao.json'),'w') as f:
         json.dump(dict(validacao=valid,erros=errors,operacoes_removidas=removed,sweeps=sweeps,
           frequencia_GHz=5.17,basis_order=-1,basis='Mixed Order',lambda_refine=False,mesher='AnsoftClassic',
-          max_passes=6,delta_s=.04,portas=ports,potencia_por_porta_W=.015625,fase_graus=0,
+          max_passes=cfg['max_passes'],delta_s=.04,portas=ports,potencia_por_porta_W=.015625,fase_graus=0,
           campos_por_passe='Monitoramento apenas'),f,indent=2)
     assert valid==1 and not errors
     p.Save();oDesktop.CloseProject(p.GetName());p=None;log('PREPARACAO_CENTRO_AUTOMATICO_OK')

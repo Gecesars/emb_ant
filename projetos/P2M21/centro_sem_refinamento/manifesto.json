@@ -1,15 +1,50 @@
 {
-  "tipo": "Setup central preparado; RF ainda em execucao",
+  "tipo": "Setup quatro passes/14nucleos confirmado; quarto passe em execucao",
   "arquivos": [
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/configuracao.json",
-      "bytes": 1343,
-      "sha256": "3546cdd5b75dbd4c3e7751bc8ba047327df08d5d3850feb22ca986990e38f28f"
+      "bytes": 1661,
+      "sha256": "28e696c894f7eca18ad98753c6954a10e80f2c1e2aa1915f0ecf72dea0e6806f"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/cancelamento_anterior.json",
       "bytes": 454,
       "sha256": "fad97ff059faeb265cf16258de16541b25ee237a19bc496d68466d398aa9c853"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/historico_tres_passes.json",
+      "bytes": 1815,
+      "sha256": "27ad73146cfeae7b4fb94e9858665088334677d074b3bf53d2cd427f366a3f74"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/hpc14_aplicado.json",
+      "bytes": 219,
+      "sha256": "ca7b521ee6be118fbc6c7af49d81e96371f6f2ce7805909e8849b0aa7c8e55d0"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/limite4_confirmado.json",
+      "bytes": 421,
+      "sha256": "c62f731af383b3100b907e303a0d631b416793affe1b1e6df01882e5eaf3722e"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/limite_preparacao_aedt.log",
+      "bytes": 450,
+      "sha256": "2f01acd2d0ce4bbd236437b239c1863bbd1a9e390d54e6c65a62c43a4bd80fb2"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/parada_limite4.json",
+      "bytes": 178,
+      "sha256": "a4b5587729b93335a431181c9bd1b18c1268e425750309b69c603b630304414d"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/pedido_14nucleos.json",
+      "bytes": 431,
+      "sha256": "dbcc08af15f5f88ef857f1906957b42f7a664765baba0262a13ad525fd4f45ee"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/pedido_4passes.json",
+      "bytes": 396,
+      "sha256": "ce0d42ce1b92c247d62b0d3673e8e2607fe07e084f03d7dcbe3033aed25c7b17"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/preparacao.json",
@@ -49,17 +84,22 @@
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/verificacao_preparacao.json",
       "bytes": 480,
-      "sha256": "958fed90cc72752624bc85d4cfd157d70b9a312a16e7c6298abb6fb58dbb1697"
+      "sha256": "bd46bbc811b1da812608a4bdc6fade0fd0ea2b0bb6c30e9019565a1f466f46b6"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/hfss/P2M21_Ganho_Diagrama.aedt",
-      "bytes": 19827999,
-      "sha256": "a5da69676c85ecf1ffe334f60a1ec06dd8fd144c56cb2f7a4feab9bef7037f04"
+      "bytes": 19828747,
+      "sha256": "ef3734ae3835b1f54f487efef40d666fdc07d1fb6ecce4109925e7f640a0e9ab"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
     },
     {
       "arquivo": "projetos/P2M21/centro_sem_refinamento/qualificacao.json",
-      "bytes": 415,
-      "sha256": "32c3163450a75c04b8bbc40a9ec533b22e1344c7fae3c3ffc72cf5534f9b6e35"
+      "bytes": 527,
+      "sha256": "406fedaaf41b1b175a744304fe6edff9997f68772a7cc0765f95f2fc3a9eeff0"
     }
   ]
 }

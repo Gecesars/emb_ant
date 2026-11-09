@@ -1,0 +1,12 @@
+{
+  "instante": "2026-11-09T04:06:39.495206-03:00",
+  "nucleos_fisicos": 14,
+  "processadores_logicos": 20,
+  "solicitados": 14,
+  "tarefas": 1,
+  "licenca_preservada": "Auto",
+  "perfil_anterior": "pyaedt_config",
+  "perfil_novo": "P2M21_14nucleos",
+  "acao": "Parada limpa e retomada, mesma malha/setup; nao resetar passes",
+  "native_sha256_antes": "553f57771ad1a023892412e1696d233dd71e1482e7c365e78d80951f089b5ff3"
+}

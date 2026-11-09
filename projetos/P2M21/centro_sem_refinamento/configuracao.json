@@ -14,12 +14,12 @@
   "frequencias_MHz": [
     5170
   ],
-  "max_passes": 6,
+  "max_passes": 4,
   "delta_s": 0.04,
   "passes_consecutivos": 2,
   "adaptacao_MHz": 5170,
   "metodo": "64 portas diretas iguais/em fase; 1 W total. Sem rede externa. Adaptaçao automatica durante o solve, sem sweep.",
-  "criterio_usuario": "Pedido atual: somente ganho e diagrama no centro, sem refinamento inicial ou local; seis passes/DeltaS .04 mantidos.",
+  "criterio_usuario": "Ultima instrucao: no maximo quatro passes no total; mostrar DeltaS e resultados mesmo sem convergencia; 14 nucleos. Somente 5.17GHz, sem sweep ou pre-refinamento imposto.",
   "campos_cache": "Nove direcoes apenas monitoradas por passe; nao sao criterio adicional.",
   "correcoes_malha": "Zero controles locais; lambda inicial desligado; Classic automatico com resolucao global padrao. Sem importacao de malha. TAU R03 interrompido por reparos graves.",
   "apenas_centro": true,
@@ -28,5 +28,12 @@
   "operacoes_malha": [],
   "sweeps": [],
   "mesher": "AnsoftClassic",
-  "mesher_fallback": false
+  "mesher_fallback": false,
+  "nucleos": 14,
+  "tarefas": 1,
+  "hpc_acf": "HFSS_14nucleos.acf",
+  "hpc_config_name": "P2M21_14nucleos",
+  "alteracao_hpc": "2026-11-09T04:06:39.495206-03:00",
+  "relatar_sem_convergencia": true,
+  "alteracao_limite": "2026-11-09T04:10:32.859109-03:00"
 }

@@ -1,0 +1,12 @@
+{
+  "instante": "2026-11-09T04:10:32.859109-03:00",
+  "max_passes": 4,
+  "passes_ja_concluidos": 2,
+  "passe_em_andamento": 3,
+  "nucleos_confirmados_worker": 14,
+  "aedt_atual": 239344,
+  "worker_atual": 158212,
+  "limite_absoluto_total": true,
+  "relatar_sem_convergencia": true,
+  "acao": "Parada limpa ao fim do terceiro; editar apenas MaximumPasses via API e retomar ate quarto"
+}

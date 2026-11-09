@@ -1,14 +1,17 @@
 ﻿{
-    "max_passes":  6,
-    "frequencia_GHz":  5.17,
-    "processo_pipeline":  47048,
+    "max_passes":  4,
     "delta_s":  0.04,
-    "sweeps":  0,
+    "nucleos":  14,
+    "frequencia_GHz":  5.17,
+    "processo_pipeline":  234180,
     "detalhe":  {
+                    "retomada4passes":  true,
                     "base":  "Mixed Order",
+                    "retomada14":  false,
                     "sem_refinamento_inicial":  true,
-                    "processo_aedt":  223588
+                    "processo_aedt":  203200
                 },
-    "instante":  "2026-11-09T03:45:23.2037978-03:00",
+    "instante":  "2026-11-09T04:17:59.8671953-03:00",
+    "sweeps":  0,
     "estado":  "CENTRO_EM_EXECUCAO"
 }
