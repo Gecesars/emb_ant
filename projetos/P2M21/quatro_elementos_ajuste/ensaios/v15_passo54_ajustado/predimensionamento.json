@@ -1,0 +1,20 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v09_transformadores\\centro.s2p",
+  "metodo": "Modelo nominal MLine raiz+linha50; cabos ideais de fase para desembutimento; quatro cargas efetivas congeladas (AB e outra entrada casada). Requer HFSS completo. Novo passo: modelo em cascata dos dois estagios e cargas terminais congeladas; acoplamento, curvas e nova borda de placa nao previstos.",
+  "estado": "ESTIMATIVA_NAO_VALIDADA",
+  "largura_mm": 1.0248786814792885,
+  "comprimento_mm": 7.770681402206506,
+  "passo_fonte_mm": 48,
+  "passo_novo_mm": 54.0,
+  "root_w_factor": 1.1911202409832975,
+  "root_l_factor": 0.8813949908685252,
+  "VSWR_estimado_ativo": [
+    1.1833582863837024,
+    1.0823222384930724
+  ],
+  "VSWR_estimado_casado": [
+    1.0842949371341928,
+    1.1833582824710909
+  ],
+  "erro_recomposicao_modelo_original": 6.661338147750939e-16
+}

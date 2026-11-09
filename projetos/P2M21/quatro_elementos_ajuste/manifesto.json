@@ -1,0 +1,2454 @@
+{
+  "selecionada": "v21_altura_menos10_casada",
+  "aprovado": false,
+  "arquivos": [
+    {
+      "arquivo": "selecionada/P2M21_4_elementos.aedt",
+      "sha256": "38949fb0adfb0580372456f597ef55b7c5b7c0195d371d374dafc70b8c369173",
+      "origem_sha256": "38949fb0adfb0580372456f597ef55b7c5b7c0195d371d374dafc70b8c369173",
+      "bytes": 8238246
+    },
+    {
+      "arquivo": "selecionada/4_elementos.FCStd",
+      "sha256": "210f5e14fd7d824484b2412e1616178dee2742099d0ffc0ced1e3954509326c8",
+      "origem_sha256": "210f5e14fd7d824484b2412e1616178dee2742099d0ffc0ced1e3954509326c8",
+      "bytes": 290492
+    },
+    {
+      "arquivo": "selecionada/configuracao.json",
+      "sha256": "ee404eee8d2b05d909d857e2353af1b7807cd57d4fcec381fcf456f69d0d0999",
+      "origem_sha256": "ee404eee8d2b05d909d857e2353af1b7807cd57d4fcec381fcf456f69d0d0999",
+      "bytes": 1692
+    },
+    {
+      "arquivo": "selecionada/geometria.json",
+      "sha256": "e9319581a38c71573ceac458341f70f478299b58739436801d21b4d333297c92",
+      "origem_sha256": "e9319581a38c71573ceac458341f70f478299b58739436801d21b4d333297c92",
+      "bytes": 226059
+    },
+    {
+      "arquivo": "selecionada/resultado.json",
+      "sha256": "7052e61410ca02959295ed3be609851362660cbe3f8fe82dd813b122ca305ec0",
+      "origem_sha256": "7052e61410ca02959295ed3be609851362660cbe3f8fe82dd813b122ca305ec0",
+      "bytes": 4379
+    },
+    {
+      "arquivo": "selecionada/malha.json",
+      "sha256": "3f9e71472dc876da67eda6fa85e00ff75a487b54ae15eb972acdb3498c55c5e3",
+      "origem_sha256": "3f9e71472dc876da67eda6fa85e00ff75a487b54ae15eb972acdb3498c55c5e3",
+      "bytes": 21724
+    },
+    {
+      "arquivo": "selecionada/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "selecionada/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "selecionada/convergencia.txt",
+      "sha256": "f07fe262c413d085d261de53ffa9ce375eb33c0c321ffd352bcaf15395274784",
+      "origem_sha256": "f07fe262c413d085d261de53ffa9ce375eb33c0c321ffd352bcaf15395274784",
+      "bytes": 622
+    },
+    {
+      "arquivo": "selecionada/centro.s2p",
+      "sha256": "76385ee4cb81161359e1bedc111bcbc81b0371ba706114547c1a5a1ecfeaaa1f",
+      "origem_sha256": "76385ee4cb81161359e1bedc111bcbc81b0371ba706114547c1a5a1ecfeaaa1f",
+      "bytes": 824
+    },
+    {
+      "arquivo": "selecionada/qualificacao.json",
+      "sha256": "44d33a8a57a9cbe894b2961c62ffe79425663a8b81591376422f8c7c9b8e24f5",
+      "origem_sha256": "44d33a8a57a9cbe894b2961c62ffe79425663a8b81591376422f8c7c9b8e24f5",
+      "bytes": 283
+    },
+    {
+      "arquivo": "selecionada/mensagens.json",
+      "sha256": "07a2dbdfa7bda2c3773e67c5b493defe47640425b2d0aba65912ddd2cf6d0fbe",
+      "origem_sha256": "07a2dbdfa7bda2c3773e67c5b493defe47640425b2d0aba65912ddd2cf6d0fbe",
+      "bytes": 365
+    },
+    {
+      "arquivo": "selecionada/criar_cad.py",
+      "sha256": "69739c37d6ec93d0642d4657ef21732a6ded34295db708616d04ea853c5619f0",
+      "origem_sha256": "639674c1ff402a826abec6d72bc122f86ca3ca9663e5a09b635d1fa808356d0a",
+      "bytes": 4433
+    },
+    {
+      "arquivo": "selecionada/criar_hfss.py",
+      "sha256": "9d9380ebcbccc5cc257f821214772c5853e4e6296f0d40d73485fa816e462424",
+      "origem_sha256": "769b1b059f36dcd8afb49cb96ad85e1962aaf28c877294e04b5338207a624053",
+      "bytes": 7008
+    },
+    {
+      "arquivo": "selecionada/resolver.py",
+      "sha256": "9c09d0fcf55ea8785434b5fd749134eee8c5c1ac3ceb20aed5c3b75bb5dc9ba2",
+      "origem_sha256": "e94376b93dbc6b1769d5a56ac883b3e05be022be668e38846eaa5e87cafe0519",
+      "bytes": 3630
+    },
+    {
+      "arquivo": "selecionada/layout.png",
+      "sha256": "64d4ced98ae92b6dd3f6670d3b7de321ffc4f5545a1a191c51c5132d6824e9b5",
+      "origem_sha256": "64d4ced98ae92b6dd3f6670d3b7de321ffc4f5545a1a191c51c5132d6824e9b5",
+      "bytes": 68958
+    },
+    {
+      "arquivo": "selecionada/diagramas_HV.png",
+      "sha256": "4e04eb479ad1bd20b5446da956b55e7cfe3c6514934701dd4031a27f9844aa4a",
+      "origem_sha256": "4e04eb479ad1bd20b5446da956b55e7cfe3c6514934701dd4031a27f9844aa4a",
+      "bytes": 127382
+    },
+    {
+      "arquivo": "selecionada/polar_HV.png",
+      "sha256": "a694e47b22695296d60247735d9afcabe2deea165e37aea9eeb150dcfa8a2770",
+      "origem_sha256": "a694e47b22695296d60247735d9afcabe2deea165e37aea9eeb150dcfa8a2770",
+      "bytes": 211194
+    },
+    {
+      "arquivo": "selecionada/polar_HV.pdf",
+      "sha256": "89e7691b40bda3b1f1be8870503959e366a2200500c2ff6afda4e58b458ab259",
+      "origem_sha256": "89e7691b40bda3b1f1be8870503959e366a2200500c2ff6afda4e58b458ab259",
+      "bytes": 27650
+    },
+    {
+      "arquivo": "selecionada/cad/intersecoes.json",
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9",
+      "origem_sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9",
+      "bytes": 393
+    },
+    {
+      "arquivo": "selecionada/cad/portas.json",
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b",
+      "origem_sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b",
+      "bytes": 264
+    },
+    {
+      "arquivo": "selecionada/cad/folhas_solidas.json",
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195",
+      "origem_sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195",
+      "bytes": 2177
+    },
+    {
+      "arquivo": "selecionada/cad/manifesto.json",
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c",
+      "origem_sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c",
+      "bytes": 1159
+    },
+    {
+      "arquivo": "selecionada/cad/enig_hfss.json",
+      "sha256": "fc367e4f114236d8d9e0f8924f85d126768dcf58d20c35ea8c6349636dce56f8",
+      "origem_sha256": "fc367e4f114236d8d9e0f8924f85d126768dcf58d20c35ea8c6349636dce56f8",
+      "bytes": 36928
+    },
+    {
+      "arquivo": "selecionada/AB_H.csv",
+      "sha256": "ec690a0b06a4ab3ed6375c8fdaceec4a3a9f9046a793def7a87a9053ce9bf93f",
+      "origem_sha256": "ec690a0b06a4ab3ed6375c8fdaceec4a3a9f9046a793def7a87a9053ce9bf93f",
+      "bytes": 198131
+    },
+    {
+      "arquivo": "selecionada/AB_V.csv",
+      "sha256": "76d0a6ddbbeb0b7c61be9b1c8965a964028419dcf9501950a70fc8160c0a2270",
+      "origem_sha256": "76d0a6ddbbeb0b7c61be9b1c8965a964028419dcf9501950a70fc8160c0a2270",
+      "bytes": 197252
+    },
+    {
+      "arquivo": "selecionada/A_H.csv",
+      "sha256": "b97f9691d4c1d6f165d13c03288389e46e255fed0b1454f9889cbd3d71b67cf9",
+      "origem_sha256": "b97f9691d4c1d6f165d13c03288389e46e255fed0b1454f9889cbd3d71b67cf9",
+      "bytes": 198689
+    },
+    {
+      "arquivo": "selecionada/A_V.csv",
+      "sha256": "553992565f322b8f6938e6f1374cbc026e2fed25d4b251d689a7dc8eeedde97b",
+      "origem_sha256": "553992565f322b8f6938e6f1374cbc026e2fed25d4b251d689a7dc8eeedde97b",
+      "bytes": 197206
+    },
+    {
+      "arquivo": "selecionada/B_H.csv",
+      "sha256": "ddc420f789e3297c2e400a7a56dfcf79d8857ff52ef495051dd19e89c86a93f2",
+      "origem_sha256": "ddc420f789e3297c2e400a7a56dfcf79d8857ff52ef495051dd19e89c86a93f2",
+      "bytes": 197577
+    },
+    {
+      "arquivo": "selecionada/B_V.csv",
+      "sha256": "9f556244c9adc881fa462ec584caf68f46e0b20d15cdda5b941fb2ffd9d5fa2f",
+      "origem_sha256": "9f556244c9adc881fa462ec584caf68f46e0b20d15cdda5b941fb2ffd9d5fa2f",
+      "bytes": 196488
+    },
+    {
+      "arquivo": "selecionada/criar_hfss_processo.json",
+      "sha256": "2846f7fb76d346143a10137656cc15cac659fcf61002d7f7bfc5ec0a9b25b482",
+      "origem_sha256": "2846f7fb76d346143a10137656cc15cac659fcf61002d7f7bfc5ec0a9b25b482",
+      "bytes": 373
+    },
+    {
+      "arquivo": "selecionada/resolver_processo.json",
+      "sha256": "1868b20fefa641db25d3bf50c2328ac16e95cc2bfb4435238bac0fa7f022a68f",
+      "origem_sha256": "1868b20fefa641db25d3bf50c2328ac16e95cc2bfb4435238bac0fa7f022a68f",
+      "bytes": 367
+    },
+    {
+      "arquivo": "selecionada/sondas_resumo.json",
+      "sha256": "794fa2e8b7cb341609da03ebbbea060b06848d831fa5b10237d7a5b2c4de8361",
+      "origem_sha256": "794fa2e8b7cb341609da03ebbbea060b06848d831fa5b10237d7a5b2c4de8361",
+      "bytes": 1294
+    },
+    {
+      "arquivo": "selecionada/sondas.py",
+      "sha256": "e30816dca9713a045c91e2336eb65981584c05d5c8393e8c797159c37b00caf1",
+      "origem_sha256": "e30816dca9713a045c91e2336eb65981584c05d5c8393e8c797159c37b00caf1",
+      "bytes": 1397
+    },
+    {
+      "arquivo": "selecionada/predimensionamento.json",
+      "sha256": "17f89d244bf66743cb927f93f537ef0905a48dc5ae10d782e2aa44297d310e6e",
+      "origem_sha256": "17f89d244bf66743cb927f93f537ef0905a48dc5ae10d782e2aa44297d310e6e",
+      "bytes": 1482
+    },
+    {
+      "arquivo": "selecionada/caminhos_alimentacao.json",
+      "sha256": "f548211865957d1079b0f46bb4d28a755e299a7f9d28d9e4c6c861355dccdebf",
+      "origem_sha256": "f548211865957d1079b0f46bb4d28a755e299a7f9d28d9e4c6c861355dccdebf",
+      "bytes": 563
+    },
+    {
+      "arquivo": "README.md",
+      "sha256": "1384b4d2ed68cf948fe4535f7aae520dc63281db08fbad7006b57fefb4bb6dca",
+      "origem_sha256": "a1e7b8025df9f1a8140fe6a150e68dd31cc1614e41e4a5df05812c313d27a1ed",
+      "bytes": 15250
+    },
+    {
+      "arquivo": "comparacao.json",
+      "sha256": "5bc09a8ce10a5d2613b0d3720ac949366050effddc635cc20138acc8356a7c49",
+      "origem_sha256": "5bc09a8ce10a5d2613b0d3720ac949366050effddc635cc20138acc8356a7c49",
+      "bytes": 94843
+    },
+    {
+      "arquivo": "comparacao_diagramas.png",
+      "sha256": "60d268a9202fbcbf1301ef5f33a17ae62fef31c48ea898e798c2b1c080adaf64",
+      "origem_sha256": "60d268a9202fbcbf1301ef5f33a17ae62fef31c48ea898e798c2b1c080adaf64",
+      "bytes": 162415
+    },
+    {
+      "arquivo": "estudo.json",
+      "sha256": "c493ae1c11f7d00a1d943936dff8a114aefc4f79c4f3bfc7b46279cb860781ce",
+      "origem_sha256": "c493ae1c11f7d00a1d943936dff8a114aefc4f79c4f3bfc7b46279cb860781ce",
+      "bytes": 3674
+    },
+    {
+      "arquivo": "diretriz_simetria.json",
+      "sha256": "be6512533a0e342de4a735b72ec19957e5bde364104e2d52915c5db11d42ce66",
+      "origem_sha256": "be6512533a0e342de4a735b72ec19957e5bde364104e2d52915c5db11d42ce66",
+      "bytes": 422
+    },
+    {
+      "arquivo": "diagnostico_referencia.json",
+      "sha256": "d3144d7cce54a7d67288f8a39dcb39dec947d52cf70aa33caa731a1b5ec30a1f",
+      "origem_sha256": "d3144d7cce54a7d67288f8a39dcb39dec947d52cf70aa33caa731a1b5ec30a1f",
+      "bytes": 866
+    },
+    {
+      "arquivo": "espacamento_ideal.json",
+      "sha256": "b72b10a5fe5f886777d11613d804b072f67fb25b9b79b40ee5660d1736aed714",
+      "origem_sha256": "b72b10a5fe5f886777d11613d804b072f67fb25b9b79b40ee5660d1736aed714",
+      "bytes": 1821
+    },
+    {
+      "arquivo": "espacamento_ideal.png",
+      "sha256": "3a8b8fd21820df956213eea4a886950bddcb3f9a32ac7631e3b75e5d53efcf64",
+      "origem_sha256": "3a8b8fd21820df956213eea4a886950bddcb3f9a32ac7631e3b75e5d53efcf64",
+      "bytes": 270778
+    },
+    {
+      "arquivo": "espacamento_HFSS.json",
+      "sha256": "40cd30c9f180712a304fd03e446adf82b896a0f59c05d40cb50f0a810023c343",
+      "origem_sha256": "40cd30c9f180712a304fd03e446adf82b896a0f59c05d40cb50f0a810023c343",
+      "bytes": 3123
+    },
+    {
+      "arquivo": "espacamento_HFSS.png",
+      "sha256": "8a8c82c2c04d6dda9e5baee85d6a330ed259f99e54211bdfcb99fbe3bc20fa01",
+      "origem_sha256": "8a8c82c2c04d6dda9e5baee85d6a330ed259f99e54211bdfcb99fbe3bc20fa01",
+      "bytes": 308290
+    },
+    {
+      "arquivo": "comparacao_geometrica_espacamento.json",
+      "sha256": "1a82e2220ce13a11df0cc781e8a6f8b8d70ef40a6b3df239b67973af31650171",
+      "origem_sha256": "1a82e2220ce13a11df0cc781e8a6f8b8d70ef40a6b3df239b67973af31650171",
+      "bytes": 5140
+    },
+    {
+      "arquivo": "espacamento_505254.json",
+      "sha256": "37e632d73740bdac20c05e9de780f30008bba90ddaac475ffadcc632f6055773",
+      "origem_sha256": "37e632d73740bdac20c05e9de780f30008bba90ddaac475ffadcc632f6055773",
+      "bytes": 3098
+    },
+    {
+      "arquivo": "espacamento_505254.png",
+      "sha256": "22465a227fb0c5a7323a48407771859bbf7a2d7d98c2cd44e8269b52fcbe284a",
+      "origem_sha256": "22465a227fb0c5a7323a48407771859bbf7a2d7d98c2cd44e8269b52fcbe284a",
+      "bytes": 308356
+    },
+    {
+      "arquivo": "fila_505254.json",
+      "sha256": "6bbaa1ac31681ea6c5d4a0a4c416023a5ebd00be12dedcced2141abec34f1518",
+      "origem_sha256": "6bbaa1ac31681ea6c5d4a0a4c416023a5ebd00be12dedcced2141abec34f1518",
+      "bytes": 219
+    },
+    {
+      "arquivo": "fila_505254_reajustes.json",
+      "sha256": "ebb6df4a715be63a04caa7bf7c5524b200250c3ca4168a0ccd9ec2067fa2d092",
+      "origem_sha256": "ebb6df4a715be63a04caa7bf7c5524b200250c3ca4168a0ccd9ec2067fa2d092",
+      "bytes": 225
+    },
+    {
+      "arquivo": "selecoes_505254.json",
+      "sha256": "d7a3411fae6eb0e75cb88b23db81cbc894aca5ee786ce54b7a708c928e8a7eac",
+      "origem_sha256": "d7a3411fae6eb0e75cb88b23db81cbc894aca5ee786ce54b7a708c928e8a7eac",
+      "bytes": 495
+    },
+    {
+      "arquivo": "plano_alturas.json",
+      "sha256": "26ba26df9b0636deac714ebed8526bf28ea7f2e936983da298382cca49c6c717",
+      "origem_sha256": "26ba26df9b0636deac714ebed8526bf28ea7f2e936983da298382cca49c6c717",
+      "bytes": 3253
+    },
+    {
+      "arquivo": "auditoria_cad_alturas.json",
+      "sha256": "1b0e06a8a7a065b67c633b54a20848fa65d321a9163efb40fe7f066ce27bf0ce",
+      "origem_sha256": "1b0e06a8a7a065b67c633b54a20848fa65d321a9163efb40fe7f066ce27bf0ce",
+      "bytes": 15076
+    },
+    {
+      "arquivo": "alturas_HFSS.json",
+      "sha256": "70f0ead466f15fa8a71ed423fe78cf2cb1efaa5859250c08a09ff037f041cddc",
+      "origem_sha256": "70f0ead466f15fa8a71ed423fe78cf2cb1efaa5859250c08a09ff037f041cddc",
+      "bytes": 2562
+    },
+    {
+      "arquivo": "alturas_HFSS.png",
+      "sha256": "164f615f6b09b8404e9dce1ab0cabcf64afa1615d6e9c24009f944e1d892cc28",
+      "origem_sha256": "164f615f6b09b8404e9dce1ab0cabcf64afa1615d6e9c24009f944e1d892cc28",
+      "bytes": 208181
+    },
+    {
+      "arquivo": "fila_alturas.json",
+      "sha256": "9144293419015b37c1409935c9b8c1ad77d20dcebf81c4f0c0d9cb427bd32275",
+      "origem_sha256": "9144293419015b37c1409935c9b8c1ad77d20dcebf81c4f0c0d9cb427bd32275",
+      "bytes": 200
+    },
+    {
+      "arquivo": "fila_altura_reajuste.json",
+      "sha256": "7ea12691fcc86fe19d979d597f140fa8401293ccad0ef37105bab70cde1c44ac",
+      "origem_sha256": "7ea12691fcc86fe19d979d597f140fa8401293ccad0ef37105bab70cde1c44ac",
+      "bytes": 181
+    },
+    {
+      "arquivo": "selecao_final.json",
+      "sha256": "9953c6e2a0a849f3f11c11bbbc3e175aa1afc0fef23ef0979b3c2efcf7c73940",
+      "origem_sha256": "9953c6e2a0a849f3f11c11bbbc3e175aa1afc0fef23ef0979b3c2efcf7c73940",
+      "bytes": 1472
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/resultado.json",
+      "sha256": "aba7251b2738f22a340b84bc51a46caf61730804186dc86a3204bf53bb13ea27",
+      "origem_sha256": "aba7251b2738f22a340b84bc51a46caf61730804186dc86a3204bf53bb13ea27",
+      "bytes": 2948
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/configuracao.json",
+      "sha256": "b021594b2301db2d196a0b5124868341cc6f4005f345c7990d47eabf89cfdd08",
+      "origem_sha256": "b021594b2301db2d196a0b5124868341cc6f4005f345c7990d47eabf89cfdd08",
+      "bytes": 1294
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/convergencia.txt",
+      "sha256": "9c68b4c571b8113466b1737c3506ad3f2e611d11170f5ef13cd68daedebf47a1",
+      "origem_sha256": "9c68b4c571b8113466b1737c3506ad3f2e611d11170f5ef13cd68daedebf47a1",
+      "bytes": 621
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/centro.s2p",
+      "sha256": "f036611f36fae7ae6cdd144997a87a458b963e93c01e74ba8bcfa4c40a1ff806",
+      "origem_sha256": "f036611f36fae7ae6cdd144997a87a458b963e93c01e74ba8bcfa4c40a1ff806",
+      "bytes": 813
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/AB_H.csv",
+      "sha256": "86d7ae0706ba3da2e391609c65d5358ce7d0e3a492ff327ca18cb18a95fee007",
+      "origem_sha256": "86d7ae0706ba3da2e391609c65d5358ce7d0e3a492ff327ca18cb18a95fee007",
+      "bytes": 198427
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/AB_V.csv",
+      "sha256": "742ef31ba3d6679fbb5dc29aa60e345928c99708e44eb1b849a19e2a28969d16",
+      "origem_sha256": "742ef31ba3d6679fbb5dc29aa60e345928c99708e44eb1b849a19e2a28969d16",
+      "bytes": 197274
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/A_H.csv",
+      "sha256": "b879acc14a07daea6b3f65f75137d5e14ccc6654b2f342785afa3aaaec1bf4e9",
+      "origem_sha256": "b879acc14a07daea6b3f65f75137d5e14ccc6654b2f342785afa3aaaec1bf4e9",
+      "bytes": 198557
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/A_V.csv",
+      "sha256": "652b9c704ed9311713180d178ac97b9eee7e8393413b6d5ad6f8648b65fed018",
+      "origem_sha256": "652b9c704ed9311713180d178ac97b9eee7e8393413b6d5ad6f8648b65fed018",
+      "bytes": 198255
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/B_H.csv",
+      "sha256": "814307c6685bfe52d0600c4076b0a0f03e621efca7645c5820c01db36e93737f",
+      "origem_sha256": "814307c6685bfe52d0600c4076b0a0f03e621efca7645c5820c01db36e93737f",
+      "bytes": 197490
+    },
+    {
+      "arquivo": "ensaios/v00a_retorno6/B_V.csv",
+      "sha256": "45637e2ec613f2e3580c737dbb4b461bb7986fe6502698bc9813ed39c87a3b97",
+      "origem_sha256": "45637e2ec613f2e3580c737dbb4b461bb7986fe6502698bc9813ed39c87a3b97",
+      "bytes": 197135
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/resultado.json",
+      "sha256": "42e2958f7520ddd03e3039eb0b744966602d2b0f109f5f991443ff6c78c17fa6",
+      "origem_sha256": "42e2958f7520ddd03e3039eb0b744966602d2b0f109f5f991443ff6c78c17fa6",
+      "bytes": 2751
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/configuracao.json",
+      "sha256": "f3b36b47f1dee6debc43f13b57d4f9f8b39eb94c8d66705ee0c983bc94cfbae5",
+      "origem_sha256": "f3b36b47f1dee6debc43f13b57d4f9f8b39eb94c8d66705ee0c983bc94cfbae5",
+      "bytes": 1276
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/convergencia.txt",
+      "sha256": "fda301ff27ee7c71af6980438a9454f011cf815d290ed509b3d8bf695e065fd6",
+      "origem_sha256": "fda301ff27ee7c71af6980438a9454f011cf815d290ed509b3d8bf695e065fd6",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/centro.s2p",
+      "sha256": "d072114d2c3d5f5ad945cd776cdbe1f8380f12c8c60eef4789e1d2e0f1ec0766",
+      "origem_sha256": "d072114d2c3d5f5ad945cd776cdbe1f8380f12c8c60eef4789e1d2e0f1ec0766",
+      "bytes": 806
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/AB_H.csv",
+      "sha256": "68321cadda7b6eb9f769375011e7bb0ce30cb1d0b1f318c7adc053c030ae1aac",
+      "origem_sha256": "68321cadda7b6eb9f769375011e7bb0ce30cb1d0b1f318c7adc053c030ae1aac",
+      "bytes": 198166
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/AB_V.csv",
+      "sha256": "69df110d0f76ad2abb4f180c0fd01739a0b6f9d29f1a5180677ffc286608b16a",
+      "origem_sha256": "69df110d0f76ad2abb4f180c0fd01739a0b6f9d29f1a5180677ffc286608b16a",
+      "bytes": 197507
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/A_H.csv",
+      "sha256": "e7389c128bf42528f3b8e3687eec6c998cd1dd244ab2e618976b2f8a75d24de0",
+      "origem_sha256": "e7389c128bf42528f3b8e3687eec6c998cd1dd244ab2e618976b2f8a75d24de0",
+      "bytes": 198730
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/A_V.csv",
+      "sha256": "51ec0a83fddf256c1a6182d7a4c3496a3f476fc5acff8096bfe14f96e992f66c",
+      "origem_sha256": "51ec0a83fddf256c1a6182d7a4c3496a3f476fc5acff8096bfe14f96e992f66c",
+      "bytes": 197220
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/B_H.csv",
+      "sha256": "f92f56607984464bd960aedcb6e0ebd993cdafc158d00cffb37e468e4acc2724",
+      "origem_sha256": "f92f56607984464bd960aedcb6e0ebd993cdafc158d00cffb37e468e4acc2724",
+      "bytes": 197557
+    },
+    {
+      "arquivo": "ensaios/v01_faseB/B_V.csv",
+      "sha256": "c5957d539f0a2f0aa4a092aaef1d1c4a20ca79b7f085474265cb09bfaf2493c4",
+      "origem_sha256": "c5957d539f0a2f0aa4a092aaef1d1c4a20ca79b7f085474265cb09bfaf2493c4",
+      "bytes": 196668
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/resultado.json",
+      "sha256": "a23111dd1af801050ca5b00a20fe2aeb7d80b7fcd95b9afb06808ad7c856918d",
+      "origem_sha256": "a23111dd1af801050ca5b00a20fe2aeb7d80b7fcd95b9afb06808ad7c856918d",
+      "bytes": 4095
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/configuracao.json",
+      "sha256": "b32b0ceaf5fbfd570fdea025615ca114109f6db7c2eac1c8e4df6f01c1f09632",
+      "origem_sha256": "b32b0ceaf5fbfd570fdea025615ca114109f6db7c2eac1c8e4df6f01c1f09632",
+      "bytes": 1410
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/convergencia.txt",
+      "sha256": "8c5ef2be56de5a2185a254ed02f007acdd17050fb7fc9ac446d3f0d2718719aa",
+      "origem_sha256": "8c5ef2be56de5a2185a254ed02f007acdd17050fb7fc9ac446d3f0d2718719aa",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/centro.s2p",
+      "sha256": "48806c0fb5d2c8d400ac02ee5d6663654a90833084d5e9c50b58a8382f5edb5a",
+      "origem_sha256": "48806c0fb5d2c8d400ac02ee5d6663654a90833084d5e9c50b58a8382f5edb5a",
+      "bytes": 812
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/AB_H.csv",
+      "sha256": "b1a2755c312434f68cfb32eed768c9f71131f3cc800c380a60ed16e785b2c7f2",
+      "origem_sha256": "b1a2755c312434f68cfb32eed768c9f71131f3cc800c380a60ed16e785b2c7f2",
+      "bytes": 198103
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/AB_V.csv",
+      "sha256": "0d6aa0af548703b1646d8403eb96b059998f724f8a54e6cded9c0ddd80f7f84c",
+      "origem_sha256": "0d6aa0af548703b1646d8403eb96b059998f724f8a54e6cded9c0ddd80f7f84c",
+      "bytes": 197219
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/A_H.csv",
+      "sha256": "f7f36dc37edc74f30e24da83950147d25686c448d047f403bcfe715eb0b8859e",
+      "origem_sha256": "f7f36dc37edc74f30e24da83950147d25686c448d047f403bcfe715eb0b8859e",
+      "bytes": 198750
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/A_V.csv",
+      "sha256": "019fc7911f0998de3ca8ca80c2a254bef0f21cd5c022573d404b889103718b9c",
+      "origem_sha256": "019fc7911f0998de3ca8ca80c2a254bef0f21cd5c022573d404b889103718b9c",
+      "bytes": 197256
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/B_H.csv",
+      "sha256": "9fcb8ccb8f69fa352a5c82ef908f4359c85e02b5d08045be5f1d2d3837e05368",
+      "origem_sha256": "9fcb8ccb8f69fa352a5c82ef908f4359c85e02b5d08045be5f1d2d3837e05368",
+      "bytes": 197637
+    },
+    {
+      "arquivo": "ensaios/v03_simetrica/B_V.csv",
+      "sha256": "97da54be852d7e20dae15ab249203e7eba3bf7031db3c3ac5bafb2a00ca82768",
+      "origem_sha256": "97da54be852d7e20dae15ab249203e7eba3bf7031db3c3ac5bafb2a00ca82768",
+      "bytes": 196620
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/resultado.json",
+      "sha256": "a55cd91ec78cbbc3324adf86a04de07f86bb3263a5009e96bdb1381766ada83a",
+      "origem_sha256": "a55cd91ec78cbbc3324adf86a04de07f86bb3263a5009e96bdb1381766ada83a",
+      "bytes": 4221
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/configuracao.json",
+      "sha256": "c05f54e6b0ed5ef293f78f73a79afbab7c269b08f93f1568db084d8d1ee16061",
+      "origem_sha256": "c05f54e6b0ed5ef293f78f73a79afbab7c269b08f93f1568db084d8d1ee16061",
+      "bytes": 1537
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/convergencia.txt",
+      "sha256": "8ef7c3b9ad03c6ce5acca19927fdd77d41cf776ab3c536323bb1c540a823a666",
+      "origem_sha256": "8ef7c3b9ad03c6ce5acca19927fdd77d41cf776ab3c536323bb1c540a823a666",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/centro.s2p",
+      "sha256": "fd7f2557a699de099930b589bc7c579ec39fe1595bae84953e73aa21544e0482",
+      "origem_sha256": "fd7f2557a699de099930b589bc7c579ec39fe1595bae84953e73aa21544e0482",
+      "bytes": 821
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/AB_H.csv",
+      "sha256": "44f5e0ca795f710bd4d3be9670ddd9f07219cd39c837fdbde45a9106335ea6cd",
+      "origem_sha256": "44f5e0ca795f710bd4d3be9670ddd9f07219cd39c837fdbde45a9106335ea6cd",
+      "bytes": 198315
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/AB_V.csv",
+      "sha256": "a2c153f91844e21d6f0d677af3a8098fcc194a289efbc6cf81bcee7c82d7547e",
+      "origem_sha256": "a2c153f91844e21d6f0d677af3a8098fcc194a289efbc6cf81bcee7c82d7547e",
+      "bytes": 196795
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/A_H.csv",
+      "sha256": "e034c5614d88000c42d32162b4d8b99c0a1dc64976e1722e01a04ea88bf9a246",
+      "origem_sha256": "e034c5614d88000c42d32162b4d8b99c0a1dc64976e1722e01a04ea88bf9a246",
+      "bytes": 198824
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/A_V.csv",
+      "sha256": "827e6749e288b3abf074dad57963f74ae529ebf0cc3c063e71b74cf3b8ce6f93",
+      "origem_sha256": "827e6749e288b3abf074dad57963f74ae529ebf0cc3c063e71b74cf3b8ce6f93",
+      "bytes": 197596
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/B_H.csv",
+      "sha256": "580a8944b422ad2908e589f318b53b9ac63bb565f87d3c1358112f51c9a2aede",
+      "origem_sha256": "580a8944b422ad2908e589f318b53b9ac63bb565f87d3c1358112f51c9a2aede",
+      "bytes": 198116
+    },
+    {
+      "arquivo": "ensaios/v04b_massa_centrada/B_V.csv",
+      "sha256": "1519bc7b042a1fd82532c0ab3ec402705e7c00e77a3230def40dba2effd0860f",
+      "origem_sha256": "1519bc7b042a1fd82532c0ab3ec402705e7c00e77a3230def40dba2effd0860f",
+      "bytes": 196132
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/resultado.json",
+      "sha256": "d4a93602974591a2e099aa4968443c9533e2ad132c95551da07a11fcb3df1d96",
+      "origem_sha256": "d4a93602974591a2e099aa4968443c9533e2ad132c95551da07a11fcb3df1d96",
+      "bytes": 4260
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/configuracao.json",
+      "sha256": "5dc5fae91eb2858d57662db24d931d3ac19b117ca48d7ade09d2bbab9d851776",
+      "origem_sha256": "5dc5fae91eb2858d57662db24d931d3ac19b117ca48d7ade09d2bbab9d851776",
+      "bytes": 1498
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/convergencia.txt",
+      "sha256": "0fb19c76c7bb2d811ad3f8dddeea404ae114432c13c9c0dc39d74c973ddf325e",
+      "origem_sha256": "0fb19c76c7bb2d811ad3f8dddeea404ae114432c13c9c0dc39d74c973ddf325e",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/centro.s2p",
+      "sha256": "0b9f4519f58ae0e46cc22a08dfb449767d4428d5d4584100e9f611bdf9111551",
+      "origem_sha256": "0b9f4519f58ae0e46cc22a08dfb449767d4428d5d4584100e9f611bdf9111551",
+      "bytes": 820
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/AB_H.csv",
+      "sha256": "e3fbd0ba3b6db4ec380f4551104a0cec45a2d4eeae44954e39b7c42ea4514067",
+      "origem_sha256": "e3fbd0ba3b6db4ec380f4551104a0cec45a2d4eeae44954e39b7c42ea4514067",
+      "bytes": 198145
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/AB_V.csv",
+      "sha256": "c3d7b2babbb4349ba3516de1e0ce47f0a4cc7cebf79e799f5b0cb4244e7304ab",
+      "origem_sha256": "c3d7b2babbb4349ba3516de1e0ce47f0a4cc7cebf79e799f5b0cb4244e7304ab",
+      "bytes": 197232
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/A_H.csv",
+      "sha256": "e977d4a2b17f277ddffc942c12f58139765da854bb37b337bebb33a3967e4c89",
+      "origem_sha256": "e977d4a2b17f277ddffc942c12f58139765da854bb37b337bebb33a3967e4c89",
+      "bytes": 198646
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/A_V.csv",
+      "sha256": "bc777a85067ee3cf8f4405e6dbc377984f7e078471eb11dbf6f2fa74e50b56d8",
+      "origem_sha256": "bc777a85067ee3cf8f4405e6dbc377984f7e078471eb11dbf6f2fa74e50b56d8",
+      "bytes": 197210
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/B_H.csv",
+      "sha256": "2ba2bf5870e9b799d9b287d3a1067bde371e532ba08b8aa81e80fd66aaab7ce0",
+      "origem_sha256": "2ba2bf5870e9b799d9b287d3a1067bde371e532ba08b8aa81e80fd66aaab7ce0",
+      "bytes": 197415
+    },
+    {
+      "arquivo": "ensaios/v05_casamento_comum/B_V.csv",
+      "sha256": "2b7222ffb9de43a4eb1defc60cc3896976e3d0ca1657361ced0eee84ed31b92c",
+      "origem_sha256": "2b7222ffb9de43a4eb1defc60cc3896976e3d0ca1657361ced0eee84ed31b92c",
+      "bytes": 196577
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/resultado.json",
+      "sha256": "e3e11642c141a1e0f02ae9bcca3a1ae989de73cdedc0305aaf1d05704e787dd0",
+      "origem_sha256": "e3e11642c141a1e0f02ae9bcca3a1ae989de73cdedc0305aaf1d05704e787dd0",
+      "bytes": 4311
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/configuracao.json",
+      "sha256": "9a0bc9734d1acf399ae566137bbc1390f757c96f08e7ead77e36e0f7e59febba",
+      "origem_sha256": "9a0bc9734d1acf399ae566137bbc1390f757c96f08e7ead77e36e0f7e59febba",
+      "bytes": 1526
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/convergencia.txt",
+      "sha256": "79580300aec1997c9a17bc3fb9e0b5d21d339b695057549c433079857f1b1d9b",
+      "origem_sha256": "79580300aec1997c9a17bc3fb9e0b5d21d339b695057549c433079857f1b1d9b",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/centro.s2p",
+      "sha256": "e81380047aff7dbaade84ed1fbdd2f469b63ea8e83cb645f72947c7e54516e32",
+      "origem_sha256": "e81380047aff7dbaade84ed1fbdd2f469b63ea8e83cb645f72947c7e54516e32",
+      "bytes": 808
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/AB_H.csv",
+      "sha256": "6be9bc9abfbabe05cdd5aece76bb00605702f3083294cd54e495c2f4ffb9ee4f",
+      "origem_sha256": "6be9bc9abfbabe05cdd5aece76bb00605702f3083294cd54e495c2f4ffb9ee4f",
+      "bytes": 198095
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/AB_V.csv",
+      "sha256": "763188a083c4be24e6d13cfdfdfcd7944d701014b0d7e2c135d4c05a916c4bee",
+      "origem_sha256": "763188a083c4be24e6d13cfdfdfcd7944d701014b0d7e2c135d4c05a916c4bee",
+      "bytes": 197633
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/A_H.csv",
+      "sha256": "1d4e9072a0ef47f5e6fb3f96b3c1b513763f37aacad057933fefa45f4fdfa8f0",
+      "origem_sha256": "1d4e9072a0ef47f5e6fb3f96b3c1b513763f37aacad057933fefa45f4fdfa8f0",
+      "bytes": 198572
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/A_V.csv",
+      "sha256": "9d7b68d1c2f720e0effb6ae5933b45c39f81f4a95074c825bdc910900f3c3340",
+      "origem_sha256": "9d7b68d1c2f720e0effb6ae5933b45c39f81f4a95074c825bdc910900f3c3340",
+      "bytes": 197928
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/B_H.csv",
+      "sha256": "eb868faeeb48d0c1bb72b248a571f2de9b4a2a5b55769974d732be66af83f019",
+      "origem_sha256": "eb868faeeb48d0c1bb72b248a571f2de9b4a2a5b55769974d732be66af83f019",
+      "bytes": 198155
+    },
+    {
+      "arquivo": "ensaios/v06_massa_continua/B_V.csv",
+      "sha256": "53fd52db446ad91570d3bca723427eab8da157e29d8876a169a5c832c08a380f",
+      "origem_sha256": "53fd52db446ad91570d3bca723427eab8da157e29d8876a169a5c832c08a380f",
+      "bytes": 197233
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/resultado.json",
+      "sha256": "b5be37f0b9b17d654fbdd8c5402d579de4645be0e07cfa4cfbe904b4fcbec3b6",
+      "origem_sha256": "b5be37f0b9b17d654fbdd8c5402d579de4645be0e07cfa4cfbe904b4fcbec3b6",
+      "bytes": 4348
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/configuracao.json",
+      "sha256": "b149513a1f2285473d11d38a19c40c74965f7f520617397ff405124b4244c6da",
+      "origem_sha256": "b149513a1f2285473d11d38a19c40c74965f7f520617397ff405124b4244c6da",
+      "bytes": 1570
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/convergencia.txt",
+      "sha256": "e21c883e423f52b37146794c003a4cca835e271e338a58a8e40221c2e93d84b7",
+      "origem_sha256": "e21c883e423f52b37146794c003a4cca835e271e338a58a8e40221c2e93d84b7",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/centro.s2p",
+      "sha256": "be6364c5fb94e5f0fa3796d7ab5445c0d3074d60176a671d85a23bee193e42cc",
+      "origem_sha256": "be6364c5fb94e5f0fa3796d7ab5445c0d3074d60176a671d85a23bee193e42cc",
+      "bytes": 816
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/AB_H.csv",
+      "sha256": "2209318bf2f38687958b3a281ac8e330970e4184ac877a7fd7c96f2a6555372c",
+      "origem_sha256": "2209318bf2f38687958b3a281ac8e330970e4184ac877a7fd7c96f2a6555372c",
+      "bytes": 198061
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/AB_V.csv",
+      "sha256": "51d6b15483eb68c3c8c12ac828fc01dc66564db72678e18d741aaf56eb032251",
+      "origem_sha256": "51d6b15483eb68c3c8c12ac828fc01dc66564db72678e18d741aaf56eb032251",
+      "bytes": 197078
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/A_H.csv",
+      "sha256": "18d21c0e173dc2a416a465160a6afa914fc90766a736a3cc60c607f5287b7029",
+      "origem_sha256": "18d21c0e173dc2a416a465160a6afa914fc90766a736a3cc60c607f5287b7029",
+      "bytes": 198731
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/A_V.csv",
+      "sha256": "20e201540dfc1b7f316c2b139bb5b61a2307f3dd9131df1c4560ca56d17605c3",
+      "origem_sha256": "20e201540dfc1b7f316c2b139bb5b61a2307f3dd9131df1c4560ca56d17605c3",
+      "bytes": 197190
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/B_H.csv",
+      "sha256": "b0d182ec7a865cde72ef58955e50f550f844ba10c0dcf0e74c7ed74044ff7b6d",
+      "origem_sha256": "b0d182ec7a865cde72ef58955e50f550f844ba10c0dcf0e74c7ed74044ff7b6d",
+      "bytes": 197635
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/B_V.csv",
+      "sha256": "ca8cfc7912b7f3844e8c24a8c5271b7a8d27cbf2bab024eb0f838916fa2e61fa",
+      "origem_sha256": "ca8cfc7912b7f3844e8c24a8c5271b7a8d27cbf2bab024eb0f838916fa2e61fa",
+      "bytes": 196401
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/P2M21_4_elementos.aedt",
+      "sha256": "1e6ed079d66b8275a2eb8663de107853ca033c1571855b6f4b751ed2a096ab95",
+      "origem_sha256": "1e6ed079d66b8275a2eb8663de107853ca033c1571855b6f4b751ed2a096ab95",
+      "bytes": 8237672
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/4_elementos.FCStd",
+      "sha256": "5d86d3a5fe2da175a958252810172ad2e89ce7444b6f5760568b561651869880",
+      "origem_sha256": "5d86d3a5fe2da175a958252810172ad2e89ce7444b6f5760568b561651869880",
+      "bytes": 290366
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/geometria.json",
+      "sha256": "2254a2788438a2ec3b6347a678a8a6f0c92bab2cc143ac2aca3c9231c6ab554f",
+      "origem_sha256": "2254a2788438a2ec3b6347a678a8a6f0c92bab2cc143ac2aca3c9231c6ab554f",
+      "bytes": 225949
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/layout.png",
+      "sha256": "d5a9bb949a405af7d3906e3596b51971ed879837d5e92ae88cf55bab95897283",
+      "origem_sha256": "d5a9bb949a405af7d3906e3596b51971ed879837d5e92ae88cf55bab95897283",
+      "bytes": 72006
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/diagramas_HV.png",
+      "sha256": "bf10cace398300929476ca43e9f4803e02290e5b4fc2de4f984e7566c6544711",
+      "origem_sha256": "bf10cace398300929476ca43e9f4803e02290e5b4fc2de4f984e7566c6544711",
+      "bytes": 127581
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/polar_HV.png",
+      "sha256": "68d1362c29de18ee503dd80fbb5ac6f20fdb1925fc5481c76ae60d400a72e77e",
+      "origem_sha256": "68d1362c29de18ee503dd80fbb5ac6f20fdb1925fc5481c76ae60d400a72e77e",
+      "bytes": 211734
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/polar_HV.pdf",
+      "sha256": "876e0a0f9c409b64a2d7670a7877d152dd91f5f35f14605cc481dd03f4cf3edd",
+      "origem_sha256": "876e0a0f9c409b64a2d7670a7877d152dd91f5f35f14605cc481dd03f4cf3edd",
+      "bytes": 27724
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/malha.json",
+      "sha256": "2baf282b0ec71c43b5a1140357f96154016e4af0761b2e786c037af00b44141f",
+      "origem_sha256": "2baf282b0ec71c43b5a1140357f96154016e4af0761b2e786c037af00b44141f",
+      "bytes": 21658
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/qualificacao.json",
+      "sha256": "2ab6e5aa9a178a347d89b5a0df142388faeb8361f4d16cf6f46fd863a6069e9e",
+      "origem_sha256": "2ab6e5aa9a178a347d89b5a0df142388faeb8361f4d16cf6f46fd863a6069e9e",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/criar_cad.py",
+      "sha256": "0f1fece8b561f8b6d9bacf10e15572eae6393eb5354b119db8c8bf74ddfddaeb",
+      "origem_sha256": "49d2b3ce87b8731c2dde30d2387c2c83f0809e084da0c9069d056cab6ab77527",
+      "bytes": 4392
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/criar_hfss.py",
+      "sha256": "dbfad074404dda1a49687d69eb070116c7820206dc95a4c1719861119c1c9182",
+      "origem_sha256": "338831613fa9c5c868908f56bb1f28ac2a6eac5b55faccd7e8c516501cae121c",
+      "bytes": 7002
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/resolver.py",
+      "sha256": "79d89dcaeafdd461c8a95353ccc46d0ae5ac2b98ef7f9323b62365021b24ee41",
+      "origem_sha256": "974bd137256888e62e7c8e0b4994f87198483db20b9edd558a66a55138e01a63",
+      "bytes": 3624
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/sondas.py",
+      "sha256": "2e0811b7ef7c79306e8a8d5d7fc4ed0660214cfeedbc1867508f40f15318448f",
+      "origem_sha256": "2e0811b7ef7c79306e8a8d5d7fc4ed0660214cfeedbc1867508f40f15318448f",
+      "bytes": 1227
+    },
+    {
+      "arquivo": "ensaios/v09_transformadores/predimensionamento.json",
+      "sha256": "5f7a62658b5d714f5028c6b7d7d58acfc26ee88cadcf6c18d749c32639f507fb",
+      "origem_sha256": "5f7a62658b5d714f5028c6b7d7d58acfc26ee88cadcf6c18d749c32639f507fb",
+      "bytes": 470
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/resultado.json",
+      "sha256": "7829b7028177e09bf1100f421fff4166bc7f853cfd638a744d1af0b5f38ff302",
+      "origem_sha256": "7829b7028177e09bf1100f421fff4166bc7f853cfd638a744d1af0b5f38ff302",
+      "bytes": 4266
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/configuracao.json",
+      "sha256": "df814a28fc03fb9e9d6528b6591a79ad90b217f581ee6647ed46d8e18996611d",
+      "origem_sha256": "df814a28fc03fb9e9d6528b6591a79ad90b217f581ee6647ed46d8e18996611d",
+      "bytes": 1584
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/convergencia.txt",
+      "sha256": "5d64a3bdf49beeb231aaa8165b4dbde520ab9e2b53b07040e88a5393c411752a",
+      "origem_sha256": "5d64a3bdf49beeb231aaa8165b4dbde520ab9e2b53b07040e88a5393c411752a",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/centro.s2p",
+      "sha256": "20b58617c546b1c68f9ce1e72414e5577082e31587e9bffb10ae1509bf114157",
+      "origem_sha256": "20b58617c546b1c68f9ce1e72414e5577082e31587e9bffb10ae1509bf114157",
+      "bytes": 809
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/AB_H.csv",
+      "sha256": "eac65be3ca91bb79d151ea35e7c6911f09f637c081b3f1e306a3d5b4cf4ed974",
+      "origem_sha256": "eac65be3ca91bb79d151ea35e7c6911f09f637c081b3f1e306a3d5b4cf4ed974",
+      "bytes": 197721
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/AB_V.csv",
+      "sha256": "be8f9163ddaf6d7b335e70ecd44cd496fce869119e519c9ecfde3ddc1373b5fc",
+      "origem_sha256": "be8f9163ddaf6d7b335e70ecd44cd496fce869119e519c9ecfde3ddc1373b5fc",
+      "bytes": 197398
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/A_H.csv",
+      "sha256": "d51efa37bbae1403b629c0dc93acf0098999c1368d7d7170896e75c1539bfd4e",
+      "origem_sha256": "d51efa37bbae1403b629c0dc93acf0098999c1368d7d7170896e75c1539bfd4e",
+      "bytes": 198126
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/A_V.csv",
+      "sha256": "0900daf54123646784f810bd34e541e0df51149b9b0e1476e33f3963d0edd8f1",
+      "origem_sha256": "0900daf54123646784f810bd34e541e0df51149b9b0e1476e33f3963d0edd8f1",
+      "bytes": 197214
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/B_H.csv",
+      "sha256": "bdf3c7f6b556bb32fc62694af9a487191df97e12d797b52aff508f3f30020456",
+      "origem_sha256": "bdf3c7f6b556bb32fc62694af9a487191df97e12d797b52aff508f3f30020456",
+      "bytes": 197779
+    },
+    {
+      "arquivo": "ensaios/v10_passo42/B_V.csv",
+      "sha256": "0596e12f6df9df44f2acb8b531e2c7aca7f78232dda22a507b106710a24d6fcc",
+      "origem_sha256": "0596e12f6df9df44f2acb8b531e2c7aca7f78232dda22a507b106710a24d6fcc",
+      "bytes": 197237
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/resultado.json",
+      "sha256": "52b53eb001b5c9b423ba6a7f8f3ec46876c1bd54d4f5dc16608ac3077c53f5f2",
+      "origem_sha256": "52b53eb001b5c9b423ba6a7f8f3ec46876c1bd54d4f5dc16608ac3077c53f5f2",
+      "bytes": 4440
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/configuracao.json",
+      "sha256": "5cf4871099e32b3d018b27e75f635f40760571d87add3494914c5fa0e03934fa",
+      "origem_sha256": "5cf4871099e32b3d018b27e75f635f40760571d87add3494914c5fa0e03934fa",
+      "bytes": 1584
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/convergencia.txt",
+      "sha256": "e8351d0e8683018e275d96dbe148899c9602d36871b2f0cb8abe8bd5267a16da",
+      "origem_sha256": "e8351d0e8683018e275d96dbe148899c9602d36871b2f0cb8abe8bd5267a16da",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/centro.s2p",
+      "sha256": "63b964d755b0b11c344cd3330685d0a888b0d745fb670982d6ea72aeaccb622f",
+      "origem_sha256": "63b964d755b0b11c344cd3330685d0a888b0d745fb670982d6ea72aeaccb622f",
+      "bytes": 812
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/AB_H.csv",
+      "sha256": "946eb889519c1e0d64944737018f41c55988b5388bec6554f16f1a8474b97ec7",
+      "origem_sha256": "946eb889519c1e0d64944737018f41c55988b5388bec6554f16f1a8474b97ec7",
+      "bytes": 198185
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/AB_V.csv",
+      "sha256": "2cceee2fdaebd0de241c17e0c2b30bd7f9c88ff8099ae51b8155467c4cd49358",
+      "origem_sha256": "2cceee2fdaebd0de241c17e0c2b30bd7f9c88ff8099ae51b8155467c4cd49358",
+      "bytes": 196989
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/A_H.csv",
+      "sha256": "b55ffc879c1c0677fecc3c97148dd099a32a1d4b98c476cd937feef1d8565f72",
+      "origem_sha256": "b55ffc879c1c0677fecc3c97148dd099a32a1d4b98c476cd937feef1d8565f72",
+      "bytes": 198803
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/A_V.csv",
+      "sha256": "0bc868f5fdc392200e0b5dbd7b2f54eb02932c3653c732b5805d10ec71df1145",
+      "origem_sha256": "0bc868f5fdc392200e0b5dbd7b2f54eb02932c3653c732b5805d10ec71df1145",
+      "bytes": 197140
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/B_H.csv",
+      "sha256": "5de23794100c6acf163e9a97efe8eb76cd20dbc1f0defdc002935b78d9aae981",
+      "origem_sha256": "5de23794100c6acf163e9a97efe8eb76cd20dbc1f0defdc002935b78d9aae981",
+      "bytes": 197873
+    },
+    {
+      "arquivo": "ensaios/v11_passo44/B_V.csv",
+      "sha256": "e8b7cc37e5563c46996aeb019b810368b2662c757391b4b9475b8bdf474824a7",
+      "origem_sha256": "e8b7cc37e5563c46996aeb019b810368b2662c757391b4b9475b8bdf474824a7",
+      "bytes": 196985
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/resultado.json",
+      "sha256": "3d806675ed27d1b3ce081c0230da7c69dae96663f47f6cf7cac39a4ded82aadf",
+      "origem_sha256": "3d806675ed27d1b3ce081c0230da7c69dae96663f47f6cf7cac39a4ded82aadf",
+      "bytes": 4300
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/configuracao.json",
+      "sha256": "fcbd91e6807ae0c1d5e6e362fdc34f4bcbe16068417c13d5f25dc0291080a21d",
+      "origem_sha256": "fcbd91e6807ae0c1d5e6e362fdc34f4bcbe16068417c13d5f25dc0291080a21d",
+      "bytes": 1619
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/convergencia.txt",
+      "sha256": "17ac3ce3b80a0aa828be756977266b836433495df096e24c151806633a4ce9f7",
+      "origem_sha256": "17ac3ce3b80a0aa828be756977266b836433495df096e24c151806633a4ce9f7",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/centro.s2p",
+      "sha256": "78d416f8f80a78e6d825c8945c2a6c80c4b12774f36008c74ec5ace02c23a63b",
+      "origem_sha256": "78d416f8f80a78e6d825c8945c2a6c80c4b12774f36008c74ec5ace02c23a63b",
+      "bytes": 814
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/AB_H.csv",
+      "sha256": "2e6022fb5a486a12e40d2897cc8b0847a57c7862bb74df30349b80ff8735894d",
+      "origem_sha256": "2e6022fb5a486a12e40d2897cc8b0847a57c7862bb74df30349b80ff8735894d",
+      "bytes": 198312
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/AB_V.csv",
+      "sha256": "f4664de08765ae6c97ed9131697e7a2e17d38902a7a959010124d4da6bdc4a3f",
+      "origem_sha256": "f4664de08765ae6c97ed9131697e7a2e17d38902a7a959010124d4da6bdc4a3f",
+      "bytes": 196686
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/A_H.csv",
+      "sha256": "5526ac490ce6b556fa4a3aff8e5236c9d21ba4cbb4ef7eb57f0d46f85d4407c2",
+      "origem_sha256": "5526ac490ce6b556fa4a3aff8e5236c9d21ba4cbb4ef7eb57f0d46f85d4407c2",
+      "bytes": 199052
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/A_V.csv",
+      "sha256": "1d81bd85de344e32e162030cca3f56b800ed47c522f515c3ac27fdc7896434d4",
+      "origem_sha256": "1d81bd85de344e32e162030cca3f56b800ed47c522f515c3ac27fdc7896434d4",
+      "bytes": 197175
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/B_H.csv",
+      "sha256": "6731a29ff8388ebc3a3ab90e887bc361059c1cebaa400ee7aea606ff924d8ed4",
+      "origem_sha256": "6731a29ff8388ebc3a3ab90e887bc361059c1cebaa400ee7aea606ff924d8ed4",
+      "bytes": 197801
+    },
+    {
+      "arquivo": "ensaios/v12_passo42_compensado/B_V.csv",
+      "sha256": "cbc7954cf66f63ae3c95c7982bb13ea615915d36cb18af73fc91f5e6d44770bf",
+      "origem_sha256": "cbc7954cf66f63ae3c95c7982bb13ea615915d36cb18af73fc91f5e6d44770bf",
+      "bytes": 196886
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/resultado.json",
+      "sha256": "7b219319040ad207301efd5cd615a6c094acb4ec4f115316c14a9019b089fd2a",
+      "origem_sha256": "7b219319040ad207301efd5cd615a6c094acb4ec4f115316c14a9019b089fd2a",
+      "bytes": 4338
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/configuracao.json",
+      "sha256": "9c2d21a19c78df7ba03a5e00f82de37478a6c730bd6e00d1d2623547eba3753c",
+      "origem_sha256": "9c2d21a19c78df7ba03a5e00f82de37478a6c730bd6e00d1d2623547eba3753c",
+      "bytes": 1659
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/convergencia.txt",
+      "sha256": "0293f7dcfb7a0d6e711078bb938400e8254bf84cb8b47c703c9c69b87e3972e3",
+      "origem_sha256": "0293f7dcfb7a0d6e711078bb938400e8254bf84cb8b47c703c9c69b87e3972e3",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/centro.s2p",
+      "sha256": "80da99b1068fe5328cce84b5c1efc01393da1d810a48e5ceff5143e979d1e261",
+      "origem_sha256": "80da99b1068fe5328cce84b5c1efc01393da1d810a48e5ceff5143e979d1e261",
+      "bytes": 823
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/AB_H.csv",
+      "sha256": "b4eceb91f0f7a4fc6a44eabc4ebfd01a5e401a0a1340e9e12c1c9af22f2bf170",
+      "origem_sha256": "b4eceb91f0f7a4fc6a44eabc4ebfd01a5e401a0a1340e9e12c1c9af22f2bf170",
+      "bytes": 197778
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/AB_V.csv",
+      "sha256": "e0aca26fce45e7e7a0626f40dd80992ee6bfdfa504f0a851af1c3393428e9ba2",
+      "origem_sha256": "e0aca26fce45e7e7a0626f40dd80992ee6bfdfa504f0a851af1c3393428e9ba2",
+      "bytes": 197467
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/A_H.csv",
+      "sha256": "9279981627bdf2ff795126a83b5c3950d02ee138a65c8577ac38f41e15090cd4",
+      "origem_sha256": "9279981627bdf2ff795126a83b5c3950d02ee138a65c8577ac38f41e15090cd4",
+      "bytes": 198075
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/A_V.csv",
+      "sha256": "4d0f21cf8f304e95e8a2a5c2b9c4fa80295a73d04a7f685c6ba9156a70d33563",
+      "origem_sha256": "4d0f21cf8f304e95e8a2a5c2b9c4fa80295a73d04a7f685c6ba9156a70d33563",
+      "bytes": 197568
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/B_H.csv",
+      "sha256": "813b0795217ddfe43294ac6554baa442850b48da38d15a426110bf46617e4f45",
+      "origem_sha256": "813b0795217ddfe43294ac6554baa442850b48da38d15a426110bf46617e4f45",
+      "bytes": 197520
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/B_V.csv",
+      "sha256": "a02b0047a476a614bae33b2cc2c364c5b371cabbbdba75dfbfd986780b0d3417",
+      "origem_sha256": "a02b0047a476a614bae33b2cc2c364c5b371cabbbdba75dfbfd986780b0d3417",
+      "bytes": 196918
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/P2M21_4_elementos.aedt",
+      "sha256": "36cd4a102aceb9abe7baab2413c3f4b3b2f85d6773dc83edad03ef6444b6c62f",
+      "origem_sha256": "36cd4a102aceb9abe7baab2413c3f4b3b2f85d6773dc83edad03ef6444b6c62f",
+      "bytes": 8181658
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/4_elementos.FCStd",
+      "sha256": "2fc3ccb2a8534d715104cdac7aa1af2ae2e82222ac72e9f42d02193369e7721f",
+      "origem_sha256": "2fc3ccb2a8534d715104cdac7aa1af2ae2e82222ac72e9f42d02193369e7721f",
+      "bytes": 287969
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/geometria.json",
+      "sha256": "2e5273750926a08fe20954363744a3314e0ae861f9b875578f8e19bcadbc563b",
+      "origem_sha256": "2e5273750926a08fe20954363744a3314e0ae861f9b875578f8e19bcadbc563b",
+      "bytes": 224669
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/layout.png",
+      "sha256": "a829d6776ef435d95a84531e824eb540179ce706b70ed0fbce7891c209da68bb",
+      "origem_sha256": "a829d6776ef435d95a84531e824eb540179ce706b70ed0fbce7891c209da68bb",
+      "bytes": 66248
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/diagramas_HV.png",
+      "sha256": "52934629741e48be4989f931918f5faae31be122915448a3c7a67d986b363b69",
+      "origem_sha256": "52934629741e48be4989f931918f5faae31be122915448a3c7a67d986b363b69",
+      "bytes": 124532
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/polar_HV.png",
+      "sha256": "9a57fb25249e18f35f627fb35ac3ebbaf9b4507252121989fecfd7c4cd2f8d2c",
+      "origem_sha256": "9a57fb25249e18f35f627fb35ac3ebbaf9b4507252121989fecfd7c4cd2f8d2c",
+      "bytes": 213005
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/polar_HV.pdf",
+      "sha256": "0fc37c3a697c7f27d0c1843447821a79fb52d50e554cdb4ee375566c84a0b5c8",
+      "origem_sha256": "0fc37c3a697c7f27d0c1843447821a79fb52d50e554cdb4ee375566c84a0b5c8",
+      "bytes": 27910
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/malha.json",
+      "sha256": "ac12ebd9849896f4b2c229eb3e220e5810773af3707d02837018089d9361ae6e",
+      "origem_sha256": "ac12ebd9849896f4b2c229eb3e220e5810773af3707d02837018089d9361ae6e",
+      "bytes": 22162
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/qualificacao.json",
+      "sha256": "f70b4bb2dcb02766c7c96f02488e7d6ca7f1e294b1fe740307875c6056810621",
+      "origem_sha256": "f70b4bb2dcb02766c7c96f02488e7d6ca7f1e294b1fe740307875c6056810621",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/criar_cad.py",
+      "sha256": "052f9436a5cbdd329432085fac65e08f3e2ab710f9eef0d20b039f81945cb5d4",
+      "origem_sha256": "6d08dd9d48c175ed8560f6def60d8852d176fc8f34534d3cf317560f705d8220",
+      "bytes": 4393
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/criar_hfss.py",
+      "sha256": "8f6ce07d39c346b5d17757ef094b562e19c4049c7f0cccfb924cb84140261804",
+      "origem_sha256": "cfb958e34a7adcae23d653334807baf4de02b3c9efff3ebf5eeb77192d92ba54",
+      "bytes": 7005
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/resolver.py",
+      "sha256": "2ec12cbc051e6ac53b1f77586c624bdb8976fda2500a240bd609c681d21a9064",
+      "origem_sha256": "9bc36e95f1fa721fb003769e789159031bfb601445e8029a9e9f3b24cb4619a2",
+      "bytes": 3625
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/sondas.py",
+      "sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "origem_sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "bytes": 1305
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/predimensionamento.json",
+      "sha256": "c2130e564bee8d5238ee2c0ce22801058e55d630dc89d3e81ffbfbbc6e564919",
+      "origem_sha256": "c2130e564bee8d5238ee2c0ce22801058e55d630dc89d3e81ffbfbbc6e564919",
+      "bytes": 891
+    },
+    {
+      "arquivo": "ensaios/v13_passo50_ajustado/caminhos_alimentacao.json",
+      "sha256": "122296ea5133335b7f37033ed17ec2afb3f4b7a265d5c20380f0bcdda2ca49a0",
+      "origem_sha256": "122296ea5133335b7f37033ed17ec2afb3f4b7a265d5c20380f0bcdda2ca49a0",
+      "bytes": 544
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/resultado.json",
+      "sha256": "9f953ffb99bcfdef396d0a09b18c449b881545e858ff60f05c3028f9fa4e9f71",
+      "origem_sha256": "9f953ffb99bcfdef396d0a09b18c449b881545e858ff60f05c3028f9fa4e9f71",
+      "bytes": 4348
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/configuracao.json",
+      "sha256": "d2aca086e14a39f0d2f0b19b6acebfdc744adc580f65719ddfa783f709896f52",
+      "origem_sha256": "d2aca086e14a39f0d2f0b19b6acebfdc744adc580f65719ddfa783f709896f52",
+      "bytes": 1659
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/convergencia.txt",
+      "sha256": "bf97f74382ecc0042887b3140d1a999e4451d7f57a0280740ddd86399bfef2a8",
+      "origem_sha256": "bf97f74382ecc0042887b3140d1a999e4451d7f57a0280740ddd86399bfef2a8",
+      "bytes": 620
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/centro.s2p",
+      "sha256": "dba9478ae34a0f79bc43316d6f21358b25735244622cf540c3ba8b346bd38221",
+      "origem_sha256": "dba9478ae34a0f79bc43316d6f21358b25735244622cf540c3ba8b346bd38221",
+      "bytes": 819
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/AB_H.csv",
+      "sha256": "4c98befaaa8e969046cb83d80463f14d4a7b5c05e7d6b070c9b9ab35cdc2ccfe",
+      "origem_sha256": "4c98befaaa8e969046cb83d80463f14d4a7b5c05e7d6b070c9b9ab35cdc2ccfe",
+      "bytes": 197353
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/AB_V.csv",
+      "sha256": "de2bebd33be7e88fb1d541c3b9898338c29e6a2d5665741c72ea243dc19e169c",
+      "origem_sha256": "de2bebd33be7e88fb1d541c3b9898338c29e6a2d5665741c72ea243dc19e169c",
+      "bytes": 197567
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/A_H.csv",
+      "sha256": "95fb7d45aedcca8f1b542bc700155ca0a5a77d173cd156be51d03f569951d1bf",
+      "origem_sha256": "95fb7d45aedcca8f1b542bc700155ca0a5a77d173cd156be51d03f569951d1bf",
+      "bytes": 197453
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/A_V.csv",
+      "sha256": "9972edd665b63b17019b63660850426ad107723278982ade9718a168e9b392cc",
+      "origem_sha256": "9972edd665b63b17019b63660850426ad107723278982ade9718a168e9b392cc",
+      "bytes": 197630
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/B_H.csv",
+      "sha256": "eb672f81e1dfba28d1a7116afb4a0eefb9b3903cfbfc81cf34008f9a31ec56ec",
+      "origem_sha256": "eb672f81e1dfba28d1a7116afb4a0eefb9b3903cfbfc81cf34008f9a31ec56ec",
+      "bytes": 197537
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/B_V.csv",
+      "sha256": "e700b7d09027abdfc227e57716231d7896c4533adef5a742bb5b8a45b487ef72",
+      "origem_sha256": "e700b7d09027abdfc227e57716231d7896c4533adef5a742bb5b8a45b487ef72",
+      "bytes": 197402
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/P2M21_4_elementos.aedt",
+      "sha256": "d186e4a7b65548547634123ca64bbcb5a4b9cfa45f77d3e425683ad5dae027f1",
+      "origem_sha256": "d186e4a7b65548547634123ca64bbcb5a4b9cfa45f77d3e425683ad5dae027f1",
+      "bytes": 8069181
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/4_elementos.FCStd",
+      "sha256": "8662fc6c683c9b7296242ff26b66a6d5cd879828361dfbef027f6272cfae1e54",
+      "origem_sha256": "8662fc6c683c9b7296242ff26b66a6d5cd879828361dfbef027f6272cfae1e54",
+      "bytes": 283456
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/geometria.json",
+      "sha256": "46abddec4c19f75d67bdf3456138fcede5414c9913f278045ba9bed3e1bdbc24",
+      "origem_sha256": "46abddec4c19f75d67bdf3456138fcede5414c9913f278045ba9bed3e1bdbc24",
+      "bytes": 221965
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/layout.png",
+      "sha256": "1412a1e09d5ada2310408345701fda8bb7f93bbe2116fb3cd17778393d47ad12",
+      "origem_sha256": "1412a1e09d5ada2310408345701fda8bb7f93bbe2116fb3cd17778393d47ad12",
+      "bytes": 66072
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/diagramas_HV.png",
+      "sha256": "0a4ae1657f33d8c45a3173051943d28ae62bec116f813aa1e99e4cb8cfc93610",
+      "origem_sha256": "0a4ae1657f33d8c45a3173051943d28ae62bec116f813aa1e99e4cb8cfc93610",
+      "bytes": 122569
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/polar_HV.png",
+      "sha256": "61b6e7a5f08ee87c7f18dd62f842ebb3d42a0c979625c25b998c8224c3f1d059",
+      "origem_sha256": "61b6e7a5f08ee87c7f18dd62f842ebb3d42a0c979625c25b998c8224c3f1d059",
+      "bytes": 214882
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/polar_HV.pdf",
+      "sha256": "ae04f7ec15629bcf71d713a08e4b47079de4a29d2529c1ed9f23ee450a3e264f",
+      "origem_sha256": "ae04f7ec15629bcf71d713a08e4b47079de4a29d2529c1ed9f23ee450a3e264f",
+      "bytes": 28134
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/malha.json",
+      "sha256": "d17ffb235ff0bad72d46b143a94138d6a21955f08a9b628c18ca6f45ee077af7",
+      "origem_sha256": "d17ffb235ff0bad72d46b143a94138d6a21955f08a9b628c18ca6f45ee077af7",
+      "bytes": 19908
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/qualificacao.json",
+      "sha256": "103775d0a54e3adadf269146e3cd4c1b33d2906ab825263168381e5b8ef859aa",
+      "origem_sha256": "103775d0a54e3adadf269146e3cd4c1b33d2906ab825263168381e5b8ef859aa",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/criar_cad.py",
+      "sha256": "9efdc87daf05ff4f31c48042477efc361e4afc6bc4e0e8a5b758f1c5f0067b78",
+      "origem_sha256": "71452c75d15161e801d59cf64ba5e05bc7429e1ba0783de215aa5d5b0e631fb4",
+      "bytes": 4393
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/criar_hfss.py",
+      "sha256": "f759b0f0873dd1a633df3906a1a039a94d824e326ce4fb17352670a4ec44b96a",
+      "origem_sha256": "5a82ce244821e52514e526bfaca9c947f051746b31b4610ce32e3528af341ab0",
+      "bytes": 7005
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/resolver.py",
+      "sha256": "a72cfeef5e1325a392ea67283f31144e5d872c1a4ba1332de6c6f208f4334b43",
+      "origem_sha256": "ba3c4a4bb6aa49e79d5bf190b7b4626a3a44c14d2692e29de0299504fea5b9a5",
+      "bytes": 3625
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/sondas.py",
+      "sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "origem_sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "bytes": 1305
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/predimensionamento.json",
+      "sha256": "b9bb1ba717cad3987c7e204ec45beeaa2bbb99c0756847c864ccb1fd51c6eeae",
+      "origem_sha256": "b9bb1ba717cad3987c7e204ec45beeaa2bbb99c0756847c864ccb1fd51c6eeae",
+      "bytes": 888
+    },
+    {
+      "arquivo": "ensaios/v14_passo52_ajustado/caminhos_alimentacao.json",
+      "sha256": "c634ae9711257e4973ff35af491180bc4bc4d4e88d275068f10d0f96b623864a",
+      "origem_sha256": "c634ae9711257e4973ff35af491180bc4bc4d4e88d275068f10d0f96b623864a",
+      "bytes": 544
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/resultado.json",
+      "sha256": "d4507eebb4722274f87d9421b58bd01089b520295ba124885a9caa27d85e8b32",
+      "origem_sha256": "d4507eebb4722274f87d9421b58bd01089b520295ba124885a9caa27d85e8b32",
+      "bytes": 4347
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/configuracao.json",
+      "sha256": "319271efabdcf237e064d22c5b834d57353eb6d309d45e3c6ac4306b1a65eec1",
+      "origem_sha256": "319271efabdcf237e064d22c5b834d57353eb6d309d45e3c6ac4306b1a65eec1",
+      "bytes": 1659
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/convergencia.txt",
+      "sha256": "4d9abaca912f1bdebef66eec94f00b7e5cf3be43db5eb58422250581064a9e36",
+      "origem_sha256": "4d9abaca912f1bdebef66eec94f00b7e5cf3be43db5eb58422250581064a9e36",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/centro.s2p",
+      "sha256": "bebf235edee45d98578dd83ecc99bd532664c0a40028eb57c62bfee1dade77cd",
+      "origem_sha256": "bebf235edee45d98578dd83ecc99bd532664c0a40028eb57c62bfee1dade77cd",
+      "bytes": 816
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/AB_H.csv",
+      "sha256": "8a0980744ae6cae18cf356209cee9a63b554bdb44bef2570e16ca7b623df0847",
+      "origem_sha256": "8a0980744ae6cae18cf356209cee9a63b554bdb44bef2570e16ca7b623df0847",
+      "bytes": 196831
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/AB_V.csv",
+      "sha256": "cc9494da196c77f79fda0e1b6f1b0c6e4481ba135510ea9073e5d1317d32e75b",
+      "origem_sha256": "cc9494da196c77f79fda0e1b6f1b0c6e4481ba135510ea9073e5d1317d32e75b",
+      "bytes": 197272
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/A_H.csv",
+      "sha256": "ca498e7613483162fa2f89e327c51eb68a48f7db2091b9f7b5ff2f2ef85878a3",
+      "origem_sha256": "ca498e7613483162fa2f89e327c51eb68a48f7db2091b9f7b5ff2f2ef85878a3",
+      "bytes": 196656
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/A_V.csv",
+      "sha256": "a4d00b8eb9d5c53df1318f7ca4ca7c0b8671db408faf93f7a0bf6e2376a9f79a",
+      "origem_sha256": "a4d00b8eb9d5c53df1318f7ca4ca7c0b8671db408faf93f7a0bf6e2376a9f79a",
+      "bytes": 197273
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/B_H.csv",
+      "sha256": "aa257b7b7aab4bc3a0c7932deb1c5bf20466b45cee67bd3fb48071fcec24e7f1",
+      "origem_sha256": "aa257b7b7aab4bc3a0c7932deb1c5bf20466b45cee67bd3fb48071fcec24e7f1",
+      "bytes": 197419
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/B_V.csv",
+      "sha256": "cc7abf099b0df54f57b8855deb120f43dd109dd6dce9ec7523172ec08cba9d5b",
+      "origem_sha256": "cc7abf099b0df54f57b8855deb120f43dd109dd6dce9ec7523172ec08cba9d5b",
+      "bytes": 197400
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/P2M21_4_elementos.aedt",
+      "sha256": "d899fd974bd92463e31b7818a47a04d97f34b2b00f45cce1167a3f6368c2649c",
+      "origem_sha256": "d899fd974bd92463e31b7818a47a04d97f34b2b00f45cce1167a3f6368c2649c",
+      "bytes": 8040973
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/4_elementos.FCStd",
+      "sha256": "d071d44ae6870e42f678c082c69d4e73156d4e3867a88951c258e2c8eba750ec",
+      "origem_sha256": "d071d44ae6870e42f678c082c69d4e73156d4e3867a88951c258e2c8eba750ec",
+      "bytes": 282291
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/geometria.json",
+      "sha256": "de1c642d267832a3bf0cafc655358f7bb682f8081f2a0590b2f4560c23e9e0c6",
+      "origem_sha256": "de1c642d267832a3bf0cafc655358f7bb682f8081f2a0590b2f4560c23e9e0c6",
+      "bytes": 221281
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/layout.png",
+      "sha256": "048ba2d18a01c39d929d86f9fbd66308729d0e5bbedf7e1474f4c724158b6727",
+      "origem_sha256": "048ba2d18a01c39d929d86f9fbd66308729d0e5bbedf7e1474f4c724158b6727",
+      "bytes": 65780
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/diagramas_HV.png",
+      "sha256": "11007233e8f9df3f2e10ea7d7e5777807b2d538915b26d083d4f55a168b083b2",
+      "origem_sha256": "11007233e8f9df3f2e10ea7d7e5777807b2d538915b26d083d4f55a168b083b2",
+      "bytes": 124646
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/polar_HV.png",
+      "sha256": "c6ef209e299752b0cc281a2e976a61373e7ef1f970adc9b4300eb033f87772b3",
+      "origem_sha256": "c6ef209e299752b0cc281a2e976a61373e7ef1f970adc9b4300eb033f87772b3",
+      "bytes": 215943
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/polar_HV.pdf",
+      "sha256": "ac0a482961125e764379a3262c3834c46bacb2bd98020a52f790379d9368eef4",
+      "origem_sha256": "ac0a482961125e764379a3262c3834c46bacb2bd98020a52f790379d9368eef4",
+      "bytes": 28191
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/malha.json",
+      "sha256": "003a5c60e38de99ce0c9dbc78c9fe356d54a1c02aa7b73a4ed5d3a3e11821c0c",
+      "origem_sha256": "003a5c60e38de99ce0c9dbc78c9fe356d54a1c02aa7b73a4ed5d3a3e11821c0c",
+      "bytes": 22186
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/qualificacao.json",
+      "sha256": "5c06654eb68b6e297fe5e561b5d9a420567e5dbe1fb9589e5aaf7a3bef98f466",
+      "origem_sha256": "5c06654eb68b6e297fe5e561b5d9a420567e5dbe1fb9589e5aaf7a3bef98f466",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/criar_cad.py",
+      "sha256": "4db03fa309cd22b7508e716fd49822b01cf2146b72f8ba13f65fdbed082d5f7b",
+      "origem_sha256": "700abf8ea1aa1fa28555ee298fbc904b614a9bf6fa0dd9cd1c2df011906e2d04",
+      "bytes": 4393
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/criar_hfss.py",
+      "sha256": "118ff8313db10148a4a6129dc30d4b66cb975d22da8bd641a6ca4246f5354714",
+      "origem_sha256": "fc34d8fcd349cdef1dcd02cf1bb4113a74bd42a94d404ecb579e80a11560ec75",
+      "bytes": 7005
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/resolver.py",
+      "sha256": "bcd0278ad9555f1c32a7da8c9aa003a0a7d81d8e0eeeb7a7985dccab0ac8a8dd",
+      "origem_sha256": "192f445dd2664edde78f26d88a4f7a5001d0bba052968c42dbbf81ee4979e6e3",
+      "bytes": 3625
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/sondas.py",
+      "sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "origem_sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "bytes": 1305
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/predimensionamento.json",
+      "sha256": "c46c6d8681bb2b7ac8c6c04cb8cf180b5d547ac0a1027c643349e800d7288c7e",
+      "origem_sha256": "c46c6d8681bb2b7ac8c6c04cb8cf180b5d547ac0a1027c643349e800d7288c7e",
+      "bytes": 890
+    },
+    {
+      "arquivo": "ensaios/v15_passo54_ajustado/caminhos_alimentacao.json",
+      "sha256": "2e221047d35585bef5f34b37a8a3f78d2910f5f43d94d740c842309739e20cba",
+      "origem_sha256": "2e221047d35585bef5f34b37a8a3f78d2910f5f43d94d740c842309739e20cba",
+      "bytes": 544
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/resultado.json",
+      "sha256": "827af2c8d9036dcac0a875a787f72d5058f11be0328a7b4f49a81d1f1d0caf45",
+      "origem_sha256": "827af2c8d9036dcac0a875a787f72d5058f11be0328a7b4f49a81d1f1d0caf45",
+      "bytes": 4361
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/configuracao.json",
+      "sha256": "9fc9d738c2fcd28e2e0083463ace39fec7e575e3607de6fd93eade5aba30fa3a",
+      "origem_sha256": "9fc9d738c2fcd28e2e0083463ace39fec7e575e3607de6fd93eade5aba30fa3a",
+      "bytes": 1684
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/convergencia.txt",
+      "sha256": "586788e98e7b7b39faff04fe865ebca6f6b2e7140d2be4e708c95a93de719c61",
+      "origem_sha256": "586788e98e7b7b39faff04fe865ebca6f6b2e7140d2be4e708c95a93de719c61",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/centro.s2p",
+      "sha256": "896051532ac82a310a6a40483fbf49e021786b2e08ec9df49be1269ec910a220",
+      "origem_sha256": "896051532ac82a310a6a40483fbf49e021786b2e08ec9df49be1269ec910a220",
+      "bytes": 827
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/AB_H.csv",
+      "sha256": "0ebf1fa855cbb127a03abea636ddf35996436964d13f91c996990d43d8cb8601",
+      "origem_sha256": "0ebf1fa855cbb127a03abea636ddf35996436964d13f91c996990d43d8cb8601",
+      "bytes": 197668
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/AB_V.csv",
+      "sha256": "f81d03d21077431d2da5db2937504573610d2f86f45269df438e8d3183f0138c",
+      "origem_sha256": "f81d03d21077431d2da5db2937504573610d2f86f45269df438e8d3183f0138c",
+      "bytes": 197283
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/A_H.csv",
+      "sha256": "550fbe6ebca829539a4cdf95f903d7ffbce59a627503c63ae314895175e62827",
+      "origem_sha256": "550fbe6ebca829539a4cdf95f903d7ffbce59a627503c63ae314895175e62827",
+      "bytes": 198092
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/A_V.csv",
+      "sha256": "4a2b09af0583d2d3fc7941e916ac53d04ac18bebc8d81a773de35df96a4ea067",
+      "origem_sha256": "4a2b09af0583d2d3fc7941e916ac53d04ac18bebc8d81a773de35df96a4ea067",
+      "bytes": 197667
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/B_H.csv",
+      "sha256": "018d172b732f8989c0525f30682fd52a010cbdf6f0b278c46c8555d6aacaccc6",
+      "origem_sha256": "018d172b732f8989c0525f30682fd52a010cbdf6f0b278c46c8555d6aacaccc6",
+      "bytes": 197455
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/B_V.csv",
+      "sha256": "a3ce6d22a5713fe276da5e8eb99e801b8fd352737870ee1118de59e5276da796",
+      "origem_sha256": "a3ce6d22a5713fe276da5e8eb99e801b8fd352737870ee1118de59e5276da796",
+      "bytes": 196812
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/P2M21_4_elementos.aedt",
+      "sha256": "9ba2ba1fd3bb7c2a8356cf53593f24fd5a8c94198c3b367b66496ffeb73eb125",
+      "origem_sha256": "9ba2ba1fd3bb7c2a8356cf53593f24fd5a8c94198c3b367b66496ffeb73eb125",
+      "bytes": 8013232
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/4_elementos.FCStd",
+      "sha256": "d5ed2d1e9553cc9362028b415b010960c325fb03e95fe06bc07781f2d7a58bd7",
+      "origem_sha256": "d5ed2d1e9553cc9362028b415b010960c325fb03e95fe06bc07781f2d7a58bd7",
+      "bytes": 281085
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/geometria.json",
+      "sha256": "5fc8d5acd7770aaeeb96ae2a68829f9808429910573f72bc258e5a773257a280",
+      "origem_sha256": "5fc8d5acd7770aaeeb96ae2a68829f9808429910573f72bc258e5a773257a280",
+      "bytes": 220628
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/layout.png",
+      "sha256": "5bdd83a464acd0ee8926adcd29d249e17bee2fd40c72a09f0217e074f2d61497",
+      "origem_sha256": "5bdd83a464acd0ee8926adcd29d249e17bee2fd40c72a09f0217e074f2d61497",
+      "bytes": 66926
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/diagramas_HV.png",
+      "sha256": "9408372f1cbdf72b123e282988c342575bd97621a16bc342ef7513e838df99f4",
+      "origem_sha256": "9408372f1cbdf72b123e282988c342575bd97621a16bc342ef7513e838df99f4",
+      "bytes": 124250
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/polar_HV.png",
+      "sha256": "5f8d6fb76ba94c9b0d637448a5bf23dcc4557db3076da57755a3130028db5674",
+      "origem_sha256": "5f8d6fb76ba94c9b0d637448a5bf23dcc4557db3076da57755a3130028db5674",
+      "bytes": 213166
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/polar_HV.pdf",
+      "sha256": "97f56a606afdf76ccd1e2742bccecde2981eb94737fb6faf0ee69103dcf413c2",
+      "origem_sha256": "97f56a606afdf76ccd1e2742bccecde2981eb94737fb6faf0ee69103dcf413c2",
+      "bytes": 27633
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/malha.json",
+      "sha256": "fce1ecd23a487732e729540c4c2b43b5b82e47415b08ba121bd5041687172ab2",
+      "origem_sha256": "fce1ecd23a487732e729540c4c2b43b5b82e47415b08ba121bd5041687172ab2",
+      "bytes": 24299
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/qualificacao.json",
+      "sha256": "84d621c18544f5829880946493f70d4edb1a03f4f016a8fc5799865947f0e5f1",
+      "origem_sha256": "84d621c18544f5829880946493f70d4edb1a03f4f016a8fc5799865947f0e5f1",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/criar_cad.py",
+      "sha256": "2a334b185f0f81c642407878a179ab78256c1c9fb7b7c316512938861dde6d74",
+      "origem_sha256": "5b0bfa0149f21b5bddf091b7e4fa638055b693516cb43aa69aa090e6b857a03f",
+      "bytes": 4395
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/criar_hfss.py",
+      "sha256": "47caee4fc4cd7d0a7a07aef6f92ee3fe427fad48ca5238d9600b82d338ebc720",
+      "origem_sha256": "fcb3c61e349674af81179b1d18d25f2a6a4d54bdb9a90755088231042cc628dd",
+      "bytes": 7006
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/resolver.py",
+      "sha256": "1bb23857a52c71295a7ffed04d2e17ddc69568b5a070395af4955519240be468",
+      "origem_sha256": "15a722c69f8bb343e1b694db60df53f7cceccc5b02af0799a49c1dac6de220b7",
+      "bytes": 3627
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/sondas.py",
+      "sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "origem_sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "bytes": 1305
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/predimensionamento.json",
+      "sha256": "db451fac006b87e3ee2f5d001074f4ec35effcf00da2b8be133323b95f702bdb",
+      "origem_sha256": "db451fac006b87e3ee2f5d001074f4ec35effcf00da2b8be133323b95f702bdb",
+      "bytes": 754
+    },
+    {
+      "arquivo": "ensaios/v16_passo50_reajustado/caminhos_alimentacao.json",
+      "sha256": "122296ea5133335b7f37033ed17ec2afb3f4b7a265d5c20380f0bcdda2ca49a0",
+      "origem_sha256": "122296ea5133335b7f37033ed17ec2afb3f4b7a265d5c20380f0bcdda2ca49a0",
+      "bytes": 544
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/resultado.json",
+      "sha256": "ecb39473d66508f61a80ca520ca747fd188fce94ed7ffcb4f544004271eae50b",
+      "origem_sha256": "ecb39473d66508f61a80ca520ca747fd188fce94ed7ffcb4f544004271eae50b",
+      "bytes": 4372
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/configuracao.json",
+      "sha256": "c1c892a31f4fe1e4819325c49fbfedabce1058c1fce614b0d0b1c85693364fd6",
+      "origem_sha256": "c1c892a31f4fe1e4819325c49fbfedabce1058c1fce614b0d0b1c85693364fd6",
+      "bytes": 1682
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/convergencia.txt",
+      "sha256": "9a744d9564f40fba8117eeed230185c39a15452f44af820c626682bd7525be14",
+      "origem_sha256": "9a744d9564f40fba8117eeed230185c39a15452f44af820c626682bd7525be14",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/centro.s2p",
+      "sha256": "4957e9c15cf7e7695483755d7cfd683bd85f5639062b9d75ade782a4bc63bd6e",
+      "origem_sha256": "4957e9c15cf7e7695483755d7cfd683bd85f5639062b9d75ade782a4bc63bd6e",
+      "bytes": 821
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/AB_H.csv",
+      "sha256": "f97c87fb7e6c0507d56d9c7c474a664c6ec0d160b66ab943a9dc98bad76f951a",
+      "origem_sha256": "f97c87fb7e6c0507d56d9c7c474a664c6ec0d160b66ab943a9dc98bad76f951a",
+      "bytes": 197397
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/AB_V.csv",
+      "sha256": "1a612e567ec0f67bf27989df18b3ac21578ac8eb1bc98d7f5c1ed6bd64ab17fa",
+      "origem_sha256": "1a612e567ec0f67bf27989df18b3ac21578ac8eb1bc98d7f5c1ed6bd64ab17fa",
+      "bytes": 197643
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/A_H.csv",
+      "sha256": "bd6e442a6117523e2d7e1349c73df248ab3cc6a717f86d4359c86d67bdc24bc4",
+      "origem_sha256": "bd6e442a6117523e2d7e1349c73df248ab3cc6a717f86d4359c86d67bdc24bc4",
+      "bytes": 197645
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/A_V.csv",
+      "sha256": "1e838d2e4069333964b77d0f9763f58493159f496c2352fb975ee2b243b58569",
+      "origem_sha256": "1e838d2e4069333964b77d0f9763f58493159f496c2352fb975ee2b243b58569",
+      "bytes": 197691
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/B_H.csv",
+      "sha256": "b4e75218c1e9ab2d3cefa57ccf55d26c691252e852594deee566498d4f8f2d14",
+      "origem_sha256": "b4e75218c1e9ab2d3cefa57ccf55d26c691252e852594deee566498d4f8f2d14",
+      "bytes": 197541
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/B_V.csv",
+      "sha256": "db0a0f1ec62892d11a7bc609810952999d27656eb421a9101a568ee42af5127a",
+      "origem_sha256": "db0a0f1ec62892d11a7bc609810952999d27656eb421a9101a568ee42af5127a",
+      "bytes": 197299
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/P2M21_4_elementos.aedt",
+      "sha256": "5fcb050b844bc234a9317cbfc691280060c58c1369c67a78ce0019806c9f9f11",
+      "origem_sha256": "5fcb050b844bc234a9317cbfc691280060c58c1369c67a78ce0019806c9f9f11",
+      "bytes": 8125457
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/4_elementos.FCStd",
+      "sha256": "8d63d2362f315e9ca2148cd8ffd3781362a46ae4962c3087ae2e0bacbb1e8d6d",
+      "origem_sha256": "8d63d2362f315e9ca2148cd8ffd3781362a46ae4962c3087ae2e0bacbb1e8d6d",
+      "bytes": 285333
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/geometria.json",
+      "sha256": "1590646a91b08d90a674dac0fd6c59b9eff497bcc125538d3804adec06310925",
+      "origem_sha256": "1590646a91b08d90a674dac0fd6c59b9eff497bcc125538d3804adec06310925",
+      "bytes": 223325
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/layout.png",
+      "sha256": "44831e58fb65747e8c22ddf98ecbf44516fd7b432f9b9dd05192759fd353d555",
+      "origem_sha256": "44831e58fb65747e8c22ddf98ecbf44516fd7b432f9b9dd05192759fd353d555",
+      "bytes": 66393
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/diagramas_HV.png",
+      "sha256": "fca4cec0e73d2740c638bbaa77022b66933604da08447f7ee7865ace9fad2011",
+      "origem_sha256": "fca4cec0e73d2740c638bbaa77022b66933604da08447f7ee7865ace9fad2011",
+      "bytes": 124010
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/polar_HV.png",
+      "sha256": "ed1998332c67924b0ec90e024a3baccfba2a3c30942d9a5c20308a04e7d3c9f4",
+      "origem_sha256": "ed1998332c67924b0ec90e024a3baccfba2a3c30942d9a5c20308a04e7d3c9f4",
+      "bytes": 214307
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/polar_HV.pdf",
+      "sha256": "53a51b5a10b3442ba982fc32ba447266aa5bf1ef16899655a59800acae7520d3",
+      "origem_sha256": "53a51b5a10b3442ba982fc32ba447266aa5bf1ef16899655a59800acae7520d3",
+      "bytes": 28059
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/malha.json",
+      "sha256": "7bb9a98ce2dd9a20cc1d8ded296bfbf99228352459fae99884b848c0116bb118",
+      "origem_sha256": "7bb9a98ce2dd9a20cc1d8ded296bfbf99228352459fae99884b848c0116bb118",
+      "bytes": 24364
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/qualificacao.json",
+      "sha256": "880a0353d6767d35c073c074ac3d73b4719a7ebfcc99962126705b7f3fd90a4f",
+      "origem_sha256": "880a0353d6767d35c073c074ac3d73b4719a7ebfcc99962126705b7f3fd90a4f",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/criar_cad.py",
+      "sha256": "fddbc436981fcdb5ef6cb7f85e94a796414c1d388a48f332bfa19c82f3bf1603",
+      "origem_sha256": "72e9871bf331fe09e206f64c336174ed49e1354018d4886042f5e524b19830a9",
+      "bytes": 4395
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/criar_hfss.py",
+      "sha256": "bab7045395dcafd38e785626871e75aa703bcd12a3f54c6060d7f1ba217d5df4",
+      "origem_sha256": "1fe5874efca60fabe7a6e55cd489dded237e2f6948e1410ead9df8c4eb8faeb8",
+      "bytes": 7006
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/resolver.py",
+      "sha256": "a410d63a438019b64805e37cdcc33d9735d07bde441fea91923adcbcfb497f62",
+      "origem_sha256": "3b86158e6a0ec0b4b9e60d49ac099ec5d61796158325e236b2ed5fc5102ff278",
+      "bytes": 3627
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/sondas.py",
+      "sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "origem_sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "bytes": 1305
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/predimensionamento.json",
+      "sha256": "a5afa084271223b1a0c496454612f6c549d1323271c6d29a4971c4f1af8c2e4b",
+      "origem_sha256": "a5afa084271223b1a0c496454612f6c549d1323271c6d29a4971c4f1af8c2e4b",
+      "bytes": 756
+    },
+    {
+      "arquivo": "ensaios/v17_passo52_reajustado/caminhos_alimentacao.json",
+      "sha256": "c634ae9711257e4973ff35af491180bc4bc4d4e88d275068f10d0f96b623864a",
+      "origem_sha256": "c634ae9711257e4973ff35af491180bc4bc4d4e88d275068f10d0f96b623864a",
+      "bytes": 544
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/resultado.json",
+      "sha256": "f6015598055474f95d19ab76c56b3a180f3a76d3a52f7316891716b49e7d4df9",
+      "origem_sha256": "f6015598055474f95d19ab76c56b3a180f3a76d3a52f7316891716b49e7d4df9",
+      "bytes": 4428
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/configuracao.json",
+      "sha256": "5a20060b502248bd716c6ef40dbdefeb94731258d968058d6034582bcbc99d9e",
+      "origem_sha256": "5a20060b502248bd716c6ef40dbdefeb94731258d968058d6034582bcbc99d9e",
+      "bytes": 1684
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/convergencia.txt",
+      "sha256": "f9ca1a3acd53438518ac7756fde123126f1b49fb5b81eaad121980ee9c45bdc3",
+      "origem_sha256": "f9ca1a3acd53438518ac7756fde123126f1b49fb5b81eaad121980ee9c45bdc3",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/centro.s2p",
+      "sha256": "e65f34c36347b3bbc3352839206f7e75296d23e638f94bb00b10c4326cca95aa",
+      "origem_sha256": "e65f34c36347b3bbc3352839206f7e75296d23e638f94bb00b10c4326cca95aa",
+      "bytes": 822
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/AB_H.csv",
+      "sha256": "99d1053d517c45d6b60eeee0b856ea2f4b51568169c1a18204123710516fb0b3",
+      "origem_sha256": "99d1053d517c45d6b60eeee0b856ea2f4b51568169c1a18204123710516fb0b3",
+      "bytes": 196804
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/AB_V.csv",
+      "sha256": "19e2f3a63ec277773825d0c4e8b884b4be4f98be0f96a0bb8aca3f0ab6bafd51",
+      "origem_sha256": "19e2f3a63ec277773825d0c4e8b884b4be4f98be0f96a0bb8aca3f0ab6bafd51",
+      "bytes": 197096
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/A_H.csv",
+      "sha256": "bf2c94fe7c6ce47d824ad251cf4a6f12467baba67f47cfc9b2f71977287caf46",
+      "origem_sha256": "bf2c94fe7c6ce47d824ad251cf4a6f12467baba67f47cfc9b2f71977287caf46",
+      "bytes": 196506
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/A_V.csv",
+      "sha256": "502fd2be2faca851190f9752a1050c0452436e9d0546faf653cf63d6bc73eeef",
+      "origem_sha256": "502fd2be2faca851190f9752a1050c0452436e9d0546faf653cf63d6bc73eeef",
+      "bytes": 197078
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/B_H.csv",
+      "sha256": "18c3e0ae94fa9d9d6cbd22cb23c37206b8ada5ffa872711b917bd5f344c8622e",
+      "origem_sha256": "18c3e0ae94fa9d9d6cbd22cb23c37206b8ada5ffa872711b917bd5f344c8622e",
+      "bytes": 197285
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/B_V.csv",
+      "sha256": "7b71363f257a7cd0352bb06d9a067abd441bd84af8ccf5d24b5f4879d48578df",
+      "origem_sha256": "7b71363f257a7cd0352bb06d9a067abd441bd84af8ccf5d24b5f4879d48578df",
+      "bytes": 197101
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/P2M21_4_elementos.aedt",
+      "sha256": "8844c6e22fd73cb4a14cac570e96c66799bf6823ce53b9ffa316e0e5d5320a6f",
+      "origem_sha256": "8844c6e22fd73cb4a14cac570e96c66799bf6823ce53b9ffa316e0e5d5320a6f",
+      "bytes": 8294144
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/4_elementos.FCStd",
+      "sha256": "aeb820642dc77baf4b15f6780b5dd3a8b1f865e10b30619a7bd19787b9bb2595",
+      "origem_sha256": "aeb820642dc77baf4b15f6780b5dd3a8b1f865e10b30619a7bd19787b9bb2595",
+      "bytes": 292845
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/geometria.json",
+      "sha256": "9d0abffd49e8b325e1e02942f32115cca08e19aae8472d5ba3a3b54e9630a324",
+      "origem_sha256": "9d0abffd49e8b325e1e02942f32115cca08e19aae8472d5ba3a3b54e9630a324",
+      "bytes": 227428
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/layout.png",
+      "sha256": "a8c32b75597bb272f19a29729d4f8267cdee08d1af7ec3a62d45413e9ba44d67",
+      "origem_sha256": "a8c32b75597bb272f19a29729d4f8267cdee08d1af7ec3a62d45413e9ba44d67",
+      "bytes": 66893
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/diagramas_HV.png",
+      "sha256": "8006b5a81fc962396bc7e8e9d57daf4382aba776180cca613b9b56b52cfa63b4",
+      "origem_sha256": "8006b5a81fc962396bc7e8e9d57daf4382aba776180cca613b9b56b52cfa63b4",
+      "bytes": 123347
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/polar_HV.png",
+      "sha256": "6e4912eb13b7dac99ef2a01c104ebd6c5b9c1958cc7baf498a7450a86c15140d",
+      "origem_sha256": "6e4912eb13b7dac99ef2a01c104ebd6c5b9c1958cc7baf498a7450a86c15140d",
+      "bytes": 217782
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/polar_HV.pdf",
+      "sha256": "d200f5b807dd92aaeaf388014af7000db49202a3ba1191e31b559613f49ed541",
+      "origem_sha256": "d200f5b807dd92aaeaf388014af7000db49202a3ba1191e31b559613f49ed541",
+      "bytes": 28348
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/malha.json",
+      "sha256": "0ec274fa76402c9b61f1fe05dbeb47887efdcad2678b36fd3f5f27daf9418104",
+      "origem_sha256": "0ec274fa76402c9b61f1fe05dbeb47887efdcad2678b36fd3f5f27daf9418104",
+      "bytes": 21251
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/qualificacao.json",
+      "sha256": "c6ea109b2e555d8a83ef6d80ea46c1991df08778f5349207e544418571ff85b3",
+      "origem_sha256": "c6ea109b2e555d8a83ef6d80ea46c1991df08778f5349207e544418571ff85b3",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/cad/intersecoes.json",
+      "sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "origem_sha256": "ad799e83402a6fd86798a0327dd7ee465d648cab9b16cb5c49e0000809ad7502",
+      "bytes": 391
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/criar_cad.py",
+      "sha256": "6db828f911037d1e5fa4f1ffbcf79e781e0a5d74606340550621a556609def4f",
+      "origem_sha256": "3dba723554c8326e6ccb83a1f7a8979e8a30a14fe21b1297e214b7fc746debb0",
+      "bytes": 4395
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/criar_hfss.py",
+      "sha256": "cb7c78ac06b33f051ad9f0199bfff774945c9644fc8f02846c4e1cb30cb41008",
+      "origem_sha256": "ddd6cb429a292c35fd3cc53bc03443be72919885410c9a96777d3ebd6bd1800c",
+      "bytes": 7006
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/resolver.py",
+      "sha256": "052de9b9ad911b05381f69a5e63126c4b33d3815859075bb7ad3ef3df88b94ae",
+      "origem_sha256": "aa9781bf4f30e3c9ea6bfb1f1f6d840f3b93a9357e9f3ec9f494592be3a351cb",
+      "bytes": 3627
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/sondas.py",
+      "sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "origem_sha256": "1f4132140c234cf02e4e33f21ae2216e4167e5d703f449cf3a94c01ab51f2ec8",
+      "bytes": 1305
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/predimensionamento.json",
+      "sha256": "6978e30c013354b63dae61d8f15c5c74ad4a23848e81f121de18d6ba1270b1f1",
+      "origem_sha256": "6978e30c013354b63dae61d8f15c5c74ad4a23848e81f121de18d6ba1270b1f1",
+      "bytes": 757
+    },
+    {
+      "arquivo": "ensaios/v18_passo54_reajustado/caminhos_alimentacao.json",
+      "sha256": "2e221047d35585bef5f34b37a8a3f78d2910f5f43d94d740c842309739e20cba",
+      "origem_sha256": "2e221047d35585bef5f34b37a8a3f78d2910f5f43d94d740c842309739e20cba",
+      "bytes": 544
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/resultado.json",
+      "sha256": "351175eacb12b6131196fa4cc1302d8e0de4cf78605dc43ceb554d60cb3c41ba",
+      "origem_sha256": "351175eacb12b6131196fa4cc1302d8e0de4cf78605dc43ceb554d60cb3c41ba",
+      "bytes": 4434
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/configuracao.json",
+      "sha256": "6f9f4f15977cc55f2beab0e06b823960660251405e5600eb6734490a6de49baa",
+      "origem_sha256": "6f9f4f15977cc55f2beab0e06b823960660251405e5600eb6734490a6de49baa",
+      "bytes": 1655
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/convergencia.txt",
+      "sha256": "87880f599decf3b53e0b2411377f67c4965b1506235e47c2394e0e76361dbdc3",
+      "origem_sha256": "87880f599decf3b53e0b2411377f67c4965b1506235e47c2394e0e76361dbdc3",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/centro.s2p",
+      "sha256": "55b24e9710412a8624c543e454fbce084334318ce0154dc683bb1fd02b0b42de",
+      "origem_sha256": "55b24e9710412a8624c543e454fbce084334318ce0154dc683bb1fd02b0b42de",
+      "bytes": 814
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/AB_H.csv",
+      "sha256": "aeb6a88d4652389f9d1091f1c5fd85b083237f01406ac8d675789b0f489934f0",
+      "origem_sha256": "aeb6a88d4652389f9d1091f1c5fd85b083237f01406ac8d675789b0f489934f0",
+      "bytes": 197973
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/AB_V.csv",
+      "sha256": "4ec6992b29e635ab44f36ca970eff1d6c4d06e0d850d2846e37517c27acbe376",
+      "origem_sha256": "4ec6992b29e635ab44f36ca970eff1d6c4d06e0d850d2846e37517c27acbe376",
+      "bytes": 197453
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/A_H.csv",
+      "sha256": "80f475cd8e96f08630b911e0379bb6a27d29fd4ad42cb3483a5ca4bddb045bb4",
+      "origem_sha256": "80f475cd8e96f08630b911e0379bb6a27d29fd4ad42cb3483a5ca4bddb045bb4",
+      "bytes": 198634
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/A_V.csv",
+      "sha256": "28282e3c4e68569328cb017ca457d2fef6745d2d1f2b658fea2dc380fb8d9745",
+      "origem_sha256": "28282e3c4e68569328cb017ca457d2fef6745d2d1f2b658fea2dc380fb8d9745",
+      "bytes": 197165
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/B_H.csv",
+      "sha256": "ea20c6fb09f2bd357666a29ef0f69e81a1304caebf94cce5dc221e038f1fffd4",
+      "origem_sha256": "ea20c6fb09f2bd357666a29ef0f69e81a1304caebf94cce5dc221e038f1fffd4",
+      "bytes": 197369
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/B_V.csv",
+      "sha256": "ddf676972ed8940349d5780873e366f1155cc30ee439bd67066b4f91f1d4ea52",
+      "origem_sha256": "ddf676972ed8940349d5780873e366f1155cc30ee439bd67066b4f91f1d4ea52",
+      "bytes": 196539
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/P2M21_4_elementos.aedt",
+      "sha256": "8152544625888060a0623da161f2c48a2bc2329863f04626ea6824079010994b",
+      "origem_sha256": "8152544625888060a0623da161f2c48a2bc2329863f04626ea6824079010994b",
+      "bytes": 8237963
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/4_elementos.FCStd",
+      "sha256": "8f402dcd694f5875a4b55d565d83b038aa514482cc23b4c34f71bd10b3216464",
+      "origem_sha256": "8f402dcd694f5875a4b55d565d83b038aa514482cc23b4c34f71bd10b3216464",
+      "bytes": 290565
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/geometria.json",
+      "sha256": "919cd6ce33cfba74540ba923cec816d34d2b9a58f32210ba568d859df938442c",
+      "origem_sha256": "919cd6ce33cfba74540ba923cec816d34d2b9a58f32210ba568d859df938442c",
+      "bytes": 226021
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/layout.png",
+      "sha256": "cbd38bc7421bcdb4cbe3e15a040031127616d9e70d807f267c41db4780b9de28",
+      "origem_sha256": "cbd38bc7421bcdb4cbe3e15a040031127616d9e70d807f267c41db4780b9de28",
+      "bytes": 68149
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/diagramas_HV.png",
+      "sha256": "670818b1c5ece616c84ca1ec624d253b7f5e1ce2b60e457a67c91f8d584ee715",
+      "origem_sha256": "670818b1c5ece616c84ca1ec624d253b7f5e1ce2b60e457a67c91f8d584ee715",
+      "bytes": 127895
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/polar_HV.png",
+      "sha256": "9df70e7948ca01d93f89434e22ebbc840b28bed00fc713e943e995242b89d82d",
+      "origem_sha256": "9df70e7948ca01d93f89434e22ebbc840b28bed00fc713e943e995242b89d82d",
+      "bytes": 210941
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/polar_HV.pdf",
+      "sha256": "2b6a590992b05009043a234a5407b309fdd6bed7b369ed8d135098d146e9aa8c",
+      "origem_sha256": "2b6a590992b05009043a234a5407b309fdd6bed7b369ed8d135098d146e9aa8c",
+      "bytes": 27373
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/malha.json",
+      "sha256": "fed8e2e072ec641c61652d848fee0c6f64dae4ce9d1ad341b44d366bf71e3101",
+      "origem_sha256": "fed8e2e072ec641c61652d848fee0c6f64dae4ce9d1ad341b44d366bf71e3101",
+      "bytes": 19470
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/qualificacao.json",
+      "sha256": "476c03de96b664a2d83633a3ad312e12514b715c3df18cb9e9a3be33883f2082",
+      "origem_sha256": "476c03de96b664a2d83633a3ad312e12514b715c3df18cb9e9a3be33883f2082",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/cad/intersecoes.json",
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9",
+      "origem_sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9",
+      "bytes": 393
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/criar_cad.py",
+      "sha256": "5fec9807b78c5b2eaf049f20b83a7d6c8e85d5ba51fe79099f074a58e73e380e",
+      "origem_sha256": "46fd403b7e52fd98553e1ce3767e2feed4a4848cbcd58bf508da8b86403a141b",
+      "bytes": 4426
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/criar_hfss.py",
+      "sha256": "1cbe7125fc823e20b8833d88fb6734620bd0618134fdf5eaba574856927a4c97",
+      "origem_sha256": "02878cb3d60353ca41295bc0258a7c4f4ae45ac431ad30541012e7c71c231b0c",
+      "bytes": 7001
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/resolver.py",
+      "sha256": "12d3546f5a7d14ea92759b039917b06bb78379bb278471849baf9d5b58c24c75",
+      "origem_sha256": "4a8062ab15eab55034bd026614b55a8bf23783d09b5fb491a96526a449757a08",
+      "bytes": 3623
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/sondas.py",
+      "sha256": "e30816dca9713a045c91e2336eb65981584c05d5c8393e8c797159c37b00caf1",
+      "origem_sha256": "e30816dca9713a045c91e2336eb65981584c05d5c8393e8c797159c37b00caf1",
+      "bytes": 1397
+    },
+    {
+      "arquivo": "ensaios/v19_altura_menos10/caminhos_alimentacao.json",
+      "sha256": "601a4c42b8351545eaabc3c9dd87c2792bbce89227ba619339822dab97f66ed3",
+      "origem_sha256": "601a4c42b8351545eaabc3c9dd87c2792bbce89227ba619339822dab97f66ed3",
+      "bytes": 500
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/resultado.json",
+      "sha256": "d0efa983cdbba230c9d5d799d9ec490a3961c5611a1adf1b997062d761e6bc31",
+      "origem_sha256": "d0efa983cdbba230c9d5d799d9ec490a3961c5611a1adf1b997062d761e6bc31",
+      "bytes": 4337
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/configuracao.json",
+      "sha256": "845428581bf763f21a5ea0bc951e400b333ab15960bc9f8b3d012a8220bdb6cd",
+      "origem_sha256": "845428581bf763f21a5ea0bc951e400b333ab15960bc9f8b3d012a8220bdb6cd",
+      "bytes": 1654
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/convergencia.txt",
+      "sha256": "41a0154bed7ddd77cdd8c928e59bd8aa7a347ab9fb0662d52493223908bfcc97",
+      "origem_sha256": "41a0154bed7ddd77cdd8c928e59bd8aa7a347ab9fb0662d52493223908bfcc97",
+      "bytes": 623
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/centro.s2p",
+      "sha256": "cb9355e907ef258077f50d42d49b931957bc1ee254806e50f588239299286dc1",
+      "origem_sha256": "cb9355e907ef258077f50d42d49b931957bc1ee254806e50f588239299286dc1",
+      "bytes": 815
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/AB_H.csv",
+      "sha256": "52b4cd1104472f71ecac562bc704cae0af2f7be08881d5134451093ffb4f3f48",
+      "origem_sha256": "52b4cd1104472f71ecac562bc704cae0af2f7be08881d5134451093ffb4f3f48",
+      "bytes": 198022
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/AB_V.csv",
+      "sha256": "5dfc04d308ffa3cfb01bc71b50d7e6d4e9e3bb5b7f69292552219c79e848e943",
+      "origem_sha256": "5dfc04d308ffa3cfb01bc71b50d7e6d4e9e3bb5b7f69292552219c79e848e943",
+      "bytes": 197268
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/A_H.csv",
+      "sha256": "5374a85aadf2db531253d356a12c65d9f5b3a6932712d90cc966ce87ff123d63",
+      "origem_sha256": "5374a85aadf2db531253d356a12c65d9f5b3a6932712d90cc966ce87ff123d63",
+      "bytes": 198851
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/A_V.csv",
+      "sha256": "5603e60c43ac47b2527425a7783b7e093c13916dce88582e20776f440d44dd40",
+      "origem_sha256": "5603e60c43ac47b2527425a7783b7e093c13916dce88582e20776f440d44dd40",
+      "bytes": 197222
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/B_H.csv",
+      "sha256": "ead63dd5feeed2d10b1867f91d93016f8c85ce30908e0adcdee78df7693c3e05",
+      "origem_sha256": "ead63dd5feeed2d10b1867f91d93016f8c85ce30908e0adcdee78df7693c3e05",
+      "bytes": 197554
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/B_V.csv",
+      "sha256": "c3a7dbeffe4d19924cc39c73f28c93ae03c1c565679499b85a862d159b03bd11",
+      "origem_sha256": "c3a7dbeffe4d19924cc39c73f28c93ae03c1c565679499b85a862d159b03bd11",
+      "bytes": 196501
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/P2M21_4_elementos.aedt",
+      "sha256": "15e184e8155c4ae445fed6ce65b42e17bf53d7dfdc6da20ff8f7c7fcd750c1c6",
+      "origem_sha256": "15e184e8155c4ae445fed6ce65b42e17bf53d7dfdc6da20ff8f7c7fcd750c1c6",
+      "bytes": 8237912
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/4_elementos.FCStd",
+      "sha256": "20303ce1cf7618484bcd38b94969715579e569a2f0d715b5290428318917bc84",
+      "origem_sha256": "20303ce1cf7618484bcd38b94969715579e569a2f0d715b5290428318917bc84",
+      "bytes": 290324
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/geometria.json",
+      "sha256": "3cffe596e873b6b0d0c324ed237ea452ceb18b988c0572db1c875afb77948c25",
+      "origem_sha256": "3cffe596e873b6b0d0c324ed237ea452ceb18b988c0572db1c875afb77948c25",
+      "bytes": 226021
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/layout.png",
+      "sha256": "19521bc59fda9a8cba84d1390633f6a46afd606c9ce4c6397f111f01c432a666",
+      "origem_sha256": "19521bc59fda9a8cba84d1390633f6a46afd606c9ce4c6397f111f01c432a666",
+      "bytes": 67349
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/diagramas_HV.png",
+      "sha256": "65255c1ac349385aea21a250ff39933b0a96cd902a556353fd04bd8c3be93e86",
+      "origem_sha256": "65255c1ac349385aea21a250ff39933b0a96cd902a556353fd04bd8c3be93e86",
+      "bytes": 125996
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/polar_HV.png",
+      "sha256": "d77858ce290383886059ac5c5aef347c17a4d70972088662134f59f8fc4847e0",
+      "origem_sha256": "d77858ce290383886059ac5c5aef347c17a4d70972088662134f59f8fc4847e0",
+      "bytes": 211245
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/polar_HV.pdf",
+      "sha256": "35ff8c6f80fcab1791df1b2bb474e55bc0dcbd86eaf789e3abbd7368c7c541c5",
+      "origem_sha256": "35ff8c6f80fcab1791df1b2bb474e55bc0dcbd86eaf789e3abbd7368c7c541c5",
+      "bytes": 27212
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "origem_sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/hfss_validacao.json",
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "origem_sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324",
+      "bytes": 329
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/malha.json",
+      "sha256": "b6b873c03c60972ba57dfff53ee7304cf09281550ea169fa0298dd7f60a9eecd",
+      "origem_sha256": "b6b873c03c60972ba57dfff53ee7304cf09281550ea169fa0298dd7f60a9eecd",
+      "bytes": 19494
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/qualificacao.json",
+      "sha256": "590cd707249f2609fe5c0f6b000ef2a698209b8c5389c0a1c5039520605e84a2",
+      "origem_sha256": "590cd707249f2609fe5c0f6b000ef2a698209b8c5389c0a1c5039520605e84a2",
+      "bytes": 283
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/cad/intersecoes.json",
+      "sha256": "2ed50fee3eab4b383e784ccb97586480c38b7fb18eb06744b56597c5e8328de6",
+      "origem_sha256": "2ed50fee3eab4b383e784ccb97586480c38b7fb18eb06744b56597c5e8328de6",
+      "bytes": 393
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/criar_cad.py",
+      "sha256": "47b41564e55946177598f3563a0ba6924d5830b50d1856bfd75907bf2f2d8295",
+      "origem_sha256": "2493db474a12678a6a28af484eee744035f2185ce3b508141d000e8548ae487b",
+      "bytes": 4425
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/criar_hfss.py",
+      "sha256": "36e24fce07242f790c3b540cb3a5a2f009d3e1972ef97b0524a5afaf4045d513",
+      "origem_sha256": "6b576f56a60400daa7de176fc0286e268666c0d8500e6e550bfbfe7467546b2c",
+      "bytes": 7000
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/resolver.py",
+      "sha256": "1e20a8d2d6049fe563267f9696a0e4e2ef4da577585c8ad20ff1203ef1d619f5",
+      "origem_sha256": "fca420f5b18abe891d03d32b5f52af791818dab63da0c9bdbb1cc915f271a083",
+      "bytes": 3622
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/sondas.py",
+      "sha256": "e30816dca9713a045c91e2336eb65981584c05d5c8393e8c797159c37b00caf1",
+      "origem_sha256": "e30816dca9713a045c91e2336eb65981584c05d5c8393e8c797159c37b00caf1",
+      "bytes": 1397
+    },
+    {
+      "arquivo": "ensaios/v20_altura_mais10/caminhos_alimentacao.json",
+      "sha256": "601a4c42b8351545eaabc3c9dd87c2792bbce89227ba619339822dab97f66ed3",
+      "origem_sha256": "601a4c42b8351545eaabc3c9dd87c2792bbce89227ba619339822dab97f66ed3",
+      "bytes": 500
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/resultado.json",
+      "sha256": "7052e61410ca02959295ed3be609851362660cbe3f8fe82dd813b122ca305ec0",
+      "origem_sha256": "7052e61410ca02959295ed3be609851362660cbe3f8fe82dd813b122ca305ec0",
+      "bytes": 4379
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/configuracao.json",
+      "sha256": "ee404eee8d2b05d909d857e2353af1b7807cd57d4fcec381fcf456f69d0d0999",
+      "origem_sha256": "ee404eee8d2b05d909d857e2353af1b7807cd57d4fcec381fcf456f69d0d0999",
+      "bytes": 1692
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/convergencia.txt",
+      "sha256": "f07fe262c413d085d261de53ffa9ce375eb33c0c321ffd352bcaf15395274784",
+      "origem_sha256": "f07fe262c413d085d261de53ffa9ce375eb33c0c321ffd352bcaf15395274784",
+      "bytes": 622
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/centro.s2p",
+      "sha256": "76385ee4cb81161359e1bedc111bcbc81b0371ba706114547c1a5a1ecfeaaa1f",
+      "origem_sha256": "76385ee4cb81161359e1bedc111bcbc81b0371ba706114547c1a5a1ecfeaaa1f",
+      "bytes": 824
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/AB_H.csv",
+      "sha256": "ec690a0b06a4ab3ed6375c8fdaceec4a3a9f9046a793def7a87a9053ce9bf93f",
+      "origem_sha256": "ec690a0b06a4ab3ed6375c8fdaceec4a3a9f9046a793def7a87a9053ce9bf93f",
+      "bytes": 198131
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/AB_V.csv",
+      "sha256": "76d0a6ddbbeb0b7c61be9b1c8965a964028419dcf9501950a70fc8160c0a2270",
+      "origem_sha256": "76d0a6ddbbeb0b7c61be9b1c8965a964028419dcf9501950a70fc8160c0a2270",
+      "bytes": 197252
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/A_H.csv",
+      "sha256": "b97f9691d4c1d6f165d13c03288389e46e255fed0b1454f9889cbd3d71b67cf9",
+      "origem_sha256": "b97f9691d4c1d6f165d13c03288389e46e255fed0b1454f9889cbd3d71b67cf9",
+      "bytes": 198689
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/A_V.csv",
+      "sha256": "553992565f322b8f6938e6f1374cbc026e2fed25d4b251d689a7dc8eeedde97b",
+      "origem_sha256": "553992565f322b8f6938e6f1374cbc026e2fed25d4b251d689a7dc8eeedde97b",
+      "bytes": 197206
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/B_H.csv",
+      "sha256": "ddc420f789e3297c2e400a7a56dfcf79d8857ff52ef495051dd19e89c86a93f2",
+      "origem_sha256": "ddc420f789e3297c2e400a7a56dfcf79d8857ff52ef495051dd19e89c86a93f2",
+      "bytes": 197577
+    },
+    {
+      "arquivo": "ensaios/v21_altura_menos10_casada/B_V.csv",
+      "sha256": "9f556244c9adc881fa462ec584caf68f46e0b20d15cdda5b941fb2ffd9d5fa2f",
+      "origem_sha256": "9f556244c9adc881fa462ec584caf68f46e0b20d15cdda5b941fb2ffd9d5fa2f",
+      "bytes": 196488
+    }
+  ]
+}

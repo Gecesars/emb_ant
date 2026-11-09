@@ -1,0 +1,47 @@
+{
+  "metodo": "AF(theta) = mean(exp(j*2*pi*x*sin(theta)/lambda)); quatro fontes pontuais iguais em fase.",
+  "comprimento_onda_mm": 57.98693578336557,
+  "resultados": [
+    {
+      "passo_mm": 36.0,
+      "passo_lambda": 0.6208294939828006,
+      "abertura_3dB_graus": 21.099866836816073,
+      "SLL_maximos_locais_dB": -11.303337685385763,
+      "angulo_primeiro_lobulo_graus": 36.14,
+      "maximo_fora_lobo_incluindo_90graus_dB": -11.303337685385763
+    },
+    {
+      "passo_mm": 40.0,
+      "passo_lambda": 0.6898105488697784,
+      "abertura_3dB_graus": 18.96927223081525,
+      "SLL_maximos_locais_dB": -11.303337690351382,
+      "angulo_primeiro_lobulo_graus": 32.06,
+      "maximo_fora_lobo_incluindo_90graus_dB": -11.303337690351382
+    },
+    {
+      "passo_mm": 42.0,
+      "passo_lambda": 0.7243010763132675,
+      "abertura_3dB_graus": 18.05822623450152,
+      "SLL_maximos_locais_dB": -11.303337685222903,
+      "angulo_primeiro_lobulo_graus": 30.36500000000001,
+      "maximo_fora_lobo_incluindo_90graus_dB": -11.303337685222903
+    },
+    {
+      "passo_mm": 44.0,
+      "passo_lambda": 0.7587916037567564,
+      "abertura_3dB_graus": 17.231002238090184,
+      "SLL_maximos_locais_dB": -11.303337736975596,
+      "angulo_primeiro_lobulo_graus": 28.85000000000001,
+      "maximo_fora_lobo_incluindo_90graus_dB": -11.303337736975596
+    },
+    {
+      "passo_mm": 48.0,
+      "passo_lambda": 0.8277726586437342,
+      "abertura_3dB_graus": 15.785506437670735,
+      "SLL_maximos_locais_dB": -11.303337897549007,
+      "angulo_primeiro_lobulo_graus": 26.25,
+      "maximo_fora_lobo_incluindo_90graus_dB": -7.907111664208905
+    }
+  ],
+  "limite": "Estimativa analitica do fator de arranjo. Nao prediz ganho, VSWR ou SLL do modulo real e nao substitui HFSS."
+}

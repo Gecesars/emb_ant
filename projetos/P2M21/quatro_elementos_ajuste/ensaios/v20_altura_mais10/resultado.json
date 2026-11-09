@@ -1,0 +1,178 @@
+{
+  "variante": "v20_altura_mais10",
+  "passes": 6,
+  "delta_s": 0.048662,
+  "convergiu": false,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "hfss_indicou_convergencia": true,
+  "passes_consecutivos": 1,
+  "consecutivos_exigidos": 2,
+  "major": 0,
+  "minor": 0,
+  "passivo": true,
+  "max_singular": 0.20078406161347456,
+  "residuo_reciprocidade": 1.0797479771322427e-05,
+  "VSWR_ativo": [
+    1.220862707777422,
+    1.126446867252469
+  ],
+  "VSWR_casado": [
+    1.0604129790402232,
+    1.2434239486954615
+  ],
+  "potencia_aceita_W": 0.993286963358102,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 11.62865201582651,
+      "ganho_pico_dBi": 11.660581900273687,
+      "pico_graus": -6.5,
+      "abertura_graus": 79.72786042004053,
+      "limites_graus": [
+        -40.102417660593574,
+        39.625442759446955
+      ],
+      "picos_individuais_graus": {
+        "A": 8.0,
+        "B": -8.0
+      },
+      "diferenca_pico_frente_dB": 0.031929884447176704
+    },
+    "V": {
+      "ganho_frontal_dBi": 11.62865201582651,
+      "ganho_pico_dBi": 11.659570385392326,
+      "pico_graus": -0.75,
+      "abertura_graus": 16.185048362055642,
+      "limites_graus": [
+        -8.6500579302113,
+        7.534990431844343
+      ],
+      "picos_individuais_graus": {
+        "A": 1.0,
+        "B": 0.5
+      },
+      "diferenca_pico_frente_dB": 0.03091836956581595
+    }
+  },
+  "erros_recomposicao": {
+    "H": 3.742471379257675e-15,
+    "V": 3.261071757318292e-15
+  },
+  "desvio_maximo_graus": 6.5,
+  "centrado_na_grade_025grau": false,
+  "alvo_delta_s": 0.05,
+  "SLL_V": {
+    "nivel_dB": -7.160741486310388,
+    "angulo_graus": 40.75,
+    "limites_lobo_principal_graus": [
+      -18.75,
+      26.75
+    ],
+    "lobos": [
+      {
+        "angulo_graus": -44.0,
+        "nivel_dB": -12.503446655329164
+      },
+      {
+        "angulo_graus": -29.0,
+        "nivel_dB": -12.83338981399588
+      },
+      {
+        "angulo_graus": 40.75,
+        "nivel_dB": -7.160741486310388
+      },
+      {
+        "angulo_graus": 72.5,
+        "nivel_dB": -17.112560683237376
+      }
+    ],
+    "criterio": "Maximos locais no hemisferio frontal, fora dos primeiros minimos que delimitam o lobo principal."
+  },
+  "parametros": {
+    "ground": 6.0,
+    "extra_A": 0.0,
+    "extra_B": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "root_w_A": 0.76997274,
+    "root_w_B": 0.76997274,
+    "root_l_A": 1.14061663,
+    "root_l_B": 1.14061663,
+    "adapt": 50,
+    "diagnostico_campos": true,
+    "simetria": true,
+    "contorno_centrado": true,
+    "pcb_z": 18.271
+  },
+  "espacamento_vertical_mm": 48.0,
+  "distancia_face_inferior_laminado_ao_refletor_mm": 18.271,
+  "basis_order": -1,
+  "eficiencia_radiacao": 0.7869989823102813,
+  "eficiencia_total": 0.7817158293048994,
+  "erro_potencia_W": 4.3298697960381105e-15,
+  "fisica_ok": true,
+  "limite_VSWR_exclusivo": 1.3,
+  "metas": {
+    "ganho12": false,
+    "VSWR_ativo": true,
+    "VSWR_casado": true,
+    "maximos_zero_na_grade": false
+  },
+  "aprovado": false,
+  "sondas_tensao_aproximada": [
+    {
+      "elemento": 1,
+      "polarizacao": "A",
+      "modulo_V": 4.861266872824402,
+      "fase_graus": -36.331610542684466
+    },
+    {
+      "elemento": 1,
+      "polarizacao": "B",
+      "modulo_V": 4.935941627423176,
+      "fase_graus": -49.641898051909834
+    },
+    {
+      "elemento": 2,
+      "polarizacao": "A",
+      "modulo_V": 2.5383262756169924,
+      "fase_graus": -26.62767191469008
+    },
+    {
+      "elemento": 2,
+      "polarizacao": "B",
+      "modulo_V": 2.5995805149695297,
+      "fase_graus": -23.031081575336618
+    },
+    {
+      "elemento": 3,
+      "polarizacao": "A",
+      "modulo_V": 7.172828022970211,
+      "fase_graus": -32.009466134362036
+    },
+    {
+      "elemento": 3,
+      "polarizacao": "B",
+      "modulo_V": 7.147338457769528,
+      "fase_graus": -38.381872718200334
+    },
+    {
+      "elemento": 4,
+      "polarizacao": "A",
+      "modulo_V": 2.776826558424822,
+      "fase_graus": -37.91312372290539
+    },
+    {
+      "elemento": 4,
+      "polarizacao": "B",
+      "modulo_V": 2.999435701243961,
+      "fase_graus": -36.46299409573412
+    }
+  ]
+}

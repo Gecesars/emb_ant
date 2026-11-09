@@ -1,0 +1,98 @@
+{
+  "resultados": [
+    {
+      "variante": "v09_transformadores",
+      "passo_mm": 48,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 12.235422931800834,
+      "pico_H_graus": -2.25,
+      "pico_V_graus": -1.25,
+      "abertura_H_graus": 77.15251711354495,
+      "abertura_V_graus": 15.436797815577378,
+      "VSWR_ativo": [
+        1.2891290499668195,
+        1.134226697471996
+      ],
+      "VSWR_casado": [
+        1.2097262596594323,
+        1.196528109070807
+      ],
+      "SLL_V_dB": -8.049010208143205,
+      "DeltaS": 0.027638,
+      "passes": 6,
+      "consecutivos": 1,
+      "convergiu": false
+    },
+    {
+      "variante": "v16_passo50_reajustado",
+      "passo_mm": 50.0,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 11.958868739664661,
+      "pico_H_graus": -13.0,
+      "pico_V_graus": -0.75,
+      "abertura_H_graus": 81.28931441334848,
+      "abertura_V_graus": 15.20650510604357,
+      "VSWR_ativo": [
+        1.2059552397115387,
+        1.0754710654886557
+      ],
+      "VSWR_casado": [
+        1.102771689471836,
+        1.0641585154656752
+      ],
+      "SLL_V_dB": -8.150196993520016,
+      "DeltaS": 0.066533,
+      "passes": 6,
+      "consecutivos": 0,
+      "convergiu": false
+    },
+    {
+      "variante": "v17_passo52_reajustado",
+      "passo_mm": 52.0,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 11.341040119376444,
+      "pico_H_graus": -18.0,
+      "pico_V_graus": -0.75,
+      "abertura_H_graus": 86.80423509018686,
+      "abertura_V_graus": 15.465246467000878,
+      "VSWR_ativo": [
+        1.1003916025428981,
+        1.2304865083867218
+      ],
+      "VSWR_casado": [
+        1.1473141052109246,
+        1.2389860518069458
+      ],
+      "SLL_V_dB": -7.258491773226822,
+      "DeltaS": 0.026868,
+      "passes": 6,
+      "consecutivos": 1,
+      "convergiu": false
+    },
+    {
+      "variante": "v18_passo54_reajustado",
+      "passo_mm": 54.0,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 10.488122628933858,
+      "pico_H_graus": -22.0,
+      "pico_V_graus": -1.25,
+      "abertura_H_graus": 91.86317203245548,
+      "abertura_V_graus": 15.105572605828723,
+      "VSWR_ativo": [
+        1.148884818115536,
+        1.1607976281842578
+      ],
+      "VSWR_casado": [
+        1.125108727599861,
+        1.1135825953755676
+      ],
+      "SLL_V_dB": -5.185506296525878,
+      "DeltaS": 0.048446,
+      "passes": 6,
+      "consecutivos": 1,
+      "convergiu": false
+    }
+  ],
+  "controles": "50/52/54: PCB70x202mm e refletor90x218mm comuns; radiadores, materiais e largura dos retornos iguais. Rotas e transformadores reajustados por passo. Referencia48:PCB70x184/refletor90x200; nao isola apenas o espacamento. Cada modulo tem quatro caminhos iguais e fontes A/B iguais em fase.",
+  "limite": "Convergencia indicada individualmente; nenhuma variante foi estendida alem de seis passes. Resultados nao sao uma varredura de frequencia nem uma prova de otimo global."
+}

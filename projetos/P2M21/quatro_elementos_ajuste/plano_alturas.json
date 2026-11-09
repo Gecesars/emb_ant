@@ -1,0 +1,99 @@
+{
+  "fonte": "v09_transformadores",
+  "passo_mm": 48,
+  "altura_nominal_mm": 16.61,
+  "variantes": [
+    "v09_transformadores",
+    "v19_altura_menos10",
+    "v20_altura_mais10"
+  ],
+  "criterio_selecao": "Melhor candidato numerico entre os ensaios existentes que atende G0>=12 e VSWR<1.3. Nao e prova de otimo global; convergencia incompleta explicitada.",
+  "fonte_convergiu": false,
+  "referencia": "Face inferior do laminado ate topo do refletor Z=0; cobre inferior35um fica0.035mm mais perto.",
+  "controle": "Somente transladar PCB e ambos os cabos de50mm emZ; refletor fixo. Mesmas trilhas, radiadores, materiais, contornos, fases, amplitudes e criterios do solver. Nominal reutilizado sem solve adicional.",
+  "fonte_sha256": {
+    "P2M21_4_elementos.aedt": "1e6ed079d66b8275a2eb8663de107853ca033c1571855b6f4b751ed2a096ab95",
+    "geometria.json": "2254a2788438a2ec3b6347a678a8a6f0c92bab2cc143ac2aca3c9231c6ab554f",
+    "configuracao.json": "b149513a1f2285473d11d38a19c40c74965f7f520617397ff405124b4244c6da",
+    "resultado.json": "b5be37f0b9b17d654fbdd8c5402d579de4645be0e07cfa4cfbe904b4fcbec3b6",
+    "centro.s2p": "be6364c5fb94e5f0fa3796d7ab5445c0d3074d60176a671d85a23bee193e42cc"
+  },
+  "auditoria_planar": [
+    {
+      "variante": "v19_altura_menos10",
+      "altura_mm": 14.949,
+      "delta_z_mm": -1.6609999999999996,
+      "area_diferente_cobre_mm2": 0.0,
+      "vias_iguais": true,
+      "contornos_iguais": true,
+      "portas_XY_iguais": true,
+      "caminhos_mm": {
+        "A": [
+          101.49083158695937,
+          101.49083158695937,
+          101.49083158695936,
+          101.49083158695937
+        ],
+        "B": [
+          101.49083158695937,
+          101.49083158695937,
+          101.49083158695936,
+          101.49083158695937
+        ]
+      },
+      "setup_herdado": {
+        "ground": 6.0,
+        "extra_A": 0.0,
+        "extra_B": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "root_w_A": 0.76997274,
+        "root_w_B": 0.76997274,
+        "root_l_A": 1.14061663,
+        "root_l_B": 1.14061663,
+        "adapt": 50,
+        "diagnostico_campos": true,
+        "simetria": true,
+        "contorno_centrado": true
+      }
+    },
+    {
+      "variante": "v20_altura_mais10",
+      "altura_mm": 18.271,
+      "delta_z_mm": 1.6610000000000014,
+      "area_diferente_cobre_mm2": 0.0,
+      "vias_iguais": true,
+      "contornos_iguais": true,
+      "portas_XY_iguais": true,
+      "caminhos_mm": {
+        "A": [
+          101.49083158695937,
+          101.49083158695937,
+          101.49083158695936,
+          101.49083158695937
+        ],
+        "B": [
+          101.49083158695937,
+          101.49083158695937,
+          101.49083158695936,
+          101.49083158695937
+        ]
+      },
+      "setup_herdado": {
+        "ground": 6.0,
+        "extra_A": 0.0,
+        "extra_B": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "root_w_A": 0.76997274,
+        "root_w_B": 0.76997274,
+        "root_l_A": 1.14061663,
+        "root_l_B": 1.14061663,
+        "adapt": 50,
+        "diagnostico_campos": true,
+        "simetria": true,
+        "contorno_centrado": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "valores": [
+    {
+      "elemento": 1,
+      "polarizacao": "A",
+      "modulo_V": 4.461036706857684,
+      "fase_graus": -34.49269034865501
+    },
+    {
+      "elemento": 1,
+      "polarizacao": "B",
+      "modulo_V": 4.72428592834676,
+      "fase_graus": -41.73437022176415
+    },
+    {
+      "elemento": 2,
+      "polarizacao": "A",
+      "modulo_V": 1.876414818372173,
+      "fase_graus": -35.94920323827161
+    },
+    {
+      "elemento": 2,
+      "polarizacao": "B",
+      "modulo_V": 1.9094761190430642,
+      "fase_graus": -29.479452412922896
+    },
+    {
+      "elemento": 3,
+      "polarizacao": "A",
+      "modulo_V": 6.008220593096248,
+      "fase_graus": -22.338416234299263
+    },
+    {
+      "elemento": 3,
+      "polarizacao": "B",
+      "modulo_V": 6.052716772705734,
+      "fase_graus": -32.97004624305597
+    },
+    {
+      "elemento": 4,
+      "polarizacao": "A",
+      "modulo_V": 2.043933292513594,
+      "fase_graus": -51.414039687392005
+    },
+    {
+      "elemento": 4,
+      "polarizacao": "B",
+      "modulo_V": 2.0566053600976653,
+      "fase_graus": -43.24469702319999
+    }
+  ],
+  "metodo": "Integral trapezoidal de Ez em 21 pontos na espessura; fontes AB. Indicador relativo, nao potencia por radiador."
+}

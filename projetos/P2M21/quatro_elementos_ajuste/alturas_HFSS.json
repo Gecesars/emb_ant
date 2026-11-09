@@ -1,0 +1,79 @@
+{
+  "casos": [
+    {
+      "variante": "v09_transformadores",
+      "distancia_laminado_mm": 16.61,
+      "distancia_cobre_inferior_mm": 16.575,
+      "ganho_frontal_dBi": 12.235422931800834,
+      "maximo_H_graus": -2.25,
+      "maximo_V_graus": -1.25,
+      "abertura_H_graus": 77.15251711354495,
+      "abertura_V_graus": 15.436797815577378,
+      "VSWR_ativo": [
+        1.2891290499668195,
+        1.134226697471996
+      ],
+      "VSWR_casado": [
+        1.2097262596594323,
+        1.196528109070807
+      ],
+      "SLL_V_dB": -8.049010208143205,
+      "DeltaS": 0.027638,
+      "passes": 6,
+      "consecutivos": 1,
+      "convergiu": false,
+      "aprovado": false
+    },
+    {
+      "variante": "v19_altura_menos10",
+      "distancia_laminado_mm": 14.949,
+      "distancia_cobre_inferior_mm": 14.914,
+      "ganho_frontal_dBi": 12.648669100531345,
+      "maximo_H_graus": -1.5,
+      "maximo_V_graus": -1.25,
+      "abertura_H_graus": 73.69090477823124,
+      "abertura_V_graus": 15.120978634382592,
+      "VSWR_ativo": [
+        1.386721098111317,
+        1.1718936860870186
+      ],
+      "VSWR_casado": [
+        1.2345899430586127,
+        1.2382631089053273
+      ],
+      "SLL_V_dB": -8.484989306011737,
+      "DeltaS": 0.056483,
+      "passes": 6,
+      "consecutivos": 0,
+      "convergiu": false,
+      "aprovado": false
+    },
+    {
+      "variante": "v20_altura_mais10",
+      "distancia_laminado_mm": 18.271,
+      "distancia_cobre_inferior_mm": 18.236,
+      "ganho_frontal_dBi": 11.62865201582651,
+      "maximo_H_graus": -6.5,
+      "maximo_V_graus": -0.75,
+      "abertura_H_graus": 79.72786042004053,
+      "abertura_V_graus": 16.185048362055642,
+      "VSWR_ativo": [
+        1.220862707777422,
+        1.126446867252469
+      ],
+      "VSWR_casado": [
+        1.0604129790402232,
+        1.2434239486954615
+      ],
+      "SLL_V_dB": -7.160741486310388,
+      "DeltaS": 0.048662,
+      "passes": 6,
+      "consecutivos": 1,
+      "convergiu": false,
+      "aprovado": false
+    }
+  ],
+  "referencia_distancia": "Face superior do refletor em Z=0 ate a face inferior do laminado. Cobre inferior35um fica0.035mm mais perto.",
+  "controles": "Mesmos radiadores, passo, contornos, materiais, divisores e caminhos impressos. PCB e cabos de50mm deslocados juntos emZ; refletor fixo. Duas fontes iguais emfase; sem suportes plasticos.",
+  "limite": "Cada nova geometria respeitou maximo6passes. Nao constitui varredura de frequencia ou prova de otimo global."
+}

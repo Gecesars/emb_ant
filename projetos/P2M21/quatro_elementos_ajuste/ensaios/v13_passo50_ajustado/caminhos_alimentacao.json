@@ -1,0 +1,29 @@
+{
+  "caminhos_impressos_mm": {
+    "A": [
+      104.49083158695937,
+      104.49083158695937,
+      104.49083158695936,
+      104.49083158695937
+    ],
+    "B": [
+      104.49083158695937,
+      104.49083158695937,
+      104.49083158695936,
+      104.49083158695937
+    ]
+  },
+  "cabos_mm": [
+    50.0,
+    50.0
+  ],
+  "fontes_W": [
+    0.5,
+    0.5
+  ],
+  "fontes_graus": [
+    0.0,
+    0.0
+  ],
+  "escopo": "Igualdade geometrica; fase e amplitude entregues sao determinadas pelo HFSS com acoplamento e perdas."
+}

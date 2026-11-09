@@ -1,0 +1,15 @@
+{
+  "fonte": "v05_casamento_comum/centro.s2p",
+  "metodo": "Desembutimento nominal dos cabos50mm; inversao da secao de linha da raiz e otimizacao minimax comum de largura/comprimento. Cargas efetivas congeladas; nao substitui novo HFSS.",
+  "largura_mm": 0.66250964,
+  "comprimento_mm": 10.05606852,
+  "VSWR_estimado_ativo": [
+    1.21604,
+    1.07329
+  ],
+  "VSWR_estimado_casado": [
+    1.06983,
+    1.21604
+  ],
+  "estado": "ESTIMATIVA_NAO_VALIDADA"
+}

@@ -1,0 +1,31 @@
+{
+  "referencia": "D:\\dev\\EMBRAER\\P2M21\\R10_Quatro_Verticais",
+  "SLL_V": {
+    "nivel_dB": -4.101421611674473,
+    "angulo_graus": -44.5,
+    "limites_lobo_principal_graus": [
+      -16.75,
+      17.75
+    ],
+    "lobos": [
+      {
+        "angulo_graus": -85.0,
+        "nivel_dB": -11.082937200808896
+      },
+      {
+        "angulo_graus": -44.5,
+        "nivel_dB": -4.101421611674473
+      },
+      {
+        "angulo_graus": 43.5,
+        "nivel_dB": -6.541040537816819
+      },
+      {
+        "angulo_graus": 81.0,
+        "nivel_dB": -14.323119398323163
+      }
+    ],
+    "criterio": "Maximos locais no hemisferio frontal, fora dos primeiros minimos que delimitam o lobo principal."
+  },
+  "hipotese": "Retornos longos e estreitos e fase de B podem contribuir ao diagrama; causalidade depende de ensaios controlados."
+}

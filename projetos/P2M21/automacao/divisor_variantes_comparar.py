@@ -27,7 +27,10 @@ def assess(folder):
     consecutive=int(re.search(r'Current Consecutive Passes\s*:\s*(\d+)',conv)[1])
     required=int(re.search(r'Target Consecutive Passes\s*:\s*(\d+)',conv)[1])
     native_yes='Converged : Yes' in conv
-    converged=native_yes and delta<=.04 and consecutive>=required
+    target=float(cfg.get('max_delta_s',.04))
+    exported_target=float(re.search(r'^Target\s*:\s*([\d.eE+-]+)',conv,re.M)[1])
+    assert abs(target-exported_target)<1e-12,(target,exported_target)
+    converged=native_yes and delta<=target and consecutive>=required
     profiles=list(folder.rglob('*.profile'));assert len(profiles)==1
     profile=profiles[0].read_text(errors='replace').replace("\\'","'")
     cores=[int(re.search(r"'Cores', (\d+)",line)[1]) for line in profile.splitlines() if "ProfileItem('Matrix Solve'" in line]

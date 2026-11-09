@@ -1,0 +1,47 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v19_altura_menos10\\centro.s2p",
+  "metodo": "Modelo nominal MLine raiz+linha50; cabos ideais de fase para desembutimento; quatro cargas efetivas congeladas (AB e outra entrada casada). Requer HFSS completo.",
+  "estado": "ESTIMATIVA_NAO_VALIDADA",
+  "largura_mm": 0.656371208302508,
+  "comprimento_mm": 9.000142317087022,
+  "passo_fonte_mm": 48.0,
+  "passo_novo_mm": null,
+  "root_w_factor": 0.7628386129364336,
+  "root_l_factor": 1.020847457873107,
+  "VSWR_estimado_ativo": [
+    1.2336641032545375,
+    1.0488553123281308
+  ],
+  "VSWR_estimado_casado": [
+    1.0533128262468037,
+    1.2336641042304268
+  ],
+  "erro_recomposicao_modelo_original": 4.440892098500626e-16,
+  "fonte_s2_sha256": "55b24e9710412a8624c543e454fbce084334318ce0154dc683bb1fd02b0b42de",
+  "alteracoes_planas": [
+    {
+      "layer": "F",
+      "net": "SIG_A",
+      "area_mm2": 2.118872902223394,
+      "envelope": [
+        -6.735193,
+        -32.811707,
+        11.75353,
+        -31.188293
+      ]
+    },
+    {
+      "layer": "F",
+      "net": "SIG_B",
+      "area_mm2": 2.1188729022233934,
+      "envelope": [
+        -6.735193,
+        31.188293,
+        11.75353,
+        32.811707
+      ]
+    }
+  ],
+  "retornos_preservados": true,
+  "estado_preparacao": "Ensaio HFSS completo concluido e auditado. Ver resultado.json; a estimativa nominal nao substitui o resultado nem aprova convergencia."
+}

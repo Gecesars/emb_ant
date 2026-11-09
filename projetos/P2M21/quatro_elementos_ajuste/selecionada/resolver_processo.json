@@ -1,0 +1,12 @@
+{
+  "etapa": "resolver",
+  "pid": 32780,
+  "inicio": "2026-11-09T16:18:25.6298263-03:00",
+  "argumentos": [
+    "-ng",
+    "-LogFile",
+    "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v21_altura_menos10_casada\\resolver_aedt.log",
+    "-RunScriptAndExit",
+    "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v21_altura_menos10_casada\\resolver.py"
+  ]
+}

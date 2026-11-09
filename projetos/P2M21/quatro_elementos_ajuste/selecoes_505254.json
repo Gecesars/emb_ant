@@ -1,0 +1,10 @@
+{
+  "variantes": {
+    "50": "v16_passo50_reajustado",
+    "52": "v17_passo52_reajustado",
+    "54": "v18_passo54_reajustado"
+  },
+  "criterio": "Usar os reajustes de transformador com VSWR ativo e casado inferior a1.3. Nao implica ganho aprovado nem convergencia completa.",
+  "base_alturas": "v09_transformadores",
+  "motivo_base": "48mm e o unico dos espacamentos testados com G0>=12dBi e todos os VSWR<1.3, numericamente. Maximos H/V ainda deslocados e convergencia incompleta."
+}

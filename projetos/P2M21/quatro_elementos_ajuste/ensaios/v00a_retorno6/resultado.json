@@ -1,0 +1,122 @@
+{
+  "variante": "v00a_retorno6",
+  "passes": 6,
+  "delta_s": 0.12721,
+  "convergiu": false,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "hfss_indicou_convergencia": false,
+  "passes_consecutivos": 0,
+  "consecutivos_exigidos": 2,
+  "major": 0,
+  "minor": 0,
+  "passivo": true,
+  "max_singular": 0.3517788998904655,
+  "residuo_reciprocidade": 0.0002797740880122469,
+  "VSWR_ativo": [
+    1.449908918784144,
+    2.369192017856863
+  ],
+  "VSWR_casado": [
+    1.5876450474368264,
+    1.987824641948296
+  ],
+  "potencia_aceita_W": 0.9005628658679987,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 11.359134840329116,
+      "ganho_pico_dBi": 11.431356357807916,
+      "pico_graus": 5.0,
+      "abertura_graus": 77.67338231910668,
+      "limites_graus": [
+        -41.64419476068643,
+        36.029187558420254
+      ],
+      "picos_individuais_graus": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "diferenca_pico_frente_dB": 0.07222151747880012
+    },
+    "V": {
+      "ganho_frontal_dBi": 11.359134840329116,
+      "ganho_pico_dBi": 11.387139144440287,
+      "pico_graus": 0.75,
+      "abertura_graus": 16.17726204430925,
+      "limites_graus": [
+        -7.293091521330215,
+        8.884170522979034
+      ],
+      "picos_individuais_graus": {
+        "A": 0.5,
+        "B": -3.0
+      },
+      "diferenca_pico_frente_dB": 0.028004304111171052
+    }
+  },
+  "erros_recomposicao": {
+    "H": 4.112278000054207e-15,
+    "V": 4.2712669365552206e-15
+  },
+  "desvio_maximo_graus": 5.0,
+  "centrado_na_grade_025grau": false,
+  "alvo_delta_s": 0.05,
+  "SLL_V": {
+    "nivel_dB": -8.956144651702001,
+    "angulo_graus": -32.0,
+    "limites_lobo_principal_graus": [
+      -17.5,
+      19.0
+    ],
+    "lobos": [
+      {
+        "angulo_graus": -86.75,
+        "nivel_dB": -17.78198387710848
+      },
+      {
+        "angulo_graus": -32.0,
+        "nivel_dB": -8.956144651702001
+      },
+      {
+        "angulo_graus": 28.75,
+        "nivel_dB": -10.906158964673855
+      },
+      {
+        "angulo_graus": 44.75,
+        "nivel_dB": -9.248554101051473
+      },
+      {
+        "angulo_graus": 87.0,
+        "nivel_dB": -18.104146035025313
+      }
+    ],
+    "criterio": "Maximos locais no hemisferio frontal, fora dos primeiros minimos que delimitam o lobo principal."
+  },
+  "parametros": {
+    "ground": 6.0,
+    "extra_A": 0.0,
+    "extra_B": 14.49083158695937,
+    "lower": 1.5,
+    "upper": 0.0
+  },
+  "espacamento_vertical_mm": 48,
+  "basis_order": -1,
+  "eficiencia_radiacao": 0.7741654197038823,
+  "eficiencia_total": 0.6971846290244276,
+  "erro_potencia_W": 3.552713678800501e-15,
+  "fisica_ok": true,
+  "limite_VSWR_exclusivo": 1.3,
+  "metas": {
+    "ganho12": false,
+    "VSWR_ativo": false,
+    "VSWR_casado": false,
+    "maximos_zero_na_grade": false
+  },
+  "aprovado": false
+}

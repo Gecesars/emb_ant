@@ -1,0 +1,99 @@
+{
+  "atualizado": "2026-11-09T16:27:08.913895",
+  "estado": "TESTES_CONCLUIDOS_PRELIMINARES",
+  "objetivos": {
+    "frequencia_GHz": 5.17,
+    "ganho_frontal_min_dBi": 12,
+    "maximos_H_V_graus": 0,
+    "VSWR_ativo_e_casado_max_exclusivo": 1.3,
+    "lobulos_secundarios": "Minimizar o maior lobulo secundario de elevacao, mantendo ganho e apontamento."
+  },
+  "restricoes": {
+    "fontes_W": [
+      0.5,
+      0.5
+    ],
+    "fontes_fase_graus": [
+      0,
+      0
+    ],
+    "nucleos": 14,
+    "max_passes_por_geometria": 6,
+    "delta_s": 0.05,
+    "GUI": false,
+    "sweep": false,
+    "divisores_espelhados": true,
+    "compensacao_distinta_por_polarizacao": false,
+    "cabos_fisicos_mm": [
+      50,
+      50
+    ]
+  },
+  "variantes_atuais": [
+    "v00a_retorno6",
+    "v01_faseB",
+    "v03_simetrica",
+    "v04b_massa_centrada",
+    "v05_casamento_comum",
+    "v06_massa_continua",
+    "v09_transformadores",
+    "v10_passo42",
+    "v11_passo44",
+    "v12_passo42_compensado",
+    "v13_passo50_ajustado",
+    "v14_passo52_ajustado",
+    "v15_passo54_ajustado",
+    "v16_passo50_reajustado",
+    "v17_passo52_reajustado",
+    "v18_passo54_reajustado",
+    "v19_altura_menos10",
+    "v20_altura_mais10",
+    "v21_altura_menos10_casada"
+  ],
+  "historico_nao_selecionavel": [
+    "v00a_retorno6",
+    "v01_faseB"
+  ],
+  "preparadas_nao_executar": [
+    "v02_casamento",
+    "v02b_casamento",
+    "v07_retorno8_uniforme",
+    "v08_planos_laterais"
+  ],
+  "diretriz_transformadores": "Ajustar comprimento e largura das secoes transformadoras com dimensoes iguais em A e B.",
+  "diretriz_espacamento": "Pedido novo: testar50,52,54mm ajustando linhas. PCB comum70x202,refletor90x218. Pre-dimensionamento especifico de transformadores, rotas iguais em cada modulo, A/Bespelhadas. Auditar cada HFSS real.",
+  "criterio_aprovacao": "Metas RF e dois passes consecutivos abaixo de DeltaS 0.05; nenhum ensaio excede seis passes.",
+  "variantes_novo_pedido": [
+    "v13_passo50_ajustado",
+    "v14_passo52_ajustado",
+    "v15_passo54_ajustado"
+  ],
+  "fila_script": "projetos/P2M21/automacao/quatro_espacamento_505254.ps1",
+  "nao_duplicar": true,
+  "reajustes_preparados_apos_fila": [
+    "v16_passo50_reajustado",
+    "v17_passo52_reajustado",
+    "v18_passo54_reajustado"
+  ],
+  "observacao_v16": "Segunda fila de reajustes50/52/54 concluida; usar fila_alturas.json para o estado atual.",
+  "sessao_pipeline_ativo": null,
+  "sessao_pipeline_inicial_concluido": 57774,
+  "proxima_etapa": "Nenhum solve em fila. Revisao do relatorio e dos limites; nao liberar fabricacao.",
+  "distancias_planejadas_laminado_mm": [
+    14.949,
+    16.61,
+    18.271
+  ],
+  "referencia_distancia": "Face inferior do laminado ao topo do refletorZ0; cobreBfica0.035mmmaisbaixo.",
+  "escolha_espacamento_pendente_final54": false,
+  "alturas_ainda_nao_simuladas": false,
+  "espacamento_selecionado_mm": 48,
+  "base_alturas": "v09_transformadores",
+  "criterio_selecao_espacamento": "48mm atende numericamente G0>=12 e VSWR<1.3; menores42/44 perdem casamento/ganho, maiores50/52/54 reajustados casam mas nao atingem G0>=12. Todos sem convergencia completa; nao prova otimo global.",
+  "comparacao_alturas_concluida": true,
+  "reajuste_altura": "v21_altura_menos10_casada",
+  "controle_alturas": "Os tres casos sem retune permanecem preservados. v21 altera somente as secoes de raiz F.Cu igualmente A/B; altura14.949,pitch48,retornos e vias preservados.",
+  "melhor_compromisso_numerico": "v21_altura_menos10_casada",
+  "referencia_casamento_antes_alturas": "v09_transformadores",
+  "aprovado": false
+}

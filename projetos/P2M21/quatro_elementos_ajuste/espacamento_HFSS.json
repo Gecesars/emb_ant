@@ -1,0 +1,98 @@
+{
+  "resultados": [
+    {
+      "variante": "v09_transformadores",
+      "passo_mm": 48,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 12.235422931800834,
+      "pico_H_graus": -2.25,
+      "pico_V_graus": -1.25,
+      "abertura_H_graus": 77.15251711354495,
+      "abertura_V_graus": 15.436797815577378,
+      "VSWR_ativo": [
+        1.2891290499668195,
+        1.134226697471996
+      ],
+      "VSWR_casado": [
+        1.2097262596594323,
+        1.196528109070807
+      ],
+      "SLL_V_dB": -8.049010208143205,
+      "DeltaS": 0.027638,
+      "passes": 6,
+      "consecutivos": 1,
+      "convergiu": false
+    },
+    {
+      "variante": "v10_passo42",
+      "passo_mm": 42.0,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 9.029893376689559,
+      "pico_H_graus": 3.75,
+      "pico_V_graus": -0.75,
+      "abertura_H_graus": 80.05383551225866,
+      "abertura_V_graus": 16.793374959264778,
+      "VSWR_ativo": [
+        4.008202336566186,
+        3.5917312876927463
+      ],
+      "VSWR_casado": [
+        2.271260561565278,
+        2.1201471132446374
+      ],
+      "SLL_V_dB": -6.3675166312254365,
+      "DeltaS": 0.094131,
+      "passes": 6,
+      "consecutivos": 0,
+      "convergiu": false
+    },
+    {
+      "variante": "v11_passo44",
+      "passo_mm": 44.0,
+      "comprimentos_compensados": false,
+      "ganho_frontal_dBi": 10.32740883300459,
+      "pico_H_graus": 2.0,
+      "pico_V_graus": -1.5,
+      "abertura_H_graus": 74.27650558237411,
+      "abertura_V_graus": 15.516113647222227,
+      "VSWR_ativo": [
+        3.619896050989723,
+        3.230211901564991
+      ],
+      "VSWR_casado": [
+        2.1985921939362667,
+        2.017412764550649
+      ],
+      "SLL_V_dB": -8.618760609034227,
+      "DeltaS": 0.059151,
+      "passes": 6,
+      "consecutivos": 0,
+      "convergiu": false
+    },
+    {
+      "variante": "v12_passo42_compensado",
+      "passo_mm": 42.0,
+      "comprimentos_compensados": true,
+      "ganho_frontal_dBi": 8.908632991519365,
+      "pico_H_graus": 6.25,
+      "pico_V_graus": -2.0,
+      "abertura_H_graus": 80.2988976222783,
+      "abertura_V_graus": 17.149871866983233,
+      "VSWR_ativo": [
+        4.614078299551433,
+        3.8056704176266103
+      ],
+      "VSWR_casado": [
+        2.6229150065313105,
+        2.282932837984658
+      ],
+      "SLL_V_dB": -7.1427678128717105,
+      "DeltaS": 0.065216,
+      "passes": 6,
+      "consecutivos": 0,
+      "convergiu": false
+    }
+  ],
+  "controles": "Mesmos radiadores, materiais, largura dos retornos, dimensoes externas e transformadores; centros e redes reposicionados. Caminhos iguais entre os quatro radiadores e A/B. Na variante compensada, meandros iguais restauram o comprimento geometrico da referencia48; isso nao prova igualdade de fase real por causa de descontinuidades e acoplamento.",
+  "limite": "Convergencia indicada individualmente; nenhuma variante foi estendida alem de seis passes. Resultados nao sao uma varredura de frequencia nem uma prova de otimo global."
+}

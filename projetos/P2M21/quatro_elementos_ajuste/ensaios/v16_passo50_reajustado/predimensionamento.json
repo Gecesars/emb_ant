@@ -1,0 +1,20 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v13_passo50_ajustado\\centro.s2p",
+  "metodo": "Modelo nominal MLine raiz+linha50; cabos ideais de fase para desembutimento; quatro cargas efetivas congeladas (AB e outra entrada casada). Requer HFSS completo.",
+  "estado": "ESTIMATIVA_NAO_VALIDADA",
+  "largura_mm": 1.0567669368176986,
+  "comprimento_mm": 9.81948344560388,
+  "passo_fonte_mm": 50.0,
+  "passo_novo_mm": null,
+  "root_w_factor": 1.2281809654081635,
+  "root_l_factor": 1.1137818003211535,
+  "VSWR_estimado_ativo": [
+    1.120890709172974,
+    1.0497540092336421
+  ],
+  "VSWR_estimado_casado": [
+    1.0475186571956367,
+    1.120890710014955
+  ],
+  "erro_recomposicao_modelo_original": 2.220446049250313e-16
+}

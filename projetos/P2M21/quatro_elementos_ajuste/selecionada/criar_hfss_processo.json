@@ -1,0 +1,12 @@
+{
+  "etapa": "criar_hfss",
+  "pid": 34108,
+  "inicio": "2026-11-09T16:17:07.3319958-03:00",
+  "argumentos": [
+    "-ng",
+    "-LogFile",
+    "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v21_altura_menos10_casada\\criar_hfss_aedt.log",
+    "-RunScriptAndExit",
+    "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v21_altura_menos10_casada\\criar_hfss.py"
+  ]
+}

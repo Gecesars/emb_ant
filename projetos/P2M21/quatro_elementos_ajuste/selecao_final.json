@@ -1,0 +1,13 @@
+{
+  "selecionada": "v21_altura_menos10_casada",
+  "estado": "CANDIDATO_NUMERICO_PRELIMINAR_NAO_VALIDADO",
+  "passo_mm": 48,
+  "distancia_laminado_refletor_mm": 14.949,
+  "aprovado": false,
+  "justificativa": "Os valores obtidos favorecem passo de 48 mm e distancia de 14,949 mm entre laminado e refletor, com reajuste igual dos transformadores de raiz em A/B: ganho frontal de 12,7018 dBi, VSWR ativo 1,2327/1,0940 e casado 1,1041/1,1808. Frente a referencia de 48 mm e 16,610 mm, o ganho aumenta 0,4663 dB, o maior lobulo secundario vertical cai de -8,049 para -8,385 dB e o maximo H se aproxima de zero (-2,25 para -1,00 graus). Os casos de 50/52/54 mm reajustados atendem VSWR, mas ficam abaixo de 12 dBi frontais.",
+  "limites": "Escolha preliminar entre modulos efetivamente testados, sem prova de otimo global. O candidato terminou em seis passes com DeltaS 0,057225 (5,7225%), acima do alvo de 5%, e zero dos dois passes consecutivos exigidos. Os maximos H/V ainda estao em -1,00/-1,25 graus; portanto, nao ha liberacao de RF ou fabricacao. A referencia de altura nominal tambem nao completou a convergencia (DeltaS 2,7638%, apenas um de dois consecutivos). Diferencas de ganho/diagrama nao tem limite de incerteza validado por estudo independente de malha.",
+  "nominal_preservada": "v09_transformadores",
+  "comparacao_controlada_alturas": "alturas_HFSS.json",
+  "comparacao_espacamentos": "espacamento_505254.json",
+  "novo_solve_pendente": false
+}

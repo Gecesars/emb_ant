@@ -1,0 +1,191 @@
+{
+  "variantes": [
+    {
+      "variante": "v09_transformadores",
+      "passo_mm": 48,
+      "centros_mm": [
+        -72,
+        -24,
+        24,
+        72
+      ],
+      "caminhos_impressos_mm": [
+        101.49083158695937,
+        101.49083158695937,
+        101.49083158695936,
+        101.49083158695937
+      ],
+      "placa_mm": [
+        70.0,
+        184.0
+      ],
+      "refletor_mm": [
+        90.0,
+        200.0,
+        2.0
+      ],
+      "simetria": {
+        "diferenca_area_sinais_novos_mm2": 1.4391835197388133e-15,
+        "diferenca_area_retornos_novos_mm2": 0.0,
+        "escopo": "Divisores e faixas de retorno acrescentados espelhados em Y=0; cobre e vias originais dos radiadores preservados."
+      },
+      "transformadores": {
+        "ground": 6.0,
+        "extra_A": 0.0,
+        "extra_B": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "root_w_A": 0.76997274,
+        "root_w_B": 0.76997274,
+        "root_l_A": 1.14061663,
+        "root_l_B": 1.14061663,
+        "adapt": 50,
+        "diagnostico_campos": true,
+        "simetria": true,
+        "contorno_centrado": true
+      }
+    },
+    {
+      "variante": "v10_passo42",
+      "passo_mm": 42.0,
+      "centros_mm": [
+        -63.0,
+        -21.0,
+        21.0,
+        63.0
+      ],
+      "caminhos_impressos_mm": [
+        92.49083158695937,
+        92.49083158695937,
+        92.49083158695936,
+        92.49083158695937
+      ],
+      "placa_mm": [
+        70.0,
+        184.0
+      ],
+      "refletor_mm": [
+        90.0,
+        200.0,
+        2.0
+      ],
+      "simetria": {
+        "diferenca_area_sinais_novos_mm2": 1.4391835197388133e-15,
+        "diferenca_area_retornos_novos_mm2": 0.0,
+        "escopo": "Divisores e faixas de retorno acrescentados espelhados em Y=0; cobre e vias originais dos radiadores preservados."
+      },
+      "transformadores": {
+        "ground": 6.0,
+        "extra_A": 0.0,
+        "extra_B": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "root_w_A": 0.76997274,
+        "root_w_B": 0.76997274,
+        "root_l_A": 1.14061663,
+        "root_l_B": 1.14061663,
+        "adapt": 50,
+        "diagnostico_campos": true,
+        "simetria": true,
+        "contorno_centrado": true,
+        "pitch": 42.0
+      }
+    },
+    {
+      "variante": "v11_passo44",
+      "estado": "SOMENTE_CAD_NAO_SIMULADO",
+      "passo_mm": 44.0,
+      "centros_mm": [
+        -66.0,
+        -22.0,
+        22.0,
+        66.0
+      ],
+      "caminhos_impressos_mm": [
+        95.49083158695937,
+        95.49083158695937,
+        95.49083158695936,
+        95.49083158695937
+      ],
+      "placa_mm": [
+        70.0,
+        184.0
+      ],
+      "refletor_mm": [
+        90.0,
+        200.0,
+        2.0
+      ],
+      "simetria": {
+        "diferenca_area_sinais_novos_mm2": 1.4391835197388133e-15,
+        "diferenca_area_retornos_novos_mm2": 0.0,
+        "escopo": "Divisores e faixas de retorno acrescentados espelhados em Y=0; cobre e vias originais dos radiadores preservados."
+      },
+      "transformadores": {
+        "ground": 6.0,
+        "extra_A": 0.0,
+        "extra_B": 0.0,
+        "lower": 0.0,
+        "upper": 0.0,
+        "root_w_A": 0.76997274,
+        "root_w_B": 0.76997274,
+        "root_l_A": 1.14061663,
+        "root_l_B": 1.14061663,
+        "adapt": 50,
+        "diagnostico_campos": true,
+        "simetria": true,
+        "contorno_centrado": true,
+        "pitch": 44.0
+      }
+    },
+    {
+      "variante": "v12_passo42_compensado",
+      "estado": "EM_CALCULO",
+      "passo_mm": 42.0,
+      "centros_mm": [
+        -63.0,
+        -21.0,
+        21.0,
+        63.0
+      ],
+      "caminhos_impressos_mm": [
+        101.49083158695937,
+        101.49083158695937,
+        101.49083158695936,
+        101.49083158695937
+      ],
+      "placa_mm": [
+        70.0,
+        184.0
+      ],
+      "refletor_mm": [
+        90.0,
+        200.0,
+        2.0
+      ],
+      "simetria": {
+        "diferenca_area_sinais_novos_mm2": 1.4391835197388133e-15,
+        "diferenca_area_retornos_novos_mm2": 0.0,
+        "escopo": "Divisores e faixas de retorno acrescentados espelhados em Y=0; cobre e vias originais dos radiadores preservados."
+      },
+      "transformadores": {
+        "ground": 6.0,
+        "extra_A": 0.0,
+        "extra_B": 0.0,
+        "lower": 3.0,
+        "upper": 3.0,
+        "root_w_A": 0.76997274,
+        "root_w_B": 0.76997274,
+        "root_l_A": 1.14061663,
+        "root_l_B": 1.14061663,
+        "adapt": 50,
+        "diagnostico_campos": true,
+        "simetria": true,
+        "contorno_centrado": true,
+        "pitch": 42.0,
+        "root_extra": 6.0
+      }
+    }
+  ],
+  "observacao": "Contornos, radiadores e transformadores mantidos; novas posicoes e rotas. V10 encurta caminhos9mm; V12 repoe comprimento com meandros iguais e espelhados. Comprimento igual nao garante fase identica por causa das descontinuidades, perdas e acoplamento. V11 so preparado."
+}

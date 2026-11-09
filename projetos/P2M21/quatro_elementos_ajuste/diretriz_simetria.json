@@ -1,0 +1,11 @@
+{
+  "instrucao": "Entradas sempre iguais e em fase; divisores espelhados, sem compensacao distinta por polarizacao; ajuste dos planos de massa.",
+  "variantes_anteriores_descartadas": [
+    "v00a_retorno6",
+    "v01_faseB",
+    "v02_casamento",
+    "v02b_casamento"
+  ],
+  "motivo": "Instrucao posterior do usuario",
+  "v01": "Ja em passe6 quando recebida a instrucao; manter como historico, nao selecionar."
+}
