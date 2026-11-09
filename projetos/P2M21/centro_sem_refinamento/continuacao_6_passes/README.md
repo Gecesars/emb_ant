@@ -13,7 +13,7 @@ O ganho observado supera 21 dBi. O valor só constitui um resultado numericament
 
 ## Diagramas polares de amplitude
 
-Normalização por corte completo: `E/Emax = sqrt(|Eθ|² + |Eφ|²) / máximo`. A escala é amplitude linear de 0 a 1. A curva foi conferida contra `10^((G−Gmax)/20)`. A referência de −3 dB corresponde a E/Emax = 0,707946. A frente está em 0°, a grade angular tem passo de 0,25° e o diagrama vertical inclui detalhe frontal radial de 0,55 a 1. Os dois arquivos PNG são os anexos previstos do email autorizado.
+Normalização por corte completo: `E/Emax = sqrt(|Eθ|² + |Eφ|²) / máximo`. A escala é amplitude linear de 0 a 1. A curva foi conferida contra `10^((G−Gmax)/20)`. A referência de −3 dB corresponde a E/Emax = 0,707946. A frente está em 0°, a grade angular tem passo de 0,25° e o diagrama vertical inclui detalhe frontal radial de 0,55 a 1. Os dois arquivos PNG foram enviados por email após revisão visual e numérica.
 
 ![Horizontal](polares/P2M21_Horizontal_polar_E_Emax.png)
 
@@ -29,4 +29,4 @@ Malha: 0 reparos Major e 0 Minor. Eficiência calculada: 100.424953%. Maior valo
 
 [CSV dos resultados](resultados_centro.csv) · [Comparação com quatro passes](comparacao_4_6.json) · [Auditoria](resultados/auditoria_centro.json) · [Convergência nativa](resultados/convergencia_centro.txt) · [HFSS](hfss/P2M21_Ganho_Diagrama.aedt)
 
-O nativo e os dados compactos são arquivados; a malha e os campos volumétricos permanecem locais, fora do Git. O `.aedt` sozinho não restaura a solução FEM. Envio solicitado para gecesars@gmail.com, somente depois da revisão visual e numérica dos anexos finais. O recibo do envio será registrado separadamente.
+O nativo e os dados compactos são arquivados; a malha e os campos volumétricos permanecem locais, fora do Git. O `.aedt` sozinho não restaura a solução FEM. Email enviado para **gecesars@gmail.com** em 9/11/2026 às 06:01 (Brasília), com os dois PNGs finais. Destinatário, assunto e anexos foram confirmados pela leitura da mensagem enviada. [Comprovante](email_enviado.json).

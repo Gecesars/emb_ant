@@ -1,5 +1,5 @@
 {
-  "estado": "SEIS_PASSES_REVISADOS_PRONTOS_PARA_ENVIO",
+  "estado": "ENTREGUE_PRELIMINAR_SEIS_PASSES",
   "instante": "2026-11-09T05:54:35.189723-03:00",
   "passes": 6,
   "nucleos": 14,
@@ -9,6 +9,8 @@
   "convergiu": false,
   "delta_s": 0.11042357580384611,
   "email_destinatario": "gecesars@gmail.com",
-  "email_enviado": false,
-  "revisao_visual": true
+  "email_enviado": true,
+  "revisao_visual": true,
+  "email_id": "1a1bf8a478c6d7f9",
+  "email_instante": "2026-11-09T09:01:12.000Z"
 }

@@ -1,0 +1,26 @@
+{
+  "enviado": true,
+  "destinatario": "gecesars@gmail.com",
+  "assunto": "P2M21 — 6 passes — diagramas polares E/Emax em 5,17 GHz",
+  "id": "1a1bf8a478c6d7f9",
+  "thread_id": "1a1bf8a478c6d7f9",
+  "instante": "2026-11-09T09:01:12.000Z",
+  "labels": [
+    "UNREAD",
+    "SENT",
+    "INBOX"
+  ],
+  "verificacao_leitura": true,
+  "anexos": [
+    {
+      "arquivo": "P2M21_Horizontal_polar_E_Emax.png",
+      "bytes": 286409
+    },
+    {
+      "arquivo": "P2M21_Vertical_polar_E_Emax.png",
+      "bytes": 229308
+    }
+  ],
+  "commit_resultados": "09c6c3a",
+  "observacao": "Resultado preliminar, seis passes; DeltaS 0.11042357580384611 acima de 0.04. Dois diagramas finais E/Emax revisados."
+}
