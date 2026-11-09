@@ -9,6 +9,7 @@ def log(s):
     with open(os.path.join(folder,stage+'.log'),'a') as f:f.write(str(s)+'\n')
 try:
     cfg=json.load(open(os.path.join(root,'configuracao.json')))
+    if cfg.get('apenas_centro'):assert stage=='centro','Sweep nao autorizado nesta etapa.'
     if stage=='banda':assert json.load(open(os.path.join(folder,'auditoria_centro.json')))['aprovado']
     p=oDesktop.OpenProject(os.path.join(folder,cfg['native']));d=p.SetActiveDesign('PCB_separada')
     sol=d.GetModule('Solutions');reports=d.GetModule('ReportSetup');ports=list(sol.GetAllSources())

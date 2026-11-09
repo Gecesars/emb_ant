@@ -1,0 +1,32 @@
+{
+  "revisao": "R04_Centro_Classic",
+  "inicio": "2026-11-09T03:44:34.146475-03:00",
+  "native": "P2M21_Ganho_Diagrama.aedt",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R02_Malha_Uniforme17\\antena\\P2M21_Uniforme.aedt",
+  "fonte_sha256": "782590cd626dac258372f9be1622cf92a7642dffef08ff8fe75204a14df94253",
+  "niveis": 16,
+  "colunas": 2,
+  "radiadores": 32,
+  "portas": 64,
+  "potencia_total_W": 1.0,
+  "potencia_por_porta_W": 0.015625,
+  "fase_todas_portas_graus": 0,
+  "frequencias_MHz": [
+    5170
+  ],
+  "max_passes": 6,
+  "delta_s": 0.04,
+  "passes_consecutivos": 2,
+  "adaptacao_MHz": 5170,
+  "metodo": "64 portas diretas iguais/em fase; 1 W total. Sem rede externa. Adaptaçao automatica durante o solve, sem sweep.",
+  "criterio_usuario": "Pedido atual: somente ganho e diagrama no centro, sem refinamento inicial ou local; seis passes/DeltaS .04 mantidos.",
+  "campos_cache": "Nove direcoes apenas monitoradas por passe; nao sao criterio adicional.",
+  "correcoes_malha": "Zero controles locais; lambda inicial desligado; Classic automatico com resolucao global padrao. Sem importacao de malha. TAU R03 interrompido por reparos graves.",
+  "apenas_centro": true,
+  "basis_order": -1,
+  "lambda_refine": false,
+  "operacoes_malha": [],
+  "sweeps": [],
+  "mesher": "AnsoftClassic",
+  "mesher_fallback": false
+}

@@ -1,0 +1,65 @@
+{
+  "tipo": "Setup central preparado; RF ainda em execucao",
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/configuracao.json",
+      "bytes": 1343,
+      "sha256": "3546cdd5b75dbd4c3e7751bc8ba047327df08d5d3850feb22ca986990e38f28f"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/cancelamento_anterior.json",
+      "bytes": 454,
+      "sha256": "fad97ff059faeb265cf16258de16541b25ee237a19bc496d68466d398aa9c853"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/preparacao.json",
+      "bytes": 1482,
+      "sha256": "944310508b504f06e9bc4cef5602716673cdd47d0e61a38d571cc5cc2f665098"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/preparacao_aedt.log",
+      "bytes": 454,
+      "sha256": "57773fb749df52af14ddcf14437198597720c5db9f564d310b797b8fd31076ea"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/R03_centro_aedt.log",
+      "bytes": 3266,
+      "sha256": "c5e45642198588da1451e9b56e02160ca5236b654b82bc900d05f7aa85650eed"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/R03_configuracao.json",
+      "bytes": 1255,
+      "sha256": "164c959cba3168aeeb712ba9387070e5a426c26621302a9ca451ae0d62a97710"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/R03_preparacao.json",
+      "bytes": 1451,
+      "sha256": "90530646bc0ef2d6911743ed2baec3c319d27906ebb8b51f23586322351b53e4"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/R03_qualificacao.json",
+      "bytes": 186,
+      "sha256": "616f9901bd61d79b416b3359d54cf4c1e52650b4910ebdeb895e3fe0e0476379"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/R03_verificacao_preparacao.json",
+      "bytes": 450,
+      "sha256": "bd18982b81590bc6facdd1d40a54bdd9cb5f2c9b57464c6e74e042a8ec00574a"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/evidencias/verificacao_preparacao.json",
+      "bytes": 480,
+      "sha256": "958fed90cc72752624bc85d4cfd157d70b9a312a16e7c6298abb6fb58dbb1697"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/hfss/P2M21_Ganho_Diagrama.aedt",
+      "bytes": 19827999,
+      "sha256": "a5da69676c85ecf1ffe334f60a1ec06dd8fd144c56cb2f7a4feab9bef7037f04"
+    },
+    {
+      "arquivo": "projetos/P2M21/centro_sem_refinamento/qualificacao.json",
+      "bytes": 415,
+      "sha256": "32c3163450a75c04b8bbc40a9ec533b22e1344c7fae3c3ffc72cf5534f9b6e35"
+    }
+  ]
+}

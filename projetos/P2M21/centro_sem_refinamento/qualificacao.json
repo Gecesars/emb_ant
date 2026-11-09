@@ -1,0 +1,14 @@
+﻿{
+    "max_passes":  6,
+    "frequencia_GHz":  5.17,
+    "processo_pipeline":  47048,
+    "delta_s":  0.04,
+    "sweeps":  0,
+    "detalhe":  {
+                    "base":  "Mixed Order",
+                    "sem_refinamento_inicial":  true,
+                    "processo_aedt":  223588
+                },
+    "instante":  "2026-11-09T03:45:23.2037978-03:00",
+    "estado":  "CENTRO_EM_EXECUCAO"
+}

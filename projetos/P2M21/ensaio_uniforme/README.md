@@ -2,7 +2,7 @@
 
 Pedido de 9/11/2026: corrigir a malha e calcular ganho total e aberturas horizontal/vertical em **17 frequências de 5,09 a 5,25 GHz**, a cada 10 MHz, com todas as portas na mesma amplitude e fase. A última instrução aceita **ΔS ≤ 0,04**, substituindo o valor anterior de 0,02; mantém o máximo de **seis passes**.
 
-**Estado: cálculo em andamento, sem resultado novo aprovado.** Esta página será atualizada após a auditoria. Os números de [pré-dimensionamento](../estimativa_uniforme/README.md) são estimativas e não resultados deste ensaio.
+**Estado: interrompido em 9/11 às 03:27 por nova instrução do usuário; a banda não foi executada.** O centro também não havia convergido. As seções abaixo registram o planejamento anterior, agora suspenso. Seguir somente o [setup central sem refinamentos impostos](../centro_sem_refinamento/README.md). Os números de [pré-dimensionamento](../estimativa_uniforme/README.md) são estimativas e não resultados deste ensaio.
 
 **Verificação de 9/11 às 03:18:** quatro passes concluídos, 3.432.963 tetraedros e ΔS = 0,249792, ainda acima de 0,04; a adaptação para o quinto passe está ativa. O cache frontal do quarto passe registra 22,94745 dBi em 5,17 GHz, exclusivamente como resultado preliminar sem convergência. A nova malha tem zero reparos graves e sete menores até esta verificação. A banda de 17 pontos ainda não começou e não há aberturas H/V exportadas. [Evidências do monitoramento, sem interferir no solver](monitor_20261109_0318.json).
 

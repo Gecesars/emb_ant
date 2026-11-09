@@ -1,0 +1,15 @@
+{
+  "geometria_preservada": true,
+  "blocos_geometria": 782,
+  "max_passes": 6,
+  "delta_s": 0.04,
+  "basis_order": -1,
+  "lambda_refine": false,
+  "operacoes_locais": 0,
+  "sweeps": 0,
+  "frequencia_GHz": 5.17,
+  "potencia_incidente_total_W": 1,
+  "portas": 64,
+  "native_sha256": "cf4c1fdf031ed4b770d28368f784bc058eb62659811a7a3b5d67b89f62e4f315",
+  "fonte_sha256": "782590cd626dac258372f9be1622cf92a7642dffef08ff8fe75204a14df94253"
+}

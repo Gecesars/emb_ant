@@ -1,5 +1,5 @@
 """Preparacao e auditoria dos ensaios uniformes P2M21; nenhum solve neste script."""
-import argparse,csv,hashlib,json,re,shutil,sys
+import argparse,csv,hashlib,json,re,shutil,sys,os
 from datetime import datetime
 from pathlib import Path
 import numpy as np
@@ -10,7 +10,7 @@ sys.path.insert(0,str(repo/'automacao/r05'))
 sys.path.insert(0,str(repo/'automacao/r06'))
 from auditar_malha import audit as mesh_audit
 from rede_carregada import beam,read_pattern
-root=Path('D:/dev/EMBRAER/P2M21/R02_Malha_Uniforme17')
+root=Path(os.environ.get('P2M21_UNIFORME','D:/dev/EMBRAER/P2M21/R02_Malha_Uniforme17'))
 folder=root/'antena'
 source=Path('D:/dev/EMBRAER/P2M21/R00_Concepcao/antena/P2M21_Antena.aedt')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -95,7 +95,8 @@ def check_preparation():
       superficie_refinada_corpos=256,novos_Cu0_com_limite_60um=64)
     write(folder/'verificacao_preparacao.json',evidence);print(json.dumps(evidence))
 def check(stage):
-    cfg=read(root/'configuracao.json');assert sha(source)==cfg['fonte_sha256']
+    cfg=read(root/'configuracao.json');assert sha(Path(cfg['fonte']))==cfg['fonte_sha256']
+    if cfg.get('apenas_centro'):assert stage=='centro','Sweep nao autorizado nesta etapa.'
     conv=conv_info(folder/('convergencia_'+stage+'.txt'))
     mesh=mesh_audit(folder);write(folder/('malha_'+stage+'.json'),mesh)
     converged=(conv['convergiu'] and 2<=conv['passes']<=6 and conv['max_passes']==6 and

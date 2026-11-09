@@ -1,0 +1,8 @@
+{
+  "estado": "CANCELADO_POR_NOVA_INSTRUCAO_USUARIO",
+  "instante": "2026-11-09T03:31:43.434259-03:00",
+  "motivo": "Substituido por centro 5.17GHz sem refinamento inicial; nao executar17pontos.",
+  "nova_pasta": "D:\\dev\\EMBRAER\\P2M21\\R03_Centro_Automatico",
+  "cancelamento": "StopSimulations(True), depois StopSimulations(False); erro nativo confirma interrupcao pelo usuario em03:27:58. Sem force-kill do solver.",
+  "passes_completos": 4
+}
