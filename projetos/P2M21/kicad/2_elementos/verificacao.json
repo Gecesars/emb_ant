@@ -1,0 +1,120 @@
+{
+  "aprovado_geometria": true,
+  "fonte": "geometria v05 mais anilhas de vias/pads e furos do CAD EM",
+  "tolerancia_Hausdorff_mm": 0.002,
+  "tolerancia_area_mm2": 0.002,
+  "max_distancia_Hausdorff_mm": 1.0000000081333837e-06,
+  "max_diferenca_area_mm2": 1.6277480233163115e-05,
+  "folga_minima_mm": 0.18875013442246902,
+  "shorts": [],
+  "continuidade": {
+    "SIG_A": {
+      "componentes_conectados": 1,
+      "partes_planares": 2
+    },
+    "SIG_B": {
+      "componentes_conectados": 1,
+      "partes_planares": 6
+    },
+    "RET_A": {
+      "componentes_conectados": 1,
+      "partes_planares": 1
+    },
+    "RET_B": {
+      "componentes_conectados": 1,
+      "partes_planares": 1
+    }
+  },
+  "comparacoes": [
+    {
+      "layer": "B",
+      "net": "E1_Q2",
+      "area_hfss_mm2": 63.499868093220456,
+      "area_kicad_mm2": 63.499868093220556,
+      "diferenca_area_mm2": 2.622381828821392e-13,
+      "distancia_Hausdorff_mm": 1.4210854715202004e-14
+    },
+    {
+      "layer": "B",
+      "net": "E1_Q3",
+      "area_hfss_mm2": 62.04064483963754,
+      "area_kicad_mm2": 62.04064483963762,
+      "diferenca_area_mm2": 3.632835872340681e-13,
+      "distancia_Hausdorff_mm": 1.2809491335957507e-14
+    },
+    {
+      "layer": "B",
+      "net": "E2_Q2",
+      "area_hfss_mm2": 63.49986809322051,
+      "area_kicad_mm2": 63.499868093220684,
+      "diferenca_area_mm2": 1.6856978196644336e-13,
+      "distancia_Hausdorff_mm": 5.347542221830668e-15
+    },
+    {
+      "layer": "B",
+      "net": "E2_Q3",
+      "area_hfss_mm2": 62.04064483963755,
+      "area_kicad_mm2": 62.04065445460256,
+      "diferenca_area_mm2": 9.614965241773255e-06,
+      "distancia_Hausdorff_mm": 1.00000000458067e-06
+    },
+    {
+      "layer": "B",
+      "net": "RET_A",
+      "area_hfss_mm2": 375.34911553441975,
+      "area_kicad_mm2": 375.34912579358485,
+      "diferenca_area_mm2": 1.6277480233163115e-05,
+      "distancia_Hausdorff_mm": 1.0000000010279564e-06
+    },
+    {
+      "layer": "B",
+      "net": "RET_B",
+      "area_hfss_mm2": 477.67419937136435,
+      "area_kicad_mm2": 477.6741990832835,
+      "diferenca_area_mm2": 2.6874556400225448e-06,
+      "distancia_Hausdorff_mm": 1.00000000458067e-06
+    },
+    {
+      "layer": "B",
+      "net": "SIG_A",
+      "area_hfss_mm2": 1.0602808675666089,
+      "area_kicad_mm2": 1.0602808681392966,
+      "diferenca_area_mm2": 1.8776466103015527e-06,
+      "distancia_Hausdorff_mm": 9.757034782697448e-07
+    },
+    {
+      "layer": "B",
+      "net": "SIG_B",
+      "area_hfss_mm2": 6.189472730007888,
+      "area_kicad_mm2": 6.1894727305327955,
+      "diferenca_area_mm2": 1.8775566918760846e-06,
+      "distancia_Hausdorff_mm": 6.152268532588821e-07
+    },
+    {
+      "layer": "F",
+      "net": "SIG_A",
+      "area_hfss_mm2": 152.40787575449576,
+      "area_kicad_mm2": 152.40787613225567,
+      "diferenca_area_mm2": 3.7776038808649175e-07,
+      "distancia_Hausdorff_mm": 1.0000000081333837e-06
+    },
+    {
+      "layer": "F",
+      "net": "SIG_B",
+      "area_hfss_mm2": 196.28678762037705,
+      "area_kicad_mm2": 196.28678781354745,
+      "diferenca_area_mm2": 1.93171090791472e-07,
+      "distancia_Hausdorff_mm": 1.0000000081333837e-06
+    }
+  ],
+  "drc_erros": 0,
+  "drc_desconectados": 0,
+  "drc_avisos": [
+    {
+      "severity": "warning",
+      "type": "solder_mask_bridge",
+      "quantidade": 138
+    }
+  ],
+  "observacao": "Mascara totalmente aberta por intencao RF; nao implica qualificacao de fabricacao ou nova simulacao EM."
+}

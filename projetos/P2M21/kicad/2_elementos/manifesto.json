@@ -1,0 +1,121 @@
+{
+  "origem": "HFSS v05; KiCad 10.0.5; arte conferida por rede/camada",
+  "arquivos": [
+    {
+      "arquivo": "2_elementos.kicad_pcb",
+      "sha256": "b26d719a3f738d3c0a3f67ef6eb4c8b1ae3635cb21d0df33849cf44f86896011",
+      "bytes": 51409
+    },
+    {
+      "arquivo": "2_elementos.kicad_pro",
+      "sha256": "55d7d47a7a8bfb8f15c8c261cdb09901bb064467d95dac9593b587f65957d349",
+      "bytes": 9762
+    },
+    {
+      "arquivo": "2_elementos_gerbers.zip",
+      "sha256": "197d36f9f7fa8991ebce037e989ad721551a22e82251d1955fe232454b0e2cac",
+      "bytes": 13386
+    },
+    {
+      "arquivo": "drc.json",
+      "sha256": "1ff0d46b6c1f0a15e8ff4ea8e63e43c171771ed3fb93407a7830e83db077a846",
+      "bytes": 117871
+    },
+    {
+      "arquivo": "gerbers/2_elementos-B_Cu.gbl",
+      "sha256": "2cd84be9b29c9f1646acb1f4da53c2cd64465086be4ad6fe0cc446fb806d47d7",
+      "bytes": 35167
+    },
+    {
+      "arquivo": "gerbers/2_elementos-B_Mask.gbs",
+      "sha256": "38d08443c6ee0ef0a025d4f9b8abfa4de76acede6e3fada7362154993fa07d8b",
+      "bytes": 666
+    },
+    {
+      "arquivo": "gerbers/2_elementos-drill.rpt",
+      "sha256": "9c684a8745645317e9a69bf9074663274e1d2f8136b453b6a77fa3ce3872d320",
+      "bytes": 657
+    },
+    {
+      "arquivo": "gerbers/2_elementos-Edge_Cuts.gm1",
+      "sha256": "a00b887adfc73f59b3bb31d1f9f451334e996541df2767ed124ed8f957379ca3",
+      "bytes": 727
+    },
+    {
+      "arquivo": "gerbers/2_elementos-F_Cu.gtl",
+      "sha256": "a1941313db14170a5f47e2a511ca31411c69f07ef3c6f536575321f1ae09734d",
+      "bytes": 8049
+    },
+    {
+      "arquivo": "gerbers/2_elementos-F_Mask.gts",
+      "sha256": "e3060a98b88da3f133da62e1ea8349e2a01ef80095b53854db060647fe0456f1",
+      "bytes": 666
+    },
+    {
+      "arquivo": "gerbers/2_elementos-job.gbrjob",
+      "sha256": "ec28c7bde73b8c9b7b8d98fadd7a0eeb9f11d5fd8a15834818ae9eb4396ba126",
+      "bytes": 2350
+    },
+    {
+      "arquivo": "gerbers/2_elementos-NPTH-drl_map.svg",
+      "sha256": "bf7f491017da2c10af6da985c852592b9853afec16d17afc046e4adbdc559e9b",
+      "bytes": 5268
+    },
+    {
+      "arquivo": "gerbers/2_elementos-NPTH.drl",
+      "sha256": "1c6b68c4a8370ff0396de56dae14c0e36bb12ead46aca55dbf9d4c04011d0749",
+      "bytes": 276
+    },
+    {
+      "arquivo": "gerbers/2_elementos-PTH-drl_map.svg",
+      "sha256": "5724f7befae02aee420334fb8c5e125355fad36368cdd4ace66606cae77eaf23",
+      "bytes": 33524
+    },
+    {
+      "arquivo": "gerbers/2_elementos-PTH.drl",
+      "sha256": "4d489768215cf81b27d8d7216ad2c974d0f93ef37150faf8e52b69575b262e22",
+      "bytes": 494
+    },
+    {
+      "arquivo": "leitura_kicad.json",
+      "sha256": "2c6de24543babed5c72f41bc33b6584fa178b6cbc76c2474b2af4bcbb722f7ea",
+      "bytes": 138748
+    },
+    {
+      "arquivo": "preview/2_elementos-B_Cu.png",
+      "sha256": "865eacdccf2a12b455f094d56d41d958c8397bbb9d40ea2b04c0a4bdcadbf4d2",
+      "bytes": 25569
+    },
+    {
+      "arquivo": "preview/2_elementos-B_Cu.svg",
+      "sha256": "8ead476ef44a271fe70954b4aa268af4f92ac67653d1ec380a9dda25f03d909b",
+      "bytes": 24049
+    },
+    {
+      "arquivo": "preview/2_elementos-F_Cu.png",
+      "sha256": "1f99475952e0a4a68b2bdca2bba6cfbdaa9662dfc44ae3522e3fce68fb6b49f6",
+      "bytes": 12717
+    },
+    {
+      "arquivo": "preview/2_elementos-F_Cu.svg",
+      "sha256": "f3494fd2ca05a2b1d84d037c1a8fe25e13937ba799f00816832d9b11b0b08bef",
+      "bytes": 6654
+    },
+    {
+      "arquivo": "preview/2_elementos.png",
+      "sha256": "36a1f39f1fc53867f0ef0f041a2a32e181bc8624f6a859368808b7209a4cb35c",
+      "bytes": 146424
+    },
+    {
+      "arquivo": "README.md",
+      "sha256": "92fdb20818d840d797f8a02612ce20dfc213ceacd316521d3525343648241b91",
+      "bytes": 4800
+    },
+    {
+      "arquivo": "verificacao.json",
+      "sha256": "ec91bd1b1fd0a11136722a47d807a2ba8b642108fabc9193cdc5e307be24e408",
+      "bytes": 3604
+    }
+  ],
+  "total_bytes": 642837
+}
