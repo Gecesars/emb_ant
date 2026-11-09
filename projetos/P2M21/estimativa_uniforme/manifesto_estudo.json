@@ -1,0 +1,50 @@
+{
+  "data": "2026-11-09",
+  "tipo": "estimativa_coerente_antes_da_correcao_de_malha",
+  "frequencia_Hz": 5170000000,
+  "casos_verificados": 36,
+  "fontes_campos_verificadas": 40,
+  "normalizacao_potencia_total_W": 1,
+  "recomposicao_erro_max_dB": 6.359357485052897e-13,
+  "revisao_visual": [
+    "comparacao_uniforme.png: titulos, eixos, legendas e rodape legiveis",
+    "espacamento_horizontal.png: titulos, eixos e legendas legiveis"
+  ],
+  "arquivos": [
+    {
+      "caminho": "projetos/P2M21/automacao/estimar_uniforme.py",
+      "bytes": 8279,
+      "sha256": "01e7d9f503d1f06f5ff91d2bd4568d64d5eb233f056928f14f069d661a85793c"
+    },
+    {
+      "caminho": "projetos/P2M21/estimativa_uniforme/comparacao_40mm.csv",
+      "bytes": 1564,
+      "sha256": "ad05b2ade95c65c65cb92f2085aafdf1b77ead4339b3b54b504f3476fa95b3c5"
+    },
+    {
+      "caminho": "projetos/P2M21/estimativa_uniforme/comparacao_completa.csv",
+      "bytes": 5904,
+      "sha256": "66b62337d37fffd8c9d916818c0fdf217ee84318a66956b4a302d5e0de398eba"
+    },
+    {
+      "caminho": "projetos/P2M21/estimativa_uniforme/comparacao_uniforme.png",
+      "bytes": 293917,
+      "sha256": "cf714ddec3e08bd38ba9e7d9516ac238adbafb61a36f17654ddcdcac0ec09f40"
+    },
+    {
+      "caminho": "projetos/P2M21/estimativa_uniforme/espacamento_horizontal.png",
+      "bytes": 63176,
+      "sha256": "95a85618ec3691a7acad97d96f9cdb54b1265924f8fe30bc6223a04a3ddda1a0"
+    },
+    {
+      "caminho": "projetos/P2M21/estimativa_uniforme/metodo_e_resultados.json",
+      "bytes": 32778,
+      "sha256": "912918838697dfbe2f28541c14f399970f9c8cb0be5a12b5b15bee231fd93f75"
+    },
+    {
+      "caminho": "projetos/P2M21/estimativa_uniforme/README.md",
+      "bytes": 6029,
+      "sha256": "4b3b8beb6a7765ba2f9a3c3aa1cf60687dfdf8e668d1a6bd9922e0e91297eacd"
+    }
+  ]
+}

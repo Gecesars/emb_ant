@@ -2,6 +2,8 @@
 
 **R00: concepção criada, ainda sem qualificação eletromagnética do novo painel.** A P1H foi preservada como semipronta; seus resultados não aprovam esta nova geometria.
 
+**Estudo de 9/11, antes de corrigir a malha:** a pedido do usuário, foi comparada a alimentação de **todas as portas A/B simultaneamente, com amplitude igual e fase de 0°**, mantendo 1 W total. A estimativa com a referência P1H R06 favorece manter **16 níveis × 2 colunas**: ganho total frontal de aproximadamente **22,50 dBi**, H **39,1°** e V **3,49°** em 5,17 GHz, sem a nova rede. O caso 10×2 fica em 20,46 dBi. Foram documentadas 36 combinações de níveis, colunas e espaçamentos. Este estudo coerente não comprova o requisito MIMO por entrada nem a banda e não alterou a geometria ou iniciou novo ciclo HFSS. [Comparação, método e gráficos](estimativa_uniforme/README.md).
+
 **Atualização de 8/11, após a execução:** a antena terminou às 16h43 sem convergir em seis passes: ΔS = 0,040859, contra o limite de 0,02. Foram identificados sete corpos com reparos Major. A fila interrompeu antes da varredura do painel e do circuito; ganho e VSWR por entrada nos 17 pontos continuam sem confirmação. [Diagnóstico e evidências](diagnostico_20261108.md). Não há solver P2M21 ativo nesta verificação.
 
 O requisito confirmado é ganho frontal realizado **≥21 dBi em cada entrada**, de **5,09 a 5,25 GHz**, nos 17 pontos separados por 10 MHz, com a outra entrada terminada em 50 Ω. Cada entrada alimenta uma polarização dos 32 radiadores, distribuídos nas duas colunas. Os dois canais permanecem independentes. Não se soma a potência dos canais para alegar 21 dBi por entrada.
