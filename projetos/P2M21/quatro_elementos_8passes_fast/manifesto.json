@@ -1,0 +1,273 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "centro/P2M21_4_elementos.aedt",
+      "sha256": "873e57429f21dbb457b2efdb98e063513b2f84f24ee8f2ac8bd527cc1d11f1cd",
+      "bytes": 8238751
+    },
+    {
+      "arquivo": "centro/4_elementos.FCStd",
+      "sha256": "210f5e14fd7d824484b2412e1616178dee2742099d0ffc0ced1e3954509326c8",
+      "bytes": 290492
+    },
+    {
+      "arquivo": "centro/configuracao.json",
+      "sha256": "2fed2043118001f80610da2a83794d5314e23dd636e61181767d4e23c1004085",
+      "bytes": 2077
+    },
+    {
+      "arquivo": "centro/geometria.json",
+      "sha256": "e9319581a38c71573ceac458341f70f478299b58739436801d21b4d333297c92",
+      "bytes": 226059
+    },
+    {
+      "arquivo": "centro/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "centro/layout.png",
+      "sha256": "64d4ced98ae92b6dd3f6670d3b7de321ffc4f5545a1a191c51c5132d6824e9b5",
+      "bytes": 68958
+    },
+    {
+      "arquivo": "centro/caminhos_alimentacao.json",
+      "sha256": "f548211865957d1079b0f46bb4d28a755e299a7f9d28d9e4c6c861355dccdebf",
+      "bytes": 563
+    },
+    {
+      "arquivo": "centro/convergencia.txt",
+      "sha256": "ca95b1451f64d8d0e5082072977e0b2e4ca81fc1a4aa438b32cbec68cc98970f",
+      "bytes": 716
+    },
+    {
+      "arquivo": "centro/centro.s2p",
+      "sha256": "a759cf6eac31ea7a4f0842146f43eec15c013113284f66858825d75e5c198610",
+      "bytes": 809
+    },
+    {
+      "arquivo": "centro/banda_fast.s2p",
+      "sha256": "3db1aff9c94d7b921cf8728a3d188906cf745c9b9385861ba8d5679dcc49dac0",
+      "bytes": 59496
+    },
+    {
+      "arquivo": "centro/resultado.json",
+      "sha256": "0c82538d3dcf51362b195f842ebc9e60afbc63e95b4b07311f1d38e207ab0720",
+      "bytes": 3194
+    },
+    {
+      "arquivo": "centro/malha.json",
+      "sha256": "d3630d88033eec3493efb492c901a53108e0c8c288bd10e78f2d3efab64861f5",
+      "bytes": 30356
+    },
+    {
+      "arquivo": "centro/qualificacao.json",
+      "sha256": "293080185c492612d540c09a0aebb6dcffcb4914a045c8809c1c47bb79adcb37",
+      "bytes": 227
+    },
+    {
+      "arquivo": "centro/diagramas_HV.png",
+      "sha256": "34bb2338dfb4d88ba3980e99971122014545136c8a5f73d2a5004189be81d202",
+      "bytes": 127462
+    },
+    {
+      "arquivo": "centro/polar_HV.png",
+      "sha256": "ab85fb53591f586c17c349d0d3ae3a35820f44c138c11bda8cadd6020a95e8f8",
+      "bytes": 208169
+    },
+    {
+      "arquivo": "centro/polar_HV.pdf",
+      "sha256": "07bb25baeef192ae2efe3f8589b512c6162210f2685d045f8df7c7bcc610816a",
+      "bytes": 27354
+    },
+    {
+      "arquivo": "centro/AB_H.csv",
+      "sha256": "53ce416e045d696dcf3fe876d2da5b58693651abe304096bd6d2f066fc82c5e0",
+      "bytes": 198137
+    },
+    {
+      "arquivo": "centro/AB_V.csv",
+      "sha256": "1f9687b619f1272efb900dbb1f3f8f2df5d2a2fd495ce14ea51e3d526e4ec15c",
+      "bytes": 197131
+    },
+    {
+      "arquivo": "centro/A_H.csv",
+      "sha256": "68916b77b4ce96ab47dc9e095c1e4095ef0c1f55925baf47085dcf447a29cb96",
+      "bytes": 198787
+    },
+    {
+      "arquivo": "centro/A_V.csv",
+      "sha256": "6437f87e215569939c2007338ee578f123b1a0c4f0f6ffca7d0f3f959aaf6787",
+      "bytes": 197259
+    },
+    {
+      "arquivo": "centro/B_H.csv",
+      "sha256": "57c5ba9ec344049d8c5aca01e66517a753765410aeca0953224bd88d7bc7de1a",
+      "bytes": 197723
+    },
+    {
+      "arquivo": "centro/B_V.csv",
+      "sha256": "ae6be714bd70de40261e9532556c63bf4d40ac841cfb6ad3097c03254b2729b3",
+      "bytes": 196465
+    },
+    {
+      "arquivo": "README.md",
+      "sha256": "0905c6109f4fe918e9d67835764df23e99b6fe46b4e293c2dbf0aae838998b80",
+      "bytes": 5247
+    },
+    {
+      "arquivo": "qualificacao.json",
+      "sha256": "0e782895690df59d9042d12d7f2f1a48416c1b27bd7ae81df6134d81e239501a",
+      "bytes": 243
+    },
+    {
+      "arquivo": "origem.json",
+      "sha256": "1a74c1e9966d30c8d795418980421392babea09109071134b645881571fec8cb",
+      "bytes": 12788
+    },
+    {
+      "arquivo": "preparacao_auditada.json",
+      "sha256": "8d5d8ba754f7785d2ff8b7a919e77a253d6f6a3ca9af36dbc4be559dfb3efb75",
+      "bytes": 924
+    },
+    {
+      "arquivo": "continuidade_auditada.json",
+      "sha256": "c02cd7e00fd57609d494a7b3e61169a55786c61cf9b81a6340fbc1a45cf8a9bd",
+      "bytes": 1121
+    },
+    {
+      "arquivo": "auditoria_fast.json",
+      "sha256": "ca2f0dce93069259de1fb05ac5ee3b593cda15beab5953b072171123251bb084",
+      "bytes": 6631
+    },
+    {
+      "arquivo": "sweep_configurado.json",
+      "sha256": "9f33b29596ce3e78d37a135d13794ad2a683cddd35740105c4ea9f83464ed929",
+      "bytes": 134
+    },
+    {
+      "arquivo": "antes_convergencia.txt",
+      "sha256": "f07fe262c413d085d261de53ffa9ce375eb33c0c321ffd352bcaf15395274784",
+      "bytes": 622
+    },
+    {
+      "arquivo": "apos_fast_convergencia.txt",
+      "sha256": "ca95b1451f64d8d0e5082072977e0b2e4ca81fc1a4aa438b32cbec68cc98970f",
+      "bytes": 716
+    },
+    {
+      "arquivo": "vswr_banda_fast.csv",
+      "sha256": "90d69debc913d67e6fbad2cccf1699e2c8104053649a711b9857629a7f0be73a",
+      "bytes": 16321
+    },
+    {
+      "arquivo": "vswr_banda_fast.png",
+      "sha256": "1d15c63266cff7c31f7096a92e92b7840e731a9f23014b0365fdda549f8a4793",
+      "bytes": 119005
+    },
+    {
+      "arquivo": "comparacao6_8.png",
+      "sha256": "f031dd065acd19afeeb6bad07c170c4db4e8d9259078c8693c1357917bf3e618",
+      "bytes": 134338
+    },
+    {
+      "arquivo": "mensagens_centro.json",
+      "sha256": "3d67b43890badda2dd47372c3297f3fcb3013438d6d8df12affa2dbe972bcb9b",
+      "bytes": 180
+    },
+    {
+      "arquivo": "mensagens_fast.json",
+      "sha256": "60a77885f7e61070ba4a6b7efbc8171c6b761fc5e85437eff0b7a98605325539",
+      "bytes": 180
+    },
+    {
+      "arquivo": "cache_preservado.json",
+      "sha256": "240971895598f125b63b808f7ccafba46f338647a594a09e97ba9ef2fcbd9cd4",
+      "bytes": 1687
+    },
+    {
+      "arquivo": "fast_recursos.json",
+      "sha256": "ecf6d090732b339af34bafb20d3831ae8d88abb610d7bc91ee9e1bf47fb58de2",
+      "bytes": 435
+    },
+    {
+      "arquivo": "revisao_entrega.json",
+      "sha256": "66ac629c827c4c5463ba70d2c76fc6f8d7e1ad73d12f5f5d293de22d02839985",
+      "bytes": 1060
+    },
+    {
+      "arquivo": "referencia6/AB_H.csv",
+      "sha256": "ec690a0b06a4ab3ed6375c8fdaceec4a3a9f9046a793def7a87a9053ce9bf93f",
+      "bytes": 198131
+    },
+    {
+      "arquivo": "referencia6/AB_V.csv",
+      "sha256": "76d0a6ddbbeb0b7c61be9b1c8965a964028419dcf9501950a70fc8160c0a2270",
+      "bytes": 197252
+    },
+    {
+      "arquivo": "referencia6/A_H.csv",
+      "sha256": "b97f9691d4c1d6f165d13c03288389e46e255fed0b1454f9889cbd3d71b67cf9",
+      "bytes": 198689
+    },
+    {
+      "arquivo": "referencia6/A_V.csv",
+      "sha256": "553992565f322b8f6938e6f1374cbc026e2fed25d4b251d689a7dc8eeedde97b",
+      "bytes": 197206
+    },
+    {
+      "arquivo": "referencia6/B_H.csv",
+      "sha256": "ddc420f789e3297c2e400a7a56dfcf79d8857ff52ef495051dd19e89c86a93f2",
+      "bytes": 197577
+    },
+    {
+      "arquivo": "referencia6/B_V.csv",
+      "sha256": "9f556244c9adc881fa462ec584caf68f46e0b20d15cdda5b941fb2ffd9d5fa2f",
+      "bytes": 196488
+    },
+    {
+      "arquivo": "referencia6/centro.s2p",
+      "sha256": "76385ee4cb81161359e1bedc111bcbc81b0371ba706114547c1a5a1ecfeaaa1f",
+      "bytes": 824
+    },
+    {
+      "arquivo": "referencia6/configuracao.json",
+      "sha256": "ee404eee8d2b05d909d857e2353af1b7807cd57d4fcec381fcf456f69d0d0999",
+      "bytes": 1692
+    },
+    {
+      "arquivo": "referencia6/convergencia.txt",
+      "sha256": "f07fe262c413d085d261de53ffa9ce375eb33c0c321ffd352bcaf15395274784",
+      "bytes": 622
+    },
+    {
+      "arquivo": "referencia6/diagramas_HV.png",
+      "sha256": "4e04eb479ad1bd20b5446da956b55e7cfe3c6514934701dd4031a27f9844aa4a",
+      "bytes": 127382
+    },
+    {
+      "arquivo": "referencia6/malha.json",
+      "sha256": "3f9e71472dc876da67eda6fa85e00ff75a487b54ae15eb972acdb3498c55c5e3",
+      "bytes": 21724
+    },
+    {
+      "arquivo": "referencia6/polar_HV.png",
+      "sha256": "a694e47b22695296d60247735d9afcabe2deea165e37aea9eeb150dcfa8a2770",
+      "bytes": 211194
+    },
+    {
+      "arquivo": "referencia6/resultado.json",
+      "sha256": "7052e61410ca02959295ed3be609851362660cbe3f8fe82dd813b122ca305ec0",
+      "bytes": 4379
+    },
+    {
+      "arquivo": "metadados/DV44_S41_V0.EMConvData.txt",
+      "sha256": "d4e41de8e1a4bbf93a02eef8273ceb97e0f2b043434f793eddab049c790c1e29",
+      "bytes": 3626
+    }
+  ],
+  "passes": 8,
+  "passes_adicionais": 2,
+  "convergiu": true,
+  "fast_pontos": 161
+}

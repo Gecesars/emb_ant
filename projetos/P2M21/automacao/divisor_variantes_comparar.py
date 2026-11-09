@@ -22,7 +22,7 @@ def assess(folder):
     assert len(entries)==2 and all("Magnitude='0.5W'" in x and "Phase='0deg'" in x for x in entries)
     conv=(folder/'convergencia.txt').read_text()
     passes=int(re.search(r'Completed\s*:\s*(\d+)',conv)[1]);maxpass=int(re.search(r'Maximum\s*:\s*(\d+)',conv)[1])
-    assert passes<=maxpass==6
+    assert passes<=maxpass==cfg['max_passes']
     delta=float(re.search(r'Current\s*:\s*([\d.eE+-]+)',conv)[1])
     consecutive=int(re.search(r'Current Consecutive Passes\s*:\s*(\d+)',conv)[1])
     required=int(re.search(r'Target Consecutive Passes\s*:\s*(\d+)',conv)[1])
@@ -31,7 +31,20 @@ def assess(folder):
     exported_target=float(re.search(r'^Target\s*:\s*([\d.eE+-]+)',conv,re.M)[1])
     assert abs(target-exported_target)<1e-12,(target,exported_target)
     converged=native_yes and delta<=target and consecutive>=required
-    profiles=list(folder.rglob('*.profile'));assert len(profiles)==1
+    profiles=list(folder.rglob('*.profile'))
+    if len(profiles)>1:
+        # Continuacoes preservam o perfil antigo; selecionar pelos criterios
+        # efetivos, sem aceitar um registro historico apenas por data/nome.
+        selected=[]
+        for profile_path in profiles:
+            meta=profile_path.with_suffix('.EMConvData')
+            if not meta.exists():continue
+            t=meta.read_text()
+            if ("MaxPasses='%d'"%cfg['max_passes']) in t and ("MinPasses='%d'"%cfg['min_passes']) in t:
+                actual=float(re.search(r"ConvTarget='([^']+)'",t)[1])
+                if abs(actual-target)<1e-12:selected.append(profile_path)
+        profiles=selected
+    assert len(profiles)==1,profiles
     profile=profiles[0].read_text(errors='replace').replace("\\'","'")
     cores=[int(re.search(r"'Cores', (\d+)",line)[1]) for line in profile.splitlines() if "ProfileItem('Matrix Solve'" in line]
     assert len(cores)==passes and set(cores)=={14},cores

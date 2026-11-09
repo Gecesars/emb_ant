@@ -1,0 +1,37 @@
+{
+  "arquivos_criticos": [
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_ADP6_V0.sd/native.adp",
+      "bytes": 21372948,
+      "sha256": "e40872e2066be37f1b7bcc51fa5f8924bf4469166e699237eb6eb25aa9a2f502"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.cmesh/current.ngmesh",
+      "bytes": 10771636,
+      "sha256": "b96bc6d7a33e3030d083b6380636ec757779530f24b41920f193119c4b790dcc"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_0",
+      "bytes": 48633904,
+      "sha256": "2be1f40c7ec1079a3416ceb90bf4391dc2527f18d62aff180479e0ebe168f7ef"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_1",
+      "bytes": 48633904,
+      "sha256": "299671b9aba9b26d046018d0fb5e565e8bbe1172ad3a0786ed7a66fcb958acf6"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_hyd",
+      "bytes": 3741604,
+      "sha256": "a1c622820ba535f53c9ed599e752f74a7a0382f75e9397361cac3c527bcbd9fb"
+    }
+  ],
+  "outros_arquivos_alterados_ao_abrir": [
+    "P2M21_4_elementos.aedtresults/ManagedFiles_Design0.asol",
+    "P2M21_4_elementos.aedtresults/Quatro_elementos.asol",
+    "P2M21_4_elementos.aedtresults/mf_0/radfld/6A5732780179425237114.tmp",
+    "P2M21_4_elementos.aedtresults/mf_0/radfld/RAD64103410817942518795.tmp",
+    "P2M21_4_elementos.aedtresults/mf_0/svcache/HDR64103410817942518796.tmp",
+    "P2M21_4_elementos.aedtresults/mf_0/svcache/min6A5A32780179425237216.tmp"
+  ]
+}

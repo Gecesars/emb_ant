@@ -1,0 +1,20 @@
+{
+  "aprovado": true,
+  "geometria_blocos": 47,
+  "geometria_materiais_fronteiras_malha_inalterados": true,
+  "alteracoes_ativas_setup": [
+    "MaximumPasses6->8",
+    "MinimumPasses2->8"
+  ],
+  "default_inativo_Target_normalizado": true,
+  "lambda_refinement": false,
+  "cache_malha_campos_byte_a_byte": [
+    "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_ADP6_V0.sd/native.adp",
+    "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.cmesh/current.ngmesh",
+    "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_0",
+    "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_1",
+    "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_hyd"
+  ],
+  "historico6_preservado": true,
+  "native_sha256": "f6d749bfab1442f269df79e2f98102756fc2f56de510a125f61f8ae263168693"
+}

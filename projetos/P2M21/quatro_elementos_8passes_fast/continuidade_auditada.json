@@ -1,0 +1,68 @@
+{
+  "aprovado": true,
+  "primeiros_seis_identicos": true,
+  "novos_passes": [
+    7,
+    8
+  ],
+  "historico": [
+    [
+      1,
+      41190,
+      null
+    ],
+    [
+      2,
+      58796,
+      0.78949
+    ],
+    [
+      3,
+      77454,
+      0.31972
+    ],
+    [
+      4,
+      104332,
+      0.18351
+    ],
+    [
+      5,
+      139019,
+      0.097138
+    ],
+    [
+      6,
+      194299,
+      0.057225
+    ],
+    [
+      7,
+      279138,
+      0.029736
+    ],
+    [
+      8,
+      375022,
+      0.01977
+    ]
+  ],
+  "convergiu": true,
+  "delta_s": 0.01977,
+  "comparacao6_8": {
+    "ganho_frontal_dB": 0.05684545553301845,
+    "maximo_H_graus": 1.0,
+    "maximo_V_graus": 0.0,
+    "abertura_H_graus": -0.3079106301519232,
+    "abertura_V_graus": -0.1220124968160139,
+    "VSWR_ativo": [
+      0.13209866227864664,
+      0.13450079992956154
+    ],
+    "VSWR_casado": [
+      0.10501720515279644,
+      -0.00744596180965984
+    ]
+  },
+  "escopo": "Aprovado refere-se a continuidade e verificacoes fisicas; nao significa todas as metas de RF aprovadas."
+}

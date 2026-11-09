@@ -26,6 +26,7 @@ def sidelobe(theta,gain):
 def analyze(folder):
     r,curves=assess(folder);r.pop('validado',None)
     cfg=json.loads((folder/'configuracao.json').read_text())
+    label=cfg.get('variante',folder.name);r['variante']=label
     r.update(alvo_delta_s=cfg['max_delta_s'],SLL_V=sidelobe(*curves['V']),parametros=cfg.get('parametros',{}))
     r['espacamento_vertical_mm']=cfg['espacamento_vertical_mm']
     r['distancia_face_inferior_laminado_ao_refletor_mm']=cfg.get('distancia_face_inferior_laminado_ao_refletor_mm',16.61)
@@ -73,7 +74,7 @@ def analyze(folder):
         ax.set(xlim=(-90,90),ylim=(-20,16),xlabel='Angulo (graus)',ylabel='Ganho realizado total (dBi)',title=f"{a}: maximo {c['pico_graus']:+.2f}°; abertura {c['abertura_graus']:.2f}°")
         ax.grid(alpha=.25)
     status='convergiu' if r['convergiu'] else 'NAO CONVERGIDO'
-    fig.suptitle(f"{folder.name} | 5,17 GHz | A=B=0,5 W / 0°\n{r['passes']} passes; DeltaS={r['delta_s']:.6f}; {status}")
+    fig.suptitle(f"{label} | 5,17 GHz | A=B=0,5 W / 0°\n{r['passes']} passes; DeltaS={r['delta_s']:.6f}; {status}")
     fig.text(.5,.025,f"G0={gr:.3f} dBi; VSWR ativo={r['VSWR_ativo'][0]:.3f}/{r['VSWR_ativo'][1]:.3f}; SLL V={r['SLL_V']['nivel_dB']:.2f} dB",ha='center')
     fig.tight_layout(rect=(0,.06,1,.90));fig.savefig(folder/'diagramas_HV.png',dpi=170);plt.close(fig)
     fig,axs=plt.subplots(1,2,figsize=(11,7),subplot_kw={'projection':'polar'})
@@ -85,7 +86,7 @@ def analyze(folder):
         ax.set_thetagrids(np.arange(0,360,30),['0°','30°','60°','90°','120°','150°','180°','−150°','−120°','−90°','−60°','−30°'])
         ax.set_title(f"{a}: maximo {c['pico_graus']:+.2f}° | abertura {c['abertura_graus']:.2f}°",pad=22,fontsize=10)
         ax.grid(alpha=.25)
-    fig.suptitle(f"{folder.name} — 5,17 GHz — E/Emax\nA=B=0,5 W / 0°; {status}; DeltaS {r['delta_s']:.6f}",fontsize=12)
+    fig.suptitle(f"{label} — 5,17 GHz — E/Emax\nA=B=0,5 W / 0°; {status}; DeltaS {r['delta_s']:.6f}",fontsize=12)
     fig.text(.5,.035,f"G0 {gr:.3f} dBi | VSWR ativo {r['VSWR_ativo'][0]:.3f}/{r['VSWR_ativo'][1]:.3f} | SLL V {r['SLL_V']['nivel_dB']:.2f} dB",ha='center')
     fig.subplots_adjust(top=.76,bottom=.17,wspace=.30);fig.savefig(folder/'polar_HV.png',dpi=170);fig.savefig(folder/'polar_HV.pdf');plt.close(fig)
     qp=folder/'qualificacao.json';q=json.loads(qp.read_text(encoding='utf-8'))

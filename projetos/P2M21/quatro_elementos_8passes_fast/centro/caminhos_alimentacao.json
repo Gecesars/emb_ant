@@ -1,0 +1,29 @@
+{
+  "caminhos_impressos_mm": {
+    "A": [
+      101.49083158695937,
+      101.49083158695937,
+      101.49083158695936,
+      101.49083158695937
+    ],
+    "B": [
+      101.49083158695937,
+      101.49083158695937,
+      101.49083158695936,
+      101.49083158695937
+    ]
+  },
+  "cabos_mm": [
+    50,
+    50
+  ],
+  "fontes_W": [
+    0.5,
+    0.5
+  ],
+  "fontes_graus": [
+    0,
+    0
+  ],
+  "escopo": "Mesmo comprimento total geometrico; apenas comprimento e largura das secoes transformadoras de raiz alterados igualmente em A/B."
+}

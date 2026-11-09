@@ -1,0 +1,16 @@
+{
+  "fonte": "solverUsagefile.txt",
+  "PID": 37444,
+  "valores": {
+    "MatrixSize": "2473658",
+    "NumCores": "14",
+    "TotalModes": "2",
+    "NumKrylovVectors": "19",
+    "IterativeSolver": "1",
+    "BasisOrder": "-1",
+    "NumTets": "375022"
+  },
+  "etapa": "Fast em execucao",
+  "sha256": "f90c22a0410d87dfd53cd8baa841d49ce87df7432c175d4250d67a1b25cb94f5",
+  "observado_em": "2026-11-09T16:52:45.8230128-03:00"
+}

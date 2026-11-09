@@ -1,0 +1,28 @@
+{
+  "data": "2026-11-09T17:26:24.821729",
+  "revisao_visual": "Cinco artefatos conferidos; PDF polar de uma pagina renderizado e revisado; sem cortes ou sobreposicoes indevidas.",
+  "fonte_R11_inalterada_por_SHA256": true,
+  "arquivos": [
+    {
+      "arquivo": "antena/polar_HV.png",
+      "sha256": "ab85fb53591f586c17c349d0d3ae3a35820f44c138c11bda8cadd6020a95e8f8"
+    },
+    {
+      "arquivo": "antena/polar_HV.pdf",
+      "sha256": "07bb25baeef192ae2efe3f8589b512c6162210f2685d045f8df7c7bcc610816a"
+    },
+    {
+      "arquivo": "antena/diagramas_HV.png",
+      "sha256": "34bb2338dfb4d88ba3980e99971122014545136c8a5f73d2a5004189be81d202"
+    },
+    {
+      "arquivo": "vswr_banda_fast.png",
+      "sha256": "1d15c63266cff7c31f7096a92e92b7840e731a9f23014b0365fdda549f8a4793"
+    },
+    {
+      "arquivo": "comparacao6_8.png",
+      "sha256": "f031dd065acd19afeeb6bad07c170c4db4e8d9259078c8693c1357917bf3e618"
+    }
+  ],
+  "limites": "Convergencia numerica atingida; VSWR<1.3 na banda e maximo vertical0 graus nao atendidos."
+}

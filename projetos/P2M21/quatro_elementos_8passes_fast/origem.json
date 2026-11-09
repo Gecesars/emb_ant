@@ -1,0 +1,288 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R11_Divisor_Ajustes\\v21_altura_menos10_casada",
+  "native_sha256": "38949fb0adfb0580372456f597ef55b7c5b7c0195d371d374dafc70b8c369173",
+  "resultado_sha256": "7052e61410ca02959295ed3be609851362660cbe3f8fe82dd813b122ca305ec0",
+  "arquivos_resultados_copiados": [
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/ManagedFiles_Design0.asol",
+      "bytes": 287,
+      "sha256": "122f5201b13d44a683b954ed9f9e2616d416287f46d3034e52c13932de5aaa30"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.asol",
+      "bytes": 5036,
+      "sha256": "0d20bbf5d931f7be0487213ebfd681c0e08034c9d71879b97cd33b987aca531f"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_SD1_V0.su",
+      "bytes": 843,
+      "sha256": "b523687c8f5f538fa8590dd09456e32b1814239e3913857c55aec6facf4c7171"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_SD2_V0.su",
+      "bytes": 843,
+      "sha256": "883fcba37c4db2b557a6aeeb245389eec4717641b4a5b1177805d3baeffadddd"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_SD3_V0.su",
+      "bytes": 844,
+      "sha256": "7093363b7b971c6d2cfa474a84b665c43722bd2bd597d685cb01b198bf4bd90d"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_SD4_V0.su",
+      "bytes": 846,
+      "sha256": "bd4671c95346c907ee0e44ff6f6a17ee85f6dde2ad3afafe2ef7559211b9edf3"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_SD5_V0.su",
+      "bytes": 846,
+      "sha256": "ccae987909af381b1aecc937b6d91e756bbe972474dbed6f70174e09289fc3ad"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_SD6_V0.su",
+      "bytes": 848,
+      "sha256": "5534b6d593a2efe73ae3105392398b9bd65433b1ae380f65dff6c4398885dbec"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.EMConvData",
+      "bytes": 2753,
+      "sha256": "2bee1b7091a2ce4a65364dc0d3c1047cb03adf02eb9c0dac3dc20d7498c46e40"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.profile",
+      "bytes": 13427,
+      "sha256": "5e84aded16a8509bafe3bd86d2fe5db942621d91123f5fd2eccef2eeb597cb36"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL42_M1_V0.sd",
+      "bytes": 3925,
+      "sha256": "ddc348b439fda7536d6033c7de4d56f986ba764cc480995908d960b707a6e760"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL42_M2_V0.sd",
+      "bytes": 3820,
+      "sha256": "04132352d387501e2a10f8ae712aa5d7c22aa9c41d6b8fa8355756a2878ad8bb"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL42_M3_V0.sd",
+      "bytes": 3821,
+      "sha256": "49b3007e66b3c66ff3fb5a9da27fe0b91b0e7dc4af8f4abd79f613b7c17cea6a"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL42_M4_V0.sd",
+      "bytes": 3819,
+      "sha256": "5826c30e27efa2290f88cb37d7371d02ab396645d32b960eb6c2d083e66962be"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL42_M5_V0.sd",
+      "bytes": 3821,
+      "sha256": "79433330bb9f38d0e02c6a1e2ac16cd9f33cd885e0e64dd7e5fd8da2c6f682a7"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL42_M6_V0.sd",
+      "bytes": 3819,
+      "sha256": "a397cf81172163e9204ffc92f507416f94582bafe70e0814672a3eefeab9acfa"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_SOL43_M0_V0.sd",
+      "bytes": 3820,
+      "sha256": "01134007b2173ee682f7df29c818a3da06e4e4cf00b3861947ce40a44135d517"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/nominalmesh.g3derr",
+      "bytes": 291408,
+      "sha256": "2a324a1980288f2f90c2eb3c4b0b061b940c20a8a848f9de8fed319d4c9d9cdd"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/GeometryCache/CacheDataVersion.tmp",
+      "bytes": 111,
+      "sha256": "07bbd9436e80a846c1d6eb915656deaf98d476c77e729fda51d446c5872271d5"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/GeometryCache/InterrogationCache.tmp",
+      "bytes": 15025,
+      "sha256": "c008fe177c0c935b55e6789a275fb75fcfba9f04e2cd32dd8039615c3e67b53e"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/GeometryCache/OperationDataCache.tmp",
+      "bytes": 12,
+      "sha256": "09f4493a7016a764f6190b5e84a16d72f8d5f85c3119f6b4d79f2785b628881c"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/radfld/6A5732780179425237114.tmp",
+      "bytes": 172540,
+      "sha256": "24370c40e4642391b330bf4c03619fd4df4df127fbd48a102e8db7183a49161f"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/radfld/RAD64103410817942518795.tmp",
+      "bytes": 481,
+      "sha256": "0c3cce508b95d62fc2c219b8c03f6fa7b415524a3a28319ef18ea12c2ee41c88"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/svcache/HDR64103410817942518796.tmp",
+      "bytes": 1666,
+      "sha256": "a670dd5edce222744312180346a951665798e45caaa531add2ae5734889b7e26"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/svcache/min6A5A32780179425237216.tmp",
+      "bytes": 241608,
+      "sha256": "d422657f179a6aa7826e83b272924223aa51f811de2a266a0159eab2a01a4a76"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/ValidationCache/HDR645B3410817942519027.tmp",
+      "bytes": 175,
+      "sha256": "5360e2cddc080ec7f542d842a30353f8ce5b40b124578ae9c997714a8653b12d"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/mf_0/ValidationCache/VI645B3410817942519028.tmp",
+      "bytes": 343,
+      "sha256": "22bfdd22968ea4b6cc791b59d9e4aa7966cebd81cb29df110ec4a3a99f973c78"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_MI0_V39.sd/initial.stats",
+      "bytes": 6960,
+      "sha256": "e4a55546aa7063c265b97614823e26c988237d9f3b4ede4039ebadc28cf614b8"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_ADP6_V0.sd/native.adp",
+      "bytes": 21372948,
+      "sha256": "e40872e2066be37f1b7bcc51fa5f8924bf4469166e699237eb6eb25aa9a2f502"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_MI0_V0.sd/current.stats",
+      "bytes": 6961,
+      "sha256": "eb39169e00d31249029f3467ec345a2eaffd1c222af1a3912d275f95e571a05f"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.cmesh/bodyFaceInfo.info",
+      "bytes": 662976,
+      "sha256": "2701c1ce9207a874544acaa756be37e5a5bde1745d55ade2fec4e704054ac98d"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.cmesh/current.ngmesh",
+      "bytes": 10771636,
+      "sha256": "b96bc6d7a33e3030d083b6380636ec757779530f24b41920f193119c4b790dcc"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.cmesh/current.stats",
+      "bytes": 6961,
+      "sha256": "eb39169e00d31249029f3467ec345a2eaffd1c222af1a3912d275f95e571a05f"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/1.nvc",
+      "bytes": 322,
+      "sha256": "cfd694da53c6bfb55e5f49992c85cf54c864f61e435d8656a9cadd1bdd484418"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/1_1.tvc",
+      "bytes": 15459,
+      "sha256": "e7b4970921dadd70f2c559c6a038cb2e3a6470a8226d8fc72e1321a5f63d7904"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/1_1.tvm",
+      "bytes": 3535,
+      "sha256": "9d548e6aa8802a6dbfa4b430028f76189c4fb1fbb0bc499f599e8b665a44a14f"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/1_1.tvz",
+      "bytes": 15439,
+      "sha256": "1eb1b99094b85d137e5fbf028d71aa695e42677d418b7df393db3605895cf809"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/2.nvc",
+      "bytes": 322,
+      "sha256": "9fb56f961c21e075698b8f4f50970526e67e0f84e6e4a7c32065c2d88cc751a9"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/2_1.tvc",
+      "bytes": 15443,
+      "sha256": "20d7eb02b3964fa04c2027feab8d54541a9799eef9ef00a56da353393595c9b9"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/2_1.tvm",
+      "bytes": 3535,
+      "sha256": "33edea2e6dbce9741b62f0662ab34c106cbbc1595e4069ff59b2082069765829"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/2_1.tvz",
+      "bytes": 15455,
+      "sha256": "1bf5229433fb3f76d7996637b48292e7c1a38f123f2bda672dd246391459038f"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/current.sf_msh",
+      "bytes": 27776,
+      "sha256": "ed8cf5a5bfdeebf51b913678a3f3630f09c7b4864d048dc47ac88eb0cf9cce8a"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/current.sf_mshhdr",
+      "bytes": 184,
+      "sha256": "8ece7d9fb4eccfe080cde94652cd5132b5d2a8071b8a67525a5d13433567c820"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs",
+      "bytes": 236,
+      "sha256": "3496bf8aa4a00ff450ef7a7bdf7d6169cd89f4e99daff6ed7e4979f01fecfd07"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_0",
+      "bytes": 48633904,
+      "sha256": "2be1f40c7ec1079a3416ceb90bf4391dc2527f18d62aff180479e0ebe168f7ef"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_1",
+      "bytes": 48633904,
+      "sha256": "299671b9aba9b26d046018d0fb5e565e8bbe1172ad3a0786ed7a66fcb958acf6"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.evtrs_hyd",
+      "bytes": 3741604,
+      "sha256": "a1c622820ba535f53c9ed599e752f74a7a0382f75e9397361cac3c527bcbd9fb"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.imp",
+      "bytes": 285600,
+      "sha256": "3d060dd8e176352104982e808682082140cda133a513d5c3dabddd977cb2b5cf"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.sf_fld_0",
+      "bytes": 265832,
+      "sha256": "61b2704e420a4fbcf058e4418aa4af6d20f7b2ee7bc93644c28d1ab2721dd41c"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/fields.sf_fld_1",
+      "bytes": 265832,
+      "sha256": "184f9ec4998bbd6e3bade66643a2c41a0d75dceebd391aba45607a6e491d2895"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S43_V0_F136/hf3d_solver_freq.input",
+      "bytes": 3141709,
+      "sha256": "b353b3e5294be556441c4539d29f2b2b3c0c42b0532b54483d1c0f0e0e596be6"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_V39.imesh/bodyFaceInfo.info",
+      "bytes": 662976,
+      "sha256": "2701c1ce9207a874544acaa756be37e5a5bde1745d55ade2fec4e704054ac98d"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_V39.imesh/initial.ngmesh",
+      "bytes": 3132120,
+      "sha256": "11369a67a299f4d87f059e3f03472056661bd6021eba806a6bbb9a04d7825b59"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_V39.imesh/initial.stats",
+      "bytes": 6960,
+      "sha256": "e4a55546aa7063c265b97614823e26c988237d9f3b4ede4039ebadc28cf614b8"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/NDV131_V0.dmesh/defn_native_vmesh.ngmesh",
+      "bytes": 3132120,
+      "sha256": "11369a67a299f4d87f059e3f03472056661bd6021eba806a6bbb9a04d7825b59"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/NDV131_V0.dmesh/defn_native_vmesh.stats",
+      "bytes": 6960,
+      "sha256": "e4a55546aa7063c265b97614823e26c988237d9f3b4ede4039ebadc28cf614b8"
+    }
+  ],
+  "estado": "COPIA_BYTE_A_BYTE_CONFIRMADA"
+}
