@@ -1,0 +1,88 @@
+{
+  "passes_iniciais": 5,
+  "max_passes_total": 6,
+  "cache": [
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_ADP5_V0.sd/native.adp",
+      "sha256": "bd7f5e183889fa335aed8bb1610cf164e26cae571364a0bc46cf4b2cef9a28d5"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedtresults/Quatro_elementos.results/DV44_S41_V0.cmesh/current.ngmesh",
+      "sha256": "eb2147f9e3fa048833b6170f609a4415d953f058b7195862917058819e764451"
+    }
+  ],
+  "arquivos": [
+    {
+      "nome": "P2M21_4_elementos.aedt",
+      "sha256": "fb8cf7f2a6327404afe4c49c4f12487b74c71df9aa37cf965defec71ffcdb9f6"
+    },
+    {
+      "nome": "configuracao.json",
+      "sha256": "b9518df3d4554639fc32d1f37da3c53dc32bf140db3d602383c9f8cc38d831f3"
+    },
+    {
+      "nome": "convergencia.txt",
+      "sha256": "f0560704af2b76eb778bf35cc62cccb5d9d523a0d81fc604bfc4c1a3909f1060"
+    },
+    {
+      "nome": "centro.s2p",
+      "sha256": "34095f003152e4d32aa0418f6f713fbe40983b238b2c26d54ee30fa1c7ab4db7"
+    },
+    {
+      "nome": "resultado.json",
+      "sha256": "e35b91f608cebe7e187dda542b1a706ce63bc58564f0c4e4b6f1f3344d042aa4"
+    },
+    {
+      "nome": "malha.json",
+      "sha256": "69cd740674a7fea8ceb49f32ee737d4bd2dad68ecfbee82036f78bc26c0a52b1"
+    },
+    {
+      "nome": "qualificacao.json",
+      "sha256": "90986a6494588c61a2979a3ab7fcf508e603eb786cff89e951a302982ed457d0"
+    },
+    {
+      "nome": "diagrama_comparado.json",
+      "sha256": "cb6add8665db157bc590b1eb944f054d66876aa10da717ef1550c4f3ad723e9e"
+    },
+    {
+      "nome": "comparacao_diagramas.png",
+      "sha256": "e862624cc0aedae347b426538910640f6e888323f5d5c5cfeea8c572fc94bdac"
+    },
+    {
+      "nome": "polar_HV.png",
+      "sha256": "32c53a5baf41d5756b9cb0ab675cb5f341bbb34b77511b4b0e3320f5078a518e"
+    },
+    {
+      "nome": "polar_HV.pdf",
+      "sha256": "6fc85a7c3b38745cae51321dbf77111f61aaa19f6f6bb65d1874fbb18416d55a"
+    },
+    {
+      "nome": "diagramas_HV.png",
+      "sha256": "c0c483dac7163177054a7c412e04bb2bc431ed7e6ec9368cceb5cd47016ea842"
+    },
+    {
+      "nome": "AB_H.csv",
+      "sha256": "f391a4a8060c198334bba3e9afd91fc0ccc5d60cb3dde55ac8d9d9b42f527fa4"
+    },
+    {
+      "nome": "AB_V.csv",
+      "sha256": "8d2ff67816ada76d5c56c48b88cf06694d2e33fcc6b64e03a8fffeb11c2d83ff"
+    },
+    {
+      "nome": "A_H.csv",
+      "sha256": "90d1d0301fd06fab673625b37376be7b7d8bb8d1ff0c034d58e92d4fd68bf96e"
+    },
+    {
+      "nome": "A_V.csv",
+      "sha256": "92f1d95523792a22afd1fef624d791f4bce9e07e701d9a2fc53cc8792da8deda"
+    },
+    {
+      "nome": "B_H.csv",
+      "sha256": "2530532ac51fb023a23d473511bc4a7151dfbec473b26b7cae155455be9b5913"
+    },
+    {
+      "nome": "B_V.csv",
+      "sha256": "595713bc540895bf8eabccf97370d34d4f8edc0443060edde7ec2c067301713a"
+    }
+  ]
+}

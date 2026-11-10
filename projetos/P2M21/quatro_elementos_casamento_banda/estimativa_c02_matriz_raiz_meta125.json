@@ -1,0 +1,182 @@
+{
+  "estado": "ESTIMATIVA_MATRICIAL_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c02_raiz_ordem2",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "a2ca683cb595613112bb802baced24ffbf68fcc9ee06751c74caf90ef31e1d98",
+  "metodo": "Matriz Z2 efetiva congelada, com Z12/Z21; cascata equivalente dos dois estagios identicos A/B. Atualiza a interacao entre entradas terminadas nas redes novas. Nao representa variacao da radiacao, curvas ou distribuicao interna dos quatro radiadores. A recomposicao por construcao nao valida a predicao.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "alvo_VSWR": 1.25,
+  "erro_recomposicao_S": 4.0531694296714425e-16,
+  "limites_mm": [
+    [
+      0.4,
+      2.0
+    ],
+    [
+      0.65,
+      1.3
+    ],
+    [
+      3.0,
+      12.0
+    ],
+    [
+      8.0,
+      18.0
+    ]
+  ],
+  "modo": "somente_raiz",
+  "referencia": {
+    "largura_raiz_mm": 0.7317947164836978,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_w_A": 0.8504962731688755,
+      "local_w_A": 1.0,
+      "root_l_A": 0.7742762420719297,
+      "local_l_A": 0.9999999999999996,
+      "root_post_w_A": 1.0,
+      "local_post_w_A": 1.0,
+      "root_w_B": 0.8504962731688755,
+      "local_w_B": 1.0,
+      "root_l_B": 0.7742762420719297,
+      "local_l_B": 0.9999999999999996,
+      "root_post_w_B": 1.0,
+      "local_post_w_B": 1.0
+    },
+    "pior_VSWR_ativo": 1.6120423016896792,
+    "pior_VSWR_casado": 1.4528156304985755,
+    "pior_VSWR_geral": 1.6120423016896792,
+    "VSWR_pontos": [
+      [
+        1.6120423016896792,
+        1.4379088002479712,
+        1.2249353881219929,
+        1.0951401566319376
+      ],
+      [
+        1.3553490033256435,
+        1.3004158483231518,
+        1.1926360334157604,
+        1.2578774964958543
+      ],
+      [
+        1.5707773740816122,
+        1.5464830295938226,
+        1.411536263361886,
+        1.4528156304985755
+      ]
+    ]
+  },
+  "matriz_otimizada": {
+    "largura_raiz_mm": 0.489310016029059,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 3.1830548757626227,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.1000000004134707,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_w_A": 0.5686790785489201,
+      "local_w_A": 1.0,
+      "root_l_A": 0.36104023288873666,
+      "local_l_A": 0.9999999999999996,
+      "root_post_w_A": 0.6775841064284975,
+      "local_post_w_A": 1.0,
+      "root_w_B": 0.5686790785489201,
+      "local_w_B": 1.0,
+      "root_l_B": 0.36104023288873666,
+      "local_l_B": 0.9999999999999996,
+      "root_post_w_B": 0.6775841064284975,
+      "local_post_w_B": 1.0
+    },
+    "pior_VSWR_ativo": 1.550397749412439,
+    "pior_VSWR_casado": 1.369872967495065,
+    "pior_VSWR_geral": 1.550397749412439,
+    "VSWR_pontos": [
+      [
+        1.5503977490407985,
+        1.3778113460566248,
+        1.1935082373381463,
+        1.0595241777491209
+      ],
+      [
+        1.3653648527658078,
+        1.3091568220204715,
+        1.198844783883522,
+        1.2597246934708923
+      ],
+      [
+        1.550397749412439,
+        1.4962332574237656,
+        1.358605110158808,
+        1.369872967495065
+      ]
+    ]
+  },
+  "limites_somente_raiz_mm": [
+    [
+      0.4,
+      2.5
+    ],
+    [
+      3.0,
+      12.0
+    ],
+    [
+      1.1,
+      3.0
+    ]
+  ],
+  "somente_raiz": {
+    "largura_raiz_mm": 0.489310016029059,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 3.1830548757626227,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.1000000004134707,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_w_A": 0.5686790785489201,
+      "local_w_A": 1.0,
+      "root_l_A": 0.36104023288873666,
+      "local_l_A": 0.9999999999999996,
+      "root_post_w_A": 0.6775841064284975,
+      "local_post_w_A": 1.0,
+      "root_w_B": 0.5686790785489201,
+      "local_w_B": 1.0,
+      "root_l_B": 0.36104023288873666,
+      "local_l_B": 0.9999999999999996,
+      "root_post_w_B": 0.6775841064284975,
+      "local_post_w_B": 1.0
+    },
+    "pior_VSWR_ativo": 1.550397749412439,
+    "pior_VSWR_casado": 1.369872967495065,
+    "pior_VSWR_geral": 1.550397749412439,
+    "VSWR_pontos": [
+      [
+        1.5503977490407985,
+        1.3778113460566248,
+        1.1935082373381463,
+        1.0595241777491209
+      ],
+      [
+        1.3653648527658078,
+        1.3091568220204715,
+        1.198844783883522,
+        1.2597246934708923
+      ],
+      [
+        1.550397749412439,
+        1.4962332574237656,
+        1.358605110158808,
+        1.369872967495065
+      ]
+    ]
+  }
+}

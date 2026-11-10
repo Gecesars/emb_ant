@@ -1,0 +1,22 @@
+{
+  "areas_alteradas_mm2": {
+    "B/E1_Q2": 0.0,
+    "B/E1_Q3": 0.0,
+    "B/E2_Q2": 0.0,
+    "B/E2_Q3": 0.0,
+    "B/E3_Q2": 0.0,
+    "B/E3_Q3": 0.0,
+    "B/E4_Q2": 0.0,
+    "B/E4_Q3": 0.0,
+    "B/RET_A": 0.0,
+    "B/RET_B": 0.0,
+    "B/SIG_A": 0.0,
+    "B/SIG_B": 0.0,
+    "F/SIG_A": 56.16236860502402,
+    "F/SIG_B": 56.16236860502403
+  },
+  "retornos_vias_contorno_iguais": true,
+  "adaptacao_percent": 75,
+  "max_passes": 6,
+  "delta_s": 0.05
+}

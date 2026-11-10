@@ -1,0 +1,15 @@
+! Touchstone file exported from HFSS 2024.2.0
+!        File:           D:/dev/EMBRAER/P2M21/R13_Casamento_Banda/c08_raiz_ajuste_fino/P2M21_4_elementos.aedt
+!        Generated:      09:13:56 PM Nov  9, 2026
+!        Design:         Quatro_elementos
+!        Project:        P2M21_4_elementos
+!        Setup:          Centro
+!        Solution:       LastAdaptive
+!
+# GHz S RI R 50.000000
+! Terminal data exported
+! Port[1] = A
+! Port[2] = B
+5.17                           0.010073070594214 0.0417484124721236 0.0382166674903163 -0.00478955595407426 0.0382165996814378 -0.00479005962931003 -0.0152630951204518 0.0117669519814026 
+! Gamma         0                0                0                0                
+! Port Impedance         50               0                50               0                

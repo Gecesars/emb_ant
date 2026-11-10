@@ -1,0 +1,99 @@
+{
+  "estado": "ESTIMATIVA_EMPIRICA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c09_raiz_banda_fina",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "195e2e4a10cb0ebb7dff6aa3a4550e6543b5e65e92d3a21fd92d7ffde875592a",
+  "fontes": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c07_raiz_transicoes",
+      "s2p_sha256": "896de1602579c29e55e54379e8db2b7c8777194917771c50485aa58c60aef1fc",
+      "geometria_sha256": "20732cb09b416f73b3f8d5f2896fc36398bccdc61d5a264d3844938ffe8d8a34",
+      "passes": 5,
+      "delta_s": 0.014281
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c08_raiz_ajuste_fino",
+      "s2p_sha256": "24caca8a831e9c04dd3521175f81ba83b22550208545e2553a90d6bdd9cb5e4f",
+      "geometria_sha256": "fe8e3e53794b2ec362f53e4ed5a014f07be0d2c8ebeb3d79afee5d1989cf99ce",
+      "passes": 6,
+      "delta_s": 0.011896
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c09_raiz_banda_fina",
+      "s2p_sha256": "195e2e4a10cb0ebb7dff6aa3a4550e6543b5e65e92d3a21fd92d7ffde875592a",
+      "geometria_sha256": "366550dfd24235cf02f13a08136217b76c9e78ea65c428784309215f2f1c0aa8",
+      "passes": 6,
+      "delta_s": 0.011051
+    }
+  ],
+  "colunas_numericamente_fixas": [
+    "root_w",
+    "root_seg3_w"
+  ],
+  "tolerancia_fixas_mm": 1e-05,
+  "metodo": "Modelo afim local de S complexo e geometria a partir de tres ensaios reais. Inclui apenas duas direcoes amostradas. Extrapolacao nao confirma VSWR, convergencia ou diagrama; requer novo HFSS.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "limite_coeficiente": 1.0,
+  "alvo_VSWR": 1.25,
+  "empirico": {
+    "fatores": {
+      "root_w_A": 5.811030429787355,
+      "root_w_B": 5.811030429787355,
+      "root_l_A": 1.6154635561396373,
+      "root_l_B": 1.6154635561396373,
+      "root_seg2_w_A": 1.3092002673292649,
+      "root_seg2_w_B": 1.3092002673292649,
+      "root_seg2_l_A": 1.3318721358880792,
+      "root_seg2_l_B": 1.3318721358880792,
+      "root_seg3_w_A": 3.07992775533548,
+      "root_seg3_w_B": 3.07992775533548,
+      "root_seg3_l_A": 0.7655856212001605,
+      "root_seg3_l_B": 0.7655856212001605,
+      "root_flat_sections": true
+    },
+    "secoes_raiz_mm": [
+      {
+        "largura": 5.0,
+        "comprimento": 14.242482362268374
+      },
+      {
+        "largura": 2.125374962223198,
+        "comprimento": 11.74224285784075
+      },
+      {
+        "largura": 5.0,
+        "comprimento": 6.749666165670566
+      }
+    ],
+    "coeficientes": [
+      0.8119832001513796,
+      -0.999999999994979
+    ],
+    "pior_VSWR_ativo": 1.2137765066866273,
+    "pior_VSWR_casado": 1.248968226653502,
+    "VSWR_pontos": [
+      [
+        1.2112442327664932,
+        1.1021596006776808,
+        1.0447564390144912,
+        1.0656801524124873
+      ],
+      [
+        1.205917967107368,
+        1.131734739054083,
+        1.113928777646726,
+        1.0705470193180076
+      ],
+      [
+        1.1168363561800436,
+        1.2137765066866273,
+        1.1745682303902905,
+        1.248968226653502
+      ]
+    ]
+  }
+}

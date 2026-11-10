@@ -1,0 +1,337 @@
+{
+  "estado": "ESTIMATIVA_PARA_SELECAO_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c02_raiz_ordem2",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "a2ca683cb595613112bb802baced24ffbf68fcc9ee06751c74caf90ef31e1d98",
+  "metodo": "Cascata MLine de dois estagios; quatro cargas equivalentes efetivas congeladas por frequencia (AB e outra entrada casada). Cabos desembutidos apenas pela fase nominal. Reproduzir a fonte por construcao nao e validacao independente. Acoplamento, radiacao das linhas, curvas e perdas reais dos cabos exigem HFSS completo.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "triagem_tres_frequencias": true,
+  "erro_recomposicao": 6.661338147750939e-16,
+  "limites_dois_estagios_mm": {
+    "largura_raiz": [
+      0.4,
+      1.3
+    ],
+    "largura_local": [
+      0.4,
+      1.3
+    ],
+    "comprimento_raiz": [
+      4,
+      12
+    ],
+    "comprimento_local": [
+      6,
+      18
+    ]
+  },
+  "referencia": {
+    "largura_raiz_mm": 0.7317947164836978,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.8504962731688755,
+      "root_w_B": 0.8504962731688755,
+      "local_w_A": 1.0,
+      "local_w_B": 1.0,
+      "root_l_A": 0.7742762420719297,
+      "root_l_B": 0.7742762420719297,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 1.612042301689679,
+    "pior_VSWR_casado": 1.4528156304985755,
+    "pior_VSWR_geral": 1.612042301689679,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.612042301689679,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.5464830295938223,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.411536263361887,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.4528156304985755,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  },
+  "somente_raiz": {
+    "largura_raiz_mm": 0.7133158675004216,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.829020042419023,
+      "root_w_B": 0.829020042419023,
+      "local_w_A": 1.0,
+      "local_w_B": 1.0,
+      "root_l_A": 0.7742762420719297,
+      "root_l_B": 0.7742762420719297,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 1.6110788316092517,
+    "pior_VSWR_casado": 1.4753997434229922,
+    "pior_VSWR_geral": 1.6110788316092517,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.6110788316092517,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.5589732812915378,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.4257377651237464,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.4753997434229922,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  },
+  "raiz_e_locais": {
+    "largura_raiz_mm": 0.721374229347453,
+    "largura_local_mm": 0.8447412784896495,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.8383855196004903,
+      "root_w_B": 0.8383855196004903,
+      "local_w_A": 0.9817634549201656,
+      "local_w_B": 0.9817634549201656,
+      "root_l_A": 0.7742762420719297,
+      "root_l_B": 0.7742762420719297,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 1.5972271734329304,
+    "pior_VSWR_casado": 1.4784121214841013,
+    "pior_VSWR_geral": 1.5972271734329304,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.5972271734329304,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.5743827010439044,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.437245383178839,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.4784121214841013,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  },
+  "prioridade_ativo": {
+    "largura_raiz_mm": 0.8425004209622492,
+    "largura_local_mm": 0.9104257183670287,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.9791591166640573,
+      "root_w_B": 0.9791591166640573,
+      "local_w_A": 1.0581023106983631,
+      "local_w_B": 1.0581023106983631,
+      "root_l_A": 0.7742762420719297,
+      "root_l_B": 0.7742762420719297,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 1.6803136702380765,
+    "pior_VSWR_casado": 1.2999999997563334,
+    "pior_VSWR_geral": 1.6803136702380765,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.6803136702380765,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.513583407117061,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.2999999995021048,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.2999999997563334,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  },
+  "raiz_largura_comprimento": {
+    "largura_raiz_mm": 0.732824273424596,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 6.731033764015372,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.8516928305114272,
+      "root_w_B": 0.8516928305114272,
+      "local_w_A": 1.0,
+      "local_w_B": 1.0,
+      "root_l_A": 0.7634722279677375,
+      "root_l_B": 0.7634722279677375,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 1.5916946048656677,
+    "pior_VSWR_casado": 1.4615835391361485,
+    "pior_VSWR_geral": 1.5916946048656677,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.5916946048656677,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.5634829716328373,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.4256621558404348,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.4615835391361485,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  },
+  "dois_estagios_dimensoes": {
+    "largura_raiz_mm": 1.2999999890063778,
+    "largura_local_mm": 0.40000013913960397,
+    "comprimento_raiz_mm": 4.696388295567232,
+    "comprimento_local_mm": 15.245311303104534,
+    "fatores": {
+      "root_w_A": 1.5108678989678577,
+      "root_w_B": 1.5108678989678577,
+      "local_w_A": 0.4648825960918829,
+      "local_w_B": 0.4648825960918829,
+      "root_l_A": 0.5326911379626429,
+      "root_l_B": 0.5326911379626429,
+      "local_l_A": 1.7292101324566123,
+      "local_l_B": 1.7292101324566123
+    },
+    "pior_VSWR_ativo": 1.2621429043733263,
+    "pior_VSWR_casado": 1.2621428890057669,
+    "pior_VSWR_geral": 1.2621429043733263,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.2621429043733263,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.2290910595774418,
+        "frequencia_GHz": 5.17
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.1590522844188444,
+        "frequencia_GHz": 5.17
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.2621428890057669,
+        "frequencia_GHz": 5.17
+      }
+    ]
+  },
+  "limites_vizinhanca_mm": [
+    [
+      0.5854357731869583,
+      0.8781536597804372
+    ],
+    [
+      0.7571806847621362,
+      0.9636845078790826
+    ],
+    [
+      5.826285668483191,
+      7.826285668483191
+    ],
+    [
+      8.066343957831307,
+      9.566343957831307
+    ]
+  ],
+  "vizinhanca_conservadora": {
+    "largura_raiz_mm": 0.812098481691789,
+    "largura_local_mm": 0.9636844743709732,
+    "comprimento_raiz_mm": 6.269438855609333,
+    "comprimento_local_mm": 9.56634393108559,
+    "fatores": {
+      "root_w_A": 0.943825797819019,
+      "root_w_B": 0.943825797819019,
+      "local_w_A": 1.1199999610566715,
+      "local_w_B": 1.1199999610566715,
+      "root_l_A": 0.71111550157255,
+      "root_l_B": 0.71111550157255,
+      "local_l_A": 1.085069273254485,
+      "local_l_B": 1.085069273254485
+    },
+    "pior_VSWR_ativo": 1.5213584023660374,
+    "pior_VSWR_casado": 1.395227756508179,
+    "pior_VSWR_geral": 1.5213584023660374,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.5213584023660374,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.4896701915911015,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.3578800894554377,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.395227756508179,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  }
+}

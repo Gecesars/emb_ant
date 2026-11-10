@@ -1,0 +1,420 @@
+{
+  "motivo": "Mascara >=-10dB incluia lobulo secundario da referencia a37..44.75graus; a reducao do secundario era contada como erro de forma principal.",
+  "criterios_numericos_inalterados": true,
+  "regressao_lobo_secundario_excluido": true,
+  "candidatos": [
+    {
+      "candidato": "c01_rede_banda",
+      "sha256_auditoria_anterior": "44cba74f709739eef8a8a5c36a7f89a1cf852fb62574f6093b1a0309f57f647e",
+      "metricas": {
+        "H": {
+          "erro_anterior": 1.0618468793023084,
+          "angulo_pior_anterior": 65.0,
+          "erro_lobo_principal": 1.0618468793023084,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 0.6999767942675419,
+          "angulo_pior_anterior": 44.75,
+          "erro_lobo_principal": 0.27566272345348697,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    },
+    {
+      "candidato": "c02_raiz_ordem2",
+      "sha256_auditoria_anterior": "b602fb393b994226c193e4259e1658459280a4e5f5ee0a0110512db04a19d3ce",
+      "metricas": {
+        "H": {
+          "erro_anterior": 0.3352589134738846,
+          "angulo_pior_anterior": -62.75,
+          "erro_lobo_principal": 0.3352589134738846,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 0.06631760039025103,
+          "angulo_pior_anterior": 10.5,
+          "erro_lobo_principal": 0.06631760039025103,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    },
+    {
+      "candidato": "c03_dipolos_1012",
+      "sha256_auditoria_anterior": "cc8cba0b1f2dc2b35b2abcd9b8816f68cddca6f39c95cfa8b42aa8bb276122da",
+      "metricas": {
+        "H": {
+          "erro_anterior": 0.28252896203455613,
+          "angulo_pior_anterior": -62.75,
+          "erro_lobo_principal": 0.28252896203455613,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 0.37114229800707577,
+          "angulo_pior_anterior": 37.0,
+          "erro_lobo_principal": 0.25590911045663844,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    },
+    {
+      "candidato": "c04_transformadores_duplos",
+      "sha256_auditoria_anterior": "69a05b8a1dad36c71aadb5956585a93e2eede92ca39e3d89568f1437ca729d35",
+      "metricas": {
+        "H": {
+          "erro_anterior": 0.45144655683987267,
+          "angulo_pior_anterior": 39.75,
+          "erro_lobo_principal": 0.45144655683987267,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 0.7079413857596286,
+          "angulo_pior_anterior": 12.25,
+          "erro_lobo_principal": 0.7079413857596286,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    },
+    {
+      "candidato": "c05_segmentos_em_fase",
+      "sha256_auditoria_anterior": "5c16ef2ea88ddccfd0fa98f2d0cf4241105f75594e5da82b5841c51e6cff35c0",
+      "metricas": {
+        "H": {
+          "erro_anterior": 0.42887708196383834,
+          "angulo_pior_anterior": -62.75,
+          "erro_lobo_principal": 0.42887708196383834,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 1.4313405985959413,
+          "angulo_pior_anterior": 37.0,
+          "erro_lobo_principal": 0.4945272847649864,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    },
+    {
+      "candidato": "c07_raiz_transicoes",
+      "sha256_auditoria_anterior": "edc3394025a1e6110c76589c72aa177be040f28052be774433f78bae1701ebb6",
+      "metricas": {
+        "H": {
+          "erro_anterior": 0.5889355185620015,
+          "angulo_pior_anterior": 65.0,
+          "erro_lobo_principal": 0.5889355185620015,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 1.0287777615034237,
+          "angulo_pior_anterior": 37.0,
+          "erro_lobo_principal": 0.3782969293676306,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    },
+    {
+      "candidato": "c08_raiz_ajuste_fino",
+      "sha256_auditoria_anterior": "1736a72497ecfb5a5ba0232802b0958b8c7e1e4569dc73aba546d709974a0730",
+      "metricas": {
+        "H": {
+          "erro_anterior": 0.5195111532181294,
+          "angulo_pior_anterior": 65.0,
+          "erro_lobo_principal": 0.5195111532181294,
+          "limites": [
+            -140.5,
+            136.25
+          ],
+          "angulos_excluidos": []
+        },
+        "V": {
+          "erro_anterior": 1.130559564642354,
+          "angulo_pior_anterior": 37.0,
+          "erro_lobo_principal": 0.3987530917188593,
+          "limites": [
+            -19.0,
+            27.5
+          ],
+          "angulos_excluidos": [
+            37.0,
+            37.25,
+            37.5,
+            37.75,
+            38.0,
+            38.25,
+            38.5,
+            38.75,
+            39.0,
+            39.25,
+            39.5,
+            39.75,
+            40.0,
+            40.25,
+            40.5,
+            40.75,
+            41.0,
+            41.25,
+            41.5,
+            41.75,
+            42.0,
+            42.25,
+            42.5,
+            42.75,
+            43.0,
+            43.25,
+            43.5,
+            43.75,
+            44.0,
+            44.25,
+            44.5,
+            44.75
+          ]
+        }
+      }
+    }
+  ]
+}

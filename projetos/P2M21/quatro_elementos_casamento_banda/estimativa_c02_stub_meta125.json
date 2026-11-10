@@ -1,0 +1,49 @@
+{
+  "estado": "ESTIMATIVA_STUB_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c02_raiz_ordem2",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "a2ca683cb595613112bb802baced24ffbf68fcc9ee06751c74caf90ef31e1d98",
+  "erro_recomposicao_S": 3.5381555418772976e-16,
+  "alvo_VSWR": 1.25,
+  "metodo": "Z2 interna congelada, acoplamento retido, linha raiz e susceptancia shunt de stub aberto identico em A/B. Correcao analitica da ponta; exige HFSS real com novo retorno.",
+  "stub": {
+    "largura_raiz_mm": 0.690455178412736,
+    "comprimento_raiz_mm": 5.668983135037601,
+    "stub_largura_mm": 0.40000122487497003,
+    "stub_comprimento_fisico_mm": 0.2000037145254014,
+    "pior_VSWR_ativo": 1.5918636563037758,
+    "pior_VSWR_casado": 1.4630565776996851,
+    "VSWR_pontos": [
+      [
+        1.5918636552636747,
+        1.4216780600617758,
+        1.2090970333574014,
+        1.0843061920133805
+      ],
+      [
+        1.3686551589084006,
+        1.3176665844911117,
+        1.2102403936475084,
+        1.2749626748833365
+      ],
+      [
+        1.5918636563037758,
+        1.5642725184259658,
+        1.426521764075374,
+        1.4630565776996851
+      ]
+    ],
+    "fatores": {
+      "root_flat_sections": true,
+      "root_w_A": 0.8024512104321332,
+      "root_l_A": 0.6430083901164045,
+      "root_stub_w_A": 0.40000122487497003,
+      "root_stub_l_A": 0.2000037145254014,
+      "root_w_B": 0.8024512104321332,
+      "root_l_B": 0.6430083901164045,
+      "root_stub_w_B": 0.40000122487497003,
+      "root_stub_l_B": 0.2000037145254014
+    },
+    "maior_singular_modelo": 0.2254691092729978
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "referencia": "D:\\dev\\EMBRAER\\P2M21\\R12_Quatro_8Passes_Fast\\antena",
+  "metodo_forma": "Lobo principal da referencia limitado pelos primeiros minimos, apenas pontos >=-10dB; alinhar maximos. Lobos secundarios avaliados separadamente, nunca incluidos nesta mascara.",
+  "criterios": {
+    "ganho_min_dBi": 12,
+    "erro_forma_alinhada_max_dB": 0.75,
+    "variacao_abertura_max": 0.05,
+    "degradacao_SLL_V_max_dB": 0.5,
+    "maximo_H_abs_graus": 0.5,
+    "maximo_V_abs_graus": 1.5
+  },
+  "metricas": {
+    "H": {
+      "erro_forma_lobo_alinhado_dB": 0.45144655683987267,
+      "variacao_abertura_relativa": 0.04432522187533494,
+      "maximo_graus": 2.0,
+      "limites_lobo_principal_referencia_graus": [
+        -140.5,
+        136.25
+      ],
+      "pontos_forma": 512
+    },
+    "V": {
+      "erro_forma_lobo_alinhado_dB": 0.7079413857596286,
+      "variacao_abertura_relativa": 0.0027381937491406383,
+      "maximo_graus": -0.5,
+      "limites_lobo_principal_referencia_graus": [
+        -19.0,
+        27.5
+      ],
+      "pontos_forma": 105
+    }
+  },
+  "verificacoes": {
+    "fisica": true,
+    "convergencia": true,
+    "ganho_minimo12": true,
+    "SLL_vertical": true,
+    "forma_H": true,
+    "abertura_H": true,
+    "apontamento_H": false,
+    "forma_V": true,
+    "abertura_V": true,
+    "apontamento_V": true
+  },
+  "permitir_fast": false
+}

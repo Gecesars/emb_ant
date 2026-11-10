@@ -1,0 +1,18 @@
+{
+  "melhor_confirmada": null,
+  "melhor_casamento_banda": "c12_raiz_intermediaria",
+  "candidatos": [
+    "c01_rede_banda",
+    "c02_raiz_ordem2",
+    "c03_dipolos_1012",
+    "c04_transformadores_duplos",
+    "c05_segmentos_em_fase",
+    "c07_raiz_transicoes",
+    "c08_raiz_ajuste_fino",
+    "c09_raiz_banda_fina",
+    "c10_raiz_secantes",
+    "c11_raiz_largura",
+    "c12_raiz_intermediaria"
+  ],
+  "estado": "Melhor casamento de banda calculado nesta rodada: **c12_raiz_intermediaria**, pior VSWR ativo **1.23548** e casado **1.23260**, em Fast com conferencia discreta. Meta operacional A+B em fase <= 1.25: **Sim**. Condicao com outra entrada em 50 ohms <= 1.25: **Sim**. Pendencias dos criterios centrais: **apontamento_H**. O casamento calculado nao aprova essas pendencias e nao constitui prova de otimo global ou validacao experimental."
+}

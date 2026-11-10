@@ -1,0 +1,45 @@
+{
+  "variante": "c10_raiz_secantes",
+  "proposta": "estimativa_c09_empirica_ext2_meta125.json",
+  "proposta_sha256": "daaade65d2145150103fc687f0aded423128f5c95221345d4ae522982461a714",
+  "s2p_sha256": "38b19c868d8cc71653e3c162e5b559535a66b2a632d82ef0c9a2ee69e670971b",
+  "frequencias_GHz": [
+    5.09,
+    5.17,
+    5.25
+  ],
+  "erro_S_por_frequencia": [
+    0.042261899567818874,
+    0.03343033433433212,
+    0.054299058548907514
+  ],
+  "VSWR_ativo_estimado": [
+    [
+      1.1411669991803701,
+      1.04096454350979
+    ],
+    [
+      1.197944546329792,
+      1.1627931813801238
+    ],
+    [
+      1.0928239859418398,
+      1.1979445463298917
+    ]
+  ],
+  "VSWR_ativo_HFSS": [
+    [
+      1.2479390470990457,
+      1.1146413990042308
+    ],
+    [
+      1.1877295769098908,
+      1.1142637020417634
+    ],
+    [
+      1.1668679376234623,
+      1.297244831022151
+    ]
+  ],
+  "conclusao": "O modelo secante previu atendimento, mas o HFSS encontrou VSWR ativo maximo1.297244831. Previsao nao validada; C10 nao atinge1.25. Nova proposta C11 altera tambem a primeira largura, fora das duas direcoes amostradas antes."
+}

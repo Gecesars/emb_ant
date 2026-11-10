@@ -1,0 +1,65 @@
+{
+  "tipo": "Discrete",
+  "pontos": 3,
+  "banda_completa": false,
+  "sem_adaptacao_adicional": true,
+  "diagramas_apenas_GHz": 5.17,
+  "maior_singular": 0.29406077913720063,
+  "reciprocidade": 7.325076398669584e-05,
+  "diferenca_S_centro": 0.0,
+  "pior_VSWR_ativo": 1.660542164567152,
+  "pior_VSWR_casado": 1.5789846695905505,
+  "pior_VSWR_geral": 1.660542164567152,
+  "extremos": [
+    {
+      "condicao": "ativo_A",
+      "minimo": 1.3033548137790605,
+      "maximo": 1.6331954063749998,
+      "frequencia_max_GHz": 5.25
+    },
+    {
+      "condicao": "ativo_B",
+      "minimo": 1.1772122447024898,
+      "maximo": 1.660542164567152,
+      "frequencia_max_GHz": 5.25
+    },
+    {
+      "condicao": "casado_A",
+      "minimo": 1.3071482735639555,
+      "maximo": 1.472630110035985,
+      "frequencia_max_GHz": 5.25
+    },
+    {
+      "condicao": "casado_B",
+      "minimo": 1.3420813853162592,
+      "maximo": 1.5789846695905505,
+      "frequencia_max_GHz": 5.25
+    }
+  ],
+  "meta_VSWR_inclusiva": 1.25,
+  "ativos_ate_meta": false,
+  "casados_ate_meta": false,
+  "todos_VSWR_ate_meta": false,
+  "potencia_aceita_W_min_max": [
+    0.9402680499214641,
+    0.9880148840721593
+  ],
+  "nucleos_solucoes_banda": [
+    14,
+    14
+  ],
+  "grupos_solucoes_banda": [
+    [
+      "Solution Process",
+      "Frequency Sweep",
+      "Solution - Triagem3",
+      "Frequency - 5.25GHz"
+    ],
+    [
+      "Solution Process",
+      "Frequency Sweep",
+      "Solution - Triagem3",
+      "Frequency - 5.09GHz"
+    ]
+  ]
+}

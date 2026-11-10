@@ -41,9 +41,10 @@ def analyze(folder):
     r['eficiencia_radiacao']=10**((ga-di)/10);r['eficiencia_total']=10**((gr-di)/10)
     r['erro_potencia_W']=abs(10**((gr-ga)/10)-r['potencia_aceita_W'])
     r['fisica_ok']=bool(r['passivo'] and r['major']==0 and r['residuo_reciprocidade']<.001 and r['eficiencia_radiacao']<=1.005 and r['erro_potencia_W']<.005)
-    limit=1.3
-    r['limite_VSWR_exclusivo']=limit
-    r['metas']=dict(ganho12=gr>=12,VSWR_ativo=bool(max(r['VSWR_ativo'])<limit),VSWR_casado=bool(max(r['VSWR_casado'])<limit),maximos_zero_na_grade=r['centrado_na_grade_025grau'])
+    limit=float(cfg.get('max_VSWR',1.3));inclusive=bool(cfg.get('VSWR_limite_inclusivo',False))
+    r['limite_VSWR_inclusivo' if inclusive else 'limite_VSWR_exclusivo']=limit
+    meets=lambda x:x<=limit if inclusive else x<limit
+    r['metas']=dict(ganho12=gr>=12,VSWR_ativo=bool(meets(max(r['VSWR_ativo']))),VSWR_casado=bool(meets(max(r['VSWR_casado']))),maximos_zero_na_grade=r['centrado_na_grade_025grau'])
     r['aprovado']=bool(r['convergiu'] and r['fisica_ok'] and all(r['metas'].values()))
     # Integral aproximada de Ez entre retorno e sinal, apenas como diagnostico
     # relativo. Nao equivale a potencia entregue nem a ondas normalizadas.

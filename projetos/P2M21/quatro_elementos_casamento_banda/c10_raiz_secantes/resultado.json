@@ -1,0 +1,211 @@
+{
+  "variante": "c10_raiz_secantes",
+  "passes": 6,
+  "delta_s": 0.017693,
+  "convergiu": true,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "recursos_matriz": [
+    {
+      "passe_adaptativo": 1,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 1"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 26, 0, 203, 0, 5352464, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 754742, false, 3, 'Matrix bandwidth', 39.8397, '%5.1f', 3, 'Iterations', 36, '%5.1f', 1, 'Disk', '1.65 KB')', true, true)"
+    },
+    {
+      "passe_adaptativo": 2,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 2"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 108, 0, 840, 0, 8437676, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 897191, false, 3, 'Matrix bandwidth', 40.2056, '%5.1f', 3, 'Iterations', 165, '%5.1f', 1, 'Disk', '2 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 3,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 3"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 110, 0, 927, 0, 9378724, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 1086986, false, 3, 'Matrix bandwidth', 40.5691, '%5.1f', 3, 'Iterations', 144.5, '%5.1f', 1, 'Disk', '2 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 4,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 4"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 148, 0, 1154, 0, 11692740, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 1629128, false, 3, 'Matrix bandwidth', 41.1599, '%5.1f', 3, 'Iterations', 143.5, '%5.1f', 1, 'Disk', '1 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 5,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 5"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 197, 0, 1451, 0, 14758848, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 2408954, false, 3, 'Matrix bandwidth', 41.5011, '%5.1f', 3, 'Iterations', 143, '%5.1f', 1, 'Disk', '4 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 6,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 6"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 266, 0, 1951, 0, 20648176, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 3967985, false, 3, 'Matrix bandwidth', 41.8418, '%5.1f', 3, 'Iterations', 130.5, '%5.1f', 1, 'Disk', '3 Bytes')', true, true)"
+    }
+  ],
+  "hfss_indicou_convergencia": true,
+  "passes_consecutivos": 2,
+  "consecutivos_exigidos": 2,
+  "major": 0,
+  "minor": 0,
+  "passivo": true,
+  "max_singular": 0.07620066646306758,
+  "residuo_reciprocidade": 5.069907260699662e-07,
+  "VSWR_ativo": [
+    1.1877295769098908,
+    1.1142637020417634
+  ],
+  "VSWR_casado": [
+    1.087668249969493,
+    1.0648212832540365
+  ],
+  "potencia_aceita_W": 0.9948579141879196,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 12.46949682599729,
+      "ganho_pico_dBi": 12.470349133790094,
+      "pico_graus": 0.75,
+      "abertura_graus": 72.2331849526332,
+      "limites_graus": [
+        -35.878604691651425,
+        36.35458026098177
+      ],
+      "picos_individuais_graus": {
+        "A": 4.25,
+        "B": -4.0
+      },
+      "diferenca_pico_frente_dB": 0.0008523077928046519
+    },
+    "V": {
+      "ganho_frontal_dBi": 12.46949682599729,
+      "ganho_pico_dBi": 12.475155863921348,
+      "pico_graus": -0.25,
+      "abertura_graus": 15.181483159873197,
+      "limites_graus": [
+        -7.845719443378009,
+        7.3357637164951885
+      ],
+      "picos_individuais_graus": {
+        "A": 0.5,
+        "B": 0.5
+      },
+      "diferenca_pico_frente_dB": 0.005659037924058197
+    }
+  },
+  "erros_recomposicao": {
+    "H": 3.397888636665866e-15,
+    "V": 3.492040761393585e-15
+  },
+  "desvio_maximo_graus": 0.75,
+  "centrado_na_grade_025grau": false,
+  "alvo_delta_s": 0.05,
+  "SLL_V": {
+    "nivel_dB": -10.023371321215997,
+    "angulo_graus": 42.0,
+    "limites_lobo_principal_graus": [
+      -17.5,
+      28.0
+    ],
+    "lobos": [
+      {
+        "angulo_graus": -71.75,
+        "nivel_dB": -16.32685719897858
+      },
+      {
+        "angulo_graus": -42.0,
+        "nivel_dB": -13.718069535597003
+      },
+      {
+        "angulo_graus": -26.0,
+        "nivel_dB": -12.949932078522624
+      },
+      {
+        "angulo_graus": 42.0,
+        "nivel_dB": -10.023371321215997
+      },
+      {
+        "angulo_graus": 75.5,
+        "nivel_dB": -17.890405241920718
+      }
+    ],
+    "criterio": "Maximos locais no hemisferio frontal, fora dos primeiros minimos que delimitam o lobo principal."
+  },
+  "parametros": {
+    "ground": 6.0,
+    "extra_A": 0.0,
+    "extra_B": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "root_w_A": 5.811030429787355,
+    "root_w_B": 5.811030429787355,
+    "root_l_A": 1.6219908463795654,
+    "root_l_B": 1.6219908463795654,
+    "adapt": 75,
+    "diagnostico_campos": false,
+    "simetria": true,
+    "contorno_centrado": true,
+    "pcb_z": 14.949,
+    "local_w_A": 1.0,
+    "local_w_B": 1.0,
+    "local_l_A": 0.9999999999999996,
+    "local_l_B": 0.9999999999999996,
+    "pitch": 48.0,
+    "basis_order": 2,
+    "root_flat_sections": true,
+    "root_seg2_w_A": 1.3243787510088707,
+    "root_seg2_l_A": 1.3146763738229663,
+    "root_post_w_A": 1.0,
+    "root_seg3_w_A": 3.07992775533548,
+    "root_seg3_l_A": 0.7560376662969701,
+    "root_seg2_w_B": 1.3243787510088707,
+    "root_seg2_l_B": 1.3146763738229663,
+    "root_post_w_B": 1.0,
+    "root_seg3_w_B": 3.07992775533548,
+    "root_seg3_l_B": 0.7560376662969701
+  },
+  "espacamento_vertical_mm": 48.0,
+  "distancia_face_inferior_laminado_ao_refletor_mm": 14.949,
+  "basis_order": 2,
+  "eficiencia_radiacao": 0.7841362327579544,
+  "eficiencia_total": 0.7801041369607505,
+  "erro_potencia_W": 1.3322676295501878e-15,
+  "fisica_ok": true,
+  "limite_VSWR_inclusivo": 1.25,
+  "metas": {
+    "ganho12": true,
+    "VSWR_ativo": true,
+    "VSWR_casado": true,
+    "maximos_zero_na_grade": false
+  },
+  "aprovado": false
+}

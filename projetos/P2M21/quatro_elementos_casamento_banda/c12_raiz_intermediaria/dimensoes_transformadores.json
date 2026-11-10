@@ -1,0 +1,47 @@
+[
+  {
+    "estagio": "raiz",
+    "largura_mm": 4.718844821168693,
+    "comprimento_mm": 13.47022685646228,
+    "secoes_adicionais": [
+      {
+        "indice": 2,
+        "linha": [
+          [
+            15.97939526950291,
+            -32.0
+          ],
+          [
+            28.57171085744531,
+            -32.0
+          ]
+        ],
+        "largura_mm": 1.8639280865006314,
+        "comprimento_mm": 12.592315587942403
+      },
+      {
+        "indice": 3,
+        "linha": [
+          [
+            28.57171085744531,
+            -32.0
+          ],
+          [
+            35.56515302681214,
+            -32.0
+          ]
+        ],
+        "largura_mm": 5.0,
+        "comprimento_mm": 6.993442169366827
+      }
+    ],
+    "largura_segmento_seguinte_mm": 1.6234147022891376
+  },
+  {
+    "estagio": "local",
+    "largura_mm": 0.8604325963206093,
+    "comprimento_mm": 8.816343957831307,
+    "secoes_adicionais": [],
+    "largura_segmento_seguinte_mm": 1.6234147022891376
+  }
+]

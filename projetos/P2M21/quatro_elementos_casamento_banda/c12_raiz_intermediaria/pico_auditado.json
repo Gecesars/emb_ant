@@ -1,0 +1,32 @@
+{
+  "tipo": "Discrete",
+  "pontos": 1,
+  "frequencia_GHz": 5.173,
+  "sem_adaptacao_adicional": true,
+  "VSWR_ativo": [
+    1.229042160521253,
+    1.2354767157922526
+  ],
+  "VSWR_casado": [
+    1.1539994042684254,
+    1.2106320529486647
+  ],
+  "VSWR_Fast": [
+    1.2290397448476398,
+    1.2354732849713699,
+    1.1539958765190315,
+    1.210628976011913
+  ],
+  "diferenca_S_max": 2.0433894377533523e-06,
+  "diferenca_VSWR_max": 3.5277493939389615e-06,
+  "maior_singular": 0.11004681666666591,
+  "reciprocidade": 2.360455419760905e-07,
+  "potencia_aceita_W": 0.989172984440886,
+  "nucleos": [
+    14
+  ],
+  "meta_VSWR_inclusiva": 1.25,
+  "ativos_ate_meta": true,
+  "casados_ate_meta": true,
+  "todos_VSWR_ate_meta": true
+}

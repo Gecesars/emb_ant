@@ -1,0 +1,27 @@
+{
+  "data": "2026-11-10T02:34:55.347184",
+  "arquivos": [
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_banda.png",
+      "sha256": "766813ee8987fa9a91a90f5437cb2c73d5259e59b782943721350d27347169b9",
+      "revisao_visual": true,
+      "verificacoes": [
+        "Titulos, eixos, unidades e legendas legiveis",
+        "Curvas A/B e meta1.25 distintas",
+        "Sem cortes ou sobreposicao de texto",
+        "Dados correspondem a banda_auditada.json"
+      ]
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_banda_detalhe.png",
+      "sha256": "299c88630b26b4c15bea2679b870800ae34ba4d25b52e8f845a9856a6adbb690",
+      "revisao_visual": true,
+      "verificacoes": [
+        "Titulos, eixos, unidades e legendas legiveis",
+        "Curvas A/B e meta1.25 distintas",
+        "Sem cortes ou sobreposicao de texto",
+        "Dados correspondem a banda_auditada.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "areas_alteradas_mm2": {
+    "B/E1_Q2": 3.9961894893354826,
+    "B/E1_Q3": 3.880411861382965,
+    "B/E2_Q2": 3.9961894893354812,
+    "B/E2_Q3": 3.880411861382987,
+    "B/E3_Q2": 3.996189489335492,
+    "B/E3_Q3": 3.8804118613830045,
+    "B/E4_Q2": 3.996189489335479,
+    "B/E4_Q3": 3.8804118613829672,
+    "B/RET_A": 13.257979748835924,
+    "B/RET_B": 12.825251402671944,
+    "B/SIG_A": 0.0,
+    "B/SIG_B": 0.0,
+    "F/SIG_A": 0.0,
+    "F/SIG_B": 0.0
+  },
+  "retornos_iguais": false,
+  "vias_contorno_iguais": true,
+  "dipolo_escala_externa": 1.012,
+  "adaptacao_percent": 75,
+  "max_passes": 6,
+  "delta_s": 0.05,
+  "basis_order": 2
+}

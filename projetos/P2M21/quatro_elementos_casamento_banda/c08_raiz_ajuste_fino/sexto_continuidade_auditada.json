@@ -1,0 +1,52 @@
+{
+  "aprovado": true,
+  "primeiros_cinco_identicos": true,
+  "apenas_passe_adicional6": true,
+  "historico": [
+    [
+      1,
+      38973,
+      null
+    ],
+    [
+      2,
+      56875,
+      0.43475
+    ],
+    [
+      3,
+      74864,
+      0.14995
+    ],
+    [
+      4,
+      111400,
+      0.036961
+    ],
+    [
+      5,
+      168531,
+      0.023097
+    ],
+    [
+      6,
+      251728,
+      0.011896
+    ]
+  ],
+  "convergiu": true,
+  "comparacao5_6": {
+    "ganho_dB": 0.06885903174774555,
+    "abertura_H_graus": -0.38277372769223916,
+    "abertura_V_graus": 0.0077394870482550004,
+    "VSWR_ativo": [
+      0.03169016530290536,
+      0.007190847927913913
+    ],
+    "VSWR_casado": [
+      0.01971078478496846,
+      0.009873968455634152
+    ]
+  },
+  "nota": "Aprovado refere-se a continuidade. Metas RF e diagramas possuem verificacoes separadas."
+}

@@ -1,0 +1,36 @@
+{
+  "referencia": "D:\\dev\\EMBRAER\\P2M21\\R12_Quatro_8Passes_Fast\\antena",
+  "criterios": {
+    "ganho_min_dBi": 12,
+    "erro_forma_alinhada_max_dB": 0.75,
+    "variacao_abertura_max": 0.05,
+    "degradacao_SLL_V_max_dB": 0.5,
+    "maximo_H_abs_graus": 0.5,
+    "maximo_V_abs_graus": 1.5
+  },
+  "metricas": {
+    "H": {
+      "erro_forma_lobo_alinhado_dB": 0.5889355185620015,
+      "variacao_abertura_relativa": 0.017472484950004974,
+      "maximo_graus": 0.75
+    },
+    "V": {
+      "erro_forma_lobo_alinhado_dB": 1.0287777615034237,
+      "variacao_abertura_relativa": 0.010019132698271482,
+      "maximo_graus": -0.5
+    }
+  },
+  "verificacoes": {
+    "fisica": true,
+    "convergencia": true,
+    "ganho_minimo12": true,
+    "SLL_vertical": true,
+    "forma_H": true,
+    "abertura_H": true,
+    "apontamento_H": false,
+    "forma_V": false,
+    "abertura_V": true,
+    "apontamento_V": true
+  },
+  "permitir_fast": false
+}

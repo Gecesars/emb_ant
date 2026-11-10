@@ -1,0 +1,36 @@
+{
+  "fator": 1.012,
+  "nucleo_protegido_meia_largura_mm": 4.0,
+  "contornos": [
+    {
+      "net": "RET_B",
+      "area_antes_mm2": 59.85111159864506,
+      "area_depois_mm2": 60.69050993740302,
+      "area_alterada_mm2": 3.880413890968539,
+      "nucleo_inalterado_erro_mm2": 0.0
+    },
+    {
+      "net": "Q2",
+      "area_antes_mm2": 63.49987370729542,
+      "area_depois_mm2": 64.36465644612183,
+      "area_alterada_mm2": 3.996183496381705,
+      "nucleo_inalterado_erro_mm2": 0.0
+    },
+    {
+      "net": "Q3",
+      "area_antes_mm2": 62.04065698088145,
+      "area_depois_mm2": 62.880055319639425,
+      "area_alterada_mm2": 3.880413890968539,
+      "nucleo_inalterado_erro_mm2": 0.0
+    },
+    {
+      "net": "RET_A",
+      "area_antes_mm2": 61.31032832505903,
+      "area_depois_mm2": 62.17511106388541,
+      "area_alterada_mm2": 3.996183496381706,
+      "nucleo_inalterado_erro_mm2": 0.0
+    }
+  ],
+  "nota": "Fator aplicado somente a distancia alem de +/-4mm; nao e uma escala global do dipolo nem previsao de deslocamento da ressonancia.",
+  "fonte_sha256": "fd3b18327a7c19b9337a2c4ac97f821662a47019479195375a845e2774667761"
+}

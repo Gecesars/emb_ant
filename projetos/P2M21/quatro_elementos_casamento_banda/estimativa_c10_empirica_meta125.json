@@ -1,0 +1,154 @@
+{
+  "estado": "ESTIMATIVA_EMPIRICA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c10_raiz_secantes",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "38b19c868d8cc71653e3c162e5b559535a66b2a632d82ef0c9a2ee69e670971b",
+  "fontes": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c08_raiz_ajuste_fino",
+      "s2p_sha256": "24caca8a831e9c04dd3521175f81ba83b22550208545e2553a90d6bdd9cb5e4f",
+      "geometria_sha256": "fe8e3e53794b2ec362f53e4ed5a014f07be0d2c8ebeb3d79afee5d1989cf99ce",
+      "campos_sha256": {
+        "H": "4f38dffb7ac4a2030968ea6467b8290af0037f1fcb60285c764e509b8b63c2a9",
+        "V": "7cf5f58651172a49ddb44b84a286e68c0646f025982cc809f631e505f7f93abc"
+      },
+      "passes": 6,
+      "delta_s": 0.011896
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c09_raiz_banda_fina",
+      "s2p_sha256": "195e2e4a10cb0ebb7dff6aa3a4550e6543b5e65e92d3a21fd92d7ffde875592a",
+      "geometria_sha256": "366550dfd24235cf02f13a08136217b76c9e78ea65c428784309215f2f1c0aa8",
+      "campos_sha256": {
+        "H": "de1e59f8b048dccefaaf500fed871b3c2ff5528b8e6aead72f47e064a2ce3064",
+        "V": "9482aec14042098bf822758561a82ccfbceb8f28e2d834a6d55de882bb70bdd7"
+      },
+      "passes": 6,
+      "delta_s": 0.011051
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c10_raiz_secantes",
+      "s2p_sha256": "38b19c868d8cc71653e3c162e5b559535a66b2a632d82ef0c9a2ee69e670971b",
+      "geometria_sha256": "e07f06c74e86c1152ace17c5baf18c7458796268367da43a75069ef4723faa10",
+      "campos_sha256": {
+        "H": "e72c5bdc0ff41685d4ac27d4c7e5ca7cc12f387c3820622e839a37885f41357e",
+        "V": "b1c234ac2ab5a7696cdcbb4ad158431e3779d672237bee9cae518c6671b27b6e"
+      },
+      "passes": 6,
+      "delta_s": 0.017693
+    }
+  ],
+  "colunas_numericamente_fixas": [
+    "root_w",
+    "root_seg3_w"
+  ],
+  "tolerancia_fixas_mm": 1e-05,
+  "metodo": "Modelo afim local de S complexo e geometria a partir de tres ensaios reais. Inclui apenas duas direcoes amostradas. Extrapolacao nao confirma VSWR, convergencia ou diagrama; requer novo HFSS.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "limite_coeficiente": 1.0,
+  "alvo_VSWR": 1.25,
+  "empirico": {
+    "fatores": {
+      "root_w_A": 5.811030429787355,
+      "root_w_B": 5.811030429787355,
+      "root_l_A": 1.650237964806486,
+      "root_l_B": 1.650237964806486,
+      "root_seg2_w_A": 1.4565198808688669,
+      "root_seg2_w_B": 1.4565198808688669,
+      "root_seg2_l_A": 1.2593459175441237,
+      "root_seg2_l_B": 1.2593459175441237,
+      "root_seg3_w_A": 3.07992775533548,
+      "root_seg3_w_B": 3.07992775533548,
+      "root_seg3_l_A": 0.7243923590299898,
+      "root_seg3_l_B": 0.7243923590299898,
+      "root_flat_sections": true
+    },
+    "secoes_raiz_mm": [
+      {
+        "largura": 5.0,
+        "comprimento": 14.549065510005503
+      },
+      {
+        "largura": 2.3645357887789418,
+        "comprimento": 11.102826770959663
+      },
+      {
+        "largura": 5.0,
+        "comprimento": 6.3864921976332205
+      }
+    ],
+    "coeficientes": [
+      -0.6546750149664211,
+      -0.01835135870935664
+    ],
+    "pior_VSWR_ativo": 1.2747910035842727,
+    "pior_VSWR_casado": 1.2888758729137366,
+    "VSWR_pontos": [
+      [
+        1.252569536885987,
+        1.1371081189683054,
+        1.0686435000365624,
+        1.1288236680476837
+      ],
+      [
+        1.2747910035841854,
+        1.2029470893140544,
+        1.152785579086292,
+        1.1282975741083898
+      ],
+      [
+        1.1429675114051094,
+        1.2747910035842727,
+        1.1463801959652173,
+        1.2888758729137366
+      ]
+    ],
+    "campos_estimados_nao_validados": {
+      "H": {
+        "ganho_frontal_dBi": 12.504415403397527,
+        "maximo_graus": 1.0,
+        "abertura_graus": 72.3982800830625
+      },
+      "V": {
+        "ganho_frontal_dBi": 12.504415403397527,
+        "maximo_graus": -0.25,
+        "abertura_graus": 15.179741775729951,
+        "SLL": {
+          "nivel_dB": -10.003482264196709,
+          "angulo_graus": 41.75,
+          "limites_lobo_principal_graus": [
+            -17.5,
+            28.0
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -71.75,
+              "nivel_dB": -16.181623255871113
+            },
+            {
+              "angulo_graus": -42.25,
+              "nivel_dB": -13.568547958215763
+            },
+            {
+              "angulo_graus": -25.75,
+              "nivel_dB": -13.092408778739317
+            },
+            {
+              "angulo_graus": 41.75,
+              "nivel_dB": -10.003482264196709
+            },
+            {
+              "angulo_graus": 75.25,
+              "nivel_dB": -17.592137697314037
+            }
+          ],
+          "criterio": "Maximos locais no hemisferio frontal, fora dos primeiros minimos que delimitam o lobo principal."
+        }
+      }
+    }
+  }
+}

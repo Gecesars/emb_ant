@@ -1,0 +1,54 @@
+{
+  "caminhos": [
+    {
+      "polarizacao": "A",
+      "centro_mm": -72.0,
+      "trilha_mm": 101.49083158695939,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "A",
+      "centro_mm": -24.0,
+      "trilha_mm": 101.49083158695939,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "A",
+      "centro_mm": 24.0,
+      "trilha_mm": 101.49083158695936,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "A",
+      "centro_mm": 72.0,
+      "trilha_mm": 101.49083158695936,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": -72.0,
+      "trilha_mm": 101.49083158695939,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": -24.0,
+      "trilha_mm": 101.49083158695939,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": 24.0,
+      "trilha_mm": 101.49083158695936,
+      "coax_mm": 50.0
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": 72.0,
+      "trilha_mm": 101.49083158695936,
+      "coax_mm": 50.0
+    }
+  ],
+  "comprimentos_fisicos_iguais": true,
+  "nota": "A igualdade geometrica nao substitui a verificacao EM de amplitude e fase."
+}

@@ -1,0 +1,358 @@
+{
+  "aprovado": true,
+  "amostras": [
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 1,
+      "x": 2.49916841304063,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 1,
+      "x": -4.585693593941833,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 1,
+      "x": -11.670555600924295,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 2,
+      "x": -11.690555600924295,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 2,
+      "x": -17.730811443598427,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 2,
+      "x": -23.771067286272554,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 3,
+      "x": -23.791067286272558,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 3,
+      "x": -27.25006207445139,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 3,
+      "x": -30.70905686263022,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 4,
+      "x": -30.729056862630223,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "A",
+      "ramo": -48.0,
+      "secao": 4,
+      "x": -38.1049442247948,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 1,
+      "x": 2.5191684130406298,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 1,
+      "x": 9.604030420023092,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 1,
+      "x": 16.688892427005552,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 2,
+      "x": 16.708892427005555,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 2,
+      "x": 22.749148269679683,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 2,
+      "x": 28.78940411235381,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 3,
+      "x": 28.809404112353814,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 3,
+      "x": 32.268398900532645,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 3,
+      "x": 35.72739368871148,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 4,
+      "x": 35.747393688711476,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "A",
+      "ramo": 48.0,
+      "secao": 4,
+      "x": 43.12328105087605,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 1,
+      "x": 2.49916841304063,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 1,
+      "x": -4.585693593941833,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 1,
+      "x": -11.670555600924295,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 2,
+      "x": -11.690555600924295,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 2,
+      "x": -17.730811443598427,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 2,
+      "x": -23.771067286272554,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 3,
+      "x": -23.791067286272558,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 3,
+      "x": -27.25006207445139,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 3,
+      "x": -30.70905686263022,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 4,
+      "x": -30.729056862630223,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "B",
+      "ramo": -48.0,
+      "secao": 4,
+      "x": -38.1049442247948,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 1,
+      "x": 2.5191684130406298,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 1,
+      "x": 9.604030420023092,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 1,
+      "x": 16.688892427005552,
+      "largura_real": 5.0,
+      "largura_prevista": 4.9999998949287505
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 2,
+      "x": 16.708892427005555,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 2,
+      "x": 22.749148269679683,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 2,
+      "x": 28.78940411235381,
+      "largura_real": 2.2433840000000025,
+      "largura_prevista": 2.2433831466163605
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 3,
+      "x": 28.809404112353814,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 3,
+      "x": 32.268398900532645,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 3,
+      "x": 35.72739368871148,
+      "largura_real": 5.0,
+      "largura_prevista": 4.999999904745502
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 4,
+      "x": 35.747393688711476,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    },
+    {
+      "pol": "B",
+      "ramo": 48.0,
+      "secao": 4,
+      "x": 43.12328105087605,
+      "largura_real": 1.6234139999999968,
+      "largura_prevista": 1.6234147022891376
+    }
+  ],
+  "metodo": "Cortes do cobre real em todas as secoes; cauda reta conferida antes da curva em mitra. Tolerancia2e-6mm."
+}

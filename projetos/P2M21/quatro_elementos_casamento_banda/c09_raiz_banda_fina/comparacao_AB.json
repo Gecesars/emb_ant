@@ -1,0 +1,130 @@
+{
+  "variante": "c09_raiz_banda_fina",
+  "passes": 6,
+  "delta_s": 0.011051,
+  "convergiu": true,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "recursos_matriz": [
+    {
+      "passe_adaptativo": 1,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 1"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 86, 0, 673, 0, 7250376, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 761363, false, 3, 'Matrix bandwidth', 39.8868, '%5.1f', 3, 'Iterations', 155, '%5.1f', 1, 'Disk', '1.65 KB')', true, true)"
+    },
+    {
+      "passe_adaptativo": 2,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 2"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 84, 0, 661, 0, 8455400, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 1130381, false, 3, 'Matrix bandwidth', 40.639, '%5.1f', 3, 'Iterations', 120.5, '%5.1f', 1, 'Disk', '4 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 3,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 3"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 116, 0, 862, 0, 10622640, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 1708808, false, 3, 'Matrix bandwidth', 41.2171, '%5.1f', 3, 'Iterations', 122.5, '%5.1f', 1, 'Disk', '1 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 4,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 4"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 171, 0, 1247, 0, 15267840, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 2796131, false, 3, 'Matrix bandwidth', 41.619, '%5.1f', 3, 'Iterations', 116.5, '%5.1f', 1, 'Disk', '4 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 5,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 5"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 262, 0, 1891, 0, 21525772, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 4309445, false, 3, 'Matrix bandwidth', 41.9059, '%5.1f', 3, 'Iterations', 122, '%5.1f', 1, 'Disk', '3 Bytes')', true, true)"
+    },
+    {
+      "passe_adaptativo": 6,
+      "nucleos": 14,
+      "grupos": [
+        "Solution Process",
+        "Adaptive Meshing",
+        "Adaptive Pass 6"
+      ],
+      "linha": "ProfileItem('Matrix Solve', 213, 0, 1042, 0, 27205316, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 7172603, false, 3, 'Matrix bandwidth', 42.1573, '%5.1f', 3, 'Iterations', 45.5, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+    }
+  ],
+  "hfss_indicou_convergencia": true,
+  "passes_consecutivos": 3,
+  "consecutivos_exigidos": 2,
+  "major": 0,
+  "minor": 0,
+  "passivo": true,
+  "max_singular": 0.1123805556598882,
+  "residuo_reciprocidade": 2.7308872740945105e-05,
+  "VSWR_ativo": [
+    1.053282059868041,
+    1.156209730175966
+  ],
+  "VSWR_casado": [
+    1.0930275993610359,
+    1.2166396401442077
+  ],
+  "potencia_aceita_W": 0.9970390627390235,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 12.43782833058274,
+      "ganho_pico_dBi": 12.438648027758642,
+      "pico_graus": 0.75,
+      "abertura_graus": 72.03420202740506,
+      "limites_graus": [
+        -35.71633584917639,
+        36.31786617822867
+      ],
+      "picos_individuais_graus": {
+        "A": 4.0,
+        "B": -3.75
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 12.437828330582741,
+      "ganho_pico_dBi": 12.441934859641563,
+      "pico_graus": -0.25,
+      "abertura_graus": 15.181320631117703,
+      "limites_graus": [
+        -7.778442729884569,
+        7.4028779012331345
+      ],
+      "picos_individuais_graus": {
+        "A": 0.5,
+        "B": 0.5
+      }
+    }
+  },
+  "erros_recomposicao": {
+    "H": 3.4519987049846645e-15,
+    "V": 3.291076084633269e-15
+  },
+  "desvio_maximo_graus": 0.75,
+  "centrado_na_grade_025grau": false,
+  "validado": false
+}

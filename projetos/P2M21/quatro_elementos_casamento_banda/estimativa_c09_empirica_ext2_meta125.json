@@ -1,0 +1,142 @@
+{
+  "estado": "ESTIMATIVA_EMPIRICA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c09_raiz_banda_fina",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "195e2e4a10cb0ebb7dff6aa3a4550e6543b5e65e92d3a21fd92d7ffde875592a",
+  "fontes": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c07_raiz_transicoes",
+      "s2p_sha256": "896de1602579c29e55e54379e8db2b7c8777194917771c50485aa58c60aef1fc",
+      "geometria_sha256": "20732cb09b416f73b3f8d5f2896fc36398bccdc61d5a264d3844938ffe8d8a34",
+      "passes": 5,
+      "delta_s": 0.014281
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c08_raiz_ajuste_fino",
+      "s2p_sha256": "24caca8a831e9c04dd3521175f81ba83b22550208545e2553a90d6bdd9cb5e4f",
+      "geometria_sha256": "fe8e3e53794b2ec362f53e4ed5a014f07be0d2c8ebeb3d79afee5d1989cf99ce",
+      "passes": 6,
+      "delta_s": 0.011896
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c09_raiz_banda_fina",
+      "s2p_sha256": "195e2e4a10cb0ebb7dff6aa3a4550e6543b5e65e92d3a21fd92d7ffde875592a",
+      "geometria_sha256": "366550dfd24235cf02f13a08136217b76c9e78ea65c428784309215f2f1c0aa8",
+      "passes": 6,
+      "delta_s": 0.011051
+    }
+  ],
+  "colunas_numericamente_fixas": [
+    "root_w",
+    "root_seg3_w"
+  ],
+  "tolerancia_fixas_mm": 1e-05,
+  "metodo": "Modelo afim local de S complexo e geometria a partir de tres ensaios reais. Inclui apenas duas direcoes amostradas. Extrapolacao nao confirma VSWR, convergencia ou diagrama; requer novo HFSS.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "limite_coeficiente": 2.0,
+  "alvo_VSWR": 1.25,
+  "empirico": {
+    "fatores": {
+      "root_w_A": 5.811030429787355,
+      "root_w_B": 5.811030429787355,
+      "root_l_A": 1.6219908463795654,
+      "root_l_B": 1.6219908463795654,
+      "root_seg2_w_A": 1.3243787510088707,
+      "root_seg2_w_B": 1.3243787510088707,
+      "root_seg2_l_A": 1.3146763738229663,
+      "root_seg2_l_B": 1.3146763738229663,
+      "root_seg3_w_A": 3.07992775533548,
+      "root_seg3_w_B": 3.07992775533548,
+      "root_seg3_l_A": 0.7560376662969701,
+      "root_seg3_l_B": 0.7560376662969701,
+      "root_flat_sections": true
+    },
+    "secoes_raiz_mm": [
+      {
+        "largura": 5.0,
+        "comprimento": 14.300029198136174
+      },
+      {
+        "largura": 2.150015935787126,
+        "comprimento": 11.590639104857686
+      },
+      {
+        "largura": 5.0,
+        "comprimento": 6.665488111150178
+      }
+    ],
+    "coeficientes": [
+      0.9042771086844573,
+      -1.4807322482663587
+    ],
+    "pior_VSWR_ativo": 1.1979445463298917,
+    "pior_VSWR_casado": 1.2049636536394355,
+    "VSWR_pontos": [
+      [
+        1.1411669991803701,
+        1.04096454350979,
+        1.0492568426457862,
+        1.1329431515068211
+      ],
+      [
+        1.197944546329792,
+        1.1627931813801238,
+        1.1157235744518337,
+        1.1305198672325225
+      ],
+      [
+        1.0928239859418398,
+        1.1979445463298917,
+        1.1181117911381138,
+        1.2049636536394355
+      ]
+    ],
+    "campos_estimados_nao_validados": {
+      "H": {
+        "ganho_frontal_dBi": 12.285571079062116,
+        "maximo_graus": 1.25,
+        "abertura_graus": 72.06372095999117
+      },
+      "V": {
+        "ganho_frontal_dBi": 12.285571079062116,
+        "maximo_graus": -0.25,
+        "abertura_graus": 15.217983332352098,
+        "SLL": {
+          "nivel_dB": -9.970463810902444,
+          "angulo_graus": 42.25,
+          "limites_lobo_principal_graus": [
+            -17.25,
+            28.0
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -71.75,
+              "nivel_dB": -16.354317423137132
+            },
+            {
+              "angulo_graus": -42.0,
+              "nivel_dB": -14.34044000790771
+            },
+            {
+              "angulo_graus": -25.5,
+              "nivel_dB": -12.756982876957476
+            },
+            {
+              "angulo_graus": 42.25,
+              "nivel_dB": -9.970463810902444
+            },
+            {
+              "angulo_graus": 76.0,
+              "nivel_dB": -18.298197462669748
+            }
+          ],
+          "criterio": "Maximos locais no hemisferio frontal, fora dos primeiros minimos que delimitam o lobo principal."
+        }
+      }
+    }
+  }
+}

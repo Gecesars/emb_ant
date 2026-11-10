@@ -1,0 +1,13 @@
+{
+  "aprovado": true,
+  "geometria_inalterada": true,
+  "malha_byte_a_byte_preservada": true,
+  "alteracao_ativa": "MinimumPasses2->6; MaximumPasses6 mantido",
+  "defaults_inativos_normalizados": {
+    "Target=0.3333": "Target=0.6667",
+    "PortMinTri=100": "PortMinTri=60",
+    "PortMaxTri=500": "PortMaxTri=300"
+  },
+  "lambda_e_restricoes_de_triangulos_de_porta_desativados": true,
+  "primeiros_cinco_preservados": true
+}

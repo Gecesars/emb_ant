@@ -1,0 +1,156 @@
+{
+  "estado": "ESTIMATIVA_PARA_SELECAO_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c03_dipolos_1012",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "219f2b0578a693cd1eac823b29fc1928a924aa279afab636b4d809e49eb27e3f",
+  "metodo": "MLine com quatro cargas efetivas congeladas por frequencia; inclui a fase nominal dos cabos. Limita largura local a pelo menos0.65mm para evitar o estreitamento extremo do C01. Requer confirmacao HFSS completa e conferencia dos diagramas.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "alvo_VSWR": 1.25,
+  "pontos": 3,
+  "triagem_tres_frequencias": true,
+  "erro_recomposicao": 8.881784197001252e-16,
+  "referencia": {
+    "largura_raiz_mm": 0.656371208302508,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 9.000142317087022,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.7628386129364336,
+      "root_w_B": 0.7628386129364336,
+      "local_w_A": 1.0,
+      "local_w_B": 1.0,
+      "root_l_A": 1.020847457873107,
+      "root_l_B": 1.020847457873107,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 2.3422444791648314,
+    "pior_VSWR_casado": 1.7688894651673064,
+    "pior_VSWR_geral": 2.3422444791648314,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 2.3422444791648314,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 2.069805458517499,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.7688894651673064,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.5759926069378092,
+        "frequencia_GHz": 5.09
+      }
+    ]
+  },
+  "limites_locais_intermediarios_mm": [
+    [
+      0.4,
+      2.0
+    ],
+    [
+      0.65,
+      1.3
+    ],
+    [
+      3.0,
+      12.0
+    ],
+    [
+      8.0,
+      18.0
+    ]
+  ],
+  "locais_intermediarios": {
+    "largura_raiz_mm": 1.1992976743128922,
+    "largura_local_mm": 0.6500000080860101,
+    "comprimento_raiz_mm": 4.658063516824517,
+    "comprimento_local_mm": 14.230503528166476,
+    "fatores": {
+      "root_w_A": 1.3938310559610843,
+      "root_w_B": 1.3938310559610843,
+      "local_w_A": 0.7554339652699663,
+      "local_w_B": 0.7554339652699663,
+      "root_l_A": 0.5283441230405819,
+      "root_l_B": 0.5283441230405819,
+      "local_l_A": 1.6141048484758718,
+      "local_l_B": 1.6141048484758718
+    },
+    "pior_VSWR_ativo": 1.3030095602453051,
+    "pior_VSWR_casado": 1.2614161598399016,
+    "pior_VSWR_geral": 1.3030095602453051,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.3030095602453051,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.2874405560595088,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.1645447629387258,
+        "frequencia_GHz": 5.17
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.2614161598399016,
+        "frequencia_GHz": 5.17
+      }
+    ]
+  },
+  "locais_intermediarios_ativo": {
+    "largura_raiz_mm": 1.199304950114435,
+    "largura_local_mm": 0.6500000026356249,
+    "comprimento_raiz_mm": 4.658173939246237,
+    "comprimento_local_mm": 14.230467685447772,
+    "fatores": {
+      "root_w_A": 1.3938395119419176,
+      "root_w_B": 1.3938395119419176,
+      "local_w_A": 0.7554339589354954,
+      "local_w_B": 0.7554339589354954,
+      "root_l_A": 0.5283566477812508,
+      "root_l_B": 0.5283566477812508,
+      "local_l_A": 1.6141007829903513,
+      "local_l_B": 1.6141007829903513
+    },
+    "pior_VSWR_ativo": 1.303009559433182,
+    "pior_VSWR_casado": 1.2614165380471087,
+    "pior_VSWR_geral": 1.303009559433182,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.303009559433182,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.2874418216400556,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.164545045225203,
+        "frequencia_GHz": 5.17
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.2614165380471087,
+        "frequencia_GHz": 5.17
+      }
+    ]
+  }
+}

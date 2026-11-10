@@ -1,0 +1,568 @@
+{
+  "objetivo": "VSWR ativo A/B <=1.25 em 5.09-5.25 GHz, fontes iguais/em fase, ganho >=12 dBi no centro e preservacao dos diagramas. Conferir tambem outra entrada casada.",
+  "escopo": "Modulo quatro elementos com dois divisores impressos1:4 e dois cabos fisicos50mm COM perdas. Nao e painel16x2.",
+  "referencia": "D:/dev/EMBRAER/P2M21/R12_Quatro_8Passes_Fast/antena",
+  "referencia_commit": "176d27954fe1cb3458cf2da88a65c4005fc594d7",
+  "condicoes": {
+    "passo_mm": 48,
+    "altura_mm": 14.949,
+    "frequencia_campos_GHz": 5.17,
+    "fontes_W": [
+      0.5,
+      0.5
+    ],
+    "fases_graus": [
+      0,
+      0
+    ],
+    "max_passes_por_geometria": 6,
+    "delta_s": 0.05,
+    "consecutivos": 2,
+    "nucleos": 14,
+    "malha": "Classic5, sem refinamento inicial imposto, sem MeshLink; BasisOrder2 e adaptacao75% durante solve nas variantes recentes"
+  },
+  "criterios": {
+    "VSWR_inclusivo": 1.25,
+    "ganho_centro_dBi": 12,
+    "variacao_abertura": 0.05,
+    "erro_forma_alinhada_dB": 0.75,
+    "degradacao_SLL_vertical_dB": 0.5,
+    "maximo_H_abs_graus": 0.5,
+    "maximo_V_abs_graus": 1.5
+  },
+  "triagem_GHz": [
+    5.09,
+    5.17,
+    5.25
+  ],
+  "confirmacao": "Fast161pontos1MHz aposS3ativo<=1.25; compararScomDiscrete3; sem adaptacaoextra e sem campos fora do centro.",
+  "correcao_auditoria": "Mascara principal corrigida; antes incluiu secundario37..44.75graus daR12. Nenhuma tolerancia relaxada. Ver correcao_mascara_lobo_principal.json e JSONs anteriores congelados.",
+  "geometria_sem_RF": [
+    "c06_raiz_tres_secoes"
+  ],
+  "proposta_reserva_nao_simulada": {
+    "arquivo": "estimativa_c12_reserva_local_nao_simulada.json",
+    "tipo": "Modelo afim local de C08/C10/C11/C12, extensao0.35",
+    "VSWR_ativo_estimado": 1.1929543178,
+    "maximos_HV_estimados": [
+      0.5,
+      -0.25
+    ],
+    "estado": "Somente estimativa. Nenhum CAD ou solver. Nao substitui C12 em calculo."
+  },
+  "estado": "CONCLUIDO_CASAMENTO_META125_COM_RESSALVA_APONTAMENTO",
+  "atualizado": "2026-11-10T02:40:17.107025",
+  "variante_selecionada": "c12_raiz_intermediaria",
+  "meta_VSWR_atendida": true,
+  "aprovacao_global_dos_criterios_centrais": false,
+  "ressalvas": [
+    {
+      "criterio": "apontamento_H",
+      "observado_graus": 0.75,
+      "limite_de_trabalho_graus": 0.5,
+      "nota": "Tolerancia opcional nao respondida. Limite mantido, sem arredondar o maximo para zero; diferenca H entre frente e pico0.000923dB."
+    }
+  ],
+  "resultado_final": {
+    "pior_VSWR_ativo_confirmado": 1.2354767157922526,
+    "pior_VSWR_casado_confirmado": 1.2326020458922868,
+    "Fast": {
+      "tipo": "Fast",
+      "pontos": 161,
+      "banda_completa": true,
+      "sem_adaptacao_adicional": true,
+      "diagramas_apenas_GHz": 5.17,
+      "maior_singular": 0.16263541040689244,
+      "reciprocidade": 1.5122491078569077e-15,
+      "diferenca_S_centro": 4.7103488647780604e-07,
+      "pior_VSWR_ativo": 1.2354732849713699,
+      "pior_VSWR_casado": 1.2326020458922868,
+      "pior_VSWR_geral": 1.2354732849713699,
+      "extremos": [
+        {
+          "condicao": "ativo_A",
+          "minimo": 1.053258621182643,
+          "maximo": 1.230001029126565,
+          "frequencia_max_GHz": 5.178
+        },
+        {
+          "condicao": "ativo_B",
+          "minimo": 1.0480203175304506,
+          "maximo": 1.2354732849713699,
+          "frequencia_max_GHz": 5.173
+        },
+        {
+          "condicao": "casado_A",
+          "minimo": 1.037756965162577,
+          "maximo": 1.1549622744986554,
+          "frequencia_max_GHz": 5.168
+        },
+        {
+          "condicao": "casado_B",
+          "minimo": 1.1327507336219804,
+          "maximo": 1.2326020458922868,
+          "frequencia_max_GHz": 5.142
+        }
+      ],
+      "meta_VSWR_inclusiva": 1.25,
+      "ativos_ate_meta": true,
+      "casados_ate_meta": true,
+      "todos_VSWR_ate_meta": true,
+      "potencia_aceita_W_min_max": [
+        0.9891487625253964,
+        0.9992475887835126
+      ],
+      "nucleos_solucoes_banda": [
+        14
+      ],
+      "grupos_solucoes_banda": [
+        [
+          "Solution Process",
+          "Frequency Sweep"
+        ]
+      ],
+      "conferencia_discrete": {
+        "frequencias_GHz": [
+          5.09,
+          5.17,
+          5.25
+        ],
+        "diferenca_S_max": 1.2941987010683273e-06,
+        "diferenca_VSWR_max": 2.6157256167724796e-06,
+        "pior_VSWR_ativo": 1.2350250678877295,
+        "pior_VSWR_casado": 1.2296724626755047
+      }
+    },
+    "conferencia_pico": {
+      "tipo": "Discrete",
+      "pontos": 1,
+      "frequencia_GHz": 5.173,
+      "sem_adaptacao_adicional": true,
+      "VSWR_ativo": [
+        1.229042160521253,
+        1.2354767157922526
+      ],
+      "VSWR_casado": [
+        1.1539994042684254,
+        1.2106320529486647
+      ],
+      "VSWR_Fast": [
+        1.2290397448476398,
+        1.2354732849713699,
+        1.1539958765190315,
+        1.210628976011913
+      ],
+      "diferenca_S_max": 2.0433894377533523e-06,
+      "diferenca_VSWR_max": 3.5277493939389615e-06,
+      "maior_singular": 0.11004681666666591,
+      "reciprocidade": 2.360455419760905e-07,
+      "potencia_aceita_W": 0.989172984440886,
+      "nucleos": [
+        14
+      ],
+      "meta_VSWR_inclusiva": 1.25,
+      "ativos_ate_meta": true,
+      "casados_ate_meta": true,
+      "todos_VSWR_ate_meta": true
+    },
+    "centro": {
+      "ganho_frontal_dBi": 12.45658226720807,
+      "aberturas_HV_graus": [
+        72.05473021381025,
+        15.1826838894504
+      ],
+      "maximos_HV_graus": [
+        0.75,
+        -0.25
+      ],
+      "SLL_vertical_dB": -10.07488718356215,
+      "passes": 6,
+      "delta_s": 0.016719,
+      "major": 0,
+      "minor": 0
+    }
+  },
+  "candidatos": [
+    {
+      "pasta": "c01_rede_banda",
+      "passes": 6,
+      "delta_s": 0.062538,
+      "convergiu": false,
+      "ganho_centro_dBi": 12.930724893905028,
+      "VSWR_ativo_centro": [
+        1.6226306013283933,
+        1.71525566020397
+      ],
+      "VSWR_casado_centro": [
+        1.5013795385279871,
+        1.6791489473482624
+      ],
+      "maximos_HV_graus": [
+        2.25,
+        0.25
+      ],
+      "aberturas_HV_graus": [
+        66.95463336155865,
+        15.360819747677496
+      ],
+      "criterios_centrais_reprovados": [
+        "convergencia",
+        "forma_H",
+        "abertura_H",
+        "apontamento_H"
+      ]
+    },
+    {
+      "pasta": "c02_raiz_ordem2",
+      "passes": 5,
+      "delta_s": 0.029992,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.690265569204016,
+      "VSWR_ativo_centro": [
+        1.3553490033256435,
+        1.300415848323152
+      ],
+      "VSWR_casado_centro": [
+        1.1926360334157606,
+        1.2578774964958543
+      ],
+      "maximos_HV_graus": [
+        1.25,
+        -1.0
+      ],
+      "aberturas_HV_graus": [
+        73.31011300114326,
+        15.099382728903107
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.6120423016896792,
+        "pior_VSWR_casado": 1.4528156304985753,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c03_dipolos_1012",
+      "passes": 6,
+      "delta_s": 0.019014,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.71133130293766,
+      "VSWR_ativo_centro": [
+        1.384601001190006,
+        1.24804863826607
+      ],
+      "VSWR_casado_centro": [
+        1.248171620922727,
+        1.2056505033066238
+      ],
+      "maximos_HV_graus": [
+        0.75,
+        -1.25
+      ],
+      "aberturas_HV_graus": [
+        73.26085129683885,
+        15.05612525780451
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 2.342244479164831,
+        "pior_VSWR_casado": 1.7688894651673055,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c04_transformadores_duplos",
+      "passes": 6,
+      "delta_s": 0.0147,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.917819400698093,
+      "VSWR_ativo_centro": [
+        1.3329970786811025,
+        1.386879468782146
+      ],
+      "VSWR_casado_centro": [
+        1.3516983582713473,
+        1.513924707778808
+      ],
+      "maximos_HV_graus": [
+        2.0,
+        -0.5
+      ],
+      "aberturas_HV_graus": [
+        70.07217215738433,
+        15.099665055713679
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.660542164567152,
+        "pior_VSWR_casado": 1.5789846695905505,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c05_segmentos_em_fase",
+      "passes": 6,
+      "delta_s": 0.020746,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.633040220449914,
+      "VSWR_ativo_centro": [
+        1.2868794393316016,
+        1.3218301735532618
+      ],
+      "VSWR_casado_centro": [
+        1.3075354632064218,
+        1.4408064239599452
+      ],
+      "maximos_HV_graus": [
+        2.5,
+        -0.25
+      ],
+      "aberturas_HV_graus": [
+        71.69235956814353,
+        15.204466799446502
+      ],
+      "criterios_centrais_reprovados": [
+        "SLL_vertical",
+        "apontamento_H"
+      ]
+    },
+    {
+      "pasta": "c07_raiz_transicoes",
+      "passes": 5,
+      "delta_s": 0.014281,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.418820721637564,
+      "VSWR_ativo_centro": [
+        1.4927189952779456,
+        1.3537205533729737
+      ],
+      "VSWR_casado_centro": [
+        1.4047999745651958,
+        1.2857194057691863
+      ],
+      "maximos_HV_graus": [
+        0.75,
+        -0.5
+      ],
+      "aberturas_HV_graus": [
+        72.04107376261558,
+        15.209304580874202
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.671462431924874,
+        "pior_VSWR_casado": 1.6181448222211336,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c08_raiz_ajuste_fino",
+      "passes": 6,
+      "delta_s": 0.011896,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.468842359213506,
+      "VSWR_ativo_centro": [
+        1.1611839094730543,
+        1.0563515122939968
+      ],
+      "VSWR_casado_centro": [
+        1.1094579873038088,
+        1.049176100038222
+      ],
+      "maximos_HV_graus": [
+        0.25,
+        -0.5
+      ],
+      "aberturas_HV_graus": [
+        71.97871220916142,
+        15.175456434361148
+      ],
+      "criterios_centrais_reprovados": [],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.4164363025489544,
+        "pior_VSWR_casado": 1.3964727407340167,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c09_raiz_banda_fina",
+      "passes": 6,
+      "delta_s": 0.011051,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.43782833058274,
+      "VSWR_ativo_centro": [
+        1.053282059868041,
+        1.156209730175966
+      ],
+      "VSWR_casado_centro": [
+        1.0930275993610359,
+        1.2166396401442077
+      ],
+      "maximos_HV_graus": [
+        0.75,
+        -0.25
+      ],
+      "aberturas_HV_graus": [
+        72.03420202740506,
+        15.181320631117703
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.3848379477897714,
+        "pior_VSWR_casado": 1.3212107670486435,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c10_raiz_secantes",
+      "passes": 6,
+      "delta_s": 0.017693,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.46949682599729,
+      "VSWR_ativo_centro": [
+        1.1877295769098908,
+        1.1142637020417634
+      ],
+      "VSWR_casado_centro": [
+        1.087668249969493,
+        1.0648212832540365
+      ],
+      "maximos_HV_graus": [
+        0.75,
+        -0.25
+      ],
+      "aberturas_HV_graus": [
+        72.2331849526332,
+        15.181483159873197
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.297244831022151,
+        "pior_VSWR_casado": 1.3267588058309197,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": false
+      }
+    },
+    {
+      "pasta": "c11_raiz_largura",
+      "passes": 6,
+      "delta_s": 0.018414,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.47420968281429,
+      "VSWR_ativo_centro": [
+        1.3305114835373983,
+        1.2936180851255565
+      ],
+      "VSWR_casado_centro": [
+        1.201760703069995,
+        1.1966856917597808
+      ],
+      "maximos_HV_graus": [
+        0.5,
+        -0.5
+      ],
+      "aberturas_HV_graus": [
+        72.26809219314191,
+        15.089221867694365
+      ],
+      "criterios_centrais_reprovados": [],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.3305114835373983,
+        "pior_VSWR_casado": 1.201760703069995,
+        "ativos_ate_meta": false,
+        "casados_ate_meta": true
+      }
+    },
+    {
+      "pasta": "c12_raiz_intermediaria",
+      "passes": 6,
+      "delta_s": 0.016719,
+      "convergiu": true,
+      "ganho_centro_dBi": 12.45658226720807,
+      "VSWR_ativo_centro": [
+        1.2273288503862823,
+        1.2350250678877293
+      ],
+      "VSWR_casado_centro": [
+        1.1547759347851043,
+        1.2146832443529088
+      ],
+      "maximos_HV_graus": [
+        0.75,
+        -0.25
+      ],
+      "aberturas_HV_graus": [
+        72.05473021381025,
+        15.1826838894504
+      ],
+      "criterios_centrais_reprovados": [
+        "apontamento_H"
+      ],
+      "triagem3_auditada.json": {
+        "pontos": 3,
+        "pior_VSWR_ativo": 1.2350250678877295,
+        "pior_VSWR_casado": 1.2296724626755047,
+        "ativos_ate_meta": true,
+        "casados_ate_meta": true
+      },
+      "banda_auditada.json": {
+        "pontos": 161,
+        "pior_VSWR_ativo": 1.2354732849713699,
+        "pior_VSWR_casado": 1.2326020458922868,
+        "ativos_ate_meta": true,
+        "casados_ate_meta": true
+      }
+    }
+  ],
+  "validacoes": [
+    "Fast161frequencias exatas, passivo, reciproco e potencia aceita plausivel",
+    "Conferencia Discrete3 e pico5.173GHz; erroS maximo2.044e-6 no pico",
+    "Nenhuma adaptacao adicional; 14nucleos em todos os solves",
+    "12 PDFs e duas curvas finais revisados visualmente, hashes preservados"
+  ],
+  "entrega": {
+    "estado": "ARQUIVOS_FINAIS_REVISADOS",
+    "destino": "D:/dev/EMBRAER/emb_ant/projetos/P2M21/quatro_elementos_casamento_banda",
+    "versionamento": "Entrega identificada pelo historico Git; conferir bytes em manifesto.json. Commit e push autorizados.",
+    "artefatos_de_engenharia": 616,
+    "malhas_incluidas": false,
+    "email": "Nao solicitado nesta rodada; nenhum envio"
+  },
+  "fila": {
+    "estado": "TODOS_OS_SOLVERS_DESTA_RODADA_ENCERRADOS",
+    "Fast_fim": "2026-11-10T02:32:28.671",
+    "Discrete_pico_fim": "2026-11-10T02:37:32.454"
+  },
+  "limites": [
+    "Resultado numerico nominal, sem estudo de tolerancias de fabricacao",
+    "Ganho e diagramas somente5.17GHz",
+    "Nao comprova otimo global, maximos exatos em0graus ou painel16x2/MIMOporentrada",
+    "Reserva estimada nao foi construida nem simulada; nao iniciar automaticamente"
+  ]
+}

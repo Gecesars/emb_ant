@@ -1,0 +1,14 @@
+{
+  "fase": "Triagem3 em execucao",
+  "valores": {
+    "NumTets": "287404",
+    "NumCores": "14",
+    "MatrixSize": "5529689",
+    "TotalModes": "2",
+    "BasisOrder": "2",
+    "Frequency": "5250000000.000000"
+  },
+  "origem": "solverUsagefile.txt",
+  "observado": "2026-11-09T18:04:31.7240139-03:00",
+  "worker": 38068
+}

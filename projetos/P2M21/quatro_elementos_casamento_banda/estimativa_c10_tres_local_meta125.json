@@ -1,0 +1,175 @@
+{
+  "estado": "ESTIMATIVA_RAIZ_DUPLA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c10_raiz_secantes",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "38b19c868d8cc71653e3c162e5b559535a66b2a632d82ef0c9a2ee69e670971b",
+  "metodo": "Matriz Z2 efetiva congelada apos primeiro estagio. Secoes proximas a entrada sao alteradas; cauda de50ohms e divisores locais preservados. Acoplamento das entradas retido na matriz; mudancas de radiacao/campos das trilhas exigem HFSS.",
+  "transicoes": "Fonte historica: fronteiras efetivas dos caps quadrados consideradas. Variante: caps planos, passos de largura nas cotas nominais. Descontinuidades EM e radiacao exigem HFSS.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "secoes": 3,
+  "busca_local": true,
+  "referencia_fase": null,
+  "alvo_VSWR": 1.25,
+  "criterio_objetivo": "VSWR ativo A/B em fase; penalidade de fase de saida somente quando configurada",
+  "erro_recomposicao_S": 2.5644001209680553e-16,
+  "limites_mm": [
+    [
+      3.75,
+      5.0
+    ],
+    [
+      12.300029198136174,
+      16.300029198136173
+    ],
+    [
+      1.6125119518403443,
+      2.6875199197339072
+    ],
+    [
+      9.590639104857686,
+      13.590639104857686
+    ],
+    [
+      3.75,
+      5.0
+    ],
+    [
+      4.665488111150178,
+      8.665488111150179
+    ]
+  ],
+  "referencia": {
+    "largura_raiz_mm": 5.0,
+    "comprimento_raiz_mm": 14.300029198136174,
+    "largura_segunda_secao_mm": 2.150015935787126,
+    "comprimento_segunda_secao_mm": 11.590639104857686,
+    "fase_saida_relativa_centro_graus": null,
+    "secoes_raiz_mm": [
+      {
+        "largura": 5.0,
+        "comprimento": 14.300029198136174
+      },
+      {
+        "largura": 2.150015935787126,
+        "comprimento": 11.590639104857686
+      },
+      {
+        "largura": 5.0,
+        "comprimento": 6.665488111150178
+      }
+    ],
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_flat_sections": true,
+      "root_w_A": 5.811030429787355,
+      "root_l_A": 1.6219908463795654,
+      "root_seg2_w_A": 1.3243787510088707,
+      "root_seg2_l_A": 1.3146763738229663,
+      "root_post_w_A": 1.0,
+      "root_seg3_w_A": 3.07992775533548,
+      "root_seg3_l_A": 0.7560376662969701,
+      "root_w_B": 5.811030429787355,
+      "root_l_B": 1.6219908463795654,
+      "root_seg2_w_B": 1.3243787510088707,
+      "root_seg2_l_B": 1.3146763738229663,
+      "root_post_w_B": 1.0,
+      "root_seg3_w_B": 3.07992775533548,
+      "root_seg3_l_B": 0.7560376662969701
+    },
+    "pior_VSWR_ativo": 1.2972448310221507,
+    "pior_VSWR_casado": 1.3267588058309194,
+    "pior_VSWR_geral": 1.3267588058309194,
+    "VSWR_pontos": [
+      [
+        1.2479390470990457,
+        1.114641399004231,
+        1.0657342437548205,
+        1.064980719438049
+      ],
+      [
+        1.1877295769098912,
+        1.1142637020417634,
+        1.0876682499694932,
+        1.0648212832540365
+      ],
+      [
+        1.1668679376234623,
+        1.2972448310221507,
+        1.2044207392052255,
+        1.3267588058309194
+      ]
+    ]
+  },
+  "raiz_dupla": {
+    "largura_raiz_mm": 4.425654729303144,
+    "comprimento_raiz_mm": 12.811978091694407,
+    "largura_segunda_secao_mm": 1.8348542792242062,
+    "comprimento_segunda_secao_mm": 13.373003819700724,
+    "fase_saida_relativa_centro_graus": null,
+    "secoes_raiz_mm": [
+      {
+        "largura": 4.425654729303144,
+        "comprimento": 12.811978091694407
+      },
+      {
+        "largura": 1.8348542792242062,
+        "comprimento": 13.373003819700724
+      },
+      {
+        "largura": 4.999999200683799,
+        "comprimento": 7.175300958796855
+      }
+    ],
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_flat_sections": true,
+      "root_w_A": 5.143522860742578,
+      "root_l_A": 1.4532076054398815,
+      "root_seg2_w_A": 1.130243724315742,
+      "root_seg2_l_A": 1.5168423423205784,
+      "root_post_w_A": 1.0,
+      "root_seg3_w_A": 3.0799272629682495,
+      "root_seg3_l_A": 0.8138635462858997,
+      "root_w_B": 5.143522860742578,
+      "root_l_B": 1.4532076054398815,
+      "root_seg2_w_B": 1.130243724315742,
+      "root_seg2_l_B": 1.5168423423205784,
+      "root_post_w_B": 1.0,
+      "root_seg3_w_B": 3.0799272629682495,
+      "root_seg3_l_B": 0.8138635462858997
+    },
+    "pior_VSWR_ativo": 1.191489316992681,
+    "pior_VSWR_casado": 1.243658951132032,
+    "pior_VSWR_geral": 1.243658951132032,
+    "VSWR_pontos": [
+      [
+        1.1914893156594726,
+        1.1255886898073921,
+        1.183640591802369,
+        1.243658951132032
+      ],
+      [
+        1.191489316992681,
+        1.1791541479601126,
+        1.1066571719055889,
+        1.1569898940592562
+      ],
+      [
+        1.0724513983062198,
+        1.1914893159250783,
+        1.120290918460453,
+        1.2215362625348403
+      ]
+    ]
+  }
+}

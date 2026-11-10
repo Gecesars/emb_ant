@@ -1,0 +1,10 @@
+{
+  "qualifica_geometria": false, 
+  "motivo": "Extrair tres S2 reais para corrigir o modelo de casamento. Todos os criterios de rejeicao dos diagramas continuam ativos; nao libera Fast nem aprova o candidato.", 
+  "criterios_reprovados": [
+    "apontamento_H", 
+    "forma_V"
+  ], 
+  "finalidade": "CALIBRACAO_DE_CANDIDATO_REJEITADO", 
+  "tipo": "Discrete"
+}

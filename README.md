@@ -1,5 +1,7 @@
 # Painel setorial P1H · 5,09 a 5,25 GHz
 
+**P2M21 — módulo de quatro elementos, R13 de 10/11:** casamento numérico **VSWR ≤1,25 em 5,09–5,25 GHz**, com Fast de 161 pontos e conferências discretas. Pior VSWR ativo **1,23548**, outra entrada casada **1,23260**. Em 5,17 GHz: **12,4566 dBi**, H **72,055°**, V **15,183°**; máximos **+0,75°/−0,25°**, mantendo a ressalva de apontamento horizontal. Seis passes, ΔS **1,672%**, 14 núcleos, entradas iguais/em fase e cabos físicos com perdas. [Relatório, curvas, dimensões e nativos](projetos/P2M21/quatro_elementos_casamento_banda/README.md). A aprovação do casamento deste módulo não qualifica o painel completo de 21 dBi.
+
 **P1H semipronta — campanha R07 suspensa a pedido do usuário em 8/11.** A R06 permanece qualificada somente em 5,17 GHz. O centro R07 foi conferido; a varredura de 17 frequências foi interrompida voluntariamente para iniciar o novo projeto. Não há aprovação de banda R07. [Registro do congelamento](resultados/r07/estado_semipronta.json).
 
 **Continuação central P2M21 concluída:** dois passes adicionais, seis no total, em 5,17 GHz; 14 núcleos nos passes finais. Ganho total **23,32 dBi**, H **32,54°**, V **3,48°**. **Preliminar: ΔS 0,110424, sem convergência e com reprovações numéricas.** Sem sweep. [Comparação e diagramas polares E/Emax](projetos/P2M21/centro_sem_refinamento/continuacao_6_passes/README.md) · [Histórico de quatro passes](projetos/P2M21/centro_sem_refinamento/README.md).

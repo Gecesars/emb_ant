@@ -1,0 +1,101 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "c01_rede_banda/polar_HV.pdf",
+      "sha256": "0cc14c897be9c5f96c6f10c71af6ccb24a5ef12685d635293a9701c815cc8935",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c01_rede_banda.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/polar_HV.pdf",
+      "sha256": "7c852f3e7bef9d1c37a59598bab2543407d227dbadb73da94abae94e7a7cd48e",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c02_raiz_ordem2.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c03_dipolos_1012/polar_HV.pdf",
+      "sha256": "c2025cc14589b6760049bc134faa087900d56042d7f571acf945d195b9ac8cfe",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c03_dipolos_1012.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/polar_HV.pdf",
+      "sha256": "90be47be0aa2018d255017a5d663292b14d3a0ed3cdd7672319b5aebb5c984cd",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c04_transformadores_duplos.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/polar_HV.pdf",
+      "sha256": "3c0828a343b23ec4c8538b2ce45337b56191861273a629d04741a767ed7524e0",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c05_segmentos_em_fase.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/polar_HV.pdf",
+      "sha256": "cfb7d7bf542f2e13e426222f7d7dde2f204db6deb9683d05ed65ab5d623d7ee3",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c07_raiz_transicoes.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/polar_HV.pdf",
+      "sha256": "e0cae8518b8f06dcc507d5cbf267db0a441a846fd3130a216d3b9c0b1a9373d6",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c08_raiz_ajuste_fino.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/polar_HV.pdf",
+      "sha256": "7916364fa70ed387a06406d0a6c17561ec25b9d760ce3d601a7791ae8994b411",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c09_raiz_banda_fina.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/polar_HV.pdf",
+      "sha256": "6fc85a7c3b38745cae51321dbf77111f61aaa19f6f6bb65d1874fbb18416d55a",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c08_passe5.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c10_raiz_secantes/polar_HV.pdf",
+      "sha256": "c0144c47aa7f985f21dc65a5a52adfcfb5b06ab93865e6a108178000ae6f8249",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c10_raiz_secantes.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c11_raiz_largura/polar_HV.pdf",
+      "sha256": "e4b3b5a481bbed14bf06d2fb1e50220e02aa25d7948454be3231ea7525f89fc1",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c11_raiz_largura.png",
+      "revisao_visual": true
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/polar_HV.pdf",
+      "sha256": "0be97f8f20afa4cde5644e8b5e6d482539aecf4410b5d15eb0ebcc318bacf5e0",
+      "paginas": 1,
+      "texto_conferido": true,
+      "render": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\revisao_pdf\\c12_raiz_intermediaria.png",
+      "revisao_visual": true
+    }
+  ],
+  "resultado": "Nove paginas renderizadas e revisadas; titulos, valores, polares E/Emax e rodapes legiveis, sem cortes. C01 rotulada nao convergida; referencias preservadas."
+}

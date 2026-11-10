@@ -1,0 +1,3086 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "c01_rede_banda/P2M21_4_elementos.aedt",
+      "bytes": 7872521,
+      "sha256": "1f1d35c3383548ceffdcc8a12f5d02a198365a21a4adca6bd71e0efb7a555139"
+    },
+    {
+      "arquivo": "c01_rede_banda/4_elementos.FCStd",
+      "bytes": 276155,
+      "sha256": "0532c7b5ff3d988b6b6b36df22957289eb66bf0d191d50d73a687323fcaeb79b"
+    },
+    {
+      "arquivo": "c01_rede_banda/configuracao.json",
+      "bytes": 2391,
+      "sha256": "4850e004f58e15706c59596487729f3f1126107e4a595f9bdeaa37996224a40c"
+    },
+    {
+      "arquivo": "c01_rede_banda/geometria.json",
+      "bytes": 217130,
+      "sha256": "b237c894e713105031f06cb5b13d68a530f344c357a200f1f72eaa2194c681e2"
+    },
+    {
+      "arquivo": "c01_rede_banda/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c01_rede_banda/layout.png",
+      "bytes": 67019,
+      "sha256": "7d3f1430d6442152125ebcb3f935d7113751b39b00107b4ce3e4935a0ce04606"
+    },
+    {
+      "arquivo": "c01_rede_banda/caminhos_alimentacao.json",
+      "bytes": 1218,
+      "sha256": "098e8b97484b60fb8a8a263e33072afe90bd2841e1faacd9fd238457d2f0d547"
+    },
+    {
+      "arquivo": "c01_rede_banda/convergencia.txt",
+      "bytes": 622,
+      "sha256": "6c4381aa32454b84b333641db17c74b5d7a20e059b80beb41be99ada0a41392e"
+    },
+    {
+      "arquivo": "c01_rede_banda/centro.s2p",
+      "bytes": 809,
+      "sha256": "80cdffe9fa20d4960123ae1991f6732717f4a26c7e1912618e70d2674ecc0719"
+    },
+    {
+      "arquivo": "c01_rede_banda/resultado.json",
+      "bytes": 6138,
+      "sha256": "217bb3a0ba646b07cb06e2a0586892297201f2979610b3ea9e7dc040d0f2a206"
+    },
+    {
+      "arquivo": "c01_rede_banda/malha.json",
+      "bytes": 22090,
+      "sha256": "ad13315c723fac0837e48b359f69fb184e8604c33a7d4152c383a0e3b6e8d290"
+    },
+    {
+      "arquivo": "c01_rede_banda/qualificacao.json",
+      "bytes": 283,
+      "sha256": "dc24654bb7c479fb3ac1f421fad9c17e8ecc977ae40c0ca44a75df6527dfc941"
+    },
+    {
+      "arquivo": "c01_rede_banda/diagramas_HV.png",
+      "bytes": 129214,
+      "sha256": "67491c7e540d72cb4ea83167921da97dbde06ed0a2f0dc66d4278d6d2c531346"
+    },
+    {
+      "arquivo": "c01_rede_banda/polar_HV.png",
+      "bytes": 208293,
+      "sha256": "220514a8ce8e16a1579d2ef68b0eed2f866e8d4c26d9ca556f573c332e8478ed"
+    },
+    {
+      "arquivo": "c01_rede_banda/polar_HV.pdf",
+      "bytes": 27068,
+      "sha256": "0cc14c897be9c5f96c6f10c71af6ccb24a5ef12685d635293a9701c815cc8935"
+    },
+    {
+      "arquivo": "c01_rede_banda/comparacao_diagramas.png",
+      "bytes": 150099,
+      "sha256": "c6762159bfb171e05efe6a9e8a3374761bb23daef308e1fc2caed15d2bb10528"
+    },
+    {
+      "arquivo": "c01_rede_banda/diagrama_comparado.json",
+      "bytes": 1413,
+      "sha256": "de640905a476b452622dc2ee599928c4db45bfba28c7a81a6d7e1a9422a95ae7"
+    },
+    {
+      "arquivo": "c01_rede_banda/alteracoes_geometricas.json",
+      "bytes": 470,
+      "sha256": "1b434e30b1570301f7da74a6ced5d1674df42f420b7c165c7c0021b6636a43e2"
+    },
+    {
+      "arquivo": "c01_rede_banda/proposta_usada.json",
+      "bytes": 8114,
+      "sha256": "d74e2bb04bb475d7c54bfb805be0ebca976ae027587d8f8d6d3d106d84044590"
+    },
+    {
+      "arquivo": "c01_rede_banda/criar_cad.py",
+      "bytes": 4422,
+      "sha256": "a8311413e7b7e90b3b00f4af5c9219ca09a4e1f8763bc32c97c365b44c68091e"
+    },
+    {
+      "arquivo": "c01_rede_banda/criar_hfss.py",
+      "bytes": 6996,
+      "sha256": "ca8f082c207a440d62eb82f6c6bb7646b1d8d8a383201637f72315a0d68dc679"
+    },
+    {
+      "arquivo": "c01_rede_banda/resolver.py",
+      "bytes": 3533,
+      "sha256": "5cc03a54d28106c6c15d6b7567a3040cb47eb93e0f8d4a97aa8d5e251fbb7e26"
+    },
+    {
+      "arquivo": "c01_rede_banda/AB_H.csv",
+      "bytes": 198190,
+      "sha256": "76111c55d3f59abb4a7839c30ebf64d7761098c706ab7281decf1656b2132bcc"
+    },
+    {
+      "arquivo": "c01_rede_banda/AB_V.csv",
+      "bytes": 197127,
+      "sha256": "a58b0ec219846e4a918750144b80bf290328cf6425c3885f6870838ce63bae3b"
+    },
+    {
+      "arquivo": "c01_rede_banda/A_H.csv",
+      "bytes": 198798,
+      "sha256": "d3191fa96285f0c4bd626da9e5ada383ed331e8a5ea06c41175b57d8c0afed56"
+    },
+    {
+      "arquivo": "c01_rede_banda/A_V.csv",
+      "bytes": 197106,
+      "sha256": "9501089f472b14fe1a0a3de3f0a6d214321c2bb59c2758bb17ae1f0ec969f1ab"
+    },
+    {
+      "arquivo": "c01_rede_banda/B_H.csv",
+      "bytes": 197715,
+      "sha256": "dfce33e639eb7bffcc5b87b265ee43912fafe450fb25f609fd8eb913cd937a3b"
+    },
+    {
+      "arquivo": "c01_rede_banda/B_V.csv",
+      "bytes": 196387,
+      "sha256": "11de93e24da208690b8bbaa871532fe088df72e71d0ea25d5a696e1168af8a72"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/P2M21_4_elementos.aedt",
+      "bytes": 8182094,
+      "sha256": "d593101ed6912d79094dd88d765f86e247e62ec9d297fe4a7bdd17f4d28fa140"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/4_elementos.FCStd",
+      "bytes": 288355,
+      "sha256": "eaa2b958b2ad26e723af0e2138cd3ab6d15a84638c9abd2c78d00a21a9d771eb"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/configuracao.json",
+      "bytes": 2384,
+      "sha256": "eb429897d3fd4b37ec7a4686e861b96df8117a426fa47420808b1c0fcd838e4a"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/geometria.json",
+      "bytes": 224839,
+      "sha256": "8aa9a81371e6e37447532a68ae1089d018bf919694dca4c3b00b86ea0bc89bcc"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/layout.png",
+      "bytes": 67743,
+      "sha256": "a08d0c6c885049139198b11992613962fb1ffc8f481e8172472024b3569ec320"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/caminhos_alimentacao.json",
+      "bytes": 1096,
+      "sha256": "dbb03c8d635ed241283b14672a98ce45fad4696f49f77778507d70f79a5227fe"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/convergencia.txt",
+      "bytes": 576,
+      "sha256": "1eebf620fd568447a4e4ad6cebcecf5e22f7110bd451fb613d794f572fd1f4a5"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/centro.s2p",
+      "bytes": 814,
+      "sha256": "d7e8d38a1e87d3b160dd2416bdeea7d166ef113055b5da4da1a59e279c734881"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/triagem3.s2p",
+      "bytes": 1547,
+      "sha256": "a2ca683cb595613112bb802baced24ffbf68fcc9ee06751c74caf90ef31e1d98"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/resultado.json",
+      "bytes": 6580,
+      "sha256": "504893880885b3d144f30e86b4caeeb32aceb0c1a584fa6f0f76fc94c6dfe6c9"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/malha.json",
+      "bytes": 24836,
+      "sha256": "8d18f63ac71d7e6915494b74b7f157ac454099ee9124cea157757484747f2fd1"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/qualificacao.json",
+      "bytes": 282,
+      "sha256": "198947f14f162a341885093767e63b9203da43cd6e321a25970ded0f670dc9c7"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/diagramas_HV.png",
+      "bytes": 123010,
+      "sha256": "e4bef0bb1bd09b402e58233754054ffc0ae18130b3e16105bf7d543dbe1aada5"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/polar_HV.png",
+      "bytes": 206303,
+      "sha256": "8f876bdfa68ebe08e72a39d0ecd341e52af8e37797fe2cdb401b1820c4195323"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/polar_HV.pdf",
+      "bytes": 26864,
+      "sha256": "7c852f3e7bef9d1c37a59598bab2543407d227dbadb73da94abae94e7a7cd48e"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/comparacao_diagramas.png",
+      "bytes": 127764,
+      "sha256": "fee2892108604025a6248edca94c9b6522e68ffbfc50b77accf0e9be7032e059"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/diagrama_comparado.json",
+      "bytes": 1415,
+      "sha256": "8fcf485717aad1ea47aa2e43138490c8d5e3d7729995267703269174c19f2a7a"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/triagem3_auditada.json",
+      "bytes": 1574,
+      "sha256": "e4a5c7dd023dcceb1e00bceef10487e9410f1b3ae532ae6910c8ce498b004144"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/vswr_triagem3.csv",
+      "bytes": 303,
+      "sha256": "34892182b4aaf22f0d356beb40f979011b0263ef21c13e7bdd2a7ff1b68fb643"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/vswr_triagem3.png",
+      "bytes": 119366,
+      "sha256": "e6ac29097685c339d2e0b03e765b175508800393643521d30944d5df1b816639"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/alteracoes_geometricas.json",
+      "bytes": 491,
+      "sha256": "f857731c194f73f5f7806f0df675aec4c6c940b7aee3a1989a45dae7682c71fb"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/proposta_usada.json",
+      "bytes": 8114,
+      "sha256": "d74e2bb04bb475d7c54bfb805be0ebca976ae027587d8f8d6d3d106d84044590"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/criar_cad.py",
+      "bytes": 4423,
+      "sha256": "e64771f174eefa1357e0bc1e37b38c69770eb9945f8f640dd9d15608f903099b"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/criar_hfss.py",
+      "bytes": 6996,
+      "sha256": "679f90cc84d065d41a9d584ded50d463ed24497d606dac677415f745096b0d48"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/resolver.py",
+      "bytes": 3534,
+      "sha256": "7b869ef4ec4caf5a4cc12b3ad47c40db9e2a5623f5f17232781173d675ea1648"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "574fbcc09131094173455176e0377b0859f37387ce9f9f668b513bf99e270261"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/antes_triagem3_convergencia.txt",
+      "bytes": 576,
+      "sha256": "1eebf620fd568447a4e4ad6cebcecf5e22f7110bd451fb613d794f572fd1f4a5"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/apos_triagem3_convergencia.txt",
+      "bytes": 576,
+      "sha256": "1eebf620fd568447a4e4ad6cebcecf5e22f7110bd451fb613d794f572fd1f4a5"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/AB_H.csv",
+      "bytes": 198029,
+      "sha256": "ff1ce4edb544eaef932a5dddfd80ced64afac9dcc4939515ee276492720aeb37"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/AB_V.csv",
+      "bytes": 196930,
+      "sha256": "b5a90f7c71cee396d4e5d9d4cd188bcbdc9536df49862a8241ca88c0e69aada6"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/A_H.csv",
+      "bytes": 198838,
+      "sha256": "2fd5bc92737bf9fdc6fae51d7a73d12240818f9743729f840bdbdb7513222c10"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/A_V.csv",
+      "bytes": 197231,
+      "sha256": "cab45f48a43c4757c2cfcb4a3394dfac4af6c1f016887b6f59bb457608a93f3b"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/B_H.csv",
+      "bytes": 197852,
+      "sha256": "5c92ff63e16691a9b41f08b38047e1d0002ff91526d7927a8291d1c030157783"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/B_V.csv",
+      "bytes": 196557,
+      "sha256": "4f9993b428ce181e580e28fd57927dcedcab7f2608a3fcaed371e6532085092c"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/P2M21_4_elementos.aedt",
+      "bytes": 8477501,
+      "sha256": "b1f8f5d7578e78ea256d8fd8adb050a4054e797071827be6f477919fea727ca9"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/4_elementos.FCStd",
+      "bytes": 296845,
+      "sha256": "aae6ad5b31e50f554ac6ade51e080ebc8eb030bd090c016bf1c14addf79a7c92"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/configuracao.json",
+      "bytes": 2405,
+      "sha256": "5ead9559f55c8259b84dce5e2b43e7aceaaf8eea62341b8abe38660065d19fd7"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/geometria.json",
+      "bytes": 231185,
+      "sha256": "0c4d9016050ee8e60c4eb0e5a14769314fa93f3a529debde633a901ef8f04ad1"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/layout.png",
+      "bytes": 77399,
+      "sha256": "24e4b8ec23d5f922e935bbdde3d70c3d0f8a0ce400b3471c664877d4ef1466c0"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "54dfbff715e9c5671970ae16d91311db5649b975fde6bd039ed1a21cdf818275"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/convergencia.txt",
+      "bytes": 623,
+      "sha256": "2013706fc8aaf231781a9bc19bc68d35eca4085422796fab9784eb3b77c0d039"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/centro.s2p",
+      "bytes": 814,
+      "sha256": "7bb584d6267c03a3bd619af5946a0fcb4fe74d0d0176d489861f2dce625e6c2b"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/triagem3.s2p",
+      "bytes": 1545,
+      "sha256": "219f2b0578a693cd1eac823b29fc1928a924aa279afab636b4d809e49eb27e3f"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/resultado.json",
+      "bytes": 7148,
+      "sha256": "90bb05ba114ce631d52d70839d155a50fe2c4a212256d4dbae57377b13c9ac55"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/malha.json",
+      "bytes": 30710,
+      "sha256": "0477d4cfdc91d821de68f1f0cf677cb6525f940bbbb0a70286d76402dd54e66b"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/qualificacao.json",
+      "bytes": 282,
+      "sha256": "7932e2f9c6494f19b1daa576dd579ff1020b64282203bbf625ff52ba62330517"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/diagramas_HV.png",
+      "bytes": 125613,
+      "sha256": "e0213edae42eae87a5a5b2479e9358a62db3e2518038264b6129a14d879e71cf"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/polar_HV.png",
+      "bytes": 204986,
+      "sha256": "c1f6300d5cd37db50ec3a686db3e52fc1943b9724c65009e9091de14a61fbd5d"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/polar_HV.pdf",
+      "bytes": 27658,
+      "sha256": "c2025cc14589b6760049bc134faa087900d56042d7f571acf945d195b9ac8cfe"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/comparacao_diagramas.png",
+      "bytes": 126341,
+      "sha256": "cf5d76cf55cb0a5c6913b6c7ac797dbb268b0752ee5ba70a6fa49006ea15f45c"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/diagrama_comparado.json",
+      "bytes": 1417,
+      "sha256": "e9dfdea8c58634de8d9a2ea4b2d01da8ff82a20b800133153b77e5f9d65118c8"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/triagem3_auditada.json",
+      "bytes": 1568,
+      "sha256": "20b69f5e0a64d20405d31b4e25ddeb5207fb1160676b8b3a39225793f311c1ca"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/vswr_triagem3.csv",
+      "bytes": 300,
+      "sha256": "6b26d1bd238313dca610e0cb6d825285fcfadde2aae8a23565f7c166bb91fbf3"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/vswr_triagem3.png",
+      "bytes": 132336,
+      "sha256": "a712fe7bd8edb27ca359b949a6d7d6f89091b6a27532539b318c85c2ebaf86d8"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/alteracoes_geometricas.json",
+      "bytes": 664,
+      "sha256": "ef7155931204f995422f35fd1048dd3d03233c927017078eef2708a2927d7342"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/proposta_usada.json",
+      "bytes": 1500,
+      "sha256": "3160bd44f19498c939171a3766948e7c4b2dee2be9c752047a53a26db9a7ba42"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/criar_cad.py",
+      "bytes": 4424,
+      "sha256": "812e1ac92b1a1ee06fc5653717cd35a575167c84be6a83783e956da876b54359"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/criar_hfss.py",
+      "bytes": 6997,
+      "sha256": "0a45f4a8f78015c44e038cac0e57bc231cccbe799f72109c5a32c9fa8aeebf69"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/resolver.py",
+      "bytes": 3535,
+      "sha256": "d79ed6bd689e00af737e24d87868c506d2eb1185cf0a0ca0d525cbbadb799ea7"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "997daf6ac2ea9e20c47ee221a8931db65cdc4522dfb031e27e956d40929adc2c"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/antes_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "2013706fc8aaf231781a9bc19bc68d35eca4085422796fab9784eb3b77c0d039"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/apos_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "2013706fc8aaf231781a9bc19bc68d35eca4085422796fab9784eb3b77c0d039"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/AB_H.csv",
+      "bytes": 198151,
+      "sha256": "ff384672a4755123a6cb64400d0ce0b677730da347b29648babda66ab3503572"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/AB_V.csv",
+      "bytes": 196949,
+      "sha256": "c0462fa22a198ef63811a2a614b40ff21827e84b95e801dd27a0a79c2dbd351d"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/A_H.csv",
+      "bytes": 198772,
+      "sha256": "e8d96f4a582b7d785869dd75be4606c8d00804c0d8ac65e9bbe01e6d00e8d023"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/A_V.csv",
+      "bytes": 197369,
+      "sha256": "15635b577978ed2f7fff84aae92cea384092067bb048e65748f1563bbbf11631"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/B_H.csv",
+      "bytes": 197777,
+      "sha256": "21870823958016c0b10c60fca2751d40503dbe0bdb19544c757ba8947693ae3e"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/B_V.csv",
+      "bytes": 196603,
+      "sha256": "8b7185367b2bf042b8662459f3f31688e042fbd4055dce9863e00297c26627e2"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/P2M21_4_elementos.aedt",
+      "bytes": 7985918,
+      "sha256": "5563553869b2e2e4a6163086ee76f45a840c5f9c0826af157fa1cb4c93ee1431"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/4_elementos.FCStd",
+      "bytes": 280332,
+      "sha256": "a512ab90e5b0f21a40cd1623eb870670976be6f9586e7f1109b3497b96a94145"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/configuracao.json",
+      "bytes": 2427,
+      "sha256": "ad518fe061c17831d6dbdcc79eecfbff0af04f20509ce01169ea257f660f01e4"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/geometria.json",
+      "bytes": 220054,
+      "sha256": "b30bea46558aa912fb80885ec9c4b9000708ba348cf44ce6a9fc95a717fcd6bb"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/layout.png",
+      "bytes": 68981,
+      "sha256": "b10927e71355ccb76d5cb9ddffc817621c49638995b07022b4faaca56d634883"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "54dfbff715e9c5671970ae16d91311db5649b975fde6bd039ed1a21cdf818275"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/convergencia.txt",
+      "bytes": 621,
+      "sha256": "e50b20f416f73578d389ee84416ea27f153b50f352a0b8bd3e8dbd332d6991ee"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/centro.s2p",
+      "bytes": 819,
+      "sha256": "09245f3a4d41b34f78717393a572486a72a6ab42a313096faf8f740964ab7eea"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/triagem3.s2p",
+      "bytes": 1547,
+      "sha256": "5aba8d2a3be9142b1b886c7f7aeb98cfeb38e57165d39f0ecc52b83c74d7254d"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/resultado.json",
+      "bytes": 7156,
+      "sha256": "2b3c3a377d908be244c186e368bbd4b85d9b8b376c07b6d0cc37e987b831aa19"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/malha.json",
+      "bytes": 32556,
+      "sha256": "e772c4d9573bb5a1b521c836a820420e0ae819957ca64565f73bca64ada61e22"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/qualificacao.json",
+      "bytes": 282,
+      "sha256": "15d6418a97aedcd48236ff394d60fb63f298b10e96b8f406cb3bc5c4901b011c"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/diagramas_HV.png",
+      "bytes": 126720,
+      "sha256": "3905b6cf5627f74ad5d7405c49348125db7e6822757a8a3c002882b1db3fe3fd"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/polar_HV.png",
+      "bytes": 208319,
+      "sha256": "3fbc4b51e63b2ee604623060784e3145bd7c0451b5adb6a4e0426df407510647"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/polar_HV.pdf",
+      "bytes": 27889,
+      "sha256": "90be47be0aa2018d255017a5d663292b14d3a0ed3cdd7672319b5aebb5c984cd"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/comparacao_diagramas.png",
+      "bytes": 142684,
+      "sha256": "8288b5fbc17c45b28ba2881b96af8c147c69f69c9790a8a86c5c374ab6e5612d"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/diagrama_comparado.json",
+      "bytes": 1411,
+      "sha256": "71013afc14e640c12617fa5c2fa9418905d2f93abfdb7004e2636663e16d1241"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/triagem3_auditada.json",
+      "bytes": 1571,
+      "sha256": "9709f3e6c89551722cb34274572f34363c30585c86954434423416630430fd43"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/vswr_triagem3.csv",
+      "bytes": 301,
+      "sha256": "e85e078a86686a2731cca90513578515f8db73871740d8c8cced4c9235e0ed3a"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/vswr_triagem3.png",
+      "bytes": 117275,
+      "sha256": "56fa95d12021effc94ea32b0d6025046e01896be6fffb0ef7eb2ce429bf2faa1"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/alteracoes_geometricas.json",
+      "bytes": 544,
+      "sha256": "86e36e135882451b9b511f2eea7dc12f6bd6d5ba937330ee8f7a959b6e1af938"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/proposta_usada.json",
+      "bytes": 4456,
+      "sha256": "e7dcf2a671320c69e57c9ebd62744ec2fa2c305be37d480f86f767923f5324c7"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/criar_cad.py",
+      "bytes": 4434,
+      "sha256": "16b0b9be1aa5ee3956e0be21d1d59fcd681629087084ac4b672d7f37a33fb892"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/criar_hfss.py",
+      "bytes": 7007,
+      "sha256": "ac3d9746b82aeb46a66cbfea360a0959051cefabb6acb0f657ed6706daf559de"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/resolver.py",
+      "bytes": 3545,
+      "sha256": "0ec5fc94213432c8b755336b005eacbd908c32a7f7f04aea32c85e50566fe987"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "dbae047bc941762e6df555080b34892fab80d1af4be741164edfabcee0223e67"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/antes_triagem3_convergencia.txt",
+      "bytes": 621,
+      "sha256": "e50b20f416f73578d389ee84416ea27f153b50f352a0b8bd3e8dbd332d6991ee"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/apos_triagem3_convergencia.txt",
+      "bytes": 621,
+      "sha256": "e50b20f416f73578d389ee84416ea27f153b50f352a0b8bd3e8dbd332d6991ee"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/AB_H.csv",
+      "bytes": 198199,
+      "sha256": "0f2f330a8f6377cf514d1e29e9f858bdd20034483ba721ae0570ce0e4ba9d479"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/AB_V.csv",
+      "bytes": 196925,
+      "sha256": "06877e12901652fd4af76619f1d2ce6a6deb14ca8de6b6e7f6b0cc0be7c22a6f"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/A_H.csv",
+      "bytes": 198887,
+      "sha256": "721ed948f7a972183ce3530ed35d365f6e8712a2f9b1f5c155e191deb3398ae3"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/A_V.csv",
+      "bytes": 197134,
+      "sha256": "63fc8f93fcaf02a494a5e7aeb7500993be5fc8d5f2ce0435d1db1221ab320cc4"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/B_H.csv",
+      "bytes": 197771,
+      "sha256": "28c147848c9a7c0b9e2cb72f3559c6bbbe673ed464a380ebb2ff225b02b04d8d"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/B_V.csv",
+      "bytes": 196478,
+      "sha256": "bc2117006d363c971f2c266f2358eb65e3493027e5ed1c793f6faac925790167"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/P2M21_4_elementos.aedt",
+      "bytes": 7564017,
+      "sha256": "545488ec9d1dda7b25a5fe40a85af929ba13ded59ac3d68030b2be09c3d8562f"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/4_elementos.FCStd",
+      "bytes": 265905,
+      "sha256": "6ce12a941aebc08fd2bcf6a6c3f5a1ad4e89cddb76939fbca15a45f2a0ffeceb"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/configuracao.json",
+      "bytes": 2612,
+      "sha256": "39b9057d7e0c09c093e70fe4a6c85134fabe2ec257966df298a2b5a380430929"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/geometria.json",
+      "bytes": 210418,
+      "sha256": "4ea99ee0580dabad784a363669ab6b5db30a3ee2dc391173d1747b9541cc761c"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/layout.png",
+      "bytes": 68911,
+      "sha256": "25f1fed2e5665b07206728f39bb31b1d1dabd39b30dab6da75d45eee832db446"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "301c957a69a97720b690c26887f8d53461fe75c0382d2113b3bde3e3e98e5c74"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/convergencia.txt",
+      "bytes": 623,
+      "sha256": "ef4281bed1a1db4707a3a26b0e67470eb86a4f1d28cf78140e1a181129c8676a"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/centro.s2p",
+      "bytes": 813,
+      "sha256": "d20220fb45c718069d4df9185afc1ca9cba2ce66f752fa5b37fad294b1ffb3e8"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/resultado.json",
+      "bytes": 6355,
+      "sha256": "6fe74162b6f5d5607ca5d5df4cf754d7d0fe6cd4b82cfe56bd4cfbe1161c820f"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/malha.json",
+      "bytes": 32497,
+      "sha256": "8224559b31ace1400a0d2ed56878da1f3aa4bc3eca7d2f2a5129600e5af1368c"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/qualificacao.json",
+      "bytes": 282,
+      "sha256": "924be49a0a495f8b67de161b385ce34da60fe1ba6e7763c07618a350e28522e8"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/diagramas_HV.png",
+      "bytes": 128270,
+      "sha256": "791bc6e631f8a49079fef53d0b335c35280d59021aa77fe406af6fd226dc0d5d"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/polar_HV.png",
+      "bytes": 208646,
+      "sha256": "54c2ebc816a3f2a730da1c49d0b45a558dab2a8515f6638d373effe88945a0a1"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/polar_HV.pdf",
+      "bytes": 27552,
+      "sha256": "3c0828a343b23ec4c8538b2ce45337b56191861273a629d04741a767ed7524e0"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/comparacao_diagramas.png",
+      "bytes": 145027,
+      "sha256": "de868767b143b4413f55fd2e8b25cfea8613d6875d046d8c1361955696eb4781"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/diagrama_comparado.json",
+      "bytes": 1413,
+      "sha256": "5667acd045752313912c44446cd85a3f947f6362bfffa046a9d002b394cc2bfe"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/alteracoes_geometricas.json",
+      "bytes": 544,
+      "sha256": "9ca176a9b87bfe9db4f827dfa6c47ce09099c4061ef345f55c075af8ee772a3c"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/proposta_usada.json",
+      "bytes": 5245,
+      "sha256": "48071993052038b3d2c89b673a9fe03f02c1e4f2eefa99b607670dc5a2840eb5"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/criar_cad.py",
+      "bytes": 4429,
+      "sha256": "b99e8f97d4d1356b171cd139958460b476e77aabd7709e880481e42f0df06ef4"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/criar_hfss.py",
+      "bytes": 7002,
+      "sha256": "99024e9ce115e1f262c7010bad3af4a4dc96a5fba911c1de8fc8cb6366c54bd3"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/resolver.py",
+      "bytes": 3540,
+      "sha256": "4260310c2d21c2b7f7da022498a5d98ecdc5c73befc37aef618a1b827c882db8"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/AB_H.csv",
+      "bytes": 198184,
+      "sha256": "43076d95bd89cfa51210e133284cdcd97ec983cbfc9c1dbe535c14974dcdb325"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/AB_V.csv",
+      "bytes": 196779,
+      "sha256": "f7cd2b5e01e3948391d368d0a17f56e17006e303d9cb761e5d30fc10595262dc"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/A_H.csv",
+      "bytes": 198905,
+      "sha256": "0b64a44b572c3a8d13ae733a19fd150f39b94bd2de324c545df5b4183f693019"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/A_V.csv",
+      "bytes": 197000,
+      "sha256": "45480cfeb7b82112b62760ee2868fb726522930bd2a5c7aaba418c8ce3bd9f89"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/B_H.csv",
+      "bytes": 197855,
+      "sha256": "959e201c38acdf850b95f61d252fe99cea3b859a63f92eb1b6065b912cccef08"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/B_V.csv",
+      "bytes": 196424,
+      "sha256": "05d250f27568cd8450dad579db5ad14b04b4e79dbd7d9ec19699bcc7538f292e"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/P2M21_4_elementos.aedt",
+      "bytes": 7213707,
+      "sha256": "7105608a46d3799c3bce7d5cf588b9876121296109ad41f92d0ed3989d126a5a"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/4_elementos.FCStd",
+      "bytes": 252993,
+      "sha256": "becf0212320b23045d5fd22e3b8ba9e42041a365537bce8fa94443821d4ccca3"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/configuracao.json",
+      "bytes": 2868,
+      "sha256": "9f996a8b13c7998f0e52e35f0b12c83a4d9e3df2d0b2f56d81e0b16854703d11"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/geometria.json",
+      "bytes": 206291,
+      "sha256": "20732cb09b416f73b3f8d5f2896fc36398bccdc61d5a264d3844938ffe8d8a34"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/layout.png",
+      "bytes": 68324,
+      "sha256": "8c7a4b4adb9c5af99d4bea2386d2e63f9d426a22e20b3d78e93b65e860ac861c"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "301c957a69a97720b690c26887f8d53461fe75c0382d2113b3bde3e3e98e5c74"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/convergencia.txt",
+      "bytes": 576,
+      "sha256": "abc6266c7a1ff0aebace2769000845775f1c34471a9ce1ef8dd53eae14d7d856"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/centro.s2p",
+      "bytes": 816,
+      "sha256": "9f69a4319cb9819228a8a91ef4ae64406fa453dbac27736ebbfedadae02692d8"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/triagem3.s2p",
+      "bytes": 1546,
+      "sha256": "896de1602579c29e55e54379e8db2b7c8777194917771c50485aa58c60aef1fc"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/resultado.json",
+      "bytes": 7090,
+      "sha256": "987f25b9ab90c38b417ca94b1889b49674fa54cd25fec86617d82ffaef9137a6"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/malha.json",
+      "bytes": 20679,
+      "sha256": "4830e20b9f278981c095f4a0efef6ce78f866a96065bcfef752b791f181eda48"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/qualificacao.json",
+      "bytes": 282,
+      "sha256": "e3c41f87fb5b6cbafa18fec328a39ed9df89936a6b28a9c714dddf97bce24309"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/diagramas_HV.png",
+      "bytes": 125800,
+      "sha256": "380b1082517624070ee9f55b870814d64bd0257e3dd2a909063657c964151468"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/polar_HV.png",
+      "bytes": 207663,
+      "sha256": "e44d74090869422815445a180a0cb55eeab653fa286651e0b4d5545e01dd7c4e"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/polar_HV.pdf",
+      "bytes": 27511,
+      "sha256": "cfb7d7bf542f2e13e426222f7d7dde2f204db6deb9683d05ed65ab5d623d7ee3"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/comparacao_diagramas.png",
+      "bytes": 142734,
+      "sha256": "2f2236f7390ac78343d0556c555c20db2004b810dfe20fcdc9e8e2c1c23edce1"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/diagrama_comparado.json",
+      "bytes": 1411,
+      "sha256": "9556c9fe9d4b884e4372ec9b0a48ac61f76f8083787cd4b9a404e942ebc7e29a"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/triagem3_auditada.json",
+      "bytes": 1567,
+      "sha256": "ef39288b3aa9fc9ebcc93319c4d6db4b55f2e826ca8f3d73b4233ec650291026"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/vswr_triagem3.csv",
+      "bytes": 299,
+      "sha256": "0cce73e2f3e73467bf3133f96df7df0ebf04e29a71f671dd999c7ad2faf8b65f"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/vswr_triagem3.png",
+      "bytes": 115982,
+      "sha256": "9cf513e9e843b818f2821aa01c8e689acfae14143dee95b375ad15b67810c300"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/alteracoes_geometricas.json",
+      "bytes": 544,
+      "sha256": "b60e65d69ebbdf4872b0c707e689cf67fa69e711b7f9e83b627a609c81cb9d64"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/proposta_usada.json",
+      "bytes": 4869,
+      "sha256": "ad0b428e6276105f069c06892d7bb9ee4f2c2abf5a5d3c8d8550e1f1345641e0"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/criar_cad.py",
+      "bytes": 4427,
+      "sha256": "165ebcd9847d32bdf155890185a35a37e31f5d20011bfcc3509ffce24286e4f5"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/criar_hfss.py",
+      "bytes": 7000,
+      "sha256": "36f68e8676f072536b4a1c91fa2af6d2c274e5e5c53172264ebdb23b709b0397"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/resolver.py",
+      "bytes": 3538,
+      "sha256": "9f45201e131aa162bb0f35d077ed4659176e603801bcd8ba9f59b4bd97e1e6e8"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "aec76da21d36645ca6e576748f092bf8a35550167a22aed497a3352bcd9677ff"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/antes_triagem3_convergencia.txt",
+      "bytes": 576,
+      "sha256": "abc6266c7a1ff0aebace2769000845775f1c34471a9ce1ef8dd53eae14d7d856"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/apos_triagem3_convergencia.txt",
+      "bytes": 576,
+      "sha256": "abc6266c7a1ff0aebace2769000845775f1c34471a9ce1ef8dd53eae14d7d856"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/AB_H.csv",
+      "bytes": 197930,
+      "sha256": "1a75cc0d9da5d12918b5fc47097cfa9ab91f9bd31124958de0d96efcc0691d29"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/AB_V.csv",
+      "bytes": 197353,
+      "sha256": "79982315e5151d45bc09c9afab5d0fabe7a0e5c528631bbf0b577b2baf8e723a"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/A_H.csv",
+      "bytes": 198259,
+      "sha256": "4b3a4e0e4375a168a7a1847f3223d214489b9162d0b2d9669f00a5714d8a36f5"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/A_V.csv",
+      "bytes": 197692,
+      "sha256": "1ce7fc3c46f639581b864808c710f8e4e2214f62ad812e96af5da1d692025db3"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/B_H.csv",
+      "bytes": 197739,
+      "sha256": "1fd8720e890d0c750833655af1a72f3f0fc782d6a9232547306b33b8b2e8f42b"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/B_V.csv",
+      "bytes": 196775,
+      "sha256": "675deedbdd84919d363877315d601b52d005e1c02629582037314ada7a47d531"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/P2M21_4_elementos.aedt",
+      "bytes": 7213762,
+      "sha256": "53d2bee08fa788f0dcba0895369c403886eab0b871289acb46d63622a274dbc7"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/4_elementos.FCStd",
+      "bytes": 253062,
+      "sha256": "d40ad148338c63d1c9185091729fd0d36faa26638e3913bf3024d34b7af5119b"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/configuracao.json",
+      "bytes": 2925,
+      "sha256": "23f9772b875ae0865f0d2196f42ae8f67168d0d6c7a5d6cb5de0e3a128bc1463"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/geometria.json",
+      "bytes": 206338,
+      "sha256": "fe8e3e53794b2ec362f53e4ed5a014f07be0d2c8ebeb3d79afee5d1989cf99ce"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/layout.png",
+      "bytes": 67789,
+      "sha256": "05f8c965dad598f103ef6af077f6db27515ca3aeec4c646fdab975feaa619d3b"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "54dfbff715e9c5671970ae16d91311db5649b975fde6bd039ed1a21cdf818275"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/convergencia.txt",
+      "bytes": 623,
+      "sha256": "04faf97d2d6826fffffa0f5978286072077cb3b1e04305569079d0aca121969f"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/centro.s2p",
+      "bytes": 820,
+      "sha256": "b2677fd0449d17a5203fb151c804c355e88af1d26d7e104aa98338cd6ef7d016"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/triagem3.s2p",
+      "bytes": 1552,
+      "sha256": "24caca8a831e9c04dd3521175f81ba83b22550208545e2553a90d6bdd9cb5e4f"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/resultado.json",
+      "bytes": 7543,
+      "sha256": "c25b877b4523ed0bf8f09613aac98f33d05aa4516848c6f30c8c7469496cc0cf"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/malha.json",
+      "bytes": 24367,
+      "sha256": "d5e386965d700a18af261d1f60c84c2d51a07d8b92034959bc642658c3bf444d"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/qualificacao.json",
+      "bytes": 282,
+      "sha256": "9c449ecb58cbf32091ca3691bd89093d7a3c9cf0350109df1b12d18749cf60f4"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/diagramas_HV.png",
+      "bytes": 127221,
+      "sha256": "f71517359ccb92b56efa3e246ec610d250d03cf6b1bb4e9b903488b2fea40b65"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/polar_HV.png",
+      "bytes": 208477,
+      "sha256": "5088e8b009bf1778b44723a7183fe462fba6478dba6b5fb4fc5761fbfefd3539"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/polar_HV.pdf",
+      "bytes": 28001,
+      "sha256": "e0cae8518b8f06dcc507d5cbf267db0a441a846fd3130a216d3b9c0b1a9373d6"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/comparacao_diagramas.png",
+      "bytes": 141947,
+      "sha256": "5bfcbc1468e5580282fb5e27c6e5a2708462250d5fe42ebf25ee2e1940301799"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/diagrama_comparado.json",
+      "bytes": 1409,
+      "sha256": "355cb6ab9ba748fe392ff17faddc940a8aac9fbd10e4f6d50f477a15aef97fd8"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/triagem3_auditada.json",
+      "bytes": 1574,
+      "sha256": "31226a86a28c36b0bf05cf72031ccaa68af1655defc1c1ad492f465a25fb2fd5"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/vswr_triagem3.csv",
+      "bytes": 303,
+      "sha256": "780d58fb0f5d189fb5d0965ad376261b60a13f4a410028687e359994b74bc945"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/vswr_triagem3.png",
+      "bytes": 121841,
+      "sha256": "b7d31d48cf1ee36927f6efa9d4e233b8e66219c39b6df1f8c9a6f8eaed702773"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/alteracoes_geometricas.json",
+      "bytes": 545,
+      "sha256": "50d7569eb10eab0fed96cb661e680d551a1bce70da9c5200811d2854d61d0151"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/proposta_usada.json",
+      "bytes": 5200,
+      "sha256": "46f4214546f9b30bdfdb151a432acc7d2072d7b16170513b68345dda6c63d899"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/criar_cad.py",
+      "bytes": 4428,
+      "sha256": "2a9e34f09bb84da1339dd0fead2dfcf2c3da941258236ea2ab626e7f8798c048"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/criar_hfss.py",
+      "bytes": 7001,
+      "sha256": "63889413fc78e322bc364461098d882809ca75434ad7ffa22a1a655751e8d099"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/resolver.py",
+      "bytes": 3539,
+      "sha256": "f0055fd7cb416a9640356f69c6f0edf12f71b68a6d4743aa303ce1d9432857c4"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "b4044d1617e13f0f728aa27a57d28a82ff12c6f22412f168f37a97a3b1b40247"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/antes_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "04faf97d2d6826fffffa0f5978286072077cb3b1e04305569079d0aca121969f"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/apos_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "04faf97d2d6826fffffa0f5978286072077cb3b1e04305569079d0aca121969f"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/AB_H.csv",
+      "bytes": 197896,
+      "sha256": "4f38dffb7ac4a2030968ea6467b8290af0037f1fcb60285c764e509b8b63c2a9"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/AB_V.csv",
+      "bytes": 197193,
+      "sha256": "7cf5f58651172a49ddb44b84a286e68c0646f025982cc809f631e505f7f93abc"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/A_H.csv",
+      "bytes": 198426,
+      "sha256": "96acef6264e9f9225dc165b820890fe7dd95cfb6872c134dbcd8a15e55647def"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/A_V.csv",
+      "bytes": 197583,
+      "sha256": "89cc521f099500c992608de56c7a9d9696da77630f57cc4fd9b8c225684aa388"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/B_H.csv",
+      "bytes": 197656,
+      "sha256": "b094a98887f1f8cd1e5e52b3115602965cc536fd3a3a7ecd316adcfa9a37d8ca"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/B_V.csv",
+      "bytes": 196767,
+      "sha256": "c5ec90b03f7b5258595b47a104f5383534789751ca99a893420808bd49a7c856"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/P2M21_4_elementos.aedt",
+      "bytes": 7213707,
+      "sha256": "6dd8a60262e25a797f83d79504b672f7322d5961f7bc6e0219923c879d4167e5"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/4_elementos.FCStd",
+      "bytes": 253015,
+      "sha256": "c70e503b004721cbb5343fa9626949043253ce56f7a85e266cd62797256b3c31"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/configuracao.json",
+      "bytes": 2859,
+      "sha256": "4229fca0552b470d50e14c23bf484186530717ddb29291cfad3ffc30308f59c7"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/geometria.json",
+      "bytes": 206265,
+      "sha256": "366550dfd24235cf02f13a08136217b76c9e78ea65c428784309215f2f1c0aa8"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/layout.png",
+      "bytes": 67637,
+      "sha256": "047371cbf5ea65902686138d7ffa7845610182a9c8b2ec23b2808253387fdd47"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "54dfbff715e9c5671970ae16d91311db5649b975fde6bd039ed1a21cdf818275"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/convergencia.txt",
+      "bytes": 623,
+      "sha256": "30bae4745492983eaeec8c0fb91a8a6420fc9ec17023f0f732cd414650bad601"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/centro.s2p",
+      "bytes": 819,
+      "sha256": "673301aa07eecbde7da61b61bfe4c6e4c3bfb417bc440ae63000bb2c402a9170"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/triagem3.s2p",
+      "bytes": 1555,
+      "sha256": "195e2e4a10cb0ebb7dff6aa3a4550e6543b5e65e92d3a21fd92d7ffde875592a"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/resultado.json",
+      "bytes": 6577,
+      "sha256": "387d295f8dc76b54a9ff330b11fa111adfbda556bdb46610e87762b6c6195b01"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/malha.json",
+      "bytes": 32441,
+      "sha256": "aa740366888f6b56914667874345715bcb3b750640b5182bd66320beb735b3e7"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/qualificacao.json",
+      "bytes": 282,
+      "sha256": "8bcdcdd17d02ff0801dbc516c9b7dd23d024738f9cfb3dbf903f6ec5ce3b4f70"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/diagramas_HV.png",
+      "bytes": 124806,
+      "sha256": "da9e6dceb8efbae390b94dcbf649872dce025735799a3d415414dd7e95b6a567"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/polar_HV.png",
+      "bytes": 207734,
+      "sha256": "3203aa1390aa809b18aded268897b846393cbdd7a062c40378f932acbaf2bc5b"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/polar_HV.pdf",
+      "bytes": 27337,
+      "sha256": "7916364fa70ed387a06406d0a6c17561ec25b9d760ce3d601a7791ae8994b411"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/comparacao_diagramas.png",
+      "bytes": 141424,
+      "sha256": "9bafd7a6decbdfa8ce8c0fea0422948aa3eea9c80fd516a7cd7ad7d9199680e9"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/diagrama_comparado.json",
+      "bytes": 1413,
+      "sha256": "bcb8eb0e058a8afe53d8fbec70b6d42cdea041d00b72a24a11c00930dbf2fc5f"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/triagem3_auditada.json",
+      "bytes": 1573,
+      "sha256": "43d2923207460a11672544ede70996d67df86660451d69b124b799f73895892b"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/vswr_triagem3.csv",
+      "bytes": 301,
+      "sha256": "e000631a4557a1c915c2e87538fe9d79f6ce9322cf09422fcf10428c21c3415e"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/vswr_triagem3.png",
+      "bytes": 120311,
+      "sha256": "e2fb0c1a0e4fd88aac6c3f387001339bcdf2531fa48e81cd64a79aee105ba74f"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/alteracoes_geometricas.json",
+      "bytes": 544,
+      "sha256": "fca3bf370cee7854657572c43d023b557ae9039b49ab67b70611012e2a1512de"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/proposta_usada.json",
+      "bytes": 5367,
+      "sha256": "11b53ca29df4509aa26d2009383ed8bdeb0fe5727a9642b3d41680c5713a80fc"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/criar_cad.py",
+      "bytes": 4427,
+      "sha256": "65e264b428836a1913b809e39e88b6d1abf79fc1cf04ba9fb6e0557ce9fa7ce1"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/criar_hfss.py",
+      "bytes": 7000,
+      "sha256": "340c4268b4b58add4131818a00328dc9d1566d3a28b46e087da1a674f4b981bb"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/resolver.py",
+      "bytes": 3560,
+      "sha256": "cc77a53cca26b69a3dbe60d5633ee6c504ac076bc22bbd6b16a648106c4d9cb0"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "da992bb227db17572d4d45fd914f1674a6136d8e21c876e82adce181a25b11c9"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/antes_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "30bae4745492983eaeec8c0fb91a8a6420fc9ec17023f0f732cd414650bad601"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/apos_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "30bae4745492983eaeec8c0fb91a8a6420fc9ec17023f0f732cd414650bad601"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/AB_H.csv",
+      "bytes": 198123,
+      "sha256": "de1e59f8b048dccefaaf500fed871b3c2ff5528b8e6aead72f47e064a2ce3064"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/AB_V.csv",
+      "bytes": 197147,
+      "sha256": "9482aec14042098bf822758561a82ccfbceb8f28e2d834a6d55de882bb70bdd7"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/A_H.csv",
+      "bytes": 198626,
+      "sha256": "5abb994e0954c55d108702b22af3783a43d4cada73b817db99ff29c7c158c212"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/A_V.csv",
+      "bytes": 197594,
+      "sha256": "8f3a333cf140e26cdd834d26fc4b9be0eafb53a76b2275e0eee4a9ff7d9405c3"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/B_H.csv",
+      "bytes": 197664,
+      "sha256": "7f7868acd2d659dd1e9748d28896fa705bfa4a43feab200e07de489fbf4012c9"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/B_V.csv",
+      "bytes": 196768,
+      "sha256": "f5a926eb1954e5ad004db5caf539d916023a5f85ca8eec8fa3079667ccbe2468"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/P2M21_4_elementos.aedt",
+      "bytes": 7213615,
+      "sha256": "7ba53b2cc53e6b463c000d5967a4ecf1519ae1a49d57855123236a30c4f60bb6"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/4_elementos.FCStd",
+      "bytes": 252978,
+      "sha256": "2e453cde6525a3326291b371ecab855308c39c1744be3b4ed920b85cefc8fd75"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/configuracao.json",
+      "bytes": 2855,
+      "sha256": "8f23baac65d73cf6f33698a9fe321945223e88aeb2a8bcc29a2a18dc22a42893"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/geometria.json",
+      "bytes": 206215,
+      "sha256": "e07f06c74e86c1152ace17c5baf18c7458796268367da43a75069ef4723faa10"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/layout.png",
+      "bytes": 67688,
+      "sha256": "d08a8967b41af2fd81637de017dd07652ace2a08afa6c3ae4908880ebe3f2627"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "54dfbff715e9c5671970ae16d91311db5649b975fde6bd039ed1a21cdf818275"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/convergencia.txt",
+      "bytes": 623,
+      "sha256": "9f8b44f9d9aa83a2215027075a1775f90f591a3e214f1491338b5359508c7655"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/centro.s2p",
+      "bytes": 821,
+      "sha256": "d7b1b25bf88a88a61a105f128517462e4e62baf71c22462e79d0c3d5ef89a0b5"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/triagem3.s2p",
+      "bytes": 1556,
+      "sha256": "38b19c868d8cc71653e3c162e5b559535a66b2a632d82ef0c9a2ee69e670971b"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/resultado.json",
+      "bytes": 6567,
+      "sha256": "c348571eb7fe5250200bb8f3010075e0a5c358465cf0d04718f5b6e22e5493ac"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/malha.json",
+      "bytes": 19897,
+      "sha256": "a24e81d3ebe4846a3ce25c7763e66471177d2449b61731f501d622032a3d8e39"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/qualificacao.json",
+      "bytes": 282,
+      "sha256": "35a335e226fbb52e76f67a31bacb056f92f73483c3178491c640f5c72fb0fce0"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/diagramas_HV.png",
+      "bytes": 124602,
+      "sha256": "52a183fa6b5dd17091e728411f30b302577a17da88ac57f341718c023fd8da8a"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/polar_HV.png",
+      "bytes": 207745,
+      "sha256": "c323e65f6d96515fec3545f3cf8065763e4839050502e521663a6ad1bd1e490f"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/polar_HV.pdf",
+      "bytes": 27511,
+      "sha256": "c0144c47aa7f985f21dc65a5a52adfcfb5b06ab93865e6a108178000ae6f8249"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/comparacao_diagramas.png",
+      "bytes": 140720,
+      "sha256": "49f8a5671e61c48d1ebb88851a2394b040533605f5b487e72e4bdb165f2e872a"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/diagrama_comparado.json",
+      "bytes": 1413,
+      "sha256": "bcab2da0344d0a611bce68eeb5ed05b04f05da7406e36f21767069d2eb7dc8f2"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/triagem3_auditada.json",
+      "bytes": 1573,
+      "sha256": "3d027d922b1dd1ef6e0fa990e3b75a58e94c8caf521409b62f3d504fbc95b74f"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/vswr_triagem3.csv",
+      "bytes": 302,
+      "sha256": "87e46a0d86ff17fb29ebdb9c1f9c4a505627d5050eaa983790a95c5dbec17c56"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/vswr_triagem3.png",
+      "bytes": 110996,
+      "sha256": "0f96ff1204d2f520d03dabfdfa64b69627629a3ca4874ba9d4a6c549c9a10689"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/alteracoes_geometricas.json",
+      "bytes": 545,
+      "sha256": "c9d502473ace92ccd30475d0be4d70c81a6f73a8583c0465d1e42f29855c14f1"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/proposta_usada.json",
+      "bytes": 4480,
+      "sha256": "daaade65d2145150103fc687f0aded423128f5c95221345d4ae522982461a714"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/criar_cad.py",
+      "bytes": 4425,
+      "sha256": "70124186534e5a28a08dd0bb333337f279511dedac624eda98511c4da117aad4"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/criar_hfss.py",
+      "bytes": 6998,
+      "sha256": "18229ee668ad4a6d1dbcd18092acfac9ca6b2cd2d45929b6108b30bca7c5a482"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/resolver.py",
+      "bytes": 3558,
+      "sha256": "8a7924caa664b96a877ea0628693984bbadb2b00c852e7329029274cbf4f1000"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "27cdad154a1389a13cd0097d14321cc403ee7ed7e1543a31d58797f62ae85cde"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/antes_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "9f8b44f9d9aa83a2215027075a1775f90f591a3e214f1491338b5359508c7655"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/apos_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "9f8b44f9d9aa83a2215027075a1775f90f591a3e214f1491338b5359508c7655"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/AB_H.csv",
+      "bytes": 197879,
+      "sha256": "e72c5bdc0ff41685d4ac27d4c7e5ca7cc12f387c3820622e839a37885f41357e"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/AB_V.csv",
+      "bytes": 197226,
+      "sha256": "b1c234ac2ab5a7696cdcbb4ad158431e3779d672237bee9cae518c6671b27b6e"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/A_H.csv",
+      "bytes": 198232,
+      "sha256": "9eddee3b864b0f865a353bd94dd9ce757b9395612021b1ae798d007faab0704e"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/A_V.csv",
+      "bytes": 197678,
+      "sha256": "b949b4a9c5c99ed94a021559b529d88a35f6d95b9d817ab85f6e7b1acce96786"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/B_H.csv",
+      "bytes": 197696,
+      "sha256": "3c288596baac762fb1e121fa232f8b623f53bbcbd861f9ebfcde8b408a16c866"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/B_V.csv",
+      "bytes": 196699,
+      "sha256": "1e55f05cefc577e92748f5a0b8fa40e0d66e8329258be1fb11c7329dddd002f6"
+    },
+    {
+      "arquivo": "c11_raiz_largura/P2M21_4_elementos.aedt",
+      "bytes": 7213578,
+      "sha256": "06d7155f78987f1cbfb25af2cc085528931a70819f14099e10ac38aa18ea2ba7"
+    },
+    {
+      "arquivo": "c11_raiz_largura/4_elementos.FCStd",
+      "bytes": 253087,
+      "sha256": "39aeb036777180331b4133da61940b2f66d406538b6c53e89d246691f13617c2"
+    },
+    {
+      "arquivo": "c11_raiz_largura/configuracao.json",
+      "bytes": 2853,
+      "sha256": "64e480653f4ec0634b654f0375daa02baa85b5bb73a3dedaa3c0e8215c93a449"
+    },
+    {
+      "arquivo": "c11_raiz_largura/geometria.json",
+      "bytes": 206318,
+      "sha256": "63276ce6f005058dad969aa135dd0f98964aac51f4ca006af67be1d645beba16"
+    },
+    {
+      "arquivo": "c11_raiz_largura/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c11_raiz_largura/layout.png",
+      "bytes": 66686,
+      "sha256": "dd063ff75f4bf7d6013297972a5ebfac26d18757f25405e443593a2dac92f48b"
+    },
+    {
+      "arquivo": "c11_raiz_largura/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "299d3b9c5a36bb4f8a01d8808ff7699af38e0993160333d84ba03271b5082dea"
+    },
+    {
+      "arquivo": "c11_raiz_largura/convergencia.txt",
+      "bytes": 623,
+      "sha256": "fe083193c9df8f9e5e9771cc21058237f8edc98f552c18b51cf1821cca520b99"
+    },
+    {
+      "arquivo": "c11_raiz_largura/centro.s2p",
+      "bytes": 817,
+      "sha256": "2b20ccb4ba730df8052d4925dac3b1edf11ec4933f8d75939f07258d5ff15fcb"
+    },
+    {
+      "arquivo": "c11_raiz_largura/triagem3.s2p",
+      "bytes": 1555,
+      "sha256": "d781d58865b25aa0f602b9d8366fc53a398ec68e6e73b6f277590abeeaca7813"
+    },
+    {
+      "arquivo": "c11_raiz_largura/resultado.json",
+      "bytes": 6566,
+      "sha256": "80919af215bd5fe147b8edec54a1b28a9a10c2b8eecaa238a6eaecb9ff07d85a"
+    },
+    {
+      "arquivo": "c11_raiz_largura/malha.json",
+      "bytes": 20705,
+      "sha256": "e2187ad289780a6a26ca1b40f88d199c773faea07b8a733107023e578d6b7524"
+    },
+    {
+      "arquivo": "c11_raiz_largura/qualificacao.json",
+      "bytes": 282,
+      "sha256": "a25d2e257775d76105025c2b88e286a43e8c4f70dae8a9aebc50fd904b997a09"
+    },
+    {
+      "arquivo": "c11_raiz_largura/diagramas_HV.png",
+      "bytes": 124984,
+      "sha256": "2a958e5eb0485275be57806151f002aa998eaee85e2714e9f2ef260d60352248"
+    },
+    {
+      "arquivo": "c11_raiz_largura/polar_HV.png",
+      "bytes": 205911,
+      "sha256": "6bf5c0377865757b74ecb2c2e0e8f673ece26124b22a23dfc516d387fa3a3497"
+    },
+    {
+      "arquivo": "c11_raiz_largura/polar_HV.pdf",
+      "bytes": 27063,
+      "sha256": "e4b3b5a481bbed14bf06d2fb1e50220e02aa25d7948454be3231ea7525f89fc1"
+    },
+    {
+      "arquivo": "c11_raiz_largura/comparacao_diagramas.png",
+      "bytes": 145893,
+      "sha256": "8b9ca5bca8ef16c95033697fde9aeeed3101044a8b1e2be0421ae8fd504e8f18"
+    },
+    {
+      "arquivo": "c11_raiz_largura/diagrama_comparado.json",
+      "bytes": 1406,
+      "sha256": "793e7b3a10dcb5d824381319609997af7fa65d4d6e955061fdfea9bef30233da"
+    },
+    {
+      "arquivo": "c11_raiz_largura/triagem3_auditada.json",
+      "bytes": 1572,
+      "sha256": "477b0b4e6a337bc7fb04c2eb98b87ef6ef3d96717114bf0942ef85f1058b913b"
+    },
+    {
+      "arquivo": "c11_raiz_largura/vswr_triagem3.csv",
+      "bytes": 303,
+      "sha256": "1cfb2136868e5fa3da6900afef6fd4526195c2894ff2685fc1f478202446b65e"
+    },
+    {
+      "arquivo": "c11_raiz_largura/vswr_triagem3.png",
+      "bytes": 116135,
+      "sha256": "5c33b2787af997713b7c639c21c75a06a9ff7a7779271b57824a030810856ad1"
+    },
+    {
+      "arquivo": "c11_raiz_largura/alteracoes_geometricas.json",
+      "bytes": 545,
+      "sha256": "598dad77ad6cba0a720240895d52c8c93fa8727db0d3ff66325be6ad3ee3ce91"
+    },
+    {
+      "arquivo": "c11_raiz_largura/proposta_usada.json",
+      "bytes": 5289,
+      "sha256": "4d560f756f27999c9052f76a251bf50498569bb64b4af7da67d268499b7bd792"
+    },
+    {
+      "arquivo": "c11_raiz_largura/criar_cad.py",
+      "bytes": 4424,
+      "sha256": "aa50c81e7ba83fbe9641d52981cb12fdd3eab4994e4ee2fe85a1bb6e2de47f96"
+    },
+    {
+      "arquivo": "c11_raiz_largura/criar_hfss.py",
+      "bytes": 6997,
+      "sha256": "9af9612ed43104f94655477623ff757d63dd405f8c45195ed1a90db928a85c2f"
+    },
+    {
+      "arquivo": "c11_raiz_largura/resolver.py",
+      "bytes": 3557,
+      "sha256": "2d218afad224b3b191bf18521399bcf49e16a5810c325042ff47382998a9ba28"
+    },
+    {
+      "arquivo": "c11_raiz_largura/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "357397f2d769cbd09a188799a065c47377742257a5d6ce25b0ced7a34415060e"
+    },
+    {
+      "arquivo": "c11_raiz_largura/antes_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "fe083193c9df8f9e5e9771cc21058237f8edc98f552c18b51cf1821cca520b99"
+    },
+    {
+      "arquivo": "c11_raiz_largura/apos_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "fe083193c9df8f9e5e9771cc21058237f8edc98f552c18b51cf1821cca520b99"
+    },
+    {
+      "arquivo": "c11_raiz_largura/AB_H.csv",
+      "bytes": 197927,
+      "sha256": "2569b466604ac5c6d4682ea66021dc80c95bbfc302fede3c960e6f73ef05fdc4"
+    },
+    {
+      "arquivo": "c11_raiz_largura/AB_V.csv",
+      "bytes": 197120,
+      "sha256": "7faabfc16674268dd2cbb9f52877c77f4d9075ab806d6e1b311c368c748cd0ff"
+    },
+    {
+      "arquivo": "c11_raiz_largura/A_H.csv",
+      "bytes": 198529,
+      "sha256": "3ad432aa03bf77f691a43596323c58e73add179e68cd0bfda006220c8481fdb3"
+    },
+    {
+      "arquivo": "c11_raiz_largura/A_V.csv",
+      "bytes": 197634,
+      "sha256": "623d3c38cd684d953e845351d45b05345ddb6f9d491de8ae378e856f1b80ac1d"
+    },
+    {
+      "arquivo": "c11_raiz_largura/B_H.csv",
+      "bytes": 197612,
+      "sha256": "917605c2f5817ab4aa71a8b1ef99251b835e08ee2f466c56cfb2ffc9a1b59cec"
+    },
+    {
+      "arquivo": "c11_raiz_largura/B_V.csv",
+      "bytes": 196639,
+      "sha256": "6f0dc147860941c543098eddadf2db697d32d3cd8402fac5a7e37ed4de24616c"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/P2M21_4_elementos.aedt",
+      "bytes": 7214888,
+      "sha256": "f6d74e4d3f362119ad2925db0e876c3a5971e2c8c6a8beb90d86bf4fd1777e60"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/4_elementos.FCStd",
+      "bytes": 253081,
+      "sha256": "e0b189c9d7a29c72ad480d7759cfe38bacbaf40121c87b994c43ff7bb3dcc681"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/configuracao.json",
+      "bytes": 2849,
+      "sha256": "50f44d50dd7c1f425b976984db191b3dabf170dcae23f83d09c4064da0a93d05"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/geometria.json",
+      "bytes": 206260,
+      "sha256": "89adc0231bc3f8fa3d9bc110dcfd1d43dbb12f9b8b3872fe34e02c2602cd2995"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/layout.png",
+      "bytes": 67275,
+      "sha256": "b9da5a384db1c5ba907d533f75ed6816ae5ed68cc48b06d263e1496709903e5b"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/caminhos_alimentacao.json",
+      "bytes": 1208,
+      "sha256": "54dfbff715e9c5671970ae16d91311db5649b975fde6bd039ed1a21cdf818275"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/centro.s2p",
+      "bytes": 822,
+      "sha256": "081f711b907ecb7e306ba4f46ab8476fda11819971e85bbcdb449736ca4af166"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/banda_fast.s2p",
+      "bytes": 60063,
+      "sha256": "e57b45efbaa7c374b770410a7461613477b6b72c8d19496620779179bd1c73da"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/triagem3.s2p",
+      "bytes": 1558,
+      "sha256": "ddb3b62f288c1381230eccb19401621cb29ce9f34fbcdea3fcd208d529bceb55"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/resultado.json",
+      "bytes": 6577,
+      "sha256": "c99aa29c4c94d79616aa52a7b279db64e65142b8daf93210412b945487ca6b77"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/malha.json",
+      "bytes": 23086,
+      "sha256": "2ef49f9b2172ae8659aa4e298e63b16c36f9fe169bfd1d8b32955004d58063a6"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/qualificacao.json",
+      "bytes": 282,
+      "sha256": "adbb283783cac70d46d1a2d131b77d02a76dc0c29883b02c29899caadafb33e0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/diagramas_HV.png",
+      "bytes": 125335,
+      "sha256": "b94bdee21f4d69bcd779dadbbe6513bbec90e256c549f02ae12dcd1f8474821d"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/polar_HV.png",
+      "bytes": 207283,
+      "sha256": "d9f8506391d6e2a7da04bb36dd8dd56fc9cccb45346f0bbf7f73b073a6e429b8"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/polar_HV.pdf",
+      "bytes": 27077,
+      "sha256": "0be97f8f20afa4cde5644e8b5e6d482539aecf4410b5d15eb0ebcc318bacf5e0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/comparacao_diagramas.png",
+      "bytes": 142322,
+      "sha256": "6904a1ec96dffaf5da19c8a7cfee7374308ea435a42fbc7ca53a5a8cf3a0f1fd"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/diagrama_comparado.json",
+      "bytes": 1412,
+      "sha256": "fd4ec984777e1d8f3e84aaaff2c3f8fa5ffb1761d5018baebb1befb9e0e4e4cf"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/banda_auditada.json",
+      "bytes": 1688,
+      "sha256": "a5b61871cdbd456742963fd2a5fea15616598b23a25b5fee1a5b28493996aa74"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/triagem3_auditada.json",
+      "bytes": 1572,
+      "sha256": "86b7dc423fa8e9b6df0f1a078ef4520d3a722ba5d149f375ee3cb660aa220afa"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_banda.csv",
+      "bytes": 13244,
+      "sha256": "fe877c452ca219d7091b4c80c0b31a3e88eda83a28221c940c5b21d5b1b1fe1d"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_banda.png",
+      "bytes": 109609,
+      "sha256": "766813ee8987fa9a91a90f5437cb2c73d5259e59b782943721350d27347169b9"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_triagem3.csv",
+      "bytes": 305,
+      "sha256": "8c8fc06b4a39bb20f55ef07d7efc0f408dc02eff45dff528046488f4abaec3e2"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_triagem3.png",
+      "bytes": 110040,
+      "sha256": "3039223310f01c86203a81d048af75538592ee2696255e18a698c27c29bb38d6"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/alteracoes_geometricas.json",
+      "bytes": 543,
+      "sha256": "2f4261cafed14de79e51148dda31e1fd8258cf49c3dc1bd3aadc6e0d112e0626"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/proposta_usada.json",
+      "bytes": 5669,
+      "sha256": "43027fa619e5dd1f230766be7364f014f20e160d190060dbe3560c04bf461a6a"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/criar_cad.py",
+      "bytes": 4430,
+      "sha256": "d05c7cb38089ef21d19077dd89c0d003d69e48cdcf0a5d0ca092aa28f8904383"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/criar_hfss.py",
+      "bytes": 7003,
+      "sha256": "a018ebbe5fecabb589b948b6b24a5e086de464389b604c03a559e322f61ab52a"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/resolver.py",
+      "bytes": 3563,
+      "sha256": "a3a39bf4475bab06549cb7d00ac169efd4325757e8b8ca9919a37884b4e09659"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/mensagens_fast.json",
+      "bytes": 527,
+      "sha256": "e2f52bbe01837c4b9930037438a7573257691dc2ba25556aa6962f8fc1980701"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/mensagens_triagem3.json",
+      "bytes": 527,
+      "sha256": "f9656c62474920bfe296958af2938d95b19c6cdf8f6af4a7a52a68ab96e711c9"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/antes_fast_convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/apos_fast_convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/antes_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/apos_triagem3_convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/AB_H.csv",
+      "bytes": 198014,
+      "sha256": "d623d13f6aece935f7738ca0af83c6f46fb5b76a7df440139dde355771310fa3"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/AB_V.csv",
+      "bytes": 197170,
+      "sha256": "8cd0ca59f5bcccf890d28af866a85e70066f907eda1eaeb9389a8dc823871475"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/A_H.csv",
+      "bytes": 198540,
+      "sha256": "23457c2dffc8be59c881acb272845c6a2bcae71a5d215e6056bd8deebdb6ee6b"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/A_V.csv",
+      "bytes": 197625,
+      "sha256": "fd01db75c86c68d8b0abf0bf978bfc2086273aa4b8654fe1945f435a08361d9b"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/B_H.csv",
+      "bytes": 197624,
+      "sha256": "8a7c2c9d5e510be4bff8fdde67825d34f43ac803d170b60348eb7fbbaa43e103"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/B_V.csv",
+      "bytes": 196699,
+      "sha256": "a49d12856cbd0bf536eb48de6556b5a8af724eb71ff4630b10f3ae99218469e4"
+    },
+    {
+      "arquivo": "c01_rede_banda/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c01_rede_banda/comparacao_AB.json",
+      "bytes": 4226,
+      "sha256": "6c7722bfc68a3e937aebdb0edf1feb1e61003146c9abbf75e1f80cd8b10c069f"
+    },
+    {
+      "arquivo": "c01_rede_banda/mensagens.json",
+      "bytes": 365,
+      "sha256": "2fd70afe43ec1c81f5e663f3e543a015f9a8f78540a212667971b81966545dcb"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/comparacao_AB.json",
+      "bytes": 4772,
+      "sha256": "0cbaefb6f11444da46821a466a0d2d53dd7956f0fb171399b587442498c2e174"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/mensagens.json",
+      "bytes": 180,
+      "sha256": "0e7b17e804d56a32f41d384fd9cdf84c268c77c3e87bafb6429bb528d93ba998"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/comparacao_AB.json",
+      "bytes": 5212,
+      "sha256": "854e0234e778130c427247d6dfacba07a3f389c91acf41868afca3bd9217f97e"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/mensagens.json",
+      "bytes": 180,
+      "sha256": "a427a621df49293f3f8bbf1241c4f787639b375472661c68132db9c0ade596c7"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/comparacao_AB.json",
+      "bytes": 5229,
+      "sha256": "75e38d149b572bab621253235c503ae57290d47821e8b03b254ffd697854bfdf"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/mensagens.json",
+      "bytes": 180,
+      "sha256": "9a1412a5931b8cd0532530a1557e4fd8c6ee8c1f05c09508bd48c5e903a70e72"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/comparacao_AB.json",
+      "bytes": 4255,
+      "sha256": "dfb1546d26b39de037ac4579651584a917edba0c54ad19fdacef22d48f769cdc"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/mensagens.json",
+      "bytes": 180,
+      "sha256": "2ee09e9776f66d6335de3c36b84d9ed26af0e08719b99adac6bbe7aa03a912cc"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/comparacao_AB.json",
+      "bytes": 4769,
+      "sha256": "7681b7c57a3ac5dde9d7b5733951a400660b0c36a0c48e354592dbfd7cc9389b"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/mensagens.json",
+      "bytes": 180,
+      "sha256": "5081daa66c717542073df0b3572d00a1ea3e71461b08d230d17a47dc6171aef4"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/comparacao_AB.json",
+      "bytes": 5221,
+      "sha256": "cbf5b85520b8fe23270a66cc32d158c1409d369b813c6b79619bf4cdcddd0e6e"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/mensagens.json",
+      "bytes": 180,
+      "sha256": "f0be6e00cdbc4367c4ef54fb64a3db301130fc147d63339b27357e3f90802fbe"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/comparacao_AB.json",
+      "bytes": 4254,
+      "sha256": "3f8859901e988e0268601b41e4417a6b91dee5f4254adadb474fbdd6a97e9896"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/mensagens.json",
+      "bytes": 180,
+      "sha256": "76682b5686a32a3b8c64464a19445760df0bf85896b6f31aad55a27dbdc15187"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/comparacao_AB.json",
+      "bytes": 4250,
+      "sha256": "fda97d53254c847db8a95938e1486c6743a26b99aee57027f577853fa77d2735"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/mensagens.json",
+      "bytes": 180,
+      "sha256": "7533a8c9301ec09736ad906afbe474bc86700fda26697eb735364dcf7ed2689b"
+    },
+    {
+      "arquivo": "c11_raiz_largura/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c11_raiz_largura/comparacao_AB.json",
+      "bytes": 4243,
+      "sha256": "62c2f34a6dba52a1bbfde3cbf40cc1a832f340fb500a41a7315e369da8ca7023"
+    },
+    {
+      "arquivo": "c11_raiz_largura/mensagens.json",
+      "bytes": 180,
+      "sha256": "df4308dc22d3f0a01275e41d0deed22dc9eb604cb357a2f94c424a57e52e217e"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/hfss_validacao.json",
+      "bytes": 329,
+      "sha256": "ca3d04d1f7774e4ce0c2092d62b3a26cdf460dc35598ea8ccd64cc0dd31b7324"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/comparacao_AB.json",
+      "bytes": 4262,
+      "sha256": "6c82781f2f8e33659c86f1a8f65cb7f06262b737aa4f55fc5bf3eb9b5bf3b05f"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/mensagens.json",
+      "bytes": 180,
+      "sha256": "d64ff0b52496438332d9a4b6cd6b794af1f6168fe8d79f19e2cc41f0163388e4"
+    },
+    {
+      "arquivo": "c01_rede_banda/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 970,
+      "sha256": "44cba74f709739eef8a8a5c36a7f89a1cf852fb62574f6093b1a0309f57f647e"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/triagem_diagnostica.json",
+      "bytes": 194,
+      "sha256": "57fd082369e0541c1a5b08082a1568d065006c6b997c2225815755c1abf76a3c"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/triagem_recursos.json",
+      "bytes": 336,
+      "sha256": "64f436395647cdfd81f463c7caac2d1aadeb6ea17ca4c881f83eaccaa03e98c0"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 973,
+      "sha256": "b602fb393b994226c193e4259e1658459280a4e5f5ee0a0110512db04a19d3ce"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/alteracao_dipolos.json",
+      "bytes": 1177,
+      "sha256": "c2966a8ee3a43f377717618a73bd91f096b6c1cf0a0ab6e36e6abf7d2f595b03"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/dipolos_detalhe.png",
+      "bytes": 145926,
+      "sha256": "f90d9ac674905e5a1aaefdd6e0e31303a9c891273fb4512f0bb5b22b6eb47bcc"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/triagem_diagnostica.json",
+      "bytes": 194,
+      "sha256": "57fd082369e0541c1a5b08082a1568d065006c6b997c2225815755c1abf76a3c"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 975,
+      "sha256": "cc8cba0b1f2dc2b35b2abcd9b8816f68cddca6f39c95cfa8b42aa8bb276122da"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/transformadores_detalhe.png",
+      "bytes": 142172,
+      "sha256": "8d4f22b055fb2ad7015278d57fe76271e7d4a07619d18fd75b7f8e0f052d37f1"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/dimensoes_transformadores.json",
+      "bytes": 351,
+      "sha256": "1cd845f13f605c4db084defd7096aa535fb5eaa89d5105094c9d57e632a2ae8e"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/triagem_diagnostica.json",
+      "bytes": 194,
+      "sha256": "57fd082369e0541c1a5b08082a1568d065006c6b997c2225815755c1abf76a3c"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 969,
+      "sha256": "69a05b8a1dad36c71aadb5956585a93e2eede92ca39e3d89568f1437ca729d35"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/transformadores_detalhe.png",
+      "bytes": 142892,
+      "sha256": "177eb1d7c652a6ae11d40f5511cc61e99f67b4c89c67ec3138cf9682feba16e9"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/dimensoes_transformadores.json",
+      "bytes": 350,
+      "sha256": "f539bcb847c5434f7adb67901f30f77c8278da2021cad80fb7c973644a8aefb0"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 972,
+      "sha256": "5c16ef2ea88ddccfd0fa98f2d0cf4241105f75594e5da82b5841c51e6cff35c0"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/transformadores_detalhe.png",
+      "bytes": 150502,
+      "sha256": "590d082a8bba830ea6f31eb3bbb24e3da47dc656de518ca22e5038a761920238"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/dimensoes_transformadores.json",
+      "bytes": 1050,
+      "sha256": "5d094e8eec60a1efae7bc7648ce6a61f9fe93b77b606628ed2ff3b919554b151"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/transicoes_auditadas.json",
+      "bytes": 8397,
+      "sha256": "02ef9708b0c8cb53e02a67dd200e965dd3c1d4f3904ba14873a2c978066ef278"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/triagem_diagnostica.json",
+      "bytes": 368,
+      "sha256": "c696a7d457d7826ac1ba77057174f716c759c4f6ec7cb22f9708767ffcad12fe"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 970,
+      "sha256": "edc3394025a1e6110c76589c72aa177be040f28052be774433f78bae1701ebb6"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/transformadores_detalhe.png",
+      "bytes": 151243,
+      "sha256": "604f2e51d3f9d5823ab4b868f65e7b561d92897f921542084fd6a013139ed8a3"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/dimensoes_transformadores.json",
+      "bytes": 1048,
+      "sha256": "30c306204d273ea38f7bf4b08df9578b05b5ac38c2f259405e5ef870c1690524"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/transicoes_auditadas.json",
+      "bytes": 9316,
+      "sha256": "5ee3f63ccf5b734d8116dfe762a4fd29d602bc1cdf1f3ea63d077fe512eb09eb"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/triagem_diagnostica.json",
+      "bytes": 345,
+      "sha256": "21e0ccbc928ced8eb80c32e500903a6447cbb3d41b8e9302a0f595ff758946d4"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/diagrama_comparado_antes_correcao_mascara.json",
+      "bytes": 968,
+      "sha256": "1736a72497ecfb5a5ba0232802b0958b8c7e1e4569dc73aba546d709974a0730"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/transformadores_detalhe.png",
+      "bytes": 150436,
+      "sha256": "c9cfb325fbbafea5cbd2b77dd73d5fc972e07dc12ae8f5bab23bea063d423094"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/dimensoes_transformadores.json",
+      "bytes": 1045,
+      "sha256": "620abe131b36a1cb8aa0312e139dc775bee71aab03f938e927ed31c92a0e4bd4"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/transicoes_auditadas.json",
+      "bytes": 9118,
+      "sha256": "c6c3c4ce79c34cc78845f39b2f94654b7b694f50b2a55105fe171e7723ccfde5"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/triagem_diagnostica.json",
+      "bytes": 250,
+      "sha256": "a21454d59ecfa56495a28064532f4c28963a90dea07568131738b3bc3d32e870"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/transformadores_detalhe.png",
+      "bytes": 149389,
+      "sha256": "ce172ad33c648f5fcb26da0b0a09a60f8be3f9e4efd2e34fb6f6182cc0c6211e"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/dimensoes_transformadores.json",
+      "bytes": 1021,
+      "sha256": "1bc66d69d6a264e88b40a56ca706c16e8e43ffaea9664d2355dd12d5cf823ac5"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/transicoes_auditadas.json",
+      "bytes": 8796,
+      "sha256": "0bc41d0fea28ba04fb51d6b7c17b2846c25d88fb32322299205466981bbacacd"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/triagem_diagnostica.json",
+      "bytes": 250,
+      "sha256": "a21454d59ecfa56495a28064532f4c28963a90dea07568131738b3bc3d32e870"
+    },
+    {
+      "arquivo": "c11_raiz_largura/transformadores_detalhe.png",
+      "bytes": 148270,
+      "sha256": "e8d761e0f129c7a3f572132386e2c7d2b32ae3480dd89c8eaa75f71c709a0975"
+    },
+    {
+      "arquivo": "c11_raiz_largura/dimensoes_transformadores.json",
+      "bytes": 1049,
+      "sha256": "17e4cb572a6ee83775e4fdf14288f6945778eacbc4f043fefdd4ec2aa9404bd1"
+    },
+    {
+      "arquivo": "c11_raiz_largura/transicoes_auditadas.json",
+      "bytes": 9318,
+      "sha256": "253ede8d320ff5f3cd9ae9c01e7ed307a51285e649ca39eeda84a1d63609e833"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/transformadores_detalhe.png",
+      "bytes": 150989,
+      "sha256": "a9e0e7aeadae9bbb52aa3d1001908401428f334f107691e3d26458e26aea1b4c"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/dimensoes_transformadores.json",
+      "bytes": 1032,
+      "sha256": "bb3ccfd2e5d286957d5edb13cfbc15fc9d7e0e4cefc36073c998e25b24d12e9a"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/transicoes_auditadas.json",
+      "bytes": 9134,
+      "sha256": "60788f826a9123389a9b35a31aec4524e6735a48ab32e176fcd4cdc519ad02a9"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/triagem_diagnostica.json",
+      "bytes": 250,
+      "sha256": "a21454d59ecfa56495a28064532f4c28963a90dea07568131738b3bc3d32e870"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/fast_diagnostico.json",
+      "bytes": 246,
+      "sha256": "44f6d15191a48412eaf12f5cc64ac8c73b591e7dcec16d1a6f1fbab10446b215"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/fast_recursos.json",
+      "bytes": 1427,
+      "sha256": "bbc4c3e084b866a1b82d0b6523a705534f6357ca50a9d96f7466526363f33ab9"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/vswr_banda_detalhe.png",
+      "bytes": 127945,
+      "sha256": "299c88630b26b4c15bea2679b870800ae34ba4d25b52e8f845a9856a6adbb690"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/previsao_conferida.json",
+      "bytes": 1162,
+      "sha256": "fcff380a2a02290daccc1105e0af5efdc1d216ec7b7cd3bd0a3557a5f411c487"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/pico_planejado.json",
+      "bytes": 314,
+      "sha256": "f9ee937c7c18db1e78c6ffb703ec017e5a5ed2e1610f9547ec0341530f47426a"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/pico_fast.s2p",
+      "bytes": 821,
+      "sha256": "67c3865d776c0b108cc58b35eb5c0c4de7d17ffbdd80a287f5867b568bc4b80c"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/pico_auditado.json",
+      "bytes": 752,
+      "sha256": "290028a43b0188d6184a7221ae77dbb0ec5546d1f75099a71a4d434d83ac1105"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/mensagens_pico.json",
+      "bytes": 874,
+      "sha256": "b9df1704a5a051152c040bef7040f39cee422178611f9b705a0e316ee3d113b5"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/antes_pico_convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/apos_pico_convergencia.txt",
+      "bytes": 623,
+      "sha256": "b398b27a71eb0b03b162a8f719832c81aac7274d3e3d3feabb67c9e425e27aa0"
+    },
+    {
+      "arquivo": "c01_rede_banda/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c01_rede_banda/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c01_rede_banda/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c01_rede_banda/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c01_rede_banda/cad/enig_hfss.json",
+      "bytes": 35316,
+      "sha256": "4466793bb886c16617532536b1215c470540389d7d8cffb2af001b2d198e07c8"
+    },
+    {
+      "arquivo": "c01_rede_banda/cad/reabertura.json",
+      "bytes": 96,
+      "sha256": "ea12ce474a21915378a690be81449695c1639267e9c2a3917bed1e82e3294858"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/cad/enig_hfss.json",
+      "bytes": 36680,
+      "sha256": "0b15a2103bbb33a7ada47a548f8506c49fc34f58b353796ab668c1108487e6d0"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/cad/reabertura.json",
+      "bytes": 96,
+      "sha256": "ea12ce474a21915378a690be81449695c1639267e9c2a3917bed1e82e3294858"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/cad/enig_hfss.json",
+      "bytes": 38023,
+      "sha256": "d9adcf5870f87abfec32bb9656d5d343203f48c94b319d64ac15c815b6d3b2aa"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/cad/reabertura.json",
+      "bytes": 88,
+      "sha256": "1cd3903a87f7be141f82771296542c64d54ac4a690c3f9b074f520e91b24a996"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/cad/enig_hfss.json",
+      "bytes": 35812,
+      "sha256": "6573851114b7acd99b42327c706d310fe8afefe74cae2ea24f20ae74d7de95b5"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/cad/reabertura.json",
+      "bytes": 61,
+      "sha256": "27d4d662e0aa3eb34321ae7776c7e2b7f797206657cd59bdb1df25e2d8bc4692"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/cad/enig_hfss.json",
+      "bytes": 33952,
+      "sha256": "59430c43d298573065e0be3464c6f3dcb9cbae6b9eb644d286c6335d4fac49a7"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/cad/reabertura.json",
+      "bytes": 61,
+      "sha256": "27d4d662e0aa3eb34321ae7776c7e2b7f797206657cd59bdb1df25e2d8bc4692"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/cad/enig_hfss.json",
+      "bytes": 32402,
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/cad/reabertura.json",
+      "bytes": 61,
+      "sha256": "27d4d662e0aa3eb34321ae7776c7e2b7f797206657cd59bdb1df25e2d8bc4692"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/cad/enig_hfss.json",
+      "bytes": 32402,
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/cad/reabertura.json",
+      "bytes": 61,
+      "sha256": "27d4d662e0aa3eb34321ae7776c7e2b7f797206657cd59bdb1df25e2d8bc4692"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/cad/enig_hfss.json",
+      "bytes": 32402,
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/cad/reabertura.json",
+      "bytes": 142,
+      "sha256": "6f53edcc86f99b4c648db697b5a0bb483dea6e5f61893a04da353310f70e1012"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/cad/enig_hfss.json",
+      "bytes": 32402,
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/cad/reabertura.json",
+      "bytes": 142,
+      "sha256": "17e5567cb6f7aff34f156a59e616b1c7f492fb84ce6f947b09bbf64def2125bf"
+    },
+    {
+      "arquivo": "c11_raiz_largura/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c11_raiz_largura/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c11_raiz_largura/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c11_raiz_largura/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c11_raiz_largura/cad/enig_hfss.json",
+      "bytes": 32402,
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "c11_raiz_largura/cad/reabertura.json",
+      "bytes": 130,
+      "sha256": "3dd2f669892e66298825b6a27680fef8c70e4937cb4e5259d82460d626b7d916"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/cad/intersecoes.json",
+      "bytes": 393,
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/cad/manifesto.json",
+      "bytes": 1159,
+      "sha256": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/cad/folhas_solidas.json",
+      "bytes": 2177,
+      "sha256": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/cad/portas.json",
+      "bytes": 264,
+      "sha256": "542135dbd41606ee52454fae2b39d48cc83d2d80a1ed29baf47f84652d336c0b"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/cad/enig_hfss.json",
+      "bytes": 32402,
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/cad/reabertura.json",
+      "bytes": 130,
+      "sha256": "a020b6ee6023845378bb8e8e4a40e95e7405c20124c363ee66b092a2a18eee1e"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/sexto_origem.json",
+      "bytes": 2872,
+      "sha256": "1b2cb71ef7e8583de5f8400ff60b6de200367b9f99eb6f6fbce6d63c5582044d"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/sexto_preparacao_auditada.json",
+      "bytes": 438,
+      "sha256": "8e86a2a7f2165b2f6a72924feb5a4a3ace0d5be0dd291f35693f707b53d5c003"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/sexto_continuidade_auditada.json",
+      "bytes": 905,
+      "sha256": "d14bb43a6c6c2c1c03200c37b7354d7d260c7f0bb8b825da0e1d8bc656f12b8c"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/sexto_executado.json",
+      "bytes": 70,
+      "sha256": "dc9b88ef24e7f2301a1d455ec8edfeebfe1f4fbc0fde58fbcfc78ad26f528070"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/antes_sexto_convergencia.txt",
+      "bytes": 576,
+      "sha256": "f0560704af2b76eb778bf35cc62cccb5d9d523a0d81fc604bfc4c1a3909f1060"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/sexto_preparar.py",
+      "bytes": 756,
+      "sha256": "4d91fc4ef30bdc3dc2181efc87db8b1f4e6ca3be7e145ecc53331ca8f9e6f46c"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/sexto_resolver.py",
+      "bytes": 3784,
+      "sha256": "d4ce16f9cfb8feb8df5bb6a3c19f3b673761bf3476f4f9a0e59b0974c3e26be5"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/AB_H.csv",
+      "bytes": 197904,
+      "sha256": "f391a4a8060c198334bba3e9afd91fc0ccc5d60cb3dde55ac8d9d9b42f527fa4"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/AB_V.csv",
+      "bytes": 197292,
+      "sha256": "8d2ff67816ada76d5c56c48b88cf06694d2e33fcc6b64e03a8fffeb11c2d83ff"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/A_H.csv",
+      "bytes": 198346,
+      "sha256": "90d1d0301fd06fab673625b37376be7b7d8bb8d1ff0c034d58e92d4fd68bf96e"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/A_V.csv",
+      "bytes": 197657,
+      "sha256": "92f1d95523792a22afd1fef624d791f4bce9e07e701d9a2fc53cc8792da8deda"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/B_H.csv",
+      "bytes": 197711,
+      "sha256": "2530532ac51fb023a23d473511bc4a7151dfbec473b26b7cae155455be9b5913"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/B_V.csv",
+      "bytes": 196784,
+      "sha256": "595713bc540895bf8eabccf97370d34d4f8edc0443060edde7ec2c067301713a"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/centro.s2p",
+      "bytes": 821,
+      "sha256": "34095f003152e4d32aa0418f6f713fbe40983b238b2c26d54ee30fa1c7ab4db7"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/comparacao_diagramas.png",
+      "bytes": 141140,
+      "sha256": "e862624cc0aedae347b426538910640f6e888323f5d5c5cfeea8c572fc94bdac"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/configuracao.json",
+      "bytes": 2864,
+      "sha256": "b9518df3d4554639fc32d1f37da3c53dc32bf140db3d602383c9f8cc38d831f3"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/convergencia.txt",
+      "bytes": 576,
+      "sha256": "f0560704af2b76eb778bf35cc62cccb5d9d523a0d81fc604bfc4c1a3909f1060"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/diagramas_HV.png",
+      "bytes": 124656,
+      "sha256": "c0c483dac7163177054a7c412e04bb2bc431ed7e6ec9368cceb5cd47016ea842"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/diagrama_comparado.json",
+      "bytes": 969,
+      "sha256": "cb6add8665db157bc590b1eb944f054d66876aa10da717ef1550c4f3ad723e9e"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/malha.json",
+      "bytes": 18950,
+      "sha256": "69cd740674a7fea8ceb49f32ee737d4bd2dad68ecfbee82036f78bc26c0a52b1"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/P2M21_4_elementos.aedt",
+      "bytes": 7213267,
+      "sha256": "fb8cf7f2a6327404afe4c49c4f12487b74c71df9aa37cf965defec71ffcdb9f6"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/polar_HV.pdf",
+      "bytes": 27954,
+      "sha256": "6fc85a7c3b38745cae51321dbf77111f61aaa19f6f6bb65d1874fbb18416d55a"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/polar_HV.png",
+      "bytes": 208409,
+      "sha256": "32c53a5baf41d5756b9cb0ab675cb5f341bbb34b77511b4b0e3320f5078a518e"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/qualificacao.json",
+      "bytes": 282,
+      "sha256": "90986a6494588c61a2979a3ab7fcf508e603eb786cff89e951a302982ed457d0"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/resultado.json",
+      "bytes": 6087,
+      "sha256": "e35b91f608cebe7e187dda542b1a706ce63bc58564f0c4e4b6f1f3344d042aa4"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/passe5/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2315,
+      "sha256": "38d68aed5f7b63f883b72878bcc21ae66f8ddbaef60d62f1dc73655b1d45c7a3"
+    },
+    {
+      "arquivo": "c01_rede_banda/evidencia_recursos_centro.json",
+      "bytes": 3186,
+      "sha256": "76c94cba675c916889f949829c0e28ab46c4c858e612ecb25662a481143ff4cf"
+    },
+    {
+      "arquivo": "c01_rede_banda/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2753,
+      "sha256": "92258ba1a290f22709ee57870e07414858dfd0dc1fbe24d70d3d741b6d40729d"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/evidencia_recursos_centro.json",
+      "bytes": 3776,
+      "sha256": "f85b92bcf36163de2b23cc57d799fbd97f93ac1bc22299003d879e575fefcd51"
+    },
+    {
+      "arquivo": "c02_raiz_ordem2/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2315,
+      "sha256": "80916f29f653f9aae686324c4ed85ac9f062e599b20dd143bfa5c7bfd35d44a9"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/evidencia_recursos_centro.json",
+      "bytes": 4261,
+      "sha256": "f439775e35ed7b60dd4d471c4a25a291545c96044e0756fd72c8b0694837488a"
+    },
+    {
+      "arquivo": "c03_dipolos_1012/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "ab53e88e8db77ece9c143c3eb9a5afb648c999c39ebb66748ab032ff3a50a887"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/evidencia_recursos_centro.json",
+      "bytes": 4268,
+      "sha256": "0e381bf44ea39a237af4d5a238bf7efefafca10c96e8abc9c65b98f26b72d2e3"
+    },
+    {
+      "arquivo": "c04_transformadores_duplos/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "b0fc70403d8f11cd2e359e0a302bb762fb5de51b5f9f85d86c70ca9c45f6d3cc"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/evidencia_recursos_centro.json",
+      "bytes": 3208,
+      "sha256": "8d6a36757a1e0755b386f50cc46bd26787ebfa279e1bfb2fa565b9d598aa54fb"
+    },
+    {
+      "arquivo": "c05_segmentos_em_fase/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "9028794193b9deaae3817c396c34fad4fd0bbda6462e5b3028262e26553d8b72"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/evidencia_recursos_centro.json",
+      "bytes": 3771,
+      "sha256": "db767775545e214522e7746faee8011c5f857572eb6f6d3976e9df1517524936"
+    },
+    {
+      "arquivo": "c07_raiz_transicoes/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2315,
+      "sha256": "aee8aa8537ff43013e886c44e8be6d0486e8319155157a1ab071ada5a97b8187"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/evidencia_recursos_centro.json",
+      "bytes": 4263,
+      "sha256": "163bf0f29cb938439a8a2d414c33cb54b56ced1f5439f6bad748f7595953acea"
+    },
+    {
+      "arquivo": "c08_raiz_ajuste_fino/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "fbaa4730b958c5f889561402733aaca0ece80dc03fafff5f80bdee0ea04c90c1"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/evidencia_recursos_centro.json",
+      "bytes": 4262,
+      "sha256": "1d3bcee2bd6c32e0c461d446a46b564dc0b2a7960a786a65ded6ab7388e0c8c8"
+    },
+    {
+      "arquivo": "c09_raiz_banda_fina/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "9acbb05ccda2e8af7d9f6c6481d07a680497ab9f999d3f030ce57fbd5fc2b3cb"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/evidencia_recursos_centro.json",
+      "bytes": 4268,
+      "sha256": "fb4af2a3a2c59b7f4018f84f3f5b2cfc4bbfe9e0a69368ac615a8daeb0ff4108"
+    },
+    {
+      "arquivo": "c10_raiz_secantes/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "432a73ca6a3de28ca40f563c0845d0013056e1f3b6a87ea62bbfaec28e4f2818"
+    },
+    {
+      "arquivo": "c11_raiz_largura/evidencia_recursos_centro.json",
+      "bytes": 4263,
+      "sha256": "967f78157681bfac4f51f65394a084d189addebfaccd956448176e3cbe199f63"
+    },
+    {
+      "arquivo": "c11_raiz_largura/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "3359d4afa0be846f965ea9890286d4dbf508d7355d389c468e76bef70778ce4d"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/evidencia_recursos_centro.json",
+      "bytes": 5678,
+      "sha256": "3f50e1956ecae1e7970d0754d4680e363c46142f3a5bee5f52d83a1ccf946022"
+    },
+    {
+      "arquivo": "c12_raiz_intermediaria/metadados/DV44_S41_V0.EMConvData.txt",
+      "bytes": 2752,
+      "sha256": "493e6612680181057f9797243534584fbac7e16ab71cc0acd807bd7a16f39b9e"
+    },
+    {
+      "arquivo": "README.md",
+      "bytes": 23937,
+      "sha256": "38bacfd92e4fcbcf077aa7a9cdddf7b5ceaa5d6be6c0d68c7f95344487f22259"
+    },
+    {
+      "arquivo": "comparacao.json",
+      "bytes": 868,
+      "sha256": "197bddd7f7e374fcc106277a965a99650293cbabcea824ab4a7aabc309546569"
+    },
+    {
+      "arquivo": "estudo.json",
+      "bytes": 16182,
+      "sha256": "46ca79fa6fd8242a86a04410ca90699e2d3c5a45b5dd33753754e00488466d3f"
+    },
+    {
+      "arquivo": "revisao_pdf.json",
+      "bytes": 4275,
+      "sha256": "b645a813f3534410c78c3ce21d56f659f14d46b27302242aaa9745e6e062aac9"
+    },
+    {
+      "arquivo": "revisao_imagens_finais.json",
+      "bytes": 926,
+      "sha256": "697a49d265a40073314f7d7580fdc112ffd1bf25a965dd086375fc76fe6d0fe2"
+    },
+    {
+      "arquivo": "auditoria_compatibilidade_builder.json",
+      "bytes": 663,
+      "sha256": "816584293c2699e8a17449ae80816bc547ddbdda3a0d44871cb184a6341f928a"
+    },
+    {
+      "arquivo": "auditoria_builder_multissecao.json",
+      "bytes": 585,
+      "sha256": "39767eb25d15c8b630d3191c34bcba46996d05d4c546a9b476a6db8233bba556"
+    },
+    {
+      "arquivo": "correcao_mascara_lobo_principal.json",
+      "bytes": 10043,
+      "sha256": "b5c6ddc71f746debbbc7049a7fcae3ea81b5c37b8129adb66c03e5cc4c5f5af8"
+    },
+    {
+      "arquivo": "estimativa_antena.json",
+      "bytes": 8114,
+      "sha256": "d74e2bb04bb475d7c54bfb805be0ebca976ae027587d8f8d6d3d106d84044590"
+    },
+    {
+      "arquivo": "estimativa_c02_ativo_meta125.json",
+      "bytes": 4456,
+      "sha256": "e7dcf2a671320c69e57c9ebd62744ec2fa2c305be37d480f86f767923f5324c7"
+    },
+    {
+      "arquivo": "estimativa_c02_intermediarios18_meta125.json",
+      "bytes": 3243,
+      "sha256": "c57705ed1832f3a47d5e42d87145978c1acbe65f5c5274a2e1cc3c0c7738501d"
+    },
+    {
+      "arquivo": "estimativa_c02_intermediarios_meta125.json",
+      "bytes": 12457,
+      "sha256": "bef4b5b6aa9999332eaf39c263b93128d3cfc30349e760644d67dcd9edd1cfbf"
+    },
+    {
+      "arquivo": "estimativa_c02_largos.json",
+      "bytes": 11028,
+      "sha256": "bf0a38615cca55b37b5150163ca1bad2e708f39eadb0058ca0aa242862b50461"
+    },
+    {
+      "arquivo": "estimativa_c02_matriz_meta125.json",
+      "bytes": 3642,
+      "sha256": "3cb1eec5d511f32acf76d3011e137e9d9bdf6501829c4ae2f1697a83da5bd09b"
+    },
+    {
+      "arquivo": "estimativa_c02_matriz_raiz_meta125.json",
+      "bytes": 5012,
+      "sha256": "b6f741568faaed306b021d9876056a8269a833e152b1dc3759faf95b8d1c4dab"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_dupla_meta125.json",
+      "bytes": 3581,
+      "sha256": "c5ad5705599f2a1c0878d11ec745231c2fe95e0ec6363df71493e88776d51e04"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_dupla_w5_meta125.json",
+      "bytes": 3579,
+      "sha256": "ae55473fc36d9f591eff4e43457e701b083cdbb0698e9169143edcf0b46828b0"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_ordem2.json",
+      "bytes": 9623,
+      "sha256": "43c7bfcfb591f876828f30259267aa413157241b5ad991be955ca9ef833d5605"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_quatro_w3_transicoes_meta125.json",
+      "bytes": 5449,
+      "sha256": "96ac53c6f29c15a947f88b31fb70acc8f1a39cf7f684283bb8e1a3e0c2b04932"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_tripla_transicoes_meta125.json",
+      "bytes": 4869,
+      "sha256": "ad0b428e6276105f069c06892d7bb9ee4f2c2abf5a5d3c8d8550e1f1345641e0"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_tripla_w3_transicoes_meta125.json",
+      "bytes": 4898,
+      "sha256": "e8d2d770bf4191eb7bb6e226d7c38f4f8ced393666dfeb2f43d5077713114877"
+    },
+    {
+      "arquivo": "estimativa_c02_raiz_tripla_w5_meta125.json",
+      "bytes": 4609,
+      "sha256": "767d4ea8958386ed03322b7d4d2639b30bb387e388c841807e307ebe8b09230a"
+    },
+    {
+      "arquivo": "estimativa_c02_segmentos_meta125.json",
+      "bytes": 3791,
+      "sha256": "abd84a7fa049a442a3ea93db90cca1578184146a72ea472b04eabf0409533cb2"
+    },
+    {
+      "arquivo": "estimativa_c02_stub_meta125.json",
+      "bytes": 1674,
+      "sha256": "614d0265aef5a8f7efd96278ad0b4cdfd82198cec33e1e63ed336771b2fb2b60"
+    },
+    {
+      "arquivo": "estimativa_c03_ativo_meta125.json",
+      "bytes": 4463,
+      "sha256": "b938f720510afd97ba5e1b6c65ed74566d685f37fdea26014d9173b8feabacf0"
+    },
+    {
+      "arquivo": "estimativa_c04_matriz_ativos_meta125.json",
+      "bytes": 5245,
+      "sha256": "48071993052038b3d2c89b673a9fe03f02c1e4f2eefa99b607670dc5a2840eb5"
+    },
+    {
+      "arquivo": "estimativa_c04_matriz_meta125.json",
+      "bytes": 5255,
+      "sha256": "11fea51e44a60ebd0caeccacd01c60db78eecc96b0fa3487c598d97efdff6ff6"
+    },
+    {
+      "arquivo": "estimativa_c07_quatro_w3_fase_c02_meta125.json",
+      "bytes": 6271,
+      "sha256": "6d7024370f178d0dcaced7df984aef02d4f94fb0d5e466b644aeef4a2c7f575c"
+    },
+    {
+      "arquivo": "estimativa_c07_raiz_quatro_w3_meta125.json",
+      "bytes": 5623,
+      "sha256": "353333368030ee57d285515f7d6a0b4bd8f0884729f85b1d4d3ac387314db414"
+    },
+    {
+      "arquivo": "estimativa_c07_raiz_tres_local_meta125.json",
+      "bytes": 5200,
+      "sha256": "46f4214546f9b30bdfdb151a432acc7d2072d7b16170513b68345dda6c63d899"
+    },
+    {
+      "arquivo": "estimativa_c08_quatro_w3_meta125.json",
+      "bytes": 5793,
+      "sha256": "be7611683ce221ad75400d50dc7bcf01a70481843b0c865b1c221611b91ad72b"
+    },
+    {
+      "arquivo": "estimativa_c08_tres_local_meta125.json",
+      "bytes": 5367,
+      "sha256": "11b53ca29df4509aa26d2009383ed8bdeb0fe5727a9642b3d41680c5713a80fc"
+    },
+    {
+      "arquivo": "estimativa_c09_empirica_ext2_meta125.json",
+      "bytes": 4480,
+      "sha256": "daaade65d2145150103fc687f0aded423128f5c95221345d4ae522982461a714"
+    },
+    {
+      "arquivo": "estimativa_c09_empirica_meta125.json",
+      "bytes": 3186,
+      "sha256": "33c7ef1f84456eb013565a351d870f06192ef94bb7ecbcea66eddad651bd8e98"
+    },
+    {
+      "arquivo": "estimativa_c09_empirica_ruido_rejeitada.json",
+      "bytes": 3320,
+      "sha256": "8cd06c733cb9e7572e555970b91c7bc99bf95e7e45e56e8655f1c018eb01e69a"
+    },
+    {
+      "arquivo": "estimativa_c10_empirica_meta125.json",
+      "bytes": 5079,
+      "sha256": "e5048a1caef7891d591fc11c0284bdc24284be52dd36f0d846b3b9d7551d6636"
+    },
+    {
+      "arquivo": "estimativa_c10_evidencias_campos.json",
+      "bytes": 989,
+      "sha256": "a36b9576c0931009ddbbbd1ec622d3414243990b54ba3bc7eb5c7abc4e843c9b"
+    },
+    {
+      "arquivo": "estimativa_c10_tres_local_meta125.json",
+      "bytes": 5289,
+      "sha256": "4d560f756f27999c9052f76a251bf50498569bb64b4af7da67d268499b7bd792"
+    },
+    {
+      "arquivo": "estimativa_c11_empirica4_meta125.json",
+      "bytes": 5669,
+      "sha256": "43027fa619e5dd1f230766be7364f014f20e160d190060dbe3560c04bf461a6a"
+    },
+    {
+      "arquivo": "estimativa_c12_reserva_local_nao_simulada.json",
+      "bytes": 5690,
+      "sha256": "6662b0e3d6f07b800f2f5e598a1414dfdb9b931e9007c5c80fec45fa0d9585c1"
+    },
+    {
+      "arquivo": "estimativa_r12_raiz_dupla_fast_meta125.json",
+      "bytes": 45594,
+      "sha256": "418ab3f1cba8e56c594136446393028196ca229edbeae27e1a1b5e1e4f902a36"
+    }
+  ],
+  "melhor_confirmada": null,
+  "melhor_casamento_banda": "c12_raiz_intermediaria"
+}

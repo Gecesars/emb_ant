@@ -1,0 +1,211 @@
+{
+  "estado": "ESTIMATIVA_RAIZ_DUPLA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c07_raiz_transicoes",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "896de1602579c29e55e54379e8db2b7c8777194917771c50485aa58c60aef1fc",
+  "metodo": "Matriz Z2 efetiva congelada apos primeiro estagio. Apenas duas secoes proximas a entrada sao alteradas; cauda de50ohms e divisores locais preservados. Acoplamento das entradas retido na matriz; mudancas de radiacao/campos das trilhas exigem HFSS.",
+  "transicoes": "Fonte historica: fronteiras efetivas dos caps quadrados consideradas. Variante: caps planos, passos de largura nas cotas nominais. Descontinuidades EM e radiacao exigem HFSS.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "secoes": 4,
+  "busca_local": false,
+  "referencia_fase": {
+    "arquivo": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c02_raiz_ordem2\\geometria.json",
+    "sha256": "8aa9a81371e6e37447532a68ae1089d018bf919694dca4c3b00b86ea0bc89bcc",
+    "frequencia_GHz": 5.17,
+    "limite_graus": 5.0,
+    "nota": "Fase estimada na saida do primeiro estagio, com carga Z2 congelada. Nao substitui campos HFSS."
+  },
+  "alvo_VSWR": 1.25,
+  "criterio_objetivo": "VSWR ativo A/B em fase; penalidade de fase de saida somente quando configurada",
+  "erro_recomposicao_S": 2.7476618026966064e-16,
+  "limites_mm": [
+    [
+      0.4,
+      3.0
+    ],
+    [
+      2.0,
+      20.0
+    ],
+    [
+      0.4,
+      3.0
+    ],
+    [
+      2.0,
+      20.0
+    ],
+    [
+      0.4,
+      3.0
+    ],
+    [
+      2.0,
+      20.0
+    ],
+    [
+      0.4,
+      3.0
+    ],
+    [
+      2.0,
+      20.0
+    ]
+  ],
+  "referencia": {
+    "largura_raiz_mm": 4.9999998949287505,
+    "comprimento_raiz_mm": 14.189724013964925,
+    "largura_segunda_secao_mm": 2.2433831466163605,
+    "comprimento_segunda_secao_mm": 12.10051168534826,
+    "fase_saida_relativa_centro_graus": [
+      -4.634486974497758,
+      -4.666720806256308
+    ],
+    "secoes_raiz_mm": [
+      {
+        "largura": 4.9999998949287505,
+        "comprimento": 14.189724013964925
+      },
+      {
+        "largura": 2.2433831466163605,
+        "comprimento": 12.10051168534826
+      },
+      {
+        "largura": 4.999999904745502,
+        "comprimento": 6.937989576357665
+      },
+      {
+        "largura": 1.6234147022891376,
+        "comprimento": 0.0
+      }
+    ],
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_flat_sections": true,
+      "root_w_A": 5.811030307672909,
+      "root_l_A": 1.6094794034618616,
+      "root_seg2_w_A": 1.3818916038231146,
+      "root_seg2_l_A": 1.3725090290516304,
+      "root_post_w_A": 1.0,
+      "root_seg3_w_A": 3.0799276966600857,
+      "root_seg3_l_A": 0.7869463362071807,
+      "root_seg4_w_A": 1.0,
+      "root_seg4_l_A": 0.0,
+      "root_w_B": 5.811030307672909,
+      "root_l_B": 1.6094794034618616,
+      "root_seg2_w_B": 1.3818916038231146,
+      "root_seg2_l_B": 1.3725090290516304,
+      "root_post_w_B": 1.0,
+      "root_seg3_w_B": 3.0799276966600857,
+      "root_seg3_l_B": 0.7869463362071807,
+      "root_seg4_w_B": 1.0,
+      "root_seg4_l_B": 0.0
+    },
+    "pior_VSWR_ativo": 1.6714624319248736,
+    "pior_VSWR_casado": 1.6181448222211328,
+    "pior_VSWR_geral": 1.6714624319248736,
+    "VSWR_pontos": [
+      [
+        1.6714624319248736,
+        1.5326597640202693,
+        1.3936273361721083,
+        1.2845950123693397
+      ],
+      [
+        1.492718995277945,
+        1.3537205533729737,
+        1.4047999745651956,
+        1.2857194057691863
+      ],
+      [
+        1.4061591949544245,
+        1.4914141332743012,
+        1.5360815705179107,
+        1.6181448222211328
+      ]
+    ]
+  },
+  "raiz_dupla": {
+    "largura_raiz_mm": 0.45208472863841204,
+    "comprimento_raiz_mm": 2.000588722299317,
+    "largura_segunda_secao_mm": 2.9999517530334012,
+    "comprimento_segunda_secao_mm": 13.227683083987335,
+    "fase_saida_relativa_centro_graus": [
+      -4.9850016781987305,
+      -4.698213561028138
+    ],
+    "secoes_raiz_mm": [
+      {
+        "largura": 0.45208472863841204,
+        "comprimento": 2.000588722299317
+      },
+      {
+        "largura": 2.9999517530334012,
+        "comprimento": 13.227683083987335
+      },
+      {
+        "largura": 2.9967444209035867,
+        "comprimento": 19.54478841185178
+      },
+      {
+        "largura": 0.4455803903499961,
+        "comprimento": 5.3504567011799775
+      }
+    ],
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_flat_sections": true,
+      "root_w_A": 0.5254156229919943,
+      "root_l_A": 0.22691817967494904,
+      "root_seg2_w_A": 1.8479269337669804,
+      "root_seg2_l_A": 1.5003592358981814,
+      "root_post_w_A": 1.0,
+      "root_seg3_w_A": 1.8459512635175412,
+      "root_seg3_l_A": 2.216881340534666,
+      "root_seg4_w_A": 0.27447108229443407,
+      "root_seg4_l_A": 0.6068793058405255,
+      "root_w_B": 0.5254156229919943,
+      "root_l_B": 0.22691817967494904,
+      "root_seg2_w_B": 1.8479269337669804,
+      "root_seg2_l_B": 1.5003592358981814,
+      "root_post_w_B": 1.0,
+      "root_seg3_w_B": 1.8459512635175412,
+      "root_seg3_l_B": 2.216881340534666,
+      "root_seg4_w_B": 0.27447108229443407,
+      "root_seg4_l_B": 0.6068793058405255
+    },
+    "pior_VSWR_ativo": 1.2060622225717976,
+    "pior_VSWR_casado": 1.1921296830645003,
+    "pior_VSWR_geral": 1.2060622225717976,
+    "VSWR_pontos": [
+      [
+        1.2060622225717976,
+        1.1086767650567109,
+        1.1376342646354003,
+        1.165798547239799
+      ],
+      [
+        1.2060622084622667,
+        1.2038076563193605,
+        1.1337486453232886,
+        1.1921296830645003
+      ],
+      [
+        1.1223967255635738,
+        1.206055527010777,
+        1.0674464212350627,
+        1.1851243122621533
+      ]
+    ]
+  }
+}

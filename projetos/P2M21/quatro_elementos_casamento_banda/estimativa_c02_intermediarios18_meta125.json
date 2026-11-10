@@ -1,0 +1,115 @@
+{
+  "estado": "ESTIMATIVA_PARA_SELECAO_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c02_raiz_ordem2",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "a2ca683cb595613112bb802baced24ffbf68fcc9ee06751c74caf90ef31e1d98",
+  "metodo": "MLine com quatro cargas efetivas congeladas por frequencia; inclui a fase nominal dos cabos. Limita largura local a pelo menos0.65mm para evitar o estreitamento extremo do C01. Requer confirmacao HFSS completa e conferencia dos diagramas.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "alvo_VSWR": 1.25,
+  "pontos": 3,
+  "triagem_tres_frequencias": true,
+  "erro_recomposicao": 6.661338147750939e-16,
+  "referencia": {
+    "largura_raiz_mm": 0.7317947164836978,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.8504962731688755,
+      "root_w_B": 0.8504962731688755,
+      "local_w_A": 1.0,
+      "local_w_B": 1.0,
+      "root_l_A": 0.7742762420719297,
+      "root_l_B": 0.7742762420719297,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 1.612042301689679,
+    "pior_VSWR_casado": 1.4528156304985755,
+    "pior_VSWR_geral": 1.612042301689679,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.612042301689679,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.5464830295938223,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.411536263361887,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.4528156304985755,
+        "frequencia_GHz": 5.25
+      }
+    ]
+  },
+  "limites_locais_intermediarios_mm": [
+    [
+      0.4,
+      2.0
+    ],
+    [
+      0.65,
+      1.3
+    ],
+    [
+      3.0,
+      12.0
+    ],
+    [
+      8.0,
+      18.0
+    ]
+  ],
+  "locais_intermediarios": {
+    "largura_raiz_mm": 1.1513257971016329,
+    "largura_local_mm": 0.6500000097377483,
+    "comprimento_raiz_mm": 5.029403929312917,
+    "comprimento_local_mm": 14.216789370144728,
+    "fatores": {
+      "root_w_A": 1.338077848311354,
+      "root_w_B": 1.338077848311354,
+      "local_w_A": 0.7554339671896265,
+      "local_w_B": 0.7554339671896265,
+      "root_l_A": 0.5704636699031506,
+      "root_l_B": 0.5704636699031506,
+      "local_l_A": 1.61254931047879,
+      "local_l_B": 1.61254931047879
+    },
+    "pior_VSWR_ativo": 1.2886326581567236,
+    "pior_VSWR_casado": 1.275978563052106,
+    "pior_VSWR_geral": 1.2886326581567236,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 1.2886326581567236,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 1.2668354399145179,
+        "frequencia_GHz": 5.25
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.1787103241692853,
+        "frequencia_GHz": 5.17
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.275978563052106,
+        "frequencia_GHz": 5.17
+      }
+    ]
+  }
+}

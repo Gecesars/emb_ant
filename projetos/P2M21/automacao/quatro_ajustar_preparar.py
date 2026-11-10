@@ -22,8 +22,12 @@ def build(name,params):
     if params.get('simetria',False):
         assert params.get('extra_A',0)==params.get('extra_B',0)
         assert params.get('upper',0)==params.get('lower',1.5)
-        for attr in ['root_w','root_l','local_w','local_l']:
+        for attr in ['root_w','root_l','local_w','local_l','root_post_w','local_post_w']:
             assert params.get(attr+'_A',1)==params.get(attr+'_B',1),attr
+        for idx in (2,3,4):
+            for attr,default in [('w',1.),('l',0.)]:
+                key='root_seg%d_%s'%(idx,attr)
+                assert params.get(key+'_A',default)==params.get(key+'_B',default),key
     g=json.loads((BASE/'geometria.json').read_text())
     pitch=float(params.get('pitch',48.))
     assert 34.<=pitch<=54., 'Espacamento fora do estudo de quatro radiadores'
@@ -36,6 +40,11 @@ def build(name,params):
         g['placa_largura_altura_mm']=[70.,2*half_x]
         g['refletor_planejado_mm']=[90.,2*half_x+16,2.]
     art=json.loads((REPO/'automacao/P1H/KiCad_Antenas/elemento_hfss.json').read_text())
+    if params.get('dipolo_escala_externa',1.)!=1.:
+        from quatro_dipolos_ajustar import morph
+        art,art_audit=morph(art,float(params['dipolo_escala_externa']))
+        art_audit['fonte_sha256']=hashlib.sha256((REPO/'automacao/P1H/KiCad_Antenas/elemento_hfss.json').read_bytes()).hexdigest()
+        (folder/'alteracao_dipolos.json').write_text(json.dumps(art_audit,indent=2)+'\n',encoding='utf-8')
     p=art['ports']['B'][0];lines=g['lines']
     w50=lines['50']['w_mm'];w70=lines[str(math.sqrt(2)*50)]['w_mm'];l70=lines[str(math.sqrt(2)*50)]['l90_mm']
     lands=[];vias=[];traces=[];inputs=[]
@@ -60,10 +69,27 @@ def build(name,params):
                 # comprimento ao reduzir o passo, sem atrasos A/B distintos.
                 xa=pts70[-1][0]+s*2;xb=xa+s*5;ym=yr-sy*root_extra/2
                 pts50=[pts70[-1],(xa,yr),(xa,ym),(xb,ym),(xb,yr),(xr+dx,yr),(xr+dx,yl)]
-            signal.extend([LineString(pts70).buffer(w70*params.get('root_w_'+pol,1)/2,cap_style='square',join_style='mitre'),
-                LineString(pts50).buffer(w50/2,cap_style='square',join_style='mitre')])
+            root_caps='flat' if params.get('root_flat_sections',False) else 'square'
+            signal.append(LineString(pts70).buffer(w70*params.get('root_w_'+pol,1)/2,cap_style=root_caps,join_style='mitre'))
+            sections=[];end=pts70[-1]
+            for idx in (2,3,4):
+                length=l70*params.get('root_seg%d_l_%s'%(idx,pol),0.)
+                if length<=0:continue
+                assert root_extra==0.,'Secoes adicionais exigem raiz reta'
+                width=w50*params.get('root_seg%d_w_%s'%(idx,pol),1.)
+                target=(end[0]+s*length,yr)
+                assert abs(target[0]-xr)<pitch-.5,'Secoes devem terminar antes da curva'
+                path=[end,target]
+                signal.append(LineString(path).buffer(width/2,cap_style=root_caps,join_style='mitre'))
+                sections.append(dict(indice=idx,linha=path,largura_mm=width,comprimento_mm=length))
+                end=target
+            # linha50 preserva o caminho completo para auditorias de comprimento;
+            # linha50_final representa somente o trecho apos todas as secoes.
+            tail=[end]+pts50[1:] if sections else pts50
+            signal.append(LineString(tail).buffer(w50*params.get('root_post_w_'+pol,1.)/2,cap_style=root_caps,join_style='mitre'))
             ground.append(LineString(pts70+pts50[1:]).buffer(params.get('root_ground',params['ground'])/2,join_style='mitre'))
-            traces.append(dict(polarizacao=pol,tipo='raiz',grupo=dx,linha70=pts70,linha50=pts50))
+            traces.append(dict(polarizacao=pol,tipo='raiz',grupo=dx,linha70=pts70,linha50=pts50,largura_segmento_pos_mm=w50*params.get('root_post_w_'+pol,1.)))
+            if sections:traces[-1].update(secoes_adicionais=sections,linha50_final=tail)
             for sign in [-1,1]:
                 cx=dx+sign*pitch/2;tx=dx+p
                 # Meandro com acrescimo de comprimento 2*depth. Preserva a transicao do radiador.
@@ -88,14 +114,14 @@ def build(name,params):
                         (tx+sign*(ll+5),ym),(tx+sign*(ll+5),yl),(cx+p,yl),(cx+p,sy*p)]
                 else:q50=[q70[-1],(cx+p,yl),(cx+p,sy*p)]
                 signal.extend([LineString(q70).buffer(lw/2,cap_style='square',join_style='mitre'),
-                    LineString(q50).buffer(w50/2,cap_style='square',join_style='mitre')])
+                    LineString(q50).buffer(w50*params.get('local_post_w_'+pol,1.)/2,cap_style='square',join_style='mitre')])
                 full=q70+q50[1:]
                 if 'terminal_ground' in params:
                     stop=(cx+p,sy*(p+params.get('terminal_length',6.)))
                     ground.append(LineString(full[:-1]+[stop]).buffer(params['ground']/2,cap_style='flat',join_style='mitre'))
                     ground.append(LineString([stop,full[-1]]).buffer(params['terminal_ground']/2,join_style='mitre'))
                 else:ground.append(LineString(full).buffer(params['ground']/2,join_style='mitre'))
-                traces.append(dict(polarizacao=pol,tipo='local',cx=cx,linha70=q70,linha50=q50,largura_transformador_mm=lw,comprimento_mm=LineString(q70+q50[1:]).length))
+                traces.append(dict(polarizacao=pol,tipo='local',cx=cx,linha70=q70,linha50=q50,largura_transformador_mm=lw,largura_segmento_pos_mm=w50*params.get('local_post_w_'+pol,1.),comprimento_mm=LineString(q70+q50[1:]).length))
         obstacles=unary_union([l['shape'] for l in lands if l['layer']=='B' and l['net']!='RET_'+pol])
         if params.get('rails',False):
             from shapely.geometry import box
@@ -122,7 +148,7 @@ def build(name,params):
         common=ground_ribbons['A'].intersection(scale(ground_ribbons['B'],xfact=1,yfact=-1,origin=(0,0)))
         ground_ribbons['A']=common;ground_ribbons['B']=scale(common,xfact=1,yfact=-1,origin=(0,0))
         symmetry['diferenca_area_retornos_novos_mm2']=ground_ribbons['A'].symmetric_difference(scale(ground_ribbons['B'],xfact=1,yfact=-1,origin=(0,0))).area
-        symmetry['escopo']='Divisores e faixas de retorno acrescentados espelhados em Y=0; cobre e vias originais dos radiadores preservados.'
+        symmetry['escopo']='Divisores e faixas de retorno acrescentados espelhados em Y=0; feeds e vias originais dos radiadores preservados. Variacao externa opcional dos radiadores registrada nos parametros.'
     for pol in 'AB':
         ip=next(x for x in inputs if x['name']==pol);pt=Point(ip['x'],ip['y'])
         gr=ground_ribbons[pol].intersection(Polygon(g['outline']).buffer(-.2)).difference(pt.buffer(1.516,quad_segs=96))
@@ -166,6 +192,9 @@ def build(name,params):
             if params.get('diagnostico_campos',False):code=code.replace("'SaveRadFieldsOnly:=',True","'SaveRadFieldsOnly:=',False")
         (folder/file).write_text(code,encoding='utf-8')
     code=(REPO/'projetos/P2M21/automacao/quatro_elementos_resolver.py').read_text(encoding='utf-8')
+    # IronPython nao fecha imediatamente o arquivo temporario de open(...).read().
+    # Um handle de leitura vivo pode impedir o rename atomico de .aedt.temp.
+    code=code.replace('    raw=open(native).read()','    with open(native) as stream:raw=stream.read()')
     code,n=re.subn(r'^root=.*$',lambda m:'root='+repr(folder.as_posix()),code,flags=re.M);assert n==1
     code=code.replace('MaxDeltaS=0.04','MaxDeltaS=0.05').replace('delta_s=.04','delta_s=.05')
     if params.get('diagnostico_campos',False):

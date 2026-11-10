@@ -1,0 +1,26 @@
+{
+  "proposta_sha256": "daaade65d2145150103fc687f0aded423128f5c95221345d4ae522982461a714",
+  "campos": [
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c07_raiz_transicoes",
+      "sha256": {
+        "H": "1a75cc0d9da5d12918b5fc47097cfa9ab91f9bd31124958de0d96efcc0691d29",
+        "V": "79982315e5151d45bc09c9afab5d0fabe7a0e5c528631bbf0b577b2baf8e723a"
+      }
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c08_raiz_ajuste_fino",
+      "sha256": {
+        "H": "4f38dffb7ac4a2030968ea6467b8290af0037f1fcb60285c764e509b8b63c2a9",
+        "V": "7cf5f58651172a49ddb44b84a286e68c0646f025982cc809f631e505f7f93abc"
+      }
+    },
+    {
+      "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c09_raiz_banda_fina",
+      "sha256": {
+        "H": "de1e59f8b048dccefaaf500fed871b3c2ff5528b8e6aead72f47e064a2ce3064",
+        "V": "9482aec14042098bf822758561a82ccfbceb8f28e2d834a6d55de882bb70bdd7"
+      }
+    }
+  ]
+}

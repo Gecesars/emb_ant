@@ -1,0 +1,53 @@
+{
+  "caminhos": [
+    {
+      "polarizacao": "A",
+      "centro_mm": -72.0,
+      "trilha_mm": 101.49083158695937,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "A",
+      "centro_mm": -24.0,
+      "trilha_mm": 101.49083158695937,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "A",
+      "centro_mm": 24.0,
+      "trilha_mm": 101.49083158695936,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "A",
+      "centro_mm": 72.0,
+      "trilha_mm": 101.49083158695937,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": -72.0,
+      "trilha_mm": 101.49083158695937,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": -24.0,
+      "trilha_mm": 101.49083158695937,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": 24.0,
+      "trilha_mm": 101.49083158695936,
+      "cabo_mm": 50
+    },
+    {
+      "polarizacao": "B",
+      "centro_mm": 72.0,
+      "trilha_mm": 101.49083158695937,
+      "cabo_mm": 50
+    }
+  ],
+  "igualdade_geometrica": true
+}

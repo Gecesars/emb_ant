@@ -1,0 +1,168 @@
+{
+  "estado": "ESTIMATIVA_RAIZ_DUPLA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R13_Casamento_Banda\\c02_raiz_ordem2",
+  "arquivo_s2p": "triagem3.s2p",
+  "s2p_sha256": "a2ca683cb595613112bb802baced24ffbf68fcc9ee06751c74caf90ef31e1d98",
+  "metodo": "Matriz Z2 efetiva congelada apos primeiro estagio. Apenas duas secoes proximas a entrada sao alteradas; cauda de50ohms e divisores locais preservados. Acoplamento das entradas retido na matriz; mudancas de radiacao/campos das trilhas exigem HFSS.",
+  "faixa_GHz": [
+    5.09,
+    5.25
+  ],
+  "pontos": 3,
+  "secoes": 3,
+  "alvo_VSWR": 1.25,
+  "criterio_objetivo": "VSWR ativo A/B em fase",
+  "erro_recomposicao_S": 3.7931385936698773e-16,
+  "limites_mm": [
+    [
+      0.4,
+      5.0
+    ],
+    [
+      2.0,
+      20.0
+    ],
+    [
+      0.4,
+      5.0
+    ],
+    [
+      2.0,
+      20.0
+    ],
+    [
+      0.4,
+      5.0
+    ],
+    [
+      2.0,
+      20.0
+    ]
+  ],
+  "referencia": {
+    "largura_raiz_mm": 0.7317947164836978,
+    "comprimento_raiz_mm": 6.826285668483191,
+    "largura_segunda_secao_mm": 1.6234147022891376,
+    "comprimento_segunda_secao_mm": 0.0,
+    "secoes_raiz_mm": [
+      {
+        "largura": 0.7317947164836978,
+        "comprimento": 6.826285668483191
+      },
+      {
+        "largura": 1.6234147022891376,
+        "comprimento": 0.0
+      },
+      {
+        "largura": 1.6234147022891376,
+        "comprimento": 0.0
+      }
+    ],
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_w_A": 0.8504962731688755,
+      "root_l_A": 0.7742762420719297,
+      "root_seg2_w_A": 1.0,
+      "root_seg2_l_A": 0.0,
+      "root_post_w_A": 1.0,
+      "root_seg3_w_A": 1.0,
+      "root_seg3_l_A": 0.0,
+      "root_w_B": 0.8504962731688755,
+      "root_l_B": 0.7742762420719297,
+      "root_seg2_w_B": 1.0,
+      "root_seg2_l_B": 0.0,
+      "root_post_w_B": 1.0,
+      "root_seg3_w_B": 1.0,
+      "root_seg3_l_B": 0.0
+    },
+    "pior_VSWR_ativo": 1.612042301689678,
+    "pior_VSWR_casado": 1.4528156304985758,
+    "pior_VSWR_geral": 1.612042301689678,
+    "VSWR_pontos": [
+      [
+        1.612042301689678,
+        1.4379088002479712,
+        1.224935388121992,
+        1.0951401566319376
+      ],
+      [
+        1.3553490033256435,
+        1.300415848323152,
+        1.1926360334157606,
+        1.2578774964958548
+      ],
+      [
+        1.5707773740816138,
+        1.5464830295938226,
+        1.411536263361887,
+        1.4528156304985758
+      ]
+    ]
+  },
+  "raiz_dupla": {
+    "largura_raiz_mm": 2.5402563969268956,
+    "comprimento_raiz_mm": 6.3440711142225465,
+    "largura_segunda_secao_mm": 0.4000427778188086,
+    "comprimento_segunda_secao_mm": 18.516766890227714,
+    "secoes_raiz_mm": [
+      {
+        "largura": 2.5402563969268956,
+        "comprimento": 6.3440711142225465
+      },
+      {
+        "largura": 0.4000427778188086,
+        "comprimento": 18.516766890227714
+      },
+      {
+        "largura": 4.744127679631945,
+        "comprimento": 8.946615317776681
+      }
+    ],
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_local_mm": 8.816343957831307,
+    "largura_pos_raiz_mm": 1.6234147022891376,
+    "largura_pos_local_mm": 1.6234147022891376,
+    "fatores": {
+      "root_w_A": 2.952301444400835,
+      "root_l_A": 0.7195807178765169,
+      "root_seg2_w_A": 0.24642057094513065,
+      "root_seg2_l_A": 2.1002772780637478,
+      "root_post_w_A": 1.0,
+      "root_seg3_w_A": 2.922314103070747,
+      "root_seg3_l_A": 1.0147761204154988,
+      "root_w_B": 2.952301444400835,
+      "root_l_B": 0.7195807178765169,
+      "root_seg2_w_B": 0.24642057094513065,
+      "root_seg2_l_B": 2.1002772780637478,
+      "root_post_w_B": 1.0,
+      "root_seg3_w_B": 2.922314103070747,
+      "root_seg3_l_B": 1.0147761204154988
+    },
+    "pior_VSWR_ativo": 1.2108380576346556,
+    "pior_VSWR_casado": 1.3856285464295341,
+    "pior_VSWR_geral": 1.3856285464295341,
+    "VSWR_pontos": [
+      [
+        1.2108380576346556,
+        1.1427951892610841,
+        1.2874479737844753,
+        1.3614922579855777
+      ],
+      [
+        1.2108380576220916,
+        1.180618990482818,
+        1.1287020678726312,
+        1.2358796603958768
+      ],
+      [
+        1.0954380830045873,
+        1.2108378744623995,
+        1.2474135167414078,
+        1.3856285464295341
+      ]
+    ]
+  }
+}

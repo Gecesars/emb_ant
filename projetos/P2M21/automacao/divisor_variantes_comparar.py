@@ -15,6 +15,23 @@ sys.path.insert(0,str(REPO/'automacao/r06'))
 from rede_carregada import beam,read_pattern
 from auditar_malha import audit
 
+def profile_matrix_solves(text):
+    """Distingue passes adaptativos das frequencias anexadas ao mesmo perfil."""
+    stack=[];records=[]
+    for raw in text.replace("\\'","'").splitlines():
+        line=raw.strip()
+        if line=="$begin 'ProfileGroup'":stack.append(None)
+        elif line=="$end 'ProfileGroup'":
+            assert stack,'Fim de grupo sem inicio';stack.pop()
+        elif line.startswith("Name='") and stack:stack[-1]=line[6:-1]
+        elif line.startswith("ProfileItem('Matrix Solve'"):
+            match=re.search(r"'Cores', (\d+)",line);assert match,line
+            passes=[int(m[1]) for name in stack if name for m in [re.fullmatch(r'Adaptive Pass (\d+)',name)] if m]
+            assert len(passes)<=1,stack
+            records.append(dict(passe_adaptativo=passes[0] if passes else None,nucleos=int(match[1]),grupos=[n for n in stack if n],linha=line))
+    assert not stack,'Perfil incompleto'
+    return records
+
 def assess(folder):
     cfg=json.loads((folder/'configuracao.json').read_text(encoding='utf-8'))
     native=(folder/cfg['native']).read_text(errors='replace')
@@ -30,7 +47,7 @@ def assess(folder):
     target=float(cfg.get('max_delta_s',.04))
     exported_target=float(re.search(r'^Target\s*:\s*([\d.eE+-]+)',conv,re.M)[1])
     assert abs(target-exported_target)<1e-12,(target,exported_target)
-    converged=native_yes and delta<=target and consecutive>=required
+    converged=native_yes and delta<=target and consecutive>=required and passes>=cfg['min_passes']
     profiles=list(folder.rglob('*.profile'))
     if len(profiles)>1:
         # Continuacoes preservam o perfil antigo; selecionar pelos criterios
@@ -46,7 +63,10 @@ def assess(folder):
         profiles=selected
     assert len(profiles)==1,profiles
     profile=profiles[0].read_text(errors='replace').replace("\\'","'")
-    cores=[int(re.search(r"'Cores', (\d+)",line)[1]) for line in profile.splitlines() if "ProfileItem('Matrix Solve'" in line]
+    matrix_records=profile_matrix_solves(profile)
+    adaptive_records=[x for x in matrix_records if x['passe_adaptativo'] is not None]
+    assert [x['passe_adaptativo'] for x in adaptive_records]==list(range(1,passes+1)),adaptive_records
+    cores=[x['nucleos'] for x in adaptive_records]
     assert len(cores)==passes and set(cores)=={14},cores
     mesh=audit(folder)
     n=rf.Network(str(folder/'centro.s2p'));assert n.nports==2 and len(n.f)==1 and n.f[0]==5.17e9
@@ -54,7 +74,7 @@ def assess(folder):
     sv=float(np.linalg.svd(s,compute_uv=False).max());recip=float(abs(s-s.T).max())
     vswr=lambda z:((1+abs(z))/(1-abs(z))).tolist()
     result=dict(variante=folder.name,passes=passes,delta_s=delta,convergiu=converged,
-        nucleos_por_passe=cores,
+        nucleos_por_passe=cores,recursos_matriz=matrix_records,
         hfss_indicou_convergencia=native_yes,passes_consecutivos=consecutive,consecutivos_exigidos=required,
         major=mesh['reparos_major'],minor=mesh['reparos_minor'],passivo=sv<=1.0001,
         max_singular=sv,residuo_reciprocidade=recip,VSWR_ativo=vswr(active),VSWR_casado=vswr(np.diag(s)),

@@ -1,0 +1,47 @@
+{
+  "referencia": {
+    "largura_raiz_mm": 0.656371208302508,
+    "largura_local_mm": 0.8604325963206093,
+    "comprimento_raiz_mm": 9.000142317087022,
+    "comprimento_local_mm": 8.816343957831307,
+    "fatores": {
+      "root_w_A": 0.7628386129364336,
+      "root_w_B": 0.7628386129364336,
+      "local_w_A": 1.0,
+      "local_w_B": 1.0,
+      "root_l_A": 1.020847457873107,
+      "root_l_B": 1.020847457873107,
+      "local_l_A": 0.9999999999999996,
+      "local_l_B": 0.9999999999999996
+    },
+    "pior_VSWR_ativo": 2.2795957135276814,
+    "pior_VSWR_casado": 1.7317759693152657,
+    "pior_VSWR_geral": 2.2795957135276814,
+    "extremos": [
+      {
+        "condicao": "ativo_A",
+        "maximo": 2.2795957135276814,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "ativo_B",
+        "maximo": 2.0142021474982092,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "casado_A",
+        "maximo": 1.7317759693152657,
+        "frequencia_GHz": 5.09
+      },
+      {
+        "condicao": "casado_B",
+        "maximo": 1.53940116625308,
+        "frequencia_GHz": 5.09
+      }
+    ]
+  },
+  "metodo": "Ensaio dirigido dos radiadores; nao preve VSWR. Mantem os divisores da R12 e altera apenas o contorno externo dos dipolos.",
+  "arquivo_s2p": "banda_fast.s2p",
+  "s2p_sha256": "3db1aff9c94d7b921cf8728a3d188906cf745c9b9385861ba8d5679dcc49dac0",
+  "fonte": "D:\\dev\\EMBRAER\\P2M21\\R12_Quatro_8Passes_Fast\\antena"
+}
