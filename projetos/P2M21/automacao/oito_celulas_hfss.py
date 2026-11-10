@@ -7,18 +7,20 @@ ScriptEnv.Initialize('Ansoft.ElectronicsDesktop')
 repo='D:/dev/EMBRAER/emb_ant'
 sys.path.insert(0,os.path.join(repo,'automacao','r05'))
 from enig_solido import apply
-root='D:/dev/EMBRAER/P2M21/R14_Oito_Celulas'
+root=os.environ.get('P2M21_OITO_ROOT','D:/dev/EMBRAER/P2M21/R14_Oito_Celulas')
+cfg=json.load(open(os.path.join(root,'configuracao.json')))
 def mm(v):return '%.12gmm'%v
 def read(path):
     with open(path) as f:return json.load(f)
 def log(s):
     with open(os.path.join(root,'hfss_criacao.log'),'a') as f:f.write(str(s)+'\n')
-for folder,filename in [('', 'P2M21_8celulas')]:
+for folder,filename in [('', os.path.splitext(cfg['native'])[0])]:
     try:
         dest=os.path.join(root,folder);cad=os.path.join(dest,'cad')
         assert read(os.path.join(cad,'intersecoes.json'))['aprovado']
-        p=oDesktop.NewProject();p.InsertDesign('HFSS','Oito_celulas','DrivenModal','')
-        d=p.SetActiveDesign('Oito_celulas');e=d.SetActiveEditor('3D Modeler')
+        assert not os.path.exists(os.path.join(root,cfg['native'])),'Nativo existente'
+        p=oDesktop.NewProject();p.InsertDesign('HFSS',cfg['design'],'DrivenModal','')
+        d=p.SetActiveDesign(cfg['design']);e=d.SetActiveEditor('3D Modeler')
         e.SetModelUnits(['NAME:Units Parameter','Units:=','mm','Rescale:=',False])
         defs=p.GetDefinitionManager();bd=d.GetModule('BoundarySetup')
         dies={'RO4350B_R01':(3.66,.0037),'POM_nom':(3.4,.01),'ZYF300':(2.94,.0016),
@@ -67,7 +69,7 @@ for folder,filename in [('', 'P2M21_8celulas')]:
              'CSDefinition:=','Theta-Phi','Polarization:=','Linear','ThetaStart:=','-180deg','ThetaStop:=','180deg',
              'ThetaStep:=','.25deg','PhiStart:=','0deg','PhiStop:=','90deg','PhiStep:=','90deg','UseLocalCS:=',False])
             sol.EditSources([['IncludePortPostProcessing:=',False,'SpecifySystemPower:=',False]]+
-             [['Name:=',pt['name']+':1','Magnitude:=','0.0625W','Phase:=','0deg'] for pt in ports])
+             [['Name:=',pt['name']+':1','Magnitude:=','%.12gW'%cfg['potencia_por_porta_W'],'Phase:=','0deg'] for pt in ports])
         mesh=d.GetModule('MeshSetup')
         mesh.InitialMeshSettings(['NAME:MeshSettings',
           ['NAME:GlobalSurfApproximation','CurvedSurfaceApproxChoice:=','UseSlider','SliderMeshSettings:=',5],
@@ -88,12 +90,12 @@ for folder,filename in [('', 'P2M21_8celulas')]:
              'UseRelativeConvergence:=',0,'MaxConvergenceDelta:=',.1,'MaxConvergeValue:=','0.1',
              'ReportType:=','Far Fields',['NAME:ExpressionContext','Context:=','HV']])
         setup.EditSetup('Centro',['NAME:Centro','UseCacheFor:=',['Pass'],cache])
-        assert len(ports)==16 and len(manifest)==329
+        assert len(ports)==len(cfg['portas']) and len(manifest)==41*len(cfg['celulas'])+1
         assert not list(setup.GetSweeps('Centro'))
         p.SaveAs(os.path.join(dest,filename+'.aedt'),True)
         valid=d.ValidateDesign();messages=list(oDesktop.GetMessages(p.GetName(),d.GetName(),2))
         result=dict(modelo=filename,validacao=valid,erros=messages,portas=len(ports),max_passes=6,max_delta_s=.05,
-         simulado=False,modo='Oito celulas C12, 16x2 radiadores; 16 portas iguais, cabos50mm e refletor comum; sem rede externa')
+         simulado=False,modo='%d celulas C12, %dx2 radiadores; %d portas iguais, cabos50mm e refletor comum; sem rede externa'%(len(cfg['celulas']),cfg['niveis_radiadores'],len(ports)))
         with open(os.path.join(dest,'hfss_validacao.json'),'w') as f:json.dump(result,f,indent=2)
         assert valid==1 and len(sol.GetAllSources())==len(ports),result
         p.Save();oDesktop.CloseProject(p.GetName());log('CRIADO_VALIDADO_HEADLESS '+filename)

@@ -1,0 +1,67 @@
+﻿ID;X plano mm;Y mm;Diametro mm;Descricao
+C1R1_A;-381.49083158695936;-71.0;4.2;Passagem coaxial, escarear rebarbas
+C1R1_B;-381.49083158695936;-7.0;4.2;Passagem coaxial, escarear rebarbas
+C1R2_A;-189.49083158695936;-71.0;4.2;Passagem coaxial, escarear rebarbas
+C1R2_B;-189.49083158695936;-7.0;4.2;Passagem coaxial, escarear rebarbas
+C1R3_A;2.50916841304063;-71.0;4.2;Passagem coaxial, escarear rebarbas
+C1R3_B;2.50916841304063;-7.0;4.2;Passagem coaxial, escarear rebarbas
+C1R4_A;194.50916841304064;-71.0;4.2;Passagem coaxial, escarear rebarbas
+C1R4_B;194.50916841304064;-7.0;4.2;Passagem coaxial, escarear rebarbas
+C1R5_A;386.50916841304064;-71.0;4.2;Passagem coaxial, escarear rebarbas
+C1R5_B;386.50916841304064;-7.0;4.2;Passagem coaxial, escarear rebarbas
+C2R1_A;-381.49083158695936;7.0;4.2;Passagem coaxial, escarear rebarbas
+C2R1_B;-381.49083158695936;71.0;4.2;Passagem coaxial, escarear rebarbas
+C2R2_A;-189.49083158695936;7.0;4.2;Passagem coaxial, escarear rebarbas
+C2R2_B;-189.49083158695936;71.0;4.2;Passagem coaxial, escarear rebarbas
+C2R3_A;2.50916841304063;7.0;4.2;Passagem coaxial, escarear rebarbas
+C2R3_B;2.50916841304063;71.0;4.2;Passagem coaxial, escarear rebarbas
+C2R4_A;194.50916841304064;7.0;4.2;Passagem coaxial, escarear rebarbas
+C2R4_B;194.50916841304064;71.0;4.2;Passagem coaxial, escarear rebarbas
+C2R5_A;386.50916841304064;7.0;4.2;Passagem coaxial, escarear rebarbas
+C2R5_B;386.50916841304064;71.0;4.2;Passagem coaxial, escarear rebarbas
+M2_01;-477.5;-64.0;2.2;Grampo POM
+M2_02;-477.5;-14.0;2.2;Grampo POM
+M2_03;-290.5;-64.0;2.2;Grampo POM
+M2_04;-290.5;-14.0;2.2;Grampo POM
+M2_05;-285.5;-64.0;2.2;Grampo POM
+M2_06;-285.5;-14.0;2.2;Grampo POM
+M2_07;-98.5;-64.0;2.2;Grampo POM
+M2_08;-98.5;-14.0;2.2;Grampo POM
+M2_09;-93.5;-64.0;2.2;Grampo POM
+M2_10;-93.5;-14.0;2.2;Grampo POM
+M2_11;93.5;-64.0;2.2;Grampo POM
+M2_12;93.5;-14.0;2.2;Grampo POM
+M2_13;98.5;-64.0;2.2;Grampo POM
+M2_14;98.5;-14.0;2.2;Grampo POM
+M2_15;285.5;-64.0;2.2;Grampo POM
+M2_16;285.5;-14.0;2.2;Grampo POM
+M2_17;290.5;-64.0;2.2;Grampo POM
+M2_18;290.5;-14.0;2.2;Grampo POM
+M2_19;477.5;-64.0;2.2;Grampo POM
+M2_20;477.5;-14.0;2.2;Grampo POM
+M2_21;-477.5;14.0;2.2;Grampo POM
+M2_22;-477.5;64.0;2.2;Grampo POM
+M2_23;-290.5;14.0;2.2;Grampo POM
+M2_24;-290.5;64.0;2.2;Grampo POM
+M2_25;-285.5;14.0;2.2;Grampo POM
+M2_26;-285.5;64.0;2.2;Grampo POM
+M2_27;-98.5;14.0;2.2;Grampo POM
+M2_28;-98.5;64.0;2.2;Grampo POM
+M2_29;-93.5;14.0;2.2;Grampo POM
+M2_30;-93.5;64.0;2.2;Grampo POM
+M2_31;93.5;14.0;2.2;Grampo POM
+M2_32;93.5;64.0;2.2;Grampo POM
+M2_33;98.5;14.0;2.2;Grampo POM
+M2_34;98.5;64.0;2.2;Grampo POM
+M2_35;285.5;14.0;2.2;Grampo POM
+M2_36;285.5;64.0;2.2;Grampo POM
+M2_37;290.5;14.0;2.2;Grampo POM
+M2_38;290.5;64.0;2.2;Grampo POM
+M2_39;477.5;14.0;2.2;Grampo POM
+M2_40;477.5;64.0;2.2;Grampo POM
+IF_01;-320;-50;6.5;"Interface mecanica; suporte externo pendente"
+IF_02;-320;50;6.5;"Interface mecanica; suporte externo pendente"
+IF_03;320;-50;6.5;"Interface mecanica; suporte externo pendente"
+IF_04;320;50;6.5;"Interface mecanica; suporte externo pendente"
+N_A;-524.3982297150258;-24;16.5;"Duplo D: 14 mm entre planos; eixo a Z=-40 na chapa dobrada"
+N_B;-524.3982297150258;24;16.5;"Duplo D: 14 mm entre planos; eixo a Z=-40 na chapa dobrada"

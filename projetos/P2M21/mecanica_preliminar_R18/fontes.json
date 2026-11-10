@@ -1,0 +1,21 @@
+{
+  "data": "2026-11-10",
+  "chat_referencia": "Localizar conector N fêmea e cabo",
+  "conector": {
+    "modelo": "Amphenol 082-6784",
+    "arquivo_usuario": "D:/dev/EMBRAER/82-6784.stp",
+    "arquivo_pacote": "referencias/82-6784.stp",
+    "sha256": "1a580268d364f89b05919758eb490cd97395ca6d59d594f9a5181af40a4f4dc9",
+    "fonte": "https://www.amphenolrf.com/en-us/assets/file/4069129560/",
+    "transformacao_montagem": "Porca/arruela separadas por envelope e deslocadas 4,25 mm do STEP para chapa de 2 mm; original preservado. Referencia mecanica, sem simulacao RF."
+  },
+  "cabo": {
+    "modelo": "Micro-Coax UT-141C",
+    "fonte": "https://www.micro-coax.com/wp-content/uploads/2024/12/micro-coax-ut-141c-datasheet.pdf",
+    "comprimentos": "20x50 mm de ensaio e 2x459,25 mm propostos; nao constituem chicote final"
+  },
+  "alternativa_KLC": "CF-164 nao intercambiavel diretamente; fixacao oposta e recorte/vedacao a rever; sem CAD oficial disponivel nesta entrega",
+  "pcb": "../kicad/4_elementos/README.md",
+  "cad_origem": "../comparacao_colunas_niveis/R17_Dez_Celulas_78mm/P2M21_10celulas_78mm.FCStd",
+  "compras": "Nenhuma compra nem nova cotacao"
+}

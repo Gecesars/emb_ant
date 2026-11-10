@@ -1,0 +1,26 @@
+{
+  "referencia": "R15_Oito_Celulas_8passes",
+  "variantes": [
+    {
+      "root": "D:\\dev\\EMBRAER\\P2M21\\R16_Oito_Celulas_78mm",
+      "niveis_placas": 4,
+      "colunas": 2,
+      "portas": 16,
+      "max_passes": 6,
+      "delta_s": 0.05,
+      "sem_sweep": true
+    },
+    {
+      "root": "D:\\dev\\EMBRAER\\P2M21\\R17_Dez_Celulas_78mm",
+      "niveis_placas": 5,
+      "colunas": 2,
+      "portas": 20,
+      "max_passes": 6,
+      "delta_s": 0.05,
+      "sem_sweep": true
+    }
+  ],
+  "frequencia_GHz": 5.17,
+  "nucleos": 14,
+  "serial": true
+}

@@ -1,0 +1,211 @@
+{
+  "estado": "PRELIMINAR",
+  "arquivos": [
+    {
+      "arquivo": "cores.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\cores.json",
+      "bytes": 21170,
+      "sha256": "de8a8e0687c6bcba8f23a566cae9451f2e06057e8343d3d2a15dc3a9e17eaa39"
+    },
+    {
+      "arquivo": "dimensoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\dimensoes.json",
+      "bytes": 4201,
+      "sha256": "76f9539be8520bebabf587b5886b3466fb524152d5064834162c14d49b9a35fb"
+    },
+    {
+      "arquivo": "furacao_refletor_PRELIMINAR.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\furacao_refletor_PRELIMINAR.csv",
+      "bytes": 3280,
+      "sha256": "424c30f2e808d93f85ef8af4575d20b4a66f9ecd8fd1c4104cbd2dafe2abe03b"
+    },
+    {
+      "arquivo": "Grampo_POM_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Grampo_POM_PRELIMINAR.FCStd",
+      "bytes": 3988,
+      "sha256": "3010edb97b1a7e65e7454a8f21080704ecc276506fb129a6eca412b3d15d6c11"
+    },
+    {
+      "arquivo": "Grampo_POM_PRELIMINAR.step",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Grampo_POM_PRELIMINAR.step",
+      "bytes": 13500,
+      "sha256": "0a7760b0c37d2073ea2a6b765be07f0aff925446140ea53abddbb54fbdaf590e"
+    },
+    {
+      "arquivo": "lista_materiais.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\lista_materiais.json",
+      "bytes": 3134,
+      "sha256": "8ce764b91113f4f333d9d14c0424f31d06deea782bdbc394d69478b867381c25"
+    },
+    {
+      "arquivo": "lista_materiais_PRELIMINAR.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\lista_materiais_PRELIMINAR.csv",
+      "bytes": 1861,
+      "sha256": "2f1ce3922b2a31e42928557a67ae406abacbab65976ae8ecf60c1d7b10cc6180"
+    },
+    {
+      "arquivo": "P2M21_R18_Desenhos_PRELIMINARES_A3.pdf",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\P2M21_R18_Desenhos_PRELIMINARES_A3.pdf",
+      "bytes": 232424,
+      "sha256": "ee0f168601dfa93c219affe9514c2e0ddbc31c061f61b354a595a8a5f52fb67f"
+    },
+    {
+      "arquivo": "P2M21_R18_Documentacao_PRELIMINAR.pdf",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\P2M21_R18_Documentacao_PRELIMINAR.pdf",
+      "bytes": 893347,
+      "sha256": "0a571a985b92f80f2df1debc49e7e4d322e1712d470106f9e66efaf1d7beb8e2"
+    },
+    {
+      "arquivo": "P2M21_R18_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\P2M21_R18_PRELIMINAR.FCStd",
+      "bytes": 7302902,
+      "sha256": "fa38b2cd4e07a93049c5520f5fa9f41a08d54b6656c7f2f07efd4f25167e4215"
+    },
+    {
+      "arquivo": "README.md",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\README.md",
+      "bytes": 3461,
+      "sha256": "7448f2ec29438832b6fa1b165d27a78202675b5cfda75b63632c6917e4e6c985"
+    },
+    {
+      "arquivo": "Refletor_CORTE_PRELIMINAR_1a1.dxf",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Refletor_CORTE_PRELIMINAR_1a1.dxf",
+      "bytes": 27244,
+      "sha256": "b8bbb892de8284d2dd2d8951ee2ce2e8166ecd97f06ef33fa303faeb0de7e11a"
+    },
+    {
+      "arquivo": "Refletor_DOBRA_PRELIMINAR_1a1.dxf",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Refletor_DOBRA_PRELIMINAR_1a1.dxf",
+      "bytes": 18941,
+      "sha256": "10089e3ad2f11771eef3a7202ddf393627ee89a2660822aa01ea8549b05c7df4"
+    },
+    {
+      "arquivo": "Refletor_dobrado_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Refletor_dobrado_PRELIMINAR.FCStd",
+      "bytes": 17064,
+      "sha256": "cb792d0c122b72d0115943cdc4f0c2307c6c5c1953bf60a2e1b933ba2bdd7672"
+    },
+    {
+      "arquivo": "Refletor_dobrado_PRELIMINAR.step",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Refletor_dobrado_PRELIMINAR.step",
+      "bytes": 123743,
+      "sha256": "9f4b6b751f9dd1e1e51a73b4a923295f7cf3d26f323629798c7468df2660653d"
+    },
+    {
+      "arquivo": "Refletor_planificado_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Refletor_planificado_PRELIMINAR.FCStd",
+      "bytes": 15184,
+      "sha256": "15b4e8c6cc044f6e2cb3a96bb38288a93e0501f166e58fcf66c9ee5fbf77853f"
+    },
+    {
+      "arquivo": "Refletor_planificado_PRELIMINAR.step",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\Refletor_planificado_PRELIMINAR.step",
+      "bytes": 119751,
+      "sha256": "17eaa0e5ecec080e5f698cd1ed669a047db899d29c453103877f1db53fdaeefb"
+    },
+    {
+      "arquivo": "revisao_visual.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\revisao_visual.json",
+      "bytes": 2699,
+      "sha256": "5848733a58ab8df1836f3a0fb19f436e86c4f5918302ec2d926d43bcdf179f9d"
+    },
+    {
+      "arquivo": "verificacao_cad.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\verificacao_cad.json",
+      "bytes": 684,
+      "sha256": "9b0c28a653c7fd94cbd2305e612cff1bea7208c2c52da9c1900b859c96eee6f9"
+    },
+    {
+      "arquivo": "imagens/base_conectores.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\base_conectores.png",
+      "bytes": 45454,
+      "sha256": "2bf2a2da44fd1b926b3bda7d6212afbd807a5f7daf3036f5bbae8562afbc78e4"
+    },
+    {
+      "arquivo": "imagens/cabo_secao.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\cabo_secao.png",
+      "bytes": 60019,
+      "sha256": "3ea93a25c21b1b30ccd5307830ffbe1acc89e27118991510bba1ceeb5b642d4a"
+    },
+    {
+      "arquivo": "imagens/chapa_plana.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\chapa_plana.png",
+      "bytes": 59545,
+      "sha256": "43f4735cc19d41a4c048af824b1ed682f76b9342dc7575b9705328c03a1438a0"
+    },
+    {
+      "arquivo": "imagens/conector_3d.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\conector_3d.png",
+      "bytes": 170967,
+      "sha256": "973affea630cc107d479ff7c558dcfd852d5b0fdfbfee5342e296e850d2ff8e7"
+    },
+    {
+      "arquivo": "imagens/fixacao_pom.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\fixacao_pom.png",
+      "bytes": 12602,
+      "sha256": "afc970b354b11af2fae6e27370737a861cf715b2cd1a615042dd46e85853a4c9"
+    },
+    {
+      "arquivo": "imagens/frente.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\frente.png",
+      "bytes": 35850,
+      "sha256": "ae8acc9a31069d8c8dfe2735b4816183d96d8409f961b37f9875542bdf3bbf4d"
+    },
+    {
+      "arquivo": "imagens/grampo_isolado.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\grampo_isolado.png",
+      "bytes": 17614,
+      "sha256": "12849a4a2b805cda08f72b878a4ba104b5cc8bd2a1f86795c54a65c1e3667c9f"
+    },
+    {
+      "arquivo": "imagens/isometrica_frontal.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\isometrica_frontal.png",
+      "bytes": 42097,
+      "sha256": "069e751c341cfceb0516bc3640be55170f32cbf29b37f739d2e4123b96dc4669"
+    },
+    {
+      "arquivo": "imagens/pcb_frente.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\pcb_frente.png",
+      "bytes": 14838,
+      "sha256": "26ba2d2ea8d289d99cd1a8068417dfb5ed95c547f2fcd5c151c943a5d69a8e41"
+    },
+    {
+      "arquivo": "imagens/pcb_verso.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\pcb_verso.png",
+      "bytes": 22218,
+      "sha256": "49eab2a6f6449593e15957519c23be2b9bc9b1cff328a0681bd1fc0fd3c9a822"
+    },
+    {
+      "arquivo": "imagens/refletor_dobrado.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\refletor_dobrado.png",
+      "bytes": 16390,
+      "sha256": "93f553902c76a54a724859d124f7f247ff7fb8b7158d304dbbe9f7c224e8ac56"
+    },
+    {
+      "arquivo": "imagens/traseira_reserva.png",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\imagens\\traseira_reserva.png",
+      "bytes": 20104,
+      "sha256": "324fe9f4f56c064ac67232333933ae6b304f3f3d2de69a038818ed8d1e768672"
+    },
+    {
+      "arquivo": "referencias/82-6784.stp",
+      "origem": "D:\\dev\\EMBRAER\\82-6784.stp",
+      "bytes": 1799855,
+      "sha256": "1a580268d364f89b05919758eb490cd97395ca6d59d594f9a5181af40a4f4dc9"
+    },
+    {
+      "arquivo": "fontes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\fontes.json",
+      "bytes": 1182,
+      "sha256": "16a1f9a8adf693f406ad0855ebee4aba7e47a853cb9f5eb4ed3c1dfde87b5319"
+    },
+    {
+      "arquivo": "estado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2M21\\R18_Mecanica_Preliminar\\estado.json",
+      "bytes": 385,
+      "sha256": "5f410870d3e5c1a6533a33b5ed32f1d7dc616e176e6d312a2901c2ab025fe6d2"
+    }
+  ],
+  "malhas_incluidas": false,
+  "campos_volumetricos_incluidos": false
+}

@@ -1,0 +1,19 @@
+{
+  "aprovado": true,
+  "revisto_em": "2026-11-10T13:35:51.030868-03:00",
+  "observacoes": "Tres figuras conferidas visualmente: eixos, legendas e numeros legiveis, sem cortes; rotulos de resultado preliminar e nao convergido presentes. SLL considera todo o hemisferio frontal.",
+  "arquivos": [
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "90c4008594f4d1aaa9d5bb7e408c622a9603d1a8b18d10a39c18333b20c46b89"
+    },
+    {
+      "arquivo": "acoplamento_vswr.png",
+      "sha256": "8653ccceeb8bfb76efe3a9c515887f88c1b57243a2d1bfa607119ca9e326f3a6"
+    },
+    {
+      "arquivo": "comparacao_diagramas.png",
+      "sha256": "807823d0ff0d28225db303f2f272a64fd7d0fd8164bc76bb5addec985564bc35"
+    }
+  ]
+}

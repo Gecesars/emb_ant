@@ -3,7 +3,7 @@
 import os,json,traceback,datetime
 import ScriptEnv
 ScriptEnv.Initialize('Ansoft.ElectronicsDesktop')
-root='D:/dev/EMBRAER/P2M21/R14_Oito_Celulas'
+root=os.environ.get('P2M21_OITO_ROOT','D:/dev/EMBRAER/P2M21/R14_Oito_Celulas')
 cfg=json.load(open(os.path.join(root,'configuracao.json')))
 native=os.path.join(root,cfg['native'])
 def write(n,v):
@@ -27,17 +27,17 @@ try:
     oDesktop.SetRegistryFromFile(os.path.join(root,'HFSS_14nucleos.acf'))
     oDesktop.SetRegistryString('Desktop/ActiveDSOConfigurations/HFSS','P2M21_14nucleos')
     assert oDesktop.GetRegistryString('Desktop/ActiveDSOConfigurations/HFSS')=='P2M21_14nucleos'
-    sol=d.GetModule('Solutions');ports=list(sol.GetAllSources());assert len(ports)==16
+    sol=d.GetModule('Solutions');ports=list(sol.GetAllSources());assert len(ports)==len(cfg['portas'])
     sources(sol,ports);p.Save()
     valid=d.ValidateDesign();errors=list(oDesktop.GetMessages(p.GetName(),d.GetName(),2));assert valid==1 and not errors,(valid,errors)
     write('qualificacao.json',dict(estado='EM_CALCULO_HEADLESS',inicio=datetime.datetime.now().isoformat(),max_passes=6,delta_s=.05,nucleos=14))
     write('ordem_fontes.json',ports)
-    log('SOLVE_INICIADO_R14_8CELULAS_5170MHz_14NUCLEOS_MAX6')
+    log('SOLVE_INICIADO '+cfg['revisao']+' 5170MHz_14NUCLEOS_MAX6')
     d.Analyze('Centro')
     d.ExportConvergence('Centro','',os.path.join(root,'convergencia.txt'))
     write('mensagens.json',list(oDesktop.GetMessages(p.GetName(),d.GetName(),0)))
     errors=list(oDesktop.GetMessages(p.GetName(),d.GetName(),2));assert not errors,errors
-    sol.ExportNetworkData('',['Centro : LastAdaptive'],3,os.path.join(root,'centro.s16p'),['All'],True,50,'S',-1,1,15,False,True,False)
+    sol.ExportNetworkData('',['Centro : LastAdaptive'],3,os.path.join(root,'centro.s%dp'%len(ports)),['All'],True,50,'S',-1,1,15,False,True,False)
     reports=d.GetModule('ReportSetup')
     cases=[('ALL',ports),('POL_A',[n for n in ports if n.endswith('_A')]),('POL_B',[n for n in ports if n.endswith('_B')])]
     cases.extend((n,[n]) for n in ports)
@@ -53,6 +53,6 @@ try:
         log('CAMPOS_EXPORTADOS '+mode)
     sources(sol,ports);p.Save();oDesktop.CloseProject(p.GetName())
     write('qualificacao.json',dict(estado='SOLVE_EXPORTADO_AGUARDA_AUDITORIA',fim=datetime.datetime.now().isoformat(),gui=False))
-    log('SOLVE_EXPORTADO_HEADLESS_R14')
+    log('SOLVE_EXPORTADO_HEADLESS '+cfg['revisao'])
 except:
     write('falha.json',dict(erro=traceback.format_exc()));log(traceback.format_exc());raise

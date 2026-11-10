@@ -1,0 +1,15 @@
+{
+  "estado": "PRELIMINAR",
+  "formas": 581,
+  "solidos_validos": true,
+  "pares_testados": 312,
+  "intersecoes": [],
+  "geometria_celulas_preservada": 410,
+  "furos_M2_passantes": 40,
+  "recortes_N_passantes": 2,
+  "reaberto": true,
+  "exclusoes": "Containers App::DocumentObjectGroup e reserva de espaco nao sao componentes fisicos; excluidos da colisao.",
+  "limitacoes": "Verificacao nominal de geometria, sem analise de tolerancias, resistencia mecanica, vedacao ou RF da R18.",
+  "fonte_cad_sha256": "07217cc45a397afa06620fa8595bdbfe2fcd41dfbb1c387ac88f2153bea6d7da",
+  "conector_step_sha256": "1a580268d364f89b05919758eb490cd97395ca6d59d594f9a5181af40a4f4dc9"
+}

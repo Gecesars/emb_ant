@@ -1,0 +1,13 @@
+﻿Item;Componente;Quantidade;Especificação;Estado
+01;PCB 4_elementos / C12;10 un;"RO4350B, núcleo 0,76 mm; 70 × 184 mm; Cu 35 µm/face, ENIG. Dois 1:4 por placa.";Geometria RF e KiCad preservada
+02;Refletor com base dobrada;1 un;"Alumínio 5052, 2 mm. Face 968 × 162 mm; dobra a 90°, Ri 2 mm.";Têmpera, acabamento e K da dobra a confirmar
+03;Grampo isolante de borda;40 un;"POM natural; largura 5 mm; apoio a 14,949 mm. Quatro por PCB, sem furar o laminado.";"Usinagem proposta; ajustar folga à espessura real"
+04;Parafuso M2 × 25;40 un;"Inox A2; cabeça cilíndrica. Rosca simplificada no CAD.";Dimensões e aperto a confirmar no protótipo
+05;Porca M2;40 un;"Inox A2; envelope de 1,6 mm de altura no CAD.";Selecionar catálogo antes da compra
+06;Arruela M2;80 un;"Inox A2; referência geométrica Ø4 / Ø2,2 × 0,5 mm.";Duas por fixação
+07;N fêmea Amphenol 082-6784;2 kits;50 Ω, RG-402/0,141 pol. Kit com porca, arruela, junta e termorretrátil.;"STEP fornecido pelo usuário; não comprar acessórios em duplicidade"
+08;Micro-Coax UT-141C — ramais;20 × 50 mm;"1,000 m geométrico; dois cabos retos por PCB.";São os cabos do ensaio RF, não o corte final do chicote
+09;Micro-Coax UT-141C — entradas;2 × 459,25 mm;0,9185 m entre interfaces propostas, N até região central.;"Proposta mecânica; inserções e decapagens ainda não incluídas"
+10;Distribuição externa A/B;2 redes 1:10;Duas entradas independentes para as vinte conexões das dez PCBs.;PENDENTE: reserva de espaço, sem cobre dimensionado
+11;Fixação ao mastro / fechamento;A definir;"Quatro furos de interface Ø6,5 mm; radome, tampa e fixadores externos não definidos.";Fora da liberação desta revisão
+12;Curto DC das entradas;2, a definir;Integração das bobinas depende da rede externa e da terminação N.;Não instalado nem validado neste painel

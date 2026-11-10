@@ -1,0 +1,10 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "modo": "10 celulas C12, 20x2 radiadores; 20 portas iguais, cabos50mm e refletor comum; sem rede externa", 
+  "max_passes": 6, 
+  "modelo": "P2M21_10celulas_78mm", 
+  "max_delta_s": 0.050000000000000003, 
+  "simulado": false, 
+  "portas": 20
+}

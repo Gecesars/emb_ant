@@ -1,0 +1,267 @@
+{
+  "placas": 10,
+  "radiadores": 40,
+  "conexoes": 20,
+  "pcb_mm": [
+    70,
+    184,
+    0.76
+  ],
+  "passo_colunas_mm": 78,
+  "passo_radiadores_mm": 48,
+  "passo_placas_mm": 192,
+  "nucleo_z_mm": 14.949,
+  "folga_lateral_mm": 8,
+  "folga_vertical_mm": 8,
+  "refletor_face_mm": [
+    968,
+    162,
+    2
+  ],
+  "base_profundidade_mm": 70,
+  "chapa_plana_mm": [
+    1038.3982297150258,
+    162,
+    2
+  ],
+  "dobra": {
+    "Ri_mm": 2,
+    "K": 0.4,
+    "BA_mm": 4.39822971502571
+  },
+  "fixacoes_pom": [
+    {
+      "celula": "C1R1",
+      "x": -477.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R1",
+      "x": -477.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R1",
+      "x": -290.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R1",
+      "x": -290.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R2",
+      "x": -285.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R2",
+      "x": -285.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R2",
+      "x": -98.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R2",
+      "x": -98.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R3",
+      "x": -93.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R3",
+      "x": -93.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R3",
+      "x": 93.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R3",
+      "x": 93.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R4",
+      "x": 98.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R4",
+      "x": 98.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R4",
+      "x": 285.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R4",
+      "x": 285.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R5",
+      "x": 290.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R5",
+      "x": 290.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C1R5",
+      "x": 477.5,
+      "y": -64.0
+    },
+    {
+      "celula": "C1R5",
+      "x": 477.5,
+      "y": -14.0
+    },
+    {
+      "celula": "C2R1",
+      "x": -477.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R1",
+      "x": -477.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R1",
+      "x": -290.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R1",
+      "x": -290.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R2",
+      "x": -285.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R2",
+      "x": -285.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R2",
+      "x": -98.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R2",
+      "x": -98.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R3",
+      "x": -93.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R3",
+      "x": -93.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R3",
+      "x": 93.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R3",
+      "x": 93.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R4",
+      "x": 98.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R4",
+      "x": 98.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R4",
+      "x": 285.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R4",
+      "x": 285.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R5",
+      "x": 290.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R5",
+      "x": 290.5,
+      "y": 64.0
+    },
+    {
+      "celula": "C2R5",
+      "x": 477.5,
+      "y": 14.0
+    },
+    {
+      "celula": "C2R5",
+      "x": 477.5,
+      "y": 64.0
+    }
+  ],
+  "montagem_mastro_interface": [
+    [
+      -320,
+      -50
+    ],
+    [
+      -320,
+      50
+    ],
+    [
+      320,
+      -50
+    ],
+    [
+      320,
+      50
+    ]
+  ],
+  "recortes_N": {
+    "diametro": 16.5,
+    "entre_planos": 14,
+    "y": [
+      -24,
+      24
+    ],
+    "z": -40,
+    "x_plano": -524.3982297150258
+  },
+  "entrada_cabos_proposta_mm": 459.25,
+  "saidas_cabos_ensaio_mm": 50,
+  "rede_externa": "PENDENTE — 2 redes 1:10",
+  "material_fonte": "RO4350B 0.76 mm, Cu35um, ENIG, sem mascara RF; C12 sem alteracao",
+  "estado": "PRELIMINAR"
+}

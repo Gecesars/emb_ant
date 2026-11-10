@@ -1,0 +1,57 @@
+{
+  "aprovado": true,
+  "geometria_blocos": 362,
+  "geometria_materiais_fronteiras_malha_inalterados": true,
+  "alteracoes_setup": [
+    "MaximumPasses6->8",
+    "MinimumPasses2->8"
+  ],
+  "native_sha256": "25576a475eabe3df754250c881bd5ec9d89361772ec100b1166dc643716da20b",
+  "primeiros_seis_identicos": true,
+  "novos_passes": [
+    7,
+    8
+  ],
+  "historico": [
+    [
+      1,
+      284538,
+      null
+    ],
+    [
+      2,
+      331334,
+      1.5593
+    ],
+    [
+      3,
+      387440,
+      1.3615
+    ],
+    [
+      4,
+      454734,
+      0.72707
+    ],
+    [
+      5,
+      533814,
+      0.37242
+    ],
+    [
+      6,
+      626986,
+      0.1643
+    ],
+    [
+      7,
+      736245,
+      0.11051
+    ],
+    [
+      8,
+      864336,
+      0.050015
+    ]
+  ]
+}

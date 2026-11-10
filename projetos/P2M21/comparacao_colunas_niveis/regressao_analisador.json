@@ -1,0 +1,23 @@
+{
+  "aprovado": true,
+  "campos_comparados": [
+    "passes",
+    "delta_s",
+    "convergiu",
+    "VSWR_ativo",
+    "VSWR_casado",
+    "potencia_aceita_W",
+    "maior_singular",
+    "reciprocidade",
+    "cortes",
+    "grupos_polarizacao",
+    "recomposicao",
+    "potencia",
+    "fisica_ok",
+    "estavel_nove_sondas",
+    "validado_numericamente"
+  ],
+  "resultado_original_sha256": "a34620f6ef9a7493ff9f8701c6ba50fd59fb017bae2cc631c9fa567bf03471fd",
+  "resultado_reprocessado_sha256": "a34620f6ef9a7493ff9f8701c6ba50fd59fb017bae2cc631c9fa567bf03471fd",
+  "fonte_preservada": true
+}

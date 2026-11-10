@@ -1,0 +1,2471 @@
+{
+  "aprovado": true,
+  "objetos": 411,
+  "pares": 750,
+  "intersecoes": [],
+  "celulas": 10,
+  "solidos_copiados": [
+    {
+      "nome": "C1R1_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 1.8189894035458565e-12,
+      "faces": 16
+    },
+    {
+      "nome": "C1R1_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 3.1086244689504383e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R1_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 518
+    },
+    {
+      "nome": "C1R1_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C1R1_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 1.734723475976807e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C1R1_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 3.608224830031759e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R1_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R1_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R1_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R1_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 2.2898349882893854e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C1R1_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.1316282072803006e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C1R1_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 6.661338147750939e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R1_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R1_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 9.992007221626409e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R1_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 7.216449660063518e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R1_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 3.552713678800501e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C1R1_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 1.582067810090848e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.5681900222830336e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 2.7000623958883807e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R1_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R1_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C1R1_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 6.716849298982197e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R1_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 4.052314039881821e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R1_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 1.4921397450962104e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R1_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 8.526512829121202e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R1_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 8
+    },
+    {
+      "nome": "C1R1_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 7.494005416219807e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R1_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 4.218847493575595e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "faces": 16
+    },
+    {
+      "nome": "C1R2_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R2_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 4.263256414560601e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C1R2_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 1.4210854715202004e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C1R2_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 7.632783294297951e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C1R2_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R2_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R2_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R2_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C1R2_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 7.632783294297951e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C1R2_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 123
+    },
+    {
+      "nome": "C1R2_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 7.216449660063518e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R2_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1657341758564144e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C1R2_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C1R2_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 2.220446049250313e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R2_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 3.552713678800501e-15,
+      "faces": 95
+    },
+    {
+      "nome": "C1R2_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 6.245004513516506e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 6.38378239159465e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R2_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 8.810729923425242e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R2_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 5.684341886080802e-14,
+      "faces": 8
+    },
+    {
+      "nome": "C1R2_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 1.1102230246251565e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R2_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 2.609024107869118e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R2_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 5
+    },
+    {
+      "nome": "C1R2_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R2_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 5.684341886080802e-14,
+      "faces": 8
+    },
+    {
+      "nome": "C1R2_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 1.609823385706477e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R2_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 2.609024107869118e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "faces": 16
+    },
+    {
+      "nome": "C1R3_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R3_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 518
+    },
+    {
+      "nome": "C1R3_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 518
+    },
+    {
+      "nome": "C1R3_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C1R3_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C1R3_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C1R3_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C1R3_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 4.163336342344337e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C1R3_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 6.938893903907228e-18,
+      "faces": 126
+    },
+    {
+      "nome": "C1R3_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 3.552713678800501e-15,
+      "faces": 123
+    },
+    {
+      "nome": "C1R3_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R3_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1102230246251565e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R3_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.6653345369377348e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R3_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 1.6653345369377348e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R3_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.7763568394002505e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C1R3_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.3877787807814457e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 1.2789769243681803e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R3_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 3.979039320256561e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R3_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C1R3_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 5.551115123125783e-16,
+      "faces": 6
+    },
+    {
+      "nome": "C1R3_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R3_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 5
+    },
+    {
+      "nome": "C1R3_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 6
+    },
+    {
+      "nome": "C1R3_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C1R3_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 6
+    },
+    {
+      "nome": "C1R3_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "faces": 16
+    },
+    {
+      "nome": "C1R4_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 3.9968028886505635e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R4_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 518
+    },
+    {
+      "nome": "C1R4_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 1.4210854715202004e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C1R4_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.551115123125783e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C1R4_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C1R4_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R4_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R4_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R4_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.551115123125783e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C1R4_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.1316282072803006e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C1R4_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R4_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1657341758564144e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C1R4_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.27675647831893e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C1R4_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 7.216449660063518e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R4_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 95
+    },
+    {
+      "nome": "C1R4_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 6.38378239159465e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 6.245004513516506e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R4_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 8.242295734817162e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R4_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C1R4_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 1.1102230246251565e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R4_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 2.609024107869118e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R4_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 5
+    },
+    {
+      "nome": "C1R4_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R4_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 8
+    },
+    {
+      "nome": "C1R4_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 1.609823385706477e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R4_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 2.609024107869118e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 1.8189894035458565e-12,
+      "faces": 16
+    },
+    {
+      "nome": "C1R5_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 3.552713678800501e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C1R5_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 518
+    },
+    {
+      "nome": "C1R5_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 4.263256414560601e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C1R5_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 1.734723475976807e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C1R5_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R5_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R5_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R5_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.3306690738754696e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C1R5_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 2.2898349882893854e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C1R5_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 4.973799150320701e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C1R5_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 7.216449660063518e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R5_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R5_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 9.992007221626409e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R5_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 7.216449660063518e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C1R5_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 2.4868995751603507e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C1R5_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 1.5681900222830336e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.582067810090848e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 2.7000623958883807e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R5_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R5_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C1R5_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 6.716849298982197e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R5_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 4.052314039881821e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C1R5_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 1.4921397450962104e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C1R5_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 8.526512829121202e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C1R5_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 8
+    },
+    {
+      "nome": "C1R5_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 7.494005416219807e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C1R5_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 4.218847493575595e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 1.8189894035458565e-12,
+      "faces": 16
+    },
+    {
+      "nome": "C2R1_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 3.552713678800501e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R1_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 518
+    },
+    {
+      "nome": "C2R1_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 4.263256414560601e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R1_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 1.457167719820518e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C2R1_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 3.608224830031759e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R1_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R1_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R1_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R1_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 2.42861286636753e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C2R1_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 3.197442310920451e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C2R1_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 7.216449660063518e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R1_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 8.326672684688674e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R1_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.0547118733938987e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C2R1_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 7.771561172376096e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R1_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.7763568394002505e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C2R1_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 1.582067810090848e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.5681900222830336e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 1.4921397450962104e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R1_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 9.094947017729282e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R1_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 8
+    },
+    {
+      "nome": "C2R1_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 7.438494264988549e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R1_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 3.941291737419306e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R1_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 2.7000623958883807e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R1_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 3.694822225952521e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R1_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C2R1_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 6.827871601444713e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R1_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 4.218847493575595e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "faces": 16
+    },
+    {
+      "nome": "C2R2_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R2_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 2.1316282072803006e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R2_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 518
+    },
+    {
+      "nome": "C2R2_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 8.326672684688674e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C2R2_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R2_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R2_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R2_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C2R2_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 6.245004513516506e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C2R2_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 123
+    },
+    {
+      "nome": "C2R2_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 7.771561172376096e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R2_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1657341758564144e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C2R2_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.1657341758564144e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C2R2_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 2.7755575615628914e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R2_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.7763568394002505e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C2R2_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 6.245004513516506e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 6.38378239159465e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 5
+    },
+    {
+      "nome": "C2R2_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 2.5579538487363607e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R2_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 5.684341886080802e-14,
+      "faces": 8
+    },
+    {
+      "nome": "C2R2_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 1.609823385706477e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R2_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R2_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R2_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 7.958078640513122e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R2_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C2R2_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 1.1102230246251565e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R2_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 2.3869795029440866e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "faces": 16
+    },
+    {
+      "nome": "C2R3_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R3_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R3_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 1.4210854715202004e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R3_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 1.3877787807814457e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C2R3_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C2R3_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C2R3_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C2R3_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 4.163336342344337e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C2R3_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 2.0816681711721685e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C2R3_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C2R3_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 2.7755575615628914e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R3_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 5.551115123125783e-17,
+      "faces": 15
+    },
+    {
+      "nome": "C2R3_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.6653345369377348e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R3_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 2.220446049250313e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R3_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.7763568394002505e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C2R3_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.3877787807814457e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 5
+    },
+    {
+      "nome": "C2R3_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 6
+    },
+    {
+      "nome": "C2R3_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C2R3_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 6
+    },
+    {
+      "nome": "C2R3_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R3_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 1.2789769243681803e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R3_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 3.979039320256561e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R3_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C2R3_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 5.551115123125783e-16,
+      "faces": 6
+    },
+    {
+      "nome": "C2R3_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 1.6653345369377348e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "faces": 16
+    },
+    {
+      "nome": "C2R4_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 0.0,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 3.552713678800501e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R4_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R4_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 1.4210854715202004e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R4_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 8.326672684688674e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C2R4_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 2.7755575615628914e-17,
+      "faces": 8
+    },
+    {
+      "nome": "C2R4_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R4_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 2.0816681711721685e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R4_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R4_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 6.245004513516506e-17,
+      "faces": 126
+    },
+    {
+      "nome": "C2R4_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C2R4_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 3.3306690738754696e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R4_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1657341758564144e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C2R4_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.27675647831893e-15,
+      "faces": 15
+    },
+    {
+      "nome": "C2R4_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 7.771561172376096e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R4_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 3.552713678800501e-15,
+      "faces": 95
+    },
+    {
+      "nome": "C2R4_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 0.0,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 6.38378239159465e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 9.71445146547012e-17,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 6.245004513516506e-16,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 5
+    },
+    {
+      "nome": "C2R4_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 3.126388037344441e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R4_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 8
+    },
+    {
+      "nome": "C2R4_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 1.609823385706477e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R4_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R4_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R4_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 7.958078640513122e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R4_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C2R4_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 1.1102230246251565e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R4_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 2.3869795029440866e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 1.8189894035458565e-12,
+      "faces": 16
+    },
+    {
+      "nome": "C2R5_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 2.6645352591003757e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "faces": 18
+    },
+    {
+      "nome": "C2R5_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "faces": 518
+    },
+    {
+      "nome": "C2R5_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14,
+      "faces": 518
+    },
+    {
+      "nome": "C2R5_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 1.3877787807814457e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C2R5_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 3.469446951953614e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R5_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R5_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 7.077671781985373e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R5_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.3306690738754696e-16,
+      "faces": 8
+    },
+    {
+      "nome": "C2R5_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 2.3592239273284576e-16,
+      "faces": 126
+    },
+    {
+      "nome": "C2R5_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 6.039613253960852e-14,
+      "faces": 123
+    },
+    {
+      "nome": "C2R5_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 7.771561172376096e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R5_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 9.43689570931383e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R5_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 9.43689570931383e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R5_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 7.771561172376096e-16,
+      "faces": 15
+    },
+    {
+      "nome": "C2R5_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.7763568394002505e-14,
+      "faces": 95
+    },
+    {
+      "nome": "C2R5_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 1.5681900222830336e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 2.7478019859472624e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.582067810090848e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.7755575615628914e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.8033131371785203e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 1.4921397450962104e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R5_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 9.094947017729282e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R5_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "faces": 8
+    },
+    {
+      "nome": "C2R5_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 7.438494264988549e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R5_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 3.941291737419306e-15,
+      "faces": 4
+    },
+    {
+      "nome": "C2R5_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 2.7000623958883807e-13,
+      "faces": 5
+    },
+    {
+      "nome": "C2R5_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 3.694822225952521e-13,
+      "faces": 6
+    },
+    {
+      "nome": "C2R5_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 0.0,
+      "faces": 8
+    },
+    {
+      "nome": "C2R5_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 6.827871601444713e-15,
+      "faces": 6
+    },
+    {
+      "nome": "C2R5_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 4.218847493575595e-15,
+      "faces": 4
+    }
+  ],
+  "folga_placas_lateral_mm": 8,
+  "folga_placas_vertical_mm": 8
+}

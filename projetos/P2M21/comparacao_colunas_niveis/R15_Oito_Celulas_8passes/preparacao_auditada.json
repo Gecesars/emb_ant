@@ -1,0 +1,33 @@
+{
+  "aprovado": true,
+  "geometria_blocos": 362,
+  "geometria_materiais_fronteiras_malha_inalterados": true,
+  "alteracoes_setup": [
+    "MaximumPasses6->8",
+    "MinimumPasses2->8"
+  ],
+  "native_sha256": "4a00f21eda52e6f2f45cc312c07ab797181d6dcf3314898ffbd4ddf387ad2dbb",
+  "cache_malha_campos_preservados": [
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S139_ADP6_V0.sd/native.adp",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S139_V0.cmesh/current.ngmesh",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.evtrs",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.imp",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_0",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_1",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_10",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_11",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_12",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_13",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_14",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_15",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_2",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_3",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_4",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_5",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_6",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_7",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_8",
+    "P2M21_8celulas.aedtresults/Oito_celulas.results/DV142_S141_V0_F245/fields.sf_fld_9"
+  ],
+  "historico6_preservado": true
+}

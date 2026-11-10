@@ -1,0 +1,18 @@
+{
+  "aprovado": true,
+  "observacao": "Todas as figuras revisadas visualmente: titulos, eixos, normalizacao E/Emax, VSWR, avisos de nao convergencia e legendas legiveis; nenhum corte de conteudo.",
+  "arquivos": [
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "8d2e1a2c94f86ac1e280f49b1b49a44eabe1de930b6c27347d2756ce717b2e1e"
+    },
+    {
+      "arquivo": "acoplamento_vswr.png",
+      "sha256": "9695d9c42c44371b77d07f78f2858ef559f5db945d61641e459742f05ed08d1c"
+    },
+    {
+      "arquivo": "comparacao_diagramas.png",
+      "sha256": "812f156a50ec0b3d0c3c518e4d6d3a855a9ff8f6eb815fecccb7ff03b624c606"
+    }
+  ]
+}

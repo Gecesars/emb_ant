@@ -1,8 +1,8 @@
 """Copia os solidos C12 sem remodelar o cobre; refletor comum e 16 coaxiais."""
 from pathlib import Path
-import json,hashlib
+import json,hashlib,os
 import FreeCAD as A,Part,Import
-ROOT=Path('D:/dev/EMBRAER/P2M21/R14_Oito_Celulas')
+ROOT=Path(os.environ.get('P2M21_OITO_ROOT','D:/dev/EMBRAER/P2M21/R14_Oito_Celulas'))
 cfg=json.loads((ROOT/'configuracao.json').read_text())
 SRC=Path(cfg['fonte']);out=ROOT/'cad';out.mkdir(exist_ok=True)
 assert hashlib.sha256((SRC/'4_elementos.FCStd').read_bytes()).hexdigest()==cfg['fontes_sha256']['4_elementos.FCStd']
@@ -28,11 +28,12 @@ for c in cfg['celulas']:
         assert len(sh.Faces)==len(orig.Faces) and abs(sh.Area-orig.Area)<1e-7
         identity.append(dict(nome=name,origem=n,delta_volume_mm3=dv,faces=len(sh.Faces)))
         if n in records:rec[name]={k:v for k,v in records[n].items() if not k.startswith('faces_')}
-ref=Part.makeBox(776,162,2,A.Vector(-388,-81,-2))
+rw,rh,rt=cfg['refletor_mm']
+ref=Part.makeBox(rh,rw,rt,A.Vector(-rh/2,-rw/2,-rt))
 for p in cfg['portas']:
-    ref=ref.cut(Part.makeCylinder(2.1,2,A.Vector(p['x'],p['y'],-2)))
+    ref=ref.cut(Part.makeCylinder(2.1,rt,A.Vector(p['x'],p['y'],-rt)))
 add('Refletor_Al2mm',ref,'AL5052')
-d.recompute();native=ROOT/'P2M21_8celulas.FCStd';d.saveAs(str(native))
+d.recompute();native=ROOT/cfg.get('cad_native','P2M21_8celulas.FCStd');d.saveAs(str(native))
 objs=[d.getObject(n) for n in man];bad=[];tested=0
 for i,a in enumerate(objs):
     ba=a.Shape.BoundBox
@@ -42,9 +43,9 @@ for i,a in enumerate(objs):
         tested+=1;vol=a.Shape.common(b.Shape).Volume
         if vol>1e-7:bad.append(dict(a=a.Name,b=b.Name,volume_mm3=vol))
         if tested%100==0:print('PARES',tested,flush=True)
-assert len(man)==329 and len(rec)==len(records)*8 and len(cfg['portas'])==16
+assert len(man)==(len(materials)-1)*len(cfg['celulas'])+1 and len(rec)==len(records)*len(cfg['celulas']) and len(cfg['portas'])==2*len(cfg['celulas'])
 report=dict(aprovado=not bad,objetos=len(man),pares=tested,intersecoes=bad,
-    celulas=8,solidos_copiados=identity,folga_placas_lateral_mm=2,folga_placas_vertical_mm=8)
+    celulas=len(cfg['celulas']),solidos_copiados=identity,folga_placas_lateral_mm=cfg['folga_placas_horizontal_mm'],folga_placas_vertical_mm=cfg['folga_placas_vertical_mm'])
 for n,v in [('manifesto',man),('folhas_solidas',rec),('portas',cfg['portas']),('intersecoes',report)]:
     (out/(n+'.json')).write_text(json.dumps(v,indent=2)+'\n',encoding='utf-8')
 assert not bad,bad

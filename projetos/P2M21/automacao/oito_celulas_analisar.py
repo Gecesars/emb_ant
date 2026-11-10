@@ -1,6 +1,6 @@
 """Conferencia das 16 portas, campos complexos e comparacao com R04/C12."""
 from pathlib import Path
-import json,csv,re,sys
+import json,csv,re,sys,os
 import numpy as np
 import skrf as rf
 from scipy.signal import find_peaks
@@ -13,7 +13,7 @@ REPO=Path(__file__).resolve().parents[3]
 sys.path.insert(0,str(REPO/'automacao/r05'));sys.path.insert(0,str(REPO/'automacao/r06'))
 from rede_carregada import read_pattern,beam
 from auditar_malha import audit
-ROOT=Path('D:/dev/EMBRAER/P2M21/R14_Oito_Celulas')
+ROOT=Path(os.environ.get('P2M21_OITO_ROOT','D:/dev/EMBRAER/P2M21/R14_Oito_Celulas'))
 def save(n,data):(ROOT/n).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def sll(theta,gain):
     front=np.flatnonzero(abs(theta)<=90);peak=front[np.argmax(gain[front])]
@@ -30,17 +30,38 @@ def main():
     assert state['estado'] in ['SOLVE_EXPORTADO_AGUARDA_AUDITORIA','ANALISE_CONCLUIDA']
     conv=(ROOT/'convergencia.txt').read_text();integer=lambda p:int(re.search(p,conv)[1])
     passes=integer(r'Completed\s*:\s*(\d+)');consec=integer(r'Current Consecutive Passes\s*:\s*(\d+)')
-    assert integer(r'Maximum\s*:\s*(\d+)')==6 and passes<=6
-    prog=progress();history=prog['historico'];save('historico_passes.json',prog)
+    assert integer(r'Maximum\s*:\s*(\d+)')==cfg['max_passes'] and passes<=cfg['max_passes']
+    prog=progress(ROOT);history=prog['historico'];save('historico_passes.json',prog)
     assert len(history)==passes
-    delta=history[-1]['delta_s'];converged='Converged : Yes' in conv and delta<=.05 and consec>=2 and passes>=2
+    delta=history[-1]['delta_s'];converged='Converged : Yes' in conv and delta<=cfg['max_delta_s'] and consec>=cfg['passes_consecutivos'] and passes>=cfg['min_passes']
+    count=len(cfg['portas']);cells=len(cfg['celulas']);label=cfg['revisao']
     native=(ROOT/cfg['native']).read_text(errors='replace');entries=re.findall(r'SourceEntry\([^\n]+',native)
-    assert len(entries)==16 and all("Magnitude='0.0625W'" in x and "Phase='0deg'" in x for x in entries)
-    profiles=list(ROOT.rglob('*.profile'));assert len(profiles)==1
+    assert len(entries)==count and all(("Magnitude='%.12gW'"%(1/count)) in x and "Phase='0deg'" in x for x in entries)
+    profiles=list((ROOT/cfg['native']).with_suffix('.aedtresults').rglob('*.profile'))
+    profile_selection='unico_perfil'
+    if len(profiles)>1:
+        all_profiles=list(profiles)
+        selected=[]
+        for path in profiles:
+            metadata=path.with_suffix('.EMConvData')
+            if not metadata.exists():continue
+            text=metadata.read_text()
+            if ("MaxPasses='%d'"%cfg['max_passes']) in text and ("MinPasses='%d'"%cfg['min_passes']) in text and abs(float(re.search(r"ConvTarget='([^']+)'",text)[1])-cfg['max_delta_s'])<1e-12:selected.append(path)
+        profile_selection='criterios_do_EMConvData_correspondente'
+        if not selected:
+            # Algumas releases numeram profile/EMConvData diferentemente.
+            # O historico completo e inequívoco 1..N identifica a continuacao;
+            # alvo/min/max foram conferidos separadamente no export e EMConvData.
+            for path in all_profiles:
+                records=profile_matrix_solves(path.read_text(errors='replace'))
+                if [r['passe_adaptativo'] for r in records if r['passe_adaptativo'] is not None]==list(range(1,passes+1)):selected.append(path)
+            profile_selection='historico_adaptativo_completo_1_a_N'
+        profiles=selected
+    assert len(profiles)==1,profiles
     profile_text=profiles[0].read_text(errors='replace')
     recs=profile_matrix_solves(profile_text)
     fallback_warning='Matrix solver warning: Slow convergence, switch from Iterative Solver to Direct Solver'
-    solver_evidence=dict(configurado='Iterativo, residual 1e-5',
+    solver_evidence=dict(configurado='Iterativo, residual 1e-5',perfil=str(profiles[0]),selecao_perfil=profile_selection,
         avisos_troca_automatica_direto=profile_text.count(fallback_warning),
         aviso=fallback_warning if fallback_warning in profile_text else None,
         registros_matriz=recs)
@@ -49,16 +70,16 @@ def main():
     assert [x['passe_adaptativo'] for x in adap]==list(range(1,passes+1)) and all(x['nucleos']==14 for x in adap)
     save('recursos_matriz.json',recs)
     mesh=audit(ROOT);save('malha.json',mesh)
-    n=rf.Network(str(ROOT/'centro.s16p'));assert n.nports==16 and len(n.f)==1 and n.f[0]==5.17e9
+    n=rf.Network(str(ROOT/('centro.s%dp'%count)));assert n.nports==count and len(n.f)==1 and n.f[0]==5.17e9
     np.testing.assert_allclose(n.z0,50)
     names=[x.strip().removesuffix(':1') for x in n.port_names]
     assert set(names)==set(p['name'] for p in cfg['portas'])
-    s=n.s[0];inc=np.ones(16)/4;ref=s@inc;gamma=ref/inc;accept=float(1-np.sum(abs(ref)**2))
+    s=n.s[0];inc=np.ones(count)/np.sqrt(count);ref=s@inc;gamma=ref/inc;accept=float(1-np.sum(abs(ref)**2))
     def vs(z):
         return [(float((1+abs(v))/(1-abs(v))) if abs(v)<1 else None) for v in z]
     sigma=float(np.linalg.svd(s,compute_uv=False)[0]);recip=float(abs(s-s.T).max())
-    result=dict(frequencia_GHz=5.17,radiadores=32,celulas=8,portas=16,potencia_total_W=1,potencia_por_porta_W=.0625,fase_graus=0,
-        passes=passes,max_passes=6,delta_s=delta,alvo_delta_s=.05,consecutivos=consec,convergiu=converged,nucleos=14,solver_efetivo=solver_evidence,
+    result=dict(frequencia_GHz=5.17,radiadores=cfg['radiadores'],celulas=cells,portas=count,potencia_total_W=1,potencia_por_porta_W=1/count,fase_graus=0,
+        passes=passes,max_passes=cfg['max_passes'],delta_s=delta,alvo_delta_s=cfg['max_delta_s'],consecutivos=consec,convergiu=converged,nucleos=14,solver_efetivo=solver_evidence,
         ordem_portas=names,VSWR_ativo=vs(gamma),VSWR_casado=vs(np.diag(s)),potencia_aceita_W=accept,
         maior_singular=sigma,reciprocidade=recip,major=mesh['reparos_major'],minor=mesh['reparos_minor'],cortes={},grupos_polarizacao={},recomposicao={},potencia={},historico_cache=history[-2:])
     curves={};oldcurves={};old=REPO/cfg['referencia_historica']/'resultados'
@@ -67,12 +88,12 @@ def main():
         fields=[]
         for name in names:
             ti,ei=read_pattern(ROOT/(name+'_'+axis+'.csv'));np.testing.assert_array_equal(t,ti);fields.append(ei)
-        recomposed=np.sum(fields,axis=0)/4;err=float(np.max(abs(recomposed-e))/np.max(abs(e)))
+        recomposed=np.sum(fields,axis=0)/np.sqrt(count);err=float(np.max(abs(recomposed-e))/np.max(abs(e)))
         result['recomposicao'][axis]=err;assert err<1e-7
         result['cortes'][axis]=metrics(t,gain)
         for pol in 'AB':
             tp,ep=read_pattern(ROOT/('POL_'+pol+'_'+axis+'.csv'));np.testing.assert_array_equal(t,tp)
-            expected=sum(fields[i] for i,name in enumerate(names) if name.endswith('_'+pol))/np.sqrt(8)
+            expected=sum(fields[i] for i,name in enumerate(names) if name.endswith('_'+pol))/np.sqrt(count/2)
             assert np.max(abs(expected-ep))/np.max(abs(ep))<1e-7
             gp=10*np.log10(np.sum(abs(ep)**2,axis=1));result['grupos_polarizacao'].setdefault(pol,{})[axis]=metrics(t,gp)
         with (ROOT/('ALL_'+axis+'.csv')).open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
@@ -94,15 +115,15 @@ def main():
     save('resultado.json',result)
     fig,(ax,axv)=plt.subplots(1,2,figsize=(14,6.3),gridspec_kw={'width_ratios':[1.05,1]})
     im=ax.imshow(20*np.log10(np.maximum(abs(s),1e-12)),vmin=-60,vmax=0,cmap='viridis')
-    ax.set_xticks(range(16),names,rotation=90,fontsize=7);ax.set_yticks(range(16),names,fontsize=7)
+    ax.set_xticks(range(count),names,rotation=90,fontsize=7);ax.set_yticks(range(count),names,fontsize=7)
     ax.set_title('Matriz S: dB; referencia de 50 ohms')
     fig.colorbar(im,ax=ax,fraction=.046,pad=.04,label='dB')
-    ix=np.arange(16)
-    axv.bar(ix-.18,[x if x is not None else np.nan for x in result['VSWR_ativo']],width=.36,label='16 entradas ativas')
+    ix=np.arange(count)
+    axv.bar(ix-.18,[x if x is not None else np.nan for x in result['VSWR_ativo']],width=.36,label=f'{count} entradas ativas')
     axv.bar(ix+.18,[x if x is not None else np.nan for x in result['VSWR_casado']],width=.36,label='Outras entradas casadas')
     axv.set_xticks(ix,names,rotation=90,fontsize=7);axv.set_ylabel('VSWR');axv.set_ylim(bottom=1)
     axv.legend(fontsize=8);axv.grid(axis='y',alpha=.25)
-    fig.suptitle('R14 — 5,17 GHz — acoplamento e casamento das 16 conexoes\n'+('Convergencia DeltaS atendida' if converged else 'PRELIMINAR: NAO CONVERGIDO'))
+    fig.suptitle(f'{label} — 5,17 GHz — acoplamento e casamento das {count} conexoes\n'+('Convergencia DeltaS atendida' if converged else 'PRELIMINAR: NAO CONVERGIDO'))
     fig.tight_layout(rect=(0,0,1,.91));fig.savefig(ROOT/'acoplamento_vswr.png',dpi=175);plt.close(fig)
     status='Convergencia DeltaS atendida' if converged else 'PRELIMINAR: NAO CONVERGIDO'
     if not result['fisica_ok']:status+='; ressalva fisica'
@@ -111,7 +132,7 @@ def main():
     for ax,axis in zip(axs,'HV'):
         t,g=curves[axis];to,go=oldcurves[axis]
         est=np.genfromtxt(ROOT/('estimativa_'+axis+'.csv'),delimiter=',',skip_header=1)
-        ax.plot(t,g,label='R14: oito celulas, 48 x 72 mm',lw=1.7)
+        ax.plot(t,g,label=f"{cells} celulas, 48 x {cfg['passo_horizontal_mm']} mm; {passes} passes",lw=1.7)
         ax.plot(to,go,ls='--',color='#999',label='R04: individuais, 52,6 x 40 mm; nao convergido')
         ax.plot(est[:,0],est[:,1],ls=':',color='#c0731d',label='C12 isolada + AF; sem acoplamento')
         ax.set(xlim=(-90,90),ylim=(-20,26),xlabel='Angulo (graus)',ylabel='Ganho realizado total (dBi)',title=axis)
@@ -125,11 +146,11 @@ def main():
         ax.plot(np.deg2rad(t),10**((g-g.max())/20));ax.set_theta_zero_location('N');ax.set_theta_direction(-1)
         ax.set_ylim(0,1.05);ax.set_rticks([.25,.5,.75,1]);ax.set_rlabel_position(75)
         ax.set_title(f"{axis}: pico {c['pico_graus']:+.2f} graus; abertura {c['abertura_graus']:.2f} graus",pad=22,fontsize=10)
-    fig.suptitle('R14 — oito celulas C12 — polar E/Emax — 5,17 GHz\n'+status)
-    fig.text(.5,.04,f"14 nucleos | {passes} passes | DeltaS {delta:.6f} | 16 portas de 0,0625 W / 0 graus",ha='center')
+    fig.suptitle(f'{label} — polar E/Emax — 5,17 GHz\n'+status)
+    fig.text(.5,.04,f"14 nucleos | {passes} passes | DeltaS {delta:.6f} | {count} portas de {1/count:.4g} W / 0 graus",ha='center')
     fig.subplots_adjust(top=.77,bottom=.16,wspace=.3);fig.savefig(ROOT/'polar_HV.png',dpi=175);plt.close(fig)
     table=[]
-    for label,c in [('R14_8celulas',result['cortes']),('R04_individuais_nao_convergido',{a:metrics(*oldcurves[a]) for a in 'HV'})]:
+    for label,c in [(label,result['cortes']),('R04_individuais_nao_convergido',{a:metrics(*oldcurves[a]) for a in 'HV'})]:
         table.append(dict(versao=label,ganho_dBi=c['H']['ganho_frontal_dBi'],H_graus=c['H']['abertura_graus'],V_graus=c['V']['abertura_graus'],picoH_graus=c['H']['pico_graus'],picoV_graus=c['V']['pico_graus']))
     save('comparacao.json',table)
     with (ROOT/'comparacao.csv').open('w',encoding='utf-8',newline='') as f:

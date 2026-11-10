@@ -1,0 +1,16 @@
+{
+  "metodo": "Campos complexos da C12 isolada x AF / sqrt(8); sem acoplamento entre celulas, sem efeito do novo refletor comum.",
+  "validacao": false,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 21.487482137127504,
+      "pico_graus": 0.0,
+      "abertura_graus": 20.705070835303637
+    },
+    "V": {
+      "ganho_frontal_dBi": 21.487482137127504,
+      "pico_graus": 0.0,
+      "abertura_graus": 3.8134309378322504
+    }
+  }
+}

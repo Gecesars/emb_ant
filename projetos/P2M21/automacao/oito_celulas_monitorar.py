@@ -1,8 +1,9 @@
 """Leitura somente dos metadados de adaptacao R14; nao conecta ao solver."""
 from pathlib import Path
-import json,re
+import json,re,os
 ROOT=Path('D:/dev/EMBRAER/P2M21/R14_Oito_Celulas')
-def progress():
+def progress(root=None):
+    ROOT=Path(root or os.environ.get('P2M21_OITO_ROOT',str(globals()['ROOT'])))
     cfg=json.loads((ROOT/'configuracao.json').read_text());native=(ROOT/cfg['native']).read_text(errors='replace')
     results=(ROOT/cfg['native']).with_suffix('.aedtresults');found=[]
     for path in results.rglob('*.EMConvData'):

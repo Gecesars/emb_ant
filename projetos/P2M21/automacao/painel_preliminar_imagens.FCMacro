@@ -1,0 +1,57 @@
+import FreeCAD as A, FreeCADGui as G, json, math, traceback
+from pathlib import Path
+from PySide import QtCore
+root=Path('D:/dev/EMBRAER/P2M21/R18_Mecanica_Preliminar')
+out=root/'imagens';out.mkdir(exist_ok=True)
+def run():
+ try:
+  d=A.openDocument(str(root/'P2M21_R18_PRELIMINAR.FCStd'));A.setActiveDocument(d.Name)
+  colors=json.loads((root/'cores.json').read_text())
+  for n,col in colors.items():
+   o=d.getObject(n)
+   if o and o.isDerivedFrom('Part::Feature'):
+    o.ViewObject.ShapeColor=tuple(col);o.ViewObject.LineColor=(.16,.18,.20);o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.LineWidth=.7
+  for o in d.Objects:
+   if 'Blindagem' in o.Name:o.ViewObject.ShapeColor=(.70,.43,.20)
+  d.getObject('Reserva_distribuicao_2x10').ViewObject.Transparency=88
+  def visible(pred):
+   for o in d.Objects:
+    if o.isDerivedFrom('Part::Feature'):o.ViewObject.Visibility=pred(o.Name)
+   G.updateGui()
+  def shot(name,target,right,up,back,height,w=2000,h=1100):
+   m=A.Matrix();m.A11,m.A21,m.A31=right;m.A12,m.A22,m.A32=up;m.A13,m.A23,m.A33=back
+   rot=A.Rotation(m);axis=rot.Axis;ang=rot.Angle
+   pos=A.Vector(*target)+rot.multVec(A.Vector(0,0,2000))
+   view=G.activeDocument().activeView()
+   view.setCamera('#Inventor V2.1 ascii\nOrthographicCamera { viewportMapping ADJUST_CAMERA position %g %g %g orientation %g %g %g %g nearDistance 1 farDistance 5000 aspectRatio %g focalDistance 2000 height %g }'%(pos.x,pos.y,pos.z,axis.x,axis.y,axis.z,ang,w/h,height))
+   G.updateGui();view.saveImage(str(out/(name+'.png')),w,h,'White')
+  # X vertical no produto; as imagens panoramicas usam X horizontal para detalhe.
+  visible(lambda n:n!='Reserva_distribuicao_2x10')
+  shot('frente',(0,0,0),(0,-1,0),(1,0,0),(0,0,1),530,1000,2000)
+  a=math.radians(28);b=math.radians(18)
+  rot=A.Rotation(A.Vector(1,0,0),28).multiply(A.Rotation(A.Vector(0,1,0),18))
+  rx=rot.multVec(A.Vector(1,0,0));uy=rot.multVec(A.Vector(0,1,0));bz=rot.multVec(A.Vector(0,0,1))
+  shot('isometrica_frontal',(-10,0,-10),(rx.x,rx.y,rx.z),(uy.x,uy.y,uy.z),(bz.x,bz.y,bz.z),280,2400,600)
+  visible(lambda n:True)
+  shot('traseira_reserva',(-10,0,-20),(0,1,0),(1,0,0),(0,0,-1),530,1000,2000)
+  visible(lambda n:n!='Reserva_distribuicao_2x10')
+  shot('base_conectores',(-470,0,-30),(0,1,0),(.8,0,.6),(.6,0,-.8),140,1800,1300)
+  visible(lambda n:n.startswith(('C1R3','Grampo_09','Grampo_10','Grampo_11','Grampo_12')) or n=='Refletor_Al2mm')
+  shot('fixacao_pom',(-92,-64,12),(0,-1,0),(.8,0,.6),(-.6,0,.8),34,1800,1200)
+  visible(lambda n:n=='Grampo_09' or n.endswith('_09') and n.startswith(('Parafuso','Arruelas','Porca')))
+  shot('grampo_isolado',(-93.5,-64,7),(0,-1,0),(.8,0,.6),(-.6,0,.8),33,1400,1400)
+  visible(lambda n:n.startswith('C1R3'))
+  shot('pcb_frente',(0,-39,15),(1,0,0),(0,1,0),(0,0,1),90,2200,1000)
+  shot('pcb_verso',(0,-39,15),(1,0,0),(0,-1,0),(0,0,-1),90,2200,1000)
+  visible(lambda n:n.startswith('N_A'))
+  shot('conector_3d',(-480,-24,-40),(.8,.6,0),(-.3,.4,.8660254),(.519615,-.69282,.5),44,1600,1300)
+  visible(lambda n:n=='Refletor_Al2mm')
+  shot('refletor_dobrado',(-10,0,-10),(rx.x,rx.y,rx.z),(uy.x,uy.y,uy.z),(bz.x,bz.y,bz.z),280,2400,600)
+  visible(lambda n:n!='Reserva_distribuicao_2x10')
+  G.activeDocument().activeView().viewAxonometric();G.activeDocument().activeView().fitAll();d.recompute();d.save()
+  (root/'imagens_concluidas.json').write_text(json.dumps(dict(estado='RENDERIZADO_AGUARDA_REVISAO',arquivos=sorted(p.name for p in out.glob('*.png'))),indent=2))
+ except:
+  (root/'erro_imagens.txt').write_text(traceback.format_exc())
+ finally:
+  G.getMainWindow().close()
+QtCore.QTimer.singleShot(1500,run)

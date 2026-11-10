@@ -1,0 +1,79 @@
+{
+  "aprovado": true,
+  "escopo": "Revisao visual das 10 paginas A4, 3 pranchas A3 e 12 imagens. Sem cortes, sobreposicoes ou tabelas quebradas. Conteudo preliminar, nao aprovacao de engenharia.",
+  "data": "2026-11-10T14:45:12.496716-03:00",
+  "arquivos": [
+    {
+      "arquivo": "P2M21_R18_Desenhos_PRELIMINARES_A3.pdf",
+      "bytes": 232424,
+      "sha256": "ee0f168601dfa93c219affe9514c2e0ddbc31c061f61b354a595a8a5f52fb67f",
+      "paginas": 3
+    },
+    {
+      "arquivo": "P2M21_R18_Documentacao_PRELIMINAR.pdf",
+      "bytes": 893347,
+      "sha256": "0a571a985b92f80f2df1debc49e7e4d322e1712d470106f9e66efaf1d7beb8e2",
+      "paginas": 10
+    },
+    {
+      "arquivo": "imagens/base_conectores.png",
+      "bytes": 45454,
+      "sha256": "2bf2a2da44fd1b926b3bda7d6212afbd807a5f7daf3036f5bbae8562afbc78e4"
+    },
+    {
+      "arquivo": "imagens/cabo_secao.png",
+      "bytes": 60019,
+      "sha256": "3ea93a25c21b1b30ccd5307830ffbe1acc89e27118991510bba1ceeb5b642d4a"
+    },
+    {
+      "arquivo": "imagens/chapa_plana.png",
+      "bytes": 59545,
+      "sha256": "43f4735cc19d41a4c048af824b1ed682f76b9342dc7575b9705328c03a1438a0"
+    },
+    {
+      "arquivo": "imagens/conector_3d.png",
+      "bytes": 170967,
+      "sha256": "973affea630cc107d479ff7c558dcfd852d5b0fdfbfee5342e296e850d2ff8e7"
+    },
+    {
+      "arquivo": "imagens/fixacao_pom.png",
+      "bytes": 12602,
+      "sha256": "afc970b354b11af2fae6e27370737a861cf715b2cd1a615042dd46e85853a4c9"
+    },
+    {
+      "arquivo": "imagens/frente.png",
+      "bytes": 35850,
+      "sha256": "ae8acc9a31069d8c8dfe2735b4816183d96d8409f961b37f9875542bdf3bbf4d"
+    },
+    {
+      "arquivo": "imagens/grampo_isolado.png",
+      "bytes": 17614,
+      "sha256": "12849a4a2b805cda08f72b878a4ba104b5cc8bd2a1f86795c54a65c1e3667c9f"
+    },
+    {
+      "arquivo": "imagens/isometrica_frontal.png",
+      "bytes": 42097,
+      "sha256": "069e751c341cfceb0516bc3640be55170f32cbf29b37f739d2e4123b96dc4669"
+    },
+    {
+      "arquivo": "imagens/pcb_frente.png",
+      "bytes": 14838,
+      "sha256": "26ba2d2ea8d289d99cd1a8068417dfb5ed95c547f2fcd5c151c943a5d69a8e41"
+    },
+    {
+      "arquivo": "imagens/pcb_verso.png",
+      "bytes": 22218,
+      "sha256": "49eab2a6f6449593e15957519c23be2b9bc9b1cff328a0681bd1fc0fd3c9a822"
+    },
+    {
+      "arquivo": "imagens/refletor_dobrado.png",
+      "bytes": 16390,
+      "sha256": "93f553902c76a54a724859d124f7f247ff7fb8b7158d304dbbe9f7c224e8ac56"
+    },
+    {
+      "arquivo": "imagens/traseira_reserva.png",
+      "bytes": 20104,
+      "sha256": "324fe9f4f56c064ac67232333933ae6b304f3f3d2de69a038818ed8d1e768672"
+    }
+  ]
+}

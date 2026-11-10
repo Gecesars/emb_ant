@@ -1,0 +1,86 @@
+[
+  {
+    "item": "01",
+    "componente": "PCB 4_elementos / C12",
+    "quantidade": "10 un",
+    "especificacao": "RO4350B, núcleo 0,76 mm; 70 × 184 mm; Cu 35 µm/face, ENIG. Dois 1:4 por placa.",
+    "estado": "Geometria RF e KiCad preservada"
+  },
+  {
+    "item": "02",
+    "componente": "Refletor com base dobrada",
+    "quantidade": "1 un",
+    "especificacao": "Alumínio 5052, 2 mm. Face 968 × 162 mm; dobra a 90°, Ri 2 mm.",
+    "estado": "Têmpera, acabamento e K da dobra a confirmar"
+  },
+  {
+    "item": "03",
+    "componente": "Grampo isolante de borda",
+    "quantidade": "40 un",
+    "especificacao": "POM natural; largura 5 mm; apoio a 14,949 mm. Quatro por PCB, sem furar o laminado.",
+    "estado": "Usinagem proposta; ajustar folga à espessura real"
+  },
+  {
+    "item": "04",
+    "componente": "Parafuso M2 × 25",
+    "quantidade": "40 un",
+    "especificacao": "Inox A2; cabeça cilíndrica. Rosca simplificada no CAD.",
+    "estado": "Dimensões e aperto a confirmar no protótipo"
+  },
+  {
+    "item": "05",
+    "componente": "Porca M2",
+    "quantidade": "40 un",
+    "especificacao": "Inox A2; envelope de 1,6 mm de altura no CAD.",
+    "estado": "Selecionar catálogo antes da compra"
+  },
+  {
+    "item": "06",
+    "componente": "Arruela M2",
+    "quantidade": "80 un",
+    "especificacao": "Inox A2; referência geométrica Ø4 / Ø2,2 × 0,5 mm.",
+    "estado": "Duas por fixação"
+  },
+  {
+    "item": "07",
+    "componente": "N fêmea Amphenol 082-6784",
+    "quantidade": "2 kits",
+    "especificacao": "50 Ω, RG-402/0,141 pol. Kit com porca, arruela, junta e termorretrátil.",
+    "estado": "STEP fornecido pelo usuário; não comprar acessórios em duplicidade"
+  },
+  {
+    "item": "08",
+    "componente": "Micro-Coax UT-141C — ramais",
+    "quantidade": "20 × 50 mm",
+    "especificacao": "1,000 m geométrico; dois cabos retos por PCB.",
+    "estado": "São os cabos do ensaio RF, não o corte final do chicote"
+  },
+  {
+    "item": "09",
+    "componente": "Micro-Coax UT-141C — entradas",
+    "quantidade": "2 × 459,25 mm",
+    "especificacao": "0,9185 m entre interfaces propostas, N até região central.",
+    "estado": "Proposta mecânica; inserções e decapagens ainda não incluídas"
+  },
+  {
+    "item": "10",
+    "componente": "Distribuição externa A/B",
+    "quantidade": "2 redes 1:10",
+    "especificacao": "Duas entradas independentes para as vinte conexões das dez PCBs.",
+    "estado": "PENDENTE: reserva de espaço, sem cobre dimensionado"
+  },
+  {
+    "item": "11",
+    "componente": "Fixação ao mastro / fechamento",
+    "quantidade": "A definir",
+    "especificacao": "Quatro furos de interface Ø6,5 mm; radome, tampa e fixadores externos não definidos.",
+    "estado": "Fora da liberação desta revisão"
+  },
+  {
+    "item": "12",
+    "componente": "Curto DC das entradas",
+    "quantidade": "2, a definir",
+    "especificacao": "Integração das bobinas depende da rede externa e da terminação N.",
+    "estado": "Não instalado nem validado neste painel"
+  }
+]
