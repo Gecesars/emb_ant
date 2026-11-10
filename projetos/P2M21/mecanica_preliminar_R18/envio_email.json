@@ -1,0 +1,29 @@
+{
+  "estado": "EMAIL_ENVIADO_E_CONFERIDO",
+  "id": "1a1c69301ca1cce2",
+  "thread_id": "1a1c69301ca1cce2",
+  "destinatarios": "engenharia@eftx.com.br, gecesars@gmail.com",
+  "assunto": "P2M21 R18 — montagem PRELIMINAR, documentação ilustrada e lista de materiais",
+  "data": "Tue, 10 Nov 2026 12:48:02 -0500",
+  "commit_documentacao": "a3b185859d3f85bf662b7b55207ab9063703404d",
+  "anexos": [
+    {
+      "arquivo": "P2M21_R18_Documentacao_PRELIMINAR.pdf",
+      "bytes": 893347
+    },
+    {
+      "arquivo": "P2M21_R18_Desenhos_PRELIMINARES_A3.pdf",
+      "bytes": 232424
+    },
+    {
+      "arquivo": "lista_materiais_PRELIMINAR.csv",
+      "bytes": 1861
+    },
+    {
+      "arquivo": "P2M21_R18_Pacote_PRELIMINAR.zip",
+      "bytes": 8430008
+    }
+  ],
+  "conferencia": "Mensagem presente em SENT; destinatarios e nomes/tamanhos dos quatro anexos conferidos. Nao e confirmacao de leitura ou entrega pelo servidor de destino.",
+  "escopo": "Documentacao e CAD PRELIMINARES; simulacoes interrompidas."
+}
