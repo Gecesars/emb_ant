@@ -1,0 +1,38 @@
+{
+  "revisado_em": "2026-11-10T09:37:00.394000-03:00",
+  "aprovado": true,
+  "escopo": "Somente legibilidade e correspondencia dos graficos e da montagem; nao aprova RF.",
+  "verificacoes": [
+    "Seis imagens inspecionadas visualmente",
+    "Legendas da comparacao afastadas dos picos dos feixes",
+    "Polar E/Emax e estado nao convergido legiveis",
+    "Duas faces de cobre identificadas e sem espelhamento da geometria",
+    "Estimativa sem acoplamento identificada separadamente do resultado FEM"
+  ],
+  "arquivos": [
+    {
+      "arquivo": "montagem_frontal.png",
+      "sha256": "85106d04ff1a92f928bfaaf123b305dfe8cf29cb5884de01c7983972d80f0d84"
+    },
+    {
+      "arquivo": "montagem_duas_faces.png",
+      "sha256": "42ea632be1cdb4e3a4ee5ca39c3c5543122dfef2d05371711c78d456fac6b10c"
+    },
+    {
+      "arquivo": "estimativa_inicial.png",
+      "sha256": "e547820601b6ce062c2705a09824b28a840f736b064bb9c3e088e65263b89d63"
+    },
+    {
+      "arquivo": "comparacao_diagramas.png",
+      "sha256": "2302e9715e63e3b26f3bbdbded54c9257c7deed890b24dd0eb5100b7b438d4e3"
+    },
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "d631009e7450e5a0268cad4d77ee768c2000eb3a2ed7404bc076e306e2aca044"
+    },
+    {
+      "arquivo": "acoplamento_vswr.png",
+      "sha256": "6a8e73f573d8fa92a0a79a600e86dc7830dfef71b11325f427ebfa58023880db"
+    }
+  ]
+}

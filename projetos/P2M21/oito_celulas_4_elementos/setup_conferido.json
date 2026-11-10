@@ -1,0 +1,17 @@
+{
+  "Frequency": "'5.17GHz'",
+  "MaxDeltaS": "0.05",
+  "MaximumPasses": "6",
+  "MinimumPasses": "2",
+  "MinimumConvergedPasses": "2",
+  "PercentRefinement": "20",
+  "BasisOrder": "1",
+  "DoLambdaRefine": "false",
+  "IterativeResidual": "1e-05",
+  "SaveRadFieldsOnly": "true",
+  "cache_itens": 9,
+  "cache_convergencia": false,
+  "fontes": 16,
+  "fonte_W": 0.0625,
+  "sha256_nativo_inicio": "7e0ceeaa367a7f63bbc91575157f364fed686024b93ce65aa62317953dd2c93c"
+}
