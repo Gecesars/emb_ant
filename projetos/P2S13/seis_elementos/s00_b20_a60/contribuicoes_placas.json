@@ -1,0 +1,11 @@
+{
+  "caso": "s00_b20_a60",
+  "angulo_referencia_graus": 0.0,
+  "fase_relativa_projecao_placa2_vs_placa4_graus": -53.25217460509527,
+  "correlacao_polarizacoes": 0.9997494384336395,
+  "contribuicao4_linear": 5.459387297617884,
+  "contribuicao2_linear": 2.518008401606601,
+  "termo_interferencia_linear": 4.435437759736234,
+  "ganho_conjunto_recomposto_dBi": 10.938709285681988,
+  "nota": "Contribuicoes embutidas no painel acoplado, com quatro fontes0.25W/0graus. Fase relativa vetorial em boresight nao mede diretamente a fase em cada radiador. Nenhuma fase externa ajustada."
+}

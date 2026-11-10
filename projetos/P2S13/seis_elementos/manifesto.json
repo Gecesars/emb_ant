@@ -1,0 +1,894 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/requisitos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\requisitos.json",
+      "sha256": "97d47444143de9e0dff3b98e25b741c2cbad00d5b9bdf6f3b84e7e68ecb50d8e",
+      "bytes": 520
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\qualificacao.json",
+      "sha256": "548134c925a144ee336eab75358e880c29e4b3b86c2f0a83fec04a48365af5dd",
+      "bytes": 487
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/montagem_6elementos.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\montagem_6elementos.png",
+      "sha256": "edc21457f85c124e944dd1cd3b215a0734f935e64d53dec58effbc14287e622a",
+      "bytes": 180397
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/comparacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\comparacao.json",
+      "sha256": "8d309cc34ed9112910f3b863cd91326c7cfddef4322572728aa8215834166165",
+      "bytes": 3893
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/comparacao.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\comparacao.csv",
+      "sha256": "936f262b49be8e2447e22d4b3610278876af1c468dc5a431251c803cd1ce3972",
+      "bytes": 712
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\comparacao_HV.png",
+      "sha256": "7b1f11e2ad68e9877f04bcd2a32385532bd451d07c59e685a91ccc6335bf129f",
+      "bytes": 201661
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/geometria.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\geometria.json",
+      "sha256": "44d5c24180e3d5b249611eb95a2515d1c220e413b4ab6c05eb5cdd7878c12c29",
+      "bytes": 184975
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/simetria.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\simetria.json",
+      "sha256": "7667d38426f523bdc645ca40195da5f5c52e41a6c30358aa9123539468d0bfd5",
+      "bytes": 383
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/conectividade.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\conectividade.json",
+      "sha256": "7e8baf0d68ec4a1d30abd6ac5aa8831ad74f60f4bccbd7ff011dff35dca60f88",
+      "bytes": 2562
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/radiadores_conferidos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\radiadores_conferidos.json",
+      "sha256": "7c340f607fe38f023840b6665fc09079a63789862d9bdacffb7f279f9cbd88df",
+      "bytes": 567
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/2_elementos_simetrica.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\2_elementos_simetrica.FCStd",
+      "sha256": "85dd7510ca0e7f60cb385f74b9998a74cea04849f56b70b5096f9d318a332426",
+      "bytes": 241536
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/layout.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\layout.png",
+      "sha256": "0454fefc1d089661050f2079a4553cd08490ce67e0fa93c507f5c4a539a2ad37",
+      "bytes": 70004
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/criar_cad.py",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\criar_cad.py",
+      "sha256": "fcbf34e46630edbeb50c1c1029321add2852d5048a228160be34e335399c1570",
+      "bytes": 4515
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/AL5052.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\AL5052.step",
+      "sha256": "4eba95c2e7a0f91ba6d2f93f8db70dbda0af48630dcb6c3a0d44f45d062c0d2e",
+      "bytes": 9929
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/copper.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\copper.step",
+      "sha256": "0164e1fde3edc34d8a0c856b9fe2d6a5744d5bac3c30195a1c35dbfee675f0cc",
+      "bytes": 58741
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\folhas_solidas.json",
+      "sha256": "90598164b4c21e37b893138c9746b065207382147ed88f6d03c85bf713489389",
+      "bytes": 1387
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/folha_cu.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\folha_cu.step",
+      "sha256": "163d1564581751571b0ec8294d563f0a0aefee7fb1ad41745f09abf49762156e",
+      "bytes": 2671607
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\intersecoes.json",
+      "sha256": "a213b8f15c8f75e165d9e0f78f65538d9344c34695da8722ce2daa968e676032",
+      "bytes": 393
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\manifesto.json",
+      "sha256": "6ec1f8fe9b813c41c887776df7214aaaea94da813ca90383d683aecebfd64623",
+      "bytes": 831
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\portas.json",
+      "sha256": "a109a525e4242a74ef1e05a69e73c33f40687c166e650926f7d473e662ea9a46",
+      "bytes": 264
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/PTFE_terminal.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\PTFE_terminal.step",
+      "sha256": "6cc94f662dda2b9e471140d5270366de19b499c87fbcf34d6b475bce477a1261",
+      "bytes": 18933
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/RO4350B_R01.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\RO4350B_R01.step",
+      "sha256": "bfbe176bd7613ede54baace27a8f00621ff96a3c11e97d6bc34168d05c9da2d4",
+      "bytes": 16527
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/celula2_simetrica/cad/SAC305.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\celula2_simetrica\\cad\\SAC305.step",
+      "sha256": "f0d0f2e352ebf6ede98bf61e89cc122911a45c3fa57d6a8eb05c5b6ef44f7d68",
+      "bytes": 15354
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\configuracao.json",
+      "sha256": "8b21987161475786b2a51d0812caf0d29d3e877d1e3cd32e6a81fb85491f372e",
+      "bytes": 4059
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\resultado.json",
+      "sha256": "b271fdb09e5024edb43002045f483c9ebf47f7c48dca4844b19a080db5c5f62b",
+      "bytes": 3497
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\qualificacao.json",
+      "sha256": "7726db4fa0aa77aee30d9964cf16781b4a28c40593217e4b4ba1a8ae0adbc054",
+      "bytes": 141
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\historico_passes.json",
+      "sha256": "3750170728cead7adaa743a45515f58d279c94b9ef21bb91ec98dc77997d0c99",
+      "bytes": 3744
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\convergencia.txt",
+      "sha256": "acc157937fa4f235fbd6b6a55879a3815dfa73c5e8e03ffce663ac303a45baaf",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\centro.s4p",
+      "sha256": "cc8651d8ba2ec3e89efd46da8aab74931aee484ce5ec586bc1f88ffe396b77ea",
+      "bytes": 1556
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\recursos_matriz.json",
+      "sha256": "3a819fe47ae344b1d06af09979e8d4a9bf0ee1a262f48e5eed291f0a1578e241",
+      "bytes": 2547
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\mensagens.json",
+      "sha256": "24eb2a02e9cafcf41d7731bc956e87ffb50d4d493273120bbd138bbad1143706",
+      "bytes": 359
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\malha.json",
+      "sha256": "6f58d30739a3cc68ef6884ecf34994e55d7bc2b0c4a4890ac3261c0d2e282c20",
+      "bytes": 25248
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\malha_inicial.json",
+      "sha256": "74e78dfa99991dcefe0e2e15307e92602bf01531cc2b6b6869ca52758fc86a8a",
+      "bytes": 9582
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\geracao_malha.json",
+      "sha256": "c69795ac80a7a14670cde70f81ed257176b98c110b42200e92d5a1f121efdcbb",
+      "bytes": 119
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\mensagens_malha.json",
+      "sha256": "6b5f7c44f0a07c0b7851226a25ed23afec9dfae163076065805879bc7668b7e4",
+      "bytes": 177
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\estatisticas_malha_inicial.txt",
+      "sha256": "d5c99561499db165a9ae5c5d0b9a5b8f31d3c00a55f19669169b2ec627f0c4aa",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\hfss_validacao.json",
+      "sha256": "468aa491b3b4dcd74ce7f3ec9d870164fc3fb91d6a5841870df8639ee09419bd",
+      "bytes": 370
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\diagramas_HV.png",
+      "sha256": "a39f803465c8b30db0b5053e2f9c391c2bdbae48fd28be7d95e10b638092990f",
+      "bytes": 103440
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\polar_HV.png",
+      "sha256": "a5702fa660c84a848e2d015a55ddb7db1a9a705c4746508948754ed719c9d999",
+      "bytes": 207656
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/contribuicoes_placas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\contribuicoes_placas.json",
+      "sha256": "eb9e47d67c66db1c08e67f1dbe17ecb331179961e071772079009623cb21edcd",
+      "bytes": 590
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/P2S13_6elementos.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\P2S13_6elementos.aedt",
+      "sha256": "11ca8b7abb9ddced75bf5f113e7ee8b6264086a39531115236e8a621619e78a6",
+      "bytes": 13917719
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/P2S13_6elementos.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\P2S13_6elementos.FCStd",
+      "sha256": "9d1f88fa0f078c13eb0001dfd1134fdec592ff033c40f9ad4ba865b20c301fe8",
+      "bytes": 859418
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\ALL_H.csv",
+      "sha256": "614129311fb728b2dc04acbe5b7dc115905806093b2d96e8bc6af62e760023bc",
+      "bytes": 197246
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\ALL_V.csv",
+      "sha256": "6c0c8b2c64ce6193c176cc2e271fa834f08c7a534c67e0e603cb9bb4b8815e49",
+      "bytes": 197423
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\POL_A_H.csv",
+      "sha256": "9f0c96fa1880628e670c5bb172a8afa1babbe3d90c6f222da96d541c23b1dd1a",
+      "bytes": 197847
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\POL_A_V.csv",
+      "sha256": "cdb55879e88ae2af5cd569a1125e43ff5fdc6676301602ee7acec5aa05cb6e21",
+      "bytes": 197363
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\POL_B_H.csv",
+      "sha256": "19e50fb5b5a0c3b2b6c4b347fbff5bd1e8671f80d234427c4f60732c441db6f9",
+      "bytes": 197545
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\POL_B_V.csv",
+      "sha256": "56533b4e97f6c88c09657d6434ae7495065b9a1aab754dcb68ec4d49da391726",
+      "bytes": 198129
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R1_A_H.csv",
+      "sha256": "c8dd03c264ed7c8554121381b10ddb9b49b0ded7cf9058ed50531eddb2763fde",
+      "bytes": 198429
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R1_A_V.csv",
+      "sha256": "25d107a89a1861ed70f24311b672d22a3fddf6342fda413aabd293f57aceba59",
+      "bytes": 197455
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R1_B_H.csv",
+      "sha256": "b1af1b1a21e415de7902647bfe91d80876593375a01aa8f7d8b2f232f99ffb10",
+      "bytes": 197785
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R1_B_V.csv",
+      "sha256": "af1482cbb7e31aea64d530fab78b28ba55602c8cb21829873636606bb6055803",
+      "bytes": 197805
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R2_A_H.csv",
+      "sha256": "482b657637cf90f4dc6141128d1dd4910d9a525298bb47590b9fd4aef158c456",
+      "bytes": 197309
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R2_A_V.csv",
+      "sha256": "6d17efba4ee87e7a7b1f8c1494f6f2264272c383a9d1a4ba9c70267b425b0dfd",
+      "bytes": 196977
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R2_B_H.csv",
+      "sha256": "34bb2372d164b2823577b1c2a509681c1d7ddf3cc82c424497ed9456a3b47755",
+      "bytes": 197313
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\R2_B_V.csv",
+      "sha256": "6dfde8c2a03e59a7d2c31a9a4f7ba447dbeef8d3a1acc5b73fcaf44d41b9fb6a",
+      "bytes": 197513
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\cad\\enig_hfss.json",
+      "sha256": "bea1b9d7c2c6de29d013ec4406558a78ad91a01c234f672e7527d8649df778f0",
+      "bytes": 62654
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\cad\\intersecoes.json",
+      "sha256": "fb762e338166d410a3768220e849c290069049704414402e28896ef0fb834661",
+      "bytes": 8635
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s00_b20_a60/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s00_b20_a60\\cad\\reabertura.json",
+      "sha256": "49f530710c8b1c565d05b77dcb07070cbcbdb4aa2fa5333b4fa302d003209c87",
+      "bytes": 130
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\configuracao.json",
+      "sha256": "1a95f32636bcde002192c03552c7b58aea751e10b1c4a23bb869792354ef1885",
+      "bytes": 4059
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\resultado.json",
+      "sha256": "7051b9cfbbea69cf7c605a6f59a7d877dcd097e7bebe7bf6724a3973c33f4845",
+      "bytes": 3505
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\qualificacao.json",
+      "sha256": "1d8dc714fa66ccabdaf4a24848beb21b2ddf70d9c4d7ae0cdb67d6b8a851b9e9",
+      "bytes": 141
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\historico_passes.json",
+      "sha256": "be836c25a5c82e4c010d6fa85a2b167c3d0895d914c8d35c23f780a3971e36c1",
+      "bytes": 3743
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\convergencia.txt",
+      "sha256": "beea7d2890c9901111a17e40da1da30af0787631572428d4c9b29f67a5b5d973",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\centro.s4p",
+      "sha256": "5d3716db4d352d11b9aead6a8dc8cd63ba7c01c0b0feda91ed3b1c6d0d97e666",
+      "bytes": 1567
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\recursos_matriz.json",
+      "sha256": "f6f7ef8d14de781ca34aa94171811cbd88c4b71ef6e97cf65f78091c75cadf95",
+      "bytes": 2546
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\mensagens.json",
+      "sha256": "8c6f5b1bb9bacdad949535c275fd1464d214e1161f52cdc79511eb9d3797a5dc",
+      "bytes": 359
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\malha.json",
+      "sha256": "c11799493d35e1df1008790384ac05629b67327ae3b2565768db79aa8173f8c8",
+      "bytes": 27702
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\malha_inicial.json",
+      "sha256": "4c751850a3e1bdb34e024d798a0ac67750e6fc55dd620eece017e436c4c00c74",
+      "bytes": 11544
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\geracao_malha.json",
+      "sha256": "66bed0c4d193eea58a62179ad1fe11aee39687a852209f210e29ace9c96bc469",
+      "bytes": 118
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\mensagens_malha.json",
+      "sha256": "9f7f02837f7065aaf71422f21f20e7e55e84770afcfa128fe466f84ece2cce45",
+      "bytes": 177
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\estatisticas_malha_inicial.txt",
+      "sha256": "868017645f767384a8e945fb691ea19fddf6368d72fbb07f9e1de65227814997",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\hfss_validacao.json",
+      "sha256": "468aa491b3b4dcd74ce7f3ec9d870164fc3fb91d6a5841870df8639ee09419bd",
+      "bytes": 370
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\diagramas_HV.png",
+      "sha256": "39639799c8ab3911a1d1151427037e3e5338885e59e3e0b73a08e7df551946eb",
+      "bytes": 103600
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\polar_HV.png",
+      "sha256": "e5b4310706444eda43a91df2c24cdfb37b2dcdf8728fc0c1b5aeb15ab1475e21",
+      "bytes": 212117
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/contribuicoes_placas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\contribuicoes_placas.json",
+      "sha256": "7f1df2b832b3ef06c5a0654b1938b1e1f71cb1c669569267337fa2c03767088e",
+      "bytes": 590
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/P2S13_6elementos.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\P2S13_6elementos.aedt",
+      "sha256": "f033e12bc539f194434829b16283fe9a8d502921d04c77e72fd3a76803bf9fcc",
+      "bytes": 13911496
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/P2S13_6elementos.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\P2S13_6elementos.FCStd",
+      "sha256": "f05de035cc143cbffddfae2cff4754804b42abe3285d1a7ba38e048ebc2d7be2",
+      "bytes": 855189
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\ALL_H.csv",
+      "sha256": "a6589963d1e71b9ab424806c73af37aabbb850e81a4be30e81270eac986c8fad",
+      "bytes": 197438
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\ALL_V.csv",
+      "sha256": "de6aecb9a645343f1a84a775e2359dbb2473b7b3f61cace4c1c5bb7ef7a4a3ed",
+      "bytes": 197359
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\POL_A_H.csv",
+      "sha256": "336b76ed1e3b1da92b46e4673b17c5e07af42a0606380ebb35bcf4f31a6fec6f",
+      "bytes": 197453
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\POL_A_V.csv",
+      "sha256": "fe95ad081e2781bfe33610cedee87888f1a68ec3e91c7d82a275d01f3477072c",
+      "bytes": 197228
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\POL_B_H.csv",
+      "sha256": "f560297e4bd3d94a92049c9c765a042de2e2d31b888072582846ce668cb26cfd",
+      "bytes": 197626
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\POL_B_V.csv",
+      "sha256": "f38ba1555750fb62e6fef8b447e640ae14fbdbae7c87d0747771c2c173021de9",
+      "bytes": 197613
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R1_A_H.csv",
+      "sha256": "68cad501c35083b9989944e35088a089316fe7a680f41026ae79ac38afb9ad9f",
+      "bytes": 198293
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R1_A_V.csv",
+      "sha256": "3014e58312d7011a382e2016e68ae813144f0512c070216371884da4ea856400",
+      "bytes": 197457
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R1_B_H.csv",
+      "sha256": "8b6e88f280a064d1361b44e2c7997cb5b258477b56cfca02b488fbf4fed133e3",
+      "bytes": 197674
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R1_B_V.csv",
+      "sha256": "98dba1d4a6b657c82cfafe1d38d015b4ab9004e1bf83313521ed41fe9375d009",
+      "bytes": 197056
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R2_A_H.csv",
+      "sha256": "d7f88db4055d63f5b24f03beaa581462caee6c6cc3f2569b036dcb50ad732eb0",
+      "bytes": 197103
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R2_A_V.csv",
+      "sha256": "179231b220fc4db2d34be152c2510dd84270c3b3ff1547a5ea7da0834bb1e21f",
+      "bytes": 196854
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R2_B_H.csv",
+      "sha256": "a00268773dcbb80758e538362e749c1e4af57b9c4c96c2e98b8e2607cb92bba7",
+      "bytes": 197289
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\R2_B_V.csv",
+      "sha256": "169905b8f2a6d0c4e621709db8859ac85723af635abfc51d9ffc4f90888f8010",
+      "bytes": 197493
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/conferencia_reconstrucao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\conferencia_reconstrucao.json",
+      "sha256": "5f1537699c020a1b57f49154b573a3d532ad8a574dc13afbade49dfebea2471a",
+      "bytes": 1016
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\cad\\enig_hfss.json",
+      "sha256": "ee08f517ed4e9f9cda3bc8f977ca16fb9822ad41f6baa52df327cbf9f47b91c7",
+      "bytes": 62632
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\cad\\intersecoes.json",
+      "sha256": "a220d1b1185c0a3e30aa74516b0d415feefffef0e18220182012e0b654057376",
+      "bytes": 8634
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s01_b20_a90/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s01_b20_a90\\cad\\reabertura.json",
+      "sha256": "71f3dfaedb624b2935d9714983dfba0a465a00dd01e34e8119c8c36d2f4dd186",
+      "bytes": 130
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\configuracao.json",
+      "sha256": "b28f65e75d2e54f13afcb1d27ec773524bb33f38973440b8b6f79e3337c08b4b",
+      "bytes": 4059
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\resultado.json",
+      "sha256": "c29f4dceddcb7a265ae39d7fdb5a8333939322b291fc906708992034f06734e1",
+      "bytes": 3491
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\qualificacao.json",
+      "sha256": "d999149948642f18713a32e1ae2995a03bce2b1cc667eb05131b31075719ecef",
+      "bytes": 141
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\historico_passes.json",
+      "sha256": "f16444ad8729ff451161fa61c843b68adc3b13b01748e3ff18ba84669c714ec2",
+      "bytes": 3749
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\convergencia.txt",
+      "sha256": "b192a2f81d7f86057f242830f89889c9352e333c1453b543fcce66cdb4fa3b26",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\centro.s4p",
+      "sha256": "475f240fa67e221514efc6de55bc9849abadc3e4334b949f21787740aa7aedd6",
+      "bytes": 1564
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\recursos_matriz.json",
+      "sha256": "9522f3d207c8a09791c63f3b76979269ef5f62920b0898ff210dbc63aeb86417",
+      "bytes": 2544
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\mensagens.json",
+      "sha256": "1f04fc8eeefd3aaf9b15227d4404930356bc0c2f834b56671244e6cfc08e4134",
+      "bytes": 359
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\malha.json",
+      "sha256": "ba811007fbe02e2587a3a97902a5861db4d95eebd50c24102c2cc0c25251694c",
+      "bytes": 26582
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\malha_inicial.json",
+      "sha256": "1632068e7eab02b83fff9f8426bbdcbfa14191ede0475b28bb5dc2a9f82657d7",
+      "bytes": 9579
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\geracao_malha.json",
+      "sha256": "1ed66bb42ccfc2938891632605cd66beba55478633ef8cea9e6d2e6073a0da8f",
+      "bytes": 119
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\mensagens_malha.json",
+      "sha256": "b86d1c76f917795d4de6e6a95eddd9228600ff686f3f795bbc9aa4c22d088e91",
+      "bytes": 177
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\estatisticas_malha_inicial.txt",
+      "sha256": "4fd63b16d4c68dbcff4e12a3c8713a4bab8a041792da02f720d219aae12c76e0",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\hfss_validacao.json",
+      "sha256": "468aa491b3b4dcd74ce7f3ec9d870164fc3fb91d6a5841870df8639ee09419bd",
+      "bytes": 370
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\diagramas_HV.png",
+      "sha256": "281ebd0415538e9602f01ce0ef8314bf3a54954164793322aaa6a11e8e579b4d",
+      "bytes": 101154
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\polar_HV.png",
+      "sha256": "1991f238b674af4634f85c5dc937f66e47eb693bb72617574853e3e5a99470ae",
+      "bytes": 208462
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/contribuicoes_placas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\contribuicoes_placas.json",
+      "sha256": "15ccf3b73eb60341e965a72af63258d066af51355800636d2bcc909f8dfcfdf4",
+      "bytes": 590
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/P2S13_6elementos.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\P2S13_6elementos.aedt",
+      "sha256": "bed56c4e5860ce88f7b1e615b2520241c0db94aea16933a4ac8b28ee276b65e3",
+      "bytes": 13902816
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/P2S13_6elementos.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\P2S13_6elementos.FCStd",
+      "sha256": "d025557af701c1614ab281b73db10bc81770569210aeaaec6247222c4ce16a2a",
+      "bytes": 852363
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\ALL_H.csv",
+      "sha256": "6abd9dcd09a769653ae5a9e31318633a395d9a8718790c1612d2ba303f460160",
+      "bytes": 197345
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\ALL_V.csv",
+      "sha256": "185553a6a6805061ea8307fbd12f864b5ef54690451c09664315c5596f53c52c",
+      "bytes": 197260
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\POL_A_H.csv",
+      "sha256": "eed360f4455f62998271d3fb26b977b3acf433baa085c5ba3f31f40edb37ee7b",
+      "bytes": 197302
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\POL_A_V.csv",
+      "sha256": "fb6f022a0fe38e9bbe9dc7b71d53cade7b2378260e5d6cf8997b5b15288cfdef",
+      "bytes": 197284
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\POL_B_H.csv",
+      "sha256": "3ca2ee52fdf69e1c65ca98b9939e48559e7923b804f0234f77ce478a8550e634",
+      "bytes": 197104
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\POL_B_V.csv",
+      "sha256": "7d956134a0eb2b34be8421a9f444b19506d4d802eb16510fa4bfca7b155144b3",
+      "bytes": 197505
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R1_A_H.csv",
+      "sha256": "3957c62d4cde5607f75db5740b36391aba32f867a72a04808dd86df83e49062f",
+      "bytes": 198297
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R1_A_V.csv",
+      "sha256": "2a426c2b4e95032998255a5d8822186ffad85a16c0fbefe6b383760322f22b06",
+      "bytes": 197371
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R1_B_H.csv",
+      "sha256": "5a19d82e1c202a48a54c107034f012746bf7f4b2674135351ebad01dcc838e5f",
+      "bytes": 197206
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R1_B_V.csv",
+      "sha256": "9fe63be28dc02cf1b58564c78cc624a683861513b8ad210cd6090f0c3433b055",
+      "bytes": 196854
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R2_A_H.csv",
+      "sha256": "2383024644dba86154fdaaaafa3f7a4e0ae087be7c2048ddbc9e3d74f28c4e37",
+      "bytes": 197231
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R2_A_V.csv",
+      "sha256": "2894045693c5f4d7c1aa88a76d8b158016a04f1b6148396ae61baf71cfa383fa",
+      "bytes": 197435
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R2_B_H.csv",
+      "sha256": "46985ce9cc77fb95486268121f481814382752ad0ed95f2963399516cf433bcb",
+      "bytes": 197815
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\R2_B_V.csv",
+      "sha256": "e07b0c0295ea9483e664f5907be6ba9ad56c8a74b1a671d1b4abee2863142528",
+      "bytes": 198021
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/conferencia_reconstrucao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\conferencia_reconstrucao.json",
+      "sha256": "ea5b6eba775bd9ee5e784ae77fc79093b93f3c3b2bca828241076f26e0929e87",
+      "bytes": 1016
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\cad\\enig_hfss.json",
+      "sha256": "cd8ba498c2643368cfeae7c282b07b9116f67f4dccb4b44fab5ceb1e09e68460",
+      "bytes": 62600
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\cad\\intersecoes.json",
+      "sha256": "e4d1a74d7c9f9a77ac91d917467132f7ee1b9877a263e8fd7c833047b5b98312",
+      "bytes": 8633
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/seis_elementos/s02_b10_a90/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90\\cad\\reabertura.json",
+      "sha256": "913fdac74bf08f834985a2a720011b2215df3c17f48aac0a341589cf1839c800",
+      "bytes": 130
+    }
+  ],
+  "total_bytes": 57652538,
+  "excluidos": "Malhas/aedtresults/campos volumetricos/g3d/g3derr/locks. Modelos nativos conservam geometria; a solucao FEM completa permanece local."
+}

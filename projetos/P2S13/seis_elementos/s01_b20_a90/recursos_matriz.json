@@ -1,0 +1,62 @@
+[
+  {
+    "passe_adaptativo": 1,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 1"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 50, 0, 359, 0, 5394748, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 580056, false, 3, 'Matrix bandwidth', 20.3445, '%5.1f', 3, 'Iterations', 63.75, '%5.1f', 1, 'Disk', '1.64 KB')', true, true)"
+  },
+  {
+    "passe_adaptativo": 2,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 2"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 41, 0, 319, 0, 5681944, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 798266, false, 3, 'Matrix bandwidth', 20.6467, '%5.1f', 3, 'Iterations', 42.5, '%5.1f', 1, 'Disk', '4 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 3,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 3"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 42, 0, 316, 0, 6004124, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 983028, false, 3, 'Matrix bandwidth', 20.8132, '%5.1f', 3, 'Iterations', 38.5, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 4,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 4"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 48, 0, 351, 0, 6772604, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 1219178, false, 3, 'Matrix bandwidth', 20.9436, '%5.1f', 3, 'Iterations', 38.5, '%5.1f', 1, 'Disk', '5 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 5,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 5"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 61, 0, 463, 0, 8243172, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 1553368, false, 3, 'Matrix bandwidth', 21.0898, '%5.1f', 3, 'Iterations', 39, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 6,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 6"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 76, 0, 534, 0, 10171056, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 2085336, false, 3, 'Matrix bandwidth', 21.2475, '%5.1f', 3, 'Iterations', 36.5, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+  }
+]

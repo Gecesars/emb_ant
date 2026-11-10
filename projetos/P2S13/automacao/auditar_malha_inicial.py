@@ -15,7 +15,8 @@ for line in stats.splitlines():
     except ValueError:continue
     if bid==0:continue # tetraedros de fundo, nao um corpo fisico adicional
     rows.append(dict(body_id=bid,tetraedros=tet,planar_percent=float(q[2]) if has_recovery else None,curva_percent=float(q[3]) if has_recovery else None))
-assert len(rows)==84 and len({x['body_id'] for x in rows})==84
+expected=c.get('solidos_fisicos',83)+1
+assert len(rows)==expected and len({x['body_id'] for x in rows})==expected
 assert all(x['tetraedros']>0 for x in rows)
 if has_recovery:assert all(x['planar_percent']==x['curva_percent']==100 for x in rows)
 else:assert c.get('mesh_method')=='AnsoftClassic' and not c.get('tau_flex',False)
@@ -24,7 +25,7 @@ if err:
     sys.path.insert(0,str(Path(__file__).resolve().parents[3]/'automacao/r06'))
     from auditar_malha import audit
     report=audit(root);assert report['reparos_major']==report['reparos_minor']==0
-else:report=dict(reparos_major=0,reparos_minor=0,origem='GenerateMesh concluiu, mensagens sem warning/error, estatisticas completas dos 84 corpos. Nao foi gerado nominalmesh.g3derr. Classic estrito nao exporta colunas de area recuperada.',arquivo_avisos_presente=False)
+else:report=dict(reparos_major=0,reparos_minor=0,origem='GenerateMesh concluiu, mensagens sem warning/error, estatisticas completas dos %d corpos. Nao foi gerado nominalmesh.g3derr. Classic estrito nao exporta colunas de area recuperada.'%expected,arquivo_avisos_presente=False)
 report.update(tempo_s=result['tempo_s'],corpos=len(rows),recuperacao_percentual_exportada=has_recovery,todos_recuperados_100_percent=True if has_recovery else None,tetraedros=int(re.search(r'NumTotalTets (\d+)',stats)[1]),estatisticas_sha256=hashlib.sha256(contents[0]).hexdigest(),corpos_estatisticas=rows)
 (root/'estatisticas_malha_inicial.txt').write_bytes(contents[0]);(root/'malha_inicial.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k!='corpos_estatisticas'},indent=2))

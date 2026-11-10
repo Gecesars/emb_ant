@@ -2,6 +2,8 @@
 
 Nova revisão iniciada em 10/11/2026 após a entrega da mecânica preliminar P2M21 R18. A R18 e seus documentos enviados por e-mail permanecem preservados.
 
+**Revisão atual: seis níveis, placa C12 de quatro elementos e nova placa de dois com alimentação simétrica.** Os três ensaios do refletor terminaram em seis passes, 14 núcleos, 5,17 GHz, sem sweep. A maior abertura horizontal preliminar foi **85,91°**, com **10,145 dBi**, V **10,26°** e VSWR ativo máximo **1,943**, para b=10 mm/90°. Nenhum ensaio confirmou dois passes consecutivos de convergência ou atingiu as metas. [Placa nova, três resultados, desenhos e nativos](seis_elementos/README.md). A placa de quatro e a antiga KiCad de dois elementos foram preservadas. O restante desta página registra o estudo anterior de oito níveis.
+
 O usuário confirmou **duas placas C12 de quatro elementos, uma acima da outra**, formando oito níveis em uma coluna. Mantêm-se os divisores impressos, os quatro cabos físicos de 50 mm e as quatro entradas iguais/em fase, com 0,25 W por entrada e 1 W total. A simulação inicial é somente em **5,17 GHz**, sem sweep, com 14 núcleos, até seis passes e alvo ΔS ≤0,05. Não se aplica ganho de uma entrada MIMO isolada.
 
 | Grandeza | Meta |
@@ -40,4 +42,4 @@ Na versão dobrada, os máximos dos cortes são H −6,75° e V −0,25°. O pio
 
 O nativo fechado, S4 e campos distantes foram arquivados. Os resultados de campo volumétrico e a malha ficam somente na pasta de trabalho: abrir o nativo do Git não restaura a solução de campo completa. Para novas geometrias dobradas, `criar_hfss.py` aceita `refletor_construcao="nativo"` e usa `desenhar_refletor_hfss.py`, que reproduz a construção corrigida. Scripts de diagnóstico são históricos e não devem ser lançados como uma fila de otimização.
 
-As duas PCBs C12 atuais permanecem preservadas. A largura vertical obtida é próxima da previsão de oito níveis uniformes e está muito abaixo de 18°. Uma redistribuição de potência nos divisores seria um novo projeto das placas, ainda sujeito à definição do usuário; não foi aplicada nesta correção.
+As duas PCBs C12 desse estudo permanecem preservadas. A largura vertical obtida é próxima da previsão de oito níveis uniformes e está muito abaixo de 18°. Após esta correção, o usuário escolheu testar seis níveis com uma placa de quatro e outra de dois elementos, exigindo alimentação simétrica na placa nova. Essa continuação está documentada em [seis_elementos](seis_elementos/README.md).

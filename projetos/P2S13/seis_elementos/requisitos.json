@@ -1,0 +1,22 @@
+{
+  "data": "2026-11-10",
+  "arranjo": "Uma placa4 mais uma placa2, seis niveis verticais; nova alimentacao2 simetrica como C12",
+  "prioridade": "Horizontal99–121graus",
+  "metas": {
+    "ganho_frontal_min_dBi": 13,
+    "H_min_graus": 99,
+    "H_max_graus": 121,
+    "V_min_graus": 16.2,
+    "V_max_graus": 19.8
+  },
+  "variantes": [
+    "s00_b20_a60",
+    "s01_b20_a90",
+    "s02_b10_a90"
+  ],
+  "max_passes": 6,
+  "delta_s": 0.05,
+  "nucleos": 14,
+  "frequencia_GHz": 5.17,
+  "sweep": false
+}

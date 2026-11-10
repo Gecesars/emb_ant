@@ -79,7 +79,20 @@ for folder,filename in [('', os.path.splitext(cfg['native'])[0])]:
             e.Delete(['NAME:Selections','Selections:=','Refletor_Al2mm'])
             criar(e,cfg)
             assert set(e.GetObjectsInGroup('Solids'))==set(physical)
-            assert all(before[n]==signature(n) for n in before)
+            after=dict((n,signature(n)) for n in before)
+            changed=[n for n in before if before[n]!=after[n]]
+            regions=set(physical)-set(manifest)
+            with open(os.path.join(root,'conferencia_reconstrucao.json'),'w') as f:
+                json.dump(dict(objetos_diferentes=changed,regioes_automaticas=list(regions),
+                  diferencas=dict((n,dict(antes=before[n],depois=after[n])) for n in changed)),f,indent=2)
+            assert all(before[n]==after[n] for n in before if n in manifest),'Objeto fisico alterado: '+str(changed)
+            # Auto-open region pode renumerar faces apos refazer o refletor.
+            # Nao permitir mudanca material de volume/envelope e manter os corpos fisicos exatos.
+            assert regions==set(['RadiatingSurface']),regions
+            for n in regions:
+                old,new=before[n],after[n]
+                assert abs(float(old[0])-float(new[0]))/float(old[0])<1e-8,(n,'volume')
+                assert max(abs(float(x)-float(y)) for x,y in zip(old[2],new[2]))<1e-5,(n,'envelope')
         mesh=d.GetModule('MeshSetup')
         mesh.InitialMeshSettings(['NAME:MeshSettings',
           ['NAME:GlobalSurfApproximation','CurvedSurfaceApproxChoice:=','UseSlider','SliderMeshSettings:=',5],
@@ -116,13 +129,13 @@ for folder,filename in [('', os.path.splitext(cfg['native'])[0])]:
              'UseRelativeConvergence:=',0,'MaxConvergenceDelta:=',.1,'MaxConvergeValue:=','0.1',
              'ReportType:=','Far Fields',['NAME:ExpressionContext','Context:=','HV']])
         setup.EditSetup('Centro',['NAME:Centro','UseCacheFor:=',['Pass'],cache])
-        assert len(ports)==len(cfg['portas']) and len(manifest)==41*len(cfg['celulas'])+1
+        assert len(ports)==len(cfg['portas']) and len(manifest)==cfg.get('solidos_fisicos',41*len(cfg['celulas'])+1)
         assert not list(setup.GetSweeps('Centro'))
         p.SaveAs(os.path.join(dest,filename+'.aedt'),True)
         valid=d.ValidateDesign();messages=list(oDesktop.GetMessages(p.GetName(),d.GetName(),2))
         result=dict(modelo=filename,validacao=valid,erros=messages,portas=len(ports),max_passes=6,max_delta_s=.05,
          mesh_method=cfg.get('mesh_method','AnsoftClassic'),tau_flex=cfg.get('tau_flex',False),fallback=False,
-         simulado=False,modo='%d celulas C12, %d niveis / 1 coluna; %d portas iguais, cabos50mm e refletor comum; sem rede externa'%(len(cfg['celulas']),cfg['niveis_radiadores'],len(ports)))
+         simulado=False,modo='%d celulas PCB, %d niveis / 1 coluna; %d portas iguais, cabos50mm e refletor comum; sem rede externa'%(len(cfg['celulas']),cfg['niveis_radiadores'],len(ports)))
         with open(os.path.join(dest,'hfss_validacao.json'),'w') as f:json.dump(result,f,indent=2)
         assert valid==1 and len(sol.GetAllSources())==len(ports),result
         p.Save();oDesktop.CloseProject(p.GetName());log('CRIADO_VALIDADO_HEADLESS '+filename)

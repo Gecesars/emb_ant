@@ -4,22 +4,27 @@ import json,math,hashlib,os
 import FreeCAD as A,Part,Import
 ROOT=Path(os.environ['P2S13_ROOT']);cfg=json.loads((ROOT/'configuracao.json').read_text())
 out=ROOT/'cad';out.mkdir(exist_ok=True)
-SRC=Path(cfg['fonte']);source=A.openDocument(str(SRC/'4_elementos.FCStd'))
-assert hashlib.sha256((SRC/'4_elementos.FCStd').read_bytes()).hexdigest()==cfg['fontes_sha256']['4_elementos.FCStd']
-materials=json.loads((SRC/'cad/manifesto.json').read_text());records=json.loads((SRC/'cad/folhas_solidas.json').read_text())
 d=A.newDocument('P2S13_'+cfg['revisao']);man={};rec={};ident=[]
 def add(n,sh,mat):
     assert sh.isValid() and sh.Volume>0,n
     o=d.addObject('Part::Feature',n);o.Shape=sh;o.addProperty('App::PropertyString','Material_nominal');o.Material_nominal=mat;man[n]=mat;return o
 for c in cfg['celulas']:
+    SRC=Path(c.get('fonte',cfg.get('fonte','')));source_name=c.get('cad_native','4_elementos.FCStd')
+    expected=c.get('fontes_sha256',cfg.get('fontes_sha256',{}))
+    assert hashlib.sha256((SRC/source_name).read_bytes()).hexdigest()==expected[source_name]
+    source=A.openDocument(str(SRC/source_name))
+    materials=json.loads((SRC/'cad/manifesto.json').read_text());records=json.loads((SRC/'cad/folhas_solidas.json').read_text())
     group=d.addObject('App::DocumentObjectGroup',c['nome'])
     for n,mat in materials.items():
         if n=='Refletor_Al2mm':continue
-        orig=source.getObject(n).Shape;sh=orig.copy();sh.translate(A.Vector(c['x'],0,0))
+        orig=source.getObject(n).Shape;sh=orig.copy();sh.translate(A.Vector(c['x'],c.get('y',0),c.get('z',0)))
         name=c['nome']+'_'+n;group.addObject(add(name,sh,mat))
         assert abs(sh.Volume-orig.Volume)<1e-7 and abs(sh.Area-orig.Area)<1e-7 and len(sh.Faces)==len(orig.Faces)
         ident.append(dict(nome=name,origem=n,delta_volume_mm3=abs(sh.Volume-orig.Volume)))
-        if n in records:rec[name]={k:v for k,v in records[n].items() if not k.startswith('faces_')}
+        if n in records:
+            rec[name]={k:v for k,v in records[n].items() if not k.startswith('faces_')}
+            rec[name]['base_z_mm']+=c.get('z',0)
+    A.closeDocument(source.Name)
 b=cfg['inicio_dobra_y_mm'];alpha=math.radians(cfg['angulo_dobra_graus']);t=cfg['espessura_mm'];ri=cfg['raio_interno_mm'];ro=ri+t;L=cfg['refletor_comprimento_mm'];W=cfg['refletor_desenvolvido_largura_mm']
 tail=W/2-b-alpha*(ri+cfg['K_dobra']*t)
 assert tail>=0
@@ -49,12 +54,12 @@ for i,a in enumerate(objs):
         if any(min(getattr(ba,k+'Max'),getattr(bb,k+'Max'))-max(getattr(ba,k+'Min'),getattr(bb,k+'Min'))<=1e-6 for k in 'XYZ'):continue
         tested+=1;v=a.Shape.common(bbobj.Shape).Volume
         if v>1e-7:bad.append(dict(a=a.Name,b=bbobj.Name,volume_mm3=v))
-assert len(man)==41*2+1 and len(rec)==len(records)*2
+assert len(man)==cfg.get('solidos_fisicos',83)
 report=dict(aprovado=not bad,objetos=len(man),pares=tested,intersecoes=bad,celulas=2,solidos_copiados=ident,extensao_refletor_Y_mm=ref.BoundBox.YLength,extensao_refletor_Z_mm=ref.BoundBox.ZLength,asa_reta_mm=tail,dobra_alpha_graus=cfg['angulo_dobra_graus'],inicio_dobra_Y_mm=b)
 for n,v in [('manifesto',man),('folhas_solidas',rec),('portas',cfg['portas']),('intersecoes',report)]: (out/(n+'.json')).write_text(json.dumps(v,indent=2)+'\n')
 assert not bad,bad
 for mat in sorted(set(man.values())):Import.export([d.getObject(n) for n,m in man.items() if m==mat],str(out/(mat+'.step')))
-A.closeDocument(source.Name);A.closeDocument(d.Name)
+A.closeDocument(d.Name)
 re=A.openDocument(str(native));assert all(re.getObject(n).Shape.isValid() for n in man)
 (out/'reabertura.json').write_text(json.dumps(dict(objetos=len(man),todos_validos=True,sha256=hashlib.sha256(native.read_bytes()).hexdigest()),indent=2)+'\n')
 A.closeDocument(re.Name);print('CAD_OK',cfg['revisao'],len(man),tested)

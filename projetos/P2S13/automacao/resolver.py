@@ -18,7 +18,8 @@ def sources(sol,selected):
      [['Name:=',name+':1','Magnitude:=',power if name in selected else '0W','Phase:=','0deg'] for name in ports])
 try:
     assert not os.path.exists(os.path.join(root,'convergencia.txt')),'Resultado existente'
-    raw=open(native).read();analysis=raw.split("$begin 'AnalysisSetup'",1)[1].split("$end 'AnalysisSetup'",1)[0]
+    with open(native) as native_stream:raw=native_stream.read()
+    analysis=raw.split("$begin 'AnalysisSetup'",1)[1].split("$end 'AnalysisSetup'",1)[0]
     for expr in ['MaximumPasses=6','MaxDeltaS=0.05','MinimumPasses=2','DoLambdaRefine=false','MinimumConvergedPasses=2','5.17GHz','BasisOrder=1']:
         assert expr in analysis,expr
     assert "MeshMethod='%s'"%cfg.get('mesh_method','AnsoftClassic') in raw

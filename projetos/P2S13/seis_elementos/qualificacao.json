@@ -1,0 +1,13 @@
+{
+  "estado": "ESTUDO_CONCLUIDO_PRELIMINAR",
+  "atualizado": "2026-11-10T19:45:08.235699-03:00",
+  "casos_concluidos": [
+    "s00_b20_a60",
+    "s01_b20_a90",
+    "s02_b10_a90"
+  ],
+  "alimentacao_simetrica_CAD": true,
+  "aprovacao_RF": false,
+  "proximo_solve_automatico": false,
+  "observacao": "Tres ensaios de seis passes; nao convergidos nem metas atingidas. CAD, conectividade e diagramas revisados. Placa2 exige casamento e conferencia de fase eletrica com a C12."
+}

@@ -1,0 +1,98 @@
+{
+  "resultados": [
+    {
+      "caso": "s00_b20_a60",
+      "inicio_dobra_mm": 20,
+      "angulo_dobra_graus": 60,
+      "ganho_frontal_dBi": 10.938709285681977,
+      "H_graus": 73.71092522047246,
+      "V_graus": 9.248212892299037,
+      "pico_H_graus": 0.5,
+      "pico_V_graus": 2.0,
+      "VSWR_ativo_max": 1.8643987139565021,
+      "VSWR_casado_max": 1.6130763489363082,
+      "passes": 6,
+      "DeltaS": 0.027751486947094884,
+      "convergiu": false,
+      "auditoria": true,
+      "H_meta": false,
+      "ganho_meta": false,
+      "passes_consecutivos_S": 1
+    },
+    {
+      "caso": "s01_b20_a90",
+      "inicio_dobra_mm": 20,
+      "angulo_dobra_graus": 90,
+      "ganho_frontal_dBi": 11.134021020980923,
+      "H_graus": 78.00802778983953,
+      "V_graus": 9.781430197388158,
+      "pico_H_graus": -0.75,
+      "pico_V_graus": 2.25,
+      "VSWR_ativo_max": 1.9058865378564067,
+      "VSWR_casado_max": 1.5830097930639355,
+      "passes": 6,
+      "DeltaS": 0.041322751760929005,
+      "convergiu": false,
+      "auditoria": false,
+      "H_meta": false,
+      "ganho_meta": false,
+      "passes_consecutivos_S": 1
+    },
+    {
+      "caso": "s02_b10_a90",
+      "inicio_dobra_mm": 10,
+      "angulo_dobra_graus": 90,
+      "ganho_frontal_dBi": 10.14486664254834,
+      "H_graus": 85.91133898451612,
+      "V_graus": 10.26053875621225,
+      "pico_H_graus": 2.25,
+      "pico_V_graus": 2.5,
+      "VSWR_ativo_max": 1.943419997961485,
+      "VSWR_casado_max": 1.6184671034186477,
+      "passes": 6,
+      "DeltaS": 0.04988194165096752,
+      "convergiu": false,
+      "auditoria": true,
+      "H_meta": false,
+      "ganho_meta": false,
+      "passes_consecutivos_S": 1
+    }
+  ],
+  "contribuicoes": [
+    {
+      "caso": "s00_b20_a60",
+      "angulo_referencia_graus": 0.0,
+      "fase_relativa_projecao_placa2_vs_placa4_graus": -53.25217460509527,
+      "correlacao_polarizacoes": 0.9997494384336395,
+      "contribuicao4_linear": 5.459387297617884,
+      "contribuicao2_linear": 2.518008401606601,
+      "termo_interferencia_linear": 4.435437759736234,
+      "ganho_conjunto_recomposto_dBi": 10.938709285681988,
+      "nota": "Contribuicoes embutidas no painel acoplado, com quatro fontes0.25W/0graus. Fase relativa vetorial em boresight nao mede diretamente a fase em cada radiador. Nenhuma fase externa ajustada."
+    },
+    {
+      "caso": "s01_b20_a90",
+      "angulo_referencia_graus": 0.0,
+      "fase_relativa_projecao_placa2_vs_placa4_graus": -61.16071854377404,
+      "correlacao_polarizacoes": 0.9997512494540939,
+      "contribuicao4_linear": 6.676448498057823,
+      "contribuicao2_linear": 2.425888923788903,
+      "termo_interferencia_linear": 3.881471099154942,
+      "ganho_conjunto_recomposto_dBi": 11.134021020980923,
+      "nota": "Contribuicoes embutidas no painel acoplado, com quatro fontes0.25W/0graus. Fase relativa vetorial em boresight nao mede diretamente a fase em cada radiador. Nenhuma fase externa ajustada."
+    },
+    {
+      "caso": "s02_b10_a90",
+      "angulo_referencia_graus": 0.0,
+      "fase_relativa_projecao_placa2_vs_placa4_graus": -62.1789643133806,
+      "correlacao_polarizacoes": 0.999941810484051,
+      "contribuicao4_linear": 5.929552162659317,
+      "contribuicao2_linear": 1.5657079080752454,
+      "termo_interferencia_linear": 2.8439334518247925,
+      "ganho_conjunto_recomposto_dBi": 10.144866642548347,
+      "nota": "Contribuicoes embutidas no painel acoplado, com quatro fontes0.25W/0graus. Fase relativa vetorial em boresight nao mede diretamente a fase em cada radiador. Nenhuma fase externa ajustada."
+    }
+  ],
+  "prioridade": "Horizontal99–121graus, meta nominal110; ganho13dBi e vertical18graus continuam relatados",
+  "limite": "Nao escolher uma geometria como validada quando DeltaS/auditoria nao atendem."
+}

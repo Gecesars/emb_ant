@@ -1,0 +1,25 @@
+{
+  "parasitas_B": [
+    {
+      "net": "E1_Q2",
+      "origem_C12": "E2_Q2",
+      "diferenca_area_mm2": 0.0
+    },
+    {
+      "net": "E1_Q3",
+      "origem_C12": "E2_Q3",
+      "diferenca_area_mm2": 0.0
+    },
+    {
+      "net": "E2_Q2",
+      "origem_C12": "E3_Q2",
+      "diferenca_area_mm2": 0.0
+    },
+    {
+      "net": "E2_Q3",
+      "origem_C12": "E3_Q3",
+      "diferenca_area_mm2": 0.0
+    }
+  ],
+  "alimentacao_nova": "Recriada das mesmas transicoes de elemento_hfss.json e das etapas locais C12; ver geometria.json para SHA."
+}

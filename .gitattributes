@@ -33,3 +33,5 @@ projetos/P2M21/kicad/4_elementos/gerbers/* -text whitespace=-blank-at-eol,-blank
 projetos/P2S13/**/*.json -text whitespace=-blank-at-eol,-blank-at-eof
 projetos/P2S13/**/*.txt -text whitespace=-blank-at-eol,-blank-at-eof
 projetos/P2S13/**/*.acf -text whitespace=cr-at-eol
+# Script CAD gerado e arquivado como evidencia no manifesto P2S13.
+projetos/P2S13/seis_elementos/celula2_simetrica/criar_cad.py -text whitespace=cr-at-eol
