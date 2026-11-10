@@ -1,0 +1,186 @@
+{
+  "revisao": "4_elementos R01 / HFSS R13 C12",
+  "data": "2026-11-10",
+  "fonte": "projetos/P2M21/quatro_elementos_casamento_banda/c12_raiz_intermediaria",
+  "fontes": [
+    {
+      "arquivo": "geometria.json",
+      "sha256": "89adc0231bc3f8fa3d9bc110dcfd1d43dbb12f9b8b3872fe34e02c2602cd2995"
+    },
+    {
+      "arquivo": "criar_cad.py",
+      "sha256": "d05c7cb38089ef21d19077dd89c0d003d69e48cdcf0a5d0ca092aa28f8904383"
+    },
+    {
+      "arquivo": "4_elementos.FCStd",
+      "sha256": "e0b189c9d7a29c72ad480d7759cfe38bacbaf40121c87b994c43ff7bb3dcc681"
+    },
+    {
+      "arquivo": "P2M21_4_elementos.aedt",
+      "sha256": "f6d74e4d3f362119ad2925db0e876c3a5971e2c8c6a8beb90d86bf4fd1777e60"
+    },
+    {
+      "arquivo": "cad/reabertura.json",
+      "sha256": "a020b6ee6023845378bb8e8e4a40e95e7405c20124c363ee66b092a2a18eee1e"
+    },
+    {
+      "arquivo": "cad/intersecoes.json",
+      "sha256": "a1d6402f54b2bcb2412bc19bf085cdc867663fcc8bcdfa8c1056166cc67b50a9"
+    },
+    {
+      "arquivo": "cad/enig_hfss.json",
+      "sha256": "98fe34f9d085a28be78d440370d9dcea08da317d40286dc94ae6b32460ed6980"
+    },
+    {
+      "arquivo": "resultado.json",
+      "sha256": "c99aa29c4c94d79616aa52a7b279db64e65142b8daf93210412b945487ca6b77"
+    },
+    {
+      "arquivo": "banda_auditada.json",
+      "sha256": "a5b61871cdbd456742963fd2a5fea15616598b23a25b5fee1a5b28493996aa74"
+    },
+    {
+      "arquivo": "pico_auditado.json",
+      "sha256": "290028a43b0188d6184a7221ae77dbb0ec5546d1f75099a71a4d434d83ac1105"
+    },
+    {
+      "arquivo": "dimensoes_transformadores.json",
+      "sha256": "bb3ccfd2e5d286957d5edb13cfbc15fc9d7e0e4cefc36073c998e25b24d12e9a"
+    }
+  ],
+  "pacote_zip": "4_elementos_gerbers_JLCPCB.zip",
+  "pacote_sha256": "a94679fe5c00b466c47a20283fea90f3bd104ac8237c7503aa76f2f9ce096e2a",
+  "arquivo_job_somente_evidencia": true,
+  "arquivos": [
+    {
+      "arquivo": "4_elementos.kicad_pcb",
+      "bytes": 73516,
+      "sha256": "9728628e87dbfd83c2708894e8b4c1d3bb27fbf2950b18493a6e625afa9bf756"
+    },
+    {
+      "arquivo": "4_elementos.kicad_pro",
+      "bytes": 9934,
+      "sha256": "caaadd15ad86c096c34fced0726a73088ff85b98fa40e61ad1d08b8a786210ec"
+    },
+    {
+      "arquivo": "4_elementos_gerbers_JLCPCB.zip",
+      "bytes": 18706,
+      "sha256": "a94679fe5c00b466c47a20283fea90f3bd104ac8237c7503aa76f2f9ce096e2a"
+    },
+    {
+      "arquivo": "aceite_atual.json",
+      "bytes": 540,
+      "sha256": "b6d8e2a681deb0746224f75227abb7ca5f52c31c1edad4f14e106375ce0fbf81"
+    },
+    {
+      "arquivo": "drc.json",
+      "bytes": 173763,
+      "sha256": "337b581cdc0a49fe42bf9ca245050b3d1d13e974106549cadebd9421e21627a7"
+    },
+    {
+      "arquivo": "FABRICACAO_JLCPCB.txt",
+      "bytes": 3710,
+      "sha256": "441a043bf5a76fb6a274c404a43ef83e7adb682d9da555ceeb1a14f900d76ffc"
+    },
+    {
+      "arquivo": "furacao.txt",
+      "bytes": 658,
+      "sha256": "c85288a8fdebb02a1e055296069467a9b5c9bf6c3506e7446913b51b1588dba5"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-B_Cu.gbl",
+      "bytes": 55837,
+      "sha256": "e3b2f1dbd02e5f8d3920a6116b3c182997014a20688d9d19158b04a869fc6553"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-B_Mask.gbs",
+      "bytes": 670,
+      "sha256": "43a6477a13c56db8d3f64cdb1286d4c1f259d708dac3ecc512ab13d9da4c35df"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-Edge_Cuts.gm1",
+      "bytes": 731,
+      "sha256": "f84fb7fe54107dafb76baec04fc69380b9972a2f1201b0f9bc4515f34f09c1b1"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-F_Cu.gtl",
+      "bytes": 8187,
+      "sha256": "314265881fb28285a2925d91c7b66890d38c62700b7d5d64b12371fcc33e20ad"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-F_Mask.gts",
+      "bytes": 670,
+      "sha256": "d9c99d16b1e18896ac9a0007841fc62fb1554faa0683bc6d3c9b7984d0209ee7"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-job.gbrjob",
+      "bytes": 2355,
+      "sha256": "25f0217305da8cf38bf50ecc695c86e97802d53a717def41818ffae0534f5e0f"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-NPTH.drl",
+      "bytes": 276,
+      "sha256": "19e2cf48b026f00ea7b35741eef26b5273dd5ac20352c8a6a16a721c7f12ac83"
+    },
+    {
+      "arquivo": "gerbers/4_elementos-PTH.drl",
+      "bytes": 565,
+      "sha256": "8db8aba015785f8d1a777ee6255b6f09a37a511a577698ace968a4acd92ec5f7"
+    },
+    {
+      "arquivo": "leitura_kicad.json",
+      "bytes": 201351,
+      "sha256": "acf5f9e7523c04f8acd2a65f5627df778693eca31f95419e9a51faadf758c6b3"
+    },
+    {
+      "arquivo": "preview/4_elementos-B_Cu.png",
+      "bytes": 31380,
+      "sha256": "abb343bfb7544635fde7ae3efc13bc972c656394cb6ae1dbf846a5125634817b"
+    },
+    {
+      "arquivo": "preview/4_elementos-B_Cu.svg",
+      "bytes": 37652,
+      "sha256": "55584654054bb1d1f088a63ffb6ab54f01e5ccbece905983c0aa8d2dc24e3280"
+    },
+    {
+      "arquivo": "preview/4_elementos-F_Cu.png",
+      "bytes": 18009,
+      "sha256": "d6d5e2789396231539502e6847243f6a236e35b9b29330d6f77c011956057222"
+    },
+    {
+      "arquivo": "preview/4_elementos-F_Cu.svg",
+      "bytes": 7378,
+      "sha256": "9fc151442d7773fc4d9d2f2ce87aa1d66e19413de87f373d7294e9b694cb77ab"
+    },
+    {
+      "arquivo": "preview/4_elementos.png",
+      "bytes": 208703,
+      "sha256": "cdb30e6e432d7b7106ac2a577754fb47e06aeb61cf04620c904f1916327bf891"
+    },
+    {
+      "arquivo": "preview/gerbers_conferidos.png",
+      "bytes": 121306,
+      "sha256": "655c77fabebf25aee8f7a2d112688a2433dcbcbcad61750f4654de075a54aaab"
+    },
+    {
+      "arquivo": "README.md",
+      "bytes": 7769,
+      "sha256": "6e84e6f76675f90f95405f792442129ce4c069920feb78f2b27134c601bd63c8"
+    },
+    {
+      "arquivo": "revisao_visual.json",
+      "bytes": 688,
+      "sha256": "70ee462e0dca3412ca7f701a82a901ad84b4148df8973bed7445724502914205"
+    },
+    {
+      "arquivo": "verificacao.json",
+      "bytes": 4618,
+      "sha256": "e02418491adea4321fc1098091d3f33a21c2cdcf00fe0cd0c8ad6403617d4ab2"
+    },
+    {
+      "arquivo": "verificacao_gerbers.json",
+      "bytes": 1636,
+      "sha256": "c36668db45a6afc8dc52cc1724db196be669f3aba19138313921e3575ab7c325"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "data": "2026-11-10",
+  "revisao_visual_concluida": true,
+  "verificado": [
+    "Duas faces sem cortes de imagem",
+    "Quatro radiadores e divisores de raiz com tres secoes",
+    "Origem comum e B.Cu sem espelhamento nesta comparacao",
+    "Contorno 70 x 184 mm e posicoes dos dez furos",
+    "Sobreposicao do CAM lida dos Gerbers/Excellon efetivos"
+  ],
+  "imagens": [
+    {
+      "arquivo": "preview/4_elementos.png",
+      "sha256": "cdb30e6e432d7b7106ac2a577754fb47e06aeb61cf04620c904f1916327bf891"
+    },
+    {
+      "arquivo": "preview/gerbers_conferidos.png",
+      "sha256": "655c77fabebf25aee8f7a2d112688a2433dcbcbcad61750f4654de075a54aaab"
+    }
+  ]
+}

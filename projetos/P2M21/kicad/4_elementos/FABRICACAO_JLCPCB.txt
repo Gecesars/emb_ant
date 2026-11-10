@@ -1,0 +1,59 @@
+4_ELEMENTOS / R01 - EXACT ARTWORK FROM HFSS R13 C12
+Date: 2026-11-10. Bare RF PCB; single board, not a panel.
+
+1. Outline: 70.000 x 184.000 mm, routed along the CENTERLINE of Edge_Cuts.
+2. Two copper layers. Rogers RO4350B dielectric CORE: 0.760 mm (0.030 inch).
+   Do not substitute FR-4, RO4003C, PTFE or another core thickness.
+   Copper: nominal 35 um / 1 oz on EACH side. ENIG, gold 1 microinch.
+   0.830 mm in KiCad is core + two copper foils, excluding finish.
+   For the JLC high-frequency option, distinguish the 0.76 mm core from
+   the nominal 0.9 mm finished-board selection; confirm the actual stackup.
+3. NO solder mask on either face: F_Mask and B_Mask explicitly open the
+   ENTIRE board area. NO silkscreen, solder paste or order markings on PCB.
+4. Finished plated holes: eight x 0.400 mm (via pad diameter 0.726 mm),
+   two x 1.100 mm (coax input pad diameter 1.600 mm). No NPTH or slots.
+   All ten holes connect top and bottom copper. Do not tent/fill/plug vias.
+5. Preserve the RF copper artwork, separate returns, clearances and holes.
+   No thermal reliefs, copper fill, added ground plane or track resizing.
+   This is an EM-defined layout, not a request to adjust traces for a
+   generic controlled-impedance target. Keep both faces registered.
+6. The model assumed nominal 35 um plated hole walls, NiP 4.5 um and
+   Au 0.0254 um. These process values are not specified by Gerber files.
+   Confirm achievable plating/stackup before releasing a production order;
+   report deviations rather than silently replacing the modeled process.
+7. Units: millimeters, same absolute origin for all files; do not mirror.
+   Gerber X2: 4.6 coordinates. Native KiCad decimal Excellon: 0.001 mm grid.
+   Maximum drill-center rounding from HFSS: 0.000583 mm radial.
+8. ZIP includes GTL/GBL, GTS/GBS, GM1, PTH/NPTH DRL and these notes.
+   Empty NPTH file is intentional. No stencil or PCBA package is supplied.
+   Raw KiCad gbrjob stays in engineering evidence, outside this production
+   ZIP: its bounding size includes the 0.05 mm outline stroke; it also
+   records nominal 0.83 mm stack thickness. The dimensions/core above govern.
+
+MODEL / ASSEMBLY REFERENCE (not PCB fabrication layers):
+- Four radiators at 48.000 mm pitch; one printed 1:4 per polarization.
+- J1/A and J2/B: center conductor to pad 1, coax shield to its surrounding
+  B.Cu return. RET_A and RET_B remain separate; do not bridge RF clearance.
+- Simulation included two straight nominal UT141 cables, 50 mm each,
+  solder transitions and an aluminum reflector 90 x 200 x 2 mm.
+- Lower DIELECTRIC face is 14.949 mm above reflector top. Lower copper
+  surface is 14.914 mm above it. No mounting holes or supports were added.
+
+RF STATUS OF THIS UNCHANGED PROTOTYPE:
+At 5.17 GHz with A=B=0.5 W / 0 deg: front realized total gain 12.4566 dBi;
+H/V beamwidths 72.0547 / 15.1827 deg; peaks +0.75 / -0.25 deg.
+VSWR goal <=1.25 met numerically over 5.09-5.25 GHz; worst checked 1.23548.
+Current pointing goal +/-0.5 deg on BOTH cuts: H FAILS, V PASSES.
+This is the requested unchanged geometry, not a corrected pointing design.
+No physical prototype measurements or manufacturing-tolerance RF study.
+
+CONFIGURACAO PARA O PEDIDO JLCPCB:
+PCB nua, 2 camadas, 70 x 184 mm, RO4350B com nucleo 0,76 mm, cobre 1 oz
+por face, ENIG 1 microinch, sem mascara/serigrafia e sem marca na placa.
+Selecionar o stackup HF correspondente; nao usar 0,83 mm como substituto
+do nucleo nem aceitar FR-4. Confirmar espessura acabada e metalizacao.
+O pacote foi gerado e conferido localmente; nao houve envio ou compra.
+
+Official references checked 2026-11-10:
+https://jlcpcb.com/pcb-fabrication/high-frequency-pcb
+https://jlcpcb.com/capabilities/pcb-capabilities

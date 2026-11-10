@@ -27,3 +27,4 @@ projetos/P2M21/**/*.acf -text whitespace=cr-at-eol
 projetos/P2M21/**/*.svg -text whitespace=-blank-at-eol,-blank-at-eof
 # Saidas de fabricacao da placa 2_elementos: preservar o manifesto byte a byte.
 projetos/P2M21/kicad/2_elementos/gerbers/* -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2M21/kicad/4_elementos/gerbers/* -text whitespace=-blank-at-eol,-blank-at-eof

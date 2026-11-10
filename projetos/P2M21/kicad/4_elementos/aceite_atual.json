@@ -1,0 +1,21 @@
+{
+  "data": "2026-11-10",
+  "fonte": "C12 R13 preservada; nao houve novo solve",
+  "instrucao_usuario": "Ate +/-0,5 graus nos dois cortes",
+  "tolerancia_apontamento_graus": 0.5,
+  "cortes": {
+    "H": {
+      "pico_graus": 0.75,
+      "atende": false
+    },
+    "V": {
+      "pico_graus": -0.25,
+      "atende": true
+    }
+  },
+  "VSWR_meta": 1.25,
+  "VSWR_banda_atende": true,
+  "conjunto_RF_aprovado": false,
+  "motivo": "Maximo horizontal +0,75 graus excede +/-0,5 graus",
+  "conversao_geometrica_aprovada": true
+}

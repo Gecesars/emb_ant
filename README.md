@@ -1,5 +1,7 @@
 # Painel setorial P1H · 5,09 a 5,25 GHz
 
+**KiCad 4_elementos — 10/11:** [placa e documentação](projetos/P2M21/kicad/4_elementos/README.md) · [Gerbers para JLCPCB](projetos/P2M21/kicad/4_elementos/4_elementos_gerbers_JLCPCB.zip). Geometria R13 C12 preservada, 70 × 184 mm, RO4350B de núcleo 0,76 mm, dois divisores 1:4; DRC sem erros ou desconexões. O apontamento H +0,75° ainda excede a tolerância atual de ±0,5°; V −0,25° atende.
+
 **P2M21 — módulo de quatro elementos, R13 de 10/11:** casamento numérico **VSWR ≤1,25 em 5,09–5,25 GHz**, com Fast de 161 pontos e conferências discretas. Pior VSWR ativo **1,23548**, outra entrada casada **1,23260**. Em 5,17 GHz: **12,4566 dBi**, H **72,055°**, V **15,183°**; máximos **+0,75°/−0,25°**, mantendo a ressalva de apontamento horizontal. Seis passes, ΔS **1,672%**, 14 núcleos, entradas iguais/em fase e cabos físicos com perdas. [Relatório, curvas, dimensões e nativos](projetos/P2M21/quatro_elementos_casamento_banda/README.md). A aprovação do casamento deste módulo não qualifica o painel completo de 21 dBi.
 
 **P1H semipronta — campanha R07 suspensa a pedido do usuário em 8/11.** A R06 permanece qualificada somente em 5,17 GHz. O centro R07 foi conferido; a varredura de 17 frequências foi interrompida voluntariamente para iniciar o novo projeto. Não há aprovação de banda R07. [Registro do congelamento](resultados/r07/estado_semipronta.json).

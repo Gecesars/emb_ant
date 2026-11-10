@@ -1,0 +1,41 @@
+{
+  "aprovado": true,
+  "fonte": "Gerbers X2 e Excellon realmente exportados",
+  "cobre": [
+    {
+      "face": "F",
+      "area_diferente_mm2": 8.054796489942844e-05,
+      "Hausdorff_mm": 9.999999974752427e-07
+    },
+    {
+      "face": "B",
+      "area_diferente_mm2": 0.00010076598585807648,
+      "Hausdorff_mm": 1.414213558802549e-06
+    }
+  ],
+  "contorno_mm": [
+    70,
+    184
+  ],
+  "contorno_fechado_unico": true,
+  "mascara_aberta_duas_faces": true,
+  "PTH": {
+    "0.4": 8,
+    "1.1": 2
+  },
+  "NPTH": 0,
+  "erro_posicao_Excellon_max_mm": 0.0005824689071126371,
+  "resolucao_Excellon_mm": 0.001,
+  "folga_cobre_borda_mm": 0.20000000000000284,
+  "nota": "Excellon decimal nativo KiCad arredonda a 0,001 mm; cobre Gerber a 0,000001 mm. Estes valores nao sao tolerancias de fabricacao.",
+  "hashes": {
+    "4_elementos-B_Cu.gbl": "e3b2f1dbd02e5f8d3920a6116b3c182997014a20688d9d19158b04a869fc6553",
+    "4_elementos-B_Mask.gbs": "43a6477a13c56db8d3f64cdb1286d4c1f259d708dac3ecc512ab13d9da4c35df",
+    "4_elementos-Edge_Cuts.gm1": "f84fb7fe54107dafb76baec04fc69380b9972a2f1201b0f9bc4515f34f09c1b1",
+    "4_elementos-F_Cu.gtl": "314265881fb28285a2925d91c7b66890d38c62700b7d5d64b12371fcc33e20ad",
+    "4_elementos-F_Mask.gts": "d9c99d16b1e18896ac9a0007841fc62fb1554faa0683bc6d3c9b7984d0209ee7",
+    "4_elementos-job.gbrjob": "25f0217305da8cf38bf50ecc695c86e97802d53a717def41818ffae0534f5e0f",
+    "4_elementos-NPTH.drl": "19e2cf48b026f00ea7b35741eef26b5273dd5ac20352c8a6a16a721c7f12ac83",
+    "4_elementos-PTH.drl": "8db8aba015785f8d1a777ee6255b6f09a37a511a577698ace968a4acd92ec5f7"
+  }
+}
