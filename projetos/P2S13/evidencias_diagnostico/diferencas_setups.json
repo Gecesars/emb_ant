@@ -1,0 +1,49 @@
+{
+  "v01_b20_a60": {
+    "AnalysisSetup": [],
+    "MeshSetup": [],
+    "MeshSettings": []
+  },
+  "v03_b20_a60_tau": {
+    "AnalysisSetup": [],
+    "MeshSetup": [
+      "--- \n",
+      "+++ \n",
+      "@@ -12,3 +12,3 @@\n",
+      " \t\t\t\t$end 'GlobalModelRes'",
+      "-\t\t\t\tMeshMethod='AnsoftClassic'",
+      "+\t\t\t\tMeshMethod='AnsoftTAU'",
+      " \t\t\t\tUseLegacyFaceterForTauVolumeMesh=false"
+    ],
+    "MeshSettings": [
+      "--- \n",
+      "+++ \n",
+      "@@ -11,3 +11,3 @@\n",
+      " \t\t\t\t$end 'GlobalModelRes'",
+      "-\t\t\t\tMeshMethod='AnsoftClassic'",
+      "+\t\t\t\tMeshMethod='AnsoftTAU'",
+      " \t\t\t\tUseLegacyFaceterForTauVolumeMesh=false"
+    ]
+  },
+  "v05_b20_a90_tau": {
+    "AnalysisSetup": [],
+    "MeshSetup": [
+      "--- \n",
+      "+++ \n",
+      "@@ -12,3 +12,3 @@\n",
+      " \t\t\t\t$end 'GlobalModelRes'",
+      "-\t\t\t\tMeshMethod='AnsoftClassic'",
+      "+\t\t\t\tMeshMethod='AnsoftTAU'",
+      " \t\t\t\tUseLegacyFaceterForTauVolumeMesh=false"
+    ],
+    "MeshSettings": [
+      "--- \n",
+      "+++ \n",
+      "@@ -11,3 +11,3 @@\n",
+      " \t\t\t\t$end 'GlobalModelRes'",
+      "-\t\t\t\tMeshMethod='AnsoftClassic'",
+      "+\t\t\t\tMeshMethod='AnsoftTAU'",
+      " \t\t\t\tUseLegacyFaceterForTauVolumeMesh=false"
+    ]
+  }
+}

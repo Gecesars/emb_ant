@@ -1,0 +1,79 @@
+{
+  "nota": "Comparacao das facetas intermediarias; nao equivale a malha volumetrica ou validacao RF.",
+  "anterior": {
+    "caso": "v06_b20_a60_dinamica",
+    "triangulos": 23243,
+    "pior_refletor": {
+      "tri": 367954,
+      "facet": 8018,
+      "corpos": [
+        "Refletor_Al2mm"
+      ],
+      "area_mm2": 0.9579143503008688,
+      "qualidade": 3.9479673367746476e-05,
+      "razao_R_2r": 243053.99215646496,
+      "altura_min_mm": 0.006607393958225746,
+      "arestas_mm": [
+        0.07321088952137841,
+        289.9522433071611,
+        289.87933126625853
+      ],
+      "vertices_mm": [
+        [
+          -93.49169555129134,
+          29.90000017772248,
+          -17.147304290805476
+        ],
+        [
+          -93.41852698522901,
+          29.90124512041783,
+          -17.149459610405536
+        ],
+        [
+          195.9999999833335,
+          21.73205081165125,
+          -3.000000007072865
+        ]
+      ]
+    }
+  },
+  "atual": {
+    "caso": "v07_b20_a60_aspecto",
+    "triangulos": 36511,
+    "pior_refletor": {
+      "tri": 523787,
+      "facet": 8422,
+      "corpos": [
+        "Refletor_Al2mm"
+      ],
+      "area_mm2": 6.533731217271209,
+      "qualidade": 0.014167139035564965,
+      "razao_R_2r": 1132.960656644166,
+      "altura_min_mm": 0.30707868704554253,
+      "arestas_mm": [
+        42.554117188225426,
+        5.8135160121195915,
+        36.75
+      ],
+      "vertices_mm": [
+        [
+          -30.947368418421064,
+          19.9999999782765,
+          -2.0
+        ],
+        [
+          -73.5,
+          20.354169480639097,
+          -2.0316087840615036
+        ],
+        [
+          -36.75,
+          20.354169480639097,
+          -2.0316087840615036
+        ]
+      ]
+    }
+  },
+  "razao_qualidade_pior_refletor": 358.84640948268395,
+  "metodo": "q=4*sqrt(3)*area/soma(arestas^2), 1=equilatero, 0=degenerado"
+}

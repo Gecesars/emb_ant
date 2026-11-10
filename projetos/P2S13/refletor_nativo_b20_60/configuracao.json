@@ -1,0 +1,110 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\quatro_elementos_casamento_banda\\c12_raiz_intermediaria",
+  "fontes_sha256": {
+    "4_elementos.FCStd": "e0b189c9d7a29c72ad480d7759cfe38bacbaf40121c87b994c43ff7bb3dcc681",
+    "geometria.json": "89adc0231bc3f8fa3d9bc110dcfd1d43dbb12f9b8b3872fe34e02c2602cd2995",
+    "cad/manifesto.json": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c",
+    "cad/folhas_solidas.json": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+  },
+  "celulas": [
+    {
+      "nome": "R1",
+      "x": -96,
+      "y": 0,
+      "z": 0
+    },
+    {
+      "nome": "R2",
+      "x": 96,
+      "y": 0,
+      "z": 0
+    }
+  ],
+  "portas": [
+    {
+      "name": "R1_A",
+      "celula": "R1",
+      "polarizacao": "A",
+      "x": -93.49083158695937,
+      "y": -32.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515
+    },
+    {
+      "name": "R1_B",
+      "celula": "R1",
+      "polarizacao": "B",
+      "x": -93.49083158695937,
+      "y": 32.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515
+    },
+    {
+      "name": "R2_A",
+      "celula": "R2",
+      "polarizacao": "A",
+      "x": 98.50916841304063,
+      "y": -32.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515
+    },
+    {
+      "name": "R2_B",
+      "celula": "R2",
+      "polarizacao": "B",
+      "x": 98.50916841304063,
+      "y": 32.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515
+    }
+  ],
+  "radiadores": 8,
+  "niveis_radiadores": 8,
+  "niveis_placas": 2,
+  "colunas": 1,
+  "frequencia_GHz": 5.17,
+  "potencia_por_porta_W": 0.25,
+  "fase_graus": 0,
+  "potencia_total_W": 1,
+  "nucleos": 14,
+  "gui": false,
+  "sweep": false,
+  "max_passes": 6,
+  "min_passes": 2,
+  "passes_consecutivos": 2,
+  "max_delta_s": 0.05,
+  "percent_refinement": 50,
+  "basis_order": 1,
+  "malha": "Classic automatico; refletor redesenhado com arcos e cilindros nativos, mesmas dimensoes; PCBs intactas; sem operacoes locais.",
+  "metas": {
+    "ganho_frontal_min_dBi": 13,
+    "H_min_graus": 99,
+    "H_max_graus": 121,
+    "V_min_graus": 16.2,
+    "V_max_graus": 19.8
+  },
+  "monitoramento_estabilidade_campo_dB": 0.1,
+  "refletor_comprimento_mm": 392,
+  "refletor_desenvolvido_largura_mm": 90,
+  "espessura_mm": 2,
+  "raio_interno_mm": 2,
+  "K_dobra": 0.4,
+  "passo_vertical_mm": 48,
+  "passo_placas_mm": 192,
+  "nucleo_z_mm": 14.949,
+  "escopo": "Duas PCBs C12 em coluna, geometria e cabos fisicos de 50mm preservados; sem suportes plasticos, conectores N ou rede externa. Ambas polarizacoes e ambas placas em fase.",
+  "revisao": "v12_b20_a60_refletor_nativo",
+  "native": "P2S13_Nativo.aedt",
+  "cad_native": "P2S13.FCStd",
+  "design": "Duas_placas",
+  "inicio_dobra_y_mm": 20,
+  "angulo_dobra_graus": 60,
+  "mesh_method": "AnsoftClassic",
+  "tau_flex": false,
+  "exigir_malha_sem_reparos": true,
+  "refletor_construcao": "nativo"
+}

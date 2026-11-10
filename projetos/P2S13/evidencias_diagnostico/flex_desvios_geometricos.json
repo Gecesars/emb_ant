@@ -1,0 +1,35 @@
+{
+  "metodo": "Distancia minima de cada vertice sinalizado ao solido CAD fonte. Mede posicao dos vertices, nao conectividade nem completude das faces.",
+  "objetos": [
+    {
+      "body_id": 246,
+      "objeto": "R2_PCB_RO4350B",
+      "triangulos_sinalizados": 10447,
+      "vertices_unicos": 5204,
+      "distancia_maxima_ao_CAD_mm": 0.034999980000000264,
+      "vertice_maximo_mm": [
+        35.39538993258101,
+        -20.99999999981037,
+        14.91400002
+      ],
+      "distancia_media_mm": 9.81302700929466e-05,
+      "vertices_acima_1um": 34,
+      "tempo_s": 3.0480916500091553
+    },
+    {
+      "body_id": 1884,
+      "objeto": "R2_F_SIG_A_Cu0",
+      "triangulos_sinalizados": 1896,
+      "vertices_unicos": 950,
+      "distancia_maxima_ao_CAD_mm": 2.3282292028962863,
+      "vertice_maximo_mm": [
+        35.39538993258101,
+        -20.99999999981037,
+        14.91400002
+      ],
+      "distancia_media_mm": 0.005966954701778749,
+      "vertices_acima_1um": 12,
+      "tempo_s": 10.086050987243652
+    }
+  ]
+}

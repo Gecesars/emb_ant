@@ -1,0 +1,12 @@
+{
+  "valido": true,
+  "volume_original_mm3": 70686.00177229248,
+  "volume_exportado_nativo_mm3": 70686.00446489766,
+  "diferenca_simetrica_mm3": 0.0,
+  "original_menos_nativo_mm3": 0.0,
+  "nativo_menos_original_mm3": 0.0,
+  "razao_diferenca_simetrica": 0.0,
+  "faces_original": 18,
+  "faces_nativo": 18,
+  "nota": "Comparacao apos STEP de retorno; pequenas diferencas de traducao nao sao refinamento geometrico deliberado."
+}

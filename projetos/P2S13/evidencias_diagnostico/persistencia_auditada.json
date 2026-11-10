@@ -1,0 +1,37 @@
+{
+  "Materials": {
+    "identico_bruto": true,
+    "identico_fisicamente": true,
+    "normalizacao": null,
+    "sha256_antes": "acdd806e788bf80f7c49dbb0a81b8fb555b9afdfcbde90c21883b8ecad68937c",
+    "sha256_depois": "acdd806e788bf80f7c49dbb0a81b8fb555b9afdfcbde90c21883b8ecad68937c"
+  },
+  "GeometryCore": {
+    "identico_bruto": false,
+    "identico_fisicamente": true,
+    "normalizacao": "Somente contador DataVersion 5->6",
+    "sha256_antes": "7ac0d04cdb1563b8e0afd80966244ee71aa0789171e82c20b8d2f3d746fdf392",
+    "sha256_depois": "7ac0d04cdb1563b8e0afd80966244ee71aa0789171e82c20b8d2f3d746fdf392"
+  },
+  "Boundaries": {
+    "identico_bruto": true,
+    "identico_fisicamente": true,
+    "normalizacao": null,
+    "sha256_antes": "548812813662e60cbb2e3249125b283ba61d361692e12d006aac845a49dce9df",
+    "sha256_depois": "548812813662e60cbb2e3249125b283ba61d361692e12d006aac845a49dce9df"
+  },
+  "AnalysisSetup": {
+    "identico_bruto": true,
+    "identico_fisicamente": true,
+    "normalizacao": null,
+    "sha256_antes": "bb819089324280d8691a1532e20e9faa6ced124662fabf872ed3cc21599722ab",
+    "sha256_depois": "bb819089324280d8691a1532e20e9faa6ced124662fabf872ed3cc21599722ab"
+  },
+  "MeshSettings": {
+    "identico_bruto": true,
+    "identico_fisicamente": true,
+    "normalizacao": null,
+    "sha256_antes": "23951100ecd65c2cd66a9bbecb9480d9e0d718ac088dee0daf67b15be00e61e0",
+    "sha256_depois": "23951100ecd65c2cd66a9bbecb9480d9e0d718ac088dee0daf67b15be00e61e0"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "variante": "v00_plano",
+    "metodo_malha": "AnsoftClassic",
+    "inicio_dobra_mm": 45,
+    "angulo_graus": 0,
+    "ganho_dBi": 14.794409082411855,
+    "H_graus": 73.33616947869749,
+    "V_graus": 7.580796160509449,
+    "pico_H": 0.25,
+    "pico_V": 0.25,
+    "VSWR_ativo_max": 1.5091273167885497,
+    "delta_s": 0.07377681137640177,
+    "passes": 6,
+    "convergiu": false,
+    "fisica_ok": true,
+    "estavel": false,
+    "aprovado": false
+  },
+  {
+    "variante": "v12_b20_a60_refletor_nativo",
+    "metodo_malha": "AnsoftClassic",
+    "inicio_dobra_mm": 20,
+    "angulo_graus": 60,
+    "ganho_dBi": 12.90534989814403,
+    "H_graus": 78.2344067486411,
+    "V_graus": 7.5425112678970585,
+    "pico_H": -6.75,
+    "pico_V": -0.25,
+    "VSWR_ativo_max": 1.1967735680340539,
+    "delta_s": 0.06705061239978963,
+    "passes": 6,
+    "convergiu": false,
+    "fisica_ok": false,
+    "estavel": false,
+    "aprovado": false
+  }
+]

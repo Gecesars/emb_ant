@@ -1,0 +1,152 @@
+{
+  "origem": "STEP exportado pelo HFSS da propria geometria importada; segunda traducao CAD, nomes substituidos no STEP",
+  "solidos": 13,
+  "refletor_valido": true,
+  "refletor_volume_mm3": 70685.19799837751,
+  "objetos": [
+    {
+      "nome": "Part__Feature001",
+      "volume_mm3": 327.25476709321754,
+      "centro": [
+        98.50916841319274,
+        32.0,
+        -10.05682430780282
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.5849999996543405,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature002",
+      "volume_mm3": 327.25476709321754,
+      "centro": [
+        98.50916841319274,
+        -32.0,
+        -10.05682430780282
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.5849999996543405,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature003",
+      "volume_mm3": 327.25476709321754,
+      "centro": [
+        -93.49083158680726,
+        32.0,
+        -10.05682430780282
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.5849999996543405,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature004",
+      "volume_mm3": 327.25476709321754,
+      "centro": [
+        -93.49083158680726,
+        -32.0,
+        -10.05682430780282
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.5849999996543359,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature005",
+      "volume_mm3": 143.55314335316703,
+      "centro": [
+        98.50916841749998,
+        32.0,
+        -9.963289595727902
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.30949999965434344,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature006",
+      "volume_mm3": 33.9569651722637,
+      "centro": [
+        98.50916841325407,
+        32.0,
+        -9.486437618362517
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 1.6402499996543443,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature007",
+      "volume_mm3": 143.55314335316703,
+      "centro": [
+        98.50916841749998,
+        -32.0,
+        -9.963289595727906
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.30949999965433483,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature008",
+      "volume_mm3": 33.9569651722637,
+      "centro": [
+        98.50916841325407,
+        -32.0,
+        -9.486437618362517
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 1.6402499996543443,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature009",
+      "volume_mm3": 143.55314335316703,
+      "centro": [
+        -93.49083158249994,
+        32.0,
+        -9.963289595727902
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.30949999965434344,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature010",
+      "volume_mm3": 33.9569651722637,
+      "centro": [
+        -93.49083158674594,
+        32.0,
+        -9.486437618362517
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 1.6402499996543443,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature011",
+      "volume_mm3": 143.55314335316703,
+      "centro": [
+        -93.49083158249994,
+        -32.0,
+        -9.963289595727906
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 0.3094999996543388,
+      "intersecao_refletor_mm3": 0.0
+    },
+    {
+      "nome": "Part__Feature012",
+      "volume_mm3": 33.9569651722637,
+      "centro": [
+        -93.49083158674594,
+        -32.0,
+        -9.486437618362517
+      ],
+      "valido": true,
+      "distancia_refletor_mm": 1.6402499996543443,
+      "intersecao_refletor_mm3": 0.0
+    }
+  ]
+}

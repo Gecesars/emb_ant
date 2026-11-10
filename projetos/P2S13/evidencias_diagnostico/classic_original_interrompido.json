@@ -1,0 +1,19 @@
+{
+  "data": "2026-11-10T16:17:54.585710-03:00",
+  "motivo": "Classic permanece na geracao inicial por cerca de 57 minutos, sem primeiro passe. Testar TAU estrito, preservando geometria e criterios.",
+  "estado": "INTERRUPCAO_INICIAL_SEM_RESULTADO_RF",
+  "pids": [
+    117880,
+    124192,
+    108104,
+    121256
+  ],
+  "cpu_mesher_s": 3089.96875,
+  "memoria_privada_bytes": 1725890560,
+  "tempo_mesher_s": 3399.3237681388855,
+  "projetos": [
+    "P2S13"
+  ],
+  "api": "StopSimulations(False)",
+  "retorno_api": "stopped"
+}

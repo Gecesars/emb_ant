@@ -1,0 +1,13 @@
+{
+  "data": "2026-11-10T16:51:17.492020-03:00",
+  "motivo": "Resolucao dinamica isolada nao concluiu a malha inicial. Triangulacao identificou elemento do refletor de 290mm com altura 0.0066mm. Proximo teste controla aspecto somente no refletor.",
+  "tempo_s": 731.3387191295624,
+  "cpu_s": 734.53125,
+  "solve_RF": false,
+  "pids": [
+    118152,
+    125256,
+    121736
+  ],
+  "retorno_api": "stopped"
+}

@@ -1,0 +1,3 @@
+﻿variante,metodo_malha,inicio_dobra_mm,angulo_graus,ganho_dBi,H_graus,V_graus,pico_H,pico_V,VSWR_ativo_max,delta_s,passes,convergiu,fisica_ok,estavel,aprovado
+v00_plano,AnsoftClassic,45,0,14.794409082411855,73.33616947869749,7.580796160509449,0.25,0.25,1.5091273167885497,0.07377681137640177,6,False,True,False,False
+v12_b20_a60_refletor_nativo,AnsoftClassic,20,60,12.90534989814403,78.2344067486411,7.5425112678970585,-6.75,-0.25,1.1967735680340539,0.06705061239978963,6,False,False,False,False

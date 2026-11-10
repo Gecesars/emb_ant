@@ -1,0 +1,424 @@
+{
+  "aprovado": true,
+  "objetos": 83,
+  "pares": 150,
+  "intersecoes": [],
+  "celulas": 2,
+  "solidos_copiados": [
+    {
+      "nome": "R1_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R1_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15
+    },
+    {
+      "nome": "R1_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16
+    },
+    {
+      "nome": "R1_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16
+    },
+    {
+      "nome": "R1_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R1_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 1.4210854715202004e-14
+    },
+    {
+      "nome": "R1_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 1.3877787807814457e-17
+    },
+    {
+      "nome": "R1_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 4.163336342344337e-17
+    },
+    {
+      "nome": "R1_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 1.8041124150158794e-16
+    },
+    {
+      "nome": "R1_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 1.942890293094024e-16
+    },
+    {
+      "nome": "R1_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 2.7755575615628914e-17
+    },
+    {
+      "nome": "R1_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 6.938893903907228e-18
+    },
+    {
+      "nome": "R1_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 3.907985046680551e-14
+    },
+    {
+      "nome": "R1_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16
+    },
+    {
+      "nome": "R1_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 5.551115123125783e-17
+    },
+    {
+      "nome": "R1_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 2.220446049250313e-16
+    },
+    {
+      "nome": "R1_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.0658141036401503e-14
+    },
+    {
+      "nome": "R1_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 2.6645352591003757e-15
+    },
+    {
+      "nome": "R1_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 2.6367796834847468e-15
+    },
+    {
+      "nome": "R1_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 3.3306690738754696e-16
+    },
+    {
+      "nome": "R1_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 1.249000902703301e-16
+    },
+    {
+      "nome": "R1_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 3.3306690738754696e-16
+    },
+    {
+      "nome": "R1_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.249000902703301e-16
+    },
+    {
+      "nome": "R1_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R1_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 2.842170943040401e-14
+    },
+    {
+      "nome": "R1_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R1_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R1_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    },
+    {
+      "nome": "R1_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    },
+    {
+      "nome": "R1_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 2.842170943040401e-14
+    },
+    {
+      "nome": "R1_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R1_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R1_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    },
+    {
+      "nome": "R1_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    },
+    {
+      "nome": "R2_PCB_RO4350B",
+      "origem": "PCB_RO4350B",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_B_E1_Q2_Cu0",
+      "origem": "B_E1_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R2_B_E1_Q3_Cu0",
+      "origem": "B_E1_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R2_B_E2_Q2_Cu0",
+      "origem": "B_E2_Q2_Cu0",
+      "delta_volume_mm3": 8.881784197001252e-16
+    },
+    {
+      "nome": "R2_B_E2_Q3_Cu0",
+      "origem": "B_E2_Q3_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_B_E3_Q2_Cu0",
+      "origem": "B_E3_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R2_B_E3_Q3_Cu0",
+      "origem": "B_E3_Q3_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_B_E4_Q2_Cu0",
+      "origem": "B_E4_Q2_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R2_B_E4_Q3_Cu0",
+      "origem": "B_E4_Q3_Cu0",
+      "delta_volume_mm3": 4.440892098500626e-16
+    },
+    {
+      "nome": "R2_B_RET_A_Cu0",
+      "origem": "B_RET_A_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_B_RET_B_Cu0",
+      "origem": "B_RET_B_Cu0",
+      "delta_volume_mm3": 2.842170943040401e-14
+    },
+    {
+      "nome": "R2_B_SIG_A_Cu0",
+      "origem": "B_SIG_A_Cu0",
+      "delta_volume_mm3": 4.163336342344337e-17
+    },
+    {
+      "nome": "R2_B_SIG_B_Cu0",
+      "origem": "B_SIG_B_Cu0",
+      "delta_volume_mm3": 1.3877787807814457e-17
+    },
+    {
+      "nome": "R2_B_SIG_B_Cu1",
+      "origem": "B_SIG_B_Cu1",
+      "delta_volume_mm3": 1.942890293094024e-16
+    },
+    {
+      "nome": "R2_B_SIG_B_Cu2",
+      "origem": "B_SIG_B_Cu2",
+      "delta_volume_mm3": 1.8041124150158794e-16
+    },
+    {
+      "nome": "R2_B_SIG_B_Cu3",
+      "origem": "B_SIG_B_Cu3",
+      "delta_volume_mm3": 4.163336342344337e-17
+    },
+    {
+      "nome": "R2_B_SIG_B_Cu4",
+      "origem": "B_SIG_B_Cu4",
+      "delta_volume_mm3": 1.3877787807814457e-17
+    },
+    {
+      "nome": "R2_F_SIG_A_Cu0",
+      "origem": "F_SIG_A_Cu0",
+      "delta_volume_mm3": 3.552713678800501e-15
+    },
+    {
+      "nome": "R2_F_SIG_B_Cu0",
+      "origem": "F_SIG_B_Cu0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_F_SIG_B_Cu1",
+      "origem": "F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1102230246251565e-16
+    },
+    {
+      "nome": "R2_F_SIG_B_Cu2",
+      "origem": "F_SIG_B_Cu2",
+      "delta_volume_mm3": 2.7755575615628914e-16
+    },
+    {
+      "nome": "R2_F_SIG_B_Cu3",
+      "origem": "F_SIG_B_Cu3",
+      "delta_volume_mm3": 9.992007221626409e-16
+    },
+    {
+      "nome": "R2_F_SIG_B_Cu4",
+      "origem": "F_SIG_B_Cu4",
+      "delta_volume_mm3": 7.105427357601002e-15
+    },
+    {
+      "nome": "R2_Via_0",
+      "origem": "Via_0",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_Via_1",
+      "origem": "Via_1",
+      "delta_volume_mm3": 0.0
+    },
+    {
+      "nome": "R2_Via_2",
+      "origem": "Via_2",
+      "delta_volume_mm3": 3.3306690738754696e-16
+    },
+    {
+      "nome": "R2_Via_3",
+      "origem": "Via_3",
+      "delta_volume_mm3": 1.249000902703301e-16
+    },
+    {
+      "nome": "R2_Via_4",
+      "origem": "Via_4",
+      "delta_volume_mm3": 3.3306690738754696e-16
+    },
+    {
+      "nome": "R2_Via_5",
+      "origem": "Via_5",
+      "delta_volume_mm3": 1.249000902703301e-16
+    },
+    {
+      "nome": "R2_Via_6",
+      "origem": "Via_6",
+      "delta_volume_mm3": 2.6645352591003757e-15
+    },
+    {
+      "nome": "R2_Via_7",
+      "origem": "Via_7",
+      "delta_volume_mm3": 2.6367796834847468e-15
+    },
+    {
+      "nome": "R2_Vivo_A",
+      "origem": "Vivo_A",
+      "delta_volume_mm3": 2.842170943040401e-14
+    },
+    {
+      "nome": "R2_Blindagem_A",
+      "origem": "Blindagem_A",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R2_PTFE_A",
+      "origem": "PTFE_A",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R2_Solda_A",
+      "origem": "Solda_A",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    },
+    {
+      "nome": "R2_PTH_A",
+      "origem": "PTH_A",
+      "delta_volume_mm3": 2.7755575615628914e-16
+    },
+    {
+      "nome": "R2_Vivo_B",
+      "origem": "Vivo_B",
+      "delta_volume_mm3": 2.842170943040401e-14
+    },
+    {
+      "nome": "R2_Blindagem_B",
+      "origem": "Blindagem_B",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R2_PTFE_B",
+      "origem": "PTFE_B",
+      "delta_volume_mm3": 5.684341886080802e-14
+    },
+    {
+      "nome": "R2_Solda_B",
+      "origem": "Solda_B",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    },
+    {
+      "nome": "R2_PTH_B",
+      "origem": "PTH_B",
+      "delta_volume_mm3": 1.6653345369377348e-16
+    }
+  ],
+  "extensao_refletor_Y_mm": 68.99605008692507,
+  "extensao_refletor_Z_mm": 22.11131599032622,
+  "asa_reta_mm": 22.067846856649528,
+  "dobra_alpha_graus": 60,
+  "inicio_dobra_Y_mm": 20
+}

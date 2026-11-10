@@ -1,0 +1,588 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\configuracao.json",
+      "bytes": 2838,
+      "sha256": "114769d7a94b9f3a063baec45179941d2116aaddc8d92238a40f27c23a8b86d0"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\resultado.json",
+      "bytes": 3443,
+      "sha256": "8266f3b854358c0c9887ebabb94e63e67b119a8338e899f0f3e24bfe6f255154"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\historico_passes.json",
+      "bytes": 3737,
+      "sha256": "7c3be2cae77dc9f8fb9df0efd64abfc83c740088e9de5dc61c9c92f5e5a4c5dd"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\convergencia.txt",
+      "bytes": 622,
+      "sha256": "50294c385c818cc1fd4a83b8159ccf79fc1becad071dc4cbe22dbb13c1509174"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\centro.s4p",
+      "bytes": 1541,
+      "sha256": "8cbe3fc5449963c63c92925c91e3ac77a863b032ef39f5c5d87cb98cf8ab525a"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\recursos_matriz.json",
+      "bytes": 2550,
+      "sha256": "2efc362faccce4906736121fae6d115e564b3aa5f863d56c7120039c1d82c86b"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\mensagens.json",
+      "bytes": 331,
+      "sha256": "3ecf66d07f02b8d9771cc455e37bcde2a15ef818fa84a37189ff2848940af7ee"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\malha.json",
+      "bytes": 37233,
+      "sha256": "d0c48ef1ca38190388e5eac3d49a24b200f30201bff2dc71961304baae9ed8b0"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\hfss_validacao.json",
+      "bytes": 277,
+      "sha256": "8b30e0fb459017b71860a123dc1edb079c01fc3fd9be501307c457c5fae5c6a2"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\ordem_fontes.json",
+      "bytes": 50,
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\qualificacao.json",
+      "bytes": 141,
+      "sha256": "d5c672db2b3d9e5933d1af0c5e27d477c22b9e51ac47fff53785d0bb34b9f727"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\diagramas_HV.png",
+      "bytes": 113771,
+      "sha256": "67a8ac08c157ecae09bb454f7e423300f71856290b29fc2a8b6810da514edebc"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\polar_HV.png",
+      "bytes": 201972,
+      "sha256": "aeb62a13b311311494e9197f06acaf8fb657af3839ec065588beb0a73b1ce7bb"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/P2S13.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\P2S13.aedt",
+      "bytes": 14445526,
+      "sha256": "affe7099166657ba374e82535615e1140e070b6bae5afbfaf3fe7020036735fe"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/P2S13.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\P2S13.FCStd",
+      "bytes": 871252,
+      "sha256": "aebdf5b2ce6bef657dbbfbf6e1bef244da3418d3fef04c5690c1919d984f461d"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\ALL_H.csv",
+      "bytes": 197560,
+      "sha256": "628b5ab2491ddf9bd0d8bcc8b1b1e0099d68789d196996d1bb0c9048958c04e4"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\ALL_V.csv",
+      "bytes": 197741,
+      "sha256": "48fff657284cbf5302415cf9e0f93324cdb833d0732195083eb6a735a33e7fa7"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\POL_A_H.csv",
+      "bytes": 197957,
+      "sha256": "2cab06c852e023686aa0a554cb16f1c495eae890e5093bb86e7f66a6ea22e2f3"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\POL_A_V.csv",
+      "bytes": 197252,
+      "sha256": "cd2dc716e54e69d471eeffeaaad7c623d76ba62f7dc95ea16fb38afdd6ac4573"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\POL_B_H.csv",
+      "bytes": 197349,
+      "sha256": "466773fd7d1f6fae8ae1cccb89044cd717cd4d81ad733612da79594961efeec8"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\POL_B_V.csv",
+      "bytes": 197722,
+      "sha256": "b72b13c0b94eaa9e680273ff6521c0af8b19c8c2ddaa1ea14fc051ded9d947eb"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R1_A_H.csv",
+      "bytes": 198089,
+      "sha256": "578e14444732c4350674aba92e382cf46079dfac05eed58e46179f1f11250c0b"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R1_A_V.csv",
+      "bytes": 196800,
+      "sha256": "c892c222978cc78561de6b7e268118b417317bbdf7b4d9fd447641467a3d2a95"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R1_B_H.csv",
+      "bytes": 197413,
+      "sha256": "3b3d8d608608e420a875293edad0c7fc704e5a2f3dd49342f43bfdc6ee3033cc"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R1_B_V.csv",
+      "bytes": 197550,
+      "sha256": "f9c5edeb32ace4204836a654fbf07f9ea46c171764d38571b4f93c9ff769e675"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R2_A_H.csv",
+      "bytes": 198104,
+      "sha256": "e319600b8d3585743dc2345f4bb15152bf8bdd626d51c39a14d3a62788eef7c5"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R2_A_V.csv",
+      "bytes": 197035,
+      "sha256": "66996d8a848f9083277b4b83d4e8ffc91d66c19fcb5342bb976bbe8752b23046"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R2_B_H.csv",
+      "bytes": 197429,
+      "sha256": "33958eac4c6f8bc66c5b6166102b0457da2535348c00365df14867ea7d0896ac"
+    },
+    {
+      "arquivo": "projetos/P2S13/referencia_plana/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v00_plano\\R2_B_V.csv",
+      "bytes": 197288,
+      "sha256": "b4180445fbb93e8146f296d2b0ef1d2eb9c02238bdc23a30bb77cd87fb1c36f5"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\configuracao.json",
+      "bytes": 3001,
+      "sha256": "d79af5986df1f5776a647e16194e93488c6a7cedf5edf26aa335712398945886"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\resultado.json",
+      "bytes": 3620,
+      "sha256": "b4ddf98a2085ec54aea82e46974103784dee4cb0ee4dfb9d5d43ba17d67814a3"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\historico_passes.json",
+      "bytes": 3766,
+      "sha256": "e543def6146346979c689ff16cc892f28197817bfe911e871b980fa4df33a7e8"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\convergencia.txt",
+      "bytes": 622,
+      "sha256": "9cc8801dbc4c7503bfda8d0d33e1157b4974f5c8e5d1cb1beea0bdf727b2a1d7"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\centro.s4p",
+      "bytes": 1568,
+      "sha256": "1eccfada865d2287461f923be43f14bd206f01cd84e761c959043a6f08eb3451"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\recursos_matriz.json",
+      "bytes": 2543,
+      "sha256": "67afef43918c88fa26dec3100077b9ef12eed249fe4a8f2f9797427277147335"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\mensagens.json",
+      "bytes": 345,
+      "sha256": "321ea183a71c3a85ba8f9f0cd2f66199607ff6cd30ec3919f6b0092118039ac3"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\malha.json",
+      "bytes": 35650,
+      "sha256": "223e041c652d5b24f941d628faeb47cb2526847e07a7e5e4afa3acdd6ac9dcf7"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\hfss_validacao.json",
+      "bytes": 141,
+      "sha256": "60adc5cbc8f68d67ad1026e3405e414439af4b97ac7c75e74966b7a8d6ce8748"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\ordem_fontes.json",
+      "bytes": 50,
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\qualificacao.json",
+      "bytes": 141,
+      "sha256": "3dcb6adb59b7b6ae2e3328cff35fd278d1ead47ee53234a9060634d210772f97"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\diagramas_HV.png",
+      "bytes": 121793,
+      "sha256": "9c28385a826a97bdf65cf20d725e02a1c8e206b378e3a7f8f247785eaf7e78f9"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\polar_HV.png",
+      "bytes": 213901,
+      "sha256": "84a2df8e7bd9158e3e5a9e33aac7e48a7106637577f8f27f97747d5d2bab0efd"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/P2S13_Nativo.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\P2S13_Nativo.aedt",
+      "bytes": 14463600,
+      "sha256": "6eaf514da2e6e69a5fd39fc6e27febd5072cd8f36d725948c33d33e0ed3a7cb7"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/P2S13.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\P2S13.FCStd",
+      "bytes": 877881,
+      "sha256": "7435cbc685a2b12af05e78e6cdf288b5f8ce9ae92dbc2bbb078fa9d8adec45fe"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\ALL_H.csv",
+      "bytes": 197451,
+      "sha256": "f6a3866a5f2d17a5a9c6d4c2b5db508a1dd9716889bb1636cb0aa307387758d8"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\ALL_V.csv",
+      "bytes": 197903,
+      "sha256": "0375dcd2bb0d4338b5a572777e4fbca92c6382c379e69dd9db08ada7a04dc9f2"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\POL_A_H.csv",
+      "bytes": 197080,
+      "sha256": "a1e373e0c1f6b9a45977bf8cdde1aa434d96c000b870349ee7cd9d510a257f8f"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\POL_A_V.csv",
+      "bytes": 197301,
+      "sha256": "ee807dd748bc8a3565605b5530fe1f5385bfa7c9620765d7581a438fb225b04f"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\POL_B_H.csv",
+      "bytes": 196566,
+      "sha256": "11a6e34637e074c21b6c71152162a3dad7ecfa0e1df7eec2667b4f0df5231340"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\POL_B_V.csv",
+      "bytes": 197893,
+      "sha256": "d95fec92fbad08fc5c7dab63e56757361855292a7ba5e7c6af00064b6c394c47"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R1_A_H.csv",
+      "bytes": 198625,
+      "sha256": "7795b1bbeae2eff50f2c668fd6ba555febb955fe2a22afe6c33c80ef16e38830"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R1_A_V.csv",
+      "bytes": 197159,
+      "sha256": "553925dab14ce1b91a2fd73bbd948dce7e2ff0188772ea6f764122ab17730a75"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R1_B_H.csv",
+      "bytes": 197828,
+      "sha256": "9f8818e8f33b8f8ba414c7473f649657a63064a953a673edde5a55ed8518948b"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R1_B_V.csv",
+      "bytes": 198024,
+      "sha256": "6fcf379fabc8b53e669a2ed7fdb6503fd810fed76708fc0b89eb832eb31692d1"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R2_A_H.csv",
+      "bytes": 198735,
+      "sha256": "99d1deab035f0d01fdb891c3c23e0caf4225f3aace679dcce2efbec0c84961d9"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R2_A_V.csv",
+      "bytes": 197656,
+      "sha256": "6204cf4e1e126d68665240e51ba2699206a6b8e45d6d1f5702bfed11253a7b1b"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R2_B_H.csv",
+      "bytes": 198119,
+      "sha256": "876d7fd51f0ae0e4950d5acaac60822461b8895be53a6a6713bac2ed4b87181b"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\R2_B_V.csv",
+      "bytes": 197936,
+      "sha256": "5ab64dfc1a1dd9a270fd78b943ee29fa55283f9ed4fe8ba2c5bf23d2fb2069df"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\geracao_malha.json",
+      "bytes": 119,
+      "sha256": "88269f7abf2654515ab1af0fa180c3de2b2513ba2af11d9fdb26b36186397afe"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\malha_inicial.json",
+      "bytes": 11079,
+      "sha256": "29f312128ff7c439195c25ab4fa7ccac1d5aed480df27be0026f64c342a25ad1"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\estatisticas_malha_inicial.txt",
+      "bytes": 13234,
+      "sha256": "ecdf01132a4c5c641a200770cbb1343dfab5337a690331f75d5c40326cef924c"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\mensagens_malha.json",
+      "bytes": 170,
+      "sha256": "c9f32a98d0efa8ced71fc21686beaa773cac760e0537dc1b54ca46daadb1a593"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/reconstrucao_refletor.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\reconstrucao_refletor.json",
+      "bytes": 2677,
+      "sha256": "cf39fcc5691f9c2ff334cc2fc13a53922e24ce06c23ac9e733de98e445427445"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/conferencia_refletor_nativo.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\conferencia_refletor_nativo.json",
+      "bytes": 438,
+      "sha256": "b1f908d5e695936ec0654e8cd6b095f22b8e12932b95ca778fe851c08cb9b0a6"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/Refletor_nativo.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\Refletor_nativo.step",
+      "bytes": 32986,
+      "sha256": "318737b624112ef73fc8eb21b205a4d552d3e2a6567b04b76c9ec25f605f4a15"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/AL5052.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\AL5052.step",
+      "bytes": 30663,
+      "sha256": "ceed9fb379158e86ad7418dc7de9d092edca2bb143de058843dddf6e70b2e6b7"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/copper.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\copper.step",
+      "bytes": 163109,
+      "sha256": "9f92a502e20def0b398dbfc69693c50937b29f812ebbdaec26fa46349328c5e2"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\enig_hfss.json",
+      "bytes": 66338,
+      "sha256": "8dae715b3801cd2aa338d5ff078b85eff2423106fa33e3fa8ee2458315922e03"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/folha_cu.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\folha_cu.step",
+      "bytes": 5742005,
+      "sha256": "65210536c8f1480955494228a59e96e834b2dcfc9748d8353a02d83022404f65"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\folhas_solidas.json",
+      "bytes": 4481,
+      "sha256": "e60a34f29dcff68e98f10424ac77f78bd1190bc1c7361640aaa101c7aa194299"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\intersecoes.json",
+      "bytes": 10303,
+      "sha256": "e09bfcac7df3c4546a2f046c03ffbb2b246446265120350abd529123c8bdd840"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\manifesto.json",
+      "bytes": 2528,
+      "sha256": "b216ab6f3559a45c536fbe5e6ae8c46f0f9351f810518f024415fe6d1f7d121c"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\portas.json",
+      "bytes": 725,
+      "sha256": "354b42199edddb61a70420c96ed8d320e41b3e3ded7e4858fc158c309a7afed0"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/PTFE_terminal.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\PTFE_terminal.step",
+      "bytes": 36451,
+      "sha256": "70483ed3659030703fb7593f0647d2633e776d658a0f518673e9446e0a1ebc3e"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\reabertura.json",
+      "bytes": 130,
+      "sha256": "2122dc36669d9cdcb87f0c801ac069a4ed8c86cbf635c1e01b4de0f21c1f8f7d"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/RO4350B_R01.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\RO4350B_R01.step",
+      "bytes": 48049,
+      "sha256": "04920b845ae0e397a68065a4d4607835df7c5ad12483347f70a669a4ea562423"
+    },
+    {
+      "arquivo": "projetos/P2S13/refletor_nativo_b20_60/cad/SAC305.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\cad\\SAC305.step",
+      "bytes": 29293,
+      "sha256": "08c0a5399082a08bc9867e26e889e6d63f9892e64e00a0048a42f2aeed64764b"
+    },
+    {
+      "arquivo": "projetos/P2S13/comparacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\comparacao.json",
+      "bytes": 974,
+      "sha256": "227be878b5dcc701b4779186e965afccf851d1f7c9b7d08106ccab622089f84f"
+    },
+    {
+      "arquivo": "projetos/P2S13/comparacao.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\comparacao.csv",
+      "bytes": 501,
+      "sha256": "36f673f8a81258e57c01a2f1e09c1efae3434936294a05ee1bc0ee37aa876e90"
+    },
+    {
+      "arquivo": "projetos/P2S13/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\comparacao_HV.png",
+      "bytes": 157454,
+      "sha256": "3daa4459a412e6a60ecce46c4e0b9fcd982e72e4d678ecc6efc583714eb4fb77"
+    },
+    {
+      "arquivo": "projetos/P2S13/comparacao_normalizada.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\comparacao_normalizada.png",
+      "bytes": 176533,
+      "sha256": "41a638412f67f7203022dc04ee64e80b452069f1c2ee7ce221643beb8e161412"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/classic_original_interrompido.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\diagnostico_classic\\interrupcao.json",
+      "bytes": 541,
+      "sha256": "7ec52e3a6535f5712a9bed67b2cc776bf43d1c95e3631f963cffaaaced86541d"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/comparacao_facetas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\diagnostico_setup\\comparacao_facetas.json",
+      "bytes": 1943,
+      "sha256": "8fcd4a2d54d8b035e9f1a71286311b394ecac22a67fd2cd3a843835887eb82b4"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/falha_tau_estrita.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v03_b20_a60_tau\\centro_aedt.log",
+      "bytes": 1850,
+      "sha256": "71c2cb033f5129c2a3a483f997bd02b2066a0649ac400976b4ae2b956bb88a47"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/execucao_rf_nativo.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v12_b20_a60_refletor_nativo\\centro.log",
+      "bytes": 533,
+      "sha256": "8c23df562da70eb7c0e939847c468efcf73841e66b2f8e130e42ae4bad125853"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/diferencas_setups.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\diagnostico_setup\\diff_setups.json",
+      "bytes": 1331,
+      "sha256": "d2462926b64c009fbf1f0f531c46355a347858751c2eec8870715d29c9cd4243"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/auditoria_refletor_cabos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\diagnostico_setup\\auditoria_roundtrip_hfss.json",
+      "bytes": 3894,
+      "sha256": "4c72cfdf74bc6635615638d43a604ade548d9ff9163ef5701d025c36df427092"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/interrupcao_dinamica.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\diagnostico_setup\\tentativa_dinamica.json",
+      "bytes": 417,
+      "sha256": "819e5a64fc6f61cb2def9c4422ea9a0eed4ae6cf68fcd9d94cd17c618a49b4a1"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/interrupcao_aspecto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\diagnostico_setup\\tentativa_aspecto20.json",
+      "bytes": 369,
+      "sha256": "d82d86296e0236a8f8f063a9cf6c3e88e570e20380876401d847b71c46d1fee2"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/flex_geracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v08_b20_a60_flex\\geracao_malha.json",
+      "bytes": 119,
+      "sha256": "746cecfda426eb97e5491fea8638fc879361602354bb82cad90fd6111a711fa9"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/flex_avisos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v08_b20_a60_flex\\mensagens_malha.json",
+      "bytes": 487,
+      "sha256": "c39dd582ebed22959ed5687c030c6b66424eb117d867efb0bcf1fe56d53f4ed4"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/flex_desvios_geometricos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v09_b20_a60_interface\\desvios_reparos.json",
+      "bytes": 1061,
+      "sha256": "e9c39238295e06faf572b6559b2e638b74f24810e12b69a928855a11acd37775"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/prioridade_local_avisos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v10_b20_a60_prioridade\\mensagens_malha.json",
+      "bytes": 480,
+      "sha256": "f105695f53e1b5955af47cb49fef3d465c733635a09575e320552e1862a66245"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/prioridade_ampliada_avisos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v11_b20_a60_rf_preservado\\mensagens_malha.json",
+      "bytes": 988,
+      "sha256": "01249f3e5309e4630a30b20b51477dde781b801cede48367303fdde943c34e41"
+    },
+    {
+      "arquivo": "projetos/P2S13/evidencias_diagnostico/persistencia_auditada.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R00_Refletor_Dobrado\\v11_b20_a60_rf_preservado\\mudanca_setup.json",
+      "bytes": 1513,
+      "sha256": "603a0f437a84078f83b12fe032c97dd540a3de1b407c24c522021bbdc0985372"
+    }
+  ],
+  "total_bytes": 43495233,
+  "excluidos": "Malhas, aedtresults, campos volumetricos, g3d/g3derr, locks, caches e tentativas de nativos rejeitados."
+}

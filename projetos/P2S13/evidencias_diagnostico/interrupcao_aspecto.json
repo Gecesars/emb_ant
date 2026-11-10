@@ -1,0 +1,13 @@
+{
+  "data": "2026-11-10T17:04:06.817944-03:00",
+  "motivo": "Controle de aspecto melhorou as facetas, mas malha volumetrica ainda nao concluiu; isolar componentes antes de novas alteracoes.",
+  "tempo_mesher_s": 411.4930658340454,
+  "cpu_s": 432.296875,
+  "pids": [
+    129464,
+    121720,
+    105332
+  ],
+  "solve_RF": false,
+  "retorno_api": "stopped"
+}
