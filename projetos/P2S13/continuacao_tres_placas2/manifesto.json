@@ -1,0 +1,294 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/P2S13_TresPCB2.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\P2S13_TresPCB2.aedt",
+      "sha256": "6ea1d1ced0d53b585668017e4082c4346e57f16d332c840322016d648ebf7cbc",
+      "bytes": 20442784
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/P2S13_TresPCB2.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\P2S13_TresPCB2.FCStd",
+      "sha256": "add6c05a9a9a6e7afbbc9b8f4d2311ebb24880f39b347fbb15c2f38557cc340e",
+      "bytes": 1282551
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\configuracao.json",
+      "sha256": "77e74cf32bd9f6bc4621a9e39c0d06f59ce38f11146577d43a5756a5f5baa52b",
+      "bytes": 5757
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/origem.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\origem.json",
+      "sha256": "423d18eb6388043d15fe87020b261e3eeee0c4b053a48ffef5325ba724766b3b",
+      "bytes": 20315
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/antes_convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\antes_convergencia.txt",
+      "sha256": "d918c7ceb7a5118af15caed9e6b3434aa2e7788d0a66c0664ec5c4218701aa49",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/preparacao_auditada.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\preparacao_auditada.json",
+      "sha256": "e6651f68c500220ef1516933cd2a2008cec33a5f075fb6024ef7f938ed5cd7be",
+      "bytes": 1261
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/continuidade_auditada.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\continuidade_auditada.json",
+      "sha256": "861c692eda5e1552eb3096348baea37f9b62ba2e303c8d0f5ef236b00c64ca49",
+      "bytes": 908
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\qualificacao.json",
+      "sha256": "a67dd48163d2430e9b77d0f9262f5c54b3bc88bd74c1e2c27942c2d20a5ffd7a",
+      "bytes": 100
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/entrega.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\entrega.json",
+      "sha256": "d276a85c194652876daad1e8f016fabc9b7c7f521df40a143227c48864b327b2",
+      "bytes": 216
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\resultado.json",
+      "sha256": "436b669ef815b744901276d31a393443162aa804358114b3c057905dfd62d97c",
+      "bytes": 4081
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/comparacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\comparacao.json",
+      "sha256": "9b6ba64a21bbbb3a8161159df51605df518fc6d1754b7a6e206dd6e23760bf02",
+      "bytes": 1578
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/comparacao.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\comparacao.csv",
+      "sha256": "a17e496dca2bd30148b0d29ef9e325c08ab68bbe9e2fa0386b86f0b5ad7f93bf",
+      "bytes": 607
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\comparacao_HV.png",
+      "sha256": "639ac513deaa241e20d2a2cc48720c4bc5c80325d3d06f7ea2154f733430e03d",
+      "bytes": 168870
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\convergencia.txt",
+      "sha256": "74d0f3e5314909b3395d47f85452dcd5fc18a4fecd087b141d4ef33456dd724c",
+      "bytes": 715
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\historico_passes.json",
+      "sha256": "c1b4a7037b459b910bf21b0c06eb42c4fbe380992978600cc8f851bcf2915e16",
+      "bytes": 4904
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\recursos_matriz.json",
+      "sha256": "fba641a4df25567d18dd1010bc942f3337e96b65819301769dccbde83c7b513d",
+      "bytes": 3426
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\ordem_fontes.json",
+      "sha256": "bd45e52c2dd27b9debe46c941dcd596f9429d57ff327fd128471460332f3d5ff",
+      "bytes": 74
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\mensagens.json",
+      "sha256": "8e1a752acff42745aff9921fbea0d86f688383547af65af065b44355127c7f85",
+      "bytes": 173
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\malha.json",
+      "sha256": "322a31198b9ff0fbb407926a38bf500a8ff61abf6a955c0080f63b534374dbc0",
+      "bytes": 55743
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\malha_inicial.json",
+      "sha256": "daab73614fa69c8069b7b870675858df804f15bddee21c608638063b8c384460",
+      "bytes": 11718
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\diagramas_HV.png",
+      "sha256": "772968729aa0c004822cac0e19c31e60cf30249a8d7ca93bfeb9edade89642d2",
+      "bytes": 120057
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\polar_HV.png",
+      "sha256": "4351f6ebcc3dcd32d22427b4f43681899546bdd31082f5b0317ff1e4993c73b2",
+      "bytes": 216965
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/centro.s6p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\centro.s6p",
+      "sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+      "bytes": 2765
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\ALL_H.csv",
+      "sha256": "3598386079abd7bf9a76b6d23b51f457278b3e275f6b3a0bcdbf784b4ce82321",
+      "bytes": 197338
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\ALL_V.csv",
+      "sha256": "c4c811613c7448a82ae6826db47f5b8792a792ac13dc994cc193136280260a51",
+      "bytes": 197462
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\POL_A_H.csv",
+      "sha256": "367fe79118699a3e512d6e2bd701dbe574951025e46d48c6bc22d9bafec26a28",
+      "bytes": 197253
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\POL_A_V.csv",
+      "sha256": "62f332dbe76b61aba43f92df70d17aa2bd931af60087bda95188bac03475fc21",
+      "bytes": 196759
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\POL_B_H.csv",
+      "sha256": "de36c16947f3036d383e75299c072172a412eefaacd876c02a2bb1eb75a53bbf",
+      "bytes": 197634
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\POL_B_V.csv",
+      "sha256": "9a317ec66a66eaf45e6603d3a9319c16fc7449b0ad730db838c3aa890a8ad9b0",
+      "bytes": 197290
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R1_A_H.csv",
+      "sha256": "0b349b600e37f0ac7f676d37be62791ea43c1fcc99c039bf633bfdae5fb7f121",
+      "bytes": 197496
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R1_A_V.csv",
+      "sha256": "fcb2d48ffd4437130dee2a755c3caf467e7fa15fde599a268794e81ac6bc4dd6",
+      "bytes": 197077
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R1_B_H.csv",
+      "sha256": "c13970d9c6871fa858d13f43da2b1edace78a8b14ce8cfb85883a9dc7c832896",
+      "bytes": 198005
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R1_B_V.csv",
+      "sha256": "5abd149e23bd2d6a368643613fbbd4fe6a4853e14470ec00a2f42b7e0554f4d0",
+      "bytes": 196997
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R2_A_H.csv",
+      "sha256": "b0566fc3abe6dabd1feaaeabe6b685f6ced562e188a20e0c988ba4d159285fdd",
+      "bytes": 197196
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R2_A_V.csv",
+      "sha256": "fc6fcb027de1d6cd3bc77fe4a3f339ea0948bc3936357f708a9c764b66aaa183",
+      "bytes": 196676
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R2_B_H.csv",
+      "sha256": "4da112d401ee1dbe52f5aff91f9b0a8627197303951f1bfde85ff9ce0597192a",
+      "bytes": 197834
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R2_B_V.csv",
+      "sha256": "021371f6efa583efb79ab31669120d4ee0060dbe9f02c26ff290c3d92659317c",
+      "bytes": 196887
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R3_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R3_A_H.csv",
+      "sha256": "e719c3e8630996486ccfdce0e88e943f58df333cca756f147f42684eef7c6dae",
+      "bytes": 197438
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R3_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R3_A_V.csv",
+      "sha256": "ea4b9e76c3962c9cb89e9161ca342a6dfd9e30556fd95586f1e4a0c303cd5980",
+      "bytes": 196901
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R3_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R3_B_H.csv",
+      "sha256": "e1012566a944eeec1dc0dce8fa3e0d8c2d67962a88ad32ec82d68bbc25f0f2db",
+      "bytes": 197867
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/R3_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\R3_B_V.csv",
+      "sha256": "044a04c0a63c6652aa3db401f0cc8c120f00fa1302df0fe84680461f36129814",
+      "bytes": 197543
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\cad\\enig_hfss.json",
+      "sha256": "ba650fec9700dcf869e54884c98bf22cfe08ec95eb7cf8a132092c199dedf8e6",
+      "bytes": 91609
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\cad\\folhas_solidas.json",
+      "sha256": "961d1274a7f2ae338ce7fba941d86f793e0ae1ef8e2bb95c3a622c481bbe00fb",
+      "bytes": 4277
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\cad\\intersecoes.json",
+      "sha256": "a530319934e48abf022f2262de09fb81def33cbb1828117293011c5ca82d0f4e",
+      "bytes": 10406
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\cad\\manifesto.json",
+      "sha256": "04cbc7c4d79dadb29f6dedb4d4469f6b937ea0266eca979374b79f3b6b0ee52a",
+      "bytes": 2682
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\cad\\portas.json",
+      "sha256": "c9fbce72baec6a876d6bba884da20b7153155eb0366114ee09b51f02614c5b21",
+      "bytes": 1082
+    },
+    {
+      "arquivo": "projetos/P2S13/continuacao_tres_placas2/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R06_Continuacao_Tres2\\cad\\reabertura.json",
+      "sha256": "8dfaf8a23707066730f86dc82f0c24e075070fb572ff0d67f90a9c44ee10a22d",
+      "bytes": 130
+    }
+  ],
+  "total_bytes": 26009028,
+  "excluidos": "Malhas,aedtresults,locks,campos volumetricos. Referencia6 arquivada na R05."
+}

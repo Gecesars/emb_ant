@@ -1,0 +1,58 @@
+{
+  "frequencia_GHz": 5.17,
+  "modelo": "MLine Hammerstad-Jensen + Kirschning-Jansen; diel frequencyinvariant",
+  "material": "ZYF300CA-C nominal",
+  "espessura_dieletrica_mm": 1.52,
+  "epsilon_r": 2.94,
+  "tan_delta": 0.0016,
+  "cobre_um": 35,
+  "condutividade_cobre_S_m": 58000000.0,
+  "rugosidade_RMS_assumida_um": 0.5,
+  "Z_saida_ohm": 50.0,
+  "largura_saida_mm": 3.8673851987046355,
+  "comprimento_saida_mm": 100.0,
+  "Z_quarto_onda_ohm": 86.60254037844386,
+  "largura_quarto_onda_mm": 1.4075743337120525,
+  "comprimento_quarto_onda_mm": 9.663380331647845,
+  "resistores_delta_por_polarizacao_ohm": [
+    150,
+    150,
+    150
+  ],
+  "quantidade_total_resistores": 6,
+  "Z_ajuste_entrada_ohm": 44.490892981571626,
+  "largura_ajuste_entrada_mm": 4.627,
+  "comprimento_ajuste_entrada_mm": 12.01,
+  "potencia_nominal_por_saida_W": [
+    0.15648623697380618,
+    0.15648623697380612,
+    0.15648623697380618
+  ],
+  "perda_excedente_nominal_dB": [
+    0.2737260242508003,
+    0.2737260242508024,
+    0.2737260242508003
+  ],
+  "desbalanceamento_nominal_amplitude_dB": 2.6645352591003757e-15,
+  "desbalanceamento_nominal_fase_graus": 0.0,
+  "placa_reserva_mm": [
+    220,
+    60
+  ],
+  "centros_saidas_X_mm": [
+    -93.49083158696,
+    2.50916841304,
+    98.50916841304
+  ],
+  "centros_saidas_Y_mm": [
+    -18,
+    18
+  ],
+  "nota_mecanica": "Reserva de envelope, nao layout roteado. Saidas alinhadas aos seis cabos existentes de 50mm; verificar espaco traseiro/curvas/soldas no CAD antes de fabricar.",
+  "limitacoes": [
+    "Divisor modelado em circuito, nao simulado em HFSS; ENIG, T-juncoes, curvas, acoplamento de trilhas, parasitas dos resistores/soldas nao modelados.",
+    "S6 tem DeltaS convergido, mas nove campos e auditoria estrita de reciprocidade pendentes. Resultado carregado preliminar.",
+    "Seis cabos de 50mm e perdas das PCBs radiantes ja incluidos em S6. N e alimentacao externa ideais. Nao adicionados outros cabos.",
+    "Somente 5.17GHz; nao representa banda ou tolerancias de fabricacao."
+  ]
+}

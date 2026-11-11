@@ -1,0 +1,28 @@
+{
+  "erro_absoluto_max": 3.4321258470906986e-16,
+  "matriz_conferida": true,
+  "pinos": {
+    "DA": [
+      "IN",
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "DB": [
+      "IN",
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "ANT": [
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ]
+  },
+  "frequencia_Hz": 5170000000.0,
+  "nota": "Verifica interconexao S4+S4+S6; nao valida o modelo fisico do divisor ou a malha da antena."
+}

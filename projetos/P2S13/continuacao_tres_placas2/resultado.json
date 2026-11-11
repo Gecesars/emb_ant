@@ -1,0 +1,162 @@
+{
+  "variante": "t04_b28p5_a150_continuacao8",
+  "frequencia_GHz": 5.17,
+  "passes": 8,
+  "delta_s": 0.017599522252095497,
+  "convergiu": true,
+  "nucleos": 14,
+  "mesh_method": "AnsoftClassic",
+  "tau_flex": false,
+  "potencia_total_W": 1,
+  "potencia_por_porta_W": 0.16666666666666666,
+  "fase_graus": 0,
+  "ordem_portas": [
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B",
+    "R3_A",
+    "R3_B"
+  ],
+  "VSWR_ativo": [
+    1.162853144059716,
+    1.1510387048156565,
+    1.3220334076025537,
+    1.3070482752681956,
+    1.2234334942565432,
+    1.227246328396202
+  ],
+  "VSWR_casado": [
+    1.2131306340764356,
+    1.3065898714426123,
+    1.186229933871797,
+    1.293653186784594,
+    1.2061644505160627,
+    1.3128957066790305
+  ],
+  "maior_singular": 0.27565759437365267,
+  "reciprocidade": 9.2388681503465e-05,
+  "potencia_aceita_W": 0.9886574401099384,
+  "major": 0,
+  "minor": 0,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 13.349271721777987,
+      "pico_graus": 19.5,
+      "ganho_pico_dBi": 13.527947042815589,
+      "abertura_graus": 98.72691578812824,
+      "cruzamentos_graus": [
+        -48.15473648963361,
+        50.572179298494625
+      ],
+      "SLL": {
+        "nivel_dB": -0.004662951895578971,
+        "limites_lobo_principal_graus": [
+          1.25,
+          127.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -16.75,
+            "nivel_dB": -0.004662951895578971
+          }
+        ]
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 13.349271721777997,
+      "pico_graus": -0.25,
+      "ganho_pico_dBi": 13.363204442130549,
+      "abertura_graus": 9.930551391228253,
+      "cruzamentos_graus": [
+        -5.281384135482416,
+        4.649167255745836
+      ],
+      "SLL": {
+        "nivel_dB": -7.913279336728771,
+        "limites_lobo_principal_graus": [
+          -11.25,
+          11.5
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -62.5,
+            "nivel_dB": -16.246818532419347
+          },
+          {
+            "angulo_graus": -43.0,
+            "nivel_dB": -17.954086571707933
+          },
+          {
+            "angulo_graus": -29.25,
+            "nivel_dB": -13.418166684590075
+          },
+          {
+            "angulo_graus": -16.25,
+            "nivel_dB": -12.1188119960005
+          },
+          {
+            "angulo_graus": 16.25,
+            "nivel_dB": -15.007842288656374
+          },
+          {
+            "angulo_graus": 39.0,
+            "nivel_dB": -7.913279336728771
+          },
+          {
+            "angulo_graus": 63.25,
+            "nivel_dB": -15.863003912608747
+          }
+        ]
+      }
+    }
+  },
+  "recomposicao": {
+    "H": 5.350390252468381e-15,
+    "V": 2.3425516210184615e-15
+  },
+  "potencia": {
+    "H": {
+      "eficiencia_radiacao": 0.8714743244702039,
+      "eficiencia_total": 0.8615895747522454,
+      "erro_aceita_W": 4.884981308350689e-15
+    },
+    "V": {
+      "eficiencia_radiacao": 0.8714743244702039,
+      "eficiencia_total": 0.8615895747522454,
+      "erro_aceita_W": 4.884981308350689e-15
+    }
+  },
+  "fisica_ok": false,
+  "verificacoes": {
+    "passividade": true,
+    "reciprocidade": false,
+    "limite_reciprocidade": 1e-05,
+    "potencia_aceita": true,
+    "malha_sem_major": true,
+    "eficiencia_e_balanco": true
+  },
+  "cache_confere": true,
+  "estavel_nove_sondas": false,
+  "metas_numericas": {
+    "ganho_13dBi": true,
+    "horizontal_alvo_100_mais_menos_1grau": false,
+    "VSWR_1p25": false
+  },
+  "validado_numericamente": false,
+  "aprovado": false,
+  "metas_estudo_tres_placas": {
+    "H_alvo_graus": 100,
+    "desvio_H_graus": -1.2730842118717618,
+    "H_dentro_10porcento": true,
+    "ganho_minimo": true,
+    "VSWR_maximo": 1.3220334076025537,
+    "VSWR_meta": false
+  },
+  "alvo_H_100_mais_menos_1grau_numerico": false,
+  "metas_historicas": {
+    "ganho_13dBi": true,
+    "horizontal_99_121": false,
+    "vertical_16p2_19p8": false
+  }
+}

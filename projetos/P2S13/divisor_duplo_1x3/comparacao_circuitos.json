@@ -1,0 +1,128 @@
+{
+  "T_nao_isolado": {
+    "VSWR_ativo": [
+      1.223386296214082,
+      1.216809372588686
+    ],
+    "VSWR_outra_casada": [
+      1.2890136999832507,
+      1.3993373612773017
+    ],
+    "ganho_frontal_dBi": 13.125665218435529,
+    "H_graus": 98.79498153729133,
+    "V_graus": 9.969955089524706,
+    "pico_H_graus": 19.5,
+    "pico_V_graus": -0.5,
+    "SLL_V_dB": -7.952085975061849,
+    "potencia_refletida_W": 0.00982989027060161,
+    "potencia_aceita_antena_W": 0.9415526081040217,
+    "dissipacao_divisor_W": 0.04861750162537659,
+    "potencia_incidente_antena_W": [
+      0.15670121901718548,
+      0.15504437267413237,
+      0.1634396418996469,
+      0.16536674625133682,
+      0.1560157053834038,
+      0.15581436203320062
+    ],
+    "fase_incidente_relativa_graus": [
+      -3.1585593788829076,
+      -3.3667845231990223,
+      0.0,
+      -0.5224731413614468,
+      -1.883593226741511,
+      -1.1638425205802965
+    ],
+    "dispersao_amplitude_dB": 0.2799217315767537,
+    "dispersao_fase_graus": 3.3667845231990223,
+    "maior_singular_divisor": 0.9769203539334133,
+    "maior_singular_conjunto": 0.2623037968241551,
+    "reciprocidade_divisor": 2.618455766672135e-16,
+    "reciprocidade_conjunto": 2.0370642196855003e-05,
+    "erro_validacao_nodal_circuit": 6.497413668604471e-16
+  },
+  "Wilkinson_sem_ajuste": {
+    "VSWR_ativo": [
+      1.2224104270086682,
+      1.2162617674495486
+    ],
+    "VSWR_outra_casada": [
+      1.2894045647467431,
+      1.3992751705849094
+    ],
+    "ganho_frontal_dBi": 13.134587279449775,
+    "H_graus": 98.72651410775904,
+    "V_graus": 9.930551324156818,
+    "pico_H_graus": 19.5,
+    "pico_V_graus": -0.25,
+    "SLL_V_dB": -7.913237412417388,
+    "potencia_refletida_W": 0.009768506266227977,
+    "potencia_aceita_antena_W": 0.940970845459838,
+    "dissipacao_divisor_W": 0.04926064827393406,
+    "potencia_incidente_antena_W": [
+      0.15861690762582023,
+      0.1586339186787031,
+      0.1586206442929564,
+      0.15863390703273406,
+      0.1586213753353151,
+      0.15863987965436394
+    ],
+    "fase_incidente_relativa_graus": [
+      0.0037866282357732475,
+      0.0014221259419900628,
+      0.0,
+      -0.002351769972690832,
+      0.00251770176047939,
+      -0.0005446123906457682
+    ],
+    "dispersao_amplitude_dB": 0.0006289306109170667,
+    "dispersao_fase_graus": 0.006138398208464079,
+    "maior_singular_divisor": 0.9769203539334127,
+    "maior_singular_conjunto": 0.26214702021926256,
+    "reciprocidade_divisor": 2.7755575615628914e-16,
+    "reciprocidade_conjunto": 2.0245262239294567e-05,
+    "erro_validacao_nodal_circuit": 4.215194135375951e-16
+  },
+  "Wilkinson_ajustado": {
+    "VSWR_ativo": [
+      1.19793619639079,
+      1.0894530891774976
+    ],
+    "VSWR_outra_casada": [
+      1.0894510562193065,
+      1.197847692901412
+    ],
+    "ganho_frontal_dBi": 13.14316794351777,
+    "H_graus": 98.72017110614196,
+    "V_graus": 9.930813193675618,
+    "pico_H_graus": 19.5,
+    "pico_V_graus": -0.25,
+    "SLL_V_dB": -7.913635175901609,
+    "potencia_refletida_W": 0.0049714164852081135,
+    "potencia_aceita_antena_W": 0.9427408710821643,
+    "dissipacao_divisor_W": 0.05228771243262753,
+    "potencia_incidente_antena_W": [
+      0.15847958750749078,
+      0.15937239578729614,
+      0.15848330038805586,
+      0.1593724058605055,
+      0.1584840402069271,
+      0.15937839795138753
+    ],
+    "fase_incidente_relativa_graus": [
+      0.003792370581132866,
+      -0.23454656077993896,
+      -0.0,
+      -0.23831335485380065,
+      0.0025217849661649727,
+      -0.2365082799937318
+    ],
+    "dispersao_amplitude_dB": 0.024561249005888186,
+    "dispersao_fase_graus": 0.2421057254349335,
+    "maior_singular_divisor": 0.9756971342994857,
+    "maior_singular_conjunto": 0.201121881481742,
+    "reciprocidade_divisor": 3.3887102699122705e-16,
+    "reciprocidade_conjunto": 2.0528281883737283e-05,
+    "erro_validacao_nodal_circuit": 4.688890489379715e-16
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "resultados": [
+    {
+      "passes": 6,
+      "DeltaS": 0.04154608007333623,
+      "consecutivos": 1,
+      "convergiu_S": false,
+      "G_dBi": 13.279900622025242,
+      "H_graus": 99.31784748553545,
+      "V_graus": 9.910961221657637,
+      "pico_H_graus": -15.75,
+      "pico_V_graus": -0.25,
+      "SLL_V_dB": -8.189943869216895,
+      "VSWR_ativo_max": 1.4782951119968637,
+      "VSWR_casado_max": 1.4423466551964437,
+      "campo_ultimo_delta_dB": 0.24080378308255046,
+      "campos_estaveis": false,
+      "auditoria": false,
+      "reciprocidade": 1.6003741484641633e-05
+    },
+    {
+      "passes": 8,
+      "DeltaS": 0.017599522252095497,
+      "consecutivos": 3,
+      "convergiu_S": true,
+      "G_dBi": 13.349271721777987,
+      "H_graus": 98.72691578812824,
+      "V_graus": 9.930551391228253,
+      "pico_H_graus": 19.5,
+      "pico_V_graus": -0.25,
+      "SLL_V_dB": -7.913279336728771,
+      "VSWR_ativo_max": 1.3220334076025537,
+      "VSWR_casado_max": 1.3128957066790305,
+      "campo_ultimo_delta_dB": 0.11196298720284004,
+      "campos_estaveis": false,
+      "auditoria": false,
+      "reciprocidade": 9.2388681503465e-05
+    }
+  ],
+  "delta_8_menos_6": {
+    "G_dBi": 0.06937109975274502,
+    "H_graus": -0.5909316974072141,
+    "V_graus": 0.01959016957061621,
+    "VSWR_ativo_max": -0.15626170439430997,
+    "VSWR_casado_max": -0.12945094851741312
+  },
+  "condicoes": "3PCBs2, b28.5/150, seis entradas1/6W/0graus, cabos fisicos50mm com perdas, 5.17GHz,14nucleos,sem sweep; somente passes7/8 novos"
+}

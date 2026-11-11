@@ -1,0 +1,19 @@
+{
+  "benchmark_3vias_ideal_erro": 1.1828927002307303e-16,
+  "interconexao_segundo_algoritmo_erro": 5.557210413939996e-17,
+  "S6_sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+  "S6_alterada": false,
+  "S6_auditoria_aprovada": false,
+  "sem_novo_solve_HFSS": true,
+  "sem_sweep": true,
+  "frequencia_GHz": 5.17,
+  "entradas_W": [
+    0.5,
+    0.5
+  ],
+  "fases_graus": [
+    0,
+    0
+  ],
+  "modelo_distribuidor_EM_validado": false
+}

@@ -1,0 +1,20 @@
+{
+  "rede_identica": true,
+  "passes6_VSWR_ativo": [
+    1.1867344006707803,
+    1.1197367990650118
+  ],
+  "passes6_VSWR_casado": [
+    1.1543910826047639,
+    1.276168936099627
+  ],
+  "passes8_VSWR_ativo": [
+    1.19793619639079,
+    1.0894530891774976
+  ],
+  "passes8_VSWR_casado": [
+    1.0894510562193065,
+    1.197847692901412
+  ],
+  "nota": "Comparacao de dados preliminares; nao e tolerancia ou validacao de convergencia."
+}

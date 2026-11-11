@@ -1,0 +1,496 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2S13\\R05_Tres_Placas2\\t04_b28p5_a150",
+  "native_sha256": "7b654d43bb8f0d5115d3071806582dbf94872802373ab5334ac1b0e1bd6042f4",
+  "referencias": [
+    {
+      "arquivo": "ALL_H.csv",
+      "sha256": "01cb8ffe61f6e1d26c1e039efa8cb0e367e59d22af59a03a63f7c10538adaee6"
+    },
+    {
+      "arquivo": "ALL_V.csv",
+      "sha256": "cf37be5a4f672c179332fcffa9354d5fca2a78a0245076f4b714e0129550cde6"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedt",
+      "sha256": "7b654d43bb8f0d5115d3071806582dbf94872802373ab5334ac1b0e1bd6042f4"
+    },
+    {
+      "arquivo": "POL_A_H.csv",
+      "sha256": "5a34fb179ef6ea0f2b5ace74eb2df71427717e1302d2ade4303ad2b0b25c5e9c"
+    },
+    {
+      "arquivo": "POL_A_V.csv",
+      "sha256": "083fa10e188923ab3437656d191166bff48758f31d47a81e5fb9584b635ad28e"
+    },
+    {
+      "arquivo": "POL_B_H.csv",
+      "sha256": "43dcb788f41cafce1c2bc01c423cb0df55a418bd7af38b30befc72914fb3d760"
+    },
+    {
+      "arquivo": "POL_B_V.csv",
+      "sha256": "e1b82fb79b51f6320f97200f0e7c90015166335cc095ac087fc82076462f658d"
+    },
+    {
+      "arquivo": "R1_A_H.csv",
+      "sha256": "a2e14b4e752430b3faec82859024ff5912304267a080a952cf07125df2c4277c"
+    },
+    {
+      "arquivo": "R1_A_V.csv",
+      "sha256": "a06a9cac631b8fcff21fade02b971c421e64302fb9cc1ae3e602a4d94179d6f7"
+    },
+    {
+      "arquivo": "R1_B_H.csv",
+      "sha256": "0b4cbed9445c072b379321d62e94345ecde49412913ea5ebefae395b351ac8c8"
+    },
+    {
+      "arquivo": "R1_B_V.csv",
+      "sha256": "8295e23b62ec1f39e3b0f11f426ba0652f1ba8e869ca7fbb2c5ce45902f12190"
+    },
+    {
+      "arquivo": "R2_A_H.csv",
+      "sha256": "c4b2c4505f90327779e824137df7c29f7e0acc0ad64f6850fa27e52c9be16664"
+    },
+    {
+      "arquivo": "R2_A_V.csv",
+      "sha256": "435605be8939f11f30a49dea0884400d32940fa1fc2aee496c5efe37bf870b74"
+    },
+    {
+      "arquivo": "R2_B_H.csv",
+      "sha256": "b1a556770609722d857d84eb8f07f16c4a5c42d9b5da9e6c79b6d343ca711d2e"
+    },
+    {
+      "arquivo": "R2_B_V.csv",
+      "sha256": "1cea223f9072c61ab7025ef416e4de4635fa9c6c688c7a32288eda8657c86b31"
+    },
+    {
+      "arquivo": "R3_A_H.csv",
+      "sha256": "813314678d71d98b39decccd0098d582c7c922b2ff74037f410cb79351de8cb0"
+    },
+    {
+      "arquivo": "R3_A_V.csv",
+      "sha256": "1908cc767b067ca3028ce07ab050c804063fc743a537b54f59437cd57e812e3c"
+    },
+    {
+      "arquivo": "R3_B_H.csv",
+      "sha256": "d9519824d36d7611f1c6bde9d0803a32fe7c24da7a879094908a00ef7ad76fab"
+    },
+    {
+      "arquivo": "R3_B_V.csv",
+      "sha256": "cd26b9dbcf654d33483c0f6b79ea44e93eef574c81c3423e0ba3c0015dd280ff"
+    },
+    {
+      "arquivo": "centro.s6p",
+      "sha256": "b191445fcbc986072ee2f06d5ff58377b607ae2895dd95df427fbc82f86410f5"
+    },
+    {
+      "arquivo": "configuracao.json",
+      "sha256": "befab6db00bd07c0a3ec67e936ca19cafcf19878201232eb8daed43816ac59b7"
+    },
+    {
+      "arquivo": "convergencia.txt",
+      "sha256": "d918c7ceb7a5118af15caed9e6b3434aa2e7788d0a66c0664ec5c4218701aa49"
+    },
+    {
+      "arquivo": "historico_passes.json",
+      "sha256": "d280a18b092229b8d001289be3c48356d75f4b154d27e6d06b90242f57da8ad1"
+    },
+    {
+      "arquivo": "malha.json",
+      "sha256": "0228370be92ea48024388f011dba86613a8b0e9047d556dd8b7a54caa6f145d0"
+    },
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "eca8c0fa0cd50949c9f2fd5b9a0b88373091ec1135a3b452af245a76ab69a0eb"
+    },
+    {
+      "arquivo": "recursos_matriz.json",
+      "sha256": "59812a2ea6f922a7fd1768d2ca1aeb3df281573be38610ed8a000c8d7f9ff44a"
+    },
+    {
+      "arquivo": "resultado.json",
+      "sha256": "ae4af6ce15a3ea1638a17267b1e1bbb06a3899d151458e6b98c60710f7d6690f"
+    }
+  ],
+  "arquivos_resultados_copiados": [
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/ManagedFiles_Design0.asol",
+      "bytes": 295,
+      "sha256": "9e503aee939458319baae53432cbffd0d141de3b9ab871ccd15c12fc054f5a78"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.asol",
+      "bytes": 5308,
+      "sha256": "ccc90d2fb0d6882ccb8e19bfbb6c0633d48d53890263f891248ca921c7692a28"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_SD1_V0.su",
+      "bytes": 841,
+      "sha256": "0296bb36db194ad78292c6f0477e37823a996b18d2d7e1e31761d66f9744e7a7"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_SD2_V0.su",
+      "bytes": 843,
+      "sha256": "4349f4a270b2af7dddc446953062183102cc5bb8fc6020953e7305f3c3380eff"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_SD3_V0.su",
+      "bytes": 845,
+      "sha256": "f358ca7027ed16d0879b48dcefacbb6682020f120ed055c865ddd392cdbf116f"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_SD4_V0.su",
+      "bytes": 846,
+      "sha256": "a5464506c142d5e5b12f640a3e12ff93a8039818e640148485d9aa1493645e75"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_SD5_V0.su",
+      "bytes": 846,
+      "sha256": "05d4a5886d5709408ef60cc8fb22574a0aa02d397b97fd56a8e159983493c606"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_SD6_V0.su",
+      "bytes": 846,
+      "sha256": "b61b521a03eadd09969c88b58cba6bab92792b9abe9025d560fa69129c558154"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_V0.EMConvData",
+      "bytes": 2752,
+      "sha256": "a48939e6ee83a01fc265415afbcc7b144eaa8bc784a25465110884cc07db5d6f"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_V0.profile",
+      "bytes": 16307,
+      "sha256": "9441b71280f41eeb9a6cab1fd6d2758eb1911d9f429477079617bdde68fb58ae"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_M1_V0.sd",
+      "bytes": 9409,
+      "sha256": "be2299e414ae56beb60078bba5eb126ced4ad246891f5d43bcc21ecdc6473b6f"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_M2_V0.sd",
+      "bytes": 9245,
+      "sha256": "3a39d839e6bce47dd0e52a4e551581ae9e306e77e5a31ab7b86d51e844dedf0d"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_M3_V0.sd",
+      "bytes": 9247,
+      "sha256": "c9b9328623e9745e7cf6da4712ae63a89a08eebe613d93ff23863928ccd1d6a1"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_M4_V0.sd",
+      "bytes": 9249,
+      "sha256": "fea7b46bda8ea504dfa8c29f52569b6ae3cb70a684f2483563c5969858bc971b"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_M5_V0.sd",
+      "bytes": 9246,
+      "sha256": "445f8f43edffd6a6c4182d70ffffe8f6cbabc88e8c4b4c48aa6ca76ce44cbf81"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_M6_V0.sd",
+      "bytes": 9266,
+      "sha256": "7afb8cd792e899f097fef460fa02a414fed0ea3680c50c9125f4bdc9c504353d"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL100_V0.ExprCache",
+      "bytes": 1845,
+      "sha256": "397e263f0ced2922f4b457490105c75c97085a210bdef572de7308b3d8476a41"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL101_M0_V0.sd",
+      "bytes": 9267,
+      "sha256": "21f420f9e621181584f749f7f62f0feaa39451d4981788fbf58b4188eeb6243c"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_SOL101_V0.ExprCache",
+      "bytes": 1845,
+      "sha256": "397e263f0ced2922f4b457490105c75c97085a210bdef572de7308b3d8476a41"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/nominalmesh.g3derr",
+      "bytes": 651311,
+      "sha256": "f6d912d27d8e0655fca10659df6b457d815207331697941560d8608d1608ebfe"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/GeometryCache/CacheDataVersion.tmp",
+      "bytes": 111,
+      "sha256": "62505d67b70c5507895d8021098095c7fb2b62b2257c6764756fac5fc3dbde55"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/GeometryCache/InterrogationCache.tmp",
+      "bytes": 31447,
+      "sha256": "94959cb81750b4258cfe65949fec451124056929bd2e420bb396a8f274bb0562"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/GeometryCache/OperationDataCache.tmp",
+      "bytes": 12,
+      "sha256": "09f4493a7016a764f6190b5e84a16d72f8d5f85c3119f6b4d79f2785b628881c"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/radfld/7EBE184276179440448627.tmp",
+      "bytes": 172552,
+      "sha256": "7ed9d7c80069987d0744f61935b4f64a4339841a89ad99e372fe0e97d70a0261"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/radfld/RAD70AC17183617944033838.tmp",
+      "bytes": 483,
+      "sha256": "addc8bee8a0c6cb8ff991de4a46a46b82140cb10b9a147a5ed8250f069a08753"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/svcache/HDR70AC17183617944033839.tmp",
+      "bytes": 1669,
+      "sha256": "67a0beadd1d59dcf422248e18121aba654a90d4564d83d95776089be470c4023"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/svcache/min7ECB184276179440449030.tmp",
+      "bytes": 241617,
+      "sha256": "317977710b59135339b2c6a939b2fda8f00035ff0c2c2a2dbebc125d7b8324c5"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/ValidationCache/HDR70FB171836179440340710.tmp",
+      "bytes": 177,
+      "sha256": "c7f9de23e9c44fa618bd8f388d7129d95715c33a5dd88cfaf9bf369fc6088477"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/ValidationCache/VI70FB171836179440340711.tmp",
+      "bytes": 343,
+      "sha256": "22bfdd22968ea4b6cc791b59d9e4aa7966cebd81cb29df110ec4a3a99f973c78"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/mf_0/GeometryCache/BodyCache/0033512.x_b",
+      "bytes": 19083,
+      "sha256": "9ff29275347e5fb5defa93930b544c26e07f3b7e5afbb484b8c20def79fe9179"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_MI0_V97.sd/initial.stats",
+      "bytes": 13998,
+      "sha256": "7460f618d5899b1fd402b06e1256106fe92dd574c77e60a71c3322962a951666"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/1.nvc",
+      "bytes": 322,
+      "sha256": "bb4e30499a10a93c288267d899e4edf62111a8c55a6e2a02708ae5317ab3ddb8"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/1_1.tvc",
+      "bytes": 15449,
+      "sha256": "d28638c8a17df15bef5e575b519296e0488b18b58aae99f85f7e40bc62ed8f45"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/1_1.tvm",
+      "bytes": 3460,
+      "sha256": "70559d462f37e4d1f90475b579ac8050d52fae37302aab1adc2b6fbcb57c93cb"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/1_1.tvz",
+      "bytes": 15449,
+      "sha256": "1c8ef85d45b632ecf02a0d90c3d789d1ed5411f2e5192de9982691399db9b254"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/2.nvc",
+      "bytes": 322,
+      "sha256": "147968f77e29b83cd6c48dfc7d8b9f5751861277fa846b8ccf5b6de967d9804b"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/2_1.tvc",
+      "bytes": 15454,
+      "sha256": "0d3f4993ef608d35435294e010ef036cff5d63638328085cb933ecf84e975f36"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/2_1.tvm",
+      "bytes": 3535,
+      "sha256": "e64f7f988824d7b4ff4a0093127bd92d9aeb2f630f18d6a7f8517de08879399f"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/2_1.tvz",
+      "bytes": 15444,
+      "sha256": "6ccae4e5537e72920da99b5d81b4d2d27172096276530cd9bffc4105c4dd6ad9"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/3.nvc",
+      "bytes": 322,
+      "sha256": "5f0b536309e16f9fa339a94ab985e2642f16c2193b2c5905542de3e03797784a"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/3_1.tvc",
+      "bytes": 15438,
+      "sha256": "1f8b3980ae1f21f4aec60e9143fd359445635a0ddb93826f5345690f756877b2"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/3_1.tvm",
+      "bytes": 3460,
+      "sha256": "3358965e3eb59cd932f9716e804507a8f4c3517d0c0eaa6ba5b94e784a17b6a0"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/3_1.tvz",
+      "bytes": 15460,
+      "sha256": "3455e1870b10611022f50725117fc619b634e63cb598862b6373322f710907e4"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/4.nvc",
+      "bytes": 322,
+      "sha256": "fc81235e7fc0b02829340a32519fcbb70b29a4f766d942fa61aa77c530f3ba88"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/4_1.tvc",
+      "bytes": 15453,
+      "sha256": "e3ed1eafe6371a15010e3d5c260239989a7b5ad4a7f3737944b2f44cb4982505"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/4_1.tvm",
+      "bytes": 3460,
+      "sha256": "6b4dccecc80f44e95715bd85aa28444cabcad0d136784b0388b19e179f2906ae"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/4_1.tvz",
+      "bytes": 15445,
+      "sha256": "39d50f1354fac134e4e68b32f22a5e14d01e18e2177e5c407bb6f70681ea92f3"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/5.nvc",
+      "bytes": 322,
+      "sha256": "626746eba1c5660ee321ad414b4d5b9980968f7b6117881026200f9a124c7087"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/5_1.tvc",
+      "bytes": 15456,
+      "sha256": "1127a3ea63aabe649c07b72739c38138008f381bd9e8c8b6d69d76650eb96136"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/5_1.tvm",
+      "bytes": 3535,
+      "sha256": "e7ddb00421e3259b05c0d30c7f8aea6b585056ca1705c12703a030268622bc81"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/5_1.tvz",
+      "bytes": 15442,
+      "sha256": "996113ff702f2a37766c7ea0d988a0bcec8e87a4fbc60df8a9348552754b93f1"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/6.nvc",
+      "bytes": 322,
+      "sha256": "e91e3e13239fd7b832c4057843e3e6b2df7b194aae138b64a00a64c516959ee6"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/6_1.tvc",
+      "bytes": 15449,
+      "sha256": "3577c3c5a256ab6bb07c7839631704931ff3966aef38975163fc7caec2337fd4"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/6_1.tvm",
+      "bytes": 3535,
+      "sha256": "69d5e832103cde8088e771c4b5c52954f8439e8d9f86454612956cab8ddc5f2a"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/6_1.tvz",
+      "bytes": 15449,
+      "sha256": "ffcd77eac7fa57c7d12fca13cfbbf96cef7cd9904d2aa1334dfaba82df59803d"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/current.sf_msh",
+      "bytes": 44492,
+      "sha256": "6781de084a85de366d5fa40018201ba0d61436cab474dcabcaabb714bafae7ad"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/current.sf_mshhdr",
+      "bytes": 185,
+      "sha256": "c874231c16f4aa185357667966656c21ebddc79f8d76158647851bfd513be7e9"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.evtrs",
+      "bytes": 345,
+      "sha256": "01ff7f06974219a6c1659873fe490fe3a83b99df91de82f19e9d8c7d3fae624d"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.imp",
+      "bytes": 634969,
+      "sha256": "0c829f79622c35b80a0168233f9cb0414c60a977c19401e9eead8e2309fa933b"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_0",
+      "bytes": 313176,
+      "sha256": "f542d6c06a1dd5b7ef95fac61aaeac67a9c93d9c6f63e05c3c66f3a6b555991e"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_1",
+      "bytes": 313176,
+      "sha256": "c0ea8698cb1274fb9b4189b603bc9adde5faa5bfc40778b39da38bad2c41113f"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_2",
+      "bytes": 313176,
+      "sha256": "d0789090cc28cb640b47f31be6ceede0a3907a9b04e73d2a455e3fb8ce0531f8"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_3",
+      "bytes": 313176,
+      "sha256": "eb8d74a7de8dfb3d4e8f1feb3190717583d9ed45730ebe338ac9121830118973"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_4",
+      "bytes": 313176,
+      "sha256": "23618e62e54134f1c7712ab6b9c893653f4de19819a32f93a339b6bb5277f9d6"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_5",
+      "bytes": 313176,
+      "sha256": "7f0de08c84043b4cafd2f255429484aa60db9f3932cd89337b188b398f9c230f"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/hf3d_solver_freq.input",
+      "bytes": 7798360,
+      "sha256": "18315449942d7443dfdb8ef4d8dd8d1b2b0302d1b6afd7d455e1d00b54e77b57"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_ADP6_V0.sd/native.adp",
+      "bytes": 43125559,
+      "sha256": "a01ba7c4d06edcb10b43c6029e3723e89cf8985ac663f89ad2f5343ab3d51fb5"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_MI0_V0.sd/current.stats",
+      "bytes": 13999,
+      "sha256": "8cff57ee7ffedf59b27b8d5b84b614d2793d4bd6dfd420c27fb28377476bda56"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_V0.cmesh/bodyFaceInfo.info",
+      "bytes": 1649910,
+      "sha256": "aaeb9fae286987c7c0e7a2cf3620aaef1e04026adbb8a15d655a5c4ff64b5f0e"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_V0.cmesh/current.ngmesh",
+      "bytes": 22040069,
+      "sha256": "329da5ffc4e5225828cac628476c3aa0d074daebdfcae518bff4992968277123"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_V0.cmesh/current.stats",
+      "bytes": 13999,
+      "sha256": "8cff57ee7ffedf59b27b8d5b84b614d2793d4bd6dfd420c27fb28377476bda56"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_V97.imesh/bodyFaceInfo.info",
+      "bytes": 1649910,
+      "sha256": "aaeb9fae286987c7c0e7a2cf3620aaef1e04026adbb8a15d655a5c4ff64b5f0e"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_V97.imesh/initial.ngmesh",
+      "bytes": 7482797,
+      "sha256": "5b4790e76ee521b7fde7f0fe8ab2629b1246b8f0f9509d841302d97f05c1d15b"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_V97.imesh/initial.stats",
+      "bytes": 13998,
+      "sha256": "7460f618d5899b1fd402b06e1256106fe92dd574c77e60a71c3322962a951666"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/NDV179_V0.dmesh/defn_native_vmesh.ngmesh",
+      "bytes": 7482797,
+      "sha256": "5b4790e76ee521b7fde7f0fe8ab2629b1246b8f0f9509d841302d97f05c1d15b"
+    },
+    {
+      "arquivo": "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/NDV179_V0.dmesh/defn_native_vmesh.stats",
+      "bytes": 13998,
+      "sha256": "7460f618d5899b1fd402b06e1256106fe92dd574c77e60a71c3322962a951666"
+    }
+  ]
+}

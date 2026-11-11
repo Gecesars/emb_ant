@@ -15,7 +15,7 @@ def sources(sol,selected):
 try:
     p=oDesktop.OpenProject(os.path.join(root,cfg['native']));d=p.SetActiveDesign(cfg['design'])
     an=d.GetModule('AnalysisSetup');sol=d.GetModule('Solutions');ports=list(sol.GetAllSources())
-    assert list(an.GetSetups())==['Centro'] and not list(an.GetSweeps('Centro')) and len(ports)==4
+    assert list(an.GetSetups())==['Centro'] and not list(an.GetSweeps('Centro')) and len(ports)==len(cfg['portas']) and len(ports) in [4,6]
     if stage=='preparar':
         assert not os.path.exists(os.path.join(root,'preparacao_auditada.json'))
         d.ExportConvergence('Centro','',os.path.join(root,'antes_convergencia.txt'))
@@ -38,7 +38,7 @@ try:
         write('mensagens.json',list(oDesktop.GetMessages(p.GetName(),d.GetName(),0)))
         errors=list(oDesktop.GetMessages(p.GetName(),d.GetName(),2));assert not errors,errors
         d.ExportConvergence('Centro','',os.path.join(root,'convergencia.txt'))
-        sol.ExportNetworkData('',['Centro : LastAdaptive'],3,os.path.join(root,'centro.s4p'),['All'],True,50,'S',-1,1,15,False,True,False)
+        sol.ExportNetworkData('',['Centro : LastAdaptive'],3,os.path.join(root,'centro.s%dp'%len(ports)),['All'],True,50,'S',-1,1,15,False,True,False)
         reports=d.GetModule('ReportSetup')
         cases=[('ALL',ports),('POL_A',[n for n in ports if n.endswith('_A')]),('POL_B',[n for n in ports if n.endswith('_B')])]+[(n,[n]) for n in ports]
         for mode,selected in cases:

@@ -1,0 +1,23 @@
+{
+  "aprovado": true,
+  "geometria_blocos": 107,
+  "geometria_materiais_fronteiras_malha_inalterados": true,
+  "alteracoes_setup": [
+    "MaximumPasses6->8",
+    "MinimumPasses2->8"
+  ],
+  "native_sha256": "6d7a77f0b1cd01def04be81f8ae91161eaa52cb4f1cf5f5952a552a10a0f2483",
+  "cache_malha_campos_preservados": [
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.evtrs",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.imp",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_0",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_1",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_2",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_3",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_4",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S101_V0_F250/fields.sf_fld_5",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_ADP6_V0.sd/native.adp",
+    "P2S13_TresPCB2.aedtresults/Tres_Placas2.results/DV102_S99_V0.cmesh/current.ngmesh"
+  ],
+  "historico6_preservado": true
+}

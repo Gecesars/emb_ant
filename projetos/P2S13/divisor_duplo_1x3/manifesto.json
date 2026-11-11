@@ -1,0 +1,131 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/circuito/antena.s6p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\circuito\\antena.s6p",
+      "sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+      "bytes": 2765
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/circuito/nexxim.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\circuito\\nexxim.s2p",
+      "sha256": "a78dca299d3061b31a85538f7abf3f6ce5fe3315a2e280ca36875935d362d1b7",
+      "bytes": 370
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/circuito/P2S13_Divisor_Duplo3.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\circuito\\P2S13_Divisor_Duplo3.aedt",
+      "sha256": "7c1da8451e44910bc174d651314374461cbd9b8fba4591cb1ab55e8662458094",
+      "bytes": 47110
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/circuito/P2S13_Divisor_Duplo3_sem_malhas.aedtz",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\circuito\\P2S13_Divisor_Duplo3_sem_malhas.aedtz",
+      "sha256": "d973fefc5816a386fec427c3193c4997db56f80f09920c94f7dfffb9db97f0b2",
+      "bytes": 22086
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/circuito/verificacao_nexxim.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\circuito\\verificacao_nexxim.json",
+      "sha256": "6278eb7934a532a023e726c68b4ce1fc850a64942380c4db70cb6277900d3d15",
+      "bytes": 496
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/circuito/Wilkinson_ajustado_1x3.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\circuito\\Wilkinson_ajustado_1x3.s4p",
+      "sha256": "1e02dd21c653c004f92ac33da517136f3324b9a3100da961473e7e6055a2e930",
+      "bytes": 1046
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/comparacao_circuitos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\comparacao_circuitos.json",
+      "sha256": "49b302499ca85823034144085c6283951eea941a45e64db910e4a8c4cf0213c3",
+      "bytes": 4054
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/diagrama_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\diagrama_H.csv",
+      "sha256": "ce351e3d6fc189d761493e9e49cfd30775a72f27d091df65590a1e0bd6a2c2f2",
+      "bytes": 66021
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/diagrama_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\diagrama_V.csv",
+      "sha256": "deafa65c52f8d01a32161aa4af743f55a7f7097650a31091e2ca2fd8479ffbba",
+      "bytes": 67570
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/parametros.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\parametros.json",
+      "sha256": "a4323da67ed211250bc7df4902b4cad5a09566194ace95db2f887d5fb772d37a",
+      "bytes": 2078
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/plano_divisor.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\plano_divisor.png",
+      "sha256": "0906021addb970b5b41f2513c7c32bcc965dd1ab3ee18a88a5e29adbe3b335fd",
+      "bytes": 146731
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/polar_conjunto.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\polar_conjunto.png",
+      "sha256": "195f2d51b81ca511eccedc2bef9a6b3c3fef10ed2cf870b61acc19fb092bddfe",
+      "bytes": 205989
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/sensibilidade_6_8.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\sensibilidade_6_8.json",
+      "sha256": "1d9cd8b85bb5f0cb09a6dd84bcb08894974b3fd61f93b82ef15c8cdac88abd4c",
+      "bytes": 452
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/T_nao_isolado_conjunto.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\T_nao_isolado_conjunto.s2p",
+      "sha256": "2ff2dcedfd4d7dbe1050e350ba46633254f36ba5aa771675dc4e8b36cfb9fca7",
+      "bytes": 334
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/T_nao_isolado_duplo.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\T_nao_isolado_duplo.s8p",
+      "sha256": "39a19a11a8ffbc490ef196a5921909da8f79382996a4c1bfd56f03bc2d3e63ab",
+      "bytes": 2636
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/verificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\verificacao.json",
+      "sha256": "c8cb1540d14c41874fd4936949cf75ce9706978ff3552177f96e0ba1e2526f40",
+      "bytes": 482
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/Wilkinson_ajustado_1x3.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\Wilkinson_ajustado_1x3.s4p",
+      "sha256": "1e02dd21c653c004f92ac33da517136f3324b9a3100da961473e7e6055a2e930",
+      "bytes": 1046
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/Wilkinson_ajustado_conjunto.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\Wilkinson_ajustado_conjunto.s2p",
+      "sha256": "6d17d93cc97f75c8f7773bea224d191c626fdaa7b89bf0f64474df9b1a6a40e0",
+      "bytes": 336
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/Wilkinson_ajustado_duplo.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\Wilkinson_ajustado_duplo.s8p",
+      "sha256": "e89ddd70ef4751ca3e8ec4a7eade7b0a54d94743f65055cb59948da89006c32c",
+      "bytes": 2706
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/Wilkinson_sem_ajuste_conjunto.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\Wilkinson_sem_ajuste_conjunto.s2p",
+      "sha256": "01fb5f609c2ac335a108d41caeda2990cab1d1c0752d5ad7f5f9d4b3392b5308",
+      "bytes": 330
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3/Wilkinson_sem_ajuste_duplo.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R07_Divisor_Duplo3\\Wilkinson_sem_ajuste_duplo.s8p",
+      "sha256": "09ff3eb8c12c53e75eff45d03996d9c4df710275f4bcbad224ab342e3b3548e4",
+      "bytes": 2758
+    }
+  ],
+  "total_bytes": 577396
+}

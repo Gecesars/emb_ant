@@ -1,7 +1,7 @@
 """Gates: geometria/setup/cache intactos e somente passes7/8 adicionados."""
 from pathlib import Path
-import json,hashlib,re,sys,difflib
-ROOT=Path('D:/dev/EMBRAER/P2S13/R03_Continuacao_M00');REF=ROOT/'referencia6'
+import json,hashlib,re,sys,difflib,os
+ROOT=Path(os.environ.get('P2S13_ROOT','D:/dev/EMBRAER/P2S13/R03_Continuacao_M00'));REF=ROOT/'referencia6'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def block(t,n):return t.split("$begin '"+n+"'",1)[1].split("$end '"+n+"'",1)[0]
 def geom(t):return [v.split("$end 'GeometryPart'",1)[0] for v in t.split("$begin 'GeometryPart'")[1:]]
@@ -12,7 +12,8 @@ def main(stage):
     for name in ['BoundarySetup','MaterialDef','MeshSetup','CoordinateSystems']:
         if "$begin '"+name+"'" in a:assert block(a,name)==block(b,name),name
     sources=re.findall(r'SourceEntry\([^\n]+',b)
-    assert len(sources)==4 and all("Magnitude='0.25W'" in s and "Phase='0deg'" in s for s in sources)
+    count=len(cfg['portas']);assert count in [4,6]
+    assert len(sources)==count and all(abs(float(re.search("Magnitude='([0-9.e+-]+)W'",s)[1])-1/count)<1e-10 and "Phase='0deg'" in s for s in sources)
     expected=block(a,'AnalysisSetup').replace('MaximumPasses=6','MaximumPasses=8').replace('MinimumPasses=2','MinimumPasses=8')
     actual=block(b,'AnalysisSetup')
     if expected!=actual:
