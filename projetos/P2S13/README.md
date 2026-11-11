@@ -2,7 +2,9 @@
 
 Nova revisão iniciada em 10/11/2026 após a entrega da mecânica preliminar P2M21 R18. A R18 e seus documentos enviados por e-mail permanecem preservados.
 
-**Revisão atual: casamento da placa de dois elementos no conjunto 4+2.** Transformadores simétricos de **0,546717 × 13,151813 mm** reduziram o VSWR ativo da PCB2 para **1,1956/1,1685**, e com outras entradas casadas para **1,1501/1,2107**, em 5,17 GHz. Ganho frontal total **10,657 dBi**, H **87,30°**, V **10,07°**, com refletor b10/90 fixo e cabos físicos. Seis passes, 14 núcleos, ΔS final **0,042633**, porém apenas um dos dois passes consecutivos necessários; resultado **preliminar**. O VSWR ativo máximo da PCB4 é **1,2595**. [Relatório, comparação, CAD e HFSS](casamento_placa2/README.md).
+**Revisão atual, 11/11: dois passes adicionais com a malha preservada.** O conjunto 4+2 concluiu os passes 7 e 8 em 5,17 GHz, com 14 núcleos e quatro entradas iguais/em fase. **ΔS=0,016429**, três passes consecutivos abaixo de 0,05. VSWR ativo PCB2 **1,22085/1,14980**, demais entradas casadas **1,10125/1,14708**: a meta ≤1,25 foi atingida numericamente. Ganho frontal total **10,7554 dBi**, H **86,738°**, V **10,148°**, máximos **−0,50°/+2,50°**. **A validação completa permanece pendente:** uma sonda de campo variou 0,7446 dB e a reciprocidade excedeu o limite da auditoria (3,84×10⁻⁵ contra 1×10⁻⁵). [Comparação, diagramas, evidências e HFSS atualizado](continuacao_placa2/README.md).
+
+Os transformadores simétricos de **0,546717 × 13,151813 mm**, o refletor b10/90 e os cabos físicos foram mantidos. A revisão de seis passes e seus resultados permanecem preservados no [histórico do casamento da PCB2](casamento_placa2/README.md). Nenhum novo sweep ou passe além dos dois solicitados foi executado.
 
 O estudo anterior de seis níveis testou três refletores: [placa nova, resultados e nativos](seis_elementos/README.md). A placa de quatro e a antiga KiCad de dois elementos foram preservadas. O restante desta página registra o estudo inicial de oito níveis.
 

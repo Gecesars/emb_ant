@@ -1,0 +1,92 @@
+{
+  "sondas": [
+    {
+      "sonda": "P2S13_Campo_00",
+      "theta_graus": 0,
+      "phi_graus": 90,
+      "ganho7_dBi": 10.7180422691967,
+      "ganho8_dBi": 10.7554478263492,
+      "delta_dB": 0.0374055571525016
+    },
+    {
+      "sonda": "P2S13_Campo_01",
+      "theta_graus": -50,
+      "phi_graus": 90,
+      "ganho7_dBi": 6.84614122787271,
+      "ganho8_dBi": 6.86125106215287,
+      "delta_dB": 0.01510983428015944
+    },
+    {
+      "sonda": "P2S13_Campo_02",
+      "theta_graus": 50,
+      "phi_graus": 90,
+      "ganho7_dBi": 7.00583609805649,
+      "ganho8_dBi": 7.09886440606593,
+      "delta_dB": 0.09302830800943962
+    },
+    {
+      "sonda": "P2S13_Campo_03",
+      "theta_graus": -60,
+      "phi_graus": 90,
+      "ganho7_dBi": 5.76781607869527,
+      "ganho8_dBi": 5.75396347916422,
+      "delta_dB": -0.01385259953104967
+    },
+    {
+      "sonda": "P2S13_Campo_04",
+      "theta_graus": 60,
+      "phi_graus": 90,
+      "ganho7_dBi": 5.97575888685516,
+      "ganho8_dBi": 6.02969390654741,
+      "delta_dB": 0.05393501969225056
+    },
+    {
+      "sonda": "P2S13_Campo_05",
+      "theta_graus": -8,
+      "phi_graus": 0,
+      "ganho7_dBi": -7.4420998553461,
+      "ganho8_dBi": -6.69753885774462,
+      "delta_dB": 0.7445609976014804
+    },
+    {
+      "sonda": "P2S13_Campo_06",
+      "theta_graus": 8,
+      "phi_graus": 0,
+      "ganho7_dBi": 8.06289435012118,
+      "ganho8_dBi": 8.22773856721527,
+      "delta_dB": 0.1648442170940907
+    },
+    {
+      "sonda": "P2S13_Campo_07",
+      "theta_graus": -10,
+      "phi_graus": 0,
+      "ganho7_dBi": -0.0958924020498777,
+      "ganho8_dBi": 0.222678741243157,
+      "delta_dB": 0.3185711432930347
+    },
+    {
+      "sonda": "P2S13_Campo_08",
+      "theta_graus": 10,
+      "phi_graus": 0,
+      "ganho7_dBi": 4.7868549625374,
+      "ganho8_dBi": 5.02604341271602,
+      "delta_dB": 0.23918845017862012
+    }
+  ],
+  "maior_delta_sonda": {
+    "sonda": "P2S13_Campo_05",
+    "theta_graus": -8,
+    "phi_graus": 0,
+    "ganho7_dBi": -7.4420998553461,
+    "ganho8_dBi": -6.69753885774462,
+    "delta_dB": 0.7445609976014804
+  },
+  "par_reciprocidade": [
+    "R1_A",
+    "R2_B"
+  ],
+  "residuo_reciprocidade": 3.8429329224938335e-05,
+  "limite_reciprocidade": 1e-05,
+  "sensibilidade_VSWR_ativo_max_ao_simetrizar": 2.824424617720034e-05,
+  "escopo": "Somente diagnostico algebrico de sensibilidade. S4 original mantido, nao simetrizado na entrega. Nao estima erro FEM completo nem relaxa a auditoria."
+}

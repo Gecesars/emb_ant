@@ -1,0 +1,21 @@
+{
+  "aprovado": true,
+  "geometria_blocos": 84,
+  "geometria_materiais_fronteiras_malha_inalterados": true,
+  "alteracoes_setup": [
+    "MaximumPasses6->8",
+    "MinimumPasses2->8"
+  ],
+  "native_sha256": "6ff57095dc62f83088ef58cf7779d177191916964e07c1fbce936a5534fdf48b",
+  "cache_malha_campos_preservados": [
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S77_ADP6_V0.sd/native.adp",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S77_V0.cmesh/current.ngmesh",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S79_V0_F228/fields.evtrs",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S79_V0_F228/fields.imp",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S79_V0_F228/fields.sf_fld_0",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S79_V0_F228/fields.sf_fld_1",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S79_V0_F228/fields.sf_fld_2",
+    "P2S13_Casamento2.aedtresults/Casamento_Placa2.results/DV80_S79_V0_F228/fields.sf_fld_3"
+  ],
+  "historico6_preservado": true
+}

@@ -1,0 +1,62 @@
+{
+  "resultados": [
+    {
+      "passes": 6,
+      "DeltaS": 0.042633389330050064,
+      "passes_consecutivos": 1,
+      "convergiu_S": false,
+      "campos_estaveis": false,
+      "auditoria": true,
+      "VSWR_meta_numerica": true,
+      "casamento_validado": false,
+      "VSWR2_ativo_A": 1.1956475177738115,
+      "VSWR2_ativo_B": 1.1684741926052513,
+      "VSWR2_casado_A": 1.1501145166694624,
+      "VSWR2_casado_B": 1.2107454650689622,
+      "VSWR_todas_ativo_max": 1.259502009635752,
+      "ganho_frontal_dBi": 10.656730148653576,
+      "H_graus": 87.2965539806936,
+      "V_graus": 10.073163416156648,
+      "pico_H_graus": -1.75,
+      "pico_V_graus": 2.5,
+      "SLL_V_dB": -6.96286820679033,
+      "delta_G_ultimo_passe_dB": 0.22467004066799845,
+      "delta_campo_max_ultimo_passe_dB": 0.5026891476017497
+    },
+    {
+      "passes": 8,
+      "DeltaS": 0.016428821182398835,
+      "passes_consecutivos": 3,
+      "convergiu_S": true,
+      "campos_estaveis": false,
+      "auditoria": false,
+      "VSWR_meta_numerica": true,
+      "casamento_validado": false,
+      "VSWR2_ativo_A": 1.2208463044273088,
+      "VSWR2_ativo_B": 1.1498015044304393,
+      "VSWR2_casado_A": 1.101246853303888,
+      "VSWR2_casado_B": 1.1470774455661181,
+      "VSWR_todas_ativo_max": 1.2208463044273088,
+      "ganho_frontal_dBi": 10.755447826349203,
+      "H_graus": 86.73818656371081,
+      "V_graus": 10.14793101046092,
+      "pico_H_graus": -0.5,
+      "pico_V_graus": 2.5,
+      "SLL_V_dB": -6.8480185261772775,
+      "delta_G_ultimo_passe_dB": 0.0374055571525016,
+      "delta_campo_max_ultimo_passe_dB": 0.7445609976014804
+    }
+  ],
+  "delta_8_menos_6": {
+    "ganho_frontal_dBi": 0.09871767769562645,
+    "H_graus": -0.5583674169827901,
+    "V_graus": 0.07476759430427293,
+    "VSWR2_ativo_A": 0.025198786653497285,
+    "VSWR2_ativo_B": -0.018672688174812047,
+    "VSWR2_casado_A": -0.048867663365574465,
+    "VSWR2_casado_B": -0.06366801950284406,
+    "SLL_V_dB": 0.11484968061305256
+  },
+  "configuracao": "Mesma geometria e malha continuada; quatro entradas 0.25W/0graus, 5.17GHz, 14nucleos, sem sweep, novos passes7e8.",
+  "limite": "VSWR refere-se as duas entradas PCB2 do conjunto4+2. Ganho e campos sao totais. Nao qualifica banda nem medicao."
+}

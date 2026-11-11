@@ -1,6 +1,6 @@
 """Mede resultados HFSS reais; separa metas RF, convergencia e verificacao fisica."""
 from pathlib import Path
-import os,sys,json,re,csv
+import os,sys,json,re,csv,textwrap
 import numpy as np
 import skrf as rf
 import matplotlib
@@ -26,20 +26,32 @@ def main():
     assert state['estado'] in ['SOLVE_EXPORTADO_AGUARDA_AUDITORIA','ANALISE_CONCLUIDA']
     conv=(ROOT/'convergencia.txt').read_text();value=lambda p:int(re.search(p,conv)[1])
     passes=value(r'Completed\s*:\s*(\d+)');consec=value(r'Current Consecutive Passes\s*:\s*(\d+)')
-    assert value(r'Maximum\s*:\s*(\d+)')==6 and passes<=6
+    maximum=int(cfg['max_passes']);minimum=int(cfg['min_passes'])
+    assert value(r'Maximum\s*:\s*(\d+)')==maximum and passes<=maximum
+    assert value(r'Minimum\s*:\s*(\d+)')==minimum
+    if maximum!=6:
+        assert maximum==minimum==8 and cfg['passes_iniciais']==6 and cfg['passes_adicionais_autorizados']==2
+        assert json.loads((ROOT/'continuidade_auditada.json').read_text())['aprovado']
     history=progress(ROOT);save('historico_passes.json',history);hist=history['historico'];assert len(hist)==passes
-    delta=hist[-1]['delta_s'];converged='Converged : Yes' in conv and delta<=.05 and consec>=2 and passes>=2
+    delta=hist[-1]['delta_s'];converged='Converged : Yes' in conv and delta<=.05 and consec>=2 and passes>=minimum
     native=(ROOT/cfg['native']).read_text(errors='replace');entries=re.findall(r'SourceEntry\([^\n]+',native)
     method=cfg.get('mesh_method','AnsoftClassic')
     assert "MeshMethod='%s'"%method in native
     assert 'UseFlexMeshingForTAUvolumeMesh='+str(cfg.get('tau_flex',False)).lower() in native
     assert 'UseAlternativeMeshMethodsAsFallBack=false' in native
     assert len(entries)==4 and all("Magnitude='0.25W'" in x and "Phase='0deg'" in x for x in entries)
-    profiles=list((ROOT/cfg['native']).with_suffix('.aedtresults').rglob('*.profile'))
+    # O monitor seleciona EMConvData pelos criterios atuais; nao usar perfil
+    # historico de outro limite de passes apenas por ser o primeiro arquivo.
+    profiles=[Path(history['fonte']).with_suffix('.profile')]
+    assert profiles[0].is_file(),profiles
     profiles_with_solves=[(p,profile_matrix_solves(p.read_text(errors='replace'))) for p in profiles]
     profiles_with_solves=[(p,r) for p,r in profiles_with_solves if r]
     assert len(profiles_with_solves)==1,[(str(p),len(r)) for p,r in profiles_with_solves]
     recs=profiles_with_solves[0][1];adap=[x for x in recs if x['passe_adaptativo'] is not None]
+    if cfg.get('passes_iniciais') and [x['passe_adaptativo'] for x in adap]==[7,8]:
+        previous=json.loads((ROOT/'referencia6/recursos_matriz.json').read_text())
+        assert [x['passe_adaptativo'] for x in previous if x['passe_adaptativo'] is not None]==list(range(1,7))
+        recs=previous+recs;adap=[x for x in recs if x['passe_adaptativo'] is not None]
     assert [x['passe_adaptativo'] for x in adap]==list(range(1,passes+1)) and all(x['nucleos']==14 for x in adap)
     save('recursos_matriz.json',recs)
     if list(ROOT.rglob('nominalmesh.g3derr')):
@@ -86,6 +98,7 @@ def main():
     r['aprovado']=bool(r['validado_numericamente'] and all(r['metas_numericas'].values()))
     save('resultado.json',r)
     status='Convergencia DeltaS atendida' if converged else 'PRELIMINAR — nao convergido'
+    if converged and not r['estavel_nove_sondas']:status+='; estabilidade de campo pendente'
     if not r['fisica_ok']:
         failed=[k for k,v in r['verificacoes'].items() if v is False]
         status+='; auditoria numerica reprovada: '+', '.join(failed)
@@ -93,13 +106,14 @@ def main():
     for ax,axis in zip(axs,'HV'):
         t,g=curves[axis];ax.plot(t,g,label=cfg['revisao']);ax.set(xlim=(-90,90),ylim=(-25,20),title=axis,xlabel='Angulo (graus)',ylabel='Ganho realizado total (dBi)');ax.grid(alpha=.25)
         ax.axhline(13,c='#999',ls='--',lw=.8)
-    fig.suptitle(f"P2S13 — 5,17 GHz — quatro portas iguais/em fase, 1 W total\n{status} | {passes} passes | DeltaS={delta:.6f}")
-    fig.tight_layout(rect=(0,0,1,.89));fig.savefig(ROOT/'diagramas_HV.png',dpi=170);plt.close(fig)
+    wrapped_status='\n'.join(textwrap.wrap(status,width=95))
+    fig.suptitle(f"P2S13 — 5,17 GHz — quatro portas iguais/em fase, 1 W total\n{wrapped_status}\n{passes} passes | DeltaS={delta:.6f}",fontsize=11)
+    fig.tight_layout(rect=(0,0,1,.86));fig.savefig(ROOT/'diagramas_HV.png',dpi=170);plt.close(fig)
     fig,axs=plt.subplots(1,2,figsize=(11,6.6),subplot_kw={'projection':'polar'})
     for ax,axis in zip(axs,'HV'):
         t,g=curves[axis];c=r['cortes'][axis];ax.plot(np.deg2rad(t),10**((g-g.max())/20));ax.set_theta_zero_location('N');ax.set_theta_direction(-1);ax.set_ylim(0,1.05);ax.set_rticks([.25,.5,.75,1]);ax.set_rlabel_position(75)
         ax.set_title(f"{axis}: largura {c['abertura_graus']:.2f} graus; pico {c['pico_graus']:+.2f} graus",fontsize=10,pad=22)
-    fig.suptitle(f"{cfg['revisao']} — E/Emax — 5,17 GHz\n{status}")
+    fig.suptitle(f"{cfg['revisao']} — E/Emax — 5,17 GHz\n{wrapped_status}",fontsize=11)
     fig.text(.5,.025,f"G frontal {h['ganho_frontal_dBi']:.3f} dBi | DeltaS {delta:.6f} | 14 nucleos | {passes} passes",ha='center');fig.subplots_adjust(top=.77,bottom=.14,wspace=.25);fig.savefig(ROOT/'polar_HV.png',dpi=170);plt.close(fig)
     state.update(estado='ANALISE_CONCLUIDA',convergiu=converged,aprovado=r['aprovado']);save('qualificacao.json',state)
     print(json.dumps({k:r[k] for k in ['variante','passes','delta_s','convergiu','fisica_ok','metas_numericas','cortes','VSWR_ativo']},indent=2))

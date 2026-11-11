@@ -1,0 +1,132 @@
+{
+  "celulas": [
+    {
+      "nome": "R1",
+      "fonte": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\quatro_elementos_casamento_banda\\c12_raiz_intermediaria",
+      "cad_native": "4_elementos.FCStd",
+      "x": -48.0,
+      "y": 0.0,
+      "z": 0.0,
+      "radiadores": 4,
+      "fontes_sha256": {
+        "4_elementos.FCStd": "e0b189c9d7a29c72ad480d7759cfe38bacbaf40121c87b994c43ff7bb3dcc681",
+        "geometria.json": "89adc0231bc3f8fa3d9bc110dcfd1d43dbb12f9b8b3872fe34e02c2602cd2995",
+        "cad/manifesto.json": "8cbe9da5784b846892e2164b4fac22d80c10f4c151bd60f100fea438abd8593c",
+        "cad/folhas_solidas.json": "4f63235c9a1bba87164642d20fc7ad8808042ab9d9bc0e2ff888a17720ab7195"
+      }
+    },
+    {
+      "nome": "R2",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2",
+      "cad_native": "2_elementos_simetrica.FCStd",
+      "x": 96.0,
+      "y": 0.0,
+      "z": 0.0,
+      "radiadores": 2,
+      "fontes_sha256": {
+        "2_elementos_simetrica.FCStd": "f6624364c91b0df51b614343a206248c77b8f4362394dc1fbe969146cf2330e2",
+        "geometria.json": "2a62de019e2672c01b44eb57431057d498f099d43fa2349f226af6c4a000725e",
+        "cad/manifesto.json": "6ec1f8fe9b813c41c887776df7214aaaea94da813ca90383d683aecebfd64623",
+        "cad/folhas_solidas.json": "90598164b4c21e37b893138c9746b065207382147ed88f6d03c85bf713489389"
+      }
+    }
+  ],
+  "portas": [
+    {
+      "name": "R1_A",
+      "x": -45.490831586959374,
+      "y": -32.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515,
+      "celula": "R1",
+      "polarizacao": "A"
+    },
+    {
+      "name": "R1_B",
+      "x": -45.490831586959374,
+      "y": 32.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515,
+      "celula": "R1",
+      "polarizacao": "B"
+    },
+    {
+      "name": "R2_A",
+      "x": 98.50916841304063,
+      "y": -18.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515,
+      "celula": "R2",
+      "polarizacao": "A"
+    },
+    {
+      "name": "R2_B",
+      "x": 98.50916841304063,
+      "y": 18.0,
+      "z": -35.051,
+      "ri": 0.45975,
+      "ro": 1.515,
+      "celula": "R2",
+      "polarizacao": "B"
+    }
+  ],
+  "radiadores": 6,
+  "niveis_radiadores": 6,
+  "niveis_placas": 2,
+  "colunas": 1,
+  "frequencia_GHz": 5.17,
+  "potencia_por_porta_W": 0.25,
+  "fase_graus": 0,
+  "potencia_total_W": 1,
+  "nucleos": 14,
+  "gui": false,
+  "sweep": false,
+  "max_passes": 8,
+  "min_passes": 8,
+  "passes_consecutivos": 2,
+  "max_delta_s": 0.05,
+  "percent_refinement": 50,
+  "basis_order": 1,
+  "malha": "Classic automatico; refletor redesenhado com arcos e cilindros nativos, mesmas dimensoes; PCBs intactas; sem operacoes locais.",
+  "metas": {
+    "ganho_frontal_min_dBi": 13,
+    "H_min_graus": 99,
+    "H_max_graus": 121,
+    "V_min_graus": 16.2,
+    "V_max_graus": 19.8
+  },
+  "monitoramento_estabilidade_campo_dB": 0.1,
+  "refletor_comprimento_mm": 296.0,
+  "refletor_desenvolvido_largura_mm": 90,
+  "espessura_mm": 2,
+  "raio_interno_mm": 2,
+  "K_dobra": 0.4,
+  "passo_vertical_mm": 48,
+  "passo_placas_mm": 144.0,
+  "nucleo_z_mm": 14.949,
+  "escopo": "PCB4 C12 preservada e nova PCB2 simetrica derivada das etapas locais C12; seis niveis com passo48, quatro cabos50mm fisicos, quatro fontes iguais0.25W/0graus. Sem N, suportes ou rede externa.",
+  "revisao": "m00_continuacao8",
+  "native": "P2S13_Casamento2.aedt",
+  "cad_native": "P2S13_Casamento2.FCStd",
+  "design": "Casamento_Placa2",
+  "inicio_dobra_y_mm": 10,
+  "angulo_dobra_graus": 90,
+  "mesh_method": "AnsoftClassic",
+  "tau_flex": false,
+  "exigir_malha_sem_reparos": true,
+  "refletor_construcao": "nativo",
+  "solidos_fisicos": 71,
+  "prioridade": "Abertura horizontal; manter ganho e vertical relatados contra metas originais.",
+  "ressalva_alimentacao": "Entradas iguais nao implicam igual potencia por radiador: placa2 recebe nominalmente o dobro por elemento. Fase eletrica entre modulos deve ser verificada nos campos.",
+  "estudo": "Ajuste simetrico de largura/comprimento dos transformadores da PCB2; PCB4, refletor b10/90, cabos, entradas e radiadores inalterados.",
+  "meta_VSWR_placa2": 1.25,
+  "criterio_VSWR": "Ativo com quatro entradas iguais/em fase e com outras entradas casadas",
+  "fonte_referencia": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2S13\\seis_elementos\\s02_b10_a90",
+  "passes_iniciais": 6,
+  "passes_adicionais_autorizados": 2,
+  "fonte_continuacao": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00",
+  "referencia_continuacao": "D:\\dev\\EMBRAER\\P2S13\\R03_Continuacao_M00\\referencia6"
+}
