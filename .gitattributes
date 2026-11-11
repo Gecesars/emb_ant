@@ -37,3 +37,8 @@ projetos/P2S13/**/*.acf -text whitespace=cr-at-eol
 # Script CAD gerado e arquivado como evidencia no manifesto P2S13.
 projetos/P2S13/seis_elementos/celula2_simetrica/criar_cad.py -text whitespace=cr-at-eol
 projetos/P2S13/casamento_placa2/**/criar_cad.py -text whitespace=cr-at-eol
+# Preservar nativos/CAM C07 e seus hashes de fabricacao.
+projetos/P2S13/kicad/**/*.kicad_pcb -text whitespace=cr-at-eol
+projetos/P2S13/kicad/**/*.kicad_pro -text whitespace=cr-at-eol
+projetos/P2S13/kicad/**/gerbers/* -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2S13/kicad/**/*.svg -text whitespace=-blank-at-eol,-blank-at-eof

@@ -1,0 +1,11 @@
+{
+  "furos": 8,
+  "metalizados": false,
+  "diametro_nativo_mm": 0.9195,
+  "diametro_KiCad_3casas_mm": 0.919,
+  "diametro_CAM_restaurado_mm": 0.9195,
+  "formato_XY": "3:6 mm, zeros mantidos; origem absoluta",
+  "alteracao": "Somente diametro T1 restaurado do nativo; coordenadas e quantidade nao alteradas",
+  "original_sha256": "5cc305d9ed47f1f2da7bed2a5288188e365088ce2eb70785bd0afa5b77c51c45",
+  "final_sha256": "26287efba006116d9b27d057b538895a910cbf4114c05abb35dd058d287aefc0"
+}

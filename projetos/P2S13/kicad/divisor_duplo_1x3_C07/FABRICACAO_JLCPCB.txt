@@ -1,0 +1,70 @@
+P2S13 - DUAL 1:3 DIVIDER - C07 / KiCad R01 - 2026-11-11
+PRELIMINARY - ENGINEERING / SPECIAL DFM REVIEW REQUIRED BEFORE PRODUCTION
+
+This artwork intentionally reproduces the simulated C07 geometry.
+Do not automatically modify copper, holes, annular rings, track widths or gaps.
+No purchase or approval of a manufacturing deviation is conveyed by this file.
+
+BOARD / STACKUP
+- Bare PCB: 220.000 x 64.000 mm, 2 copper layers.
+- Material: ZYF300CA-C PTFE, dielectric CORE thickness 1.520 mm.
+- Simulated Dk 2.94 and Df 0.0016 at 5.17 GHz.
+- Copper: 35 um on F.Cu and B.Cu. Nominal core plus copper: 1.590 mm,
+  excluding final ENIG. Do not confuse core thickness with finished thickness.
+- Finish: ENIG on exposed copper; model nominal NiP 4.5 um / Au 0.0254 um.
+  Actual core, copper and finish tolerances must be confirmed by manufacturing.
+- No solder mask on either side. Mask Gerbers intentionally open the full PCB.
+- No silkscreen, solder paste, vias, plated holes, edge plating or resistors.
+- Do not resize RF traces for an impedance-control calculation.
+- Route the profile using the CENTRELINE of Edge.Cuts: 220 x 64 mm.
+  The 0.05 mm profile drawing stroke is not an additional board dimension.
+
+DRILL AND RF INTERFACES - CRITICAL
+- Exactly EIGHT NON-PLATED through holes: nominal diameter 0.919500 mm.
+- Excellon coordinates: metric absolute 3:6, keep zeros, common Gerber origin.
+- PTH file is intentionally empty. Never convert these holes to plated holes.
+- Top RF copper reaches the NPTH hole wall; no radial copper setback.
+- Bottom ground clearance circles: diameter 3.030000 mm; these are COPPER
+  ANTIPADS, not 3.03 mm holes in the laminate.
+- Nominal signal pin diameter is also 0.9195 mm. The EM model assumes contact;
+  the actual assembly fit/tolerance must be reviewed without silent hole changes.
+- Pin, PTFE access, local ground ring and solder in the HFSS assembly are
+  separate assembly items, not additional PCB layers or plated barrels.
+
+SPECIAL DFM POINTS - DO NOT RELEASE AS STANDARD AUTOMATIC PRODUCTION
+1. Bottom ground extends to all four routed board edges (zero setback).
+   JLC's published standard routed-edge copper setback is at least 0.2 mm.
+2. Top copper contacts the NPTH circumference (zero setback). The narrowest
+   nominal top annular copper is about 0.18886 mm; JLC recommends 0.45 mm
+   NPTH annular ring and describes removing 0.2 mm copper around NPTH holes.
+   That automatic removal could eliminate this RF solder land.
+3. Preserve the material/core/finish and the small differences between outer
+   trace lengths. The network is intentionally phase compensated at 5.17 GHz.
+
+Obtain an explicit engineering response confirming whether the unchanged
+artwork can be made, including NPTH copper preservation and copper to edge.
+If not, return proposed deviations for engineering review and RF re-evaluation.
+Do not enlarge pads, remove copper, add plating or substitute material silently.
+
+CONTENTS
+F_Cu / B_Cu: Gerber X2 copper; F_Mask / B_Mask: full opening;
+Edge_Cuts: one closed profile; NPTH.drl: eight holes; PTH.drl: zero holes.
+The KiCad job file is retained only as evidence outside the manufacturing ZIP.
+
+TRACEABILITY / VALIDATION
+Reference: HFSS C07, Divisor_Duplo3.aedt, SHA-256
+d4e7735b101a7ee2cb122d1b961bb1059a5a5675c55268fa08e6f105d8c328c9
+Geometry was compared against the corresponding FreeCAD solids, the saved
+KiCad board and exported Gerbers/Excellon. See README.md and verificacao.json.
+KiCad's drill writer truncated tool diameters to 3 decimals; the tool diameter
+was restored from the saved native board to 0.919500 mm, with unchanged XY.
+Native, source, CAM and ZIP SHA-256 hashes are recorded in manifesto.json.
+
+RF: nominal preliminary result only, 5.17 GHz; no sweep or new simulation was
+performed for this conversion. RF limitations of the C07 remain unchanged.
+Fabrication DRC deliberately retains 8 hole-clearance errors, 1 copper-edge
+error and 25 full-mask-opening warnings; there are zero unconnected items.
+
+Official references consulted 2026-11-11:
+https://jlcpcb.com/pcb-fabrication/high-frequency-pcb
+https://jlcpcb.com/capabilities/pcb-capabilities

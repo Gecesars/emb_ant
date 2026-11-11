@@ -1,0 +1,819 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-11T16:25:10",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "divisor_duplo_1x3_C07.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                },
+                {
+                    "description": "ilha NPTH de J5",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 44.5
+                    },
+                    "uuid": "009d16d0-4938-4069-8826-3091ccf2ef7d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                },
+                {
+                    "description": "ilha NPTH de J8",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "0d5d35fb-a398-48a3-bfef-47b65f140ce4"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                },
+                {
+                    "description": "ilha NPTH de J7",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "ffdc5c65-74ed-4398-85e6-e933e0244389"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_A] no F.Cu",
+                    "pos": {
+                        "x": 123.024848,
+                        "y": 39.895694
+                    },
+                    "uuid": "26ea92dc-f2b0-4b06-b046-bc31af3a4b36"
+                },
+                {
+                    "description": "ilha NPTH de J3",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 24.0
+                    },
+                    "uuid": "945566b7-b1ac-4687-bdb2-ff4be7b57024"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                },
+                {
+                    "description": "ilha NPTH de J6",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "28b0077b-ca43-479f-9c19-8badcec5b24f"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_A] no F.Cu",
+                    "pos": {
+                        "x": 123.024848,
+                        "y": 39.895694
+                    },
+                    "uuid": "26ea92dc-f2b0-4b06-b046-bc31af3a4b36"
+                },
+                {
+                    "description": "ilha NPTH de J1",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 39.5
+                    },
+                    "uuid": "18e90381-1ff6-4d38-88a5-f036dcc102f7"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_A] no F.Cu",
+                    "pos": {
+                        "x": 123.024848,
+                        "y": 39.895694
+                    },
+                    "uuid": "26ea92dc-f2b0-4b06-b046-bc31af3a4b36"
+                },
+                {
+                    "description": "ilha NPTH de J2",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 24.0
+                    },
+                    "uuid": "e746bd5f-c40e-445f-96fb-7d749c6937b1"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento do furo (configuração das restrições do furo isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Polígono [SIG_A] no F.Cu",
+                    "pos": {
+                        "x": 123.024848,
+                        "y": 39.895694
+                    },
+                    "uuid": "26ea92dc-f2b0-4b06-b046-bc31af3a4b36"
+                },
+                {
+                    "description": "ilha NPTH de J4",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 24.0
+                    },
+                    "uuid": "7d0717a3-486b-4005-8198-a9adcffd9790"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Violação do isolamento da borda da placa (configuração das restrições da borda isolamento 0,2000 mm; atual 0,0000 mm)",
+            "items": [
+                {
+                    "description": "Segmento no Edge.Cuts",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 10.0
+                    },
+                    "uuid": "b6984754-aa35-44eb-8214-b8f27e5b263c"
+                },
+                {
+                    "description": "Polígono [GND] no B.Cu",
+                    "pos": {
+                        "x": 230.0,
+                        "y": 74.0
+                    },
+                    "uuid": "bf640223-7c7a-4bfc-a776-ec1ed989a17e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J5 no F.Cu",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 45.5
+                    },
+                    "uuid": "afe2e457-8a23-4971-ba81-f813c3ce8b18"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J7 no F.Cu",
+                    "pos": {
+                        "x": 123.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "0bbf3669-69cc-4515-a5d0-7cd82e4f6c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J6 no F.Cu",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "5bf951ce-71ed-4eea-b981-1f6b57b371ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J8 no F.Cu",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "d8c5f785-d73a-409e-9893-9dc4062739ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J5 no F.Cu",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 45.5
+                    },
+                    "uuid": "afe2e457-8a23-4971-ba81-f813c3ce8b18"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J7 no F.Cu",
+                    "pos": {
+                        "x": 123.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "0bbf3669-69cc-4515-a5d0-7cd82e4f6c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J6 no F.Cu",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "5bf951ce-71ed-4eea-b981-1f6b57b371ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J8 no F.Cu",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "d8c5f785-d73a-409e-9893-9dc4062739ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J5 no F.Cu",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 45.5
+                    },
+                    "uuid": "afe2e457-8a23-4971-ba81-f813c3ce8b18"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J7 no F.Cu",
+                    "pos": {
+                        "x": 123.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "0bbf3669-69cc-4515-a5d0-7cd82e4f6c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J6 no F.Cu",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "5bf951ce-71ed-4eea-b981-1f6b57b371ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J8 no F.Cu",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "d8c5f785-d73a-409e-9893-9dc4062739ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J5 no F.Cu",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 45.5
+                    },
+                    "uuid": "afe2e457-8a23-4971-ba81-f813c3ce8b18"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J7 no F.Cu",
+                    "pos": {
+                        "x": 123.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "0bbf3669-69cc-4515-a5d0-7cd82e4f6c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J6 no F.Cu",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "5bf951ce-71ed-4eea-b981-1f6b57b371ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J8 no F.Cu",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "d8c5f785-d73a-409e-9893-9dc4062739ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Polígono [SIG_B] no F.Cu",
+                    "pos": {
+                        "x": 27.10969,
+                        "y": 60.248744
+                    },
+                    "uuid": "948df558-97c8-4c4b-8a87-2486aa6011ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J5 no F.Cu",
+                    "pos": {
+                        "x": 122.509168,
+                        "y": 45.5
+                    },
+                    "uuid": "afe2e457-8a23-4971-ba81-f813c3ce8b18"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J7 no F.Cu",
+                    "pos": {
+                        "x": 123.509168,
+                        "y": 60.0
+                    },
+                    "uuid": "0bbf3669-69cc-4515-a5d0-7cd82e4f6c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J6 no F.Cu",
+                    "pos": {
+                        "x": 26.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "5bf951ce-71ed-4eea-b981-1f6b57b371ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "A abertura da máscara de solda da frente conecta itens com redes diferentes",
+            "items": [
+                {
+                    "description": "Polígono no F.Mask",
+                    "pos": {
+                        "x": 10.0,
+                        "y": 74.0
+                    },
+                    "uuid": "a610dd12-94fc-4d3f-afc4-cc74a5c16bb1"
+                },
+                {
+                    "description": "Ilha 1 [SIG_B] de J8 no F.Cu",
+                    "pos": {
+                        "x": 218.509168,
+                        "y": 59.0
+                    },
+                    "uuid": "d8c5f785-d73a-409e-9893-9dc4062739ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

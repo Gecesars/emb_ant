@@ -1,0 +1,157 @@
+{
+  "data": "2026-11-11",
+  "revisao": "C07 / KiCad R01",
+  "origem": "projetos/P2S13/divisor_duplo_1x3_correcao/c07_centro",
+  "conversao_geometrica_aprovada": true,
+  "liberacao_JLC_padrao": false,
+  "DRC_erros": 9,
+  "DRC_avisos": 25,
+  "fontes": [
+    {
+      "arquivo": "Divisor_Duplo3.aedt",
+      "sha256": "d4e7735b101a7ee2cb122d1b961bb1059a5a5675c55268fa08e6f105d8c328c9"
+    },
+    {
+      "arquivo": "Divisor_Duplo3.FCStd",
+      "sha256": "fa51be74105ecf402b4d2744192daf34a4c5e19dcf7a6242784292e5cb5ab432"
+    },
+    {
+      "arquivo": "configuracao.json",
+      "sha256": "e14cb4342f835008450e78e5493515fdcd981b84193a6aea26df99250a67ffda"
+    },
+    {
+      "arquivo": "resultado.json",
+      "sha256": "cde0dcf77900eede83b27299edb8be2966d2a33763304c74c42af8875cc4f6a3"
+    }
+  ],
+  "pacote": "divisor_duplo_1x3_C07_Gerbers_JLCPCB.zip",
+  "sha256_zip": "a90e99bfd87927157c8394c2bc776ac368942d7b3be0ab5c88b649a23be842b8",
+  "arquivos_zip": 8,
+  "arquivos": [
+    {
+      "arquivo": "conexoes.csv",
+      "bytes": 564,
+      "sha256": "a935e074472369fb47941c4874becf4a2fa87fd7034863ef7068576935abbc30"
+    },
+    {
+      "arquivo": "conferencia_cad_hfss.json",
+      "bytes": 962,
+      "sha256": "763b21e7694f663aafe0e6f43d4b8c72cc290828c8961ff13484da9c7433f900"
+    },
+    {
+      "arquivo": "divisor_duplo_1x3_C07.kicad_pcb",
+      "bytes": 460377,
+      "sha256": "be345232193b5d2cb803085bafc5a75706fb0c5cf29c93247eb777a0fb2cac4d"
+    },
+    {
+      "arquivo": "divisor_duplo_1x3_C07.kicad_pro",
+      "bytes": 9942,
+      "sha256": "a91e109e40d807dffe0060bf843c5986147f9bfe70aaab7c9a244519e2c35de8"
+    },
+    {
+      "arquivo": "divisor_duplo_1x3_C07_Gerbers_JLCPCB.zip",
+      "bytes": 97518,
+      "sha256": "a90e99bfd87927157c8394c2bc776ac368942d7b3be0ab5c88b649a23be842b8"
+    },
+    {
+      "arquivo": "drc.json",
+      "bytes": 30146,
+      "sha256": "7bb738d5e18c056c95060899702eb6f1d486fe3fc98046f6e0c190482f51b0de"
+    },
+    {
+      "arquivo": "evidencias/furacao_original_KiCad_NPTH.txt",
+      "bytes": 530,
+      "sha256": "dc64693ec3c6ed3c81a2cec5472e25d23a7f0a9f6a70766bcb08f24183cfed6f"
+    },
+    {
+      "arquivo": "FABRICACAO_JLCPCB.txt",
+      "bytes": 4141,
+      "sha256": "8b002288f471e3221668b44b5698010a2cbb618e8dda0e860504bd560fe48d25"
+    },
+    {
+      "arquivo": "furacao.txt",
+      "bytes": 566,
+      "sha256": "01ed22f91c0915353eec63be728985335a11e68a0dd9b3f257a7ca115c9ac121"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-B_Cu.gbl",
+      "bytes": 423715,
+      "sha256": "6f0bfc0366588984e15543608a6fdacd2e5cb0bf284b8958c1f262868c53bd41"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-B_Mask.gbs",
+      "bytes": 669,
+      "sha256": "d3d00938b78feceaaa195c2939b46e9202099c8e953c01b8af596936401a3b9c"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-Edge_Cuts.gm1",
+      "bytes": 729,
+      "sha256": "00a1db131ac8af88c6da46f999f566d4a2b7dd38e64f43819432c201e6b50566"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-F_Cu.gtl",
+      "bytes": 8094,
+      "sha256": "a727f62b683da2fba32c86f17a436057d7675e5674622f9d1f2d68c9e3b3553b"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-F_Mask.gts",
+      "bytes": 669,
+      "sha256": "56394febc217811f467e6237b9cbe83b06fb031a3014e6a485c26d5218bd3644"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-job.gbrjob",
+      "bytes": 2410,
+      "sha256": "d8ed67dbcdbbd35b8e88627136d63ea2a8e94b2a3d37e20195ea01608a66099b"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-NPTH.drl",
+      "bytes": 533,
+      "sha256": "26287efba006116d9b27d057b538895a910cbf4114c05abb35dd058d287aefc0"
+    },
+    {
+      "arquivo": "gerbers/divisor_duplo_1x3_C07-PTH.drl",
+      "bytes": 275,
+      "sha256": "b5983719244b301221797aa01c131f127107e9e9993215fad4a353603622a78e"
+    },
+    {
+      "arquivo": "leitura_kicad.json",
+      "bytes": 1404116,
+      "sha256": "393da32219793b8364fe6dc4f1b11d573561cd0b493f58403c3efdb43789963c"
+    },
+    {
+      "arquivo": "precisao_furacao.json",
+      "bytes": 494,
+      "sha256": "0d84eadcbf441885cf59ccd2436e01317646cbbb52281d2875a336ce4380e9cc"
+    },
+    {
+      "arquivo": "preview/detalhe_coaxiais.png",
+      "bytes": 87808,
+      "sha256": "72e9b80016c9d0962d678a461901c8e98c4bbb02313d7d8c55e6d8187d749f8a"
+    },
+    {
+      "arquivo": "preview/divisor_duplo_1x3_C07-B_Cu.svg",
+      "bytes": 293360,
+      "sha256": "30357aee2f4fc752f8a85bc4b1b3c46945c28cbb31a6c713b9f41720237e02b2"
+    },
+    {
+      "arquivo": "preview/divisor_duplo_1x3_C07-F_Cu.svg",
+      "bytes": 6886,
+      "sha256": "bdb42b509b4eb635c6cf2e52d49f1b53cd662fc6774b07ff259abe5f4d46a96f"
+    },
+    {
+      "arquivo": "preview/gerbers_conferidos.png",
+      "bytes": 142769,
+      "sha256": "e11069e5de4cc9afa9680c2efd0c3ed217daef12dffab2b3e050d50c23917e67"
+    },
+    {
+      "arquivo": "README.md",
+      "bytes": 7482,
+      "sha256": "8d962f3b3653149ba9305f74fed7932bdba91844973147fa2c64e611e4672229"
+    },
+    {
+      "arquivo": "verificacao.json",
+      "bytes": 3324,
+      "sha256": "73dc431e8d10dae0fcc7dd41efadb15816ff50e7eccf6f328800c523cc309721"
+    }
+  ]
+}

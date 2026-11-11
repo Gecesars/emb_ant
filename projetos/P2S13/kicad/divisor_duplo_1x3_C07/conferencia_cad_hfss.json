@@ -1,0 +1,29 @@
+{
+  "aprovado": true,
+  "fonte_fcstd_sha256": "fa51be74105ecf402b4d2744192daf34a4c5e19dcf7a6242784292e5cb5ab432",
+  "fonte_config_sha256": "e14cb4342f835008450e78e5493515fdcd981b84193a6aea26df99250a67ffda",
+  "fonte_hfss_sha256": "d4e7735b101a7ee2cb122d1b961bb1059a5a5675c55268fa08e6f105d8c328c9",
+  "comparacoes": [
+    {
+      "objeto": "Terra",
+      "volume_mm3": 490.78101464046597,
+      "diferenca_booleana_mm3": 0.0
+    },
+    {
+      "objeto": "Substrato",
+      "volume_mm3": 21393.525290191836,
+      "diferenca_booleana_mm3": 0.0
+    },
+    {
+      "objeto": "Sinal_A",
+      "volume_mm3": 30.72589080662624,
+      "diferenca_booleana_mm3": 0.0
+    },
+    {
+      "objeto": "Sinal_B",
+      "volume_mm3": 30.725890806626218,
+      "diferenca_booleana_mm3": 0.0
+    }
+  ],
+  "nota": "Config reproduz exatamente os solidos de PCB do CAD importado no HFSS; pinos, solda e PTFE sao itens de montagem, nao cobre de Gerber."
+}

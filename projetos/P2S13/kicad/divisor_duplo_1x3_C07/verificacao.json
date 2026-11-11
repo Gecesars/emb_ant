@@ -1,0 +1,92 @@
+{
+  "conversao_geometrica_aprovada": true,
+  "liberado_fabricacao_padrao_JLC": false,
+  "novo_solve": false,
+  "comparacao_KiCad": [
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_A",
+      "area_HFSS_mm2": 877.8825947354595,
+      "area_KiCad_mm2": 877.8825614474032,
+      "diferenca_area_mm2": 0.0002540005418655507,
+      "Hausdorff_mm": 1.1897194142393265e-06,
+      "componentes_conectados": 1
+    },
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_B",
+      "area_HFSS_mm2": 877.8825947354594,
+      "area_KiCad_mm2": 877.8825672172337,
+      "diferenca_area_mm2": 0.00025631825699341354,
+      "Hausdorff_mm": 1.1897194131939968e-06,
+      "componentes_conectados": 1
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "GND",
+      "area_HFSS_mm2": 14022.31470966911,
+      "area_KiCad_mm2": 14022.314794486912,
+      "diferenca_area_mm2": 8.929738341034008e-05,
+      "Hausdorff_mm": 2.9999288091708204e-06,
+      "componentes_conectados": 1
+    }
+  ],
+  "comparacao_Gerber": [
+    {
+      "camada": "F.Cu",
+      "diferenca_area_mm2": 0.000510318798555844,
+      "Hausdorff_mm": 1.1897194037948923e-06
+    },
+    {
+      "camada": "B.Cu",
+      "diferenca_area_mm2": 8.929738342395126e-05,
+      "Hausdorff_mm": 2.9999288062692573e-06
+    }
+  ],
+  "contorno_mm": [
+    220,
+    64
+  ],
+  "furos_NPTH": 8,
+  "furos_PTH": 0,
+  "diametro_NPTH_mm": 0.9195,
+  "antipad_BCu_mm": 3.03,
+  "erro_max_XY_furacao_mm": 4.130400270696555e-07,
+  "mascara_aberta_ambas_faces": true,
+  "serigrafia": false,
+  "DRC_erros": 9,
+  "DRC_avisos": 25,
+  "DRC_desconectados": 0,
+  "DRC_itens": [
+    {
+      "severidade": "error",
+      "tipo": "hole_clearance",
+      "quantidade": 8
+    },
+    {
+      "severidade": "error",
+      "tipo": "copper_edge_clearance",
+      "quantidade": 1
+    },
+    {
+      "severidade": "warning",
+      "tipo": "solder_mask_bridge",
+      "quantidade": 25
+    }
+  ],
+  "folga_cobre_borda_B_mm": 0,
+  "folga_cobre_NPTH_F_mm": 0,
+  "anel_top_min_nominal_mm": 0.1888583001050923,
+  "nota": "Nove violacoes sao preservadas, sem exclusoes DRC: C07 possui cobre ate borda e ate furos NPTH. Exigem analise especial JLC; nao aprovar reducao de cobre ou metalizacao automatica.",
+  "resolucao_digital": "KiCad e CAM XY 1 nm; antipads de 2048 vertices (sagita 1,783 nm), limites 4/5 nm incluindo quantizacao XY; nao tolerancia fabril.",
+  "hashes_CAM": {
+    "divisor_duplo_1x3_C07-B_Cu.gbl": "6f0bfc0366588984e15543608a6fdacd2e5cb0bf284b8958c1f262868c53bd41",
+    "divisor_duplo_1x3_C07-B_Mask.gbs": "d3d00938b78feceaaa195c2939b46e9202099c8e953c01b8af596936401a3b9c",
+    "divisor_duplo_1x3_C07-Edge_Cuts.gm1": "00a1db131ac8af88c6da46f999f566d4a2b7dd38e64f43819432c201e6b50566",
+    "divisor_duplo_1x3_C07-F_Cu.gtl": "a727f62b683da2fba32c86f17a436057d7675e5674622f9d1f2d68c9e3b3553b",
+    "divisor_duplo_1x3_C07-F_Mask.gts": "56394febc217811f467e6237b9cbe83b06fb031a3014e6a485c26d5218bd3644",
+    "divisor_duplo_1x3_C07-job.gbrjob": "d8ed67dbcdbbd35b8e88627136d63ea2a8e94b2a3d37e20195ea01608a66099b",
+    "divisor_duplo_1x3_C07-NPTH.drl": "26287efba006116d9b27d057b538895a910cbf4114c05abb35dd058d287aefc0",
+    "divisor_duplo_1x3_C07-PTH.drl": "b5983719244b301221797aa01c131f127107e9e9993215fad4a353603622a78e"
+  }
+}
