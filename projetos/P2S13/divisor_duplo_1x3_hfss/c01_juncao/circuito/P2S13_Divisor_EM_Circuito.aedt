@@ -1,0 +1,1283 @@
+$begin 'AnsoftProject'
+	Created='Wed Nov 11 13:59:20 2026'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2024, 2)
+		InfrastructureVersion(1, 0)
+		$begin 'FactoryHeader'
+			$begin 'geometry3deditor'
+				KernelVersion(2, 0)
+				ProjectContainsGeometry3D='0'
+			$end 'geometry3deditor'
+		$end 'FactoryHeader'
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'EmitEnvironment'
+		Version(1, 0)
+	$end 'EmitEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'IcepakEnvironment'
+		Version(1, 0)
+	$end 'IcepakEnvironment'
+	$begin 'MechanicalEnvironment'
+		Version(1, 0)
+	$end 'MechanicalEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=12
+	$begin 'EDB'
+		Path=''
+		LastUpdateTimeStamp=1794416365
+	$end 'EDB'
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=3
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Materials'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'antena'
+				ModTime=1794416362
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=false
+				InitialLevels(0, 1)
+				$begin 'PinDef'
+					Pin('R1_A', -0.00508, 0.00254, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R1_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, 0.003175, 0, 4, 5, false, 'Arial', 0, 'R1_A', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00405694444444797, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R1_B', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R1_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'R1_B', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00151694444444797, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R2_A', -0.00508, -0.00254, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R2_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, -0.001905, 0, 4, 5, false, 'Arial', 0, 'R2_A', false, false, ExtentRect(0, 0, 0, 0, -0.00508, -0.00102305555555203, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R2_B', 0.00508, 0.00254, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R2_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, 0.003175, 0, 4, 5, false, 'Arial', 0, 'R2_B', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00405694444444797, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R3_A', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R3_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'R3_A', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00151694444444797, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R3_B', 0.00508, -0.00254, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R3_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, -0.001905, 0, 4, 5, false, 'Arial', 0, 'R3_B', false, false, ExtentRect(0, 0, 0, 0, 0.00508, -0.00102305555555203, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0, 0, 0.00508, 0.01016, 0, 0, 0)
+					Rect(0, 1, 0, 0, -0.00211666666666667, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+				$begin 'PropDisplayMap'
+					FileName(4, 3, 0, Text(0, 0, 0, 4, 5, false, 'Arial', 0, 'FileName', false, false, ExtentRect(0, 0, 0, 0, 0, 0.000881944444447972, 0.00631286549710128, 0.00176388888889594, 0, 0, 0)))
+				$end 'PropDisplayMap'
+			$end 'antena'
+			$begin 'divisor'
+				ModTime=1794416362
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=false
+				InitialLevels(0, 1)
+				$begin 'PinDef'
+					Pin('IN_A', -0.00508, 0.00254, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'IN_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, 0.003175, 0, 4, 5, false, 'Arial', 0, 'IN_A', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00405694444444797, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('IN_B', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'IN_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'IN_B', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00151694444444797, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R1_A', -0.00508, -0.00254, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R1_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, -0.001905, 0, 4, 5, false, 'Arial', 0, 'R1_A', false, false, ExtentRect(0, 0, 0, 0, -0.00508, -0.00102305555555203, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R1_B', -0.00508, -0.00508, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R1_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, -0.004445, 0, 4, 5, false, 'Arial', 0, 'R1_B', false, false, ExtentRect(0, 0, 0, 0, -0.00508, -0.00356305555555203, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R2_A', 0.00508, 0.00254, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R2_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, 0.003175, 0, 4, 5, false, 'Arial', 0, 'R2_A', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00405694444444797, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R2_B', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R2_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'R2_B', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00151694444444797, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R3_A', 0.00508, -0.00254, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R3_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, -0.001905, 0, 4, 5, false, 'Arial', 0, 'R3_A', false, false, ExtentRect(0, 0, 0, 0, 0.00508, -0.00102305555555203, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('R3_B', 0.00508, -0.00508, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'R3_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, -0.004445, 0, 4, 5, false, 'Arial', 0, 'R3_B', false, false, ExtentRect(0, 0, 0, 0, 0.00508, -0.00356305555555203, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0, -0.00127, 0.00508, 0.0127, 0, 0, 0)
+					Rect(0, 1, 0, 0, -0.00211666666666667, 0.00254, 0.000423333333333333, 0.000423333333333335, 0, 0, 0)
+				$end 'Graphics'
+				$begin 'PropDisplayMap'
+					FileName(4, 3, 0, Text(0, 0, 0, 4, 5, false, 'Arial', 0, 'FileName', false, false, ExtentRect(0, 0, 0, 0, 0, 0.000881944444447972, 0.00631286549710128, 0.00176388888889594, 0, 0, 0)))
+				$end 'PropDisplayMap'
+			$end 'divisor'
+			$begin 'S8_HFSS_S6_Antena'
+				ModTime=1794416362
+				CE=0
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=false
+				InitialLevels(0, 1)
+				$begin 'PinDef'
+					Pin('IN_A', -0.00508, 0, 0, 'N', 0, 0.00254, false, 0, true, '', true, false, 'IN_A', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(-0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'IN_A', false, false, ExtentRect(0, 0, 0, 0, -0.00508, 0.00151694444444797, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'PinDef'
+					Pin('IN_B', 0.00508, 0, 3.14159265358979, 'N', 0, 0.00254, false, 0, true, '', true, false, 'IN_B', true)
+					$begin 'PropDisplayMap'
+						PinName(2, 5, 1, Text(0.00508, 0.000635, 0, 4, 5, false, 'Arial', 0, 'IN_B', false, false, ExtentRect(0, 0, 0, 0, 0.00508, 0.00151694444444797, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'PinDef'
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0, 0, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, -0.00211666666666667, 0, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'S8_HFSS_S6_Antena'
+		$end 'Symbols'
+		$begin 'Models'
+			$begin 'antena'
+				Name='antena'
+				ModTime=1794416362
+				Library=''
+				LibLocation='Project'
+				ModelType='nport'
+				Description=''
+				ImageFile=''
+				SymbolPinConfiguration=0
+				$begin 'PortInfoBlk'
+				$end 'PortInfoBlk'
+				$begin 'PortOrderBlk'
+				$end 'PortOrderBlk'
+				filename='D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\antena.s6p'
+				numberofports=6
+				sssfilename=''
+				sssmodel=false
+				PortNames('R1_A', 'R1_B', 'R2_A', 'R2_B', 'R3_A', 'R3_B')
+				domain='frequency'
+				datamode='Link'
+				devicename=''
+				SolutionName=''
+				displayformat='MagnitudePhase'
+				datatype='SMatrix'
+				$begin 'DesignerCustomization'
+					DCOption=0
+					InterpOption=0
+					ExtrapOption=1
+					Convolution=0
+					Passivity=0
+					Reciprocal=false
+					ModelOption=''
+					DataType=1
+				$end 'DesignerCustomization'
+				$begin 'NexximCustomization'
+					DCOption=3
+					InterpOption=1
+					ExtrapOption=3
+					Convolution=0
+					Passivity=0
+					Reciprocal=false
+					ModelOption=''
+					DataType=2
+				$end 'NexximCustomization'
+				$begin 'HSpiceCustomization'
+					DCOption=1
+					InterpOption=2
+					ExtrapOption=3
+					Convolution=0
+					Passivity=0
+					Reciprocal=false
+					ModelOption=''
+					DataType=3
+				$end 'HSpiceCustomization'
+				NoiseModelOption='External'
+			$end 'antena'
+			$begin 'divisor'
+				Name='divisor'
+				ModTime=1794416362
+				Library=''
+				LibLocation='Project'
+				ModelType='nport'
+				Description=''
+				ImageFile=''
+				SymbolPinConfiguration=0
+				$begin 'PortInfoBlk'
+				$end 'PortInfoBlk'
+				$begin 'PortOrderBlk'
+				$end 'PortOrderBlk'
+				filename='D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\divisor.s8p'
+				numberofports=8
+				sssfilename=''
+				sssmodel=false
+				PortNames('IN_A', 'IN_B', 'R1_A', 'R1_B', 'R2_A', 'R2_B', 'R3_A', 'R3_B')
+				domain='frequency'
+				datamode='Link'
+				devicename=''
+				SolutionName=''
+				displayformat='MagnitudePhase'
+				datatype='SMatrix'
+				$begin 'DesignerCustomization'
+					DCOption=0
+					InterpOption=0
+					ExtrapOption=1
+					Convolution=0
+					Passivity=0
+					Reciprocal=false
+					ModelOption=''
+					DataType=1
+				$end 'DesignerCustomization'
+				$begin 'NexximCustomization'
+					DCOption=3
+					InterpOption=1
+					ExtrapOption=3
+					Convolution=0
+					Passivity=0
+					Reciprocal=false
+					ModelOption=''
+					DataType=2
+				$end 'NexximCustomization'
+				$begin 'HSpiceCustomization'
+					DCOption=1
+					InterpOption=2
+					ExtrapOption=3
+					Convolution=0
+					Passivity=0
+					Reciprocal=false
+					ModelOption=''
+					DataType=3
+				$end 'HSpiceCustomization'
+				NoiseModelOption='External'
+			$end 'divisor'
+		$end 'Models'
+		$begin 'DefInfo'
+			S8_HFSS_S6_Antena(1002, 0, 15, 2, '', 1794416362, '', 'S8_HFSS_S6_Antena', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1794416362, '', 0, 0)
+			divisor(1002, 0, 10, 8, '', 1618569625, '', 'divisor', '', '', '', '', '', '', '', 'Project', '', '', 1618569625, '', 0, 0)
+			antena(1002, 0, 10, 6, '', 1618569625, '', 'antena', '', '', '', '', '', '', '', 'Project', '', '', 1618569625, '', 0, 0)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'S8_HFSS_S6_Antena'
+				Library=''
+				CircuitEnv=0
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				Terminal('IN_A', 'IN_A', 'A', false, 12, 1, '', 'Electrical', '0')
+				Terminal('IN_B', 'IN_B', 'A', false, 13, 1, '', 'Electrical', '0')
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'S8_HFSS_S6_Antena')
+					TextProp('Owner', 'SRD', '', 'Circuit Design')
+				$end 'Properties'
+				CompExtID=6
+			$end 'S8_HFSS_S6_Antena'
+			$begin 'divisor'
+				Library=''
+				CircuitEnv=0
+				Refbase='S'
+				NumParts=1
+				ModSinceLib=false
+				Terminal('IN_A', 'IN_A', 'A', false, 8, 1, '', 'Electrical', '0')
+				Terminal('IN_B', 'IN_B', 'A', false, 9, 1, '', 'Electrical', '0')
+				Terminal('R1_A', 'R1_A', 'A', false, 10, 1, '', 'Electrical', '0')
+				Terminal('R1_B', 'R1_B', 'A', false, 11, 1, '', 'Electrical', '0')
+				Terminal('R2_A', 'R2_A', 'A', false, 12, 1, '', 'Electrical', '0')
+				Terminal('R2_B', 'R2_B', 'A', false, 13, 1, '', 'Electrical', '0')
+				Terminal('R3_A', 'R3_A', 'A', false, 14, 1, '', 'Electrical', '0')
+				Terminal('R3_B', 'R3_B', 'A', false, 15, 1, '', 'Electrical', '0')
+				CompExtID=5
+				$begin 'Parameters'
+					ButtonProp('CosimDefinition', 'SD', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+					TextProp('FileName', 'RD', '', 'divisor.s8p')
+					MenuProp('CoSimulator', 'D', '', 'Default', 0)
+				$end 'Parameters'
+				ModelDefName='divisor'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=102
+						CosimDefName='Default'
+						IsDefinition=true
+						Connect=true
+						ModelDefinitionName='divisor'
+						ShowRefPin2=2
+						LenPropName=''
+					$end 'CosimDefinition'
+					DefaultCosim='Default'
+				$end 'CosimDefinitions'
+			$end 'divisor'
+			$begin 'antena'
+				Library=''
+				CircuitEnv=0
+				Refbase='S'
+				NumParts=1
+				ModSinceLib=false
+				Terminal('R1_A', 'R1_A', 'A', false, 6, 1, '', 'Electrical', '0')
+				Terminal('R1_B', 'R1_B', 'A', false, 7, 1, '', 'Electrical', '0')
+				Terminal('R2_A', 'R2_A', 'A', false, 8, 1, '', 'Electrical', '0')
+				Terminal('R2_B', 'R2_B', 'A', false, 9, 1, '', 'Electrical', '0')
+				Terminal('R3_A', 'R3_A', 'A', false, 10, 1, '', 'Electrical', '0')
+				Terminal('R3_B', 'R3_B', 'A', false, 11, 1, '', 'Electrical', '0')
+				CompExtID=5
+				$begin 'Parameters'
+					ButtonProp('CosimDefinition', 'SD', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+					TextProp('FileName', 'RD', '', 'antena.s6p')
+					MenuProp('CoSimulator', 'D', '', 'Default', 0)
+				$end 'Parameters'
+				ModelDefName='antena'
+				$begin 'CosimDefinitions'
+					$begin 'CosimDefinition'
+						CosimulatorType=102
+						CosimDefName='Default'
+						IsDefinition=true
+						Connect=true
+						ModelDefinitionName='antena'
+						ShowRefPin2=2
+						LenPropName=''
+					$end 'CosimDefinition'
+					DefaultCosim='Default'
+				$end 'CosimDefinitions'
+			$end 'antena'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'NexximCircuit'
+		RepRewriteV2=true
+		Name='S8_HFSS_S6_Antena'
+		DesignID=0
+		$begin 'Circuit'
+			ComponentName='S8_HFSS_S6_Antena'
+			AutoFP=''
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			VariableOrders[0:]
+			$begin 'Compinst'
+				ID='1'
+				Status='Status'
+				CompName='divisor'
+				$begin 'ModelCompInstanceExtension'
+				$end 'ModelCompInstanceExtension'
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '1')
+				$end 'Properties'
+				$begin 'Parameters'
+					TextProp('InstanceName', 'HID', '', 'S1')
+					MenuProp('CoSimulator', 'OHD', '', 'Default', 0)
+					ButtonProp('CosimDefinition', 'SOHD', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+			$end 'Compinst'
+			$begin 'Compinst'
+				ID='2'
+				Status='Status'
+				CompName='antena'
+				$begin 'ModelCompInstanceExtension'
+				$end 'ModelCompInstanceExtension'
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '2')
+				$end 'Properties'
+				$begin 'Parameters'
+					TextProp('InstanceName', 'HID', '', 'S2')
+					MenuProp('CoSimulator', 'OHD', '', 'Default', 0)
+					ButtonProp('CosimDefinition', 'SOHD', '', 'Edit', 'Edit', 40501, ButtonPropClientData())
+				$end 'Parameters'
+			$end 'Compinst'
+			$begin 'IPort'
+				PortName='IN_A'
+				Public=true
+				Connectible=true
+				UnconnectedAction=1
+				PortValue=''
+				Domain(0, -1, 2, '')
+				$begin 'Properties'
+					TextProp('pnum', 'ORHD', '', '1')
+					ValueProp('rz', 'OD', '', '50ohm', 0)
+					ValueProp('iz', 'OD', '', '0ohm', 0)
+					CheckboxProp('EnableNoise', 'OD', '', false)
+					ValueProp('noisetemp', 'OD', '', '16.85cel', 0)
+					ButtonProp('EditPort', 'D', '', 'Edit', '', 0, ButtonPropClientData())
+				$end 'Properties'
+			$end 'IPort'
+			$begin 'IPort'
+				PortName='IN_B'
+				Public=true
+				Connectible=true
+				UnconnectedAction=1
+				PortValue=''
+				Domain(0, -1, 2, '')
+				$begin 'Properties'
+					TextProp('pnum', 'ORHD', '', '2')
+					ValueProp('rz', 'OD', '', '50ohm', 0)
+					ValueProp('iz', 'OD', '', '0ohm', 0)
+					CheckboxProp('EnableNoise', 'OD', '', false)
+					ValueProp('noisetemp', 'OD', '', '16.85cel', 0)
+					ButtonProp('EditPort', 'D', '', 'Edit', '', 0, ButtonPropClientData())
+				$end 'Properties'
+			$end 'IPort'
+			$begin 'Net'
+				NetName='IN_A'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetInterfacePorts='IN_A'
+				NetPin('1', 0)
+			$end 'Net'
+			$begin 'Net'
+				NetName='IN_B'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetInterfacePorts='IN_B'
+				NetPin('1', 1)
+			$end 'Net'
+			$begin 'Net'
+				NetName='R1_A'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetPin('1', 2)
+				NetPin('2', 0)
+			$end 'Net'
+			$begin 'Net'
+				NetName='R1_B'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetPin('1', 3)
+				NetPin('2', 1)
+			$end 'Net'
+			$begin 'Net'
+				NetName='R2_A'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetPin('1', 4)
+				NetPin('2', 2)
+			$end 'Net'
+			$begin 'Net'
+				NetName='R2_B'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetPin('1', 5)
+				NetPin('2', 3)
+			$end 'Net'
+			$begin 'Net'
+				NetName='R3_A'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetPin('1', 6)
+				NetPin('2', 4)
+			$end 'Net'
+			$begin 'Net'
+				NetName='R3_B'
+				$begin 'Properties'
+					CheckboxProp('AlignMicrowavePorts', 'D', '', true)
+				$end 'Properties'
+				NetPin('1', 7)
+				NetPin('2', 5)
+			$end 'Net'
+		$end 'Circuit'
+		$begin 'Schematic'
+			PPortCounter=0
+			BusEntryCounter=0
+			ShowVariableBlock=true
+			$begin 'Page'
+				PageSize('A')
+				PageData(Origin(x='0mm', y='0mm'), PageSize(x='0', y='0'), Margins(x='0', y='0'), 0, 0, 0)
+				PageNumber=1
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '0', 'IN_A', 5, 0, 0.06096, 0, false, 'defaultinterfaceport', 4294967295)
+					$begin 'PropDisplayMap'
+						PortName(2, 5, 0, Text(0, 0.06096, 0, 1, 5, false, 'Arial', 0, 'IN_A', false, false, ExtentRect(0, 0, 0, 0, 0.00167105263158563, 0.061841944444448, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'SchIPort'
+					SchPortInst('defaultinterfaceport', '29', 'IN_B', 96, 0, -0.06096, 0, false, 'defaultinterfaceport', 4294967295)
+					$begin 'PropDisplayMap'
+						PortName(2, 5, 0, Text(0, -0.06096, 0, 1, 5, false, 'Arial', 0, 'IN_B', false, false, ExtentRect(0, 0, 0, 0, 0.00167105263158563, -0.060078055555552, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchIPort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '2', 'IN_A', 10, 0.02286, 0.00254, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.00592295321634716, 0.00209902777777601, 0, 1, 5, false, 'Arial', 0, 'IN_A', false, false, ExtentRect(0, 0, 0, 0, 0.00759400584793279, 0.00298097222222399, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '5', 'IN_A', 20, -0.00254, 0.06096, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(-0.0194770467836528, 0.060519027777776, 0, 1, 5, false, 'Arial', 0, 'IN_A', false, false, ExtentRect(0, 0, 0, 0, -0.0178059941520672, 0.061400972222224, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '11', 'R1_A', 36, 0.02286, -0.00254, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.00722266081869154, -0.00298097222222399, 0, 1, 5, false, 'Arial', 0, 'R1_A', false, false, ExtentRect(0, 0, 0, 0, 0.00907938596489779, -0.00209902777777601, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '14', 'R1_A', 46, 0.14224, 0.00254, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.126602660818692, 0.00209902777777601, 0, 1, 5, false, 'Arial', 0, 'R1_A', false, false, ExtentRect(0, 0, 0, 0, 0.128459385964898, 0.00298097222222399, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '17', 'R2_A', 56, 0.0381, 0.00254, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.0500238888888959, 0.00209902777777601, 0, 1, 5, false, 'Arial', 0, 'R2_A', false, false, ExtentRect(0, 0, 0, 0, 0.0518806140351022, 0.00298097222222399, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '20', 'R2_A', 66, 0.14224, -0.00254, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.126602660818692, -0.00298097222222399, 0, 1, 5, false, 'Arial', 0, 'R2_A', false, false, ExtentRect(0, 0, 0, 0, 0.128459385964898, -0.00209902777777601, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '23', 'R3_A', 76, 0.0381, -0.00254, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.0500238888888959, -0.00298097222222399, 0, 1, 5, false, 'Arial', 0, 'R3_A', false, false, ExtentRect(0, 0, 0, 0, 0.0518806140351022, -0.00209902777777601, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '26', 'R3_A', 86, 0.15748, -0, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.169403888888896, -0.000440972222223986, 0, 1, 5, false, 'Arial', 0, 'R3_A', false, false, ExtentRect(0, 0, 0, 0, 0.171260614035102, 0.000440972222223986, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '31', 'IN_B', 101, 0.02286, 0, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.00508742690055434, -0.000440972222223986, 0, 1, 5, false, 'Arial', 0, 'IN_B', false, false, ExtentRect(0, 0, 0, 0, 0.00675847953213998, 0.000440972222223986, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '34', 'IN_B', 111, -0.00254, -0.06096, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(-0.0203125730994457, -0.061400972222224, 0, 1, 5, false, 'Arial', 0, 'IN_B', false, false, ExtentRect(0, 0, 0, 0, -0.01864152046786, -0.060519027777776, 0.00334210526317126, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '40', 'R1_B', 127, 0.02286, -0.00508, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.00722266081869154, -0.00552097222222399, 0, 1, 5, false, 'Arial', 0, 'R1_B', false, false, ExtentRect(0, 0, 0, 0, 0.00907938596489779, -0.00463902777777601, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '43', 'R1_B', 137, 0.14224, 0, 0, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 0, 0, Text(0.126602660818692, -0.000440972222223986, 0, 1, 5, false, 'Arial', 0, 'R1_B', false, false, ExtentRect(0, 0, 0, 0, 0.128459385964898, 0.000440972222223986, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '46', 'R2_B', 147, 0.0381, -0, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.0500238888888959, -0.000440972222223986, 0, 1, 5, false, 'Arial', 0, 'R2_B', false, false, ExtentRect(0, 0, 0, 0, 0.0518806140351022, 0.000440972222223986, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '49', 'R2_B', 157, 0.15748, 0.00254, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.169403888888896, 0.00209902777777601, 0, 1, 5, false, 'Arial', 0, 'R2_B', false, false, ExtentRect(0, 0, 0, 0, 0.171260614035102, 0.00298097222222399, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '52', 'R3_B', 167, 0.0381, -0.00508, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.0500238888888959, -0.00552097222222399, 0, 1, 5, false, 'Arial', 0, 'R3_B', false, false, ExtentRect(0, 0, 0, 0, 0.0518806140351022, -0.00463902777777601, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchPagePort'
+					SchPortInst('defaultpageport', '55', 'R3_B', 177, 0.15748, -0.00254, 3.14159265358979, false, 'defaultpageport', 0)
+					$begin 'PropDisplayMap'
+						PortName(2, 2, 0, Text(0.169403888888896, -0.00298097222222399, 0, 1, 5, false, 'Arial', 0, 'R3_B', false, false, ExtentRect(0, 0, 0, 0, 0.171260614035102, -0.00209902777777601, 0.00371345029241251, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchPagePort'
+				$begin 'SchCompDef'
+					SchCompInst('divisor', 'A', '1', 1, '1', 'normal', 0.03048, 0, 0, false, 4294967295, true)
+					Levels(0, 1)
+					$begin 'PropDisplayMap'
+						FileName(4, 3, 0, Text(0.03048, -0.0107068055555679, 0, 4, 5, false, 'Arial', 0, 'divisor.s8p', false, false, ExtentRect(0, 0, 0, 0, 0.03048, -0.00982486111111993, 0.00714839181289409, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchCompDef'
+				$begin 'SchCompDef'
+					SchCompInst('antena', 'A', '2', 3, '2', 'normal', 0.14986, 0, 0, false, 4294967295, true)
+					Levels(0, 1)
+					$begin 'PropDisplayMap'
+						FileName(4, 3, 0, Text(0.14986, -0.0081668055555679, 0, 4, 5, false, 'Arial', 0, 'antena.s6p', false, false, ExtentRect(0, 0, 0, 0, 0.14986, -0.00728486111111993, 0.00742690058482503, 0.00176388888889594, 0, 0, 0)))
+					$end 'PropDisplayMap'
+				$end 'SchCompDef'
+				$begin 'PageNet'
+					NetName='IN_A'
+					ID=16
+					PagePort('IN_A', 10)
+					WireSeg(0.0254, 0.00254, 0.02286, 0.00254, 0)
+					Color=16711680
+					PC('1', 'IN_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='IN_A'
+					ID=26
+					Interface('IN_A', 5)
+					PagePort('IN_A', 20)
+					WireSeg(0, 0.06096, -0.00254, 0.06096, 1)
+					Color=16711680
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R1_A'
+					ID=42
+					PagePort('R1_A', 36)
+					WireSeg(0.0254, -0.00254, 0.02286, -0.00254, 2)
+					Color=16711680
+					PC('1', 'R1_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R1_A'
+					ID=52
+					PagePort('R1_A', 46)
+					WireSeg(0.14478, 0.00254, 0.14224, 0.00254, 3)
+					Color=16711680
+					PC('2', 'R1_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R2_A'
+					ID=62
+					PagePort('R2_A', 56)
+					WireSeg(0.03556, 0.00254, 0.0381, 0.00254, 4)
+					Color=16711680
+					PC('1', 'R2_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R2_A'
+					ID=72
+					PagePort('R2_A', 66)
+					WireSeg(0.14478, -0.00254, 0.14224, -0.00254, 5)
+					Color=16711680
+					PC('2', 'R2_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R3_A'
+					ID=82
+					PagePort('R3_A', 76)
+					WireSeg(0.03556, -0.00254, 0.0381, -0.00254, 6)
+					Color=16711680
+					PC('1', 'R3_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R3_A'
+					ID=92
+					PagePort('R3_A', 86)
+					WireSeg(0.15494, 0, 0.15748, 0, 7)
+					Color=16711680
+					PC('2', 'R3_A')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='IN_B'
+					ID=107
+					PagePort('IN_B', 101)
+					WireSeg(0.0254, 0, 0.02286, 0, 8)
+					Color=16711680
+					PC('1', 'IN_B')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='IN_B'
+					ID=117
+					Interface('IN_B', 96)
+					PagePort('IN_B', 111)
+					WireSeg(0, -0.06096, -0.00254, -0.06096, 9)
+					Color=16711680
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R1_B'
+					ID=133
+					PagePort('R1_B', 127)
+					WireSeg(0.0254, -0.00508, 0.02286, -0.00508, 10)
+					Color=16711680
+					PC('1', 'R1_B')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R1_B'
+					ID=143
+					PagePort('R1_B', 137)
+					WireSeg(0.14478, 0, 0.14224, 0, 11)
+					Color=16711680
+					PC('2', 'R1_B')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R2_B'
+					ID=153
+					PagePort('R2_B', 147)
+					WireSeg(0.03556, 0, 0.0381, 0, 12)
+					Color=16711680
+					PC('1', 'R2_B')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R2_B'
+					ID=163
+					PagePort('R2_B', 157)
+					WireSeg(0.15494, 0.00254, 0.15748, 0.00254, 13)
+					Color=16711680
+					PC('2', 'R2_B')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R3_B'
+					ID=173
+					PagePort('R3_B', 167)
+					WireSeg(0.03556, -0.00508, 0.0381, -0.00508, 14)
+					Color=16711680
+					PC('1', 'R3_B')
+				$end 'PageNet'
+				$begin 'PageNet'
+					NetName='R3_B'
+					ID=183
+					PagePort('R3_B', 177)
+					WireSeg(0.15494, -0.00254, 0.15748, -0.00254, 15)
+					Color=16711680
+					PC('2', 'R3_B')
+				$end 'PageNet'
+				$begin 'Properties'
+					TextProp('Title', 'D', '', '')
+					TextProp('Author', 'D', '', '')
+					TextProp('Number', 'D', '', '')
+					TextProp('Project', 'D', '', '')
+					TextProp('ProjectPath', 'D', '', '')
+					TextProp('Design', 'D', '', '')
+					TextProp('Date', 'D', '', '')
+				$end 'Properties'
+			$end 'Page'
+			GridSetup('1000mil', '100mil', '100mil', 16772075, 16774645, true, true, 16777215, Origin(x='0mm', y='0mm'), PageSize(x='0mm', y='0mm'), Margins(x='0mm', y='0mm'), 0, 0, 0)
+			hasWindowBeenOpened=false
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'Schematic'
+		$begin 'Layout'
+			BlackBox=false
+			DefUnits='mm'
+			NIdx=4
+			ActLyr='Measures'
+			Tol(1e-08, 1e-08, 1e-12)
+			$begin 'HfssExportInfo'
+				ScriptFileName=''
+				HfssFileName=''
+				Version=2
+				ExtentType='BboxExtent'
+				BasePolygon=''
+				BasePolygonEDBUId=-1
+				DielExtentType='BboxExtent'
+				DielBasePolygon=''
+				DielBasePolygonEDBUId=-1
+				DielExt(Ext='0.005', Dim=false)
+				HonorUserDiel=true
+				Include3D=false
+				TruncAtGnd=false
+				AirHorExt(Ext='0.15', Dim=false)
+				AirPosZExt(Ext='2', Dim=false)
+				AirNegZExt(Ext='2', Dim=false)
+				SyncZExt=true
+				OpenRegionType='Radiation'
+				UseRadBound=true
+				PMLVisible=false
+				OperFreq='5GHz'
+				RadLvl=0
+				UseStackupForZExtFact=true
+				Smooth=true
+			$end 'HfssExportInfo'
+		$end 'Layout'
+		$begin 'SimSetups'
+			$begin 'SimSetup'
+				DataBlockID=16
+				SimSetupID=21
+				OptionName='Default Options'
+				AdditionalOptions=''
+				AlterBlockName=''
+				FilterText=''
+				AnalysisEnabled=1
+				HasTDRComp=0
+				$begin 'OutputQuantities'
+				$end 'OutputQuantities'
+				$begin 'NoiseOutputQuantities'
+				$end 'NoiseOutputQuantities'
+				Name='Centro'
+				LinearFrequencyData(false, 0.1, false, '', false)
+				$begin 'SweepDefinition'
+					Variable='Freq'
+					Data='5.17GHz'
+					OffsetF1=false
+					Synchronize=0
+				$end 'SweepDefinition'
+			$end 'SimSetup'
+		$end 'SimSetups'
+		$begin 'ControlBlocks'
+		$end 'ControlBlocks'
+		$begin 'NexximSources'
+			$begin 'Data'
+			$end 'Data'
+		$end 'NexximSources'
+		$begin 'NexximPorts'
+			$begin 'Data'
+				$begin 'IN_A'
+					DataId='Port0'
+					IIPortName='IN_A'
+					SymbolType=0
+					DoPostProcess=false
+				$end 'IN_A'
+				$begin 'IN_B'
+					DataId='Port0'
+					IIPortName='IN_B'
+					SymbolType=0
+					DoPostProcess=false
+				$end 'IN_B'
+			$end 'Data'
+			$begin 'DiffPairs'
+			$end 'DiffPairs'
+		$end 'NexximPorts'
+		$begin 'NexximMultiComponentContainers'
+			$begin 'Data'
+			$end 'Data'
+		$end 'NexximMultiComponentContainers'
+		$begin 'ComponentConfigurationData'
+			$begin 'EnabledPorts'
+			$end 'EnabledPorts'
+			$begin 'EnabledMultipleComponents'
+			$end 'EnabledMultipleComponents'
+			$begin 'EnabledAnalyses'
+				$begin 'IN_A'
+					IN_A('Centro')
+				$end 'IN_A'
+				$begin 'IN_B'
+					IN_B('Centro')
+				$end 'IN_B'
+			$end 'EnabledAnalyses'
+		$end 'ComponentConfigurationData'
+		$begin 'Data'
+		$end 'Data'
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'SolutionManager'
+			$begin 'SimDataExtractors'
+				$begin 'SimSetup'
+					TypeName='LinearFrequency'
+					ID=21
+					Name='Centro'
+					$begin 'CannedOutputVar'
+					$end 'CannedOutputVar'
+					$begin 'Solution'
+						ID=20
+						Name='Centro'
+						ImportedType=3
+						AlterName=''
+						$begin 'SimDataExtractor'
+							$begin 'QuantityIDs'
+								NextUniqueID=0
+								MoveBackwards=false
+								IDMap()
+							$end 'QuantityIDs'
+						$end 'SimDataExtractor'
+					$end 'Solution'
+				$end 'SimSetup'
+				$begin 'Version ID Map'
+					V=19
+					$begin 'Setup'
+						N='Centro'
+						V=23
+						Soln(N='Centro', V=23)
+					$end 'Setup'
+				$end 'Version ID Map'
+			$end 'SimDataExtractors'
+		$end 'SolutionManager'
+		SParamCircuitDef=true
+		RunERCBeforeSimulation=false
+		IntegrationMethod='FFT'
+		DynLinkOutputVars=false
+		LocalParamScope=true
+		UpdateReportDuringFast=true
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR163C19689217944163629.tmp'
+	$end 'NexximCircuit'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='S8_HFSS_S6_Antena'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='S8_HFSS_S6_Antena'
+			ID='0'
+			Refdes('1', 'S1')
+			Refdes('2', 'S2')
+			$begin 'NexximCircuit'
+				DesignInstanceID=1
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+						$end 'Reports'
+						NextUniqueID=0
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=0
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+				$begin 'DCDisplayOption'
+					UseDefault=true
+					Current(true, 16711807, 3)
+					Voltage(true, 128, 3)
+					Font('Arial', 'Regular', 8)
+					Other(true, true, false, '')
+					Sweeps()
+				$end 'DCDisplayOption'
+			$end 'NexximCircuit'
+			$begin 'TopLayout'
+				DefaultUnits='mm'
+				DefaultAngleUnits='deg'
+				MajorSize='10mm'
+				MinorSize='1mm'
+				PixelSnapTolerance=20
+				SnapAcrossHierarchy=true
+				SnapTargetVertex_on=true
+				SnapTargetEdgeCenter_on=true
+				SnapTargetObjCenter_on=true
+				SnapTargetEdge_on=false
+				SnapTargetElecConnection_on=true
+				SnapTargetIntersection_on=false
+				SnapTargetGrid_on=true
+				SnapSourceVertex_on=true
+				SnapSourceEdgeCenter_on=true
+				SnapSourceObjCenter_on=true
+				SnapSourceEdge_on=false
+				SnapSourceElecConnection_on=true
+				ConstrainToGrid=false
+				DirectionConstraint=0
+				defaultholesize='25mil'
+				anglesnap='5deg'
+				$begin 'NamingConvention'
+					OptionUseNamingConvention_PadPort=false
+					OptionNamingConvention_PadPort='$REFDES_$PINNAME_$NETNAME'
+					OptionUseNamingConvention_EdgePort=false
+					OptionNamingConvention_EdgePort='$NETNAME'
+					OptionUseNamingConvention_PointPort=false
+					OptionNamingConvention_PointPort='$POSTERM_LAYER_$NEGTERM_LAYER'
+					OptionUseNamingConvention_PinGroup=false
+					OptionNamingConvention_PinGroup='$REFDES_GROUP_$NETNAME'
+					OptionUseNamingConvention_PinGroupPort=false
+					OptionNamingConvention_PinGroupPort='$REFDES_$GROUPNAME_$NETNAME'
+					OptionUseNamingConvention_PointISource=false
+					OptionNamingConvention_PointISource='I_$POSTERM_NETNAME'
+					OptionUseNamingConvention_PointVSource=false
+					OptionNamingConvention_PointVSource='V_$POSTERM_NETNAME'
+					OptionUseNamingConvention_PointVProbe=false
+					OptionNamingConvention_PointVProbe='VP_$POSTERM_NETNAME'
+					OptionUseNamingConvention_PointDCTerm=false
+					OptionNamingConvention_PointDCTerm='DCT_$NETNAME'
+					OptionUseNamingConvention_PinISource=false
+					OptionNamingConvention_PinISource='I_$REFDES_$NETNAME'
+					OptionUseNamingConvention_PinVSource=false
+					OptionNamingConvention_PinVSource='V_$REFDES_$NETNAME'
+					OptionUseNamingConvention_PinVProbe=false
+					OptionNamingConvention_PinVProbe='VP_$REFDES_$NETNAME'
+					OptionUseNamingConvention_PinDCTerm=false
+					OptionNamingConvention_PinDCTerm='DCT_$REFDES_$NETNAME'
+					OptionUseNamingConvention_GroupISource=false
+					OptionNamingConvention_GroupISource='I_$REFDES_$NETNAME'
+					OptionUseNamingConvention_GroupVSource=false
+					OptionNamingConvention_GroupVSource='V_$REFDES_$NETNAME'
+					OptionUseNamingConvention_GroupVProbe=false
+					OptionNamingConvention_GroupVProbe='VP_$REFDES_$NETNAME'
+					OptionUseNamingConvention_GroupDCTerm=false
+					OptionNamingConvention_GroupDCTerm='DCT_$REFDES_$NETNAME'
+					OptionUseNamingConvention_NCPortInstPort=false
+					OptionNamingConvention_NCPortInstPort='$REFDES_$PORTNAME_$TERMNAME'
+				$end 'NamingConvention'
+				$begin 'TextStyles'
+					TextStyle(N='<DefaultAnnotation>', F='Arial', Hght=12, Scale=false)
+					TextStyle(N='<DefaultPlotter>', Plot=true, F='RomanSimplex', Hght=5, HghtUnt='mm')
+					TextStyle(N='<DefaultMeasure>', Plot=true, F='RomanSimplex', Hght=1, HghtUnt='mm')
+				$end 'TextStyles'
+				$begin 'TraceStyles'
+					TraceStyle(name='Half Grid', size='0.5mm', bendStyle=0, capStyle=0, capStyle=0)
+					TraceStyle(name='1 Grid', size='1mm', bendStyle=0, capStyle=0, capStyle=0)
+					TraceStyle(name='2 Grids', size='2mm', bendStyle=0, capStyle=0, capStyle=0)
+					TraceStyle(name='5 Grids', size='5mm', bendStyle=0, capStyle=0, capStyle=0)
+				$end 'TraceStyles'
+				'current via style'=''
+				'current pin style'=''
+				MajorColor=16772075
+				MinorColor=16774645
+				ShowGrid=true
+				PageExtent(-0.1, -0.1, 0.1, 0.1)
+				'background color'=16777215
+				DefaultToSketchMode=false
+				fillMode=false
+				DocVisibilityFlag=962
+				FastViewTransforms=true
+				StartingHierarchyLevel=0
+				EndingHierarchyLevel=-1
+				SingleLevelView=false
+				DesignMode=1
+				Is2dRendering=false
+				'show connection points'=false
+				'draw rats'=false
+				'display vertex labels'=false
+				ColorByNet=false
+				'display package graphics'=false
+				'rectangle description'=0
+				snaptoport=true
+				autoplacecomp=false
+				'sym footprint scaling'=2
+				AutoScale=true
+				'measure display digits'=3
+				'display measure units'=false
+				SuppressPads=true
+				AntiPadsOption=0
+				TextIsVisible=true
+				'primary selection color'=255
+				'secondary selection color'=3289780
+				'preview selection'=false
+				AllowDragOnFirstClick=false
+				PinConnectivityPopup=false
+				CreatePortsOnComp=false
+				OptionUseNamingConvention_PadPort=false
+				OptionNamingConvention_PadPort='$REFDES_$PINNAME_$NETNAME'
+				OptionUseNamingConvention_EdgePort=false
+				OptionNamingConvention_EdgePort='$NETNAME'
+				OptionUseNamingConvention_PointPort=false
+				OptionNamingConvention_PointPort='$POSTERM_LAYER_$NEGTERM_LAYER'
+				OptionUseNamingConvention_PinGroup=false
+				OptionNamingConvention_PinGroup='$REFDES_GROUP_$NETNAME'
+				OptionUseNamingConvention_PinGroupPort=false
+				OptionNamingConvention_PinGroupPort='$REFDES_$GROUPNAME_$NETNAME'
+				OptionUseNamingConvention_PointISource=false
+				OptionNamingConvention_PointISource='I_$POSTERM_NETNAME'
+				OptionUseNamingConvention_PointVSource=false
+				OptionNamingConvention_PointVSource='V_$POSTERM_NETNAME'
+				OptionUseNamingConvention_PointVProbe=false
+				OptionNamingConvention_PointVProbe='VP_$POSTERM_NETNAME'
+				OptionUseNamingConvention_PointDCTerm=false
+				OptionNamingConvention_PointDCTerm='DCT_$NETNAME'
+				OptionUseNamingConvention_PinISource=false
+				OptionNamingConvention_PinISource='I_$REFDES_$NETNAME'
+				OptionUseNamingConvention_PinVSource=false
+				OptionNamingConvention_PinVSource='V_$REFDES_$NETNAME'
+				OptionUseNamingConvention_PinVProbe=false
+				OptionNamingConvention_PinVProbe='VP_$REFDES_$NETNAME'
+				OptionUseNamingConvention_PinDCTerm=false
+				OptionNamingConvention_PinDCTerm='DCT_$REFDES_$NETNAME'
+				OptionUseNamingConvention_GroupISource=false
+				OptionNamingConvention_GroupISource='I_$REFDES_$NETNAME'
+				OptionUseNamingConvention_GroupVSource=false
+				OptionNamingConvention_GroupVSource='V_$REFDES_$NETNAME'
+				OptionUseNamingConvention_GroupVProbe=false
+				OptionNamingConvention_GroupVProbe='VP_$REFDES_$NETNAME'
+				OptionUseNamingConvention_GroupDCTerm=false
+				OptionNamingConvention_GroupDCTerm='DCT_$REFDES_$NETNAME'
+				OptionUseNamingConvention_NCPortInstPort=false
+				OptionNamingConvention_NCPortInstPort='$REFDES_$PORTNAME_$TERMNAME'
+				useFixedDrawingResolution=false
+				DrawingResolution='0.002mm'
+				$begin 'ViewConfigs'
+					ViewConfigsCurrent=''
+				$end 'ViewConfigs'
+				currentTextStyle=0
+				currentTraceStyle=0
+				prevBounds(-1000, -1000, 1000, 1000)
+				prevMapFactor(1000, 1000)
+				prevOrigin(0, 0)
+				prevViewExtent(0, 0)
+				prevZoomScale=1
+				$begin 'Animation'
+					LabelColor(R=230, G=230, B=230)
+					FontName='Arial'
+					FontHeight=24
+					FontWeight=400
+				$end 'Animation'
+			$end 'TopLayout'
+		$end 'Instance'
+		$begin 'SODInfo'
+			$begin 'divisor'
+				$begin 'CosimDefinition'
+					CosimDefName='Default'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'divisor'
+			$begin 'antena'
+				$begin 'CosimDefinition'
+					CosimDefName='Default'
+					$begin 'SODInstanceMap'
+					$end 'SODInstanceMap'
+					SODComponentList()
+				$end 'CosimDefinition'
+			$end 'antena'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+	$begin 'MinervaProjectSettingsBlk'
+		MinervaRemoteFilePath=''
+		FolderContainerString=''
+	$end 'MinervaProjectSettingsBlk'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64=''
+	$begin 'DesignInfo'
+		DesignName='S8_HFSS_S6_Antena'
+		Notes=''
+		Factory='Circuit Design'
+		IsSolved=true
+		'Nominal Setups'[1: 'Centro']
+		'Nominal Setup Types'[1: '']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64=''
+	$end 'DesignInfo'
+$end 'ProjectPreview'

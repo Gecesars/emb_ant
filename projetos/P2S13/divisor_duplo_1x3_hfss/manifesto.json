@@ -1,0 +1,497 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/Divisor_Duplo3.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\Divisor_Duplo3.aedt",
+      "sha256": "514db612641eeea198beeddb0a7aee74e08f94393ba375bdc23af5b022dfe6ea",
+      "bytes": 2039395
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/Divisor_Duplo3.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\Divisor_Duplo3.FCStd",
+      "sha256": "a1a5993a0f4b7af9eb3ec290889b503cd4d16781122e44c319638cc3bdfadb69",
+      "bytes": 74906
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\configuracao.json",
+      "sha256": "779e0bbd3594f4b5af9dd10d9676976d13fd9b741d6c1a2c6499d88828784859",
+      "bytes": 44438
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\hfss_validacao.json",
+      "sha256": "c33b31735d3f1d434253cab6c71df4cc01937886527c9370d99b9f18b951ab84",
+      "bytes": 208
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/estado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\estado.json",
+      "sha256": "19ea16238889718653d40d58a6d1d29f7141fa0b528dfb4849d703c0975b3ca0",
+      "bytes": 86
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\convergencia.txt",
+      "sha256": "76d0b447952494ee5a478151200d8ddc81e97841a3578a1f01b2d9efd572e314",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\historico_passes.json",
+      "sha256": "6ab93db1ecb4c20d572e802ab136b97bfad8f7dbe7a9df6efbfd06d4a325e0e6",
+      "bytes": 530
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\recursos_matriz.json",
+      "sha256": "9de79417ff95ca948c343ec24cdadaec2f0fcf058a82cb3892e6b30063d2a2e9",
+      "bytes": 2539
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\mensagens.json",
+      "sha256": "6687fa8fcf1835ebeb9d02075a6ba5e3c30874df1377d813949022935261d405",
+      "bytes": 2969
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\malha.json",
+      "sha256": "07861a50f6d0266567f90165ff95c81f4bbe1107666caa1a90a949da7b03db4c",
+      "bytes": 5603
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\resultado.json",
+      "sha256": "a9ba848546acda60031025df975cd1ca88cb21069845fadd1dc059311ff1c0cf",
+      "bytes": 4207
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/diagnostico_divisao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\diagnostico_divisao.json",
+      "sha256": "82e062596c7c5f5f5e5bafcb4ad12af6a3baed657b1407c4f13f8c556104d5d4",
+      "bytes": 2449
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/divisor.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\divisor.s8p",
+      "sha256": "ed2d4c59276e6530d6109c22d85ab0cb7dfddc69eefb290981c5dd13d5799f57",
+      "bytes": 4147
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/divisor_ordenado.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\divisor_ordenado.s8p",
+      "sha256": "776eb76923a03eb7f24d0ac17d47cc3d440ef96c3b16e4210c843226709eb78b",
+      "bytes": 3594
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/conjunto.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\conjunto.s2p",
+      "sha256": "aebefc23a28250231261d9316e65491cc7628d606adeda6b42fa42a55cdcde89",
+      "bytes": 332
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/referencia_linhas.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\referencia_linhas.s4p",
+      "sha256": "17bcfa930fe413be153fcf23d29992ed74bba7fe4ea7467ab969717cdc605b15",
+      "bytes": 1042
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/diagrama_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\diagrama_H.csv",
+      "sha256": "9e14257a1b22eddd7f26280befefa48f413511e1a47ca4e45b5f2fb6c844f22b",
+      "bytes": 65985
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/diagrama_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\diagrama_V.csv",
+      "sha256": "bcd3ee4d009ffcb539c5818e99580e7c962bfcbfb6700d9c08ed7b0cbe2f82e3",
+      "bytes": 67464
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/layout.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\layout.png",
+      "sha256": "a88b22ffda60199ff31132f695442075f9a7132caa0ac8d5e729234af41d9b8f",
+      "bytes": 73900
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\polar_HV.png",
+      "sha256": "d0eaa4e79b85daf5bf9dfbe249927931b489e2dd6024bae9ebc095f93d686265",
+      "bytes": 232709
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\comparacao_HV.png",
+      "sha256": "0814dc122605ad2f10c4dc5b336c641ff95707e92d4084a1237d21c717749b65",
+      "bytes": 166040
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/distribuicao.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\distribuicao.png",
+      "sha256": "5cd2ff9793f66622d5453863fff54f6a5da1467d6a4a0e531c51c24720b80cbe",
+      "bytes": 79603
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\enig_hfss.json",
+      "sha256": "6a54ee9316e4043f418b5f5c496d00ff6768560c8cbaeb8588a1cd009bb938a9",
+      "bytes": 7094
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\folhas_solidas.json",
+      "sha256": "669a627883a1d02b1872b506987a43deda792d24f98a438c1b8355d8514f8d4f",
+      "bytes": 137
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\intersecoes.json",
+      "sha256": "1308a573b110416ecf0cfe4a6b6ffa410e365ae25e04f616249d687f83dc951f",
+      "bytes": 82
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\manifesto.json",
+      "sha256": "ee336662f499993cda174bf7fe34e2af41a6eb9bb8844462be1ee772d6f26bfe",
+      "bytes": 1163
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\portas.json",
+      "sha256": "90a04c56a6419e90424b4fc2a20a2e07ec2c2825a6a573b9732ebf25a77aa89e",
+      "bytes": 1041
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\reabertura.json",
+      "sha256": "2e5321cee5d4ee828a28806d72b12d255be131f740c18b796da44d3a9071ca09",
+      "bytes": 122
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/Alumina_nominal.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\Alumina_nominal.step",
+      "sha256": "472fd1ca75cbda1eac43b3cfff8891ca9e658cf89572a40047405bada3847941",
+      "bytes": 30552
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/copper.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\copper.step",
+      "sha256": "330682b0f3f7e9a06a65ad502aa924540847a579cc6b6cc29b4b2a7cc8a271fa",
+      "bytes": 73340
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/folha_cu.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\folha_cu.step",
+      "sha256": "db44f1396a9af18aa8a4169a123466717b631359abb424f8a2fe4420144ae6e3",
+      "bytes": 612011
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/PTFE_terminal.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\PTFE_terminal.step",
+      "sha256": "33ef1d536165ea95230e3fe9f178e7ec21594c3b0a6b27c537e11830fac29b12",
+      "bytes": 42782
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/SAC305.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\SAC305.step",
+      "sha256": "02720afe82366b50a8f25f4e24948558dc4149289ee28fa88917a8dcdb1ed915",
+      "bytes": 30557
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/cad/ZYF300.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\cad\\ZYF300.step",
+      "sha256": "bea3f052fc33024522707ee9d5b2c233354a4cc47143a07adc66301cf5b66b4d",
+      "bytes": 19235
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/circuito/antena.s6p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\circuito\\antena.s6p",
+      "sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+      "bytes": 2765
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/circuito/divisor.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\circuito\\divisor.s8p",
+      "sha256": "776eb76923a03eb7f24d0ac17d47cc3d440ef96c3b16e4210c843226709eb78b",
+      "bytes": 3594
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/circuito/nexxim.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\circuito\\nexxim.s2p",
+      "sha256": "8ecd436d32111217d73385ebea6fd26e7c0abd8342e04cd442102ef16694780e",
+      "bytes": 376
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/circuito/P2S13_Divisor_EM_Circuito.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\circuito\\P2S13_Divisor_EM_Circuito.aedt",
+      "sha256": "ffb05f761ff1c5ebceef2ac395c2637f6ee438f867ba8ccc082af63cb2c00a8e",
+      "bytes": 47829
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/circuito/P2S13_Divisor_EM_sem_malhas.aedtz",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\circuito\\P2S13_Divisor_EM_sem_malhas.aedtz",
+      "sha256": "a4fa6ca077580e8d91f891da0967993122f75f890b98a77111c0bc78f92b5a61",
+      "bytes": 24641
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/inicial/circuito/verificacao_nexxim.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\circuito\\verificacao_nexxim.json",
+      "sha256": "1e09e1a7923f9f972f048e5b22dea0e4fab9f950ae5e34a863e5b0badf4dc5f5",
+      "bytes": 387
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/Divisor_Duplo3.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\Divisor_Duplo3.aedt",
+      "sha256": "03cd46b13a524036b93aa09d738fecf63a25f9ffcaeb4a3d995b4199126f7fce",
+      "bytes": 2032785
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/Divisor_Duplo3.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\Divisor_Duplo3.FCStd",
+      "sha256": "d95da99129fdbd8351d2421ab927886f5911d16ccfd2f38269f410a3d8aee67c",
+      "bytes": 74297
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\configuracao.json",
+      "sha256": "9090e621c6b77dc0f26850323d8faf499dcd6a8000e35bef93c176e79ad0262d",
+      "bytes": 44487
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\hfss_validacao.json",
+      "sha256": "c33b31735d3f1d434253cab6c71df4cc01937886527c9370d99b9f18b951ab84",
+      "bytes": 208
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/estado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\estado.json",
+      "sha256": "af11f41efc39578779aa3118d25abdcacb68d4094b634df0b0336e809c904219",
+      "bytes": 86
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\convergencia.txt",
+      "sha256": "45580f34f1a799405a0539b0693b145890c79b2887551d59dba1a240d1901473",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\historico_passes.json",
+      "sha256": "e40379ca80ed7fb8bf3a608b6c804d99eb0e656a3058dca4b92246749dde8421",
+      "bytes": 530
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\recursos_matriz.json",
+      "sha256": "18f14296d5b03bd5248e2c703d6527044e66a75339b1823d17f987ca098449a2",
+      "bytes": 2537
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\mensagens.json",
+      "sha256": "2611bf860945edc05dc8ff5fcedde29fd21771ce0963b7921ad3e66fbc8d848b",
+      "bytes": 2788
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\malha.json",
+      "sha256": "61f6482ff1a4795177959c9f99368ba457464abce737a076d7670b8ab56576bd",
+      "bytes": 7863
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\resultado.json",
+      "sha256": "c4b8fb0ce4ecfc25479b0537d715bc1cd595f0f40c41ac9b6ae5d5e6e0ead327",
+      "bytes": 4230
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/diagnostico_divisao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\diagnostico_divisao.json",
+      "sha256": "633f131784b4660cda332ff576905b56ada830a37d973ece759124ef07273067",
+      "bytes": 2390
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/divisor.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\divisor.s8p",
+      "sha256": "a7088c2799ed7cf7ba112567a407609fb848a615b1e97207e45c55379ed18219",
+      "bytes": 4120
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/divisor_ordenado.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\divisor_ordenado.s8p",
+      "sha256": "d210dafa485aca05698db79030305c6e6899b6722feb98c3dbb4cfc6a8c9cde2",
+      "bytes": 3556
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/conjunto.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\conjunto.s2p",
+      "sha256": "0ddadd884778d8c89da085f80a0492fdee0bcdcc535dfdf4c43ac64ddd525048",
+      "bytes": 333
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/referencia_linhas.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\referencia_linhas.s4p",
+      "sha256": "281a053b1877512a0da21f0a9fc76f873338b71ce8b6dece38041d775e751b32",
+      "bytes": 1033
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/diagrama_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\diagrama_H.csv",
+      "sha256": "7b0298d0befc1e138771e8b8c6f0e202a3b8f99c19d73cc6e61b67222d96da9d",
+      "bytes": 66035
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/diagrama_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\diagrama_V.csv",
+      "sha256": "fb998ddacd9c713a4dbc7d34a79a54e02c91d104bb5504d4d58934babe9b0789",
+      "bytes": 67597
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/layout.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\layout.png",
+      "sha256": "56c1fbc2e565c3282a2c5dd62838ea797f59c22fd71873b7a33c8b6009bad6dc",
+      "bytes": 74095
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\polar_HV.png",
+      "sha256": "fa94f31e5be779333bb153408c780eefc95a2c24351f6449c7fdef9f4bb54330",
+      "bytes": 232033
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\comparacao_HV.png",
+      "sha256": "72b25ec4918f8e98a4c9f754e1b15e09a2fb287bf35f24c936df219e1cdab84d",
+      "bytes": 168025
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/distribuicao.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\distribuicao.png",
+      "sha256": "b65c565db021601bfd79b66f4b7e7c732a97fc584638179038b8afdb2905d65b",
+      "bytes": 75728
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\enig_hfss.json",
+      "sha256": "d81319ed572e6d0233e196ab7a380a9029483084206f988b77c8bf7437f34ab9",
+      "bytes": 7063
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\folhas_solidas.json",
+      "sha256": "669a627883a1d02b1872b506987a43deda792d24f98a438c1b8355d8514f8d4f",
+      "bytes": 137
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\intersecoes.json",
+      "sha256": "1308a573b110416ecf0cfe4a6b6ffa410e365ae25e04f616249d687f83dc951f",
+      "bytes": 82
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\manifesto.json",
+      "sha256": "ee336662f499993cda174bf7fe34e2af41a6eb9bb8844462be1ee772d6f26bfe",
+      "bytes": 1163
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\portas.json",
+      "sha256": "40dd3dd3a81fe36cf90ae92a5e68bd3d4c75b3e0a49c9909c0e04450a34fd889",
+      "bytes": 1043
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\reabertura.json",
+      "sha256": "7f84c1488ac183c06e566e86f33ba994f36731b540d0cdfa3b559fd95720c1b2",
+      "bytes": 122
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/Alumina_nominal.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\Alumina_nominal.step",
+      "sha256": "a223e7a9af29239d247cf4626fb1246325888e03f9b5c1b2bc9343da0e6bdc3f",
+      "bytes": 30552
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/copper.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\copper.step",
+      "sha256": "e5f8aa24bdb622a29fbfe7838d1221094f5e8f9a83348d8e26e000ac5b00ee93",
+      "bytes": 73384
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/folha_cu.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\folha_cu.step",
+      "sha256": "327e048456a75e66e82882000905ee486d202bcbd1b29ef3d2c1879ecbd09ae2",
+      "bytes": 608710
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/PTFE_terminal.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\PTFE_terminal.step",
+      "sha256": "72905d68252fe9ca2ce5297316828eae6297fbb960c554db11077243636b996d",
+      "bytes": 42810
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/SAC305.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\SAC305.step",
+      "sha256": "29b6b12da87842560fe99b821d2ef3e52c65761d57bde42267f61f909fb0adc1",
+      "bytes": 30573
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/cad/ZYF300.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\cad\\ZYF300.step",
+      "sha256": "acc9c91817aba92b4357338b10f3807b3c78e3688a8b68e8661f8d53f8017997",
+      "bytes": 19247
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/circuito/antena.s6p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\antena.s6p",
+      "sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+      "bytes": 2765
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/circuito/divisor.s8p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\divisor.s8p",
+      "sha256": "d210dafa485aca05698db79030305c6e6899b6722feb98c3dbb4cfc6a8c9cde2",
+      "bytes": 3556
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/circuito/nexxim.s2p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\nexxim.s2p",
+      "sha256": "722834df2a38f906ba1d75e4f29deb5fa8681646265d84aeb9ff277e4ecad522",
+      "bytes": 375
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/circuito/P2S13_Divisor_EM_Circuito.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\P2S13_Divisor_EM_Circuito.aedt",
+      "sha256": "eb47df89c51dd9a3a198e96a9f70979928b67495693cbf6d4ba6e38f1c4b5934",
+      "bytes": 47853
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/circuito/P2S13_Divisor_EM_sem_malhas.aedtz",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\P2S13_Divisor_EM_sem_malhas.aedtz",
+      "sha256": "43c0f2c44f7a0f4e29ce7fa45a0da60028f9a8175c4fa2fe9003b072b9f9fc95",
+      "bytes": 24652
+    },
+    {
+      "arquivo": "projetos/P2S13/divisor_duplo_1x3_hfss/c01_juncao/circuito/verificacao_nexxim.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R08_Divisor_HFSS\\c01_juncao\\circuito\\verificacao_nexxim.json",
+      "sha256": "3efd70c49ea849417b9578679ac9a92fb3af79585ecaf3530c3f4fa584ef072b",
+      "bytes": 387
+    }
+  ],
+  "total_bytes": 7532326
+}

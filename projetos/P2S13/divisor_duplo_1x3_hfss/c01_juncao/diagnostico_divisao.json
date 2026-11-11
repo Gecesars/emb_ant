@@ -1,0 +1,72 @@
+{
+  "saidas_casadas_50ohm": [
+    {
+      "porta": "R1_A",
+      "HFSS_modulo_dB": -8.495205273459488,
+      "HFSS_fase_relativa_graus": -26.1035900388163,
+      "linhas_modulo_dB": -5.0780295002655516,
+      "linhas_fase_relativa_graus": 0.001316365366292475
+    },
+    {
+      "porta": "R2_A",
+      "HFSS_modulo_dB": -5.699762853362688,
+      "HFSS_fase_relativa_graus": 0.0,
+      "linhas_modulo_dB": -5.146141743537153,
+      "linhas_fase_relativa_graus": 0.0
+    },
+    {
+      "porta": "R3_A",
+      "HFSS_modulo_dB": -4.816492701748602,
+      "HFSS_fase_relativa_graus": -5.883852872937764,
+      "linhas_modulo_dB": -5.14614174353715,
+      "linhas_fase_relativa_graus": 2.7770002866919413e-15
+    },
+    {
+      "porta": "R1_B",
+      "HFSS_modulo_dB": -8.67414244594148,
+      "HFSS_fase_relativa_graus": -26.04742217167414,
+      "linhas_modulo_dB": -5.0780295002655516,
+      "linhas_fase_relativa_graus": 0.001316365366292475
+    },
+    {
+      "porta": "R2_B",
+      "HFSS_modulo_dB": -5.623960698301122,
+      "HFSS_fase_relativa_graus": 0.0,
+      "linhas_modulo_dB": -5.146141743537153,
+      "linhas_fase_relativa_graus": 0.0
+    },
+    {
+      "porta": "R3_B",
+      "HFSS_modulo_dB": -4.795417129695049,
+      "HFSS_fase_relativa_graus": -5.985917479723763,
+      "linhas_modulo_dB": -5.14614174353715,
+      "linhas_fase_relativa_graus": 2.7770002866919413e-15
+    }
+  ],
+  "sobreposicao_linha_central_com_juncao_entrada_segundo_estagio_mm": {
+    "E1": 0.0,
+    "E2": 0.0
+  },
+  "nota": "Juncao corrigida: nenhuma sobreposicao da linha central dos ramos E1/E2 com a linha DELAY; contato somente no ponto de inicio.",
+  "resultado_carregado": {
+    "potencias_W": [
+      0.06495498731099315,
+      0.06540635650098021,
+      0.13104809225797392,
+      0.13053879364367918,
+      0.17814210052261983,
+      0.1779424894875286
+    ],
+    "fases_graus": [
+      -20.905888138319334,
+      -21.57588329193965,
+      -2.061824548582062e-15,
+      -1.2746158683181459,
+      -14.156627674142074,
+      -15.308585232260427
+    ],
+    "dispersao_amplitude_dB": 4.3815406662784255,
+    "dispersao_fase_graus": 21.575883291939647
+  },
+  "alerta": "O divisor convergiu em S; sem estudo de sensibilidade nao atribuir toda a diferenca a uma unica juncao ou componente. As pendencias da antena permanecem."
+}

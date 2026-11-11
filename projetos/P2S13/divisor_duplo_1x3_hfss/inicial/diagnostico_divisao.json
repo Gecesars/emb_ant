@@ -1,0 +1,72 @@
+{
+  "saidas_casadas_50ohm": [
+    {
+      "porta": "R1_A",
+      "HFSS_modulo_dB": -8.57397223783272,
+      "HFSS_fase_relativa_graus": -36.063553665715,
+      "linhas_modulo_dB": -5.050389311647521,
+      "linhas_fase_relativa_graus": 0.0013058446531858065
+    },
+    {
+      "porta": "R2_A",
+      "HFSS_modulo_dB": -6.739660707321731,
+      "HFSS_fase_relativa_graus": -0.0,
+      "linhas_modulo_dB": -5.118497127630599,
+      "linhas_fase_relativa_graus": -0.0
+    },
+    {
+      "porta": "R3_A",
+      "HFSS_modulo_dB": -3.896776475518118,
+      "HFSS_fase_relativa_graus": -16.85598551789931,
+      "linhas_modulo_dB": -5.118497127630597,
+      "linhas_fase_relativa_graus": 4.094514988305752e-15
+    },
+    {
+      "porta": "R1_B",
+      "HFSS_modulo_dB": -8.700107501978483,
+      "HFSS_fase_relativa_graus": -33.27539907156312,
+      "linhas_modulo_dB": -5.050389311647521,
+      "linhas_fase_relativa_graus": 0.0013058446531858065
+    },
+    {
+      "porta": "R2_B",
+      "HFSS_modulo_dB": -6.906108433705548,
+      "HFSS_fase_relativa_graus": -0.0,
+      "linhas_modulo_dB": -5.118497127630599,
+      "linhas_fase_relativa_graus": -0.0
+    },
+    {
+      "porta": "R3_B",
+      "HFSS_modulo_dB": -3.9010003092061267,
+      "HFSS_fase_relativa_graus": -20.16503771312056,
+      "linhas_modulo_dB": -5.118497127630597,
+      "linhas_fase_relativa_graus": 4.094514988305752e-15
+    }
+  ],
+  "sobreposicao_linha_central_com_juncao_entrada_segundo_estagio_mm": {
+    "E1": 3.7920873805559148,
+    "E2": 0.0
+  },
+  "nota": "As sobreposicoes sao juncoes condutivas do layout, nao curto entre redes A/B. A entrada lateral do segundo estagio cobre comprimentos diferentes dos ramos. Isto e candidato a correcao, nao causa RF isolada demonstrada.",
+  "resultado_carregado": {
+    "potencias_W": [
+      0.06235178298870608,
+      0.062210490037119724,
+      0.10830673610030002,
+      0.10499547757998516,
+      0.21254520051583528,
+      0.2117340505398154
+    ],
+    "fases_graus": [
+      -35.458467595791724,
+      -32.058202947299215,
+      -0.0,
+      -1.9189385863657287,
+      -22.67355255564901,
+      -26.26883079029892
+    ],
+    "dispersao_amplitude_dB": 5.3358768027883245,
+    "dispersao_fase_graus": 35.458467595791724
+  },
+  "alerta": "Sem convergencia completa e sem estudo de sensibilidade nao atribuir toda a diferenca a uma unica juncao ou componente."
+}

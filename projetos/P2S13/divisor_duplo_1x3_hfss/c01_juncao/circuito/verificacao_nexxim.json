@@ -1,0 +1,25 @@
+{
+  "erro_absoluto_max": 1.2768318988511349e-15,
+  "matriz_conferida": true,
+  "pinos": {
+    "DIV": [
+      "IN_A",
+      "IN_B",
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ],
+    "ANT": [
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ]
+  },
+  "frequencia_Hz": 5170000000.0
+}

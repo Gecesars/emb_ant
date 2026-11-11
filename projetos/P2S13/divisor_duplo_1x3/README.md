@@ -1,5 +1,7 @@
 # P2S13 — plano do divisor duplo 1:3
 
+**Histórico analítico.** A implementação física posterior, com cascata Wilkinson desigual/igual, foi simulada no HFSS e **não confirmou** estas metas de casamento e ganho. Consultar o [estudo EM e a correção da junção](../divisor_duplo_1x3_hfss/README.md); os resultados abaixo continuam sendo do plano de linhas distribuídas.
+
 **Planejamento e circuito preliminares, 11/11/2026.** Duas redes Wilkinson 1:3 idênticas alimentam as polarizações A e B das três placas de dois elementos. O ajuste comum de entrada resultou em VSWR ativo **1.1979/1.0895** e, com a outra entrada casada em 50 Ω, **1.0895/1.1978**. Os quatro valores ficam abaixo de 1,25 **neste modelo de circuito e nesta frequência**. O divisor ainda não tem layout roteado ou validação EM.
 
 O ganho frontal calculado é **13.1432 dBi**, H **98.720°** e V **9.931°**, em 5,17 GHz, com duas entradas de 0,5 W / 0°. Não há sweep. São incorporados a matriz S6 e os campos complexos das três placas juntas, incluindo acoplamento, divisores 1:2 impressos e seis cabos físicos de 50 mm com perdas. Esses cabos **não foram acrescentados outra vez**. A alimentação anterior aos planos de referência e os conectores externos são ideais.
