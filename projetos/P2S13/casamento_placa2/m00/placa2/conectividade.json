@@ -1,0 +1,148 @@
+{
+  "redes": {
+    "SIG_A": {
+      "objetos": [
+        "B_SIG_A_Cu0",
+        "F_SIG_A_Cu0",
+        "Vivo_A",
+        "PTH_A",
+        "Solda_A"
+      ],
+      "contatos": [
+        [
+          "B_SIG_A_Cu0",
+          "PTH_A"
+        ],
+        [
+          "B_SIG_A_Cu0",
+          "Solda_A"
+        ],
+        [
+          "F_SIG_A_Cu0",
+          "PTH_A"
+        ],
+        [
+          "F_SIG_A_Cu0",
+          "Solda_A"
+        ],
+        [
+          "Vivo_A",
+          "Solda_A"
+        ],
+        [
+          "PTH_A",
+          "Solda_A"
+        ]
+      ],
+      "conectado": true,
+      "isolados": []
+    },
+    "RET_A": {
+      "objetos": [
+        "B_RET_A_Cu0",
+        "Blindagem_A"
+      ],
+      "contatos": [
+        [
+          "B_RET_A_Cu0",
+          "Blindagem_A"
+        ]
+      ],
+      "conectado": true,
+      "isolados": []
+    },
+    "SIG_B": {
+      "objetos": [
+        "B_SIG_B_Cu0",
+        "B_SIG_B_Cu1",
+        "B_SIG_B_Cu2",
+        "F_SIG_B_Cu0",
+        "F_SIG_B_Cu1",
+        "F_SIG_B_Cu2",
+        "Vivo_B",
+        "PTH_B",
+        "Solda_B",
+        "Via_0",
+        "Via_1",
+        "Via_2",
+        "Via_3"
+      ],
+      "contatos": [
+        [
+          "B_SIG_B_Cu0",
+          "Via_0"
+        ],
+        [
+          "B_SIG_B_Cu0",
+          "Via_1"
+        ],
+        [
+          "B_SIG_B_Cu1",
+          "Via_2"
+        ],
+        [
+          "B_SIG_B_Cu1",
+          "Via_3"
+        ],
+        [
+          "B_SIG_B_Cu2",
+          "PTH_B"
+        ],
+        [
+          "B_SIG_B_Cu2",
+          "Solda_B"
+        ],
+        [
+          "F_SIG_B_Cu0",
+          "Via_0"
+        ],
+        [
+          "F_SIG_B_Cu1",
+          "Via_2"
+        ],
+        [
+          "F_SIG_B_Cu2",
+          "PTH_B"
+        ],
+        [
+          "F_SIG_B_Cu2",
+          "Solda_B"
+        ],
+        [
+          "F_SIG_B_Cu2",
+          "Via_1"
+        ],
+        [
+          "F_SIG_B_Cu2",
+          "Via_3"
+        ],
+        [
+          "Vivo_B",
+          "Solda_B"
+        ],
+        [
+          "PTH_B",
+          "Solda_B"
+        ]
+      ],
+      "conectado": true,
+      "isolados": []
+    },
+    "RET_B": {
+      "objetos": [
+        "B_RET_B_Cu0",
+        "Blindagem_B"
+      ],
+      "contatos": [
+        [
+          "B_RET_B_Cu0",
+          "Blindagem_B"
+        ]
+      ],
+      "conectado": true,
+      "isolados": []
+    }
+  },
+  "curtos": [],
+  "aprovado": true
+}

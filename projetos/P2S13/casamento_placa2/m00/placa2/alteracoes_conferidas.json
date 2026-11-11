@@ -1,0 +1,27 @@
+{
+  "mudancas": [
+    {
+      "layer": "F",
+      "net": "SIG_A",
+      "area_alterada_mm2": 13.80553917763622
+    },
+    {
+      "layer": "F",
+      "net": "SIG_B",
+      "area_alterada_mm2": 13.80553917763622
+    }
+  ],
+  "radiadores_retornos_portas_vias_outline_preservados": true,
+  "simetria": {
+    "sinal_A_vs_B_espelhado_mm2": 1.660217962018742e-15,
+    "retorno_A_vs_B_espelhado_mm2": 0.0,
+    "comprimentos_ramos_mm": [
+      39.490831586959374,
+      39.490831586959374,
+      39.490831586959374,
+      39.490831586959374
+    ],
+    "escopo": "Novos divisores e retornos espelhados em Y=0; quatro ramos de mesmo comprimento; transicoes dos radiadores originais preservadas."
+  },
+  "escopo": "Comparacao dos poligonos: somente sinais frontais A/B alterados; novos sinais simetricos, caminhos iguais."
+}

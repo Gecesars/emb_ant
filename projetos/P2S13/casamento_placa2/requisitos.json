@@ -1,0 +1,30 @@
+{
+  "data_local": "2026-11-10",
+  "pedido": "Ajustar transformadores da PCB2 para VSWR<=1.25, simetria e entradas em fase; conferir ganho e H/V.",
+  "frequencia_GHz": 5.17,
+  "nucleos": 14,
+  "max_passes": 6,
+  "delta_s": 0.05,
+  "passes_consecutivos": 2,
+  "sweep": false,
+  "entradas_W": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "fases_graus": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "escopo": "Painel4+2, refletor b10/90, cabos fisicos50mm com perdas. Somente largura e comprimento dos transformadores da PCB2 podem variar.",
+  "meta_VSWR_placa2": 1.25,
+  "checagens_VSWR": [
+    "ativo com quatro entradas iguais/em fase",
+    "outras entradas casadas50ohms"
+  ],
+  "referencia": "D:/dev/EMBRAER/P2S13/R01_Seis_Elementos/s02_b10_a90",
+  "observacao": "Metas de abertura e ganho anteriores continuam relatadas, sem serem o objetivo do ajuste de casamento. Nao reiniciar um caso finalizado nem ultrapassar6passes."
+}

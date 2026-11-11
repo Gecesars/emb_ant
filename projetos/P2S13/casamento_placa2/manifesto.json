@@ -1,0 +1,360 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/requisitos.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\requisitos.json",
+      "sha256": "721bdbb0474f51152557244b034838c9d8e5d644496a18f458899c5702657d0b",
+      "bytes": 952
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\qualificacao.json",
+      "sha256": "d833a0ec9746d992da77d6eef1553ca9b7dbcf1850ddbd0977d4bd8b5ce3a61d",
+      "bytes": 285
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/comparacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\comparacao.json",
+      "sha256": "b3f5b370a07db0761e664d15dd2cad9082eeb4ac207e17e88d862b1a8b09a2a4",
+      "bytes": 2195
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/comparacao.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\comparacao.csv",
+      "sha256": "7ec237f411c63bc03ea89f3cd16483a7b58a5cb13a91a8b002f5e94b68698f6c",
+      "bytes": 989
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\comparacao_HV.png",
+      "sha256": "5db9673991b93ce3b240f165ebfde8b624ec2f18922e8a59e29703b105c347c1",
+      "bytes": 144019
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/estimativa_m00.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\estimativa_m00.json",
+      "sha256": "6792146e8115b81aa30f4711d4c3073ce2199978822c31967f29baf6bdabc991",
+      "bytes": 1548
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\configuracao.json",
+      "sha256": "1f67691618fd8607964878254366b62ccc6c73c7bb2affc5e8242403a74e9a9e",
+      "bytes": 4420
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\resultado.json",
+      "sha256": "208875a2b18beae41cca8a4dc420aa2a23764ca5a7764606f97274c11c61225d",
+      "bytes": 3486
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/casamento.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\casamento.json",
+      "sha256": "d6f05935e93985f94730100a969fef0d2b26bc00006855286b43c7ffe9c2acd5",
+      "bytes": 847
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/qualificacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\qualificacao.json",
+      "sha256": "6aef2f839d73d552007d88afcba8af55d0e6d88f0b7b47849dee197f6ad620c1",
+      "bytes": 141
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\historico_passes.json",
+      "sha256": "3fe914670c40e5cf45ae40ffc9813c91af5edaea0b3a3fd5b0c0eec9926230db",
+      "bytes": 3746
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\convergencia.txt",
+      "sha256": "d76d942c52465d03917fbf48884f210e73aead7d5cfa9c03b832e3bf74625ab4",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\centro.s4p",
+      "sha256": "abb63c841a17cf3b6d82aaa85942025b984db0585c15a1fb03e41cfe2c92fdc8",
+      "bytes": 1552
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\recursos_matriz.json",
+      "sha256": "20ed9a37af1d0859b4ab3b777a3bf1aae900319bcea6884a66fd64bfc073a03d",
+      "bytes": 2543
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\mensagens.json",
+      "sha256": "f555497a715ef0fc13b5b22d7819837686b4e47fab17af54164998e3a363b588",
+      "bytes": 363
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\malha.json",
+      "sha256": "bb5fb880b8fedff8b01b71f87f93288c1a46ba34c94e9ce6073113748ec6d270",
+      "bytes": 26983
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\malha_inicial.json",
+      "sha256": "45d6bef15fcec53c20539fc81049af2222d3ea635bfc93163d14adbfc9b9d681",
+      "bytes": 10358
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\geracao_malha.json",
+      "sha256": "23e1d77881ba2f6ff0738083917560c077b3350d66c52bd34037b805ab79098c",
+      "bytes": 117
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\mensagens_malha.json",
+      "sha256": "1132aee05b854c645fe9c4a1535ba16985bc8c6c1666f0c6cb93f350c4639d48",
+      "bytes": 179
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\estatisticas_malha_inicial.txt",
+      "sha256": "41b54401ffd2567b0c5375b48c8d22848f2595c91b98638c7122464c6db646e6",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\hfss_validacao.json",
+      "sha256": "c146c832587b83fb84cc61aa53e7d6db8424005cdc7ca6240d40dafa9a69aeb9",
+      "bytes": 370
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\diagramas_HV.png",
+      "sha256": "635f6027a60e1b021af48688b8e07ee8e5ef707117bb2e41ad209162d4758a89",
+      "bytes": 102053
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\polar_HV.png",
+      "sha256": "44eff7e6165087815263b3fd43d7d0fea9b1c750aa7c453289df59f0fa09ecde",
+      "bytes": 208224
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/P2S13_Casamento2.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\P2S13_Casamento2.aedt",
+      "sha256": "810f0d0185114e6814b73ae4280638cc006989009ac1fd594583c3bd1a7daba0",
+      "bytes": 14071034
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/P2S13_Casamento2.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\P2S13_Casamento2.FCStd",
+      "sha256": "72b5b419f8ad0900a99ec1d739b4f049c0e1308fa449f5b3b4636d9f3465762d",
+      "bytes": 863787
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/conferencia_reconstrucao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\conferencia_reconstrucao.json",
+      "sha256": "3997bed5769b27a9e077de4960b30deb28105cc952831d4518c85fbc2f9ec8fb",
+      "bytes": 1016
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\ALL_H.csv",
+      "sha256": "963346d05f7a4a6b60932e798da46345efa33a61b64c92b56db83b9e70d3dd84",
+      "bytes": 197207
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\ALL_V.csv",
+      "sha256": "8c409d1e97801009fb9a7b66b5801b468079f554ccadd11825a95d724be971d0",
+      "bytes": 197304
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\POL_A_H.csv",
+      "sha256": "304236deeddfefcb2d4afbe78ed117a863a033624f9028bf73d734e4db503071",
+      "bytes": 197208
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\POL_A_V.csv",
+      "sha256": "8f1e12c172c34c4074f4752a296b874f6ef20ca90bfd7a4a09b9b5fadc4332c8",
+      "bytes": 197396
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\POL_B_H.csv",
+      "sha256": "4e542f9dd2fc149c29fcd8ddd263b6e80a22c6e96948ad2dc5662df41319b603",
+      "bytes": 197041
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\POL_B_V.csv",
+      "sha256": "17cfc3d3d41c4c18724ca96692c23a92aa267c865efee526dc73b3d636d1c1cd",
+      "bytes": 197489
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R1_A_H.csv",
+      "sha256": "8fe75c4101e250d92136fb88c3ef56e5c2b043b39afc3f3f13d12da29f823e4e",
+      "bytes": 198185
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R1_A_V.csv",
+      "sha256": "96a34300718f9f46aeb29e80c1eb2eac9cd5f8cd9a76a94865dc30d49cb33e2b",
+      "bytes": 197339
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R1_B_H.csv",
+      "sha256": "673a26713a7535b48db9b940708d3ba8800d9cc17c7e8bfc1001a609694b240e",
+      "bytes": 197168
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R1_B_V.csv",
+      "sha256": "9380fd9bbcba2148e718db34da9f7e29a44249127654a02928f1df19c5c652d0",
+      "bytes": 196853
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R2_A_H.csv",
+      "sha256": "ceba2d2d6088a5e2b51132f03cb0120a609bc0b97dffa3cea374f4028b462cb5",
+      "bytes": 197172
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R2_A_V.csv",
+      "sha256": "273a1eb288c3bcce91c6c1d08856084070813a472a122ff398a47aa8b22a5b58",
+      "bytes": 197464
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R2_B_H.csv",
+      "sha256": "bd980003c34abbee5a22c120936d6ea7c9767e8f03151656dfc819b51b0f619c",
+      "bytes": 197721
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\R2_B_V.csv",
+      "sha256": "4bc860e4e36b8ad79396d99363cc5674ef76678d81f7113365b433835f92704f",
+      "bytes": 197930
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\cad\\enig_hfss.json",
+      "sha256": "577b7f9f426694fe9c5d1b33d0402ea42ccaa756c32870bd7cde523cb38a4f05",
+      "bytes": 63368
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\cad\\intersecoes.json",
+      "sha256": "f0ba5e52744347221c85cb881508156394d39c839844570cb7c52913814a69d3",
+      "bytes": 8633
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\cad\\reabertura.json",
+      "sha256": "e27cec944c2e5ecaed434ed09a035718d47bfefb13864a6086e854a84e584417",
+      "bytes": 130
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/2_elementos_simetrica.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\2_elementos_simetrica.FCStd",
+      "sha256": "f6624364c91b0df51b614343a206248c77b8f4362394dc1fbe969146cf2330e2",
+      "bytes": 247903
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/alteracoes_conferidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\alteracoes_conferidas.json",
+      "sha256": "834ac694a66637d8fb71b583d536c6ba9f747207d29aa9285f7597937df3b44c",
+      "bytes": 841
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/conectividade.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\conectividade.json",
+      "sha256": "7e8baf0d68ec4a1d30abd6ac5aa8831ad74f60f4bccbd7ff011dff35dca60f88",
+      "bytes": 2562
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/criar_cad.py",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\criar_cad.py",
+      "sha256": "5c54fb466326cce6aaa7e25a38876dc11a11617d9d04b24fc84bed89f88ba6c7",
+      "bytes": 4510
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/geometria.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\geometria.json",
+      "sha256": "2a62de019e2672c01b44eb57431057d498f099d43fa2349f226af6c4a000725e",
+      "bytes": 189112
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/layout.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\layout.png",
+      "sha256": "b7ed2c78d2f03a32264753f1546d7da0f15004f5b9e070935f0675bcfda14299",
+      "bytes": 70125
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/simetria.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\simetria.json",
+      "sha256": "46d74796905be7cd5d6b68d7259b555511126524a566add842e64d8cd8a1ed0e",
+      "bytes": 382
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\cad\\folhas_solidas.json",
+      "sha256": "90598164b4c21e37b893138c9746b065207382147ed88f6d03c85bf713489389",
+      "bytes": 1387
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\cad\\intersecoes.json",
+      "sha256": "a213b8f15c8f75e165d9e0f78f65538d9344c34695da8722ce2daa968e676032",
+      "bytes": 393
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\cad\\manifesto.json",
+      "sha256": "6ec1f8fe9b813c41c887776df7214aaaea94da813ca90383d683aecebfd64623",
+      "bytes": 831
+    },
+    {
+      "arquivo": "projetos/P2S13/casamento_placa2/m00/placa2/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2\\cad\\portas.json",
+      "sha256": "a109a525e4242a74ef1e05a69e73c33f40687c166e650926f7d473e662ea9a46",
+      "bytes": 264
+    }
+  ],
+  "total_bytes": 18824752,
+  "excluidos": "Malhas, aedtresults, g3derr, locks, campos volumetricos. Solucao FEM completa permanece local."
+}

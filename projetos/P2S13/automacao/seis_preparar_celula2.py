@@ -1,6 +1,6 @@
 """Nova celula de dois elementos: etapas locais simetricas do C12, sem meandros assimetricos."""
 from pathlib import Path
-import json,math,hashlib
+import json,math,hashlib,argparse
 from shapely.geometry import Polygon,Point,LineString,mapping,box
 from shapely.affinity import translate,scale
 from shapely.ops import unary_union
@@ -12,13 +12,17 @@ from matplotlib.path import Path as MP
 from matplotlib.patches import PathPatch
 
 REPO=Path(__file__).resolve().parents[3]
-OUT=Path('D:/dev/EMBRAER/P2S13/R01_Seis_Elementos/celula2_simetrica')
+parser=argparse.ArgumentParser();parser.add_argument('--out',default='D:/dev/EMBRAER/P2S13/R01_Seis_Elementos/celula2_simetrica');parser.add_argument('--width',type=float);parser.add_argument('--length',type=float);args=parser.parse_args()
+OUT=Path(args.out)
 SRC=REPO/'projetos/P2M21/quatro_elementos_casamento_banda/c12_raiz_intermediaria'
 assert not (OUT/'geometria.json').exists(),'Nao substituir celula existente'
 OUT.mkdir(parents=True,exist_ok=True)
 source=json.loads((SRC/'geometria.json').read_text());artfile=REPO/'automacao/P1H/KiCad_Antenas/elemento_hfss.json'
 art=json.loads(artfile.read_text());p=art['ports']['B'][0];pitch=48.;centers=[-24.,24.]
 lines=source['lines'];w50=lines['50']['w_mm'];w70=lines[str(50*math.sqrt(2))]['w_mm'];l70=lines[str(50*math.sqrt(2))]['l90_mm']
+if args.width is not None:w70=args.width
+if args.length is not None:l70=args.length
+assert .3<=w70<=2.5 and 2<=l70<=23,(w70,l70)
 outline=[[-44.,-25.],[44.,-25.],[44.,25.],[-44.,25.]];lands=[];vias=[];traces=[];inputs=[]
 for i,cx in enumerate(centers,1):
     for land in art['lands']:
@@ -61,8 +65,9 @@ for i,a in enumerate(merged):
         if a['shape'].intersection(b['shape']).area>1e-8:shorts.append((a['net'],b['net']))
 assert not shorts and clear>=.15-1e-5,(shorts,clear)
 g=dict(radiadores=2,centros_HFSS_X_mm=centers,passo_vertical_mm=48.,outline=outline,placa_largura_altura_mm=[50.,88.],distancia_pcb_refletor_mm=14.949,nucleo_mm=.76,cobre_mm=.035,inputs=inputs,vias=vias,lines=lines,traces=traces,simetria=sym,folga_planar_minima_mm=clear,shorts=shorts,
+    transformador_mm=dict(largura=w70,comprimento=l70),
     fonte_C12=str(SRC),fonte_radiador_sha256=hashlib.sha256(artfile.read_bytes()).hexdigest(),
-    topologia='1:2 por polarizacao; largura/comprimento das etapas locais C12; retorno6mm; sem raiz1:4 nem meandros assimetricos; sem resistores de isolamento.',
+    topologia='1:2 por polarizacao derivado das etapas locais C12; transformadores parametrizados em transformador_mm; retorno6mm; sem raiz1:4 nem meandros assimetricos; sem resistores de isolamento.',
     limites='Geometria inicial simetrica; nao pressupor casamento/fase eletrica validada antes do HFSS.',
     lands=[dict(layer=l['layer'],net=l['net'],geometry=mapping(l['shape'])) for l in merged])
 (OUT/'geometria.json').write_text(json.dumps(g,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

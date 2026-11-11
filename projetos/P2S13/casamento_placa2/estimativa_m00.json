@@ -1,0 +1,57 @@
+{
+  "estado": "ESTIMATIVA_NAO_VALIDADA",
+  "fonte": "D:\\dev\\EMBRAER\\P2S13\\R01_Seis_Elementos\\s02_b10_a90",
+  "sha256_s4p": "475f240fa67e221514efc6de55bc9849abadc3e4334b949f21787740aa7aedd6",
+  "portas": [
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B"
+  ],
+  "metodo": "Retira cascata coaxial50mm e equivalente par de ramos da PCB2. Mantem matriz Z4 efetiva e acoplamento congelados; recoloca transformadores iguais A/B. Coax ideal de fase APENAS na triagem; HFSS preserva perdas fisicas. Nao preve variacao de campos ou de acoplamento geometricos.",
+  "limites_mm": [
+    [
+      0.4,
+      2.2
+    ],
+    [
+      3.0,
+      22.0
+    ]
+  ],
+  "referencia": {
+    "largura_mm": 0.8604325963206093,
+    "comprimento_mm": 8.816343957831311,
+    "VSWR_ativo": [
+      1.2067441283497804,
+      1.2386958755550947,
+      1.943419997961485,
+      1.812628484460156
+    ],
+    "VSWR_casado": [
+      1.1913211092807683,
+      1.187778726574079,
+      1.6184671034186482,
+      1.534594134921152
+    ],
+    "pior_placa2": 1.943419997961485
+  },
+  "candidato": {
+    "largura_mm": 0.5467171802920964,
+    "comprimento_mm": 13.15181287345948,
+    "VSWR_ativo": [
+      1.2087951728577746,
+      1.2428064089374105,
+      1.1237928228092393,
+      1.0540207028592272
+    ],
+    "VSWR_casado": [
+      1.190843462830224,
+      1.1871722443913764,
+      1.068392863385221,
+      1.1237928243438784
+    ],
+    "pior_placa2": 1.1237928243438784
+  },
+  "erro_recomposicao_S": 1.5269508632971123e-16
+}

@@ -1,7 +1,7 @@
 """Conectividade DC dos condutores alimentados, com filtro espacial antes do OCCT."""
-import FreeCAD as A,json
+import FreeCAD as A,json,os
 from pathlib import Path
-r=Path('D:/dev/EMBRAER/P2S13/R01_Seis_Elementos/celula2_simetrica')
+r=Path(os.environ.get('P2S13_CELULA2','D:/dev/EMBRAER/P2S13/R01_Seis_Elementos/celula2_simetrica'))
 d=A.openDocument(str(r/'2_elementos_simetrica.FCStd'));man=json.loads((r/'cad/manifesto.json').read_text());groups={}
 for pol in 'AB':
     groups['SIG_'+pol]=[n for n in man if ('_SIG_'+pol+'_') in n]+[k+'_'+pol for k in ['Vivo','PTH','Solda']]+(['Via_'+str(k) for k in range(4)] if pol=='B' else [])
