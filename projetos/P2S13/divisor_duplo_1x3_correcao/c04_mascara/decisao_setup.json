@@ -1,0 +1,6 @@
+{
+  "basis_order": -1,
+  "motivo": "Usar ordem mista para reduzir custo de memoria/CPU da segunda ordem uniforme observada no C03. Limite6,DeltaS0.05,14cores e sem prerefinamento preservados. C04 ainda nao foi executado.",
+  "geometria_sinal_sha256": "60db7e0acb04f1d82f4d7dc29f5e6413d88ddb84990dfa8a91b4c3933ccc06c4",
+  "comparacao_material_nao_isolada_da_discretizacao": true
+}

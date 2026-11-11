@@ -76,9 +76,10 @@ r=dict(frequencia_GHz=5.17,passes=passes,delta_s=hist[-1]['delta_s'],convergiu=c
     passividade_conjunto=float(np.linalg.svd(s2,compute_uv=False)[0]),reciprocidade_conjunto=float(np.max(abs(s2-s2.T))),
     erro_interconexao_scikit=error,recomposicao_uniforme=recomposition,malha_major=mesh['reparos_major'],malha_minor=mesh['reparos_minor'],
     S8_sha256=hashlib.sha256((ROOT/'divisor.s8p').read_bytes()).hexdigest(),S6_sha256=hashlib.sha256((ANT/'centro.s6p').read_bytes()).hexdigest(),
-    meta_VSWR_1p25=all(x<=1.25 for x in vs(s2@np.ones(2))+vs(np.diag(s2))),
+    meta_VSWR_1p25=all(x<=1.25 for x in vs(s2@np.ones(2))+vs(np.diag(s2))),meta_VSWR_ativo_1p25=all(x<=1.25 for x in vs(s2@np.ones(2))),
+    meta_ganho_12dBi=cuts['H']['ganho_frontal_dBi']>=12,
     meta_ganho_13dBi=cuts['H']['ganho_frontal_dBi']>=13,antena_auditoria_previa_aprovada=False,
-    qualificacao_completa=False,limitacao='Ganho recomposto dos campos da antena; radiacao e interacao espacial direta do divisor/antena nao somadas. S6 previo com pendencias de estabilidade e reciprocidade. Resistor nominal, sem caracterizacao de lote.')
+    qualificacao_completa=False,limitacao='Ganho recomposto dos campos da antena; radiacao e interacao espacial direta do divisor/antena nao somadas. S6 previo com pendencias de estabilidade e reciprocidade. '+('Resistor nominal, sem caracterizacao de lote.' if cfg['resistores'] else 'Divisao direta sem isolamento resistivo entre saidas.'))
 save('resultado.json',r)
 fig,axs=plt.subplots(1,2,figsize=(11,6.5),subplot_kw={'projection':'polar'})
 for ax,axis in zip(axs,'HV'):
@@ -86,6 +87,7 @@ for ax,axis in zip(axs,'HV'):
     ax.set_title('%s: %.2f° | máximo %+.2f°'%(axis,cuts[axis]['abertura_graus'],cuts[axis]['pico_graus']),pad=22,fontsize=10)
 fig.suptitle('Divisor duplo 1:3 HFSS + antena S6 — 5,17 GHz — E/Emax\nDuas entradas de 0,5 W / 0° | %d passes | ΔS %.5f\nPRELIMINAR: divisor com %d/2 passes consecutivos; antena com auditoria pendente'%(passes,hist[-1]['delta_s'],consec),fontsize=11)
 fig.text(.5,.025,'G frontal %.3f dBi | VSWR ativo A/B %.3f / %.3f'%(cuts['H']['ganho_frontal_dBi'],*r['VSWR_ativo']),ha='center')
+fig.text(.5,.065,'Picos e cortes nesta figura: grade de 0,25°. A verificacao vertical fina usa grade de 0,01° em arquivo separado.',ha='center',fontsize=8)
 fig.subplots_adjust(top=.73,bottom=.14,wspace=.26);fig.savefig(ROOT/'polar_HV.png',dpi=180);plt.close(fig)
 fig,axs=plt.subplots(1,2,figsize=(12,5))
 for ax,axis in zip(axs,'HV'):

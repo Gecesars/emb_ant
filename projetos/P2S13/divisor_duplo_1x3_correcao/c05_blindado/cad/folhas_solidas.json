@@ -1,0 +1,19 @@
+{
+  "Terra": {
+    "base_z_mm": 0.0,
+    "skip_x_planes": [
+      -110,
+      110
+    ],
+    "skip_y_planes": [
+      -32,
+      32
+    ]
+  },
+  "Sinal_A": {
+    "base_z_mm": 1.52
+  },
+  "Sinal_B": {
+    "base_z_mm": 1.52
+  }
+}

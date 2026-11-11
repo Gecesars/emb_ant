@@ -1,0 +1,170 @@
+{
+  "frequencia_GHz": 5.17,
+  "passes": 6,
+  "delta_s": 0.03823222228607448,
+  "convergiu": false,
+  "hfss_flag_converged_yes": true,
+  "consecutivos": 1,
+  "consecutivos_exigidos": 2,
+  "nucleos_por_passe": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "fontes_W": [
+    0.5,
+    0.5
+  ],
+  "fontes_fase_graus": [
+    0,
+    0
+  ],
+  "ordem_S8_exportada": [
+    "IN_A",
+    "IN_B",
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B",
+    "R3_A",
+    "R3_B"
+  ],
+  "ordem_S8_circuito": [
+    "IN_A",
+    "IN_B",
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B",
+    "R3_A",
+    "R3_B"
+  ],
+  "VSWR_ativo": [
+    1.0965545628398257,
+    1.0949401368838523
+  ],
+  "VSWR_outra_casada": [
+    1.1680394007015706,
+    1.2569136232928124
+  ],
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 12.75459262029657,
+      "pico_graus": 19.5,
+      "ganho_pico_dBi": 12.942828921639101,
+      "abertura_graus": 98.5813716617803,
+      "cruzamentos_graus": [
+        -48.051131298887334,
+        50.53024036289296
+      ],
+      "SLL": {
+        "nivel_dB": -0.025294855042380604,
+        "limites_lobo_principal_graus": [
+          1.0,
+          127.0
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -16.75,
+            "nivel_dB": -0.025294855042380604
+          }
+        ]
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 12.754592620296567,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 12.754592620296567,
+      "abertura_graus": 10.162842495189466,
+      "cruzamentos_graus": [
+        -5.134454987195074,
+        5.028387507994392
+      ],
+      "SLL": {
+        "nivel_dB": -7.763507051395969,
+        "limites_lobo_principal_graus": [
+          -11.5,
+          12.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -88.75,
+            "nivel_dB": -31.51471185829205
+          },
+          {
+            "angulo_graus": -61.75,
+            "nivel_dB": -17.625982402805395
+          },
+          {
+            "angulo_graus": -43.0,
+            "nivel_dB": -18.64214746712292
+          },
+          {
+            "angulo_graus": -29.0,
+            "nivel_dB": -12.983527664991144
+          },
+          {
+            "angulo_graus": -16.25,
+            "nivel_dB": -13.653528337780422
+          },
+          {
+            "angulo_graus": 16.5,
+            "nivel_dB": -17.087115650809984
+          },
+          {
+            "angulo_graus": 39.5,
+            "nivel_dB": -7.763507051395969
+          },
+          {
+            "angulo_graus": 63.75,
+            "nivel_dB": -17.587905181017614
+          }
+        ]
+      }
+    }
+  },
+  "potencia_refletida_W": 0.0020873779552614395,
+  "potencia_aceita_antena_W": 0.8670444331579994,
+  "perda_divisor_dissipacao_mais_radiacao_W": 0.13086818888673912,
+  "ondas_incidentes_antena_potencia_W": [
+    0.12646546545920645,
+    0.12477960523661687,
+    0.1712974832586179,
+    0.17316399354675616,
+    0.14025074404251328,
+    0.14136792310997148
+  ],
+  "ondas_incidentes_antena_fase_relativa_graus": [
+    4.52521776799259,
+    5.121310373742603,
+    0.0,
+    -0.4730812935120771,
+    -1.7584027392134058,
+    0.08498360020433703
+  ],
+  "dispersao_amplitude_dB": 1.4231398572758982,
+  "dispersao_fase_graus": 6.87971311295601,
+  "passividade_divisor": 0.9744956141377168,
+  "reciprocidade_divisor": 4.2972820727605914e-05,
+  "passividade_conjunto": 0.1693496376618338,
+  "reciprocidade_conjunto": 4.493358672970781e-05,
+  "erro_interconexao_scikit": 3.7367087251761353e-17,
+  "recomposicao_uniforme": {
+    "H": 2.492691762689458e-14,
+    "V": 1.0923150274288002e-14
+  },
+  "malha_major": 0,
+  "malha_minor": 0,
+  "S8_sha256": "1dc2af33b1bfe61ae49cae041ab91fa1d612713a2dc7543093cd24316e0a177c",
+  "S6_sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+  "meta_VSWR_1p25": false,
+  "meta_VSWR_ativo_1p25": true,
+  "meta_ganho_12dBi": true,
+  "meta_ganho_13dBi": false,
+  "antena_auditoria_previa_aprovada": false,
+  "qualificacao_completa": false,
+  "limitacao": "Ganho recomposto dos campos da antena; radiacao e interacao espacial direta do divisor/antena nao somadas. S6 previo com pendencias de estabilidade e reciprocidade. Divisao direta sem isolamento resistivo entre saidas."
+}

@@ -22,12 +22,20 @@ def apply(project,design,records,output):
     for name,record in sorted(records.items()):
         coated=[]
         substrate=[]
+        contacts=[]
+        if record.get('coating')=='none':
+            record['faces_sem_ENIG']=[int(f) for f in editor.GetFaceIDs(name)]
+            continue
         for face in editor.GetFaceIDs(name):
             vertices=list(editor.GetVertexIDsFromFace(face))
             if vertices:
-                zs=[float(editor.GetVertexPosition(v)[2]) for v in vertices]
+                coords=[[float(t) for t in editor.GetVertexPosition(v)] for v in vertices]
             else:
-                zs=[float(editor.GetFaceCenter(face)[2])]
+                coords=[[float(t) for t in editor.GetFaceCenter(face)]]
+            zs=[p[2] for p in coords]
+            if any(all(abs(p[0]-x)<1e-6 for p in coords) for x in record.get('skip_x_planes',[])) or any(all(abs(p[1]-y)<1e-6 for p in coords) for y in record.get('skip_y_planes',[])):
+                contacts.append(int(face))
+                continue
             if all(abs(z-record['base_z_mm'])<1e-6 for z in zs):
                 substrate.append(int(face))
             else:
@@ -35,6 +43,7 @@ def apply(project,design,records,output):
         assert coated and substrate,name
         record['faces_ENIG']=coated
         record['faces_Cu_substrato']=substrate
+        if contacts:record['faces_contato_Cu_sem_ENIG']=contacts
         exposed.extend(coated)
         base.extend(substrate)
     boundaries.AssignLayeredImp(['NAME:ENIG_faces_expostas','Faces:=',exposed,

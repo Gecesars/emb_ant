@@ -1,0 +1,57 @@
+{
+  "atual_interpolado": {
+    "rampa_graus": 0,
+    "pico_V_interpolado_graus": -0.3253383684393575,
+    "ganho_frontal_dBi": 12.763514227849154,
+    "ganho_pico_dBi": 12.775057833627281,
+    "VSWR_ativo": [
+      1.0938548404242188,
+      1.0882875864078834
+    ],
+    "VSWR_casado": [
+      1.1680140650501825,
+      1.2478895022444216
+    ],
+    "amplitude_dB": 1.2050646481789773,
+    "fase_graus": [
+      1.311414333230454,
+      1.3898222669917004,
+      0.0,
+      -0.7431219711253588,
+      0.16752664198210251,
+      1.1491779102181623
+    ],
+    "assimetria_principal_max_dB": 0.5498500172238483
+  },
+  "previsao_fase": {
+    "rampa_graus": 3.7563503241584457,
+    "pico_V_interpolado_graus": -9.398445329762521e-07,
+    "ganho_frontal_dBi": 12.762378702713013,
+    "ganho_pico_dBi": 12.762378702712915,
+    "VSWR_ativo": [
+      1.0924570592677574,
+      1.0888859156921569
+    ],
+    "VSWR_casado": [
+      1.1665837421254577,
+      1.2464006515809198
+    ],
+    "amplitude_dB": 1.2380343193726935,
+    "fase_graus": [
+      5.0429088306248175,
+      5.427569382890391,
+      0.0,
+      -0.752245556809768,
+      -3.503335321825883,
+      -2.7964513221914364
+    ],
+    "assimetria_principal_max_dB": 0.07098525936402922
+  },
+  "delta_comprimento_saidas_R1_R2_R3_mm": [
+    -0.38788957218192943,
+    0,
+    0.38788957218192943
+  ],
+  "novo_solve": false,
+  "nota": "Ajuste ideal de fase em S8: previsao para orientar geometria. Perdas, dispersao e descontinuidades de nova rota exigem HFSS. Pico interpolado nao equivale a nova grade angular exportada."
+}

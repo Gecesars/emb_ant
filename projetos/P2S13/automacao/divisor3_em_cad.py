@@ -23,10 +23,42 @@ for p in cfg['portas']:
     add('Solda_'+name,Part.makeCylinder(.65,.07,V(x,y,h+cu)),'SAC305')
     add('PTFE_'+name,Part.makeCylinder(ro,.18,V(x,y,-.18)).cut(Part.makeCylinder(ri,.18,V(x,y,-.18))),'PTFE_terminal')
     add('Massa_'+name,Part.makeCylinder(ro+.5,.18-cu,V(x,y,-.18)).cut(Part.makeCylinder(ro,.18-cu,V(x,y,-.18))),'copper')
-add('Substrato',sub.removeSplitter(),'ZYF300');add('Terra',gnd.removeSplitter(),'folha_cu');rec['Terra']={'base_z_mm':0.}
-for n,sh in foils.items():add(n,sh,'folha_cu');rec[n]={'base_z_mm':h}
+add('Substrato',sub.removeSplitter(),'ZYF300')
+allfoils={'Terra':gnd.removeSplitter(),**foils}
+if cfg.get('mask_windows'):
+    C=2.50916841304;edges=[-110,C-90,C-20,C+20,C+90,110]
+    for n,sh in allfoils.items():
+        volume=0.
+        for i,(x0,x1) in enumerate(zip(edges,edges[1:])):
+            cut=sh.common(Part.makeBox(x1-x0,64,3,V(x0,-32,-1))).removeSplitter()
+            assert len(cut.Solids)==1,(n,i)
+            name=n+'_'+str(i);add(name,cut,'folha_cu');volume+=cut.Volume
+            rec[name]=dict(base_z_mm=0. if n=='Terra' else h,coating='none' if i in [1,3] else 'ENIG',skip_x_planes=edges[1:-1])
+        assert abs(volume-sh.Volume)<1e-6,(n,volume,sh.Volume)
+    m=cfg['mask_windows'];w=next(t['width_mm'] for t in cfg['traces'] if t['name']=='A_O1')
+    yc=next(t['points'][0][1] for t in cfg['traces'] if t['name']=='A_O1')
+    zbase=h+m['over_laminate_mm'];ztop=h+cu+m['over_copper_mm']
+    for idx in [1,3]:
+        x0,x1=edges[idx:idx+2];profile=[[-32,h],[-32,zbase]]
+        for y in [-yc,yc]:profile.extend([[y-w/2-.05,zbase],[y-w/2,ztop],[y+w/2,ztop],[y+w/2+.05,zbase]])
+        profile.extend([[32,zbase],[32,h],[-32,h]])
+        sh=Part.Face(Part.makePolygon([V(x0,y,z) for y,z in profile])).extrude(V(x1-x0,0,0))
+        for foil in foils.values():sh=sh.cut(foil)
+        add('Mascara_top_'+str(idx),sh.removeSplitter(),'Soldermask_nominal')
+        add('Mascara_bottom_'+str(idx),Part.makeBox(x1-x0,64,m['over_copper_mm'],V(x0,-32,-cu-m['over_copper_mm'])),'Soldermask_nominal')
+else:
+    for n,sh in allfoils.items():add(n,sh,'folha_cu');rec[n]={'base_z_mm':0. if n=='Terra' else h}
 for r in cfg['resistores']:
     add('Corpo_'+r['name'],Part.makeBox(r['body_w'],r['body_l'],r['body_h'],V(r['x']-r['body_w']/2,r['y']-r['body_l']/2,h+cu)),'Alumina_nominal')
+if cfg.get('shield'):
+    q=cfg['shield'];t=q['wall_mm'];lid_z=h+cu+q['gap_above_copper_mm']
+    outside=Part.makeBox(220+2*t,64+2*t,lid_z+cu+t,V(-110-t,-32-t,-cu))
+    cavity=Part.makeBox(220,64,lid_z+cu,V(-110,-32,-cu))
+    add('Blindagem_Al',outside.cut(cavity).removeSplitter(),'AL5052')
+    for name,record in rec.items():
+        if name.startswith('Terra'):
+            record['skip_x_planes']=record.get('skip_x_planes',[])+[-110,110]
+            record['skip_y_planes']=[-32,32]
 d.recompute();native=ROOT/'Divisor_Duplo3.FCStd';d.saveAs(str(native))
 objects=[d.getObject(n) for n in man];bad=[];pairs=0
 for i,a in enumerate(objects):

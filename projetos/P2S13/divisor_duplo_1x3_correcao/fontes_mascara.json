@@ -1,0 +1,31 @@
+{
+  "consultado_em": "2026-11-11",
+  "substrato": "ZYF300CA-C 1.52mm, er2.94, tanD0.0016; mantido",
+  "acabamento": "ENIG nominal nas areas abertas; cobre sob mascara sem Ni/Au",
+  "fontes": [
+    {
+      "url": "https://jlcpcb.com/pcb-fabrication/high-frequency-pcb",
+      "uso": "Disponibilidade de PTFE e ENIG no servico RF; nao confirma OSP para PTFE."
+    },
+    {
+      "url": "https://jlcpcb.com/blog/basic-design-of-solder-mask",
+      "uso": "Somente o cobre exposto na abertura de mascara recebe o acabamento."
+    },
+    {
+      "url": "https://cart.jlcpcb.com/client/template/placeOrder/impedance.html",
+      "uso": "Referencia de mascara: 0.8mil sobre laminado, 0.5mil sobre cobre, Dk3.8. Nao e certificado de lote RF."
+    },
+    {
+      "url": "https://www.rogerscorp.com/blog/2020/finding-the-right-solder-mask-for-rfmicrowave-pcbs",
+      "uso": "Df tipico LPI0.025 em1GHz. Usado como hipotese nominal em5.17GHz, sem caracterizacao especifica."
+    }
+  ],
+  "mascara": {
+    "sobre_laminado_mm": 0.02032,
+    "sobre_cobre_mm": 0.0127,
+    "er": 3.8,
+    "tand_assumida": 0.025
+  },
+  "cotacao_nova": false,
+  "validacao_fabricacao": false
+}

@@ -1,0 +1,21 @@
+{
+  "ganho_frontal_min_dBi": 12.0,
+  "fontes_graus": [
+    0,
+    0
+  ],
+  "alteracao_usuario": "12 dBi incluindo divisores aceitavel; prioridade uniformidade vertical e maximo em zero",
+  "pico_vertical_alvo_graus": 0.0,
+  "vswr_max": 1.25,
+  "sweep": false,
+  "frequencia_GHz": 5.17,
+  "fontes_W": [
+    0.5,
+    0.5
+  ],
+  "nucleos": 14,
+  "delta_s": 0.05,
+  "data": "2026-11-11T15:18:10.858232-03:00",
+  "max_passes": 6,
+  "prioridade_diagrama": "Lobulo principal simetrico e centrado; lobulos secundarios documentados, sem nova meta nesta etapa"
+}

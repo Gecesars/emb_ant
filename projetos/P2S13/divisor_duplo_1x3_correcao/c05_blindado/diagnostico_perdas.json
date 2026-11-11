@@ -1,0 +1,79 @@
+{
+  "fontes_carregadas": [
+    {
+      "porta": "IN_A",
+      "potencia_W": 0.4999999999999999,
+      "fase_graus": 0.0
+    },
+    {
+      "porta": "IN_B",
+      "potencia_W": 0.4999999999999999,
+      "fase_graus": 0.0
+    },
+    {
+      "porta": "R1_A",
+      "potencia_W": 0.0007949057533495546,
+      "fase_graus": -129.38112043471423
+    },
+    {
+      "porta": "R1_B",
+      "potencia_W": 0.0007199275702917995,
+      "fase_graus": -168.2986403010173
+    },
+    {
+      "porta": "R2_A",
+      "potencia_W": 0.0033493951184172554,
+      "fase_graus": -138.16319586098913
+    },
+    {
+      "porta": "R2_B",
+      "potencia_W": 0.0027928654857974503,
+      "fase_graus": -163.51020608889522
+    },
+    {
+      "porta": "R3_A",
+      "potencia_W": 0.0015025990577259335,
+      "fase_graus": -126.45690568015047
+    },
+    {
+      "porta": "R3_B",
+      "potencia_W": 0.0017181020326406421,
+      "fase_graus": -150.46449594528005
+    }
+  ],
+  "perda_total_S8_W": 0.04953952325055666,
+  "quantidades": {
+    "RadiatedPower": {
+      "real": [
+        4.622184314074979e-05
+      ],
+      "units": ""
+    },
+    "AcceptedPower": {
+      "real": [
+        0.04953952325055592
+      ],
+      "units": ""
+    },
+    "IncidentPower": {
+      "real": [
+        1.0108777950182224
+      ],
+      "units": ""
+    },
+    "RadiationEfficiency": {
+      "real": [
+        0.0009330296318552299
+      ],
+      "units": ""
+    },
+    "SystemEfficiency": {
+      "real": [
+        4.572446181777746e-05
+      ],
+      "units": ""
+    }
+  },
+  "novo_solve": false,
+  "nativo_sha256": "36244eba35d12a39f38c0a52ff8fdbeac09549cfd0a7ce07795f964fb7bae957"
+}

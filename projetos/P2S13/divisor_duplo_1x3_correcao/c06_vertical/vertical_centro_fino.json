@@ -1,0 +1,29 @@
+{
+  "frequencia_GHz": 5.17,
+  "passo_angular_graus": 0.01,
+  "pico_V_grade_graus": -0.11,
+  "pico_V_interpolado_graus": -0.11427287772371747,
+  "ganho_pico_dBi": 12.756015039684737,
+  "ganho_zero_dBi": 12.754592620296567,
+  "diferenca_pico_zero_dB": 0.0014224193881702263,
+  "maximo_na_amostra_zero": false,
+  "assimetria_max_mais_menos4graus_dB": 0.14672245239753678,
+  "assimetria_max_lobo_3dB_comum_dB": 0.14756482349617173,
+  "intervalo_comum_lobo_3dB_graus": [
+    -5.028387507994392,
+    5.028387507994392
+  ],
+  "centro_cruzamentos_3dB_graus": -0.05303373960034108,
+  "SLL_V_dB": -7.763507051395969,
+  "erro_campos_grade_antiga": 9.03497776014379e-07,
+  "erro_relativo_campos_grade_antiga": 3.8426918411705163e-07,
+  "erro_ganho_grade_antiga_dB": 2.515806372451621e-06,
+  "limites_conferencia_grade": {
+    "campo_relativo": 1e-06,
+    "ganho_dB": 1e-05
+  },
+  "novo_solve_antena": false,
+  "S8_sha256": "1dc2af33b1bfe61ae49cae041ab91fa1d612713a2dc7543093cd24316e0a177c",
+  "S6_sha256": "f40a442d96af7113a3aa20e59a25e762b5da3c1fbd24fbc3cf01fb8a6c4e5015",
+  "nota": "Grade angular mais fina da mesma solucao de campo, nao refinamento FEM; nao elimina as pendencias de convergencia da antena."
+}

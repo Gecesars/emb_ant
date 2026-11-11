@@ -18,11 +18,15 @@ try:
     d=p.SetActiveDesign(cfg['design']);e=d.SetActiveEditor('3D Modeler');defs=p.GetDefinitionManager();bd=d.GetModule('BoundarySetup')
     e.SetModelUnits(['NAME:Units Parameter','Units:=','mm','Rescale:=',False])
     dies={'ZYF300':(2.94,.0016),'PTFE_terminal':(2.036363533774732,.00027683054882040843),'Alumina_nominal':(9.8,.0001)}
+    if cfg.get('mask_windows'):dies['Soldermask_nominal']=(cfg['mask_windows']['er'],cfg['mask_windows']['tand'])
     for name,(er,td) in dies.items():
         defs.AddMaterial(['NAME:'+name,'CoordinateSystemType:=','Cartesian','BulkOrSurfaceType:=',1,
          ['NAME:PhysicsTypes','set:=',['Electromagnetic']],'permittivity:=',str(er),'dielectric_loss_tangent:=',str(td)])
     defs.AddMaterial(['NAME:SAC305','CoordinateSystemType:=','Cartesian','BulkOrSurfaceType:=',1,
         ['NAME:PhysicsTypes','set:=',['Electromagnetic']],'conductivity:=','7.575758e6'])
+    if cfg.get('shield'):
+        defs.AddMaterial(['NAME:AL5052','CoordinateSystemType:=','Cartesian','BulkOrSurfaceType:=',1,
+            ['NAME:PhysicsTypes','set:=',['Electromagnetic']],'conductivity:=',str(cfg['shield']['conductivity_S_m'])])
     man=json.load(open(os.path.join(cad,'manifesto.json')))
     for mat in sorted(set(man.values())):
         old=set(e.GetObjectsInGroup('Solids'))
@@ -58,8 +62,8 @@ try:
         'MeshMethod:=','AnsoftClassic','UseLegacyFaceterForTauVolumeMesh:=',False,'DynamicSurfaceResolution:=',False,
         'UseFlexMeshingForTAUvolumeMesh:=',False,'UseAlternativeMeshMethodsAsFallBack:=',False,'AllowPhiForLayeredGeometry:=',False])
     an=d.GetModule('AnalysisSetup');an.InsertSetup('HfssDriven',['NAME:Centro','Frequency:=','5.17GHz','MaxDeltaS:=',.05,
-        'MaximumPasses:=',6,'MinimumPasses:=',2,'MinimumConvergedPasses:=',2,'PercentRefinement:=',30,
-        'BasisOrder:=',1,'DoLambdaRefine:=',False,'SetLambdaTarget:=',False,'DrivenSolverType:=','Iterative Solver',
+        'MaximumPasses:=',6,'MinimumPasses:=',2,'MinimumConvergedPasses:=',2,'PercentRefinement:=',cfg.get('percent_refinement',30),
+        'BasisOrder:=',cfg.get('basis_order',1),'DoLambdaRefine:=',False,'SetLambdaTarget:=',False,'DrivenSolverType:=','Iterative Solver',
         'IterativeResidual:=',1e-5,'SaveAnyFields:=',True,'SaveRadFieldsOnly:=',True])
     sol=d.GetModule('Solutions');ports=list(sol.GetAllSources());assert len(ports)==8
     sol.EditSources([['IncludePortPostProcessing:=',False,'SpecifySystemPower:=',False]]+

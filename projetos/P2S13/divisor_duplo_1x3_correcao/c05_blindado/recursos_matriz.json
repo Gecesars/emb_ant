@@ -1,0 +1,52 @@
+[
+  {
+    "passe_adaptativo": 1,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 1"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 22, 0, 161, 0, 2751504, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 351095, false, 3, 'Matrix bandwidth', 38.893, '%5.1f', 3, 'Iterations', 34.25, '%5.1f', 1, 'Disk', '1.65 KB')', true, true)"
+  },
+  {
+    "passe_adaptativo": 2,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 2"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 34, 0, 235, 0, 3756744, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 544310, false, 3, 'Matrix bandwidth', 39.9757, '%5.1f', 3, 'Iterations', 31.5, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 3,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 3"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 55, 0, 292, 0, 5168844, 'I(6, 1, 'Type', 'DCS-L2', 2, 'Cores', 14, false, 2, 'Matrix size', 773621, false, 3, 'Matrix bandwidth', 40.6309, '%5.1f', 3, 'Iterations', 28.625, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 4,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 4"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 296, 0, 1644, 0, 10996676, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 1119032, false, 3, 'Matrix bandwidth', 41.1385, '%5.1f', 3, 'Iterations', 126.875, '%5.1f', 1, 'Disk', '5 Bytes')', true, true)"
+  },
+  {
+    "passe_adaptativo": 5,
+    "nucleos": 14,
+    "grupos": [
+      "Solution Process",
+      "Adaptive Meshing",
+      "Adaptive Pass 5"
+    ],
+    "linha": "ProfileItem('Matrix Solve', 287, 0, 1964, 0, 13264088, 'I(6, 1, 'Type', 'DCS-L3', 2, 'Cores', 14, false, 2, 'Matrix size', 1644947, false, 3, 'Matrix bandwidth', 41.5901, '%5.1f', 3, 'Iterations', 103.5, '%5.1f', 1, 'Disk', '0 Bytes')', true, true)"
+  }
+]
