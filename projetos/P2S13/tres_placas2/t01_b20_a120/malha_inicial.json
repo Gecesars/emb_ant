@@ -1,0 +1,548 @@
+{
+  "reparos_major": 0,
+  "reparos_minor": 0,
+  "origem": "GenerateMesh concluiu, mensagens sem warning/error, estatisticas completas dos 89 corpos. Nao foi gerado nominalmesh.g3derr. Classic estrito nao exporta colunas de area recuperada.",
+  "arquivo_avisos_presente": false,
+  "tempo_s": 223.96029663085938,
+  "corpos": 89,
+  "recuperacao_percentual_exportada": false,
+  "todos_recuperados_100_percent": null,
+  "tetraedros": 163528,
+  "estatisticas_sha256": "1318efe782d1da057ce765600069b82e78a54d024783a85181e3db0da056cdf8",
+  "corpos_estatisticas": [
+    {
+      "body_id": 214,
+      "tetraedros": 3286,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 244,
+      "tetraedros": 3325,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 274,
+      "tetraedros": 3147,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 304,
+      "tetraedros": 3334,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 334,
+      "tetraedros": 3344,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 364,
+      "tetraedros": 3127,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 394,
+      "tetraedros": 7941,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 458,
+      "tetraedros": 8998,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 522,
+      "tetraedros": 7585,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 586,
+      "tetraedros": 374,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 609,
+      "tetraedros": 385,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 632,
+      "tetraedros": 310,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 655,
+      "tetraedros": 288,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 678,
+      "tetraedros": 307,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 701,
+      "tetraedros": 398,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 724,
+      "tetraedros": 212,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 740,
+      "tetraedros": 2966,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 763,
+      "tetraedros": 1215,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 780,
+      "tetraedros": 233,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 796,
+      "tetraedros": 2947,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 819,
+      "tetraedros": 1229,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 836,
+      "tetraedros": 131,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 852,
+      "tetraedros": 133,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 868,
+      "tetraedros": 128,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 884,
+      "tetraedros": 124,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 900,
+      "tetraedros": 142,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 916,
+      "tetraedros": 2712,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 939,
+      "tetraedros": 1210,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 956,
+      "tetraedros": 128,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 972,
+      "tetraedros": 3025,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 995,
+      "tetraedros": 1235,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1012,
+      "tetraedros": 134,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1028,
+      "tetraedros": 127,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1044,
+      "tetraedros": 125,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1060,
+      "tetraedros": 126,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1076,
+      "tetraedros": 122,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1092,
+      "tetraedros": 3099,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1115,
+      "tetraedros": 1234,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1132,
+      "tetraedros": 221,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1148,
+      "tetraedros": 2576,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1171,
+      "tetraedros": 1281,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1188,
+      "tetraedros": 130,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1204,
+      "tetraedros": 130,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1220,
+      "tetraedros": 131,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1236,
+      "tetraedros": 123,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 1252,
+      "tetraedros": 1061,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 2414,
+      "tetraedros": 169,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 2496,
+      "tetraedros": 167,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 2578,
+      "tetraedros": 929,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 3824,
+      "tetraedros": 545,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 4992,
+      "tetraedros": 280,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 5032,
+      "tetraedros": 286,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 5072,
+      "tetraedros": 534,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 6240,
+      "tetraedros": 1836,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 8920,
+      "tetraedros": 1931,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 11600,
+      "tetraedros": 50,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 11700,
+      "tetraedros": 77,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 11800,
+      "tetraedros": 127,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 11900,
+      "tetraedros": 56,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 12000,
+      "tetraedros": 1157,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 13162,
+      "tetraedros": 163,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 13244,
+      "tetraedros": 167,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 13326,
+      "tetraedros": 970,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 14572,
+      "tetraedros": 517,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 15740,
+      "tetraedros": 271,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 15780,
+      "tetraedros": 263,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 15820,
+      "tetraedros": 551,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 16988,
+      "tetraedros": 2210,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 19668,
+      "tetraedros": 1872,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 22348,
+      "tetraedros": 57,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 22448,
+      "tetraedros": 60,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 22548,
+      "tetraedros": 67,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 22648,
+      "tetraedros": 196,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 22748,
+      "tetraedros": 1083,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 23910,
+      "tetraedros": 165,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 23992,
+      "tetraedros": 178,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 24074,
+      "tetraedros": 948,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 25320,
+      "tetraedros": 532,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 26488,
+      "tetraedros": 268,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 26528,
+      "tetraedros": 276,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 26568,
+      "tetraedros": 531,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 27736,
+      "tetraedros": 1869,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 30416,
+      "tetraedros": 1809,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 33096,
+      "tetraedros": 63,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 33196,
+      "tetraedros": 62,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 33296,
+      "tetraedros": 58,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 33396,
+      "tetraedros": 68,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 33580,
+      "tetraedros": 59392,
+      "planar_percent": null,
+      "curva_percent": null
+    },
+    {
+      "body_id": 33608,
+      "tetraedros": 4708,
+      "planar_percent": null,
+      "curva_percent": null
+    }
+  ]
+}

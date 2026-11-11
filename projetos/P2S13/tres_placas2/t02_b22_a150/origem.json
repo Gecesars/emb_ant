@@ -1,0 +1,25 @@
+{
+  "PCB2": "D:\\dev\\EMBRAER\\P2S13\\R02_Casamento_Placa2\\m00\\placa2",
+  "fontes_sha256": {
+    "2_elementos_simetrica.FCStd": "f6624364c91b0df51b614343a206248c77b8f4362394dc1fbe969146cf2330e2",
+    "geometria.json": "2a62de019e2672c01b44eb57431057d498f099d43fa2349f226af6c4a000725e",
+    "cad/manifesto.json": "6ec1f8fe9b813c41c887776df7214aaaea94da813ca90383d683aecebfd64623",
+    "cad/folhas_solidas.json": "90598164b4c21e37b893138c9746b065207382147ed88f6d03c85bf713489389"
+  },
+  "centros_placas_X_mm": [
+    -96,
+    0,
+    96
+  ],
+  "centros_elementos_X_mm": [
+    -120,
+    -72,
+    -24,
+    24,
+    72,
+    120
+  ],
+  "vao_placas_mm": 8,
+  "PCBs_identicas": true,
+  "substitui": "R04_4mais2 interrompido pelo usuario"
+}

@@ -1,8 +1,12 @@
-# P2S13 — estudo do refletor para 110° horizontal
+# P2S13 — três placas de dois elementos e alvo H100°
+
+**P2S13 — três PCBs idênticas de dois elementos, 11/11.** A composição 4+2 foi interrompida a pedido do usuário. O novo painel usa seis níveis a 48 mm, três placas a 96 mm e seis entradas de 1/6 W a 0°. Caso mais próximo do alvo de 100°: dobra a **28.5 mm / 150°**, ganho frontal **13.280 dBi**, H **99.32°**, V **9.91°**. VSWR máximo ativo/casado **1.4783/1.4423**. **6 passes, ΔS 0.041546; convergência S: não. Aprovação conjunta: pendente.** 5,17 GHz, 14 núcleos, sem sweep, cabos físicos com perdas. Nenhum resultado não convergido é declarado validado. [Resultados, diagramas e nativos](tres_placas2/README.md). [Campanha 4+2 encerrada](dobras_placas_ajustadas/README.md).
+
+## Histórico anterior: oito níveis e composição 4+2
 
 Nova revisão iniciada em 10/11/2026 após a entrega da mecânica preliminar P2M21 R18. A R18 e seus documentos enviados por e-mail permanecem preservados.
 
-**Revisão atual, 11/11: dois passes adicionais com a malha preservada.** O conjunto 4+2 concluiu os passes 7 e 8 em 5,17 GHz, com 14 núcleos e quatro entradas iguais/em fase. **ΔS=0,016429**, três passes consecutivos abaixo de 0,05. VSWR ativo PCB2 **1,22085/1,14980**, demais entradas casadas **1,10125/1,14708**: a meta ≤1,25 foi atingida numericamente. Ganho frontal total **10,7554 dBi**, H **86,738°**, V **10,148°**, máximos **−0,50°/+2,50°**. **A validação completa permanece pendente:** uma sonda de campo variou 0,7446 dB e a reciprocidade excedeu o limite da auditoria (3,84×10⁻⁵ contra 1×10⁻⁵). [Comparação, diagramas, evidências e HFSS atualizado](continuacao_placa2/README.md).
+**Revisão histórica, 11/11: dois passes adicionais com a malha preservada.** O conjunto 4+2 concluiu os passes 7 e 8 em 5,17 GHz, com 14 núcleos e quatro entradas iguais/em fase. **ΔS=0,016429**, três passes consecutivos abaixo de 0,05. VSWR ativo PCB2 **1,22085/1,14980**, demais entradas casadas **1,10125/1,14708**: a meta ≤1,25 foi atingida numericamente. Ganho frontal total **10,7554 dBi**, H **86,738°**, V **10,148°**, máximos **−0,50°/+2,50°**. **A validação completa permanece pendente:** uma sonda de campo variou 0,7446 dB e a reciprocidade excedeu o limite da auditoria (3,84×10⁻⁵ contra 1×10⁻⁵). [Comparação, diagramas, evidências e HFSS atualizado](continuacao_placa2/README.md).
 
 Os transformadores simétricos de **0,546717 × 13,151813 mm**, o refletor b10/90 e os cabos físicos foram mantidos. A revisão de seis passes e seus resultados permanecem preservados no [histórico do casamento da PCB2](casamento_placa2/README.md). Nenhum novo sweep ou passe além dos dois solicitados foi executado.
 

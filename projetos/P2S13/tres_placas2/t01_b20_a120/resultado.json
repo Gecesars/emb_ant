@@ -1,0 +1,166 @@
+{
+  "variante": "t01_b20_a120",
+  "frequencia_GHz": 5.17,
+  "passes": 6,
+  "delta_s": 0.04259178921965259,
+  "convergiu": false,
+  "nucleos": 14,
+  "mesh_method": "AnsoftClassic",
+  "tau_flex": false,
+  "potencia_total_W": 1,
+  "potencia_por_porta_W": 0.16666666666666666,
+  "fase_graus": 0,
+  "ordem_portas": [
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B",
+    "R3_A",
+    "R3_B"
+  ],
+  "VSWR_ativo": [
+    1.2656368600422128,
+    1.2539960661340135,
+    1.4246452193530814,
+    1.3887202418800038,
+    1.3736747211121219,
+    1.3907671085511224
+  ],
+  "VSWR_casado": [
+    1.2245512515373391,
+    1.3418731057645583,
+    1.1801578044697298,
+    1.286502327831477,
+    1.250245962465701,
+    1.3637316284623333
+  ],
+  "maior_singular": 0.28621560105359706,
+  "reciprocidade": 0.00017247810202111754,
+  "potencia_aceita_W": 0.9774837625354215,
+  "major": 0,
+  "minor": 0,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 12.83506571237211,
+      "pico_graus": 17.25,
+      "ganho_pico_dBi": 12.911317695323337,
+      "abertura_graus": 105.51919551650656,
+      "cruzamentos_graus": [
+        -51.466769445355105,
+        54.05242607115146
+      ],
+      "SLL": {
+        "nivel_dB": -0.04666472516835185,
+        "limites_lobo_principal_graus": [
+          -0.75,
+          104.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -13.5,
+            "nivel_dB": -0.04666472516835185
+          }
+        ]
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 12.83506571237211,
+      "pico_graus": -0.5,
+      "ganho_pico_dBi": 12.87649246940427,
+      "abertura_graus": 9.959049093217272,
+      "cruzamentos_graus": [
+        -5.51360262450765,
+        4.445446468709623
+      ],
+      "SLL": {
+        "nivel_dB": -9.050477674828493,
+        "limites_lobo_principal_graus": [
+          -11.5,
+          11.5
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -89.0,
+            "nivel_dB": -20.50910761868264
+          },
+          {
+            "angulo_graus": -62.25,
+            "nivel_dB": -13.229733402420287
+          },
+          {
+            "angulo_graus": -43.0,
+            "nivel_dB": -14.912487989929605
+          },
+          {
+            "angulo_graus": -29.25,
+            "nivel_dB": -12.795169889433673
+          },
+          {
+            "angulo_graus": -16.5,
+            "nivel_dB": -11.485233002890261
+          },
+          {
+            "angulo_graus": 16.0,
+            "nivel_dB": -16.43997046190965
+          },
+          {
+            "angulo_graus": 39.75,
+            "nivel_dB": -9.050477674828493
+          },
+          {
+            "angulo_graus": 64.5,
+            "nivel_dB": -13.810989499605345
+          }
+        ]
+      }
+    }
+  },
+  "recomposicao": {
+    "H": 2.9465629358921123e-15,
+    "V": 3.5357602912133805e-15
+  },
+  "potencia": {
+    "H": {
+      "eficiencia_radiacao": 0.8753409637702718,
+      "eficiencia_total": 0.8556315787675427,
+      "erro_aceita_W": 5.329070518200751e-15
+    },
+    "V": {
+      "eficiencia_radiacao": 0.8753409637702718,
+      "eficiencia_total": 0.8556315787675427,
+      "erro_aceita_W": 5.329070518200751e-15
+    }
+  },
+  "fisica_ok": false,
+  "verificacoes": {
+    "passividade": true,
+    "reciprocidade": false,
+    "limite_reciprocidade": 1e-05,
+    "potencia_aceita": true,
+    "malha_sem_major": true,
+    "eficiencia_e_balanco": true
+  },
+  "cache_confere": true,
+  "estavel_nove_sondas": false,
+  "metas_numericas": {
+    "ganho_13dBi": false,
+    "horizontal_alvo_100_mais_menos_1grau": false,
+    "VSWR_1p25": false
+  },
+  "validado_numericamente": false,
+  "aprovado": false,
+  "metas_estudo_tres_placas": {
+    "H_alvo_graus": 100,
+    "desvio_H_graus": 5.5191955165065565,
+    "H_dentro_10porcento": true,
+    "ganho_minimo": false,
+    "VSWR_maximo": 1.4246452193530814,
+    "VSWR_meta": false
+  },
+  "alvo_H_100_mais_menos_1grau_numerico": false,
+  "metas_historicas": {
+    "ganho_13dBi": false,
+    "horizontal_99_121": true,
+    "vertical_16p2_19p8": false
+  }
+}

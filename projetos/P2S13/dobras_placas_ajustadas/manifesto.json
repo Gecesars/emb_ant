@@ -1,0 +1,804 @@
+{
+  "artefatos": [
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/comparacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\comparacao.json",
+      "sha256": "685d95ae3e1dd12f457f41cab55ae3527d155c9a384a53396d07433e643cb569",
+      "bytes": 5189
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/comparacao.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\comparacao.csv",
+      "sha256": "7cd57a08bd643d1bca6b78fc5ef993115d637edcc61b5ce3998de189538377d7",
+      "bytes": 1195
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/comparacao_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\comparacao_HV.png",
+      "sha256": "4b6de89004590064b6272f4632c6101fb27a9eba07ed6ad383bbc5f825d7342e",
+      "bytes": 216233
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/perfis_refletor.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\perfis_refletor.png",
+      "sha256": "a72e6ffca4d8cf4ff2ac1bd5646cbde432ea10dd342693030135dda4eb09487b",
+      "bytes": 153054
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/entrega.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\entrega.json",
+      "sha256": "b06ad6b5ddfab315f4d687b7827b910f39e97c1320decc7dd6b39b10bad243e8",
+      "bytes": 312
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/auditoria_campanha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\auditoria_campanha.json",
+      "sha256": "efb653a63dbe08d7d48c5c56b71fa302bd8b6fb51b7fb426e49116bd0edd8a2c",
+      "bytes": 1337
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/interrupcao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\interrupcao.json",
+      "sha256": "3b42e6732b91546a70410daacebfcb1070ff11cd32106617e9eea188a0ec987a",
+      "bytes": 559
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/P2S13_Dobras.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\P2S13_Dobras.aedt",
+      "sha256": "5e8ea03d7e12dcae25a36d132f848a5c9f74728d5d3e08505fcfbdf1c6a19af6",
+      "bytes": 14071489
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/P2S13_Dobras.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\P2S13_Dobras.FCStd",
+      "sha256": "29776d7833fed5c9856e148d9e8a545886986061ed00d9a210586c282a4e6012",
+      "bytes": 863782
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\configuracao.json",
+      "sha256": "f6bfb896bd98942b95cadd7b49008476fbc129b3ae32eaab776faa91bdb4d598",
+      "bytes": 4446
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/origem.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\origem.json",
+      "sha256": "5a5cbaea3ae8730f2d11154617425a397f12bae887411193692bd873a7f62721",
+      "bytes": 264
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\resultado.json",
+      "sha256": "4038c2dd90d81a3382e5aef948dabb357ad9015be20e75790353d10bbdfccf70",
+      "bytes": 3500
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\convergencia.txt",
+      "sha256": "02266effe685e68fdd9a87b525755eca19a12aaa62afa325cba90b65df8b3ad1",
+      "bytes": 622
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\historico_passes.json",
+      "sha256": "eaea123e88d10d97db4d8a7cae6fe0a9c1ed0bfafa3d28747b559aae77d29bb9",
+      "bytes": 3759
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\recursos_matriz.json",
+      "sha256": "28afd3e85e293b3a7a03d80cd5f6907b909652fe410cad707aad24c1609e9128",
+      "bytes": 2548
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\malha.json",
+      "sha256": "631bfdb1a614eaa3e9fabb2436cfc282080b498ae9f222e1bd078a2f09545181",
+      "bytes": 25673
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\malha_inicial.json",
+      "sha256": "edb4f54b6fa29c96ce9648a69b4a6e3eb9b023ce35942292458b32565bede78b",
+      "bytes": 9580
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\estatisticas_malha_inicial.txt",
+      "sha256": "5731a7d346268d76dcde70439be6c2b1d99fa1732b1985f54a40273a7dcae1a3",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\geracao_malha.json",
+      "sha256": "000a8690ccdfcc9599f921c20584eee17665de52becd88f0c628af1c98ff2628",
+      "bytes": 119
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\mensagens.json",
+      "sha256": "20c8c0158a19e4a50bf4c91368568415542c610e45d1d21c991693547db0bd3c",
+      "bytes": 355
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\mensagens_malha.json",
+      "sha256": "113c23e7aa6c4febb1d1ba990e3932a18fb5fdafd6e7924ec1dfc7a7ea91ef40",
+      "bytes": 175
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\hfss_validacao.json",
+      "sha256": "b3ba634203af5d43b099b0028fbc59e9c9e37f6507f09d2b1d9672223d4f5767",
+      "bytes": 366
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/conferencia_reconstrucao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\conferencia_reconstrucao.json",
+      "sha256": "99d5597f71ed79bc6ee4e36daf37ab2a5c4247396e2400c9c36363e4c0da82a5",
+      "bytes": 1017
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\diagramas_HV.png",
+      "sha256": "26e685902181d2382fc0d8cf1592468625c6866198e7051777d200dde97295d1",
+      "bytes": 102410
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\polar_HV.png",
+      "sha256": "1c6b244847952e654016cba88b4b47a1b9683929aa7da09983fd86ad8360004a",
+      "bytes": 218900
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\centro.s4p",
+      "sha256": "b8608a0e5fd56ff1cda72b228f774f64d9058bc5c9c1682031dc37592dfadaf0",
+      "bytes": 1554
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/AL5052.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\AL5052.step",
+      "sha256": "a8c4e4b049c20caa50b4dee22c6015317e014dc1963cda2ae2a848199d8d50cb",
+      "bytes": 18433
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\ALL_H.csv",
+      "sha256": "2725a77474dacfbeb323b0eca81d04e9235fa807f7b4a0cd2585fdb4a686089d",
+      "bytes": 195691
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\ALL_V.csv",
+      "sha256": "3de6a694cf56b2631412cd9a4316860efc770d44102c46fe7e91b70db0cd5e50",
+      "bytes": 196960
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\POL_A_H.csv",
+      "sha256": "97e140afbe8abad4ee4d42ab19bcaaded57203d0aed174c592e76b76aeb4532c",
+      "bytes": 195708
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\POL_A_V.csv",
+      "sha256": "96f16b160f2de3d02cc04360d4ede0b56efa8e00f903a8ec69f903d20c92029a",
+      "bytes": 197149
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\POL_B_H.csv",
+      "sha256": "451d1bfbd4e2004409fe705f093bcf7c2010cf443628c2ae675c525ad6b089ec",
+      "bytes": 195194
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\POL_B_V.csv",
+      "sha256": "fe62611d1f4b18ea168a7e3073ab95aa12d0bef1325197908312ec6e7d8d84b7",
+      "bytes": 197424
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R1_A_H.csv",
+      "sha256": "9bab240ffd3ddf1a3e132a74322c8f28824fc31915b7e60c38da53ef65e7d576",
+      "bytes": 197691
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R1_A_V.csv",
+      "sha256": "b2df5d4c33c1bae9fbf104a54e6076a0257166687229db7aaee5424a52e5946e",
+      "bytes": 197243
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R1_B_H.csv",
+      "sha256": "08228e73d0606ea960f2d99eb4a4c271f9c45f2765c9a28f885fb98e5c138275",
+      "bytes": 196177
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R1_B_V.csv",
+      "sha256": "7a5a23182cff58f524a4caee85c76ffa9f60ed850bdb30128619c2d7f733d94d",
+      "bytes": 197065
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R2_A_H.csv",
+      "sha256": "29c3e22ad11ba99c7313cd86bfe3e122ffcca18cfd39df075eba1e1ced9712b3",
+      "bytes": 196014
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R2_A_V.csv",
+      "sha256": "0eccb8eb46579c2f04a073ef632ce0764e0548749d8acd8ae95ff2ad79cbd917",
+      "bytes": 197547
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R2_B_H.csv",
+      "sha256": "6847b0a8e0610a30234dced8d72ee8d2e2b428954a862fc114815a7a49d71d2c",
+      "bytes": 196525
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\R2_B_V.csv",
+      "sha256": "6afdf4664e34da662d592f2a5ecf14904bfeceae275d42f7fee54ba3591a3607",
+      "bytes": 197975
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\enig_hfss.json",
+      "sha256": "577b7f9f426694fe9c5d1b33d0402ea42ccaa756c32870bd7cde523cb38a4f05",
+      "bytes": 63368
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\intersecoes.json",
+      "sha256": "ed21d8a0a7d93bf15694d16791560021e59d5465ff9030397f851645a1c3dc66",
+      "bytes": 8637
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d00_b3_a90/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d00_b3_a90\\cad\\reabertura.json",
+      "sha256": "d7a38c88fc6dc0da915a5c33055614d767d2380981b5ffcde169054344083f98",
+      "bytes": 130
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/P2S13_Dobras.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\P2S13_Dobras.aedt",
+      "sha256": "b68f713e9c360f00d56dc9265391b80047d157127fc99c96a10632dc7dab199b",
+      "bytes": 14082689
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/P2S13_Dobras.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\P2S13_Dobras.FCStd",
+      "sha256": "18bd5b001471930f98f2aec5d6afe486fce4977602210115b2197ccc944d2c80",
+      "bytes": 869529
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\configuracao.json",
+      "sha256": "db6c0e7ff68a8d4418d5b0f7d914cead7f841f783ca3909144a499d0ebe94967",
+      "bytes": 4450
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/origem.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\origem.json",
+      "sha256": "5a5cbaea3ae8730f2d11154617425a397f12bae887411193692bd873a7f62721",
+      "bytes": 264
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\resultado.json",
+      "sha256": "7f68077eaed0e839eaba0360362b595b52602729cff8871bef844b075532b4c6",
+      "bytes": 3503
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\convergencia.txt",
+      "sha256": "b4c26856794a6900d5b832d1cf26d9366cc30a677e07882201e1578f0164c4ee",
+      "bytes": 622
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\historico_passes.json",
+      "sha256": "03ea8b8c4ac4dd3b77877e9e6c3ff19025d36eabacea82caf40b1d962bf43791",
+      "bytes": 3745
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\recursos_matriz.json",
+      "sha256": "fcabe904ac33dd3ca83d51d5c29cafed6c415017ff5610641e0907caf83bfd17",
+      "bytes": 2543
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\malha.json",
+      "sha256": "8c718063729d75dc90d11259be4dc6c7e53eb0c9fd248b4944f56e96bc653a82",
+      "bytes": 55714
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\malha_inicial.json",
+      "sha256": "a3f3449ae9645389403df37c2c31179e596181be2156b463492ed30f117d2aa0",
+      "bytes": 9581
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\estatisticas_malha_inicial.txt",
+      "sha256": "ee1e074e2847ee1a330bd8cf60d02c6bdc20702c4566ea8ba962d8c9dd165a11",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\geracao_malha.json",
+      "sha256": "042b352c0d6cb9de6b12375334706f7208d18e0d341d553101a1bb2b0e371475",
+      "bytes": 119
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\mensagens.json",
+      "sha256": "de63c0382742912b9f2fb774c45cada09f384364f36f4ea25999c7df5aaf535c",
+      "bytes": 355
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\mensagens_malha.json",
+      "sha256": "d0cda86a5d0b657136e5df55ed6f30ccd759d124f6904454b44cccbeae3d50ef",
+      "bytes": 175
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\hfss_validacao.json",
+      "sha256": "b3ba634203af5d43b099b0028fbc59e9c9e37f6507f09d2b1d9672223d4f5767",
+      "bytes": 366
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/conferencia_reconstrucao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\conferencia_reconstrucao.json",
+      "sha256": "da17a3a09a6a3eec72174974072807f3554fcea707e046d2f4703442599a9d7d",
+      "bytes": 113
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\diagramas_HV.png",
+      "sha256": "c52bcefc02c26fd0f8c827acd859b3853284bc801affdcdab9cf75d0f9759261",
+      "bytes": 101247
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\polar_HV.png",
+      "sha256": "347355cb911ce31b76fcbdd2939d30b0ff29765cfb3f437293a8594775943097",
+      "bytes": 205594
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\centro.s4p",
+      "sha256": "cce2a7b72555d4ea15a8abf19005d3ceb5fa4301d4ad257122374754de1cd015",
+      "bytes": 1553
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/AL5052.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\AL5052.step",
+      "sha256": "868eda0e1d74313fe5be43caef59233b782055ed442ca7b279182c78e0406adf",
+      "bytes": 32698
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\ALL_H.csv",
+      "sha256": "f55f273a11180a570dcf4f164eb8ac071c764c2c4eec47d5b937627d4a520b47",
+      "bytes": 197524
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\ALL_V.csv",
+      "sha256": "acb1250ab3797fada3f70f26fabfa5183b602830bd248846cfdce7e1c685ae40",
+      "bytes": 197098
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\POL_A_H.csv",
+      "sha256": "a085ade1f1afe06269d6ba917ea8ffb1ee764fd2d87b7a759c61048b0008c107",
+      "bytes": 197266
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\POL_A_V.csv",
+      "sha256": "82eb8cc15965628c8bac06097634044ea37fe9821f7fb0b597647e07d90ec7df",
+      "bytes": 197119
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\POL_B_H.csv",
+      "sha256": "db4280573878f49d5ecdc33a8c7b4d1e2035df66e9dfb6a54eb20ac3668f42e8",
+      "bytes": 197375
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\POL_B_V.csv",
+      "sha256": "7c9bf9ecaf3e867f36335e9b6a537dc6513388e4c1adfea50d1f4144c54a57ee",
+      "bytes": 197306
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R1_A_H.csv",
+      "sha256": "43662aa37c168e4376decd7c7268ba485a1b23b1ba97a8e04d04814ff73d0782",
+      "bytes": 198509
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R1_A_V.csv",
+      "sha256": "15d214c41bc11c59e618823c8379f33773b4eca454969047f96027aec7a437aa",
+      "bytes": 197354
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R1_B_H.csv",
+      "sha256": "2b0dcb398c0cce3152591bf8be8613783f620367ac6ee1770e4e47b9cf38777c",
+      "bytes": 197788
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R1_B_V.csv",
+      "sha256": "c01c82f7d90a1086d941a796c08c694ad760d94497ee967c77befe0d1df5c9f8",
+      "bytes": 196895
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R2_A_H.csv",
+      "sha256": "cc03c9147e2bc9cd5950c8ad29353ce6df21ea0541e4407b1f03b2163e251abb",
+      "bytes": 196816
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R2_A_V.csv",
+      "sha256": "4f453e069516984441c3c11ed41dc9e2ff5c92f5aed0d9c7a509c1f50bf840e9",
+      "bytes": 196954
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R2_B_H.csv",
+      "sha256": "54f35a8dfb0d97c6c9790974bb25fd14eff583014ca89ed4f71c72336b2657b5",
+      "bytes": 197732
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\R2_B_V.csv",
+      "sha256": "1284906554ebad968e97979c43d5f9ba2894af1a7d1f532fb91c76e62eb52501",
+      "bytes": 197606
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\enig_hfss.json",
+      "sha256": "17619c96e80192f20a58cf3d0b979709d761f1085a5342f3b26fa45f5be64b32",
+      "bytes": 63412
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\intersecoes.json",
+      "sha256": "b3288728fab848eec47f838d38facd9f7b40486713ac5999995748be93399301",
+      "bytes": 8640
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d01_b20_a120/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d01_b20_a120\\cad\\reabertura.json",
+      "sha256": "1dd8837f79d7f81d9ea0e607955ba9c54758f1388ae95ca937a38a98dd388c8c",
+      "bytes": 130
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/P2S13_Dobras.aedt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\P2S13_Dobras.aedt",
+      "sha256": "34a94d9fa086b3bf5a11558f53d38f776a2db3e5a6b9f1b319d9dc8b59cc5709",
+      "bytes": 14082619
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/P2S13_Dobras.FCStd",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\P2S13_Dobras.FCStd",
+      "sha256": "f2ef11753b9c2701f1501ae9a82da1ab987e281eeff214e471bc7fda9a3bdc25",
+      "bytes": 869706
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/HFSS_14nucleos.acf",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/configuracao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\configuracao.json",
+      "sha256": "e655465de4edfd76456b0cbc83b3e94dd42e2149a7b8e947812e0bd1fb84302e",
+      "bytes": 4450
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/origem.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\origem.json",
+      "sha256": "5a5cbaea3ae8730f2d11154617425a397f12bae887411193692bd873a7f62721",
+      "bytes": 264
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/resultado.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\resultado.json",
+      "sha256": "b381238da05f1de5682f47769b81bc53d996645cd5a5127889beb2a9f8e7eca8",
+      "bytes": 3502
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/convergencia.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\convergencia.txt",
+      "sha256": "fd25faa64fc72b1bc4da0e5fed1db5ce4f8bdeb65192e18e2cbcc516f62e9a79",
+      "bytes": 623
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/historico_passes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\historico_passes.json",
+      "sha256": "349aa44a1392d4ce457cd5542b1652e3c64b788f3a6d843382801ff8094ef4f3",
+      "bytes": 3743
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/recursos_matriz.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\recursos_matriz.json",
+      "sha256": "1e64b30c4ae8855a2ee23847d8a71433df530ed9971444782089a7f1f5d54d04",
+      "bytes": 2551
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/ordem_fontes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\ordem_fontes.json",
+      "sha256": "fd524c3860bcc8e0ec5e54d9465541c0167709edd06a2ec322eec134a31ea3da",
+      "bytes": 50
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\malha.json",
+      "sha256": "acb849da876568e1b72d88fac8c5405eab2813486353b06203fbec46c286d0ba",
+      "bytes": 27467
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/malha_inicial.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\malha_inicial.json",
+      "sha256": "ce740760a1ef6c831ef6734423b67e653aeb1579349a7c00acceab46f0a0859c",
+      "bytes": 9585
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/estatisticas_malha_inicial.txt",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\estatisticas_malha_inicial.txt",
+      "sha256": "20fbf3ababa69c9db2cdd7fa3eb8adefe7b83b9018358f95f7a1e15caed98aab",
+      "bytes": 11398
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/geracao_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\geracao_malha.json",
+      "sha256": "c9324228dc59d42f54e9287fbf63c94b1e90b067079fa0a943aed800cb980c63",
+      "bytes": 119
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/mensagens.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\mensagens.json",
+      "sha256": "ffba889c612c41dfc600cb0ad78f394050aa260d3e3197e85ebdecffd403f743",
+      "bytes": 355
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/mensagens_malha.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\mensagens_malha.json",
+      "sha256": "e2588727b14d403d9ae06daf704972608371c658b6d7464cc780ec33a337e67d",
+      "bytes": 175
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/hfss_validacao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\hfss_validacao.json",
+      "sha256": "b3ba634203af5d43b099b0028fbc59e9c9e37f6507f09d2b1d9672223d4f5767",
+      "bytes": 366
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/conferencia_reconstrucao.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\conferencia_reconstrucao.json",
+      "sha256": "da17a3a09a6a3eec72174974072807f3554fcea707e046d2f4703442599a9d7d",
+      "bytes": 113
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/diagramas_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\diagramas_HV.png",
+      "sha256": "f93ef68d69ac686cd38789bc1b72843629bb3c69935bc98b2f5c2dcc4fc06f48",
+      "bytes": 103875
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/polar_HV.png",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\polar_HV.png",
+      "sha256": "490e863551164a604cc6bed17e7d50ae54420967699e399c497c9a6ad2962b99",
+      "bytes": 208828
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/centro.s4p",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\centro.s4p",
+      "sha256": "61fae6a3c9497ddf8bc81f6f6c1334094ffc2c5f92b2dd35ab50b744d9c3e567",
+      "bytes": 1560
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/AL5052.step",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\AL5052.step",
+      "sha256": "72743b7a6657973f207136f21c3d2ee7a41586de61c7bb8bef289f242c988f41",
+      "bytes": 32758
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/ALL_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\ALL_H.csv",
+      "sha256": "5ce59d6fddc3d29a9cb6ab8c15886920f551c3fe5b4629feb599a2d67f86f0b8",
+      "bytes": 197204
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/ALL_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\ALL_V.csv",
+      "sha256": "37d28af5c54e2a441619d2587c0a5c67cd542f5c674e2c8abbcde458da456738",
+      "bytes": 196923
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/POL_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\POL_A_H.csv",
+      "sha256": "27d8988be069471c1f9545b75b619b3266168c74185d778be17577284844773c",
+      "bytes": 197362
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/POL_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\POL_A_V.csv",
+      "sha256": "8d64f084b83404029b1608ff369a05137bea3772f5eef297a8dd283cfed44460",
+      "bytes": 196708
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/POL_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\POL_B_H.csv",
+      "sha256": "488a0c68b50b91bdea229ce2ecfd2f7326ba05d55c09bec9cbeeed9b7c6eb5e4",
+      "bytes": 197228
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/POL_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\POL_B_V.csv",
+      "sha256": "02bf6d5e0bc428d503c0592a85c41c347f87edb6b9441a0a917fb0fa083d66b0",
+      "bytes": 197052
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R1_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R1_A_H.csv",
+      "sha256": "71768597c16e4db2623b824e302489a80e77d34c8306ac04b3c964efa9b65eb8",
+      "bytes": 198363
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R1_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R1_A_V.csv",
+      "sha256": "66d2c8b313c0c8518b98b342606fb4d801fb114e87ee7d371216d31618962d70",
+      "bytes": 197303
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R1_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R1_B_H.csv",
+      "sha256": "0a7a940700701c81288057905d699f16ce8e30869fc060ac93f807127c176f8c",
+      "bytes": 197691
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R1_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R1_B_V.csv",
+      "sha256": "7f9b124c61c187ecfb3f51cf75438f4573eaf43f9a6cb4eb6bfe06d64c09c353",
+      "bytes": 196890
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R2_A_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R2_A_H.csv",
+      "sha256": "17858876cca056d38ed8593e7841ab346df2525b7c94019ae19314461f337b9d",
+      "bytes": 196801
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R2_A_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R2_A_V.csv",
+      "sha256": "91a0aff8a0efac9362968192a694fc5fdfed33a34d4186166dbea19e8ee9f008",
+      "bytes": 196684
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R2_B_H.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R2_B_H.csv",
+      "sha256": "e56f4f3de3b56538e41e4b9ea91da1af4af7269d1bf9b80df0fb980a0e78246d",
+      "bytes": 197414
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/R2_B_V.csv",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\R2_B_V.csv",
+      "sha256": "56d70f16a8c87e37d838c8cfb1c9f92d64a891e06f2198367271c4a3ac429fcb",
+      "bytes": 197480
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/enig_hfss.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\enig_hfss.json",
+      "sha256": "17619c96e80192f20a58cf3d0b979709d761f1085a5342f3b26fa45f5be64b32",
+      "bytes": 63412
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/folhas_solidas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\folhas_solidas.json",
+      "sha256": "773a33073bd48dbb8f36549e639c9fb57fc09b8e2b35930fac4e423975c58e04",
+      "bytes": 3667
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/intersecoes.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\intersecoes.json",
+      "sha256": "7901d22d4f862ce1ab977afdd7421c30583be4968d66ac9e1b356061807d1dc2",
+      "bytes": 8640
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/manifesto.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\manifesto.json",
+      "sha256": "8388e0f18ea77d2d0925aec1dd8fd031e158edbc84cf0db1ba278a0b8b9d4679",
+      "bytes": 2164
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/portas.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\portas.json",
+      "sha256": "453d6dd17b950b4457dc4f223a50ce2e57420d7ca6e5c52991f80293a92f1e13",
+      "bytes": 727
+    },
+    {
+      "arquivo": "projetos/P2S13/dobras_placas_ajustadas/d02_b20_a150/cad/reabertura.json",
+      "fonte": "D:\\dev\\EMBRAER\\P2S13\\R04_Dobras_Ajustadas\\d02_b20_a150\\cad\\reabertura.json",
+      "sha256": "92fd411c915927d3179cb96d07fa7a199e0de2ed8703ce839935309bef75f7a7",
+      "bytes": 130
+    }
+  ],
+  "total_bytes": 54986709,
+  "excluidos": "Malhas,aedtresults,g3derr,campos volumetricos,locks; referencia preservada na R03."
+}

@@ -1,0 +1,16 @@
+{
+  "estado": "INTERROMPIDO_PELO_USUARIO",
+  "data": "2026-11-11T09:07:37.158095-03:00",
+  "motivo": "Trocar4+2por3placas2; alvoH100graus.",
+  "concluidos": [
+    "d00_b3_a90",
+    "d01_b20_a120"
+  ],
+  "terminou_durante_parada": "d02_b20_a150; campos exportados, sem novo solve",
+  "nao_executado": "d03_b3_a45",
+  "fila_e_pipeline_encerrados": [
+    176880,
+    179048
+  ],
+  "API_stop": "Tentativa de conexao nao encontrou projeto alvo; sessao vazia178420 fechada. Worker terminou naturalmente antes da intervencao; nao ha solver ativo."
+}

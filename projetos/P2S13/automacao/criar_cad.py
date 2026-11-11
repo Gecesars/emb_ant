@@ -55,7 +55,7 @@ for i,a in enumerate(objs):
         tested+=1;v=a.Shape.common(bbobj.Shape).Volume
         if v>1e-7:bad.append(dict(a=a.Name,b=bbobj.Name,volume_mm3=v))
 assert len(man)==cfg.get('solidos_fisicos',83)
-report=dict(aprovado=not bad,objetos=len(man),pares=tested,intersecoes=bad,celulas=2,solidos_copiados=ident,extensao_refletor_Y_mm=ref.BoundBox.YLength,extensao_refletor_Z_mm=ref.BoundBox.ZLength,asa_reta_mm=tail,dobra_alpha_graus=cfg['angulo_dobra_graus'],inicio_dobra_Y_mm=b)
+report=dict(aprovado=not bad,objetos=len(man),pares=tested,intersecoes=bad,celulas=len(cfg['celulas']),solidos_copiados=ident,extensao_refletor_Y_mm=ref.BoundBox.YLength,extensao_refletor_Z_mm=ref.BoundBox.ZLength,asa_reta_mm=tail,dobra_alpha_graus=cfg['angulo_dobra_graus'],inicio_dobra_Y_mm=b)
 for n,v in [('manifesto',man),('folhas_solidas',rec),('portas',cfg['portas']),('intersecoes',report)]: (out/(n+'.json')).write_text(json.dumps(v,indent=2)+'\n')
 assert not bad,bad
 for mat in sorted(set(man.values())):Import.export([d.getObject(n) for n,m in man.items() if m==mat],str(out/(mat+'.step')))

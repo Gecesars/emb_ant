@@ -1,0 +1,49 @@
+{
+  "escopo_e_execucao_conferidos": true,
+  "referencia8passes_preservada": true,
+  "casos": [
+    {
+      "caso": "d00_b3_a90",
+      "passes": 6,
+      "nucleos": 14,
+      "excitacoes": "4x0.25W/0deg",
+      "componentes_preservados": true,
+      "fonte_SHA_conferida": true,
+      "CAD_sem_intersecoes": true,
+      "major": 0,
+      "minor": 0,
+      "convergencia_S": false,
+      "reciprocidade_ok": false,
+      "campos_estaveis": false
+    },
+    {
+      "caso": "d01_b20_a120",
+      "passes": 6,
+      "nucleos": 14,
+      "excitacoes": "4x0.25W/0deg",
+      "componentes_preservados": true,
+      "fonte_SHA_conferida": true,
+      "CAD_sem_intersecoes": true,
+      "major": 0,
+      "minor": 0,
+      "convergencia_S": false,
+      "reciprocidade_ok": true,
+      "campos_estaveis": false
+    },
+    {
+      "caso": "d02_b20_a150",
+      "passes": 6,
+      "nucleos": 14,
+      "excitacoes": "4x0.25W/0deg",
+      "componentes_preservados": true,
+      "fonte_SHA_conferida": true,
+      "CAD_sem_intersecoes": true,
+      "major": 0,
+      "minor": 0,
+      "convergencia_S": false,
+      "reciprocidade_ok": true,
+      "campos_estaveis": false
+    }
+  ],
+  "nota": "Esta auditoria confere execucao e escopo. Convergencia, estabilidade e metas RF permanecem separadas."
+}

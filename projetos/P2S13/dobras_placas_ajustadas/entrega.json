@@ -1,0 +1,9 @@
+{
+  "veredito": "Nenhum dos casos calculados atende simultaneamente a abertura horizontal, ganho e VSWR solicitados.",
+  "casos": 3,
+  "atende_metas_numericas": false,
+  "aprovado": false,
+  "mais_proximo_H_com_VSWR": "referencia_b10_a90_8passes",
+  "sem_sweep": true,
+  "nenhuma_fase_alterada": true
+}

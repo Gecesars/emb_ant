@@ -1,0 +1,138 @@
+{
+  "variante": "d00_b3_a90",
+  "frequencia_GHz": 5.17,
+  "passes": 6,
+  "delta_s": 0.056182609430084955,
+  "convergiu": false,
+  "nucleos": 14,
+  "mesh_method": "AnsoftClassic",
+  "tau_flex": false,
+  "potencia_total_W": 1,
+  "potencia_por_porta_W": 0.25,
+  "fase_graus": 0,
+  "ordem_portas": [
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B"
+  ],
+  "VSWR_ativo": [
+    1.3084612982812958,
+    1.3110917831692068,
+    1.1300682809786227,
+    1.1711920012219184
+  ],
+  "VSWR_casado": [
+    1.2325004812630143,
+    1.2604246123807972,
+    1.2310409554412356,
+    1.3209874255156455
+  ],
+  "maior_singular": 0.24731024273445418,
+  "reciprocidade": 5.520812101191839e-05,
+  "potencia_aceita_W": 0.9885200653733466,
+  "major": 0,
+  "minor": 0,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 9.207276000258016,
+      "pico_graus": -8.25,
+      "ganho_pico_dBi": 9.257685598519368,
+      "abertura_graus": 99.4006939049192,
+      "cruzamentos_graus": [
+        -51.46330153530124,
+        47.937392369617946
+      ],
+      "SLL": {
+        "nivel_dB": null,
+        "limites_lobo_principal_graus": [
+          -99.0,
+          102.0
+        ],
+        "lobos": [],
+        "observacao": "Nenhum maximo secundario identificado no hemisferio frontal; nao atribuir um nivel numerico ficticio."
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 9.207276000258041,
+      "pico_graus": 2.75,
+      "ganho_pico_dBi": 10.129585151270973,
+      "abertura_graus": 9.786291173234316,
+      "cruzamentos_graus": [
+        -2.059137550750153,
+        7.727153622484163
+      ],
+      "SLL": {
+        "nivel_dB": -6.924755738540462,
+        "limites_lobo_principal_graus": [
+          -7.5,
+          14.0
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -78.25,
+            "nivel_dB": -18.878804692933315
+          },
+          {
+            "angulo_graus": -46.0,
+            "nivel_dB": -8.813231559021125
+          },
+          {
+            "angulo_graus": -27.75,
+            "nivel_dB": -10.315251905653902
+          },
+          {
+            "angulo_graus": -13.75,
+            "nivel_dB": -7.682296433198987
+          },
+          {
+            "angulo_graus": 21.25,
+            "nivel_dB": -9.173906110258084
+          },
+          {
+            "angulo_graus": 44.5,
+            "nivel_dB": -7.174114060101392
+          },
+          {
+            "angulo_graus": 61.25,
+            "nivel_dB": -6.924755738540462
+          }
+        ]
+      }
+    }
+  },
+  "recomposicao": {
+    "H": 4.2021129543006805e-15,
+    "V": 2.7307251450429264e-15
+  },
+  "potencia": {
+    "H": {
+      "eficiencia_radiacao": 0.8596744060515612,
+      "eficiencia_total": 0.8498054000698839,
+      "erro_aceita_W": 2.1094237467877974e-15
+    },
+    "V": {
+      "eficiencia_radiacao": 0.8596744060515612,
+      "eficiencia_total": 0.8498054000698819,
+      "erro_aceita_W": 3.3306690738754696e-16
+    }
+  },
+  "fisica_ok": false,
+  "verificacoes": {
+    "passividade": true,
+    "reciprocidade": false,
+    "limite_reciprocidade": 1e-05,
+    "potencia_aceita": true,
+    "malha_sem_major": true,
+    "eficiencia_e_balanco": true
+  },
+  "cache_confere": true,
+  "estavel_nove_sondas": false,
+  "metas_numericas": {
+    "ganho_13dBi": false,
+    "horizontal_99_121": true,
+    "vertical_16p2_19p8": false
+  },
+  "validado_numericamente": false,
+  "aprovado": false
+}

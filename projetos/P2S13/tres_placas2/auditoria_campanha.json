@@ -1,0 +1,106 @@
+{
+  "escopo_e_execucao_conferidos": true,
+  "casos": [
+    {
+      "caso": "t00_b3_a90",
+      "PCBs_identicas_SHA": true,
+      "centros_mm": [
+        -96,
+        0,
+        96
+      ],
+      "CAD_sem_intersecoes": true,
+      "portas": 6,
+      "potencia_por_porta_W": 0.16666666666666666,
+      "nucleos": 14,
+      "passes": 6,
+      "DeltaS": 0.042174799866284605,
+      "convergencia_S": false,
+      "estabilidade_campo": false,
+      "reciprocidade": true,
+      "minor": 0,
+      "major": 0
+    },
+    {
+      "caso": "t01_b20_a120",
+      "PCBs_identicas_SHA": true,
+      "centros_mm": [
+        -96,
+        0,
+        96
+      ],
+      "CAD_sem_intersecoes": true,
+      "portas": 6,
+      "potencia_por_porta_W": 0.16666666666666666,
+      "nucleos": 14,
+      "passes": 6,
+      "DeltaS": 0.04259178921965259,
+      "convergencia_S": false,
+      "estabilidade_campo": false,
+      "reciprocidade": false,
+      "minor": 0,
+      "major": 0
+    },
+    {
+      "caso": "t02_b22_a150",
+      "PCBs_identicas_SHA": true,
+      "centros_mm": [
+        -96,
+        0,
+        96
+      ],
+      "CAD_sem_intersecoes": true,
+      "portas": 6,
+      "potencia_por_porta_W": 0.16666666666666666,
+      "nucleos": 14,
+      "passes": 6,
+      "DeltaS": 0.05124346044954852,
+      "convergencia_S": false,
+      "estabilidade_campo": false,
+      "reciprocidade": true,
+      "minor": 0,
+      "major": 0
+    },
+    {
+      "caso": "t03_b24_a150",
+      "PCBs_identicas_SHA": true,
+      "centros_mm": [
+        -96,
+        0,
+        96
+      ],
+      "CAD_sem_intersecoes": true,
+      "portas": 6,
+      "potencia_por_porta_W": 0.16666666666666666,
+      "nucleos": 14,
+      "passes": 6,
+      "DeltaS": 0.04719661229863063,
+      "convergencia_S": false,
+      "estabilidade_campo": false,
+      "reciprocidade": false,
+      "minor": 0,
+      "major": 0
+    },
+    {
+      "caso": "t04_b28p5_a150",
+      "PCBs_identicas_SHA": true,
+      "centros_mm": [
+        -96,
+        0,
+        96
+      ],
+      "CAD_sem_intersecoes": true,
+      "portas": 6,
+      "potencia_por_porta_W": 0.16666666666666666,
+      "nucleos": 14,
+      "passes": 6,
+      "DeltaS": 0.04154608007333623,
+      "convergencia_S": false,
+      "estabilidade_campo": false,
+      "reciprocidade": false,
+      "minor": 0,
+      "major": 0
+    }
+  ],
+  "nota": "Convergencia e metas RF avaliadas separadamente, sem aprovar por atingir o limite de passes."
+}

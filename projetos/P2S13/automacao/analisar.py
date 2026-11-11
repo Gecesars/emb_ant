@@ -39,7 +39,8 @@ def main():
     assert "MeshMethod='%s'"%method in native
     assert 'UseFlexMeshingForTAUvolumeMesh='+str(cfg.get('tau_flex',False)).lower() in native
     assert 'UseAlternativeMeshMethodsAsFallBack=false' in native
-    assert len(entries)==4 and all("Magnitude='0.25W'" in x and "Phase='0deg'" in x for x in entries)
+    count=len(cfg['portas']);assert count in [4,6] and abs(cfg['potencia_por_porta_W']*count-1)<1e-10
+    assert len(entries)==count and all(abs(float(re.search("Magnitude='([0-9.e+-]+)W'",x)[1])-1/count)<1e-10 and "Phase='0deg'" in x for x in entries)
     # O monitor seleciona EMConvData pelos criterios atuais; nao usar perfil
     # historico de outro limite de passes apenas por ser o primeiro arquivo.
     profiles=[Path(history['fonte']).with_suffix('.profile')]
@@ -65,12 +66,12 @@ def main():
         mesh=dict(reparos_major=0,reparos_minor=0,arquivo_avisos_presente=False,
           origem='Classic estrito: malha inicial auditada sem reparos e solve RF sem mensagens de reparo, vazamento, contorno ou planaridade; nenhum g3derr gerado.')
     save('malha.json',mesh)
-    n=rf.Network(str(ROOT/'centro.s4p'));assert n.nports==4 and len(n.f)==1 and n.f[0]==5.17e9;np.testing.assert_allclose(n.z0,50)
+    n=rf.Network(str(ROOT/('centro.s%dp'%count)));assert n.nports==count and len(n.f)==1 and n.f[0]==5.17e9;np.testing.assert_allclose(n.z0,50)
     names=[s.strip().removesuffix(':1') for s in n.port_names];assert set(names)==set(p['name'] for p in cfg['portas'])
-    s=n.s[0];inc=np.ones(4)/2;ref=s@inc;gamma=ref/inc;accept=float(1-np.sum(abs(ref)**2))
+    s=n.s[0];inc=np.ones(count)/np.sqrt(count);ref=s@inc;gamma=ref/inc;accept=float(1-np.sum(abs(ref)**2))
     vs=lambda x:[float((1+abs(z))/(1-abs(z))) if abs(z)<1 else None for z in x]
     r=dict(variante=cfg['revisao'],frequencia_GHz=5.17,passes=passes,delta_s=delta,convergiu=converged,nucleos=14,mesh_method=method,tau_flex=cfg.get('tau_flex',False),
-        potencia_total_W=1,potencia_por_porta_W=.25,fase_graus=0,ordem_portas=names,VSWR_ativo=vs(gamma),VSWR_casado=vs(np.diag(s)),
+        potencia_total_W=1,potencia_por_porta_W=1/count,fase_graus=0,ordem_portas=names,VSWR_ativo=vs(gamma),VSWR_casado=vs(np.diag(s)),
         maior_singular=float(np.linalg.svd(s,compute_uv=False)[0]),reciprocidade=float(abs(s-s.T).max()),potencia_aceita_W=accept,
         major=mesh['reparos_major'],minor=mesh['reparos_minor'],cortes={},recomposicao={},potencia={})
     curves={}
@@ -79,7 +80,7 @@ def main():
         fields=[]
         for name in names:
             ti,ei=read_pattern(ROOT/(name+'_'+axis+'.csv'));np.testing.assert_array_equal(t,ti);fields.append(ei)
-        err=float(np.max(abs(sum(fields)/2-e))/np.max(abs(e)));assert err<1e-7;r['recomposicao'][axis]=err
+        err=float(np.max(abs(sum(fields)/np.sqrt(count)-e))/np.max(abs(e)));assert err<1e-7;r['recomposicao'][axis]=err
         r['cortes'][axis]=metrics(t,gain)
         with (ROOT/('ALL_'+axis+'.csv')).open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
         assert len(rows)==1441 and all(float(row['Freq [GHz]'])==5.17 for row in rows)
@@ -96,6 +97,16 @@ def main():
     h,v=r['cortes']['H'],r['cortes']['V'];r['metas_numericas']=dict(ganho_13dBi=h['ganho_frontal_dBi']>=13,horizontal_99_121=99<=h['abertura_graus']<=121,vertical_16p2_19p8=16.2<=v['abertura_graus']<=19.8)
     r['validado_numericamente']=bool(converged and r['fisica_ok'] and r['estavel_nove_sondas'])
     r['aprovado']=bool(r['validado_numericamente'] and all(r['metas_numericas'].values()))
+    if count==6:
+        target=cfg['metas']['H_alvo_graus'];largest=max(r['VSWR_ativo']+r['VSWR_casado'])
+        r['metas_estudo_tres_placas']=dict(H_alvo_graus=target,desvio_H_graus=h['abertura_graus']-target,
+          H_dentro_10porcento=cfg['metas']['H_min_graus']<=h['abertura_graus']<=cfg['metas']['H_max_graus'],
+          ganho_minimo=h['ganho_frontal_dBi']>=cfg['metas']['ganho_frontal_min_dBi'],VSWR_maximo=largest,VSWR_meta=largest<=cfg['meta_VSWR_todas'])
+        # Aproximacao ao alvo nominal fica explicita; nao rotular90graus como100.
+        r['alvo_H_100_mais_menos_1grau_numerico']=abs(h['abertura_graus']-target)<=1
+        r['metas_historicas']=r['metas_numericas']
+        r['metas_numericas']=dict(ganho_13dBi=r['metas_estudo_tres_placas']['ganho_minimo'],horizontal_alvo_100_mais_menos_1grau=r['alvo_H_100_mais_menos_1grau_numerico'],VSWR_1p25=r['metas_estudo_tres_placas']['VSWR_meta'])
+        r['aprovado']=bool(r['validado_numericamente'] and r['alvo_H_100_mais_menos_1grau_numerico'] and r['metas_estudo_tres_placas']['ganho_minimo'] and r['metas_estudo_tres_placas']['VSWR_meta'])
     save('resultado.json',r)
     status='Convergencia DeltaS atendida' if converged else 'PRELIMINAR — nao convergido'
     if converged and not r['estavel_nove_sondas']:status+='; estabilidade de campo pendente'
@@ -107,7 +118,7 @@ def main():
         t,g=curves[axis];ax.plot(t,g,label=cfg['revisao']);ax.set(xlim=(-90,90),ylim=(-25,20),title=axis,xlabel='Angulo (graus)',ylabel='Ganho realizado total (dBi)');ax.grid(alpha=.25)
         ax.axhline(13,c='#999',ls='--',lw=.8)
     wrapped_status='\n'.join(textwrap.wrap(status,width=95))
-    fig.suptitle(f"P2S13 — 5,17 GHz — quatro portas iguais/em fase, 1 W total\n{wrapped_status}\n{passes} passes | DeltaS={delta:.6f}",fontsize=11)
+    fig.suptitle(f"P2S13 — 5,17 GHz — {count} portas iguais/em fase, 1 W total\n{wrapped_status}\n{passes} passes | DeltaS={delta:.6f}",fontsize=11)
     fig.tight_layout(rect=(0,0,1,.86));fig.savefig(ROOT/'diagramas_HV.png',dpi=170);plt.close(fig)
     fig,axs=plt.subplots(1,2,figsize=(11,6.6),subplot_kw={'projection':'polar'})
     for ax,axis in zip(axs,'HV'):

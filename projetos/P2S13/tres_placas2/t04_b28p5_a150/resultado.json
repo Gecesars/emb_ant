@@ -1,0 +1,162 @@
+{
+  "variante": "t04_b28p5_a150",
+  "frequencia_GHz": 5.17,
+  "passes": 6,
+  "delta_s": 0.04154608007333623,
+  "convergiu": false,
+  "nucleos": 14,
+  "mesh_method": "AnsoftClassic",
+  "tau_flex": false,
+  "potencia_total_W": 1,
+  "potencia_por_porta_W": 0.16666666666666666,
+  "fase_graus": 0,
+  "ordem_portas": [
+    "R1_A",
+    "R1_B",
+    "R2_A",
+    "R2_B",
+    "R3_A",
+    "R3_B"
+  ],
+  "VSWR_ativo": [
+    1.3003992046291681,
+    1.292503833861525,
+    1.4782951119968637,
+    1.4479046741163466,
+    1.398504226349815,
+    1.4280901412098577
+  ],
+  "VSWR_casado": [
+    1.2920195868563014,
+    1.375419704492152,
+    1.2611649301528787,
+    1.3748361887084941,
+    1.3202887954311493,
+    1.4423466551964437
+  ],
+  "maior_singular": 0.28962687346990745,
+  "reciprocidade": 1.6003741484641633e-05,
+  "potencia_aceita_W": 0.9728754043854896,
+  "major": 0,
+  "minor": 0,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 13.279900622025242,
+      "pico_graus": -15.75,
+      "ganho_pico_dBi": 13.406582605087582,
+      "abertura_graus": 99.31784748553545,
+      "cruzamentos_graus": [
+        -48.498255070601594,
+        50.819592414933865
+      ],
+      "SLL": {
+        "nivel_dB": -0.003689351110580219,
+        "limites_lobo_principal_graus": [
+          -132.5,
+          1.5
+        ],
+        "lobos": [
+          {
+            "angulo_graus": 18.25,
+            "nivel_dB": -0.003689351110580219
+          }
+        ]
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 13.279900622025242,
+      "pico_graus": -0.25,
+      "ganho_pico_dBi": 13.290761106748583,
+      "abertura_graus": 9.910961221657637,
+      "cruzamentos_graus": [
+        -5.22200500311622,
+        4.688956218541417
+      ],
+      "SLL": {
+        "nivel_dB": -8.189943869216895,
+        "limites_lobo_principal_graus": [
+          -11.25,
+          11.5
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -62.5,
+            "nivel_dB": -15.47351130556003
+          },
+          {
+            "angulo_graus": -42.75,
+            "nivel_dB": -17.451591725049752
+          },
+          {
+            "angulo_graus": -29.25,
+            "nivel_dB": -14.087563504780077
+          },
+          {
+            "angulo_graus": -16.25,
+            "nivel_dB": -12.21282393833374
+          },
+          {
+            "angulo_graus": 16.0,
+            "nivel_dB": -15.225836965311055
+          },
+          {
+            "angulo_graus": 39.0,
+            "nivel_dB": -8.189943869216895
+          },
+          {
+            "angulo_graus": 63.5,
+            "nivel_dB": -15.488586612161667
+          }
+        ]
+      }
+    }
+  },
+  "recomposicao": {
+    "H": 3.658365839872648e-15,
+    "V": 2.2723556666204715e-15
+  },
+  "potencia": {
+    "H": {
+      "eficiencia_radiacao": 0.8778021247420741,
+      "eficiencia_total": 0.8539920970788804,
+      "erro_aceita_W": 7.882583474838611e-15
+    },
+    "V": {
+      "eficiencia_radiacao": 0.8778021247420741,
+      "eficiencia_total": 0.8539920970788804,
+      "erro_aceita_W": 7.882583474838611e-15
+    }
+  },
+  "fisica_ok": false,
+  "verificacoes": {
+    "passividade": true,
+    "reciprocidade": false,
+    "limite_reciprocidade": 1e-05,
+    "potencia_aceita": true,
+    "malha_sem_major": true,
+    "eficiencia_e_balanco": true
+  },
+  "cache_confere": true,
+  "estavel_nove_sondas": false,
+  "metas_numericas": {
+    "ganho_13dBi": true,
+    "horizontal_alvo_100_mais_menos_1grau": true,
+    "VSWR_1p25": false
+  },
+  "validado_numericamente": false,
+  "aprovado": false,
+  "metas_estudo_tres_placas": {
+    "H_alvo_graus": 100,
+    "desvio_H_graus": -0.6821525144645477,
+    "H_dentro_10porcento": true,
+    "ganho_minimo": true,
+    "VSWR_maximo": 1.4782951119968637,
+    "VSWR_meta": false
+  },
+  "alvo_H_100_mais_menos_1grau_numerico": true,
+  "metas_historicas": {
+    "ganho_13dBi": true,
+    "horizontal_99_121": true,
+    "vertical_16p2_19p8": false
+  }
+}

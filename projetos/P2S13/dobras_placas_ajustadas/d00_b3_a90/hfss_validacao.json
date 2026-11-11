@@ -1,0 +1,13 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "modo": "2 celulas PCB, 6 niveis / 1 coluna; 4 portas iguais, cabos50mm e refletor comum; sem rede externa", 
+  "tau_flex": false, 
+  "fallback": false, 
+  "mesh_method": "AnsoftClassic", 
+  "max_passes": 6, 
+  "modelo": "P2S13_Dobras", 
+  "max_delta_s": 0.050000000000000003, 
+  "simulado": false, 
+  "portas": 4
+}
