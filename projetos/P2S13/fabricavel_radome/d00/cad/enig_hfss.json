@@ -1,0 +1,360 @@
+{
+  "faces_ENIG": 125, 
+  "metodo": "Cobre geometrico, solve inside falso; Au/NiP sobre superficie exposta. Base condutora semi-infinita pois 35um excede muitas profundidades de penetracao.", 
+  "condutividade_Cu_Sm": 28688604.125122771, 
+  "Cu_um": 35, 
+  "NiP_um": 4.5, 
+  "Au_um": 0.025399999999999999, 
+  "objetos": {
+    "Sinal_A": {
+      "faces_ENIG": [
+        1041, 
+        1042, 
+        1043, 
+        1044, 
+        1045, 
+        1046, 
+        1047, 
+        1048, 
+        1049, 
+        1050, 
+        1051, 
+        1052, 
+        1053, 
+        1054, 
+        1055, 
+        1056, 
+        1057, 
+        1058, 
+        1059, 
+        1060, 
+        1061, 
+        1062, 
+        1063, 
+        1064, 
+        1065, 
+        1066, 
+        1067, 
+        1068, 
+        1069, 
+        1070, 
+        1071, 
+        1072, 
+        1073, 
+        1074, 
+        1075, 
+        1076, 
+        1077, 
+        1078, 
+        1079, 
+        1080, 
+        1081, 
+        1082, 
+        1083, 
+        1084, 
+        1085, 
+        1086, 
+        1087, 
+        1093
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": 2.5, 
+          "x": 2.50916841304
+        }, 
+        {
+          "r": 0.55000000000000004, 
+          "y": 18, 
+          "x": -93.49083158696
+        }, 
+        {
+          "r": 0.55000000000000004, 
+          "y": 18, 
+          "x": 2.50916841304
+        }, 
+        {
+          "r": 0.55000000000000004, 
+          "y": 18, 
+          "x": 98.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1089, 
+        1090, 
+        1091, 
+        1092
+      ], 
+      "faces_Cu_substrato": [
+        1088
+      ], 
+      "base_z_mm": 1.52
+    }, 
+    "Ilha_inferior_IN_B": {
+      "faces_ENIG": [
+        1475, 
+        1477
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": -2.5, 
+          "x": 2.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1478
+      ], 
+      "faces_Cu_substrato": [
+        1476
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Ilha_inferior_R1_B": {
+      "faces_ENIG": [
+        1459, 
+        1461
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": -18, 
+          "x": -93.49083158696
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1462
+      ], 
+      "faces_Cu_substrato": [
+        1460
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Sinal_B": {
+      "faces_ENIG": [
+        731, 
+        732, 
+        733, 
+        734, 
+        735, 
+        736, 
+        737, 
+        738, 
+        739, 
+        740, 
+        741, 
+        742, 
+        743, 
+        744, 
+        745, 
+        746, 
+        747, 
+        748, 
+        749, 
+        750, 
+        751, 
+        752, 
+        753, 
+        754, 
+        755, 
+        756, 
+        757, 
+        758, 
+        759, 
+        760, 
+        761, 
+        762, 
+        763, 
+        764, 
+        765, 
+        766, 
+        767, 
+        768, 
+        769, 
+        770, 
+        771, 
+        772, 
+        773, 
+        774, 
+        775, 
+        776, 
+        777, 
+        783
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": -2.5, 
+          "x": 2.50916841304
+        }, 
+        {
+          "r": 0.55000000000000004, 
+          "y": -18, 
+          "x": -93.49083158696
+        }, 
+        {
+          "r": 0.55000000000000004, 
+          "y": -18, 
+          "x": 2.50916841304
+        }, 
+        {
+          "r": 0.55000000000000004, 
+          "y": -18, 
+          "x": 98.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        779, 
+        780, 
+        781, 
+        782
+      ], 
+      "faces_Cu_substrato": [
+        778
+      ], 
+      "base_z_mm": 1.52
+    }, 
+    "Ilha_inferior_R1_A": {
+      "faces_ENIG": [
+        1523, 
+        1525
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": 18, 
+          "x": -93.49083158696
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1526
+      ], 
+      "faces_Cu_substrato": [
+        1524
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Ilha_inferior_R3_B": {
+      "faces_ENIG": [
+        1427, 
+        1429
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": -18, 
+          "x": 98.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1430
+      ], 
+      "faces_Cu_substrato": [
+        1428
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Ilha_inferior_R2_A": {
+      "faces_ENIG": [
+        1507, 
+        1509
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": 18, 
+          "x": 2.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1510
+      ], 
+      "faces_Cu_substrato": [
+        1508
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Ilha_inferior_IN_A": {
+      "faces_ENIG": [
+        1539, 
+        1541
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": 2.5, 
+          "x": 2.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1542
+      ], 
+      "faces_Cu_substrato": [
+        1540
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Ilha_inferior_R2_B": {
+      "faces_ENIG": [
+        1443, 
+        1445
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": -18, 
+          "x": 2.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1446
+      ], 
+      "faces_Cu_substrato": [
+        1444
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Ilha_inferior_R3_A": {
+      "faces_ENIG": [
+        1491, 
+        1493
+      ], 
+      "skip_hole_cylinders": [
+        {
+          "r": 0.55000000000000004, 
+          "y": 18, 
+          "x": 98.50916841304
+        }
+      ], 
+      "faces_contato_Cu_sem_ENIG": [
+        1494
+      ], 
+      "faces_Cu_substrato": [
+        1492
+      ], 
+      "base_z_mm": 0
+    }, 
+    "Terra": {
+      "faces_Cu_substrato": [
+        1353
+      ], 
+      "base_z_mm": 0, 
+      "faces_ENIG": [
+        1351, 
+        1352, 
+        1354, 
+        1355, 
+        1356, 
+        1357, 
+        1358, 
+        1359, 
+        1360, 
+        1361, 
+        1362, 
+        1363, 
+        1364
+      ]
+    }
+  }, 
+  "faces_Cu_substrato": 11
+}

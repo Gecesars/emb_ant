@@ -1,0 +1,13 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "modo": "3 PCBs2 + seis cabos50mm com perdas + divisor duplo1:3 fabricavel + radome FR4 2mm. Duas portas ideais50ohm internas; conectores externos e vedacoes nao caracterizados.", 
+  "tau_flex": false, 
+  "fallback": false, 
+  "mesh_method": "AnsoftClassic", 
+  "max_passes": 6, 
+  "modelo": "P2S13_Radome", 
+  "max_delta_s": 0.050000000000000003, 
+  "simulado": false, 
+  "portas": 2
+}

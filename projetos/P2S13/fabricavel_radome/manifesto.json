@@ -1,0 +1,579 @@
+{
+  "estado": "ESTUDO_NAO_QUALIFICADO",
+  "escopo": "3 PCBs2 + seis cabos50mm com perdas + divisor duplo1:3 fabricavel + radome FR4 2mm. Duas portas ideais50ohm internas; conectores externos e vedacoes nao caracterizados.",
+  "resultado_sha256": "a2364732efdc5713d8177b66ff4a109b258b214eccb19ca23e410ddd83922016",
+  "artefatos": [
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\Divisor_Duplo3.aedt",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/Divisor_Duplo3.aedt",
+      "sha256": "f3ceefba0329e234136cadf553b4f80bf26b6b3f8574dcefb9567cc45e4ac03e",
+      "bytes": 1177061
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\Divisor_Duplo3.FCStd",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/Divisor_Duplo3.FCStd",
+      "sha256": "9327f3c4c0bf6c1be3cf0a8274762a76a9ad36add4e7039b25ebf72be81a4e7a",
+      "bytes": 60105
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\conjunto.s2p",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/conjunto.s2p",
+      "sha256": "2992fc7b8291638157caf820a474793efc5917d3ccd7ced412e3cb3cacf3cb5f",
+      "bytes": 335
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\divisor.s8p",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/divisor.s8p",
+      "sha256": "ded696801485cf907ecc7dea3ee6292f1cf10e93ce3453b2e47cae1bd0cd520e",
+      "bytes": 4090
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\divisor_ordenado.s8p",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/divisor_ordenado.s8p",
+      "sha256": "9b04ac130439db65c7775e80bd282f8086e3891bf5b68f45eb865b64a57b5010",
+      "bytes": 3528
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\diagrama_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/diagrama_H.csv",
+      "sha256": "6423ce8a80a0f6973d9bcb2589f0a13eed163de7398238f03c372aced616a0fd",
+      "bytes": 66028
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\diagrama_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/diagrama_V.csv",
+      "sha256": "f34b74242b40da1483eeafd4ca517b161d96dd8e4a293d93ad81f794793ec10f",
+      "bytes": 67680
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\configuracao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/configuracao.json",
+      "sha256": "73afdff71bc0082e98b977b5ecb72933bb3f3195f3cb0fc5f79f8ad549d5e64c",
+      "bytes": 28937
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\HFSS_14nucleos.acf",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\resultado.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/resultado.json",
+      "sha256": "e844cf94c46f302b0cddd6341a757256a814330dccfbc8dcf908c0209e882168",
+      "bytes": 4373
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\historico_passes.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/historico_passes.json",
+      "sha256": "529d684a1248a87a59889619357800f8f67fbe130d8c2d27e05a75c2c631f8f6",
+      "bytes": 532
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\recursos_matriz.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/recursos_matriz.json",
+      "sha256": "356c66d2d01e8322f4b4dfee10f864a92059c61e029782d242ef5699e7bf0f21",
+      "bytes": 2548
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\convergencia.txt",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/convergencia.txt",
+      "sha256": "bd3bda342a294210df18ecd73880724fdae9028c01e56d8d311edcb6a83051cf",
+      "bytes": 622
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\malha.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/malha.json",
+      "sha256": "9f2f70f5d69d4ff57260e6d9c6fe4c5205695be7ae19e69203cc55a6f981b164",
+      "bytes": 10775
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\hfss_validacao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/hfss_validacao.json",
+      "sha256": "fdc27412cf8647d29a9244c75be253bc31fd86f9073ca3cab7a99e478bf7538b",
+      "bytes": 208
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\mensagens.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/mensagens.json",
+      "sha256": "df5f39626ac8ffed35ba4b9b791d3b2648adaffb8eab03c46ae5822cf21c7eae",
+      "bytes": 2157
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\polar_HV.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/polar_HV.png",
+      "sha256": "6d4e9558999557500d2b50d624369c7f752a30d077504224774d029d93216ec8",
+      "bytes": 241460
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\cad\\manifesto.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/cad/manifesto.json",
+      "sha256": "3743c5d63e1eb314a632ef172c64f199dfa915dea7450a31d5369381cc96ebcd",
+      "bytes": 1531
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\cad\\folhas_solidas.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/cad/folhas_solidas.json",
+      "sha256": "6aa8b552859aea4ada8e485740f153e5bf001f951b855f2269bc4b34489e4882",
+      "bytes": 2313
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\cad\\portas.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/cad/portas.json",
+      "sha256": "8a70a53c2b8399f138d6509ebf35b55195fa400d4176d54c4a25edbca526a6c8",
+      "bytes": 1017
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\cad\\intersecoes.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/cad/intersecoes.json",
+      "sha256": "67802d4406fb6e8971f4df92cba76dd40c968a4a95b6cdbad633b8b084c18c99",
+      "bytes": 83
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\cad\\reabertura.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/cad/reabertura.json",
+      "sha256": "08244d87b3ab80f6a4f7420eaee177d7805100fa3652796ecba0068a4633b30b",
+      "bytes": 122
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\cad\\enig_hfss.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/cad/enig_hfss.json",
+      "sha256": "460cdd3f3d84ed863cec4c9cd851b893773eb0e456ffe3c9026f294efaed4ed2",
+      "bytes": 6878
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\P2S13_Radome.aedt",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/P2S13_Radome.aedt",
+      "sha256": "a01b551d01e50e6a348677b48baad861735e3f533eed3a3237bf521751c25f21",
+      "bytes": 21292657
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\P2S13_Radome.FCStd",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/P2S13_Radome.FCStd",
+      "sha256": "e2dca16b1163399cdddf2900bc0a84e7ae0c2546d75f980d77c520d37837ec21",
+      "bytes": 1368747
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\centro.s2p",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/centro.s2p",
+      "sha256": "e927fe7bf7f9d84a4c5959580fedb121a0e02cf7e07864f6a7a5e404db02db48",
+      "bytes": 797
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\ALL_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/ALL_H.csv",
+      "sha256": "378bef857a8bd84bb1b6ced6c8b74f4b7d036cbd689ceeb6e873c22074da5063",
+      "bytes": 195608
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\ALL_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/ALL_V.csv",
+      "sha256": "653766afdc410e0c85f3d14033bc9535addae537722fdb8cc3f920740f899442",
+      "bytes": 195414
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\ALL_V_fino.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/ALL_V_fino.csv",
+      "sha256": "bb9fc6b52d8ca9b46a4f04583db47edd9db5fdb5b4a9654346100116a922d42c",
+      "bytes": 241981
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\POL_A_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/POL_A_H.csv",
+      "sha256": "83532821d21cabe085a3959228bfa5b369b4e8894873a3e727d531e2e37021e4",
+      "bytes": 195221
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\POL_A_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/POL_A_V.csv",
+      "sha256": "8fbe5d65e0bf2f5732ceb3160b775e99e9fb35c971c8518d0122d1364e2ff3bb",
+      "bytes": 194873
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\POL_B_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/POL_B_H.csv",
+      "sha256": "90da0e1918266dfefe6788e2838b560aed7539e11d92292b825474260c6dd94d",
+      "bytes": 197274
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\POL_B_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/POL_B_V.csv",
+      "sha256": "3886f0932ae9eacf7615ecd67001ab67d7687454e1f22dabd29c04ea2a3e9eb0",
+      "bytes": 197229
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\IN_A_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/IN_A_H.csv",
+      "sha256": "013d56059f13e6410ea0d5ae2e0dae125e6c35f8521ed0578200ed5d9d595d99",
+      "bytes": 195174
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\IN_A_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/IN_A_V.csv",
+      "sha256": "a43b91ec238d708484c3f4d9df761f0f56a38135da02c5afbb3ac1b265f8063b",
+      "bytes": 194887
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\IN_B_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/IN_B_H.csv",
+      "sha256": "e8a7dfbaea11c72fba91560641f94bb94461d51b543a7c21081d8b3beaea4c43",
+      "bytes": 197287
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\IN_B_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/IN_B_V.csv",
+      "sha256": "a6db05b49fb8b8d05d5ec379948a2e65377f9255082ba720331c62abd234c4f6",
+      "bytes": 197228
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\diagrama_H.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/diagrama_H.csv",
+      "sha256": "2607c84c82af9df9c2eea1895b490d58893c8585091109a1c525d62677bf6490",
+      "bytes": 65410
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\diagrama_V.csv",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/diagrama_V.csv",
+      "sha256": "193a54c7b04825761bac4f8be08024b2d3aee9ec0862643454712bde93849e24",
+      "bytes": 65310
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\configuracao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/configuracao.json",
+      "sha256": "99498497ff0c9e1a18012ab58bdce1327ccbae4a14d94f71e7234e7593e57d1d",
+      "bytes": 6142
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\HFSS_14nucleos.acf",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\resultado.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/resultado.json",
+      "sha256": "a2364732efdc5713d8177b66ff4a109b258b214eccb19ca23e410ddd83922016",
+      "bytes": 5088
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\historico_passes.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/historico_passes.json",
+      "sha256": "a2cb3b4a8a92ffca538747762f1398271446373e837a2a86e42ca1195dcb4b34",
+      "bytes": 535
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\recursos_matriz.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/recursos_matriz.json",
+      "sha256": "c685df720caf1cfe6d19f1fbf0e9e8e62a4d1508b233df72a652d65c1730be25",
+      "bytes": 2567
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\convergencia.txt",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/convergencia.txt",
+      "sha256": "8b030968fecaabdd8fa7acc4d4839337ac048f1005db74a7ec9dd46615cc2772",
+      "bytes": 621
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\convergencia_campos.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/convergencia_campos.json",
+      "sha256": "db39993dcb80a6993ce5781fa4f3eb9ca63687957be9e28b705a28623c99a8aa",
+      "bytes": 3740
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\conferencia_perfil.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/conferencia_perfil.json",
+      "sha256": "b99d7dbd0a377b6c11113a495b24356602457c3dc053c72c422e69781455efb2",
+      "bytes": 249
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\auditoria_solver_matricial.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/auditoria_solver_matricial.json",
+      "sha256": "46176a1e7d5b4c20d770154c5b5708a0fc349d5924a0dee21fc5ac5673b77136",
+      "bytes": 575
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\malha.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/malha.json",
+      "sha256": "ea860da53adc3d85174ee629666839958f54bf9ac6e478958c1d06240ea08480",
+      "bytes": 58704
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\hfss_validacao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/hfss_validacao.json",
+      "sha256": "f64c6377017ed1c43fdccce889a669350e1fa944bdac87928d203bd390ffe848",
+      "bytes": 437
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\geometria_importada.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/geometria_importada.json",
+      "sha256": "f7b602470bea83f1e09952577abf3a1b565756fd0fce241f586f762afc0ad3ab",
+      "bytes": 55833
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\potencia.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/potencia.json",
+      "sha256": "883d26fd8344a09530e1338fcf781cd76448505d0639136991357df7f9452ca5",
+      "bytes": 489
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\potencia_conferida.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/potencia_conferida.json",
+      "sha256": "b554ae80b0cce9daa59fbb9faca61f0a66f6f6d40337a8e7a7a172327f411706",
+      "bytes": 707
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\ordem_fontes.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/ordem_fontes.json",
+      "sha256": "49f50154da7f453c3f8c1b323d5aebe7f6c8bb93f7a5f0f2d0afd96120859860",
+      "bytes": 26
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\mensagens.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/mensagens.json",
+      "sha256": "24e34af5df54ef09f503ae552bb13ea3bdf5e9b94deab15d7e30daa8422d78d7",
+      "bytes": 353
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\pipeline.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/pipeline.json",
+      "sha256": "4c5d5cb0a33341a19515bb441c037178884b5f5f4da051b24da573b0f3988bde",
+      "bytes": 142
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\qualificacao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/qualificacao.json",
+      "sha256": "81f944090680fa4349161e045ac91e12c4f276469e15cbed19c4dd90e846253a",
+      "bytes": 112
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\polar_HV.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/polar_HV.png",
+      "sha256": "b77c18f51023df16b427f58d054e0a881c876d856cbc49bd43952fda38faffdd",
+      "bytes": 243485
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\simetria_vertical.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/simetria_vertical.png",
+      "sha256": "9efb0bbd6fc512f20bf898a511b98f05f54d86bfc64a00535a68d70474f280f6",
+      "bytes": 97045
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\Relatorio_R11_C08_Radome.pdf",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/Relatorio_R11_C08_Radome.pdf",
+      "sha256": "341caceaee7da46e8989559a4557a3cba057f1088483a9471c8eeec353ec3359",
+      "bytes": 1333023
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\relatorio_manifesto.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/relatorio_manifesto.json",
+      "sha256": "0fcf1f7bcb60e7d38c5e4ed864b6614d9bf624f336acd432747b523e5b4f4630",
+      "bytes": 599
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\manifesto.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/manifesto.json",
+      "sha256": "c55bf43af728529f5a5a27e7e68f9410388575eb0f3dbf324262366d5acea23c",
+      "bytes": 4356
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\folhas_solidas.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/folhas_solidas.json",
+      "sha256": "95f6c5bf2189fa71535a10d06c97a3715d265c273aafd6c6a822084900826f12",
+      "bytes": 6691
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\portas.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/portas.json",
+      "sha256": "0c707d20c2055fb398deca45eccbde4b85a6a9c2c923e797b5a0f343fe7829db",
+      "bytes": 262
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\conexoes.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/conexoes.json",
+      "sha256": "486aa942b1db8b98c620d661afb09ae24862397f32f55a871095ccaf31602278",
+      "bytes": 1979
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\antena_preservada.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/antena_preservada.json",
+      "sha256": "52e6261d7e7ee95455129aa8d91508605f5a65029153cca978bdd227c5f9a1bb",
+      "bytes": 8942
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\intersecoes.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/intersecoes.json",
+      "sha256": "83ca1a537cb7c367cbf2dec5ded08e534bd138bf63dccbe713b8e18e876762b3",
+      "bytes": 84
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\reabertura.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/reabertura.json",
+      "sha256": "dbcc9bbbb7513fb3b06c5d931ff7f1d5b9ece3f1c23c44742cdd2217d7011675",
+      "bytes": 125
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\geometria_esperada.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/geometria_esperada.json",
+      "sha256": "3e4d65152b187c760bcc02f1222702dac888659568be623b0649f3519d19d85d",
+      "bytes": 29485
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\enig_hfss.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/enig_hfss.json",
+      "sha256": "1a03a2b7d8bd4919fe2735f485cd6d345b5850441b7a0ca4607d97e85aa54e2a",
+      "bytes": 98730
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\cad\\substrato_coordenadas_globais.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/cad/substrato_coordenadas_globais.json",
+      "sha256": "768747f92f8c95f2e9502d63e3d123f77014d5fe3c3f250fb5226143e18feceb",
+      "bytes": 207
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\imagens\\montagem.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/imagens/montagem.png",
+      "sha256": "dd8dd702a35b113537151126b6e298a77aa8db66297cf38b32d32e3fe73f9b59",
+      "bytes": 217148
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\imagens\\radome.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/imagens/radome.png",
+      "sha256": "65a1399113fcb66f1d993cd653d888df794679b8f6ff1fe8a6fde36db5437174",
+      "bytes": 257687
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\a00\\imagens\\traseira.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/a00/imagens/traseira.png",
+      "sha256": "93096248982a0b80af60c40c7f7331f0549a0e1bd83caf179b05f96fb5d98546",
+      "bytes": 213100
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\README.md",
+      "arquivo": "projetos/P2S13/fabricavel_radome/README.md",
+      "sha256": "1abd1770757f14ef9fe00f7230836e98bb0d3e2239a1682f2c66872ad20f6dd4",
+      "bytes": 5351
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\fontes\\referencia_370HR.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/fontes/referencia_370HR.json",
+      "sha256": "f6d44c615377b309518ba9212a4790c022d8ee563cdfe51b93700dcb34341864",
+      "bytes": 520
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\divisor_duplo_1x3_C08.kicad_pcb",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/divisor_duplo_1x3_C08.kicad_pcb",
+      "sha256": "91b1bebed6eacb4c81bececbdf5c41de846660808207b0d1a91d3b3d9c4d81b2",
+      "bytes": 459575
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\divisor_duplo_1x3_C08.kicad_pro",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/divisor_duplo_1x3_C08.kicad_pro",
+      "sha256": "0ec9fde640a5b285ca1c933133f84c9ab9b552cfed27f097818a0dad59bb5d84",
+      "bytes": 9978
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\verificacao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/verificacao.json",
+      "sha256": "fa3f35ec5e2a6882655310f0aa9d4dcac8b712b75eb4eb54e99c91453dd2bbae",
+      "bytes": 3792
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\conferencia_cad_hfss.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/conferencia_cad_hfss.json",
+      "sha256": "af294e0822cf05f3a2b3eef1d3634437725c080d8e3e031da584579d95a24f12",
+      "bytes": 1252
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\leitura_kicad.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/leitura_kicad.json",
+      "sha256": "f1163f9de98937fd052152c45af2e85547b356bfdc24fa25fd34a64f30d3e432",
+      "bytes": 1401836
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\drc.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/drc.json",
+      "sha256": "8344f7c7ed1868cec85e337ca1a72a35d937925ca79b3c5d75d30db9b2029f77",
+      "bytes": 96140
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\precisao_furacao.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/precisao_furacao.json",
+      "sha256": "9402f2a56e57bbea33d5b81327065a2bf96f13ed78037f130af9b1bc614e55bb",
+      "bytes": 114
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\faces_cad.json",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/faces_cad.json",
+      "sha256": "00c02575bb84bfbf6cbce94319718ee464d3c9722ebf3332da9861cab8aa72b1",
+      "bytes": 3222826
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-B_Cu.gbl",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-B_Cu.gbl",
+      "sha256": "dd2814ed3dc339b5805f5b75ba4225786d55e45f1552112da7228d219fae328a",
+      "bytes": 424307
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-B_Mask.gbs",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-B_Mask.gbs",
+      "sha256": "6dbe9bd3efb91a319480a95d0a8c0cec0978c8a8af813b9c9c5f58002b0d58d6",
+      "bytes": 673
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-Edge_Cuts.gm1",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-Edge_Cuts.gm1",
+      "sha256": "a97fc9c997f24edc6209945fb94bbf8aa3de14b6deb9b399d942d05dc4064d28",
+      "bytes": 733
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-F_Cu.gtl",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-F_Cu.gtl",
+      "sha256": "e3258ce04450e64d5965df7fc2415acec1e6782ba3d5e6dd1a27cbc874a5a7e0",
+      "bytes": 8098
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-F_Mask.gts",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-F_Mask.gts",
+      "sha256": "c7929514ec1cf3f8f4ed14f3ac4e82590d4918249004d5d7ffcef24a92062815",
+      "bytes": 673
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-job.gbrjob",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-job.gbrjob",
+      "sha256": "b3d9014b0b997da896549f1e6dc81565b2b76d325e62e147b2429ace8a11c8ca",
+      "bytes": 2414
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-NPTH.drl",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-NPTH.drl",
+      "sha256": "36a3c45941d9a4243ddccfca1926eaf9165618c55fbc07e6763b9b81bb80d861",
+      "bytes": 279
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\gerbers\\divisor_duplo_1x3_C08-PTH.drl",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-PTH.drl",
+      "sha256": "a071bbb0ef1f16cd7d0c3632d257161265f2fe1f9bdd4bd7fb5150ff0c719444",
+      "bytes": 522
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\preview\\gerbers_conferidos.png",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/preview/gerbers_conferidos.png",
+      "sha256": "d52b43d429e33269873a9adedbda3aca39043c02294d07f7cbcdf8ee91a410ec",
+      "bytes": 143197
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\d00\\kicad\\C08_Gerbers_PARA_REVISAO_RF.zip",
+      "arquivo": "projetos/P2S13/fabricavel_radome/d00/kicad/C08_Gerbers_PARA_REVISAO_RF.zip",
+      "sha256": "e1193c67a3f0213a19f0a01916b40b5adaf256f61ffe4c99a2aaa4d6e0113da3",
+      "bytes": 96554
+    }
+  ],
+  "exclusoes": [
+    "aedtresults",
+    "malhas",
+    "g3derr",
+    "campos volumetricos",
+    "locks",
+    "tessellacao de visualizacao"
+  ]
+}

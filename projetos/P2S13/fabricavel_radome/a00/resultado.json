@@ -1,0 +1,173 @@
+{
+  "revisao": "R11_integral_d00",
+  "frequencia_GHz": 5.17,
+  "passes": 6,
+  "delta_s": 0.13888655104199835,
+  "consecutivos": 0,
+  "convergiu": false,
+  "nucleos": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "fontes_W": [
+    0.5,
+    0.5
+  ],
+  "fontes_fase_graus": [
+    0,
+    0
+  ],
+  "VSWR_ativo": [
+    1.5984624071452809,
+    2.0233627489652624
+  ],
+  "VSWR_outra_casada": [
+    1.7385801957082936,
+    1.5418133031299521
+  ],
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 14.291067176484091,
+      "pico_graus": 16.25,
+      "ganho_pico_dBi": 15.703934411466873,
+      "abertura_graus": 63.08870477657881,
+      "cruzamentos_graus": [
+        -8.938023239962165,
+        54.150681536616645
+      ],
+      "SLL": {
+        "nivel_dB": -3.3564756110013256,
+        "limites_lobo_principal_graus": [
+          -19.25,
+          86.0
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -83.5,
+            "nivel_dB": -10.18379131963324
+          },
+          {
+            "angulo_graus": -33.25,
+            "nivel_dB": -3.3564756110013256
+          }
+        ]
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 14.291067176484091,
+      "pico_graus": 0.5,
+      "ganho_pico_dBi": 14.323073964350879,
+      "abertura_graus": 9.847764732256408,
+      "cruzamentos_graus": [
+        -4.267180170451075,
+        5.580584561805334
+      ],
+      "SLL": {
+        "nivel_dB": -3.2580996427077107,
+        "limites_lobo_principal_graus": [
+          -9.25,
+          12.5
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -73.0,
+            "nivel_dB": -3.2580996427077107
+          },
+          {
+            "angulo_graus": -51.0,
+            "nivel_dB": -9.286697848934256
+          },
+          {
+            "angulo_graus": -44.0,
+            "nivel_dB": -9.002979751551361
+          },
+          {
+            "angulo_graus": -27.25,
+            "nivel_dB": -10.386830989067688
+          },
+          {
+            "angulo_graus": -14.5,
+            "nivel_dB": -7.750512211148463
+          },
+          {
+            "angulo_graus": 16.5,
+            "nivel_dB": -13.757769003164215
+          },
+          {
+            "angulo_graus": 39.0,
+            "nivel_dB": -6.6886881520801165
+          },
+          {
+            "angulo_graus": 59.5,
+            "nivel_dB": -6.669113874752927
+          }
+        ]
+      }
+    }
+  },
+  "vertical_fino": {
+    "passo_graus": 0.01,
+    "pico_grade_graus": 0.52,
+    "pico_interpolado_graus": 0.5230842649490344,
+    "assimetria_max_dB": 1.375319566564313,
+    "intervalo_simetria_graus": [
+      -4.267180170451075,
+      4.267180170451075
+    ],
+    "criterio_simetria_dB": 0.2,
+    "criterio_pico_graus": 0.5
+  },
+  "passividade_sigma_max": 0.3484044966618359,
+  "reciprocidade_erro": 0.14476812028139793,
+  "recomposicao_erro": {
+    "H": 1.4842149702215226e-14,
+    "V": 1.2716779685529957e-14
+  },
+  "potencia_balanco_aprovado": false,
+  "malha_major": 0,
+  "malha_minor": 0,
+  "metas": {
+    "VSWR_ativo": false,
+    "VSWR_outra_casada": false,
+    "ganho": true,
+    "pico_vertical": false,
+    "simetria_lobo_principal": false
+  },
+  "metas_operacionais": false,
+  "criterio_VSWR_operacional": "Duas entradas iguais e em fase; VSWR com outra casada e verificacao adicional, reportada separadamente.",
+  "validacao_nominal": false,
+  "solver_matricial": {
+    "perfil": "DV82_S79_V0.profile",
+    "perfil_sha256": "6c0fa4917736174f514ee95377e0e42329746b8e733f022798c5425dd823b659",
+    "residuo_configurado": 1e-05,
+    "avisos": [
+      {
+        "passe": 6,
+        "mensagem": "Iterative Solver failed to converge after reaching maximum number of iterations, maximum residual = 4.803e-02, average residual = 2.777e-02",
+        "residuo_maximo": 0.04803,
+        "residuo_medio": 0.02777
+      }
+    ],
+    "aprovado": false,
+    "nota": "Auditoria do perfil de recursos; avisos do solver matricial podem nao aparecer em GetMessages."
+  },
+  "resultados_fisicamente_consistentes": false,
+  "nota_metas": "Comparacoes numericas dos valores exportados; uma solucao fisicamente inconsistente nao aprova qualquer meta RF.",
+  "estabilidade_campos_ultimos_dB": [
+    0.3988857550423601,
+    12.10768821451903
+  ],
+  "estabilidade_campos_aprovada": false,
+  "tolerancia_reciprocidade_absoluta": 1e-05,
+  "nota_reciprocidade": "Mantido limiar de auditoria historico. Afericao absoluta reportada; nao equivale a erro de VSWR ou de ganho.",
+  "limites": "Simulacao nominal em um ponto; FR4 isotropico tipico, portas internas ideais. Nao inclui conectores externos, vedacao, cola nem tolerancias de lote.",
+  "fontes_sha256": {
+    "configuracao.json": "99498497ff0c9e1a18012ab58bdce1327ccbae4a14d94f71e7234e7593e57d1d",
+    "P2S13_Radome.aedt": "a01b551d01e50e6a348677b48baad861735e3f533eed3a3237bf521751c25f21",
+    "centro.s2p": "e927fe7bf7f9d84a4c5959580fedb121a0e02cf7e07864f6a7a5e404db02db48"
+  }
+}

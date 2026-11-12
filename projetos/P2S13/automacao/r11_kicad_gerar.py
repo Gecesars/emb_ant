@@ -1,0 +1,21 @@
+"""Deriva o conversor C07, com PTH, ilhas e recuo definidos pela revisao HFSS."""
+from pathlib import Path
+HERE=Path(__file__).parent
+s=(HERE/'divisor3_c07_kicad.py').read_text(encoding='utf-8-sig')
+s=s.replace('import json, math, hashlib','import json, math, hashlib, os')
+s=s.replace("SRC=REPO/'projetos/P2S13/divisor_duplo_1x3_correcao/c07_centro'", "SRC=Path(os.environ['P2S13_DIV3_ROOT'])")
+s=s.replace("OUT=REPO/'projetos/P2S13/kicad/divisor_duplo_1x3_C07'", "OUT=SRC/'kicad'")
+s=s.replace("NAME='divisor_duplo_1x3_C07'", "NAME='divisor_duplo_1x3_C08'")
+s=s.replace("poly(k.B_Cu,outline,circles,'GND')", "inset=cfg['fabricacao']['recuo_terra_mm']\npoly(k.B_Cu,[[-110+inset,-32+inset],[110-inset,-32+inset],[110-inset,32-inset],[-110+inset,32-inset]],circles,'GND')")
+s=s.replace("hole.SetNumber('')", "hole.SetNumber('1');hole.SetNet(nets['SIG_'+ip['name'][-1]])")
+s=s.replace("mm(2*ip['ri'])", "mm(cfg['fabricacao']['ilha_diametro_mm'])")
+s=s.replace("hole.SetDrillSize(hole.GetSize());hole.SetAttribute(k.PAD_ATTRIB_NPTH)", "hole.SetDrillSize(k.VECTOR2I(mm(cfg['fabricacao']['furo_acabado_mm']),mm(cfg['fabricacao']['furo_acabado_mm'])));hole.SetAttribute(k.PAD_ATTRIB_PTH)")
+s=s.replace("[('1','SIG_'+ip['name'][-1],k.F_Cu,*anchor,.25),('2','GND',k.B_Cu,ip['x']+1.8,ip['y'],.4)]", "[('2','GND',k.B_Cu,ip['x']+1.8,ip['y'],.4)]")
+s=s.replace("'C07 | ZYF300CA-C", "'C08 DFM | ZYF300CA-C")
+s=s.replace("PRELIMINAR - GEOMETRIA HFSS PRESERVADA - REQUER DFM ESPECIAL", "C08 DFM - PTH 1.10 mm / ILHA 1.80 mm - RECUO TERRA 0.30 mm")
+s=s.replace("Divisor duplo 1:3 C07", "Divisor duplo 1:3 C08 DFM")
+s=s.replace("'C07 / KiCad R01'", "'C08 DFM / KiCad R11'")
+s=s.replace("NPTH 0.9195 mm; antipads B.Cu 3.03 mm; ground ate a borda", "PTH 1.10 mm; ilhas 1.80 mm; antipads 3.03 mm; terra a 0.30 mm da borda")
+s=s.replace("rules['min_clearance']=.15", "rules['min_annular_width']=.25;rules['min_clearance']=.15")
+(HERE/'r11_kicad.py').write_text(s,encoding='utf-8')
+print(HERE/'r11_kicad.py')

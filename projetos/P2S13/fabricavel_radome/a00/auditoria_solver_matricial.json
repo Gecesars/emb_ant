@@ -1,0 +1,15 @@
+{
+  "perfil": "DV82_S79_V0.profile",
+  "perfil_sha256": "6c0fa4917736174f514ee95377e0e42329746b8e733f022798c5425dd823b659",
+  "residuo_configurado": 1e-05,
+  "avisos": [
+    {
+      "passe": 6,
+      "mensagem": "Iterative Solver failed to converge after reaching maximum number of iterations, maximum residual = 4.803e-02, average residual = 2.777e-02",
+      "residuo_maximo": 0.04803,
+      "residuo_medio": 0.02777
+    }
+  ],
+  "aprovado": false,
+  "nota": "Auditoria do perfil de recursos; avisos do solver matricial podem nao aparecer em GetMessages."
+}

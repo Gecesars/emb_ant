@@ -1,0 +1,42 @@
+{
+  "aprovado": true,
+  "comparacoes": [
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_A",
+      "diferenca_area_mm2": 0.000262431298702108,
+      "area_CAD_exata_mm2": 879.1620737918583,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "SIG_A",
+      "diferenca_area_mm2": 2.1884062640036068e-05,
+      "area_CAD_exata_mm2": 6.377433086787299,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_B",
+      "diferenca_area_mm2": 0.0002648848132369486,
+      "area_CAD_exata_mm2": 879.1620737918588,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "SIG_B",
+      "diferenca_area_mm2": 2.1884062641140013e-05,
+      "area_CAD_exata_mm2": 6.377433086787299,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "GND",
+      "diferenca_area_mm2": 0.00012605225879317404,
+      "area_CAD_exata_mm2": 13852.274704013318,
+      "limite_desvio_borda_mm": 5e-06
+    }
+  ],
+  "fonte_fcstd_sha256": "9327f3c4c0bf6c1be3cf0a8274762a76a9ad36add4e7039b25ebf72be81a4e7a",
+  "fonte_config_sha256": "73afdff71bc0082e98b977b5ecb72933bb3f3195f3cb0fc5f79f8ad549d5e64c"
+}

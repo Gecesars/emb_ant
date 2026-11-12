@@ -1,0 +1,135 @@
+{
+  "Ilha_inferior_IN_A": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": 2.50916841304,
+        "y": 2.5,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_R1_A": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": -93.49083158696,
+        "y": 18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_R2_A": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": 2.50916841304,
+        "y": 18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_R3_A": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": 98.50916841304,
+        "y": 18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_IN_B": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": 2.50916841304,
+        "y": -2.5,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_R1_B": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": -93.49083158696,
+        "y": -18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_R2_B": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": 2.50916841304,
+        "y": -18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Ilha_inferior_R3_B": {
+    "base_z_mm": 0,
+    "skip_hole_cylinders": [
+      {
+        "x": 98.50916841304,
+        "y": -18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Terra": {
+    "base_z_mm": 0
+  },
+  "Sinal_A": {
+    "base_z_mm": 1.52,
+    "skip_hole_cylinders": [
+      {
+        "x": 2.50916841304,
+        "y": 2.5,
+        "r": 0.55
+      },
+      {
+        "x": -93.49083158696,
+        "y": 18,
+        "r": 0.55
+      },
+      {
+        "x": 2.50916841304,
+        "y": 18,
+        "r": 0.55
+      },
+      {
+        "x": 98.50916841304,
+        "y": 18,
+        "r": 0.55
+      }
+    ]
+  },
+  "Sinal_B": {
+    "base_z_mm": 1.52,
+    "skip_hole_cylinders": [
+      {
+        "x": 2.50916841304,
+        "y": -2.5,
+        "r": 0.55
+      },
+      {
+        "x": -93.49083158696,
+        "y": -18,
+        "r": 0.55
+      },
+      {
+        "x": 2.50916841304,
+        "y": -18,
+        "r": 0.55
+      },
+      {
+        "x": 98.50916841304,
+        "y": -18,
+        "r": 0.55
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "antena": "R1_Vivo_A",
+    "divisor": "D_Pino_R1_A",
+    "tipo": "sinal",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 0.6640386355388154
+  },
+  {
+    "antena": "R1_Blindagem_A",
+    "divisor": "D_Massa_R1_A",
+    "tipo": "terra",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 2.860939259279516
+  },
+  {
+    "antena": "R1_Vivo_B",
+    "divisor": "D_Pino_R1_B",
+    "tipo": "sinal",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 0.6640386355388154
+  },
+  {
+    "antena": "R1_Blindagem_B",
+    "divisor": "D_Massa_R1_B",
+    "tipo": "terra",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 2.860939259279516
+  },
+  {
+    "antena": "R2_Vivo_A",
+    "divisor": "D_Pino_R2_A",
+    "tipo": "sinal",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 0.6640386355388154
+  },
+  {
+    "antena": "R2_Blindagem_A",
+    "divisor": "D_Massa_R2_A",
+    "tipo": "terra",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 2.860939259279516
+  },
+  {
+    "antena": "R2_Vivo_B",
+    "divisor": "D_Pino_R2_B",
+    "tipo": "sinal",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 0.6640386355388154
+  },
+  {
+    "antena": "R2_Blindagem_B",
+    "divisor": "D_Massa_R2_B",
+    "tipo": "terra",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 2.860939259279516
+  },
+  {
+    "antena": "R3_Vivo_A",
+    "divisor": "D_Pino_R3_A",
+    "tipo": "sinal",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 0.6640386355388154
+  },
+  {
+    "antena": "R3_Blindagem_A",
+    "divisor": "D_Massa_R3_A",
+    "tipo": "terra",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 2.860939259279516
+  },
+  {
+    "antena": "R3_Vivo_B",
+    "divisor": "D_Pino_R3_B",
+    "tipo": "sinal",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 0.6640386355388154
+  },
+  {
+    "antena": "R3_Blindagem_B",
+    "divisor": "D_Massa_R3_B",
+    "tipo": "terra",
+    "distancia_mm": 0.0,
+    "area_contato_mm2": 2.860939259279516
+  }
+]

@@ -42,3 +42,7 @@ projetos/P2S13/kicad/**/*.kicad_pcb -text whitespace=cr-at-eol
 projetos/P2S13/kicad/**/*.kicad_pro -text whitespace=cr-at-eol
 projetos/P2S13/kicad/**/gerbers/* -text whitespace=-blank-at-eol,-blank-at-eof
 projetos/P2S13/kicad/**/*.svg -text whitespace=-blank-at-eol,-blank-at-eof
+# Preservar nativos e CAM da revisao C08/radome, fora da pasta KiCad historica.
+projetos/P2S13/fabricavel_radome/**/*.kicad_pcb -text whitespace=cr-at-eol
+projetos/P2S13/fabricavel_radome/**/*.kicad_pro -text whitespace=cr-at-eol
+projetos/P2S13/fabricavel_radome/**/gerbers/* -text whitespace=-blank-at-eol,-blank-at-eof

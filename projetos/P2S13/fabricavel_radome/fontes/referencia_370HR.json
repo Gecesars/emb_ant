@@ -1,0 +1,13 @@
+{
+  "material": "Isola370HR FR4 sem cobre",
+  "fonte": "https://isola-group.com/wp-content/uploads/data-sheets/370hr.pdf",
+  "consulta": "2026-11-11",
+  "frequencia_ficha_GHz": 5,
+  "frequencia_modelo_GHz": 5.17,
+  "er": 3.92,
+  "tand": 0.025,
+  "espessura_modelo_mm": 2,
+  "modelo": "isotropico com valores tipicos de referencia",
+  "pdf_sha256": "aab883f14d1954f53298ac9b9159216b5abe44a74ff2d8bc528dd1a7ecbac6e7",
+  "pdf_local": "D:\\dev\\EMBRAER\\P2S13\\R11_Fabricavel_Radome\\fontes\\Isola_370HR.pdf"
+}
