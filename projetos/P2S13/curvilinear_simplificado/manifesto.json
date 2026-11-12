@@ -1,0 +1,87 @@
+{
+  "tipo": "PREPARADO_EM_CALCULO",
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/configuracao.json",
+      "sha256": "620a41a916579ae972d9281fb0f1a215bfad9b3825f46a02b7d9ddd7969797b0",
+      "bytes": 6803
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/P2S13_Curvilinear.FCStd",
+      "sha256": "470a2849ca238944637d56d4d322e9e04c428a7d6b681b5d07e6afc37f21328b",
+      "bytes": 1359923
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/HFSS_14nucleos.acf",
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853",
+      "bytes": 998
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/setup_confirmado.json",
+      "sha256": "74719d26252c04e813a284e8b06a65c1073ac314673b7ca6edb5d92bcfc8a977",
+      "bytes": 291
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/hfss_validacao.json",
+      "sha256": "c5888e9ee81dcff2cffc91b9c1c84ded4f91a6bb259a180e70955b0dc98f45ff",
+      "bytes": 499
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/geometria_importada.json",
+      "sha256": "6f9f5feee3344cba81524c9471623072884cb6f34439f1f264d66e75216b8a81",
+      "bytes": 48781
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/simplificacao.json",
+      "sha256": "ef84e054fe87b8eb2bf6056bcf1fa5f1f0ea780b602de3fafd2aaa25851296d5",
+      "bytes": 16748
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/manifesto.json",
+      "sha256": "e11438bc8a169a63f2e5aa9a838836e7376159002115cb35404e6014328c621d",
+      "bytes": 3804
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/folhas_solidas.json",
+      "sha256": "95f6c5bf2189fa71535a10d06c97a3715d265c273aafd6c6a822084900826f12",
+      "bytes": 6691
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/portas.json",
+      "sha256": "0c707d20c2055fb398deca45eccbde4b85a6a9c2c923e797b5a0f343fe7829db",
+      "bytes": 262
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/intersecoes.json",
+      "sha256": "315c7c5eb60e40774a750603617557b635838ff2e5c982b49e7f2c3271e7fc99",
+      "bytes": 67
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/geometria_esperada.json",
+      "sha256": "58c178f47e745f0a10414fd84b6103dc57a3817dd85b9acecf97a422f463f036",
+      "bytes": 25849
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/reabertura.json",
+      "sha256": "651730c5cdc620a7467e443509b9799496cb1e52035a1d604aa5c76492ede183",
+      "bytes": 125
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/cad/enig_hfss.json",
+      "sha256": "b400b3ee0727f8f98f81926ba9e417fd4cb064e58247939419a23cf71e6b97e6",
+      "bytes": 98730
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/README.md",
+      "sha256": "2cadf6f19c4342c41cb7046926261f8ff7722fa790210ed0ea8eab92d81e8e31",
+      "bytes": 3271
+    }
+  ],
+  "excluidos": [
+    "aedtresults",
+    "malhas",
+    "g3derr",
+    "camposvolumetricos",
+    "locks"
+  ]
+}

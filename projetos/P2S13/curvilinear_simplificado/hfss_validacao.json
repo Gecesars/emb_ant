@@ -1,0 +1,16 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "curvilinear": true, 
+  "basis_order": 1, 
+  "modo": "Mesmo conjunto fisico R11: 3PCBs2, seis cabos50mm, C08 e radome FR4 2mm. Emendas contiguas homogeneas unidas sem mudanca de material/envelope.", 
+  "tau_flex": false, 
+  "fallback": false, 
+  "solver_type": "Direct Solver", 
+  "mesh_method": "AnsoftClassic", 
+  "max_passes": 6, 
+  "modelo": "P2S13_Curvilinear", 
+  "max_delta_s": 0.050000000000000003, 
+  "simulado": false, 
+  "portas": 2
+}

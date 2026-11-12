@@ -1,0 +1,612 @@
+{
+  "aprovado": true,
+  "corpos_antes": 141,
+  "corpos_depois": 123,
+  "faces_antes": 5634,
+  "faces_depois": 5580,
+  "unioes": [
+    {
+      "mantido": "R1_Vivo_A",
+      "absorvido": "D_Pino_R1_A",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 8,
+      "faces_depois": 5,
+      "volume_mm3": 35.10907234510077
+    },
+    {
+      "mantido": "R1_Blindagem_A",
+      "absorvido": "D_Massa_R1_A",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 10,
+      "faces_depois": 8,
+      "volume_mm3": 144.35715830537657
+    },
+    {
+      "mantido": "R1_PTFE_A",
+      "absorvido": "D_PTFE_R1_A",
+      "material": "PTFE_terminal",
+      "distancia_original_mm": 6.252776074688882e-13,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 14,
+      "faces_depois": 10,
+      "volume_mm3": 328.3673371107188
+    },
+    {
+      "mantido": "R1_Vivo_B",
+      "absorvido": "D_Pino_R1_B",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 8,
+      "faces_depois": 5,
+      "volume_mm3": 35.10907234510077
+    },
+    {
+      "mantido": "R1_Blindagem_B",
+      "absorvido": "D_Massa_R1_B",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 10,
+      "faces_depois": 8,
+      "volume_mm3": 144.35715830537657
+    },
+    {
+      "mantido": "R1_PTFE_B",
+      "absorvido": "D_PTFE_R1_B",
+      "material": "PTFE_terminal",
+      "distancia_original_mm": 6.252776074688882e-13,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 14,
+      "faces_depois": 10,
+      "volume_mm3": 328.3673371107188
+    },
+    {
+      "mantido": "R2_Vivo_A",
+      "absorvido": "D_Pino_R2_A",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 8,
+      "faces_depois": 5,
+      "volume_mm3": 35.10907234510076
+    },
+    {
+      "mantido": "R2_Blindagem_A",
+      "absorvido": "D_Massa_R2_A",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 10,
+      "faces_depois": 8,
+      "volume_mm3": 144.357158305377
+    },
+    {
+      "mantido": "R2_PTFE_A",
+      "absorvido": "D_PTFE_R2_A",
+      "material": "PTFE_terminal",
+      "distancia_original_mm": 6.297184995673888e-13,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 14,
+      "faces_depois": 10,
+      "volume_mm3": 328.3673371107193
+    },
+    {
+      "mantido": "R2_Vivo_B",
+      "absorvido": "D_Pino_R2_B",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 8,
+      "faces_depois": 5,
+      "volume_mm3": 35.10907234510076
+    },
+    {
+      "mantido": "R2_Blindagem_B",
+      "absorvido": "D_Massa_R2_B",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 10,
+      "faces_depois": 8,
+      "volume_mm3": 144.357158305377
+    },
+    {
+      "mantido": "R2_PTFE_B",
+      "absorvido": "D_PTFE_R2_B",
+      "material": "PTFE_terminal",
+      "distancia_original_mm": 6.297184995673888e-13,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 14,
+      "faces_depois": 10,
+      "volume_mm3": 328.3673371107193
+    },
+    {
+      "mantido": "R3_Vivo_A",
+      "absorvido": "D_Pino_R3_A",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 8,
+      "faces_depois": 5,
+      "volume_mm3": 35.10907234510077
+    },
+    {
+      "mantido": "R3_Blindagem_A",
+      "absorvido": "D_Massa_R3_A",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 10,
+      "faces_depois": 8,
+      "volume_mm3": 144.35715830537657
+    },
+    {
+      "mantido": "R3_PTFE_A",
+      "absorvido": "D_PTFE_R3_A",
+      "material": "PTFE_terminal",
+      "distancia_original_mm": 6.252776074688882e-13,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 14,
+      "faces_depois": 10,
+      "volume_mm3": 328.3673371107188
+    },
+    {
+      "mantido": "R3_Vivo_B",
+      "absorvido": "D_Pino_R3_B",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 8,
+      "faces_depois": 5,
+      "volume_mm3": 35.10907234510077
+    },
+    {
+      "mantido": "R3_Blindagem_B",
+      "absorvido": "D_Massa_R3_B",
+      "material": "copper",
+      "distancia_original_mm": 0.0,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 10,
+      "faces_depois": 8,
+      "volume_mm3": 144.35715830537657
+    },
+    {
+      "mantido": "R3_PTFE_B",
+      "absorvido": "D_PTFE_R3_B",
+      "material": "PTFE_terminal",
+      "distancia_original_mm": 6.252776074688882e-13,
+      "diferenca_volume_mm3": 0.0,
+      "faces_antes": 14,
+      "faces_depois": 10,
+      "volume_mm3": 328.3673371107188
+    }
+  ],
+  "objetos_inalterados": {
+    "R1_PCB_RO4350B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 3341.8383769092156
+    },
+    "R1_B_E1_Q2_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.22249538326272
+    },
+    "R1_B_E1_Q3_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.1714225693873184
+    },
+    "R1_B_E2_Q2_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.222495383262721
+    },
+    "R1_B_E2_Q3_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.171422569387317
+    },
+    "R1_B_RET_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 19.031450584796445
+    },
+    "R1_B_RET_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 18.9687686858394
+    },
+    "R1_B_SIG_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03711000642722929
+    },
+    "R1_B_SIG_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08976080239570068
+    },
+    "R1_B_SIG_B_Cu1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08976080239570068
+    },
+    "R1_B_SIG_B_Cu2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.037110006427229315
+    },
+    "R1_F_SIG_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 4.765889752087046
+    },
+    "R1_F_SIG_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.42414574149473167
+    },
+    "R1_F_SIG_B_Cu1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4241457414947317
+    },
+    "R1_F_SIG_B_Cu2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 3.8066355254585518
+    },
+    "R1_Via_0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468803
+    },
+    "R1_Via_1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468782
+    },
+    "R1_Via_2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468803
+    },
+    "R1_Via_3": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468782
+    },
+    "R1_Solda_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08327184027421414
+    },
+    "R1_PTH_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09484782380453005
+    },
+    "R1_Solda_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08327184027421414
+    },
+    "R1_PTH_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09484782380453005
+    },
+    "R2_PCB_RO4350B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 3341.8383769092156
+    },
+    "R2_B_E1_Q2_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.2224953832627192
+    },
+    "R2_B_E1_Q3_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.1714225693873184
+    },
+    "R2_B_E2_Q2_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.22249538326272
+    },
+    "R2_B_E2_Q3_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.171422569387317
+    },
+    "R2_B_RET_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 19.031450584796463
+    },
+    "R2_B_RET_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 18.968768685839407
+    },
+    "R2_B_SIG_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03711000642722927
+    },
+    "R2_B_SIG_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0897608023957005
+    },
+    "R2_B_SIG_B_Cu1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08976080239570049
+    },
+    "R2_B_SIG_B_Cu2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03711000642722931
+    },
+    "R2_F_SIG_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 4.7658897520870465
+    },
+    "R2_F_SIG_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.42414574149473183
+    },
+    "R2_F_SIG_B_Cu1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4241457414947318
+    },
+    "R2_F_SIG_B_Cu2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 3.8066355254585607
+    },
+    "R2_Via_0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0363513685946877
+    },
+    "R2_Via_1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0363513685946877
+    },
+    "R2_Via_2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0363513685946877
+    },
+    "R2_Via_3": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0363513685946877
+    },
+    "R2_Solda_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08327184027421408
+    },
+    "R2_PTH_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09484782380453016
+    },
+    "R2_Solda_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08327184027421408
+    },
+    "R2_PTH_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09484782380453016
+    },
+    "R3_PCB_RO4350B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 3341.838376909215
+    },
+    "R3_B_E1_Q2_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.2224953832627183
+    },
+    "R3_B_E1_Q3_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.1714225693873184
+    },
+    "R3_B_E2_Q2_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.2224953832627206
+    },
+    "R3_B_E2_Q3_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 2.171422569387317
+    },
+    "R3_B_RET_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 19.031450584796453
+    },
+    "R3_B_RET_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 18.9687686858394
+    },
+    "R3_B_SIG_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03711000642722932
+    },
+    "R3_B_SIG_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08976080239570068
+    },
+    "R3_B_SIG_B_Cu1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08976080239570067
+    },
+    "R3_B_SIG_B_Cu2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03711000642722932
+    },
+    "R3_F_SIG_A_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 4.765889752087047
+    },
+    "R3_F_SIG_B_Cu0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4241457414947317
+    },
+    "R3_F_SIG_B_Cu1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.42414574149473167
+    },
+    "R3_F_SIG_B_Cu2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 3.8066355254585527
+    },
+    "R3_Via_0": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468803
+    },
+    "R3_Via_1": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468782
+    },
+    "R3_Via_2": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468803
+    },
+    "R3_Via_3": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.03635136859468782
+    },
+    "R3_Solda_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08327184027421414
+    },
+    "R3_PTH_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09484782380453011
+    },
+    "R3_Solda_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.08327184027421414
+    },
+    "R3_PTH_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09484782380453011
+    },
+    "Refletor_Al2mm": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 53733.68786708042
+    },
+    "D_Pino_IN_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 1.1521070326598448
+    },
+    "D_Barril_IN_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09609654405247814
+    },
+    "D_Solda_IN_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536338
+    },
+    "D_Ilha_inferior_IN_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938689
+    },
+    "D_PTFE_IN_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 1.1125694058180162
+    },
+    "D_Massa_IN_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.804012099869973
+    },
+    "D_Barril_R1_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09609654405248225
+    },
+    "D_Solda_R1_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536356
+    },
+    "D_Ilha_inferior_R1_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938689
+    },
+    "D_Barril_R2_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0960965440524788
+    },
+    "D_Solda_R2_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536336
+    },
+    "D_Ilha_inferior_R2_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938692
+    },
+    "D_Barril_R3_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09609654405248225
+    },
+    "D_Solda_R3_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536355
+    },
+    "D_Ilha_inferior_R3_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938689
+    },
+    "D_Pino_IN_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 1.1521070326598448
+    },
+    "D_Barril_IN_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09609654405247814
+    },
+    "D_Solda_IN_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536338
+    },
+    "D_Ilha_inferior_IN_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938689
+    },
+    "D_PTFE_IN_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 1.1125694058180162
+    },
+    "D_Massa_IN_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.804012099869973
+    },
+    "D_Barril_R1_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09609654405248225
+    },
+    "D_Solda_R1_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536356
+    },
+    "D_Ilha_inferior_R1_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938689
+    },
+    "D_Barril_R2_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.0960965440524788
+    },
+    "D_Solda_R2_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536336
+    },
+    "D_Ilha_inferior_R2_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938692
+    },
+    "D_Barril_R3_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.09609654405248225
+    },
+    "D_Solda_R3_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.4552060960536355
+    },
+    "D_Ilha_inferior_R3_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 0.05580253950938689
+    },
+    "D_Substrato": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 21389.27519323067
+    },
+    "D_Terra": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 484.82961464045025
+    },
+    "D_Sinal_A": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 30.770672582714027
+    },
+    "D_Sinal_B": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 30.77067258271403
+    },
+    "Radome_FR4_2mm": {
+      "diferenca_volume_mm3": 0.0,
+      "volume_mm3": 231584.00000000058
+    }
+  },
+  "aproximacao_fisica": "Nenhuma: unioes de dominios contiguos com material identico; contornos externos preservados."
+}
