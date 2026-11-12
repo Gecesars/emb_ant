@@ -1,0 +1,12 @@
+{
+  "hora": "2026-11-12T02:54:23.326635-03:00",
+  "estado_anterior": {
+    "pipeline_pid": 227704,
+    "hora": "2026-11-12T01:51:07.5406014-03:00",
+    "estado": "FALHA: Auditoria falhou"
+  },
+  "erro": "Auditor procurava IterativeResidual inexistente no solver direto.",
+  "correcao": "Confere Direct Solver, BasisOrder=1 e GlobalCurvilinear.Apply=true diretamente no nativo. Auditoria executada sobre os mesmos arquivos exportados; nenhum novo solve.",
+  "erro_log_sha256": "441710a41eb76c1906bb8d38918bc7359cbb81e24aaab5878e73be1185a7cdbd",
+  "nativo_sha256": "b0843f9ab753dbc8646830595e592bbf1af17ac065b0b887c4cf8d04aaf8d5e9"
+}

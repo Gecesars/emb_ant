@@ -25,7 +25,8 @@ for n in ['configuracao.json',cfg['cad_native'],'HFSS_14nucleos.acf','setup_conf
 if args.final:
     for n in [cfg['native'],'resultado.json','centro.s2p','convergencia.txt','historico_passes.json','convergencia_campos.json',
         'conferencia_perfil.json','recursos_matriz.json','auditoria_solver_matricial.json','malha.json','mensagens.json',
-        'potencia.json','potencia_conferida.json','polar_HV.png','simetria_vertical.png','pipeline.json','qualificacao.json','ordem_fontes.json']:
+        'potencia.json','potencia_conferida.json','polar_HV.png','simetria_vertical.png','pipeline.json','qualificacao.json','estado.json',
+        'recuperacao_auditoria.json','ordem_fontes.json']:
         if (ROOT/n).exists():copy(Path(n))
     for pattern in ['ALL_*.csv','POL_*.csv','IN_*.csv','diagrama_*.csv']:
         for p in ROOT.glob(pattern):copy(Path(p.name))

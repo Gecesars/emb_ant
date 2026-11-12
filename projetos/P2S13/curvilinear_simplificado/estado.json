@@ -1,0 +1,14 @@
+{
+  "estado": "CONCLUIDO_NAO_VALIDADO",
+  "hora": "2026-11-12T02:54:23.326635-03:00",
+  "passes": 6,
+  "delta_s": 0.0783068124520335,
+  "ganho_frontal_dBi": 11.571884408554268,
+  "VSWR_ativo": [
+    1.6199140864385138,
+    1.5228197166512318
+  ],
+  "potencia_balanco_aprovado": true,
+  "convergiu": false,
+  "validacao_nominal": false
+}

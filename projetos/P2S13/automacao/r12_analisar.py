@@ -1,4 +1,4 @@
-"""Audita a solucao integral R11, sem impor convergencia pelo limite de passes."""
+"""Audita a solucao integral R12, sem impor convergencia pelo limite de passes."""
 from pathlib import Path
 import os,sys,json,re,csv,hashlib
 import numpy as np
@@ -63,7 +63,10 @@ last_fields=[x.get('delta_campo_max_dB') for x in cache['historico'][-2:]]
 fields_stable=len(last_fields)==2 and all(x is not None and x<=.1 for x in last_fields)
 native=(ROOT/cfg['native']).read_text(errors='replace');sources=re.findall(r'SourceEntry\([^\n]+',native)
 assert len(sources)==2 and all("Magnitude='0.5W'" in x and "Phase='0deg'" in x for x in sources)
-residual_target=float(re.search(r'IterativeResidual=([\d.eE+-]+)',native)[1])
+assert "DrivenSolverType='Direct Solver'" in native
+assert int(re.search(r'BasisOrder=(\d+)',native)[1])==cfg['basis_order']==1
+curvilinear=re.search(r"\$begin 'GlobalCurvilinear'(.*?)\$end 'GlobalCurvilinear'",native,re.S)[1]
+assert 'Apply=true' in curvilinear
 solver_audit=dict(perfil=profile_path.name,perfil_sha256=sha(profile_path),residuo_configurado=None,tipo='Direct Solver',basis_order=cfg['basis_order'],
     avisos=solver_warnings,aprovado=not solver_warnings,
     nota='Auditoria do perfil de recursos; avisos do solver matricial podem nao aparecer em GetMessages.')
@@ -118,14 +121,19 @@ save('resultado.json',r)
 fig,axs=plt.subplots(1,2,figsize=(12,6),subplot_kw={'projection':'polar'})
 for ax,axis in zip(axs,'HV'):
     t,g=curves[axis];ax.plot(np.deg2rad(t),10**((g-g.max())/20));ax.set_theta_zero_location('N');ax.set_theta_direction(-1);ax.set_ylim(0,1.05);ax.set_rticks([.25,.5,.75,1]);ax.set_rlabel_position(70)
-    ax.set_title('%s: largura %.2f° | pico %+.2f°'%(axis,cuts[axis]['abertura_graus'],cuts[axis]['pico_graus']),pad=20)
+    peak=peak_interp if axis=='V' else cuts[axis]['pico_graus']
+    ax.set_title('%s: largura %.2f° | pico %+.3f°'%(axis,cuts[axis]['abertura_graus'],peak),pad=20)
 fig.suptitle('R12 curvilinear — antena + C08 + radome FR-4 2 mm — 5,17 GHz\nE/Emax | duas entradas 0,5 W / 0° | %d passes | ΔS %.5f'%(passes,delta))
 if not r['resultados_fisicamente_consistentes']:
     fig.text(.5,.84,'SOLUÇÃO INVÁLIDA — curvas apenas para diagnóstico',ha='center',color='firebrick',weight='bold')
+elif not converged:
+    fig.text(.5,.84,'PRELIMINAR — malha não convergida',ha='center',color='darkorange',weight='bold')
 fig.text(.5,.03,'G frontal %.3f dBi | VSWR ativo %.3f / %.3f | %s'%(g0,*active,'CONVERGIU' if converged else 'NAO CONVERGIU'),ha='center')
 fig.subplots_adjust(top=.72,bottom=.12,wspace=.24);fig.savefig(ROOT/'polar_HV.png',dpi=170);plt.close(fig)
 fig,ax=plt.subplots(figsize=(8,5));ax.plot(tf,gf-gf.max(),label='V(θ)');ax.plot(tf,gf[::-1]-gf.max(),'--',label='V(−θ)');ax.axvline(0,color='gray',lw=.8);ax.set(xlim=(-10,10),ylim=(-12,.2),xlabel='Ângulo (°)',ylabel='Ganho normalizado (dB)',title='Simetria vertical — pico interpolado %+.4f°'%peak_interp);ax.grid(alpha=.3);ax.legend()
 if not r['resultados_fisicamente_consistentes']:
     fig.suptitle('SOLUÇÃO INVÁLIDA — apenas diagnóstico',color='firebrick',weight='bold')
+elif not converged:
+    fig.suptitle('PRELIMINAR — 5,17 GHz | entradas 0,5 W / 0° | malha não convergida',color='darkorange')
 fig.tight_layout();fig.savefig(ROOT/'simetria_vertical.png',dpi=170);plt.close(fig)
 print(json.dumps(r,indent=2,ensure_ascii=False))
