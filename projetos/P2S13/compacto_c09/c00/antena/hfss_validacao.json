@@ -1,0 +1,16 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "curvilinear": true, 
+  "basis_order": 1, 
+  "modo": "Tres PCBs radiantes e refletor. Seis portas diretas em terminais locais0.18mm; sem cabos, sem divisor, sem radome.", 
+  "tau_flex": false, 
+  "fallback": false, 
+  "solver_type": "Direct Solver", 
+  "mesh_method": "AnsoftClassic", 
+  "max_passes": 6, 
+  "modelo": "PCB_SemCabos", 
+  "max_delta_s": 0.050000000000000003, 
+  "simulado": false, 
+  "portas": 6
+}

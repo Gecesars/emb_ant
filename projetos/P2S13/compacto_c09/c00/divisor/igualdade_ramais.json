@@ -1,0 +1,30 @@
+{
+  "aprovado_geometria_nominal": true,
+  "ramais": 6,
+  "comprimento_fisico_mm": [
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606
+  ],
+  "secoes_mm": [
+    9.850324420534196,
+    9.473582299831408
+  ],
+  "larguras_mm": [
+    0.7033405695928752,
+    2.433234397895152
+  ],
+  "fase_eletrica_nominal_graus": [
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0,
+    180.0
+  ],
+  "observacao": "Mesma sequencia de materiais, larguras e comprimentos. Fase real carregada sera medida no HFSS; nao e compensacao por multiplos de onda.",
+  "modelo_distribuido_VSWR_entrada": 1.0003853111921868
+}

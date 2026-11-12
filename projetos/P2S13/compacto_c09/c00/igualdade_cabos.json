@@ -1,0 +1,21 @@
+{
+  "comprimentos_mm": {
+    "R1_A": 134.0,
+    "R2_A": 134.0,
+    "R3_A": 134.0,
+    "R1_B": 134.0,
+    "R2_B": 134.0,
+    "R3_B": 134.0
+  },
+  "comprimento_mm": 134.0,
+  "raio_dobra_mm": 6.0,
+  "raio_interno_mm": 0.45975,
+  "raio_dieletrico_mm": 1.515,
+  "raio_externo_mm": 1.7905,
+  "quantidade": 6,
+  "perdas": true,
+  "distancia_minima_eixos_mm": 4.730011759605105,
+  "folga_minima_estimativa_mm": 1.1490117596051053,
+  "criterio": "Mesmo material, diametros e comprimento do eixo; soldas iguais; sem atenuacao/fase artificial. Folgas definitivas no CAD.",
+  "comprimento_minimo_familia_direta_mm": 133.01046172930947
+}

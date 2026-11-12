@@ -1,0 +1,55 @@
+{
+  "matriz_conferida": true,
+  "erro_absoluto_max": 4.613190423717512e-16,
+  "frequencia_Hz": 5170000000.0,
+  "VSWR_ativo": [
+    1.5282922971248596,
+    1.6999389493632642
+  ],
+  "VSWR_outra_casada": [
+    1.554570369461298,
+    1.7326295034328232
+  ],
+  "entradas": {
+    "A": {
+      "name": "Source_GRNE1L",
+      "available_power": "0.5W",
+      "phase": "0deg",
+      "frequency": "5.17GHz",
+      "ac_magnitude": "14.142135623731V",
+      "nota": "Normalizacao de ondas de potencia para ganho usa1Wtotal; matrizS independe da amplitude AC."
+    },
+    "B": {
+      "name": "Source_Q3G9J0",
+      "available_power": "0.5W",
+      "phase": "0deg",
+      "frequency": "5.17GHz",
+      "ac_magnitude": "14.142135623731V",
+      "nota": "Normalizacao de ondas de potencia para ganho usa1Wtotal; matrizS independe da amplitude AC."
+    }
+  },
+  "pinos": {
+    "DIV": [
+      "IN_A",
+      "IN_B",
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ],
+    "ANT": [
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ]
+  },
+  "blocos_touchstone": 8,
+  "cabos_em_HFSS": false,
+  "modelo": "HFSS S8 + 6xRLGC coaxial + HFSS S6",
+  "ganho_e_diagramas": "Recompostos dos campos complexos por porta da antena com ondas do circuito, conferido contra S2 Nexxim."
+}

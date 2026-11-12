@@ -1,0 +1,210 @@
+{
+  "revisao": "R14_C09_sem_radome",
+  "frequencia_GHz": 5.17,
+  "entradas_W": [
+    0.5,
+    0.5
+  ],
+  "fases_graus": [
+    0,
+    0
+  ],
+  "VSWR_ativo": [
+    1.5282922971248603,
+    1.6999389493632644
+  ],
+  "VSWR_outra_casada": [
+    1.5545703694612987,
+    1.7326295034328232
+  ],
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 13.925152071812438,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 13.925152071812438,
+      "abertura_graus": 86.22805382123089,
+      "cruzamentos_graus": [
+        -42.886642704610736,
+        43.34141111662015
+      ],
+      "SLL": {
+        "nivel_dB": null,
+        "limites_lobo_principal_graus": [
+          -124.0,
+          155.5
+        ],
+        "lobos": []
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 13.925152071812438,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 13.925152071812438,
+      "abertura_graus": 10.07335881487186,
+      "cruzamentos_graus": [
+        -5.000702305684907,
+        5.072656509186952
+      ],
+      "SLL": {
+        "nivel_dB": -7.5424732176193166,
+        "limites_lobo_principal_graus": [
+          -11.5,
+          11.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -59.75,
+            "nivel_dB": -27.60273766330483
+          },
+          {
+            "angulo_graus": -31.75,
+            "nivel_dB": -13.470471447840962
+          },
+          {
+            "angulo_graus": -16.75,
+            "nivel_dB": -13.559536056730284
+          },
+          {
+            "angulo_graus": 16.5,
+            "nivel_dB": -12.111260391918828
+          },
+          {
+            "angulo_graus": 38.5,
+            "nivel_dB": -7.5424732176193166
+          },
+          {
+            "angulo_graus": 61.5,
+            "nivel_dB": -16.216876797164087
+          }
+        ]
+      }
+    }
+  },
+  "pico_H_global": {
+    "angulo_graus": 0.0,
+    "ganho_dBi": 13.925152071812438
+  },
+  "queda_H_0_vs_pico_dB": 0.0,
+  "pico_V_fino_graus": 0.06910395623473557,
+  "assimetria_principal_V_dB": 0.09674888519773184,
+  "divisor_casado": {
+    "A": {
+      "VSWR": 1.4073181750636505,
+      "perda_excedente_dB": 0.2409053710037072,
+      "dispersao_amplitude_dB": 0.07321862598861983,
+      "dispersao_fase_graus": 1.1419733319140295,
+      "fase_relativa_graus": [
+        -0.0,
+        0.42285349087478813,
+        1.1419733319140295
+      ],
+      "maior_acoplamento_entre_saidas_dB": -9.95438551233839
+    },
+    "B": {
+      "VSWR": 1.4078932384727896,
+      "perda_excedente_dB": 0.2402346379684325,
+      "dispersao_amplitude_dB": 0.13496925463338005,
+      "dispersao_fase_graus": 0.9904900457255605,
+      "fase_relativa_graus": [
+        -0.0,
+        0.6857486667222848,
+        0.9904900457255605
+      ],
+      "maior_acoplamento_entre_saidas_dB": -9.932743188154094
+    }
+  },
+  "ramais_carregados": [
+    {
+      "porta": "R1_A",
+      "potencia_incidente_W": 0.16602219706013646,
+      "fase_relativa_R2A_graus": 2.85363923427733
+    },
+    {
+      "porta": "R1_B",
+      "potencia_incidente_W": 0.16816688024198195,
+      "fase_relativa_R2A_graus": 2.5904509410551997
+    },
+    {
+      "porta": "R2_A",
+      "potencia_incidente_W": 0.16879403285848188,
+      "fase_relativa_R2A_graus": 0.0
+    },
+    {
+      "porta": "R2_B",
+      "potencia_incidente_W": 0.16818095668227448,
+      "fase_relativa_R2A_graus": -0.724505858679489
+    },
+    {
+      "porta": "R3_A",
+      "potencia_incidente_W": 0.16641388981933208,
+      "fase_relativa_R2A_graus": 2.8885537869496445
+    },
+    {
+      "porta": "R3_B",
+      "potencia_incidente_W": 0.1655955361893872,
+      "fase_relativa_R2A_graus": 2.0952363576648914
+    }
+  ],
+  "isolamento_entradas_divisor_dB": 45.370552494914484,
+  "potencia": {
+    "incidente_W": 1,
+    "refletida_W": 0.05543385527812683,
+    "aceita_antena_W": 0.8894215506901817,
+    "perda_divisor_W": 0.022618913068765067,
+    "perda_cabos_W": 0.03252568096292641,
+    "balanco_aprovado": true
+  },
+  "cabo": {
+    "comprimento_mm": 133.82,
+    "perda_insercao_dB": 0.12307499347941966,
+    "fase_graus": -105.55315522722876,
+    "RLGC_por_m": {
+      "R_ohm": 8.464650411138784,
+      "L_H": 2.3849757089180785e-07,
+      "G_S": 0.0008543077974599864,
+      "C_F": 9.500138681891723e-11
+    },
+    "eps_r": 2.036363533774732,
+    "tand": 0.00027683054882040843,
+    "condutividade_S_m": 58000000.0
+  },
+  "convergencia": {
+    "antena": {
+      "passes": 6,
+      "delta_s": 0.024378893289361468,
+      "convergiu": true
+    },
+    "divisor": {
+      "passes": 5,
+      "delta_s": 0.0195628927448767,
+      "convergiu": true
+    }
+  },
+  "metas": {
+    "VSWR_ativo": false,
+    "ganho_frontal": true,
+    "H_frontal_ate_05dB": true,
+    "maximo_vertical": true,
+    "simetria_vertical": true
+  },
+  "metas_numericas_atendidas": false,
+  "nexxim_pendente": false,
+  "campos_monitorados": {
+    "ultimos_deltas_max_dB": [
+      0.9500414845107903,
+      0.30897493059317993
+    ],
+    "referencia_dB": 0.1,
+    "estabilidade_observada": false,
+    "criterio_somente_monitoramento": true
+  },
+  "erro_circuito_independente": 1.5515838457795457e-16,
+  "recomposicao_uniforme_erro": {
+    "H": 1.7764956118577415e-14,
+    "V": 1.2458760333752238e-14,
+    "V_fino": 1.4284090269265722e-14
+  },
+  "limites": "HFSS separado: acoplamento entre radiadores incluido no S6; nao inclui acoplamento espacial antena-divisor, radiacao dos cabos nem contribuicao direta do campo do divisor. Cabos somente RLGC no circuito; sem radome e sem conectores N.",
+  "erro_Nexxim": 4.613190423717512e-16,
+  "qualificado": false
+}
