@@ -1,0 +1,50 @@
+{
+  "metodo": "Modelo passivo de linhas e parasitas LC/R comuns ajustado ao S4 medio do HFSS. Guia de dimensoes; nao valida ganho/VSWR.",
+  "parasitas_efetivos": {
+    "Lin_nH": 0.31694515424164915,
+    "Lout_nH": 0.15625417196852315,
+    "Cj_pF": 0.5639828087917713,
+    "Cout_pF": 6.287219999786463e-28,
+    "Rin_ohm": 0.004170083090630106,
+    "Rout_ohm": 0.6255136034494873
+  },
+  "erro_max_fit_S4": 0.009591825367495343,
+  "referencia_HFSS": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01",
+  "residuo_S8_local_preservado": true,
+  "base": {
+    "W1_mm": 0.872477,
+    "W2_mm": 1.838399,
+    "L1_mm": 8.65548,
+    "L2_mm": 10.668426720365606,
+    "VSWR_ativo_estimado": [
+      1.2256727840904986,
+      1.2541804174180307
+    ],
+    "VSWR_casado_estimado": [
+      1.1811965518320184,
+      1.228009872768029
+    ],
+    "sigma_max": 0.9916648175278876,
+    "ganho_frontal_estimado_dBi": 14.134672399689476,
+    "pico_V_estimado_graus": 0.07640834516603323,
+    "custo": 1.24956965822766
+  },
+  "candidato": {
+    "W1_mm": 1.0033485498169268,
+    "W2_mm": 2.0706726490435687,
+    "L1_mm": 9.055479999967071,
+    "L2_mm": 10.268426720398535,
+    "VSWR_ativo_estimado": [
+      1.1564081958012802,
+      1.1951492203429626
+    ],
+    "VSWR_casado_estimado": [
+      1.1154232069085375,
+      1.1795949928626166
+    ],
+    "sigma_max": 0.9915842378550415,
+    "ganho_frontal_estimado_dBi": 14.154985440967675,
+    "pico_V_estimado_graus": 0.07613878327114842,
+    "custo": 0.1781362750825916
+  }
+}

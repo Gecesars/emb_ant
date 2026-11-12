@@ -1,0 +1,48 @@
+{
+  "metodo": "Modelo passivo de linhas e parasitas LC/R comuns ajustado ao S4 medio do HFSS. Guia de dimensoes; nao valida ganho/VSWR.",
+  "parasitas_efetivos": {
+    "Lin_nH": 0.32257370166794097,
+    "Lout_nH": 0.26231720783216445,
+    "Cj_pF": 7.031143132733331e-26,
+    "Cout_pF": 0.4331596529360552,
+    "Rin_ohm": 6.454663772480681e-25,
+    "Rout_ohm": 0.6581137757166229
+  },
+  "erro_max_fit_S4": 0.00500470054049069,
+  "base": {
+    "W1_mm": 0.7033405695928752,
+    "W2_mm": 2.433234397895152,
+    "L1_mm": 9.850324420534196,
+    "L2_mm": 9.47358229983141,
+    "VSWR_ativo_estimado": [
+      1.5293057863927524,
+      1.7022707098987617
+    ],
+    "VSWR_casado_estimado": [
+      1.5662484247149848,
+      1.7456569548927696
+    ],
+    "sigma_max": 0.993358851627944,
+    "ganho_frontal_estimado_dBi": 13.919326695359448,
+    "pico_V_estimado_graus": 0.07404052519353936,
+    "custo": 35.86786396306845
+  },
+  "candidato": {
+    "W1_mm": 0.8724769647344104,
+    "W2_mm": 1.8383985418428708,
+    "L1_mm": 8.655479990631344,
+    "L2_mm": 10.668426729734263,
+    "VSWR_ativo_estimado": [
+      1.0715424692264288,
+      1.043020134458914
+    ],
+    "VSWR_casado_estimado": [
+      1.0429288818459843,
+      1.0716632936378079
+    ],
+    "sigma_max": 0.9939437630250357,
+    "ganho_frontal_estimado_dBi": 14.173607063621823,
+    "pico_V_estimado_graus": 0.07674698915765317,
+    "custo": 0.0032825589202991434
+  }
+}

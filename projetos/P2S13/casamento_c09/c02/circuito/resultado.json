@@ -1,0 +1,219 @@
+{
+  "revisao": "R15_C09_c02",
+  "frequencia_GHz": 5.17,
+  "entradas_W": [
+    0.5,
+    0.5
+  ],
+  "fases_graus": [
+    0,
+    0
+  ],
+  "VSWR_ativo": [
+    1.1838234503491536,
+    1.2257181401017452
+  ],
+  "VSWR_outra_casada": [
+    1.1423400593086863,
+    1.2072074546347784
+  ],
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 14.145613358141942,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 14.145613358141942,
+      "abertura_graus": 86.24061609018301,
+      "cruzamentos_graus": [
+        -42.88276434706323,
+        43.35785174311978
+      ],
+      "SLL": {
+        "nivel_dB": null,
+        "limites_lobo_principal_graus": [
+          -124.25,
+          155.75
+        ],
+        "lobos": []
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 14.145613358141942,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 14.145613358141942,
+      "abertura_graus": 10.067575421115055,
+      "cruzamentos_graus": [
+        -4.991407727724969,
+        5.0761676933900866
+      ],
+      "SLL": {
+        "nivel_dB": -7.538995744239899,
+        "limites_lobo_principal_graus": [
+          -11.5,
+          11.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -59.75,
+            "nivel_dB": -27.64575432611438
+          },
+          {
+            "angulo_graus": -31.75,
+            "nivel_dB": -13.49418898310177
+          },
+          {
+            "angulo_graus": -16.5,
+            "nivel_dB": -13.5163019955266
+          },
+          {
+            "angulo_graus": 16.5,
+            "nivel_dB": -12.08328701377096
+          },
+          {
+            "angulo_graus": 38.5,
+            "nivel_dB": -7.538995744239899
+          },
+          {
+            "angulo_graus": 61.5,
+            "nivel_dB": -16.16903231154783
+          }
+        ]
+      }
+    }
+  },
+  "pico_H_global": {
+    "angulo_graus": 0.0,
+    "ganho_dBi": 14.145613358141942
+  },
+  "queda_H_0_vs_pico_dB": 0.0,
+  "pico_V_fino_graus": 0.07515894043186637,
+  "assimetria_principal_V_dB": 0.11136577608034592,
+  "divisor_casado": {
+    "A": {
+      "VSWR": 1.715806393611545,
+      "perda_excedente_dB": 0.42067366269740314,
+      "dispersao_amplitude_dB": 0.08780567408297735,
+      "dispersao_fase_graus": 0.835056701562486,
+      "fase_relativa_graus": [
+        -0.0,
+        0.3576741956653086,
+        0.835056701562486
+      ],
+      "maior_acoplamento_entre_saidas_dB": -8.215238198997119
+    },
+    "B": {
+      "VSWR": 1.7057531302434281,
+      "perda_excedente_dB": 0.4140759805326771,
+      "dispersao_amplitude_dB": 0.1361980705569188,
+      "dispersao_fase_graus": 0.7985050004846516,
+      "fase_relativa_graus": [
+        -0.0,
+        0.06787807712865081,
+        0.7985050004846516
+      ],
+      "maior_acoplamento_entre_saidas_dB": -8.219778544164107
+    }
+  },
+  "ramais_carregados": [
+    {
+      "porta": "R1_A",
+      "potencia_incidente_W": 0.17348281471791774,
+      "fase_relativa_R2A_graus": 2.897523721808748
+    },
+    {
+      "porta": "R1_B",
+      "potencia_incidente_W": 0.17937699959839154,
+      "fase_relativa_R2A_graus": 3.1605985633192724
+    },
+    {
+      "porta": "R2_A",
+      "potencia_incidente_W": 0.17482607123372945,
+      "fase_relativa_R2A_graus": 0.0
+    },
+    {
+      "porta": "R2_B",
+      "potencia_incidente_W": 0.1783425483250571,
+      "fase_relativa_R2A_graus": -0.46311977715756664
+    },
+    {
+      "porta": "R3_A",
+      "potencia_incidente_W": 0.17317235126639696,
+      "fase_relativa_R2A_graus": 2.7527654264962504
+    },
+    {
+      "porta": "R3_B",
+      "potencia_incidente_W": 0.1763802129957529,
+      "fase_relativa_R2A_graus": 2.5823591728080264
+    }
+  ],
+  "isolamento_entradas_divisor_dB": 44.98028618937905,
+  "potencia": {
+    "incidente_W": 1,
+    "refletida_W": 0.008685081060026294,
+    "aceita_antena_W": 0.9357494293267496,
+    "perda_divisor_W": 0.02133648545758149,
+    "perda_cabos_W": 0.03422900415564256,
+    "balanco_aprovado": true
+  },
+  "cabo": {
+    "comprimento_mm": 133.82,
+    "perda_insercao_dB": 0.12307499347941966,
+    "fase_graus": -105.55315522722876,
+    "RLGC_por_m": {
+      "R_ohm": 8.464650411138784,
+      "L_H": 2.3849757089180785e-07,
+      "G_S": 0.0008543077974599864,
+      "C_F": 9.500138681891723e-11
+    },
+    "eps_r": 2.036363533774732,
+    "tand": 0.00027683054882040843,
+    "condutividade_S_m": 58000000.0
+  },
+  "convergencia": {
+    "antena": {
+      "passes": 6,
+      "delta_s": 0.024378893289361468,
+      "convergiu": true
+    },
+    "divisor": {
+      "passes": 5,
+      "delta_s": 0.020366277541712118,
+      "convergiu": true
+    }
+  },
+  "metas": {
+    "VSWR_ativo": true,
+    "ganho_frontal": true,
+    "H_frontal_ate_05dB": true,
+    "maximo_vertical": true,
+    "simetria_vertical": true
+  },
+  "metas_numericas_atendidas": true,
+  "nexxim_pendente": false,
+  "campos_monitorados": {
+    "ultimos_deltas_max_dB": [
+      0.9500414845107903,
+      0.30897493059317993
+    ],
+    "referencia_dB": 0.1,
+    "estabilidade_observada": false,
+    "criterio_somente_monitoramento": true
+  },
+  "erro_circuito_independente": 8.469999434971913e-17,
+  "recomposicao_uniforme_erro": {
+    "H": 1.7764956118577415e-14,
+    "V": 1.2458760333752238e-14,
+    "V_fino": 1.4284090269265722e-14
+  },
+  "limites": "HFSS separado: acoplamento entre radiadores incluido no S6; nao inclui acoplamento espacial antena-divisor, radiacao dos cabos nem contribuicao direta do campo do divisor. Cabos somente RLGC no circuito; sem radome e sem conectores N.",
+  "antena_reutilizada": {
+    "pasta": "D:\\dev\\EMBRAER\\P2S13\\R14_Compacto_Simetrico_SemRadome\\c00\\antena",
+    "sha256": {
+      "PCB_SemCabos.aedt": "d0ab58949e828bc41a130b032c2f6e8a2b75f65d43980a2ff7bf505cc8a18b1f",
+      "centro.s6p": "6859a0fa6e7b106b422eff309f6aa2e7bb6d19b6be0cef6bc55da38b094283d7"
+    },
+    "sem_novo_solve": true
+  },
+  "erro_Nexxim": 6.150616142519893e-16,
+  "casamento_confirmado_HFSS_Nexxim": true,
+  "qualificado": false
+}

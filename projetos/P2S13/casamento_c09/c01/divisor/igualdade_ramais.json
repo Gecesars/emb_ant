@@ -1,0 +1,29 @@
+{
+  "comprimentos_mm": [
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606,
+    19.323906720365606
+  ],
+  "larguras_mm": [
+    0.872477,
+    1.838399
+  ],
+  "secoes_mm": [
+    8.65548,
+    10.668426720365606
+  ],
+  "fase_nominal_graus": [
+    179.7808187844916,
+    179.7808187844916,
+    179.7808187844916,
+    179.7808187844916,
+    179.7808187844916,
+    179.7808187844916
+  ],
+  "portas_preservadas": true,
+  "simetria_nominal": true,
+  "notas": "Fase eletrica real sera medida no HFSS; valores nominais de linhas nao sao criterio EM."
+}

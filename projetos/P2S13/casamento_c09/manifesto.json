@@ -1,0 +1,692 @@
+{
+  "versao_selecionada": "c02",
+  "arquivos": [
+    {
+      "arquivo": "README.md",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\README.md",
+      "bytes": 5105,
+      "sha256": "128e2e0f191fc5c4f6695cb3c2c618629d13e53f2c89329b2d1bce021ae7ca95"
+    },
+    {
+      "arquivo": "selecionado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\selecionado.json",
+      "bytes": 192,
+      "sha256": "87fb8ed35f90f075c8301c8bfdd3c8485b7aa43e8688f4febf88af21aa67abd1"
+    },
+    {
+      "arquivo": "layout_comparado.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\layout_comparado.png",
+      "bytes": 80870,
+      "sha256": "9a1505804b0593765ceab2f3ba77b52ffa5753f1b310d7280c2a78a5b8b824ae"
+    },
+    {
+      "arquivo": "comparacao_VSWR.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\comparacao_VSWR.png",
+      "bytes": 50336,
+      "sha256": "6c065c3f47407312377e508ba527c0c6f26c41bc74d4742d05877d1b02d442ad"
+    },
+    {
+      "arquivo": "c01/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\configuracao.json",
+      "bytes": 8503,
+      "sha256": "6c6b5259e5bb2e52638199bca2851e63211e4a0a356ae2a7c50571c4bcc9b3bb"
+    },
+    {
+      "arquivo": "c01/alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\alteracoes.json",
+      "bytes": 677,
+      "sha256": "ef2ca1c9b0bae97efa108f54fbf6c21dab6a16583550ba8ab6598a575a427d3a"
+    },
+    {
+      "arquivo": "c01/HFSS_14nucleos.acf",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c01/pipeline.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\pipeline.json",
+      "bytes": 147,
+      "sha256": "1283793730aa4bb4f6cc4ee2251d82581e0c51e603767438def244fbe2f84070"
+    },
+    {
+      "arquivo": "c01/divisor/Divisor_Duplo3.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\Divisor_Duplo3.aedt",
+      "bytes": 1062524,
+      "sha256": "43bd9a5121c25fefd3bc8bb3da43ce33030c50d6feeb9edd5c99e11a52d1a852"
+    },
+    {
+      "arquivo": "c01/divisor/Divisor_Duplo3.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\Divisor_Duplo3.FCStd",
+      "bytes": 57902,
+      "sha256": "ce61a4d102c739c3e9c5a655a36a385091356af4e505a6b8deaad8bd722159d4"
+    },
+    {
+      "arquivo": "c01/divisor/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\configuracao.json",
+      "bytes": 34790,
+      "sha256": "210d366b7716b803b866080e8a556690bfc7ed17d384546d4f8fb88862661913"
+    },
+    {
+      "arquivo": "c01/divisor/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\divisor.s8p",
+      "bytes": 4160,
+      "sha256": "1f3e585054c6baa321895e7504d66ff349031642f717c09b0fea95701fb66949"
+    },
+    {
+      "arquivo": "c01/divisor/auditoria_em.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\auditoria_em.json",
+      "bytes": 9790,
+      "sha256": "c8201315d7b80f96c6fe851761774e1a3be50cea692a91f39b06950b1bcdacc3"
+    },
+    {
+      "arquivo": "c01/divisor/convergencia.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\convergencia.txt",
+      "bytes": 623,
+      "sha256": "87afad4342d94ed148c58068c12d499273988703c16c0f73c194ef1175e44713"
+    },
+    {
+      "arquivo": "c01/divisor/convergencia_metadados.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\convergencia_metadados.txt",
+      "bytes": 2834,
+      "sha256": "705366e9a337f6f5f77baafe9cdb2634e019f9e1025e05e7e0359c31e625d1c4"
+    },
+    {
+      "arquivo": "c01/divisor/perfil_recursos.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\perfil_recursos.txt",
+      "bytes": 12745,
+      "sha256": "13b22afc995f53778a3ffbf028b4f4ffab0354b3d2260fdcbed0738285a7213d"
+    },
+    {
+      "arquivo": "c01/divisor/geometria_importada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\geometria_importada.json",
+      "bytes": 7460,
+      "sha256": "aca11254ce770250cd58b52194303b0d6696555652785c9d3ccbd88e6ba322db"
+    },
+    {
+      "arquivo": "c01/divisor/hfss_validacao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\hfss_validacao.json",
+      "bytes": 208,
+      "sha256": "fdc27412cf8647d29a9244c75be253bc31fd86f9073ca3cab7a99e478bf7538b"
+    },
+    {
+      "arquivo": "c01/divisor/igualdade_ramais.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\igualdade_ramais.json",
+      "bytes": 640,
+      "sha256": "61b1f93096c2983d5647ceaead67e31468f4460299b4a1b7bab7829f7d58d604"
+    },
+    {
+      "arquivo": "c01/divisor/mensagens.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\mensagens.json",
+      "bytes": 1976,
+      "sha256": "fa94b69d4a4c53e362b82c0ebe496e48734f84e192b91c2eec626540466789c6"
+    },
+    {
+      "arquivo": "c01/divisor/cad/conferencia_alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\conferencia_alteracoes.json",
+      "bytes": 123,
+      "sha256": "5b6087a9bfce35cc939e9e2c9efb41397a611431d1462bb7682f7ce5a11fcfae"
+    },
+    {
+      "arquivo": "c01/divisor/cad/copper.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\copper.step",
+      "bytes": 118369,
+      "sha256": "5c6e23dc415e76ebee46922efa54987d0ad35871ee2cdb8daca42f73d7ea40a7"
+    },
+    {
+      "arquivo": "c01/divisor/cad/enig_hfss.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\enig_hfss.json",
+      "bytes": 6490,
+      "sha256": "8937a5c97d6dbfa0690bfe7053ef20865933489f377057cbc70c7e0c40024c7f"
+    },
+    {
+      "arquivo": "c01/divisor/cad/folha_cu.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\folha_cu.step",
+      "bytes": 172296,
+      "sha256": "e19645441e56d1b9c4ad33c8e39cd79933c5aede0d5febf1095e96b2b1a004a8"
+    },
+    {
+      "arquivo": "c01/divisor/cad/folhas_solidas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\folhas_solidas.json",
+      "bytes": 2489,
+      "sha256": "c56c19c9163cf3fbd9d08e16679ac1df76321a85ade0a380d3ae58232a62fe79"
+    },
+    {
+      "arquivo": "c01/divisor/cad/geometria_esperada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\geometria_esperada.json",
+      "bytes": 11498,
+      "sha256": "99126e24afa240e0c1e01aa800482080c6a03da3edf96c97b65337da1df02cb9"
+    },
+    {
+      "arquivo": "c01/divisor/cad/intersecoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\intersecoes.json",
+      "bytes": 83,
+      "sha256": "67802d4406fb6e8971f4df92cba76dd40c968a4a95b6cdbad633b8b084c18c99"
+    },
+    {
+      "arquivo": "c01/divisor/cad/manifesto.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\manifesto.json",
+      "bytes": 1531,
+      "sha256": "3743c5d63e1eb314a632ef172c64f199dfa915dea7450a31d5369381cc96ebcd"
+    },
+    {
+      "arquivo": "c01/divisor/cad/portas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\portas.json",
+      "bytes": 1105,
+      "sha256": "2f66b18fe23d3797c3c373ce37715c17ec10e190a1e5a1f79856b940db93c9ed"
+    },
+    {
+      "arquivo": "c01/divisor/cad/PTFE_terminal.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\PTFE_terminal.step",
+      "bytes": 58792,
+      "sha256": "e6c7982ff9ec0af96484147671336e20365bc6f648ff3b9e1606e64c7b72fb48"
+    },
+    {
+      "arquivo": "c01/divisor/cad/reabertura.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\reabertura.json",
+      "bytes": 122,
+      "sha256": "e5ed742105b7c9a59236c0a1027c9c71fd99c9d2e5f20dd6442d0b67bfa176f8"
+    },
+    {
+      "arquivo": "c01/divisor/cad/SAC305.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\SAC305.step",
+      "bytes": 43840,
+      "sha256": "4c1951c3dae9554cef6edf7206c4d2711b841cb5d9a0f8fb09aaad372856f2fa"
+    },
+    {
+      "arquivo": "c01/divisor/cad/ZYF300.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\divisor\\cad\\ZYF300.step",
+      "bytes": 19774,
+      "sha256": "591f92b4ab1994d2cbd22dce83585d3020a2e6d3ba75661a8eab242a59c77f1b"
+    },
+    {
+      "arquivo": "c01/circuito/C09_Ajuste_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\C09_Ajuste_Nexxim.aedt",
+      "bytes": 70483,
+      "sha256": "ace6b0dff7c97b49a072ed98a8cfa8cae1268d94cf64c72d312e48ea577be0b8"
+    },
+    {
+      "arquivo": "c01/circuito/C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "bytes": 27514,
+      "sha256": "de65c2ebdcca8189a6a18f0d1529a4b60ea1264a78c0fab5576bbc33ac8efa2f"
+    },
+    {
+      "arquivo": "c01/circuito/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\antena.s6p",
+      "bytes": 2104,
+      "sha256": "e123b01d2466261860e7ba4a2f48a427cbeb90f2b7d052d93baf2628f0a1f9c7"
+    },
+    {
+      "arquivo": "c01/circuito/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\divisor.s8p",
+      "bytes": 3594,
+      "sha256": "f4a5ff707a5adbcb8a02c50af012f103e1643ad3c695f0996a9279f77d8ecbb5"
+    },
+    {
+      "arquivo": "c01/circuito/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "c01/circuito/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\conjunto.s2p",
+      "bytes": 334,
+      "sha256": "51d608afabcbf8952b5706132eae2be24f169faf96cad623e777e53561473ec2"
+    },
+    {
+      "arquivo": "c01/circuito/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\nexxim.s2p",
+      "bytes": 367,
+      "sha256": "5418415733ad893e491e295791eae47ddc9d62c03863aa472dd08823d469d46e"
+    },
+    {
+      "arquivo": "c01/circuito/resultado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\resultado.json",
+      "bytes": 6164,
+      "sha256": "30b591a613881777502c85cbe8b6c150766ffa18a9871d66bd014dd39ddeb8d0"
+    },
+    {
+      "arquivo": "c01/circuito/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\verificacao_nexxim.json",
+      "bytes": 884,
+      "sha256": "1c3f73f929f761248d5ecf2d9df2ddb85c1d74a9b979a0f22c4e14864c1b77c3"
+    },
+    {
+      "arquivo": "c01/circuito/diagrama_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\diagrama_H.csv",
+      "bytes": 66457,
+      "sha256": "9249509d3ac08c4d0a53d582f1e0ace8b76e23b5f1aa53033e03716c325b08f6"
+    },
+    {
+      "arquivo": "c01/circuito/diagrama_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\diagrama_V.csv",
+      "bytes": 67825,
+      "sha256": "992650bce47c2e56ef1352e1b199c13fe2f7640b34945c43cab0182b535e4d8e"
+    },
+    {
+      "arquivo": "c01/circuito/diagrama_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\diagrama_V_fino.csv",
+      "bytes": 108353,
+      "sha256": "64e351a552507308540a0c5f8dee5f737f63263bd331bf7870f31c2b90cddaca"
+    },
+    {
+      "arquivo": "c01/circuito/ondas.npz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\ondas.npz",
+      "bytes": 1904,
+      "sha256": "5f79ec7ee7fca683e5fd7f0e95f8d832b9025c616728957f71f50715906722c6"
+    },
+    {
+      "arquivo": "c01/circuito/polar_HV.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c01\\circuito\\polar_HV.png",
+      "bytes": 212283,
+      "sha256": "e19d4b9c2110c8b7fa8fa03b054fa3783831005766380b0744845fec5a1ae6e4"
+    },
+    {
+      "arquivo": "c02/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\configuracao.json",
+      "bytes": 8503,
+      "sha256": "ef202026892254244cd83dfd82382d814b3d19ad3caa489f28d704575788177c"
+    },
+    {
+      "arquivo": "c02/alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\alteracoes.json",
+      "bytes": 676,
+      "sha256": "72398b43e2b91877bddd072ff242907de7c0a72a516a3cae7c6f30fba4d41e68"
+    },
+    {
+      "arquivo": "c02/HFSS_14nucleos.acf",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "c02/pipeline.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\pipeline.json",
+      "bytes": 147,
+      "sha256": "958fd7b28fa830b3e7d699993dee55d21cafa106fb515d17f3c632f0e378d330"
+    },
+    {
+      "arquivo": "c02/divisor/Divisor_Duplo3.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\Divisor_Duplo3.aedt",
+      "bytes": 1062604,
+      "sha256": "5ef59c402d753494404b4d3a0bc3e90b5c89b45847222bc15eea7629c76adbdf"
+    },
+    {
+      "arquivo": "c02/divisor/Divisor_Duplo3.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\Divisor_Duplo3.FCStd",
+      "bytes": 57925,
+      "sha256": "7557675be357f30153753f888ad78c74008fc1febe4ad1c03186c7e3e16945a4"
+    },
+    {
+      "arquivo": "c02/divisor/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\configuracao.json",
+      "bytes": 33120,
+      "sha256": "d81d35259a3a7da987cb5bf5c5827229a26abb2debbcf1016ccb50987faa496f"
+    },
+    {
+      "arquivo": "c02/divisor/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\divisor.s8p",
+      "bytes": 4153,
+      "sha256": "fa80a8b621826c2e848a5454e6276cc6e33f482916d65a42ddbbfee806374bed"
+    },
+    {
+      "arquivo": "c02/divisor/auditoria_em.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\auditoria_em.json",
+      "bytes": 5209,
+      "sha256": "01ab832bb5a375bc6fdf5cd57dbe269d52ee660c3028e2a9b10f9a0330fd1a58"
+    },
+    {
+      "arquivo": "c02/divisor/convergencia.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\convergencia.txt",
+      "bytes": 576,
+      "sha256": "e5a4413c09415e081421c7c6d194048009a0928f4a32cd0790e26b98207a2f61"
+    },
+    {
+      "arquivo": "c02/divisor/convergencia_metadados.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\convergencia_metadados.txt",
+      "bytes": 2385,
+      "sha256": "fc70ec971cffd4b070730277102d2ec8ec395e69e778c72b08b93c540604ebb5"
+    },
+    {
+      "arquivo": "c02/divisor/perfil_recursos.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\perfil_recursos.txt",
+      "bytes": 11318,
+      "sha256": "5e2ec7514c8ddf7881ec4fa9c3bd73e090fa145b29a7a09b59c25508d29ec36c"
+    },
+    {
+      "arquivo": "c02/divisor/geometria_importada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\geometria_importada.json",
+      "bytes": 7459,
+      "sha256": "6ff340b5a76a88284c7daa172fb290b263422b04ca5625e4ce065433a3c42116"
+    },
+    {
+      "arquivo": "c02/divisor/hfss_validacao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\hfss_validacao.json",
+      "bytes": 208,
+      "sha256": "fdc27412cf8647d29a9244c75be253bc31fd86f9073ca3cab7a99e478bf7538b"
+    },
+    {
+      "arquivo": "c02/divisor/igualdade_ramais.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\igualdade_ramais.json",
+      "bytes": 646,
+      "sha256": "2abd46e13ffae0d34610c0bb21f691276e419f1bc6c00bf1e88b9fc28a926816"
+    },
+    {
+      "arquivo": "c02/divisor/mensagens.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\mensagens.json",
+      "bytes": 1976,
+      "sha256": "6a0d9598086dc70b5710414782895711fc47b6bd9add0d33f41505566a3fff85"
+    },
+    {
+      "arquivo": "c02/divisor/cad/conferencia_alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\conferencia_alteracoes.json",
+      "bytes": 123,
+      "sha256": "5b6087a9bfce35cc939e9e2c9efb41397a611431d1462bb7682f7ce5a11fcfae"
+    },
+    {
+      "arquivo": "c02/divisor/cad/copper.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\copper.step",
+      "bytes": 118369,
+      "sha256": "9a7e6def5607bb5598beab39e14d4dcf9b594ad07295b7aaa84118904b01ab79"
+    },
+    {
+      "arquivo": "c02/divisor/cad/enig_hfss.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\enig_hfss.json",
+      "bytes": 6490,
+      "sha256": "8937a5c97d6dbfa0690bfe7053ef20865933489f377057cbc70c7e0c40024c7f"
+    },
+    {
+      "arquivo": "c02/divisor/cad/folha_cu.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\folha_cu.step",
+      "bytes": 172291,
+      "sha256": "9eba14acb3fedde1c823fa9c6d348ec62547d4bb51af426019ed1b6c490c637a"
+    },
+    {
+      "arquivo": "c02/divisor/cad/folhas_solidas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\folhas_solidas.json",
+      "bytes": 2489,
+      "sha256": "c56c19c9163cf3fbd9d08e16679ac1df76321a85ade0a380d3ae58232a62fe79"
+    },
+    {
+      "arquivo": "c02/divisor/cad/geometria_esperada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\geometria_esperada.json",
+      "bytes": 11499,
+      "sha256": "fa6bec3f5eb5c58542cef4771ee1eaa0a3ee97f097497babf162296b1cf103d5"
+    },
+    {
+      "arquivo": "c02/divisor/cad/intersecoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\intersecoes.json",
+      "bytes": 83,
+      "sha256": "67802d4406fb6e8971f4df92cba76dd40c968a4a95b6cdbad633b8b084c18c99"
+    },
+    {
+      "arquivo": "c02/divisor/cad/manifesto.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\manifesto.json",
+      "bytes": 1531,
+      "sha256": "3743c5d63e1eb314a632ef172c64f199dfa915dea7450a31d5369381cc96ebcd"
+    },
+    {
+      "arquivo": "c02/divisor/cad/portas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\portas.json",
+      "bytes": 1105,
+      "sha256": "2f66b18fe23d3797c3c373ce37715c17ec10e190a1e5a1f79856b940db93c9ed"
+    },
+    {
+      "arquivo": "c02/divisor/cad/PTFE_terminal.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\PTFE_terminal.step",
+      "bytes": 58792,
+      "sha256": "7d2b4fa8baf058e1c852d7358ed03de0f1d0ff4d2fba9edc42a2b34825c044a0"
+    },
+    {
+      "arquivo": "c02/divisor/cad/reabertura.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\reabertura.json",
+      "bytes": 122,
+      "sha256": "1d365864e2ab2dbd41ff17647453917347ee3047d8a32b979b53fbf2f4d06e9f"
+    },
+    {
+      "arquivo": "c02/divisor/cad/SAC305.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\SAC305.step",
+      "bytes": 43840,
+      "sha256": "9e1c5d4ff98655e06a6753fcb97fda50e60808cd020297f62b9273723efe4d8d"
+    },
+    {
+      "arquivo": "c02/divisor/cad/ZYF300.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\divisor\\cad\\ZYF300.step",
+      "bytes": 19774,
+      "sha256": "fc58fd0fe4a38080f00fbef0d4acfa5e921b7a6c7ece1c76cb29f9aae06836c0"
+    },
+    {
+      "arquivo": "c02/circuito/C09_Ajuste_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\C09_Ajuste_Nexxim.aedt",
+      "bytes": 70483,
+      "sha256": "9b0cc20eaea166caa94c79809d3c0741d5c6055a7a49dead9914e2cb8c4f4497"
+    },
+    {
+      "arquivo": "c02/circuito/C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "bytes": 27518,
+      "sha256": "908a06db0df78d0b77bb8e7a02236949420d550779798932e0828ee0a144a744"
+    },
+    {
+      "arquivo": "c02/circuito/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\antena.s6p",
+      "bytes": 2104,
+      "sha256": "e123b01d2466261860e7ba4a2f48a427cbeb90f2b7d052d93baf2628f0a1f9c7"
+    },
+    {
+      "arquivo": "c02/circuito/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\divisor.s8p",
+      "bytes": 3587,
+      "sha256": "01c10ae1992fbb9dcd7d0d28d1e93b8fc7738132942289ed40b5d3655987a536"
+    },
+    {
+      "arquivo": "c02/circuito/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "c02/circuito/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\conjunto.s2p",
+      "bytes": 332,
+      "sha256": "cf395061627053c654e0ee53057bc7cc211ba7cac130d29ca1de2572cdd4e648"
+    },
+    {
+      "arquivo": "c02/circuito/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\nexxim.s2p",
+      "bytes": 368,
+      "sha256": "5bb73b4c698cf6646fb2eb1b6d3e0930f3b5d071654f3f707383a53fdd0a5a44"
+    },
+    {
+      "arquivo": "c02/circuito/resultado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\resultado.json",
+      "bytes": 6137,
+      "sha256": "645ba05169489bfcaaea723682b30f7d0d431d15e8057fb06db18c30d4584a5b"
+    },
+    {
+      "arquivo": "c02/circuito/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\verificacao_nexxim.json",
+      "bytes": 886,
+      "sha256": "641c1eb5e05d8780c53ce7b812628e723ae900bbd5d6cc5bbf50b0b32a138f08"
+    },
+    {
+      "arquivo": "c02/circuito/diagrama_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\diagrama_H.csv",
+      "bytes": 66504,
+      "sha256": "6235f82eab6b4d474302e072aea92c3439bbfddfaf931116db9f99131328a534"
+    },
+    {
+      "arquivo": "c02/circuito/diagrama_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\diagrama_V.csv",
+      "bytes": 67835,
+      "sha256": "4f2aaf78682fe72c18cf0e5fd71aeec5785c586d16c033104cbe49c416319110"
+    },
+    {
+      "arquivo": "c02/circuito/diagrama_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\diagrama_V_fino.csv",
+      "bytes": 108294,
+      "sha256": "a300063f45bb65b353c2ab8890cd5fb81d60accd02bfc7d17ab1f5187c43138e"
+    },
+    {
+      "arquivo": "c02/circuito/ondas.npz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\ondas.npz",
+      "bytes": 1904,
+      "sha256": "bcc5c2971631c1f16c1197c577934fdd97f8d2edf55be098552d66ab931975e9"
+    },
+    {
+      "arquivo": "c02/circuito/polar_HV.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\circuito\\polar_HV.png",
+      "bytes": 210823,
+      "sha256": "3dcd4fae7de16cf7db105cecd9269816ae0dd1435e8fe065ead29303b2bc1220"
+    },
+    {
+      "arquivo": "c02/visual/Antena_C09_Ajustada_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\visual\\Antena_C09_Ajustada_PRELIMINAR.FCStd",
+      "bytes": 1546603,
+      "sha256": "d12e6856bcd4853209e63a8928c31b2031b537b7558df2456ae3d202af2b9ee3"
+    },
+    {
+      "arquivo": "c02/visual/conferencia_montagem.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\visual\\conferencia_montagem.json",
+      "bytes": 176,
+      "sha256": "1807d340a37820bfed076e7fd6476f15da3a0b666a97b2861f26aa2ebfb38a7e"
+    },
+    {
+      "arquivo": "c02/visual/montagem_frontal.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\visual\\montagem_frontal.png",
+      "bytes": 25991,
+      "sha256": "11a0bc3e48d58b09db553611dfd41c9bf84d6505fa6b6945be7bad4af0af657c"
+    },
+    {
+      "arquivo": "c02/visual/montagem_isometrica.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\visual\\montagem_isometrica.png",
+      "bytes": 56911,
+      "sha256": "b806ae938bb55c6debb37dbb2c479a197abfddd0291c2c2bdcbcdd5046bc37a3"
+    },
+    {
+      "arquivo": "c02/visual/montagem_traseira.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\c02\\visual\\montagem_traseira.png",
+      "bytes": 62969,
+      "sha256": "fc754c5a461da013c180fc33322e963fcc2d811912959fb13df43f106832633e"
+    },
+    {
+      "arquivo": "guias/guia_c01/guia_passiva.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_passiva.json",
+      "bytes": 1469,
+      "sha256": "d1db621b37f13a2373fef29fb6a50ca800c3df148aa2c70f874122ca3695fee8"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/C09_Ajuste_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\C09_Ajuste_Nexxim.aedt",
+      "bytes": 70333,
+      "sha256": "f5ad6c38f8ce92777b77544cdcc46c4073cc896e7dbcd66e67fa5aa8f006c781"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "bytes": 26205,
+      "sha256": "aa70a7022d49166f54ab2cf9b0fb0c6521b56a2582af7e3289a3b657c8e39a28"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\antena.s6p",
+      "bytes": 2104,
+      "sha256": "e123b01d2466261860e7ba4a2f48a427cbeb90f2b7d052d93baf2628f0a1f9c7"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\divisor.s8p",
+      "bytes": 2641,
+      "sha256": "eef38a94cb9f3e036a765f0cf5ce42624c099ab39b1d5ec492c8410d171e1708"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\conjunto.s2p",
+      "bytes": 344,
+      "sha256": "779fd1fb52baea14c1be3301a03b1064da8efb230bc5b3913692045625952b96"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\nexxim.s2p",
+      "bytes": 369,
+      "sha256": "4b33c35df3bf522a9b2d20264fd2da0c679b947f07f2893681eb5133b49420a6"
+    },
+    {
+      "arquivo": "guias/guia_c01/nexxim/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_nexxim\\verificacao_nexxim.json",
+      "bytes": 888,
+      "sha256": "2ae9035615aba575dc0090c884725aed17167f7adbf8fc83120f661536319b5e"
+    },
+    {
+      "arquivo": "guias/guia_c02/guia_passiva.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_passiva.json",
+      "bytes": 1552,
+      "sha256": "be35ed8d5a546bc870304d6d8fd5cf465b8c50e2e14fc94bf635b7f418fba070"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/C09_Ajuste_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\C09_Ajuste_Nexxim.aedt",
+      "bytes": 70363,
+      "sha256": "0217d36e546e811a1e7274e0b9fd0995016e7beec528f8ac89e019f254c481c1"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\C09_Ajuste_Nexxim_sem_malhas.aedtz",
+      "bytes": 27579,
+      "sha256": "193aa9489915cc4652f6b2221d49a332bb37c1bb534c2d483ea59ff8bed97aca"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\antena.s6p",
+      "bytes": 2104,
+      "sha256": "e123b01d2466261860e7ba4a2f48a427cbeb90f2b7d052d93baf2628f0a1f9c7"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\divisor.s8p",
+      "bytes": 3703,
+      "sha256": "9adce5040c2de8c929e252e8bc643aadd6d8ab2c05c79058ba6bdfc9b7131611"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\conjunto.s2p",
+      "bytes": 338,
+      "sha256": "a9b64fd26fe3b9376d88ff2741728c6ef38be6038f79b24d79e5b0d125cfeddf"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\nexxim.s2p",
+      "bytes": 367,
+      "sha256": "41da0c8e675bf3ad2d1f21ccdf2d05d2db793b89b78e54dcf667db65a362f068"
+    },
+    {
+      "arquivo": "guias/guia_c02/nexxim/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R15_Casamento_C09\\guia_c02\\guia_nexxim\\verificacao_nexxim.json",
+      "bytes": 890,
+      "sha256": "2afcd994206bd042d2214fb28a0c896fbb53a2aaa3bbcb6706af5a7922584857"
+    }
+  ],
+  "antena_preservada": {
+    "pasta": "D:\\dev\\EMBRAER\\P2S13\\R14_Compacto_Simetrico_SemRadome\\c00\\antena",
+    "sha256": {
+      "PCB_SemCabos.aedt": "d0ab58949e828bc41a130b032c2f6e8a2b75f65d43980a2ff7bf505cc8a18b1f",
+      "centro.s6p": "6859a0fa6e7b106b422eff309f6aa2e7bb6d19b6be0cef6bc55da38b094283d7"
+    },
+    "sem_novo_solve": true
+  },
+  "sem_malhas": true
+}
