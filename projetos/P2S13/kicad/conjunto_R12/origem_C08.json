@@ -1,0 +1,92 @@
+[
+  {
+    "arquivo": "divisor_C08/C08_Gerbers_PARA_REVISAO_RF.zip",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/C08_Gerbers_PARA_REVISAO_RF.zip",
+    "sha256": "e1193c67a3f0213a19f0a01916b40b5adaf256f61ffe4c99a2aaa4d6e0113da3"
+  },
+  {
+    "arquivo": "divisor_C08/conferencia_cad_hfss.json",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/conferencia_cad_hfss.json",
+    "sha256": "af294e0822cf05f3a2b3eef1d3634437725c080d8e3e031da584579d95a24f12"
+  },
+  {
+    "arquivo": "divisor_C08/divisor_duplo_1x3_C08.kicad_pcb",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/divisor_duplo_1x3_C08.kicad_pcb",
+    "sha256": "91b1bebed6eacb4c81bececbdf5c41de846660808207b0d1a91d3b3d9c4d81b2"
+  },
+  {
+    "arquivo": "divisor_C08/divisor_duplo_1x3_C08.kicad_pro",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/divisor_duplo_1x3_C08.kicad_pro",
+    "sha256": "0ec9fde640a5b285ca1c933133f84c9ab9b552cfed27f097818a0dad59bb5d84"
+  },
+  {
+    "arquivo": "divisor_C08/drc.json",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/drc.json",
+    "sha256": "8344f7c7ed1868cec85e337ca1a72a35d937925ca79b3c5d75d30db9b2029f77"
+  },
+  {
+    "arquivo": "divisor_C08/faces_cad.json",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/faces_cad.json",
+    "sha256": "00c02575bb84bfbf6cbce94319718ee464d3c9722ebf3332da9861cab8aa72b1"
+  },
+  {
+    "arquivo": "divisor_C08/leitura_kicad.json",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/leitura_kicad.json",
+    "sha256": "f1163f9de98937fd052152c45af2e85547b356bfdc24fa25fd34a64f30d3e432"
+  },
+  {
+    "arquivo": "divisor_C08/precisao_furacao.json",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/precisao_furacao.json",
+    "sha256": "9402f2a56e57bbea33d5b81327065a2bf96f13ed78037f130af9b1bc614e55bb"
+  },
+  {
+    "arquivo": "divisor_C08/verificacao.json",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/verificacao.json",
+    "sha256": "fa3f35ec5e2a6882655310f0aa9d4dcac8b712b75eb4eb54e99c91453dd2bbae"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-B_Cu.gbl",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-B_Cu.gbl",
+    "sha256": "dd2814ed3dc339b5805f5b75ba4225786d55e45f1552112da7228d219fae328a"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-B_Mask.gbs",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-B_Mask.gbs",
+    "sha256": "6dbe9bd3efb91a319480a95d0a8c0cec0978c8a8af813b9c9c5f58002b0d58d6"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-Edge_Cuts.gm1",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-Edge_Cuts.gm1",
+    "sha256": "a97fc9c997f24edc6209945fb94bbf8aa3de14b6deb9b399d942d05dc4064d28"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-F_Cu.gtl",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-F_Cu.gtl",
+    "sha256": "e3258ce04450e64d5965df7fc2415acec1e6782ba3d5e6dd1a27cbc874a5a7e0"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-F_Mask.gts",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-F_Mask.gts",
+    "sha256": "c7929514ec1cf3f8f4ed14f3ac4e82590d4918249004d5d7ffcef24a92062815"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-job.gbrjob",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-job.gbrjob",
+    "sha256": "b3d9014b0b997da896549f1e6dc81565b2b76d325e62e147b2429ace8a11c8ca"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-NPTH.drl",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-NPTH.drl",
+    "sha256": "36a3c45941d9a4243ddccfca1926eaf9165618c55fbc07e6763b9b81bb80d861"
+  },
+  {
+    "arquivo": "divisor_C08/gerbers/divisor_duplo_1x3_C08-PTH.drl",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/gerbers/divisor_duplo_1x3_C08-PTH.drl",
+    "sha256": "a071bbb0ef1f16cd7d0c3632d257161265f2fe1f9bdd4bd7fb5150ff0c719444"
+  },
+  {
+    "arquivo": "divisor_C08/preview/gerbers_conferidos.png",
+    "fonte": "projetos/P2S13/fabricavel_radome/d00/kicad/preview/gerbers_conferidos.png",
+    "sha256": "d52b43d429e33269873a9adedbda3aca39043c02294d07f7cbcdf8ee91a410ec"
+  }
+]

@@ -1,0 +1,350 @@
+{
+  "referencia": "R12_Curvilinear_Simplificado",
+  "passes_adicionados": [
+    7,
+    8
+  ],
+  "antes": {
+    "revisao": "R12_Curvilinear_Simplificado",
+    "frequencia_GHz": 5.17,
+    "passes": 6,
+    "delta_s": 0.0783068124520335,
+    "consecutivos": 0,
+    "convergiu": false,
+    "nucleos": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      14
+    ],
+    "fontes_W": [
+      0.5,
+      0.5
+    ],
+    "fontes_fase_graus": [
+      0,
+      0
+    ],
+    "VSWR_ativo": [
+      1.6199140864385138,
+      1.5228197166512318
+    ],
+    "VSWR_outra_casada": [
+      1.6128284594006557,
+      1.5686562296596511
+    ],
+    "cortes": {
+      "H": {
+        "ganho_frontal_dBi": 11.571884408554268,
+        "pico_graus": 27.75,
+        "ganho_pico_dBi": 12.7240188761058,
+        "abertura_graus": 98.90230902113458,
+        "cruzamentos_graus": [
+          -48.27631797072824,
+          50.62599105040635
+        ],
+        "SLL": {
+          "nivel_dB": -0.11252286789014398,
+          "limites_lobo_principal_graus": [
+            0.5,
+            81.75
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -25.75,
+              "nivel_dB": -0.11252286789014398
+            }
+          ]
+        }
+      },
+      "V": {
+        "ganho_frontal_dBi": 11.571884408554268,
+        "pico_graus": 0.0,
+        "ganho_pico_dBi": 11.571884408554268,
+        "abertura_graus": 9.795850350152229,
+        "cruzamentos_graus": [
+          -4.871016702997066,
+          4.924833647155163
+        ],
+        "SLL": {
+          "nivel_dB": -7.1194376187443105,
+          "limites_lobo_principal_graus": [
+            -11.25,
+            12.0
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -75.0,
+              "nivel_dB": -25.271996270736537
+            },
+            {
+              "angulo_graus": -59.25,
+              "nivel_dB": -21.348356811212618
+            },
+            {
+              "angulo_graus": -41.5,
+              "nivel_dB": -16.22458025404937
+            },
+            {
+              "angulo_graus": -28.75,
+              "nivel_dB": -14.879103353210368
+            },
+            {
+              "angulo_graus": -15.75,
+              "nivel_dB": -14.223894127006563
+            },
+            {
+              "angulo_graus": 15.5,
+              "nivel_dB": -17.71873521833014
+            },
+            {
+              "angulo_graus": 40.0,
+              "nivel_dB": -7.1194376187443105
+            },
+            {
+              "angulo_graus": 63.0,
+              "nivel_dB": -14.916232565719604
+            },
+            {
+              "angulo_graus": 84.5,
+              "nivel_dB": -16.275703781656752
+            }
+          ]
+        }
+      }
+    },
+    "vertical_fino": {
+      "passo_graus": 0.01,
+      "pico_grade_graus": -0.00999999999999979,
+      "pico_interpolado_graus": -0.00787515657066194,
+      "assimetria_max_dB": 0.06762378749126619,
+      "intervalo_simetria_graus": [
+        -4.871016702997066,
+        4.871016702997066
+      ],
+      "criterio_simetria_dB": 0.2,
+      "criterio_pico_graus": 0.5
+    },
+    "passividade_sigma_max": 0.24940421575468186,
+    "reciprocidade_erro": 0.0,
+    "recomposicao_erro": {
+      "H": 1.3795386670353575e-14,
+      "V": 1.1991982663573168e-14
+    },
+    "potencia_balanco_aprovado": true,
+    "malha_major": 0,
+    "malha_minor": 0,
+    "metas": {
+      "VSWR_ativo": false,
+      "VSWR_outra_casada": false,
+      "ganho": false,
+      "pico_vertical": true,
+      "simetria_lobo_principal": true
+    },
+    "metas_operacionais": false,
+    "criterio_VSWR_operacional": "Duas entradas iguais e em fase; VSWR com outra casada e verificacao adicional, reportada separadamente.",
+    "validacao_nominal": false,
+    "solver_matricial": {
+      "perfil": "DV82_S79_V0.profile",
+      "perfil_sha256": "64d856e1d3c4b11e747ebf31a7508dc19bca8ba5e08a21c2799411bfd3f577a5",
+      "residuo_configurado": null,
+      "tipo": "Direct Solver",
+      "basis_order": 1,
+      "avisos": [],
+      "aprovado": true,
+      "nota": "Auditoria do perfil de recursos; avisos do solver matricial podem nao aparecer em GetMessages."
+    },
+    "resultados_fisicamente_consistentes": true,
+    "nota_metas": "Comparacoes numericas dos valores exportados; uma solucao fisicamente inconsistente nao aprova qualquer meta RF.",
+    "estabilidade_campos_ultimos_dB": [
+      2.2394543374212104,
+      0.6891153389895202
+    ],
+    "estabilidade_campos_aprovada": false,
+    "tolerancia_reciprocidade_absoluta": 1e-05,
+    "nota_reciprocidade": "Mantido limiar de auditoria historico. Afericao absoluta reportada; nao equivale a erro de VSWR ou de ganho.",
+    "limites": "Simulacao nominal em um ponto; FR4 isotropico tipico, portas internas ideais. Nao inclui conectores externos, vedacao, cola nem tolerancias de lote.",
+    "fontes_sha256": {
+      "configuracao.json": "620a41a916579ae972d9281fb0f1a215bfad9b3825f46a02b7d9ddd7969797b0",
+      "P2S13_Curvilinear.aedt": "b0843f9ab753dbc8646830595e592bbf1af17ac065b0b887c4cf8d04aaf8d5e9",
+      "centro.s2p": "d6182de5932cddf56680715d328af15638bcac0db133932ad84710c17b6c4a13"
+    }
+  },
+  "depois": {
+    "revisao": "R12_Continuacao8",
+    "frequencia_GHz": 5.17,
+    "passes": 8,
+    "delta_s": 0.03429124604644034,
+    "consecutivos": 2,
+    "convergiu": true,
+    "nucleos": [
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14
+    ],
+    "fontes_W": [
+      0.5,
+      0.5
+    ],
+    "fontes_fase_graus": [
+      0,
+      0
+    ],
+    "VSWR_ativo": [
+      1.547453463254152,
+      1.455024068757095
+    ],
+    "VSWR_outra_casada": [
+      1.5465147141004767,
+      1.5247014035513269
+    ],
+    "cortes": {
+      "H": {
+        "ganho_frontal_dBi": 11.569272187794528,
+        "pico_graus": 29.0,
+        "ganho_pico_dBi": 12.86027050484153,
+        "abertura_graus": 99.81841750719389,
+        "cruzamentos_graus": [
+          -48.97135390609451,
+          50.84706360109937
+        ],
+        "SLL": {
+          "nivel_dB": -0.12053933989426113,
+          "limites_lobo_principal_graus": [
+            0.5,
+            81.0
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -27.5,
+              "nivel_dB": -0.12053933989426113
+            }
+          ]
+        }
+      },
+      "V": {
+        "ganho_frontal_dBi": 11.569272187794528,
+        "pico_graus": -0.25,
+        "ganho_pico_dBi": 11.56981873434656,
+        "abertura_graus": 9.843454294859615,
+        "cruzamentos_graus": [
+          -5.001942315184111,
+          4.841511979675504
+        ],
+        "SLL": {
+          "nivel_dB": -7.396335120286641,
+          "limites_lobo_principal_graus": [
+            -11.25,
+            12.0
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -59.25,
+              "nivel_dB": -21.89696084256706
+            },
+            {
+              "angulo_graus": -42.5,
+              "nivel_dB": -17.678246083219083
+            },
+            {
+              "angulo_graus": -28.75,
+              "nivel_dB": -14.03754324795795
+            },
+            {
+              "angulo_graus": -15.75,
+              "nivel_dB": -13.591526847923463
+            },
+            {
+              "angulo_graus": 15.75,
+              "nivel_dB": -18.026102857694532
+            },
+            {
+              "angulo_graus": 39.75,
+              "nivel_dB": -7.396335120286641
+            },
+            {
+              "angulo_graus": 62.5,
+              "nivel_dB": -15.089563422000621
+            },
+            {
+              "angulo_graus": 84.5,
+              "nivel_dB": -16.798405036763196
+            }
+          ]
+        }
+      }
+    },
+    "vertical_fino": {
+      "passo_graus": 0.01,
+      "pico_grade_graus": -0.129999999999999,
+      "pico_interpolado_graus": -0.13441230728559536,
+      "assimetria_max_dB": 0.2077869438355595,
+      "intervalo_simetria_graus": [
+        -4.841511979675504,
+        4.841511979675504
+      ],
+      "criterio_simetria_dB": 0.2,
+      "criterio_pico_graus": 0.5
+    },
+    "passividade_sigma_max": 0.2572066624906592,
+    "reciprocidade_erro": 0.0,
+    "recomposicao_erro": {
+      "H": 2.316963901217588e-14,
+      "V": 1.4213564962188567e-14
+    },
+    "potencia_balanco_aprovado": true,
+    "malha_major": 0,
+    "malha_minor": 0,
+    "metas": {
+      "VSWR_ativo": false,
+      "VSWR_outra_casada": false,
+      "ganho": false,
+      "pico_vertical": true,
+      "simetria_lobo_principal": false
+    },
+    "metas_operacionais": false,
+    "criterio_VSWR_operacional": "Duas entradas iguais e em fase; VSWR com outra casada e verificacao adicional, reportada separadamente.",
+    "validacao_nominal": false,
+    "solver_matricial": {
+      "perfil": "DV82_S79_V0.profile",
+      "perfil_sha256": "299c29f1cd92a93151db9480ecd8a0416e4eb15e1d07bb9054599538cfc651e9",
+      "residuo_configurado": null,
+      "tipo": "Direct Solver",
+      "basis_order": 1,
+      "avisos": [],
+      "aprovado": true,
+      "nota": "Auditoria do perfil de recursos; avisos do solver matricial podem nao aparecer em GetMessages."
+    },
+    "resultados_fisicamente_consistentes": true,
+    "nota_metas": "Comparacoes numericas dos valores exportados; uma solucao fisicamente inconsistente nao aprova qualquer meta RF.",
+    "estabilidade_campos_ultimos_dB": [
+      0.6533604976275607,
+      0.28222257655207006
+    ],
+    "estabilidade_campos_aprovada": false,
+    "tolerancia_reciprocidade_absoluta": 1e-05,
+    "nota_reciprocidade": "Mantido limiar de auditoria historico. Afericao absoluta reportada; nao equivale a erro de VSWR ou de ganho.",
+    "limites": "Simulacao nominal em um ponto; FR4 isotropico tipico, portas internas ideais. Nao inclui conectores externos, vedacao, cola nem tolerancias de lote.",
+    "fontes_sha256": {
+      "configuracao.json": "bba20ac18576a15b0d09ab51e3f90058e4854b93abd4591c51b79fee10510548",
+      "P2S13_Curvilinear.aedt": "611917ac2eaa80f9c1a1a2ba0ea6ff434fba90d3eb10917db18256cca3644004",
+      "centro.s2p": "1b41c3e2a602fc16a97b264f12c81cd68fec84b1be417e693ad804a0a2adc473"
+    }
+  },
+  "diferencas": {
+    "ganho_frontal_dB": -0.0026122207597403246,
+    "H_graus": 0.9161084860593007,
+    "V_graus": 0.0476039447073866,
+    "VSWR_ativo": [
+      -0.07246062318436186,
+      -0.06779564789413683
+    ]
+  }
+}

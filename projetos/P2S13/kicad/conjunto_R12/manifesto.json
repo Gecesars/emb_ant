@@ -1,0 +1,258 @@
+{
+  "data": "2026-11-12T07:28:13.474021-03:00",
+  "revisao": "Conjunto R12: 3xM00 + 1xC08",
+  "liberacao_RF": false,
+  "geometria_preservada": true,
+  "placas_por_antena": {
+    "M00": 3,
+    "C08": 1
+  },
+  "nota": "Sem alteracao RF; M00 com cobre de parede PTH35um, C08 com18um. Confirmacao de processo e qualificacao RF separadas.",
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/conferencia_CAD_conjunto.json",
+      "bytes": 3160,
+      "sha256": "a586e973a1d26cb4d9b378764c0fb8078055bbbcd0ef7a63e7c86f0de83e3bdf"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/C08_Gerbers_PARA_REVISAO_RF.zip",
+      "bytes": 96554,
+      "sha256": "e1193c67a3f0213a19f0a01916b40b5adaf256f61ffe4c99a2aaa4d6e0113da3"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/conferencia_cad_hfss.json",
+      "bytes": 1252,
+      "sha256": "af294e0822cf05f3a2b3eef1d3634437725c080d8e3e031da584579d95a24f12"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/divisor_duplo_1x3_C08.kicad_pcb",
+      "bytes": 459575,
+      "sha256": "91b1bebed6eacb4c81bececbdf5c41de846660808207b0d1a91d3b3d9c4d81b2"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/divisor_duplo_1x3_C08.kicad_pro",
+      "bytes": 9978,
+      "sha256": "0ec9fde640a5b285ca1c933133f84c9ab9b552cfed27f097818a0dad59bb5d84"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/drc.json",
+      "bytes": 96140,
+      "sha256": "8344f7c7ed1868cec85e337ca1a72a35d937925ca79b3c5d75d30db9b2029f77"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/drc_12nov.json",
+      "bytes": 96079,
+      "sha256": "e4a7c4e987309d589ef4059631ae09a16e9e44091252a6ccdd6c407443d6a5be"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/faces_cad.json",
+      "bytes": 3222826,
+      "sha256": "00c02575bb84bfbf6cbce94319718ee464d3c9722ebf3332da9861cab8aa72b1"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-B_Cu.gbl",
+      "bytes": 424307,
+      "sha256": "dd2814ed3dc339b5805f5b75ba4225786d55e45f1552112da7228d219fae328a"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-B_Mask.gbs",
+      "bytes": 673,
+      "sha256": "6dbe9bd3efb91a319480a95d0a8c0cec0978c8a8af813b9c9c5f58002b0d58d6"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-Edge_Cuts.gm1",
+      "bytes": 733,
+      "sha256": "a97fc9c997f24edc6209945fb94bbf8aa3de14b6deb9b399d942d05dc4064d28"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-F_Cu.gtl",
+      "bytes": 8098,
+      "sha256": "e3258ce04450e64d5965df7fc2415acec1e6782ba3d5e6dd1a27cbc874a5a7e0"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-F_Mask.gts",
+      "bytes": 673,
+      "sha256": "c7929514ec1cf3f8f4ed14f3ac4e82590d4918249004d5d7ffcef24a92062815"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-job.gbrjob",
+      "bytes": 2414,
+      "sha256": "b3d9014b0b997da896549f1e6dc81565b2b76d325e62e147b2429ace8a11c8ca"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-NPTH.drl",
+      "bytes": 279,
+      "sha256": "36a3c45941d9a4243ddccfca1926eaf9165618c55fbc07e6763b9b81bb80d861"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/gerbers/divisor_duplo_1x3_C08-PTH.drl",
+      "bytes": 522,
+      "sha256": "a071bbb0ef1f16cd7d0c3632d257161265f2fe1f9bdd4bd7fb5150ff0c719444"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/leitura_kicad.json",
+      "bytes": 1401836,
+      "sha256": "f1163f9de98937fd052152c45af2e85547b356bfdc24fa25fd34a64f30d3e432"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/precisao_furacao.json",
+      "bytes": 114,
+      "sha256": "9402f2a56e57bbea33d5b81327065a2bf96f13ed78037f130af9b1bc614e55bb"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/preview/gerbers_conferidos.png",
+      "bytes": 143197,
+      "sha256": "d52b43d429e33269873a9adedbda3aca39043c02294d07f7cbcdf8ee91a410ec"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/divisor_C08/verificacao.json",
+      "bytes": 3792,
+      "sha256": "fa3f35ec5e2a6882655310f0aa9d4dcac8b712b75eb4eb54e99c91453dd2bbae"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/interligacoes.csv",
+      "bytes": 469,
+      "sha256": "6a3f3b935af7c08ca6b64088a114eb388f7862e3c4d16ade130c052188dc0dc7"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/lista_placas.csv",
+      "bytes": 276,
+      "sha256": "6dc55b6d8f9e071a7d315e1c5ed17bcf1c424e8e0dc6590259edfac81ce02230"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/origem_C08.json",
+      "bytes": 4431,
+      "sha256": "2d81ff035c70997a0d042f8a8f7337965f03b46bd07b9e81b8468fb5870016cf"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/2_elementos.kicad_pcb",
+      "bytes": 69034,
+      "sha256": "2b08ec3478210f2c91304dad43b8fe04e8ee7bbe38c15b40d5d10c18a8774ec1"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/2_elementos.kicad_pro",
+      "bytes": 9934,
+      "sha256": "6ab87de9ca64f9c30e8a6e940ad49a20fe70cd3f187c5c8e0797e5f7cd31f6dd"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/drc.json",
+      "bytes": 117856,
+      "sha256": "12a2e581bacf373e43c8767e70512aea7caede51151140509df5e9ad87c49233"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/FABRICACAO.txt",
+      "bytes": 1114,
+      "sha256": "8e0c11a5870f78492de3aed423fb6c19c8d735a0fdea1806cfb1ba0cec57ae1a"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/faces_cad.json",
+      "bytes": 1877503,
+      "sha256": "eee78c06c35deee11a8c39066afc43a740a97a580ae0763dcdf76c9506f269d3"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/furacao.txt",
+      "bytes": 657,
+      "sha256": "817fbe349e3b9ddd81f3cbb365096309499eccf8f538dd90ba317106b2bc0ca0"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-B_Cu.gbl",
+      "bytes": 48153,
+      "sha256": "569fb49c0dc7a90f6c226b21579f89d37d2714a26b899451cca800f04a64081e"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-B_Mask.gbs",
+      "bytes": 666,
+      "sha256": "74f5b790161ace35a21c997eead05acaf3dc03305014c26478e1cec9af212618"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-Edge_Cuts.gm1",
+      "bytes": 727,
+      "sha256": "9dff4fe43f016c8b4238c15eb8270ce8da134f2e572846b5eeeec6514c7e07a7"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-F_Cu.gtl",
+      "bytes": 12209,
+      "sha256": "de363b0a6c4fa1bbb9e7f4e306b0a3b6fa2e6d98e9e1302c339ff83e891540ab"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-F_Mask.gts",
+      "bytes": 666,
+      "sha256": "d2de9764ea2dd68e04a5332ea20fea8ec868cbf3a884d5068723a27e7f91ea1c"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-job.gbrjob",
+      "bytes": 2350,
+      "sha256": "c28e70b1bf7a2c4dbf3c00207fddf95644597442be82df39104a5f40265f33bd"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-NPTH.drl",
+      "bytes": 279,
+      "sha256": "11c29a555652a2f480e33233b0bf3f67957865b80bfca0b1a0130fe5170a34e3"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/gerbers/2_elementos-PTH.drl",
+      "bytes": 533,
+      "sha256": "1ceb14a14f322cc2f17f3cf0cba31e63b0d111df92ba714bd2bbb2d683cf59f0"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/leitura_kicad.json",
+      "bytes": 197579,
+      "sha256": "b793b9599ba465c93a7faff9104cbd8f40bf51f0a2660686ba22a4a140c0dcc1"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/M00_Gerbers_PARA_REVISAO_RF.zip",
+      "bytes": 18188,
+      "sha256": "57ed127b03b0fb21b344aad6335737f1d7dd9f3dd04034bc55239c5001e93710"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/precisao_furacao.json",
+      "bytes": 150,
+      "sha256": "0f315faf96b624bfe9d5bf2d190a32fecb4bb224b941eb99b4c96eed2f564dce"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/preview/2_elementos-B_Cu.png",
+      "bytes": 33123,
+      "sha256": "08c38f8cdfb40a84201437bbce535da92b5040f46081f3c96ebd3a90dba5af97"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/preview/2_elementos-B_Cu.svg",
+      "bytes": 32328,
+      "sha256": "fe49f0e402039e2149aa73e38ac082524bc709885c26b8c89cfd3a75ec70b0d7"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/preview/2_elementos-F_Cu.png",
+      "bytes": 20278,
+      "sha256": "738f6ce67f325c523655f412a8cce086ab0b634080359bed85c469ac119197d2"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/preview/2_elementos-F_Cu.svg",
+      "bytes": 9290,
+      "sha256": "c4be4e3a9487d02f244bd391d65a7561dea225e7799e750e3f862a0d0d1343b3"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/preview/2_elementos.png",
+      "bytes": 111804,
+      "sha256": "c0c84cb4b4b8820cbd2b00dced82afbcb155f0fb5063b3109c25172d212d338e"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/preview/gerbers_conferidos.png",
+      "bytes": 97164,
+      "sha256": "d67e5e87324dce5e8cc901da67a96b8b6d7515e1077c189c68cd0dbcbcf4ebe7"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/verificacao.json",
+      "bytes": 3607,
+      "sha256": "ac2a1990892e4795aea13689b450bd559232ac38cb076e8c7953973f375ec28d"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/placa2_M00/verificacao_gerbers.json",
+      "bytes": 1581,
+      "sha256": "70b7c953ca2daec95102724018dbe8da8a5e1cecdd07214f50b96bc22da0a06a"
+    },
+    {
+      "arquivo": "projetos/P2S13/kicad/conjunto_R12/README.md",
+      "bytes": 5970,
+      "sha256": "eb32b9252eca991a9425a54c664aedcbc4302088665ce945247c299d7ee5187d"
+    }
+  ]
+}

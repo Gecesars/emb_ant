@@ -1,0 +1,19 @@
+M00 / R12 - PRELIMINARY RF AND PROCESS REVIEW - NOT A PRODUCTION RELEASE
+
+Quantity: three identical M00 PCBs per complete antenna.
+Board outline: 50 x 88 mm; two copper layers.
+Core: Rogers RO4350B, dielectric thickness 0.76 mm.
+Copper: 35 um per external layer. Core plus copper nominal 0.83 mm,
+before finish; do not substitute a 0.83 mm dielectric core.
+Finish: ENIG. RF model: NiP 4.5 um and Au 0.0254 um nominal.
+No solder mask and no silkscreen. Mask Gerbers define full openings.
+Four plated vias, finished diameter 0.40 mm.
+Two plated cable entry holes, finished diameter 1.10 mm.
+No NPTH. Excellon metric 3:6 with retained zeros.
+IMPORTANT: simulated barrel wall copper is 35 um on this M00 board.
+The separate C08 board uses 18 um in its RF model. Do not assume the
+same via-plating process on both boards without engineering review.
+Confirm achievable stackup, barrel copper, finish and tolerances before
+ordering. Do not change copper, antipads, drill diameters or outline.
+No assembled components or stencil. Cable soldering is manual.
+RF performance and manufacturing process release remain pending.

@@ -1,0 +1,205 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/P2S13_Curvilinear.aedt",
+      "sha256": "611917ac2eaa80f9c1a1a2ba0ea6ff434fba90d3eb10917db18256cca3644004",
+      "bytes": 21114144
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/configuracao.json",
+      "sha256": "bba20ac18576a15b0d09ab51e3f90058e4854b93abd4591c51b79fee10510548",
+      "bytes": 7023
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/resultado.json",
+      "sha256": "1e1067542004217e2d77ea56e4d110fe3b20dacead433d3d498990e4a7de0342",
+      "bytes": 4773
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/centro.s2p",
+      "sha256": "1b41c3e2a602fc16a97b264f12c81cd68fec84b1be417e693ad804a0a2adc473",
+      "bytes": 805
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/convergencia.txt",
+      "sha256": "50abcca9d252c58bc668721bd17fd5e5cb3bfbb29dc926ff0e1091ee40c27092",
+      "bytes": 717
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/historico_passes.json",
+      "sha256": "8f8a0cc249a00e406bd606e38edfaef69c1378c11c3aee80d5e6eab2c1cf6b10",
+      "bytes": 716
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/convergencia_campos.json",
+      "sha256": "2d21dbfeaa3a1f77b8b85f99e7d3314c64e69cbae02927d1aa49dec50aebf27a",
+      "bytes": 4913
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/conferencia_perfil.json",
+      "sha256": "d2ebd8f50bce6eec894e9dcd8d624a4918c94aa7aa2bdfb77ad78b3e3a05e158",
+      "bytes": 285
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/recursos_matriz.json",
+      "sha256": "0fddfede63ba7575f9f85bdec95fafd6ce8881fb0dff509493ce31bba94c4f82",
+      "bytes": 3115
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/auditoria_solver_matricial.json",
+      "sha256": "6e9140a33d2882aa07ae9e59e5186592a95ffe95496ff6a0841f52e376bdd9c7",
+      "bytes": 357
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/malha.json",
+      "sha256": "acbdcb3bdf736843af8eace6a8e9926c95d1f7290292c02cdc4ad7409e3666fb",
+      "bytes": 55623
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/mensagens.json",
+      "sha256": "f3e8fbb4536df418c06b77269cc005a9080cfc7132c6bf370e7f81e4bc328a68",
+      "bytes": 184
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/potencia.json",
+      "sha256": "c96d3252d0e321a0f856eb9cdb477108b8d79a3db04e60b5148a4c58cdd84ed5",
+      "bytes": 495
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/potencia_conferida.json",
+      "sha256": "086bfb0bc0876a46efc5d0007c967b179a5664d1e244b6a309113441ef62ea65",
+      "bytes": 710
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/polar_HV.png",
+      "sha256": "daca8014d8b8c805dbc696cfda5e51a43b8b8b9d438778df913cd1494f897312",
+      "bytes": 224863
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/simetria_vertical.png",
+      "sha256": "378a244eee276c5a8d909df6c46a1dc47a858f5edc263d13080d1f1a4291fd3d",
+      "bytes": 93481
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/comparacao6_8.json",
+      "sha256": "dea381d130823a48c84a674756989a95583ca7215b825f6da300a12699f23d87",
+      "bytes": 10676
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/comparacao6_8.png",
+      "sha256": "597fab6619152ecff1eb26528d6c9aa7cd9363ab4219731466751d8c875a94eb",
+      "bytes": 134730
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/pipeline.json",
+      "sha256": "7a9d1b7c79bddf1438ecaecfc5478e53fc7c80ac134439585afca2ad91764a1d",
+      "bytes": 183
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/qualificacao.json",
+      "sha256": "cb37ef6fb341ccf9efe5f63f2bd6dec74f5c11dd86779613bae67236294fefb9",
+      "bytes": 71
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/ordem_fontes.json",
+      "sha256": "49f50154da7f453c3f8c1b323d5aebe7f6c8bb93f7a5f0f2d0afd96120859860",
+      "bytes": 26
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/origem.json",
+      "sha256": "af8e5c5455de8f9487e40eceb72ae1a523069ae48ec0e9204fe9d02b46255ec8",
+      "bytes": 18282
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/antes_convergencia.txt",
+      "sha256": "0ed84cd19aeeef61aaf4a07dc8c48fae63a22eef12b963403e393009a84913e1",
+      "bytes": 622
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/preparacao_auditada.json",
+      "sha256": "f940ee36b154f690f8bfff5b370297b59c5e9e8f772b05e6b2453981c403a74b",
+      "bytes": 953
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/continuidade_auditada.json",
+      "sha256": "adfcb234dfef23d35b2f614bf5f62fd38396a0f0642cd71dd6c6657f5cf7b525",
+      "bytes": 910
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/README.md",
+      "sha256": "6cb052ab36c75423efcf24afd6bfd4fec8c43c7d5ae9194d6c184a439b1d447f",
+      "bytes": 3303
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/ALL_H.csv",
+      "sha256": "3a4e41ae24db692302d2ec33cf4393cc3835e280aa1ade4b7cb16722fe773586",
+      "bytes": 196679
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/ALL_V.csv",
+      "sha256": "bcb2bec2090b05b5b4b1d1f2d860eb1bbc2b2ec1785e7ac43a8b21d3ada0a674",
+      "bytes": 197451
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/ALL_V_fino.csv",
+      "sha256": "0d9595571eeb068d7e1c9c2b2dfdbed65b90c044a9a91dfb3f9c5f081b9346a0",
+      "bytes": 242132
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/IN_A_H.csv",
+      "sha256": "31a85ebd9edcd22286a3ffe28d76932021d4f12848115909574985d1855b1919",
+      "bytes": 196658
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/IN_A_V.csv",
+      "sha256": "1466adea8520f34e147a56ba44bef6c534dd3fc968a22749c5c1ff76bc1305fb",
+      "bytes": 197791
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/IN_B_H.csv",
+      "sha256": "fe02785582c5b98ed32ee1c063de77e1ece8bfca5b5c7da3c93ae5b16d0de544",
+      "bytes": 197467
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/IN_B_V.csv",
+      "sha256": "e370b1c87a857ac6c9962d5a241ed519ff29ec7fa31e80b2da05922782951a87",
+      "bytes": 197056
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/POL_A_H.csv",
+      "sha256": "65a662536540e4a1f994c4b51f7c12d647d95af7010190a938c5a0950d7d08ff",
+      "bytes": 196643
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/POL_A_V.csv",
+      "sha256": "97e664b25f49efc97a62c2b916db79e853e2b5d711200efea2ff3aa03af7232a",
+      "bytes": 197780
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/POL_B_H.csv",
+      "sha256": "4cc2e19826bdbc87ba744dbf576bd9ffddbd96c36bb255f3870d39da08bf7a38",
+      "bytes": 197471
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/POL_B_V.csv",
+      "sha256": "4f3c0425449ba8d329991c0b90f297546ad48476c61d3625b40d147586ba75d9",
+      "bytes": 197062
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/diagrama_H.csv",
+      "sha256": "8d09f76b5dec62963696f52435d8b6924022682dd755c92a22604d2335f0e5c6",
+      "bytes": 65881
+    },
+    {
+      "arquivo": "projetos/P2S13/curvilinear_simplificado/continuacao8/diagrama_V.csv",
+      "sha256": "49737d5af72919c11ce0f48806b0f6143fbaa466c5f52b91d4d319d1e3ad40c7",
+      "bytes": 66826
+    }
+  ],
+  "excluidos": [
+    "aedtresults",
+    "malhas",
+    "campos_volumetricos",
+    "locks"
+  ]
+}

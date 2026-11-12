@@ -1,0 +1,41 @@
+{
+  "aprovado": true,
+  "fonte": "Gerbers X2 e Excellon realmente exportados",
+  "cobre": [
+    {
+      "face": "F",
+      "area_diferente_mm2": 7.443583679997857e-07,
+      "Hausdorff_mm": 9.999999974752427e-07
+    },
+    {
+      "face": "B",
+      "area_diferente_mm2": 2.9146021267972638e-05,
+      "Hausdorff_mm": 9.999999974752427e-07
+    }
+  ],
+  "contorno_mm": [
+    50,
+    88
+  ],
+  "contorno_fechado_unico": true,
+  "mascara_aberta_duas_faces": true,
+  "PTH": {
+    "0.4": 4,
+    "1.1": 2
+  },
+  "NPTH": 0,
+  "erro_posicao_Excellon_max_mm": 8.77739850062129e-07,
+  "resolucao_Excellon_mm": 1e-06,
+  "folga_cobre_borda_mm": 4.0,
+  "nota": "Excellon 3:6 e cobre Gerber a 0,000001 mm. Estes valores nao sao tolerancias de fabricacao.",
+  "hashes": {
+    "2_elementos-B_Cu.gbl": "569fb49c0dc7a90f6c226b21579f89d37d2714a26b899451cca800f04a64081e",
+    "2_elementos-B_Mask.gbs": "74f5b790161ace35a21c997eead05acaf3dc03305014c26478e1cec9af212618",
+    "2_elementos-Edge_Cuts.gm1": "9dff4fe43f016c8b4238c15eb8270ce8da134f2e572846b5eeeec6514c7e07a7",
+    "2_elementos-F_Cu.gtl": "de363b0a6c4fa1bbb9e7f4e306b0a3b6fa2e6d98e9e1302c339ff83e891540ab",
+    "2_elementos-F_Mask.gts": "d2de9764ea2dd68e04a5332ea20fea8ec868cbf3a884d5068723a27e7f91ea1c",
+    "2_elementos-job.gbrjob": "c28e70b1bf7a2c4dbf3c00207fddf95644597442be82df39104a5f40265f33bd",
+    "2_elementos-NPTH.drl": "11c29a555652a2f480e33233b0bf3f67957865b80bfca0b1a0130fe5170a34e3",
+    "2_elementos-PTH.drl": "1ceb14a14f322cc2f17f3cf0cba31e63b0d111df92ba714bd2bbb2d683cf59f0"
+  }
+}

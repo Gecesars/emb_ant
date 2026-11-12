@@ -1,0 +1,108 @@
+{
+  "estado": "MONTAGEM_RF_PRELIMINAR_GUI_ABERTA",
+  "hora": "2026-11-12T07:34:26.317703-03:00",
+  "fonte_rf_inalterada": true,
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/Antena_R12_PRELIMINAR.FCStd",
+      "bytes": 1431460,
+      "sha256": "9fb20a051c3e09d3f4cb51f3e7e58cee7ea4c5f36afe0feaf09ada416ad13fac"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/Antena_R12_RF.step",
+      "bytes": 9099978,
+      "sha256": "3d3089d3bcf2503c3e923e4903ae8af09a794613b08740ebb465fe2fb97386c5"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/conferencia_geometria.json",
+      "bytes": 45024,
+      "sha256": "b79555e0b75d00fd7933c632b41b2f100240c1689c4682f9ad230d886956f40e"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/conferencia_gui.json",
+      "bytes": 452,
+      "sha256": "7fe55a7cbd44da156ab4d7809727769688b719d17a15c416bfbdb6c540134149"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/gui_aberta.json",
+      "bytes": 773,
+      "sha256": "a4fe4a0da5159b21a2767066b4249b664643bf93a773baac5d4756900b793da5"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/01_montagem_radome.png",
+      "bytes": 26573,
+      "sha256": "c8ec984c6fae1a6897efb8158ebae8173dfc6b53f1196b5b80e10b00eb2396e9"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/02_montagem_sem_radome.png",
+      "bytes": 22837,
+      "sha256": "87824b1421a7c8ca24512e4296a879eef2530522dd90186fc2a15a279dca9162"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/03_frontal.png",
+      "bytes": 15638,
+      "sha256": "e989bfadea7467fcea893e88522ef65998400fbde1e593107ed3f15d2a173cf1"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/04_traseira_divisor.png",
+      "bytes": 12349,
+      "sha256": "af92be75f914078fa0ca2fc00674a52a73a8504e7c2f421f6c8f24562e6c3c31"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/05_divisor_e_chicote.png",
+      "bytes": 12235,
+      "sha256": "5d6406a2c03d1f3969432ae579ca3f546e7520936eff4296dbbb8bdc9a50e2cc"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/06_placa_2_elementos.png",
+      "bytes": 13308,
+      "sha256": "564e7e6ebeadc79bbeb57899e0a5186389296ff9df3eb421c085d118a5c03c08"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/07_vista_final_gui.png",
+      "bytes": 26575,
+      "sha256": "9491dc2bf172e0f9218681938f8135bb8e1253109f0416b84f6ad4120c7abe93"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/imagens/08_lateral_chicote.png",
+      "bytes": 19903,
+      "sha256": "313cd3039a3ed17b92664f2e9f84847a2a5c39267887d9ac80296265dfcdac90"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/lista_materiais.csv",
+      "bytes": 1156,
+      "sha256": "afd918d02d441f5fbb99e59aa25837340c7baad919fdfe922d8adb35751a25da"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/README.md",
+      "bytes": 5437,
+      "sha256": "6591f2740ba5119d11c3f2f9c4c1b991738ffbbf297086d9f837b8d308f77bdf"
+    },
+    {
+      "arquivo": "projetos/P2S13/automacao/r12_mecanica_preparar.py",
+      "bytes": 6663,
+      "sha256": "e71fcae4980ea029e4e1fe9476da6a647b828d6785fa410991e30aa370794b50"
+    },
+    {
+      "arquivo": "projetos/P2S13/automacao/r12_mecanica_abrir.FCMacro",
+      "bytes": 3655,
+      "sha256": "e3b309314e8646f6791b075c4dd11b2308ff03285fc3494b9a5f27f7879f8ddb"
+    },
+    {
+      "arquivo": "projetos/P2S13/mecanica_R12/salvamento_final_gui.json",
+      "sha256": "db06d795b7a7ded1d5f064de117148ac266d686768139d0ff23a0a0051caa96b",
+      "bytes": 626
+    }
+  ],
+  "imagens_revisadas": [
+    "01_montagem_radome.png",
+    "02_montagem_sem_radome.png",
+    "03_frontal.png",
+    "04_traseira_divisor.png",
+    "05_divisor_e_chicote.png",
+    "06_placa_2_elementos.png",
+    "07_vista_final_gui.png",
+    "08_lateral_chicote.png"
+  ],
+  "nenhum_solve": true
+}

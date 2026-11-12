@@ -1,0 +1,10 @@
+{
+  "perfil": "DV82_S79_V0.profile",
+  "perfil_sha256": "299c29f1cd92a93151db9480ecd8a0416e4eb15e1d07bb9054599538cfc651e9",
+  "residuo_configurado": null,
+  "tipo": "Direct Solver",
+  "basis_order": 1,
+  "avisos": [],
+  "aprovado": true,
+  "nota": "Auditoria do perfil de recursos; avisos do solver matricial podem nao aparecer em GetMessages."
+}

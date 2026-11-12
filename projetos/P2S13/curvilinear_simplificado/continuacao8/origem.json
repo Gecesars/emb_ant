@@ -1,0 +1,429 @@
+{
+  "fonte": "D:\\dev\\EMBRAER\\P2S13\\R12_Curvilinear_Simplificado",
+  "native_sha256": "b0843f9ab753dbc8646830595e592bbf1af17ac065b0b887c4cf8d04aaf8d5e9",
+  "referencias": [
+    {
+      "arquivo": "ALL_H.csv",
+      "sha256": "27da5a6190a0cb0ffa62ef3a9268c51c5b3e6fcabb4c3bdd39dc9dd775509f17"
+    },
+    {
+      "arquivo": "ALL_V.csv",
+      "sha256": "0f688f273fc563d8dfaaacd36695b9ba9f20c8eb7af7f5b8d3a56e1bb257dff4"
+    },
+    {
+      "arquivo": "ALL_V_fino.csv",
+      "sha256": "702f3828dcb337172f10f35680aacf432238da649b4dc829e799495ca918c605"
+    },
+    {
+      "arquivo": "IN_A_H.csv",
+      "sha256": "52ba0ad176da5796392aa3421bebcbe5ec0821ba23f1a34eaacc0de3d9ee1bd0"
+    },
+    {
+      "arquivo": "IN_A_V.csv",
+      "sha256": "c7de10386e08918d2b093241ce4620e8f176cd1f159553c7f353105e6db73845"
+    },
+    {
+      "arquivo": "IN_B_H.csv",
+      "sha256": "efe05bbc57d79b3feba393d2ccfb56140e76cbbfa97df5f1b46b776bb5c6554e"
+    },
+    {
+      "arquivo": "IN_B_V.csv",
+      "sha256": "61325dd1ee41326280d9b8b8086150a0b3dd56b6e9221e5c7eece61b7a4249b5"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedt",
+      "sha256": "b0843f9ab753dbc8646830595e592bbf1af17ac065b0b887c4cf8d04aaf8d5e9"
+    },
+    {
+      "arquivo": "POL_A_H.csv",
+      "sha256": "8c28fa8154f00505898cf09dd7c445ae327e223304ace5a846d1850dcaaf643a"
+    },
+    {
+      "arquivo": "POL_A_V.csv",
+      "sha256": "bd4b8918036e49041f78c35010b5ae243f50857f129790454c5bf25849930581"
+    },
+    {
+      "arquivo": "POL_B_H.csv",
+      "sha256": "e3194f5c8ea5b61e4bb7ede27cd331f081ec5042b5bc6502a82e7d38f2468030"
+    },
+    {
+      "arquivo": "POL_B_V.csv",
+      "sha256": "5507c97f45ca72f95df3137a8c13f0abf9fa83c987e2d74ef343e733c0341577"
+    },
+    {
+      "arquivo": "centro.s2p",
+      "sha256": "d6182de5932cddf56680715d328af15638bcac0db133932ad84710c17b6c4a13"
+    },
+    {
+      "arquivo": "configuracao.json",
+      "sha256": "620a41a916579ae972d9281fb0f1a215bfad9b3825f46a02b7d9ddd7969797b0"
+    },
+    {
+      "arquivo": "convergencia.txt",
+      "sha256": "0ed84cd19aeeef61aaf4a07dc8c48fae63a22eef12b963403e393009a84913e1"
+    },
+    {
+      "arquivo": "convergencia_campos.json",
+      "sha256": "21c100b25970caf474dc61fa534897671a736c94863557a2131fbf04aeff0b1c"
+    },
+    {
+      "arquivo": "diagrama_H.csv",
+      "sha256": "135aef1bc80c3f0fc8bc290bef194278f55677695e5fd2299dc8211ea2b7b0ac"
+    },
+    {
+      "arquivo": "diagrama_V.csv",
+      "sha256": "28a7d33f2afa75901bee7f9bb920cfda9231e15f6e0160a21e5996fc0c01ed9c"
+    },
+    {
+      "arquivo": "historico_passes.json",
+      "sha256": "5b181367ed27def2fabd4d6d7266f5869c727c7584483f28ff4e110c49bdeb82"
+    },
+    {
+      "arquivo": "malha.json",
+      "sha256": "a5578661baa9d5869d15c737df2f869b77f6bac37d5df9427b3241055ee40578"
+    },
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "325908936611d843ac8567c17a4c94e3219d33a30c0237f6533b61156d6bf5f3"
+    },
+    {
+      "arquivo": "potencia.json",
+      "sha256": "cea5b868a3daa78da8552e5c6a85edfdd863dc92dfd9722d3af7fec24deeaa47"
+    },
+    {
+      "arquivo": "recursos_matriz.json",
+      "sha256": "7348c7a22308f13c0ef17cb46b19c1d1314643dbb76e8addec690089291bc127"
+    },
+    {
+      "arquivo": "resultado.json",
+      "sha256": "57044e4aa37efd4865c29e7abfdafca2063788fe3f8144544e09cc8ade41b95f"
+    }
+  ],
+  "arquivos_resultados_copiados": [
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.asol",
+      "bytes": 5286,
+      "sha256": "911c5f57cf8bbe1e7a44e26d7155cea694d3015dc9b933865800e0c0a7cfa971"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/ManagedFiles_Design0.asol",
+      "bytes": 357,
+      "sha256": "d53238bcfaf2ad7509507ac4728a76d1d64d8e10bda40962be335b17f6729936"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_SD1_V0.su",
+      "bytes": 844,
+      "sha256": "cdac0b809f6f1f0ebb0a3c07955c8954197b65b6711a2ff8dfff02b5382d7ed8"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_SD2_V0.su",
+      "bytes": 846,
+      "sha256": "9ce357ef1ce6c47852933f2dd8989e7940504063659622985a3f933c0d034806"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_SD3_V0.su",
+      "bytes": 846,
+      "sha256": "fa8db9778282f451838210eb4752b98f240337f8b8623b08cfc63c0ec79e0fd3"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_SD4_V0.su",
+      "bytes": 847,
+      "sha256": "0eb00386a52d70f78710ea6f5dc7ede00e6f71d6b7b68a1f9c7ba6bff723c6e1"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_SD5_V0.su",
+      "bytes": 847,
+      "sha256": "fc1cf6899105f5e3df2aee21edd02fa4e44b66605870d3fd55e37e6e11abc1fb"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_SD6_V0.su",
+      "bytes": 847,
+      "sha256": "164415dfc291b3bca57f5e8df86275b60f988c7c899d99be3387892ca0f1c3f1"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_V0.EMConvData",
+      "bytes": 2753,
+      "sha256": "a5a65ffd62286451e8a6310b511087928031d97811529609e8cc6bda250729f9"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_V0.profile",
+      "bytes": 12999,
+      "sha256": "64d856e1d3c4b11e747ebf31a7508dc19bca8ba5e08a21c2799411bfd3f577a5"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_M1_V0.sd",
+      "bytes": 3965,
+      "sha256": "c3589ab4af5d3de9e3497f53b076643a5c5fb2b194a3dc14934b9db99ab25ad7"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_M2_V0.sd",
+      "bytes": 3852,
+      "sha256": "8b45457bbae3dce488ad62a5435e9e0a9c9b966cf72ef3abd0047b3450945b6a"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_M3_V0.sd",
+      "bytes": 3855,
+      "sha256": "fea98d00574df96e6d576111a18ccf0bc39aeb27c0c29f1d99105a51d51b699e"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_M4_V0.sd",
+      "bytes": 3861,
+      "sha256": "30a194d2e66214565b82c367a80d6f23f037a629d471ec4b1cc6d9df04b70150"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_M5_V0.sd",
+      "bytes": 3863,
+      "sha256": "1ea74d7a00c6c9bf5a216ae8a81e5a33debe5e11d6cdf8b492f22fe409548fa0"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_M6_V0.sd",
+      "bytes": 3856,
+      "sha256": "7ab8e5c8821a51869cf07dc729979980e3c9a2b12b7610366d3d5ce66825f993"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL80_V0.ExprCache",
+      "bytes": 1793,
+      "sha256": "66d8faf7f24002a6892b4e81ce613ed48d4c4a3e2f9ffefddce6e7804bfc3d69"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL81_M0_V0.sd",
+      "bytes": 3857,
+      "sha256": "40a19cc067b67d067a91c3beb516c26f0e1205565eae98ad74c1ef1ee5611cf0"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_SOL81_V0.ExprCache",
+      "bytes": 1793,
+      "sha256": "66d8faf7f24002a6892b4e81ce613ed48d4c4a3e2f9ffefddce6e7804bfc3d69"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/nominalmesh.g3derr",
+      "bytes": 764628,
+      "sha256": "c67df65897465d610cb4346f6798519706a56873439f558b39c64a34181517be"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_MI0_V77.sd/initial.stats",
+      "bytes": 19354,
+      "sha256": "23acca5d9bfacc67a13d20be10fe3bf16a19e0d15ccd3e38e82e75093206a00f"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_ADP6_V0.sd/native.adp",
+      "bytes": 44990829,
+      "sha256": "90c06fce95b1c14f34979746dce349c0ae5b0e56c8717e101b3670c181f73c63"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_MI0_V0.sd/current.stats",
+      "bytes": 19354,
+      "sha256": "88c1222da18484fcb8c9d8a7403fd05a66ab1968b4e694004517f3bc998935f2"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_V0.cmesh/bodyFaceInfo.info",
+      "bytes": 1715399,
+      "sha256": "5f6a7586a1c6e6e0f741223cb06eb9c2bf5698ee46e420e287b63c69a2fdc034"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_V0.cmesh/current.ngmesh",
+      "bytes": 23835139,
+      "sha256": "8b96e39e20826b28871e399294c6f611716dcaf003dfc011ad1ee322469cf842"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_V0.cmesh/current.stats",
+      "bytes": 19354,
+      "sha256": "88c1222da18484fcb8c9d8a7403fd05a66ab1968b4e694004517f3bc998935f2"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/1.nvc",
+      "bytes": 322,
+      "sha256": "31d057fffcac5e66f6f4969680e7e15c78386337e7166cb3895f1a99d0698b12"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/1_1.tvc",
+      "bytes": 15456,
+      "sha256": "a27b4030180e878968cfe0abde3091e9ca0907774a55bd3848cdb92e8c73d515"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/1_1.tvm",
+      "bytes": 6310,
+      "sha256": "730024364709725648ca81b88425d8b9256e3b7ae24de1c7e33c226441530511"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/1_1.tvz",
+      "bytes": 15442,
+      "sha256": "9c4c6d0efde7bbb8766d59aadfae00cf25df9f42f589c9879b7481ec401cc6c6"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/2.nvc",
+      "bytes": 322,
+      "sha256": "2757a7c52580bae524d304f9114bc74c4268a4ba69086bd09eb445d97820af33"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/2_1.tvc",
+      "bytes": 15454,
+      "sha256": "6905fe3ae94220db99f2d618c223c1def7dd19f632a094766d738bcb9b773de6"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/2_1.tvm",
+      "bytes": 5710,
+      "sha256": "b68473027ce7bf871727ab4bad51e2571a3b26d645fa0cc671f376b6b37bdeff"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/2_1.tvz",
+      "bytes": 15444,
+      "sha256": "b67835b501cced83eb0406c78b789a40eead6623caaecf06686251fe4dffb9a5"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/current.sf_msh",
+      "bytes": 35420,
+      "sha256": "5c62165f26215d3405f5ff9935efadc45ac6003322c180edf6158d9c47dd1096"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/current.sf_mshhdr",
+      "bytes": 184,
+      "sha256": "bc4fef6caae7b4383f3b6016667dbf20b776f3a32c716247f333c3c9cb4234c1"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.evtrs",
+      "bytes": 237,
+      "sha256": "f260020be22adddfa5264d690da11a6ddf8254e99251978dd60bf25398210fb6"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.imp",
+      "bytes": 732289,
+      "sha256": "f5250245a19b3bddee1d7558bd82eff6d0c4f68f55b61ba9ba4f8308201e0f2e"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.sf_fld_0",
+      "bytes": 249240,
+      "sha256": "34377875c47108904df927544afa95df6b606a8e3e31e4b308f82d3cb1828029"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.sf_fld_1",
+      "bytes": 249240,
+      "sha256": "4a35f239784483b871290bfaad9ad83d2bbd60eda12bae6e8e4065ab322d7e1c"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/hf3d_solver_freq.input",
+      "bytes": 8044526,
+      "sha256": "ee105e86fd5b557870a9aa0647ad0713e6b66eba343914a9a3de51d693855c58"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/matrixReordering_1x1_CotreeOff_Full.dat",
+      "bytes": 11169904,
+      "sha256": "54c5d4582107e6d601faecacc0094de03f788e9fdd3a94c07ee11dc94b312388"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/mf_apip_5170000000_000000_222228.mfsapip",
+      "bytes": 1463,
+      "sha256": "f9715effc87f7d4e20f04433dc71f08c1457ebb482bade8de553f658c6ea2877"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/mf_apip_5170000000_000000_222764.mfsapip",
+      "bytes": 1471,
+      "sha256": "dccc67b125840ee04d06b91d60c4eaa7ff0e062aba364ecb955f3f390b145a71"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/mf_apip_5170000000_000000_225000.mfsapip",
+      "bytes": 1470,
+      "sha256": "be2ee6fcca13c04abdf0b04c9d0f84d54c1e307c0033f6995900f4107fb111b8"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/mf_apip_5170000000_000000_225968.mfsapip",
+      "bytes": 1471,
+      "sha256": "1d4d99ad9413b068dc700476f407c98c09ec535b45c6945cc0d4d3502dda8aca"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/mf_apip_5170000000_000000_226820.mfsapip",
+      "bytes": 1465,
+      "sha256": "7c5fb45470ce3d0e5d401065b05dabebe9c0b06abd16fe0e5c6bfde93a3e2036"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/mf_apip_5170000000_000000_228672.mfsapip",
+      "bytes": 1466,
+      "sha256": "9a0c398ac63b3dc345c1587de4d0e4868176ce8d60a28cb5304af28de6853a39"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_V77.imesh/bodyFaceInfo.info",
+      "bytes": 1715399,
+      "sha256": "5f6a7586a1c6e6e0f741223cb06eb9c2bf5698ee46e420e287b63c69a2fdc034"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_V77.imesh/initial.ngmesh",
+      "bytes": 9725099,
+      "sha256": "a04ae190e66627701e034d500c8e93e786763b1ae99fa5da6aee3ce464bd61c1"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_V77.imesh/initial.stats",
+      "bytes": 19354,
+      "sha256": "23acca5d9bfacc67a13d20be10fe3bf16a19e0d15ccd3e38e82e75093206a00f"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/NDV180_V0.dmesh/defn_native_vmesh.ngmesh",
+      "bytes": 9725099,
+      "sha256": "a04ae190e66627701e034d500c8e93e786763b1ae99fa5da6aee3ce464bd61c1"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/NDV180_V0.dmesh/defn_native_vmesh.stats",
+      "bytes": 19354,
+      "sha256": "23acca5d9bfacc67a13d20be10fe3bf16a19e0d15ccd3e38e82e75093206a00f"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/GeometryCache/CacheDataVersion.tmp",
+      "bytes": 111,
+      "sha256": "a09d9baf310b347c029699ff5d21538c0d90e26e0a1febab17cded0937d8d7ee"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/GeometryCache/InterrogationCache.tmp",
+      "bytes": 41744,
+      "sha256": "2d8544372663736296afc425b27816efb4fcc9fe1e909caced382cdd35da191c"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/GeometryCache/OperationDataCache.tmp",
+      "bytes": 12,
+      "sha256": "09f4493a7016a764f6190b5e84a16d72f8d5f85c3119f6b4d79f2785b628881c"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/radfld/36E3229608179445905925.tmp",
+      "bytes": 172529,
+      "sha256": "d78443055a9b648e0af525119d235ffbccda16d4e6b0a447dcd77e6d06681b97"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/radfld/36E6229608179445906026.tmp",
+      "bytes": 157282,
+      "sha256": "7a7da2b3e388cabcb4898fe849e9506ad8c45a33d0f19cc4ce6b01433dc09302"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/radfld/RAD2CE919316417944582777.tmp",
+      "bytes": 707,
+      "sha256": "2ff3e909fec8445293bde1e538f9a6030fa98e00707e428de969cf1fb665889a"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/svcache/HDR2CE919316417944582778.tmp",
+      "bytes": 2997,
+      "sha256": "251575a11ed5b8970d3c175ae9ebb551a5e884903769516ef448e38a11be651c"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/svcache/min36F0229608179445906329.tmp",
+      "bytes": 158206,
+      "sha256": "8c3341553954dd24c6868b4adb03e5ca76030e5232960f5f0a219efb5645d879"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/svcache/min36F0229608179445906330.tmp",
+      "bytes": 241606,
+      "sha256": "d84a6fbbd684bf29f7b286c699d838c4ce79ffbfb5becf2841b3ec78b544dada"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/ValidationCache/HDR2D3819316417944583019.tmp",
+      "bytes": 177,
+      "sha256": "26973c3bd86db004381e356abc80f29d1506ad98a0aa4e8c843fe107da1603ee"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/ValidationCache/VI2D38193164179445830110.tmp",
+      "bytes": 343,
+      "sha256": "22bfdd22968ea4b6cc791b59d9e4aa7966cebd81cb29df110ec4a3a99f973c78"
+    },
+    {
+      "arquivo": "P2S13_Curvilinear.aedtresults/mf_0/GeometryCache/BodyCache/0034848.x_b",
+      "bytes": 19083,
+      "sha256": "af5d35c7bc717ffea8aac590023b0320bbaf6cc4e44253e18015e2a5aed86a46"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "hora": "2026-11-12T07:34:26.317703-03:00",
+  "metodo": "Ctrl+S na janela propria; titulo sem asterisco confirmado por captura nativa CUA e processo",
+  "pid": 238412,
+  "sha256_antes": "fd9ad7fc480d0462ab119f3200f9f65dc8e479573f08bf97cb81787da0e13e85",
+  "sha256_depois": "9fb20a051c3e09d3f4cb51f3e7e58cee7ea4c5f36afe0feaf09ada416ad13fac",
+  "entradas_zip_alteradas": [
+    "Document.xml"
+  ],
+  "shapes_brep_inalterados": true,
+  "janela_deixada_aberta": true,
+  "nenhuma_regeometria_ou_render": true,
+  "unica_propriedade_alterada": "LastModifiedDate em Document.xml; demais XML e todos BREP identicos"
+}

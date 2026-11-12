@@ -1,0 +1,9 @@
+﻿Item,Quantidade,Unidade,Descricao,Dimensoes,Material,Estado
+PCB-RAD,3,un,Placa simetrica de 2 elementos; mesma M00,"88 x 50 mm; core0,76mm",RO4350B / Cu35um / ENIG nominal,Geometria RF preservada
+PCB-DIV,1,un,Divisor duplo1:3 C08,"220 x 64 mm; core1,52mm",ZYF300CA-C / Cu35um / ENIG nominal,Geometria RF preservada
+COAX,6,un,Ramais coaxiais soldados iguais,"50mm; vivoR0,45975; PTFE R1,515mm",Cobre/PTFE,Geometria RF nominal; cabo comercial a confirmar
+REFLETOR,1,un,Refletor dobrado,"296mm; desenvolvido90mm; t2; ri2; inicio28,5;150graus",Al5052 nominal,Sem suportes/fixadores caracterizados
+RADOME,1,un,Caixa fechada RF,314 x 84 x 84 mm; parede2mm,FR4 Isola370HR nominal sem cobre,Referencia RF; juntas/fixacao/vedacao pendentes
+SOLDA,1,conjunto,Terminais soldados e PTH,Conforme modelo de cada PCB,SAC305 e cobre,Sem massa de processo definida
+N-EXT,2,un,Conectores N externos; referencia3D Amphenol082-6784,Posicao e transicao pendentes,Conforme fabricante,Referencia nao integrada ao RF ou montagem
+FIXACAO,1,conjunto,Apoios/fixadores e fixacao do radome,Dimensionamento pendente,A definir,Nao modelado; nao fabricar como conjunto acabado

@@ -1,0 +1,40 @@
+{
+  "IncidentPower": {
+    "units": "",
+    "real": [
+      1.0000000000000002
+    ]
+  },
+  "AcceptedPower": {
+    "units": "",
+    "real": [
+      0.9597323071781798
+    ]
+  },
+  "RadiatedPower": {
+    "units": "",
+    "real": [
+      0.7943771109723661
+    ]
+  },
+  "SystemEfficiency": {
+    "units": "",
+    "real": [
+      0.7943771109723661
+    ]
+  },
+  "RadiationEfficiency": {
+    "units": "",
+    "real": [
+      0.8277069606086371
+    ]
+  },
+  "balanco_S": {
+    "incidente_W": 1,
+    "refletida_W": 0.04026769282182033,
+    "aceita_W": 0.9597323071781797,
+    "radiada_W": 0.7943771109723661,
+    "dissipada_W": 0.16535519620581374,
+    "aprovado": true
+  }
+}

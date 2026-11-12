@@ -1,0 +1,53 @@
+import FreeCAD as A, FreeCADGui as G, json, math, traceback, os
+from pathlib import Path
+from PySide import QtCore
+ROOT=Path('D:/dev/EMBRAER/emb_ant/projetos/P2S13/mecanica_R12')
+
+def run():
+ try:
+  before=[dict(name=d.Name,file=d.FileName) for d in A.listDocuments().values()]
+  path=str(ROOT/'Antena_R12_PRELIMINAR.FCStd')
+  matches=[d for d in A.listDocuments().values() if d.FileName.replace('\\','/')==path]
+  d=matches[0] if matches else A.openDocument(path);A.setActiveDocument(d.Name)
+  colors={'RO4350B_R01':(.13,.48,.39),'ZYF300':(.19,.50,.59),'folha_cu':(.86,.66,.19),
+    'copper':(.73,.44,.22),'PTFE_terminal':(.89,.90,.86),'SAC305':(.65,.68,.72),
+    'AL5052':(.72,.76,.80),'Isola_370HR_nominal':(.82,.87,.90)}
+  physical=[o for o in d.Objects if o.isDerivedFrom('Part::Feature')]
+  assert len(physical)==123
+  for o in physical:
+   o.ViewObject.ShapeColor=colors.get(o.Material_nominal,(.7,.7,.7))
+   o.ViewObject.LineColor=(.16,.18,.20);o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.LineWidth=.6
+  def visible(pred):
+   for o in physical:o.ViewObject.Visibility=pred(o.Name)
+   G.updateGui()
+  def shot(name,target,right,up,back,height,w=1500,h=1200):
+   if w<h:height*=float(w)/h
+   m=A.Matrix();m.A11,m.A21,m.A31=right;m.A12,m.A22,m.A32=up;m.A13,m.A23,m.A33=back
+   rot=A.Rotation(m);axis=rot.Axis;ang=rot.Angle;pos=A.Vector(*target)+rot.multVec(A.Vector(0,0,1000))
+   view=G.activeDocument().activeView()
+   view.setCamera('#Inventor V2.1 ascii\nOrthographicCamera { viewportMapping ADJUST_CAMERA position %g %g %g orientation %g %g %g %g nearDistance 1 farDistance 3000 aspectRatio %g focalDistance 1000 height %g }'%(pos.x,pos.y,pos.z,axis.x,axis.y,axis.z,ang,w/h,height))
+   G.updateGui();view.saveImage(str(ROOT/'imagens'/(name+'.png')),w,h,'White')
+  # X vertical no produto, +Z frontal. Rotacao de vista, nao de geometria.
+  r=A.Rotation(A.Vector(1,0,0),-25).multiply(A.Rotation(A.Vector(0,1,0),15))
+  right=r.multVec(A.Vector(0,-1,0));up=r.multVec(A.Vector(1,0,0));back=r.multVec(A.Vector(0,0,1))
+  args=((0,0,-5),tuple(right),tuple(up),tuple(back),370)
+  visible(lambda n:True);d.getObject('Radome_FR4_2mm').ViewObject.Transparency=82
+  shot('01_montagem_radome',*args,1000,1800)
+  visible(lambda n:n!='Radome_FR4_2mm');shot('02_montagem_sem_radome',*args,1000,1800)
+  shot('03_frontal',(0,0,0),(0,-1,0),(1,0,0),(0,0,1),320,800,1800)
+  shot('04_traseira_divisor',(0,0,-25),(0,1,0),(1,0,0),(0,0,-1),320,800,1800)
+  shot('08_lateral_chicote',(0,0,-10),(0,.5,.8660254038),(1,0,0),(0,.8660254038,-.5),360,1100,1800)
+  visible(lambda n:n.startswith('D_') or any('_'+v+'_' in n for v in ['Vivo','Blindagem','PTFE']))
+  shot('05_divisor_e_chicote',(0,0,-25),(1,0,0),(0,-.8,.6),(0,-.6,-.8),95,2000,800)
+  visible(lambda n:n.startswith('R2_') and not any('_'+v+'_' in n for v in ['Vivo','Blindagem','PTFE']))
+  shot('06_placa_2_elementos',(0,0,15),(1,0,0),(0,1,0),(0,0,1),60,1800,1100)
+  visible(lambda n:True);d.getObject('Radome_FR4_2mm').ViewObject.Transparency=82
+  shot('07_vista_final_gui',*args,1000,1800)
+  G.activeDocument().activeView().fitAll();d.recompute();d.save()
+  G.getMainWindow().showMaximized();G.getMainWindow().raise_();G.updateGui()
+  (ROOT/'gui_aberta.json').write_text(json.dumps(dict(estado='ABERTO_DEIXADO_PARA_USUARIO',pid=os.getpid(),documento=d.Name,
+    arquivo=d.FileName,documentos_anteriores=before,documentos_abertos=list(A.listDocuments()),radome_transparencia=82,
+    objetos_RF=123,imagens=sorted(p.name for p in (ROOT/'imagens').glob('*.png'))),indent=2),encoding='utf-8')
+ except:
+  (ROOT/'erro_gui.txt').write_text(traceback.format_exc(),encoding='utf-8')
+QtCore.QTimer.singleShot(1000,run)

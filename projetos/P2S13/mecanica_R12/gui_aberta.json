@@ -1,0 +1,27 @@
+{
+  "estado": "ABERTO_DEIXADO_PARA_USUARIO",
+  "pid": 238412,
+  "documento": "Antena_R12_PRELIMINAR",
+  "arquivo": "D:/dev/EMBRAER/emb_ant/projetos/P2S13/mecanica_R12/Antena_R12_PRELIMINAR.FCStd",
+  "documentos_anteriores": [
+    {
+      "name": "Antena_R12_PRELIMINAR",
+      "file": "D:/dev/EMBRAER/emb_ant/projetos/P2S13/mecanica_R12/Antena_R12_PRELIMINAR.FCStd"
+    }
+  ],
+  "documentos_abertos": [
+    "Antena_R12_PRELIMINAR"
+  ],
+  "radome_transparencia": 82,
+  "objetos_RF": 123,
+  "imagens": [
+    "01_montagem_radome.png",
+    "02_montagem_sem_radome.png",
+    "03_frontal.png",
+    "04_traseira_divisor.png",
+    "05_divisor_e_chicote.png",
+    "06_placa_2_elementos.png",
+    "07_vista_final_gui.png",
+    "08_lateral_chicote.png"
+  ]
+}

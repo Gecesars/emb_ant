@@ -1,0 +1,19 @@
+{
+  "aprovado": true,
+  "geometria_blocos": 134,
+  "geometria_materiais_fronteiras_malha_inalterados": true,
+  "alteracoes_setup": [
+    "MaximumPasses6->8",
+    "MinimumPasses2->8"
+  ],
+  "native_sha256": "08174ef3f216b2a3056b6dca6bb6ab9c2d256724617e0bdfab2389cc66545eb4",
+  "cache_malha_campos_preservados": [
+    "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_ADP6_V0.sd/native.adp",
+    "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S79_V0.cmesh/current.ngmesh",
+    "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.evtrs",
+    "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.imp",
+    "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.sf_fld_0",
+    "P2S13_Curvilinear.aedtresults/Conjunto_Curvilinear.results/DV82_S81_V0_F185/fields.sf_fld_1"
+  ],
+  "historico6_preservado": true
+}

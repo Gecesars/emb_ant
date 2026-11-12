@@ -1,0 +1,117 @@
+{
+  "aprovado_geometria_CAD": true,
+  "comparacoes": [
+    {
+      "camada": "F",
+      "rede": "SIG_B",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 6.050571021465147e-06
+    },
+    {
+      "camada": "F",
+      "rede": "SIG_A",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 2.7812256319439683e-06
+    },
+    {
+      "camada": "B",
+      "rede": "SIG_B",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 8.999035177563944e-06
+    },
+    {
+      "camada": "B",
+      "rede": "E2_Q3",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 9.614965242716012e-06
+    },
+    {
+      "camada": "B",
+      "rede": "E1_Q3",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 3.632835872340681e-13
+    },
+    {
+      "camada": "B",
+      "rede": "E2_Q2",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 1.6856978196644336e-13
+    },
+    {
+      "camada": "B",
+      "rede": "E1_Q2",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 2.622381828821392e-13
+    },
+    {
+      "camada": "B",
+      "rede": "SIG_A",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 5.326609857314735e-06
+    },
+    {
+      "camada": "B",
+      "rede": "RET_A",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 1.4168729168600344e-05
+    },
+    {
+      "camada": "B",
+      "rede": "RET_B",
+      "desvio_limite_mm": 5e-06,
+      "diferenca_area_mm2": 1.6426337692035536e-06
+    }
+  ],
+  "barrels": [
+    {
+      "objeto": "Via_0",
+      "diametro_acabado_mm": 0.4,
+      "diametro_externo_mm": 0.47,
+      "metalizacao_mm": 0.034999999999999976,
+      "altura_mm": 0.7599999999999998
+    },
+    {
+      "objeto": "Via_1",
+      "diametro_acabado_mm": 0.4,
+      "diametro_externo_mm": 0.47,
+      "metalizacao_mm": 0.034999999999999976,
+      "altura_mm": 0.7599999999999998
+    },
+    {
+      "objeto": "Via_2",
+      "diametro_acabado_mm": 0.4,
+      "diametro_externo_mm": 0.47,
+      "metalizacao_mm": 0.034999999999999976,
+      "altura_mm": 0.7599999999999998
+    },
+    {
+      "objeto": "Via_3",
+      "diametro_acabado_mm": 0.4,
+      "diametro_externo_mm": 0.47,
+      "metalizacao_mm": 0.034999999999999976,
+      "altura_mm": 0.7599999999999998
+    },
+    {
+      "objeto": "PTH_A",
+      "diametro_acabado_mm": 1.1,
+      "diametro_externo_mm": 1.17,
+      "metalizacao_mm": 0.03499999999999992,
+      "altura_mm": 0.7599999999999998
+    },
+    {
+      "objeto": "PTH_B",
+      "diametro_acabado_mm": 1.1,
+      "diametro_externo_mm": 1.17,
+      "metalizacao_mm": 0.03499999999999992,
+      "altura_mm": 0.7599999999999998
+    }
+  ],
+  "fonte_fcstd_sha256": "f6624364c91b0df51b614343a206248c77b8f4362394dc1fbe969146cf2330e2",
+  "metalizacao_PTH_M00_mm": 0.035,
+  "nota": "35 um sao o valor fisico usado no CAD/HFSS M00, distintos dos 18 um do C08. O pacote nao autoriza substituicao silenciosa de processo.",
+  "arte_C08_inalterada": true,
+  "arquivos_C08_conferidos": 18,
+  "DRC_C08_erros": 0,
+  "DRC_C08_desconectados": 0,
+  "DRC_C08_avisos": 113
+}

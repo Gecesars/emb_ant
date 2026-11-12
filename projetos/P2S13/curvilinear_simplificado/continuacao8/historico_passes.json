@@ -1,0 +1,42 @@
+[
+  {
+    "passe": 1,
+    "tetraedros": 129907,
+    "delta_s": null
+  },
+  {
+    "passe": 2,
+    "tetraedros": 162160,
+    "delta_s": 0.3824693278508818
+  },
+  {
+    "passe": 3,
+    "tetraedros": 203775,
+    "delta_s": 0.19961043046604968
+  },
+  {
+    "passe": 4,
+    "tetraedros": 256162,
+    "delta_s": 0.1280247132011155
+  },
+  {
+    "passe": 5,
+    "tetraedros": 322653,
+    "delta_s": 0.10883777716735131
+  },
+  {
+    "passe": 6,
+    "tetraedros": 409007,
+    "delta_s": 0.0783068124520335
+  },
+  {
+    "passe": 7,
+    "tetraedros": 521280,
+    "delta_s": 0.041877508159539355
+  },
+  {
+    "passe": 8,
+    "tetraedros": 665409,
+    "delta_s": 0.03429124604644034
+  }
+]

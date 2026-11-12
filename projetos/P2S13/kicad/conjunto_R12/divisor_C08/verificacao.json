@@ -1,0 +1,113 @@
+{
+  "geometria_KiCad_CAM_aprovada": true,
+  "DRC_erros": 0,
+  "DRC_desconectados": 0,
+  "DRC_avisos": 113,
+  "avisos": "Mascara totalmente aberta por projeto; sem exclusoes DRC",
+  "PTH": 8,
+  "NPTH": 0,
+  "furo_mm": 1.1,
+  "ilha_mm": 1.8,
+  "anel_mm": 0.35,
+  "recuo_terra_mm": 0.3,
+  "comparacoes_KiCad": [
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_A",
+      "diferenca_area_mm2": 0.00025305640777216357,
+      "limite_desvio_borda_mm": 5e-06,
+      "area_mm2": 879.1620403638748
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "SIG_A",
+      "diferenca_area_mm2": 9.58252805376341e-06,
+      "limite_desvio_borda_mm": 5e-06,
+      "area_mm2": 6.377432461507311
+    },
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_B",
+      "diferenca_area_mm2": 0.0002555100983778466,
+      "limite_desvio_borda_mm": 5e-06,
+      "area_mm2": 879.1620473425752
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "SIG_B",
+      "diferenca_area_mm2": 9.58252805484552e-06,
+      "limite_desvio_borda_mm": 5e-06,
+      "area_mm2": 6.37743246150731
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "GND",
+      "diferenca_area_mm2": 0.00015269738493070402,
+      "limite_desvio_borda_mm": 5e-06,
+      "area_mm2": 13852.274857886912
+    }
+  ],
+  "comparacoes_CAD": [
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_A",
+      "diferenca_area_mm2": 0.000262431298702108,
+      "area_CAD_exata_mm2": 879.1620737918583,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "SIG_A",
+      "diferenca_area_mm2": 2.1884062640036068e-05,
+      "area_CAD_exata_mm2": 6.377433086787299,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "F.Cu",
+      "rede": "SIG_B",
+      "diferenca_area_mm2": 0.0002648848132369486,
+      "area_CAD_exata_mm2": 879.1620737918588,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "SIG_B",
+      "diferenca_area_mm2": 2.1884062641140013e-05,
+      "area_CAD_exata_mm2": 6.377433086787299,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "rede": "GND",
+      "diferenca_area_mm2": 0.00012605225879317404,
+      "area_CAD_exata_mm2": 13852.274704013318,
+      "limite_desvio_borda_mm": 5e-06
+    }
+  ],
+  "comparacoes_CAM": [
+    {
+      "camada": "F.Cu",
+      "diferenca_area_mm2": 0.0005085665058477114,
+      "limite_desvio_borda_mm": 5e-06
+    },
+    {
+      "camada": "B.Cu",
+      "diferenca_area_mm2": 0.0001718624394385875,
+      "limite_desvio_borda_mm": 5e-06
+    }
+  ],
+  "max_erro_XY_furacao_mm": 4.130400270696555e-07,
+  "hashes_CAM": {
+    "divisor_duplo_1x3_C08-B_Cu.gbl": "dd2814ed3dc339b5805f5b75ba4225786d55e45f1552112da7228d219fae328a",
+    "divisor_duplo_1x3_C08-B_Mask.gbs": "6dbe9bd3efb91a319480a95d0a8c0cec0978c8a8af813b9c9c5f58002b0d58d6",
+    "divisor_duplo_1x3_C08-Edge_Cuts.gm1": "a97fc9c997f24edc6209945fb94bbf8aa3de14b6deb9b399d942d05dc4064d28",
+    "divisor_duplo_1x3_C08-F_Cu.gtl": "e3258ce04450e64d5965df7fc2415acec1e6782ba3d5e6dd1a27cbc874a5a7e0",
+    "divisor_duplo_1x3_C08-F_Mask.gts": "c7929514ec1cf3f8f4ed14f3ac4e82590d4918249004d5d7ffcef24a92062815",
+    "divisor_duplo_1x3_C08-job.gbrjob": "b3d9014b0b997da896549f1e6dc81565b2b76d325e62e147b2429ace8a11c8ca",
+    "divisor_duplo_1x3_C08-NPTH.drl": "36a3c45941d9a4243ddccfca1926eaf9165618c55fbc07e6763b9b81bb80d861",
+    "divisor_duplo_1x3_C08-PTH.drl": "a071bbb0ef1f16cd7d0c3632d257161265f2fe1f9bdd4bd7fb5150ff0c719444"
+  },
+  "validacao_RF_separada": true,
+  "fonte_config_sha256": "73afdff71bc0082e98b977b5ecb72933bb3f3195f3cb0fc5f79f8ad549d5e64c",
+  "fonte_parser_sha256": "a679749fbf5f7f521229ba5e6b17df5c34d162512aef935a5d47141dbfe9c8b1"
+}
