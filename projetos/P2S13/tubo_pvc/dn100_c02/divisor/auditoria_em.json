@@ -1,0 +1,252 @@
+{
+  "passes": 6,
+  "delta_s": 0.017252188346412723,
+  "consecutivos": 2,
+  "convergiu": true,
+  "historico": [
+    {
+      "passe": 1,
+      "tetraedros": 20625,
+      "delta_s": null
+    },
+    {
+      "passe": 2,
+      "tetraedros": 29604,
+      "delta_s": 0.2690809415331731
+    },
+    {
+      "passe": 3,
+      "tetraedros": 43482,
+      "delta_s": 0.09822561262299223
+    },
+    {
+      "passe": 4,
+      "tetraedros": 58091,
+      "delta_s": 0.06079278086481546
+    },
+    {
+      "passe": 5,
+      "tetraedros": 73597,
+      "delta_s": 0.03699068478262497
+    },
+    {
+      "passe": 6,
+      "tetraedros": 106237,
+      "delta_s": 0.017252188346412723
+    }
+  ],
+  "nucleos": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14
+  ],
+  "passividade_sigma_max": 0.9917904412428451,
+  "reciprocidade_erro": 1.0408340855860843e-16,
+  "malha": {
+    "fonte": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\Divisor_Duplo3.aedtresults\\Duplo1x3_Planar.results\\nominalmesh.g3derr",
+    "bytes": 187847,
+    "escopo_execucao": null,
+    "blocos_historicos_excluidos": 0,
+    "corpos_major_historicos_ids": [],
+    "origem_timestamps": [
+      1794491553,
+      1794491567,
+      1794491586,
+      1794491613,
+      1794491650,
+      1794491694,
+      1794491749
+    ],
+    "reparos_major": 0,
+    "reparos_minor": 0,
+    "corpos_major_ids": [],
+    "corpos_minor_ids": [],
+    "ocorrencias_major": 0,
+    "ocorrencias_minor": 0,
+    "avisos": [
+      {
+        "cabecalho": [
+          "26 Low quality, low aspect ratio, low altitude elements.",
+          "Low quality, low aspect ratio, low altitude elements.",
+          "INFO: Found 0 inverted tets, 0 low aspect ratio tets and 1 low altitude tets in body 206 Solda_R2_B",
+          "1 -1  # nfids, fids[]",
+          "1 206  # nbids, bids[]"
+        ],
+        "ocorrencias": 7
+      },
+      {
+        "cabecalho": [
+          "26 Low quality, low aspect ratio, low altitude elements.",
+          "Low quality, low aspect ratio, low altitude elements.",
+          "INFO: Found 0 inverted tets, 0 low aspect ratio tets and 1 low altitude tets in body 286 Solda_R1_A",
+          "1 -1  # nfids, fids[]",
+          "1 286  # nbids, bids[]"
+        ],
+        "ocorrencias": 7
+      },
+      {
+        "cabecalho": [
+          "26 Low quality, low aspect ratio, low altitude elements.",
+          "Low quality, low aspect ratio, low altitude elements.",
+          "INFO: Found 0 inverted tets, 0 low aspect ratio tets and 1 low altitude tets in body 302 Solda_IN_A",
+          "1 -1  # nfids, fids[]",
+          "1 302  # nbids, bids[]"
+        ],
+        "ocorrencias": 7
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : RadiatingSurface",
+          "Small mesh segment detected on body : RadiatingSurface",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017329mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "2 -1  937  # nfids, fids[]",
+          "2 1414  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 3
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Sinal_A",
+          "Small mesh segment detected on body : Sinal_A",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017500mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "2 -1  923  # nfids, fids[]",
+          "2 914  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 1
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : RadiatingSurface",
+          "Small mesh segment detected on body : RadiatingSurface",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017500mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "2 -1  737  # nfids, fids[]",
+          "2 1414  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 7
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : RadiatingSurface",
+          "Small mesh segment detected on body : RadiatingSurface",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017500mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "2 -1  923  # nfids, fids[]",
+          "2 1414  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 3
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Terra",
+          "Small mesh segment detected on body : Terra",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017500mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "1 -1  # nfids, fids[]",
+          "1 1098  # nbids, bids[]"
+        ],
+        "ocorrencias": 4
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Ilha_inferior_R1_A",
+          "Small mesh segment detected on body : Ilha_inferior_R1_A",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.017549mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "1 -1  # nfids, fids[]",
+          "1 1270  # nbids, bids[]"
+        ],
+        "ocorrencias": 3
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Ilha_inferior_R1_A",
+          "Small mesh segment detected on body : Ilha_inferior_R1_A",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  665  1272  # nfids, fids[]",
+          "2 1270  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 5
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Sinal_A",
+          "Small mesh segment detected on body : Sinal_A",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  664  938  # nfids, fids[]",
+          "2 914  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 5
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Ilha_inferior_R1_B",
+          "Small mesh segment detected on body : Ilha_inferior_R1_B",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  497  1208  # nfids, fids[]",
+          "2 1206  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 3
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Sinal_B",
+          "Small mesh segment detected on body : Sinal_B",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  496  754  # nfids, fids[]",
+          "2 730  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 3
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Ilha_inferior_R3_B",
+          "Small mesh segment detected on body : Ilha_inferior_R3_B",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  413  1176  # nfids, fids[]",
+          "2 1174  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 3
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Sinal_B",
+          "Small mesh segment detected on body : Sinal_B",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  412  754  # nfids, fids[]",
+          "2 730  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 2
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Ilha_inferior_R3_A",
+          "Small mesh segment detected on body : Ilha_inferior_R3_A",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  581  1240  # nfids, fids[]",
+          "2 1238  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 2
+      },
+      {
+        "cabecalho": [
+          "26 Small mesh segment detected on body : Sinal_A",
+          "Small mesh segment detected on body : Sinal_A",
+          "Segment Statistics - Number of Segments : 1 --- Segment length(s) : 0.018000mm. The cutoff frequency for S-Matrix Only Solve is 771.299829738742kHz",
+          "3 -1  580  938  # nfids, fids[]",
+          "2 914  -1  # nbids, bids[]"
+        ],
+        "ocorrencias": 1
+      }
+    ],
+    "nota": "Corpos unicos no escopo. G3derr agrega execucoes; filtro usa o TimeStamp de cada bloco, preservando a contagem historica. Codigos dos cabecalhos nao sao contagens."
+  },
+  "avisos_solver": [],
+  "potencia": null,
+  "monitoramento_campos": null,
+  "fisicamente_consistente": true,
+  "fontes_sha256": {
+    "Divisor_Duplo3.aedt": "16c7eba782aaa3c6a9c753223d852fb4ab3d4b937f95774468e12b54c67daa38",
+    "divisor.s8p": "158a976cead525adccd80853de69e9b5a8e4fd1fbe275b5fc1b3e9bb1f6e07ae",
+    "configuracao.json": "ec6b3efd9252aa8dfa992b9947bb516bb4eef9e8c2eed6d9c89d6d293af5481f"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "revisao": "R16_C09_PVC_DN100",
+  "frequencia_GHz": 5.17,
+  "entradas_W": [
+    0.5,
+    0.5
+  ],
+  "fases_graus": [
+    0,
+    0
+  ],
+  "VSWR_ativo": [
+    1.4344922025003244,
+    1.4421625300942684
+  ],
+  "VSWR_outra_casada": [
+    1.3753009027394008,
+    1.393094671548477
+  ],
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 14.179800795962338,
+      "pico_graus": -0.75,
+      "ganho_pico_dBi": 14.18086400460602,
+      "abertura_graus": 78.96436272761048,
+      "cruzamentos_graus": [
+        -39.7907822738313,
+        39.17358045377918
+      ],
+      "SLL": {
+        "nivel_dB": null,
+        "limites_lobo_principal_graus": [
+          -124.0,
+          127.75
+        ],
+        "lobos": []
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 14.179800795962336,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 14.179800795962336,
+      "abertura_graus": 10.00576133485665,
+      "cruzamentos_graus": [
+        -4.986113570604257,
+        5.019647764252394
+      ],
+      "SLL": {
+        "nivel_dB": -7.059921697428048,
+        "limites_lobo_principal_graus": [
+          -11.5,
+          11.0
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -62.75,
+            "nivel_dB": -24.08396616866354
+          },
+          {
+            "angulo_graus": -32.25,
+            "nivel_dB": -13.046597824431526
+          },
+          {
+            "angulo_graus": -16.75,
+            "nivel_dB": -13.060151721673906
+          },
+          {
+            "angulo_graus": 16.25,
+            "nivel_dB": -11.321338448973034
+          },
+          {
+            "angulo_graus": 38.75,
+            "nivel_dB": -7.059921697428048
+          },
+          {
+            "angulo_graus": 62.0,
+            "nivel_dB": -16.903327596658585
+          }
+        ]
+      }
+    }
+  },
+  "pico_H_global": {
+    "angulo_graus": -0.75,
+    "ganho_dBi": 14.18086400460602
+  },
+  "queda_H_0_vs_pico_dB": 0.0010632086436821453,
+  "pico_V_fino_graus": 0.06914406008765207,
+  "assimetria_principal_V_dB": 0.07365618617884806,
+  "divisor_casado": {
+    "A": {
+      "VSWR": 1.6934598684407343,
+      "perda_excedente_dB": 0.4111497893850144,
+      "dispersao_amplitude_dB": 0.10745228106309312,
+      "dispersao_fase_graus": 0.9853745415236959,
+      "fase_relativa_graus": [
+        -0.0,
+        0.5032923865121247,
+        0.9853745415236959
+      ],
+      "maior_acoplamento_entre_saidas_dB": -8.20952398562246
+    },
+    "B": {
+      "VSWR": 1.691568423003627,
+      "perda_excedente_dB": 0.4126884268976219,
+      "dispersao_amplitude_dB": 0.09837745471702597,
+      "dispersao_fase_graus": 1.3783369684615183,
+      "fase_relativa_graus": [
+        -0.0,
+        0.8383231399466762,
+        1.3783369684615183
+      ],
+      "maior_acoplamento_entre_saidas_dB": -8.24617349115979
+    }
+  },
+  "ramais_carregados": [
+    {
+      "porta": "R1_A",
+      "potencia_incidente_W": 0.17453957658198513,
+      "fase_relativa_R2A_graus": 3.586363964921094
+    },
+    {
+      "porta": "R1_B",
+      "potencia_incidente_W": 0.18202076816867005,
+      "fase_relativa_R2A_graus": 2.0943172415122144
+    },
+    {
+      "porta": "R2_A",
+      "potencia_incidente_W": 0.1746381254956292,
+      "fase_relativa_R2A_graus": 0.0
+    },
+    {
+      "porta": "R2_B",
+      "potencia_incidente_W": 0.17669205608420907,
+      "fase_relativa_R2A_graus": -0.374601634549789
+    },
+    {
+      "porta": "R3_A",
+      "potencia_incidente_W": 0.1756003492289916,
+      "fase_relativa_R2A_graus": 3.0665056022927764
+    },
+    {
+      "porta": "R3_B",
+      "potencia_incidente_W": 0.185855664039461,
+      "fase_relativa_R2A_graus": 1.9194926066688627
+    }
+  ],
+  "isolamento_entradas_divisor_dB": 46.44695238683208,
+  "potencia": {
+    "incidente_W": 1,
+    "refletida_W": 0.03231660349109454,
+    "aceita_antena_W": 0.9095413099517704,
+    "perda_divisor_W": 0.022331941301487968,
+    "perda_cabos_W": 0.035810145255647075,
+    "balanco_aprovado": true
+  },
+  "cabo": {
+    "comprimento_mm": 133.82,
+    "perda_insercao_dB": 0.12307499347941966,
+    "fase_graus": -105.55315522722876,
+    "RLGC_por_m": {
+      "R_ohm": 8.464650411138784,
+      "L_H": 2.3849757089180785e-07,
+      "G_S": 0.0008543077974599864,
+      "C_F": 9.500138681891723e-11
+    },
+    "eps_r": 2.036363533774732,
+    "tand": 0.00027683054882040843,
+    "condutividade_S_m": 58000000.0
+  },
+  "convergencia": {
+    "antena": {
+      "passes": 6,
+      "delta_s": 0.04160073654795082,
+      "convergiu": false
+    },
+    "divisor": {
+      "passes": 5,
+      "delta_s": 0.019486412067514884,
+      "convergiu": true
+    }
+  },
+  "metas": {
+    "VSWR_ativo": false,
+    "ganho_frontal": true,
+    "H_frontal_ate_05dB": true,
+    "maximo_vertical": true,
+    "simetria_vertical": true
+  },
+  "metas_numericas_atendidas": false,
+  "nexxim_pendente": false,
+  "campos_monitorados": {
+    "ultimos_deltas_max_dB": [
+      0.4991732650095013,
+      0.35139508594159974
+    ],
+    "referencia_dB": 0.1,
+    "estabilidade_observada": false,
+    "criterio_somente_monitoramento": true
+  },
+  "erro_circuito_independente": 1.3668035872266426e-16,
+  "recomposicao_uniforme_erro": {
+    "H": 1.4212589332811784e-14,
+    "V": 1.3400626459333046e-14,
+    "V_fino": 1.6001083324287597e-14
+  },
+  "limites": "HFSS separado: acoplamento entre radiadores incluido no S6; nao inclui acoplamento espacial antena-divisor, radiacao dos cabos nem contribuicao direta do campo do divisor. Cabos somente RLGC no circuito; PVC nominal nos dois blocos; tubo aberto, sem tampas, bolsas ou conectores N. Propriedades PVC nao medidas no tubo comercial.",
+  "tubo": {
+    "DN": 100,
+    "De_mm": 101.6,
+    "espessura_mm": 1.8,
+    "Di_mm": 98.0,
+    "comprimento_mm": 350,
+    "eixo": "X",
+    "centro_y_mm": 0,
+    "centro_z_mm": -10.141,
+    "tampas": false,
+    "bolsa": false,
+    "material": "PVC_referencia_preliminar",
+    "er": 2.68,
+    "tand": 0.008,
+    "fonte_dimensoes": "https://www.tigre.com.br/produto/tubo-serie-normal-6m",
+    "codigo_6m": "11031030",
+    "ficha": "https://tigresite.s3.amazonaws.com/2023/07/FT_Esgoto-Serie-Normal_2023_final_compressed-1.pdf",
+    "fonte_referencia_dieletrica": "https://iemsl.engr.tamu.edu/services/material-characterization-services/material-characterization-examples/",
+    "ressalva_material": "Hipotese em 5.17GHz; referencia de filme PVC em 10.2-52.2GHz, NAO propriedade medida/certificada do tubo Tigre. Composto/lote podem diferir.",
+    "folga_conservadora_mm": 1.3855412806692229
+  },
+  "abertura_apenas_informativa": true,
+  "material_comercial_validado": false,
+  "erro_Nexxim": 5.790547498447946e-16,
+  "casamento_confirmado_HFSS_Nexxim": false,
+  "qualificado": false
+}

@@ -1,5 +1,9 @@
 # Painel setorial P1H · 5,09 a 5,25 GHz
 
+**P2S13 no tubo PVC — R16 concluída em 12/11 como estudo preliminar.** O ajuste `dn100_c02` atingiu **VSWR ativo 1,099 / 1,087** nas entradas do conjunto e **14,320 dBi** calculados em 5,17 GHz, com duas fontes iguais/em fase. Antena e divisor simulados separadamente; cabos somente no Nexxim, com perdas nominais. Tubo de catálogo **De 101,6 × parede 1,8 mm**, trecho aberto de 350 mm; propriedades dielétricas preliminares. Divisor convergiu em **6 passes / ΔS 0,017252**; antena encerrou em **6 / 0,041601**, sem os dois passes consecutivos exigidos e sem estabilidade completa de campos. Abertura agora informativa. **Não é qualificação do tubo comercial.** A sintonia melhora o conjunto carregado; isolado com saídas em 50 Ω, o divisor apresenta VSWR 2,154/2,153. [Pesquisa de tubos, explicação do VSWR, resultados e nativos](projetos/P2S13/tubo_pvc/README.md).
+
+**Histórico anterior, sem tubo PVC:**
+
 **P2S13 C09 ajustada — casamento do conjunto confirmado em 12/11.** Selecionada a c02: **VSWR ativo 1,184 / 1,226**, entradas de 0,5 W / 0° em 5,17 GHz; com a outra entrada casada, **1,142 / 1,207**. Seis ramais iguais de 19,323907 mm e PCB de 36 × 78 mm preservados, alterando apenas as duas seções dos transformadores. Divisor recalculado no HFSS: **5 passes, ΔS 0,020366, 14 núcleos**, sem radome, cabos 3D ou sweep. Nexxim efetivamente executado e conferido, erro S2 **6,15×10⁻¹⁶**. Com a antena S6 preservada, **14,146 dBi, H/V 86,241° / 10,068°, máximos 0° / +0,075°** permanecem preliminares pela estabilidade de campos da antena. O ajuste é para a carga da antena; o divisor isolado com saídas em 50 Ω tem VSWR 1,716/1,706. A abertura H≈100° e a qualificação completa continuam pendentes. [Relatório, dimensões, HFSS, Nexxim e FreeCAD](projetos/P2S13/casamento_c09/README.md). Montagem ajustada deixada aberta; nenhum novo Gerber liberado.
 
 **Histórico C09 antes do ajuste:**

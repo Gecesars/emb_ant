@@ -1,0 +1,30 @@
+{
+  "estado": "CONCLUIDO_PRELIMINAR_NAO_QUALIFICADO",
+  "selecionado": "dn100_c02",
+  "frequencia_GHz": 5.17,
+  "VSWR_ativo": [
+    1.0986765644768681,
+    1.0868971918038524
+  ],
+  "VSWR_outra_casada": [
+    1.0904317039290765,
+    1.1037779676754056
+  ],
+  "ganho_frontal_dBi": 14.319756916394116,
+  "convergencia": {
+    "antena": {
+      "passes": 6,
+      "delta_s": 0.04160073654795082,
+      "convergiu": false
+    },
+    "divisor": {
+      "passes": 6,
+      "delta_s": 0.017252188346412723,
+      "convergiu": true
+    }
+  },
+  "material_comercial_validado": false,
+  "campos_estaveis": false,
+  "novos_solves_pendentes": false,
+  "abertura_obrigatoria": false
+}

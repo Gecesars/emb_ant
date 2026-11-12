@@ -1,0 +1,48 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "sem_cabos_3D": true, 
+  "bbox_regiao_mm": [
+    -194.342359767892, 
+    -70.1423597678917, 
+    -95.2323597678917, 
+    194.342359767892, 
+    70.1423597678917, 
+    45.0523597678917
+  ], 
+  "tubo": {
+    "volume": 197524.496501805, 
+    "bbox": [
+      -175.0, 
+      -50.8, 
+      -75.89, 
+      175.0, 
+      50.8, 
+      25.71
+    ]
+  }, 
+  "volume_teorico_mm3": 197524.4965018045, 
+  "objetos_anteriores": 52, 
+  "material": {
+    "centro_z_mm": -10.141, 
+    "De_mm": 101.6, 
+    "fonte_dimensoes": "https://www.tigre.com.br/produto/tubo-serie-normal-6m", 
+    "Di_mm": 98.0, 
+    "ficha": "https://tigresite.s3.amazonaws.com/2023/07/FT_Esgoto-Serie-Normal_2023_final_compressed-1.pdf", 
+    "ressalva_material": "Hipotese em 5.17GHz; referencia de filme PVC em 10.2-52.2GHz, NAO propriedade medida/certificada do tubo Tigre. Composto/lote podem diferir.", 
+    "centro_y_mm": 0, 
+    "er": 2.68, 
+    "DN": 100, 
+    "eixo": "X", 
+    "tand": 0.0080000000000000002, 
+    "bolsa": false, 
+    "codigo_6m": "11031030", 
+    "folga_conservadora_mm": 1.3855412806692229, 
+    "espessura_mm": 1.8, 
+    "fonte_referencia_dieletrica": "https://iemsl.engr.tamu.edu/services/material-characterization-services/material-characterization-examples/", 
+    "comprimento_mm": 350, 
+    "material": "PVC_referencia_preliminar", 
+    "tampas": false
+  }, 
+  "objetos_preservados": true
+}

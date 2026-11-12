@@ -1,0 +1,1032 @@
+{
+  "arquivos": [
+    {
+      "arquivo": "README.md",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\README.md",
+      "bytes": 8641,
+      "sha256": "0f787929e0df7e52d7e902850b3aa5c2ec0e583a7f535bd62fc907413984142b"
+    },
+    {
+      "arquivo": "envelopes_montagem.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\envelopes_montagem.json",
+      "bytes": 23065,
+      "sha256": "b04f32cc32b1bbc88aa280c73f123f656e45d04e1676883576949afa722dad05"
+    },
+    {
+      "arquivo": "encaixe_preliminar.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\encaixe_preliminar.json",
+      "bytes": 1278,
+      "sha256": "79de368c384081ab523c81c1ebb6ecb07756b4f5fc1781c842e9a123c2edcbfe"
+    },
+    {
+      "arquivo": "explicacao_VSWR_c09.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\explicacao_VSWR_c09.json",
+      "bytes": 1208,
+      "sha256": "dd12cf7a3836e37a40ae5f7009537d60fd13d12a57c6ed59a377895340da5a51"
+    },
+    {
+      "arquivo": "comparacao_encaixe.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\comparacao_encaixe.png",
+      "bytes": 140388,
+      "sha256": "9b3f6cc91906c13b686bd7e7296c8ba5c44532425e15af0ec09a452d745700fa"
+    },
+    {
+      "arquivo": "dn100/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\configuracao.json",
+      "bytes": 9032,
+      "sha256": "0248f9a4f49336486f9a5bc2dcd50393b157c210b8401283b02a0b4ee34b5e02"
+    },
+    {
+      "arquivo": "dn100/pipeline.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\pipeline.json",
+      "bytes": 126,
+      "sha256": "20db06690b5f0e76b08b1ecced19f5fe4e227df5996ea46af75b423f2535edbe"
+    },
+    {
+      "arquivo": "dn100/antena/PCB_Tubo_DN100.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\PCB_Tubo_DN100.aedt",
+      "bytes": 20571923,
+      "sha256": "5a479c29868a34ccada003ac37fba3cdc2a01da200e1c6aa45f27b56a672e845"
+    },
+    {
+      "arquivo": "dn100/antena/centro.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\centro.s6p",
+      "bytes": 2773,
+      "sha256": "b077e03a7db764c06df10bb4d459161bfb48d38c62e0cb88ddd1e72b75c134ba"
+    },
+    {
+      "arquivo": "dn100/antena/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\configuracao.json",
+      "bytes": 9562,
+      "sha256": "72734c3d7f67ffd245e802d709e45a42ab626694c056f0a1bd3a5b51628f8348"
+    },
+    {
+      "arquivo": "dn100/antena/HFSS_14nucleos.acf",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "dn100/antena/tubo_criado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\tubo_criado.json",
+      "bytes": 1468,
+      "sha256": "909b42b8297dd032a307aa891a8e91f809b991ed1cc96d7ba38fe6b84988fc62"
+    },
+    {
+      "arquivo": "dn100/antena/auditoria_em.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\auditoria_em.json",
+      "bytes": 47999,
+      "sha256": "78dd0bfe92a83a97e065e327198d07c8e1bb28c34c43cffad762b82524002abf"
+    },
+    {
+      "arquivo": "dn100/antena/convergencia.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\convergencia.txt",
+      "bytes": 623,
+      "sha256": "1c1c95b79090562a962746d829c9c4932571513d29d571e4e7e08b5eacdbd469"
+    },
+    {
+      "arquivo": "dn100/antena/convergencia_metadados.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\convergencia_metadados.txt",
+      "bytes": 2834,
+      "sha256": "162e2694d507f24cc11e3f36da03315441ed01790f218cd28f13dfb0cd78c02f"
+    },
+    {
+      "arquivo": "dn100/antena/perfil_recursos.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\perfil_recursos.txt",
+      "bytes": 12888,
+      "sha256": "c5b50ba5076808e03e4f2cbc9129d303db60104d957523b4c2b424e3b4dfea35"
+    },
+    {
+      "arquivo": "dn100/antena/mensagens.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\mensagens.json",
+      "bytes": 361,
+      "sha256": "46d4023ba17ca3d2b928882cd6186c66f41741465568af0d38601f22afdda58c"
+    },
+    {
+      "arquivo": "dn100/antena/historico_campos.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\historico_campos.json",
+      "bytes": 3744,
+      "sha256": "92ba118cd1e427a686ed184177f129599f86bcbfcfabad1077fb9e9fbce31f86"
+    },
+    {
+      "arquivo": "dn100/antena/potencia.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\potencia.json",
+      "bytes": 491,
+      "sha256": "629425ee8a661ceca7d0d09b00a8682bb8677cbca5671e5150c54496df6f7ff8"
+    },
+    {
+      "arquivo": "dn100/antena/ordem_fontes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\ordem_fontes.json",
+      "bytes": 74,
+      "sha256": "bd45e52c2dd27b9debe46c941dcd596f9429d57ff327fd128471460332f3d5ff"
+    },
+    {
+      "arquivo": "dn100/antena/ALL_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\ALL_H.csv",
+      "bytes": 197439,
+      "sha256": "735cfbe463e1fa9d30dd4eb1e63a9b41c78e6892d58933a4dfa4632ea6ae3b80"
+    },
+    {
+      "arquivo": "dn100/antena/ALL_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\ALL_V.csv",
+      "bytes": 197693,
+      "sha256": "2c9e8ed358d8bb9f91c98d2f5247985e4e81d45e69cc0ee6861f6af3cf8631b5"
+    },
+    {
+      "arquivo": "dn100/antena/ALL_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\ALL_V_fino.csv",
+      "bytes": 243645,
+      "sha256": "59bd31cbe547e4d276200d09e47bda6d22be0017c649ccb1bad65dc43a62a2fa"
+    },
+    {
+      "arquivo": "dn100/antena/POL_A_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\POL_A_H.csv",
+      "bytes": 197922,
+      "sha256": "d67d779b3f16b1bf3a06157a548447bb2161c1572e7a89003b30bb3f657925e1"
+    },
+    {
+      "arquivo": "dn100/antena/POL_A_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\POL_A_V.csv",
+      "bytes": 197366,
+      "sha256": "be01f5e4d9b55d49b8f9aaaedaf6cf8d019b8e26a0f2895d29a2758d8c4e078c"
+    },
+    {
+      "arquivo": "dn100/antena/POL_A_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\POL_A_V_fino.csv",
+      "bytes": 241790,
+      "sha256": "0b1c7dee06d64e7998e82bfa776db8eeb4f80d4d690baea03b350a4fa2d3384d"
+    },
+    {
+      "arquivo": "dn100/antena/POL_B_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\POL_B_H.csv",
+      "bytes": 197304,
+      "sha256": "108cc311bae43706e59d0512f7c5251161a6c53e427eeb12503ab93d9dbd5ad5"
+    },
+    {
+      "arquivo": "dn100/antena/POL_B_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\POL_B_V.csv",
+      "bytes": 197138,
+      "sha256": "6dec900e189d759f69c6399b8f6071e9bf98ab3ae4e6f88dd4ef512583e2f348"
+    },
+    {
+      "arquivo": "dn100/antena/POL_B_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\POL_B_V_fino.csv",
+      "bytes": 241901,
+      "sha256": "547d6004a0a199af8c97da1141cdb2bbbcc3798e57457f1ebb4a7b6cae46165c"
+    },
+    {
+      "arquivo": "dn100/antena/R1_A_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R1_A_H.csv",
+      "bytes": 198189,
+      "sha256": "1c0b9ccd8d396d6bd4290438251131aa71989df432d14985a8c1105ad550d80a"
+    },
+    {
+      "arquivo": "dn100/antena/R1_A_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R1_A_V.csv",
+      "bytes": 196929,
+      "sha256": "22a8132aad3c2fc73631dcf006d61cefa5a49698043799131e993197b56af939"
+    },
+    {
+      "arquivo": "dn100/antena/R1_A_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R1_A_V_fino.csv",
+      "bytes": 241357,
+      "sha256": "33f51d62dac38f67008feae82acfb510177c67f147c2967656eabe1ae43b6a5b"
+    },
+    {
+      "arquivo": "dn100/antena/R1_B_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R1_B_H.csv",
+      "bytes": 197506,
+      "sha256": "01ed2782d257131d0caab414c0d73a750d6654fc9e3f772e3a0a60533ccff9f3"
+    },
+    {
+      "arquivo": "dn100/antena/R1_B_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R1_B_V.csv",
+      "bytes": 196992,
+      "sha256": "f9eb47d7f93f0289c480a893ca56962e2a487876e745dd178a140fd43dccb1a7"
+    },
+    {
+      "arquivo": "dn100/antena/R1_B_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R1_B_V_fino.csv",
+      "bytes": 240640,
+      "sha256": "64684302a0263c1ee0d01cd31ea3ddc5a1708b8b0054c39f335d11eacb5cf620"
+    },
+    {
+      "arquivo": "dn100/antena/R2_A_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R2_A_H.csv",
+      "bytes": 198031,
+      "sha256": "01b9c943487444d9b0516852c0e569612290c8ede891a346767eb860b4e15a59"
+    },
+    {
+      "arquivo": "dn100/antena/R2_A_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R2_A_V.csv",
+      "bytes": 197121,
+      "sha256": "063ecd5d0257eb62a6350f810074605f439426c9d1970344ce0b3127929f0593"
+    },
+    {
+      "arquivo": "dn100/antena/R2_A_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R2_A_V_fino.csv",
+      "bytes": 241353,
+      "sha256": "f31a1466dee626c4221de55746a499afc9a7c949e522f861590939965045ad50"
+    },
+    {
+      "arquivo": "dn100/antena/R2_B_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R2_B_H.csv",
+      "bytes": 197372,
+      "sha256": "96f6398db3834d282c468933bbb8ffde651193e2757283714f570b86bf1e4bc8"
+    },
+    {
+      "arquivo": "dn100/antena/R2_B_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R2_B_V.csv",
+      "bytes": 196810,
+      "sha256": "2b2b1da8415d5d5d4ff3f4c9a36e746aada394957369d5a1aa5827995735556b"
+    },
+    {
+      "arquivo": "dn100/antena/R2_B_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R2_B_V_fino.csv",
+      "bytes": 241416,
+      "sha256": "3b1f7bfc0ff39a3b5fba1727ee5ae4de251bbebbf4affe4b16be15ec667a92f8"
+    },
+    {
+      "arquivo": "dn100/antena/R3_A_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R3_A_H.csv",
+      "bytes": 198508,
+      "sha256": "6eed6f34f05f453d8f2e7d697ac5b0f022a901c8fb66513747ac0e675c738b04"
+    },
+    {
+      "arquivo": "dn100/antena/R3_A_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R3_A_V.csv",
+      "bytes": 196959,
+      "sha256": "b58c86b0d03e03a8611d85865bb9a6e7654bdbfadc901a769e5c5cffe5f963c9"
+    },
+    {
+      "arquivo": "dn100/antena/R3_A_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R3_A_V_fino.csv",
+      "bytes": 241573,
+      "sha256": "1a3a0f3e4f12f74f2176f45f0a1896a46a4a69907be7ea9fa126456865702680"
+    },
+    {
+      "arquivo": "dn100/antena/R3_B_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R3_B_H.csv",
+      "bytes": 197731,
+      "sha256": "b4770413fec92adf28ab91e0acd79058fad7b8c7b5c112d4040f7a29c08bd1ff"
+    },
+    {
+      "arquivo": "dn100/antena/R3_B_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R3_B_V.csv",
+      "bytes": 197148,
+      "sha256": "15c18a4cb7dbebaf6d7a4b34022e2acdfe707cf58ec206b2e3b81132702e7a26"
+    },
+    {
+      "arquivo": "dn100/antena/R3_B_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\antena\\R3_B_V_fino.csv",
+      "bytes": 240983,
+      "sha256": "8098431aac759572f5fcbfc67ce952be372c69e7fd8d65547931843f6a426edd"
+    },
+    {
+      "arquivo": "dn100/divisor/Divisor_Tubo_DN100.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\Divisor_Tubo_DN100.aedt",
+      "bytes": 1071014,
+      "sha256": "bf38ba7e5ee0719f3730d82fe004a4280f575f9b4fa0b88fe45c996df2811da7"
+    },
+    {
+      "arquivo": "dn100/divisor/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\divisor.s8p",
+      "bytes": 4168,
+      "sha256": "881f5b0cbd4247b10968160037327a2870d69caacfccd3dc21bcb0320dbc8d63"
+    },
+    {
+      "arquivo": "dn100/divisor/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\configuracao.json",
+      "bytes": 34372,
+      "sha256": "982a1ff7f3120ed16bb464334ebc4d99ecb016dffb54cf9487d2bc1c6a3a9b4b"
+    },
+    {
+      "arquivo": "dn100/divisor/HFSS_14nucleos.acf",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "dn100/divisor/tubo_criado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\tubo_criado.json",
+      "bytes": 1466,
+      "sha256": "1b100bf559cbb13b63472523bcb48760286a87f53e4ad07053c0377c45ad2e9a"
+    },
+    {
+      "arquivo": "dn100/divisor/auditoria_em.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\auditoria_em.json",
+      "bytes": 7562,
+      "sha256": "3495cc1a80165e82a8fe4fabd47404a8ee01039f5e1a96769830f749855d3675"
+    },
+    {
+      "arquivo": "dn100/divisor/convergencia.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\convergencia.txt",
+      "bytes": 576,
+      "sha256": "2f4ec1b5b1099d23a4b02cff30abd8b3bb7a233a7b573707d0275ede34724d30"
+    },
+    {
+      "arquivo": "dn100/divisor/convergencia_metadados.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\convergencia_metadados.txt",
+      "bytes": 2385,
+      "sha256": "29fb7bfd64a74e47a351916f5e93524099bec457415896678325e1e324bd9a59"
+    },
+    {
+      "arquivo": "dn100/divisor/perfil_recursos.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\perfil_recursos.txt",
+      "bytes": 11325,
+      "sha256": "4ec89ab446dbcb875e141a0935f5018e7ef3f62a0218166169d38e65ba1b184f"
+    },
+    {
+      "arquivo": "dn100/divisor/mensagens.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\divisor\\mensagens.json",
+      "bytes": 180,
+      "sha256": "dba218abfa8ca5b35223b83ef1b7149a53c522f80fd247cdcf5bbeff0ce61fbf"
+    },
+    {
+      "arquivo": "dn100/circuito/C09_PVC_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\C09_PVC_Nexxim.aedt",
+      "bytes": 70462,
+      "sha256": "a186a89f9f1b6bea0aee35c309f51f1cddf867c119f8cea414632933d2094a10"
+    },
+    {
+      "arquivo": "dn100/circuito/C09_PVC_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\C09_PVC_Nexxim_sem_malhas.aedtz",
+      "bytes": 27521,
+      "sha256": "88ea90b3dc1d3c1c99a10a32230dd9a856a9e829347854a8ad1163529c4479f4"
+    },
+    {
+      "arquivo": "dn100/circuito/resultado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\resultado.json",
+      "bytes": 6897,
+      "sha256": "ba90a6242ffadfe02ab847caa37a0b96705562f9395741590689449a0e785f5e"
+    },
+    {
+      "arquivo": "dn100/circuito/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\verificacao_nexxim.json",
+      "bytes": 885,
+      "sha256": "80f408361851a67edcd499d5e407527b72ba277619e56ee5ed7cd5c70bee8185"
+    },
+    {
+      "arquivo": "dn100/circuito/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\antena.s6p",
+      "bytes": 2096,
+      "sha256": "506bb46f9517c67572b93ccf652e1b94d4b7c1f26329cb3de0ed9cf58a9e77ca"
+    },
+    {
+      "arquivo": "dn100/circuito/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\divisor.s8p",
+      "bytes": 3597,
+      "sha256": "4547ce162111c99db4e8c3de597edaab51dcf146f5e4a8cb32f35925c0f5c383"
+    },
+    {
+      "arquivo": "dn100/circuito/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "dn100/circuito/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\conjunto.s2p",
+      "bytes": 334,
+      "sha256": "6f3a110f3f4e4d410bff1af17e54b5cc7287fe923bf130f07be6e15c7c653ab2"
+    },
+    {
+      "arquivo": "dn100/circuito/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\nexxim.s2p",
+      "bytes": 363,
+      "sha256": "599e5a9dcc4afc6189369bb9b0cc353e1117ddc5e7fff5b9e69719c909e250d7"
+    },
+    {
+      "arquivo": "dn100/circuito/ondas.npz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\ondas.npz",
+      "bytes": 1904,
+      "sha256": "2ca2b434fb244239af5602a431e164fe23234c65135e2b55d79a8106525fd28b"
+    },
+    {
+      "arquivo": "dn100/circuito/polar_HV.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\polar_HV.png",
+      "bytes": 212930,
+      "sha256": "6b8119553ca601926410aee8995c52e84a5b10ecd76d6aca5ef7a032a90e4f66"
+    },
+    {
+      "arquivo": "dn100/circuito/diagrama_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\diagrama_H.csv",
+      "bytes": 66369,
+      "sha256": "e4295ce7a8c8fcdd9de67de01754e2f9dbbddd48d6afd5a3e7d22adaec363d7a"
+    },
+    {
+      "arquivo": "dn100/circuito/diagrama_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\diagrama_V.csv",
+      "bytes": 67671,
+      "sha256": "9679e1f50b0cbfc4acfb7e53a2f019c30215231fc2912bf315b727abae99f5e2"
+    },
+    {
+      "arquivo": "dn100/circuito/diagrama_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\circuito\\diagrama_V_fino.csv",
+      "bytes": 108384,
+      "sha256": "87ecc254dcc6c6e6c8214dec5bd2a749ba3c14ac36ada3a56fcb096069d85ad3"
+    },
+    {
+      "arquivo": "dn100/visual/Antena_PVC_DN100_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\visual\\Antena_PVC_DN100_PRELIMINAR.FCStd",
+      "bytes": 1551499,
+      "sha256": "d80fe15fe747d761e4ddc7023842643c1472791a019951c66054d6145619224c"
+    },
+    {
+      "arquivo": "dn100/visual/auditoria_cad.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\visual\\auditoria_cad.json",
+      "bytes": 1062,
+      "sha256": "8fa0455fde5b6989cb1c6ea66b209da3a39a85d2e5ebcdf8465b347322b2e60f"
+    },
+    {
+      "arquivo": "dn100/visual/montagem_tubo_transparente.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100\\visual\\montagem_tubo_transparente.png",
+      "bytes": 125847,
+      "sha256": "05138dad617223127710f695a55578adc966f78c1a384b15c9515b0ffdfb421f"
+    },
+    {
+      "arquivo": "dn100_c01/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\configuracao.json",
+      "bytes": 9440,
+      "sha256": "7e3aba099de03d2d10568a0cd3a145fe900f169e47a50939c58d2b74809b9e58"
+    },
+    {
+      "arquivo": "dn100_c01/alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\alteracoes.json",
+      "bytes": 674,
+      "sha256": "1cec62468eb7c28df868ff7096e445e9e0db1e264208f3f63483e8f8df4b550a"
+    },
+    {
+      "arquivo": "dn100_c01/pipeline.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\pipeline.json",
+      "bytes": 126,
+      "sha256": "92040fdd849c64a4ddb41dffad7bab2f582bfc0bae664a773b0bc58ac8316bd9"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/Divisor_Duplo3.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\Divisor_Duplo3.aedt",
+      "bytes": 1071338,
+      "sha256": "0ef51940f7e2a8873611e0028482824a62a692851c8e553cd5ca73d9d576e1cb"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/Divisor_Duplo3.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\Divisor_Duplo3.FCStd",
+      "bytes": 57796,
+      "sha256": "59b3f8b9bc80ef4d2ac47fccecb526692b97025d22e4955aa681237102ac3079"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\configuracao.json",
+      "bytes": 38983,
+      "sha256": "c6a099310a9d9c2dbea68a64c58e92fdee5278a257e56dd06fbd8aac5f75869a"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/igualdade_ramais.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\igualdade_ramais.json",
+      "bytes": 637,
+      "sha256": "4ab2dd0e56689e38a4ff763ce17f6927adaee5ce55c58f0968803522f10e95cb"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/HFSS_14nucleos.acf",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/tubo_criado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\tubo_criado.json",
+      "bytes": 1466,
+      "sha256": "1b100bf559cbb13b63472523bcb48760286a87f53e4ad07053c0377c45ad2e9a"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/geometria_importada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\geometria_importada.json",
+      "bytes": 7460,
+      "sha256": "f6f9f17c6f385e241ac8fe939e2d3f08c6ef6e185529033395f6e7c509b05d36"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/hfss_validacao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\hfss_validacao.json",
+      "bytes": 208,
+      "sha256": "fdc27412cf8647d29a9244c75be253bc31fd86f9073ca3cab7a99e478bf7538b"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\divisor.s8p",
+      "bytes": 4189,
+      "sha256": "7d06320a839083a0187bc320de7cbf5c9dc2833a1b7530bf1083659e6bdcc902"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/auditoria_em.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\auditoria_em.json",
+      "bytes": 9115,
+      "sha256": "23dcfeaf5b566c6fac72a4b41845ef36dcea31e2e40efdd74f14f69900fa6d05"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/convergencia.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\convergencia.txt",
+      "bytes": 623,
+      "sha256": "daefed7c1254fd2616e2a3bfbb1a0d8faed1db4f12d8c26a3e3afc1b9dd479a9"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/convergencia_metadados.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\convergencia_metadados.txt",
+      "bytes": 2834,
+      "sha256": "ceb3d5f72fa1ba4d218a691a9e770798f8def701f36345e2f4ffcef0d1f99ad7"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/perfil_recursos.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\perfil_recursos.txt",
+      "bytes": 12731,
+      "sha256": "9051bcf0aa768696da155a9a1e52af1f12b6229da6e34c1dfc6404270bae4a3d"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/mensagens.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\mensagens.json",
+      "bytes": 176,
+      "sha256": "5e0930826eea196a145c6c51a02bfa575aae67652930be383b1f5fe5043ff48d"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/conferencia_alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\conferencia_alteracoes.json",
+      "bytes": 123,
+      "sha256": "5b6087a9bfce35cc939e9e2c9efb41397a611431d1462bb7682f7ce5a11fcfae"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/copper.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\copper.step",
+      "bytes": 118369,
+      "sha256": "a3e03b85c889cea84922d58e832945daf8d0b24e31b9db9748b9087d28fd7a6c"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/enig_hfss.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\enig_hfss.json",
+      "bytes": 6490,
+      "sha256": "8937a5c97d6dbfa0690bfe7053ef20865933489f377057cbc70c7e0c40024c7f"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/folha_cu.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\folha_cu.step",
+      "bytes": 171929,
+      "sha256": "083b9c5bd6e173c5ef0d41ba5b52f58221fe40286f308d7836e24be1cd87ee92"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/folhas_solidas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\folhas_solidas.json",
+      "bytes": 2489,
+      "sha256": "c56c19c9163cf3fbd9d08e16679ac1df76321a85ade0a380d3ae58232a62fe79"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/geometria_esperada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\geometria_esperada.json",
+      "bytes": 11499,
+      "sha256": "de0297e329372c7662cadee301c5b9859852887e3f8e3124b016bbdf179dbfc2"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/intersecoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\intersecoes.json",
+      "bytes": 83,
+      "sha256": "67802d4406fb6e8971f4df92cba76dd40c968a4a95b6cdbad633b8b084c18c99"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/manifesto.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\manifesto.json",
+      "bytes": 1531,
+      "sha256": "3743c5d63e1eb314a632ef172c64f199dfa915dea7450a31d5369381cc96ebcd"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/portas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\portas.json",
+      "bytes": 1105,
+      "sha256": "2f66b18fe23d3797c3c373ce37715c17ec10e190a1e5a1f79856b940db93c9ed"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/PTFE_terminal.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\PTFE_terminal.step",
+      "bytes": 58792,
+      "sha256": "a41c869599d570b616247d9286e567fa44e2df7cee605b1387028b40ed3c976e"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/reabertura.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\reabertura.json",
+      "bytes": 122,
+      "sha256": "13a61ed38b9a0de26c03f8f07ffb011ceb8f5180a93ce4476d66e56ad7d72dc1"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/SAC305.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\SAC305.step",
+      "bytes": 43840,
+      "sha256": "00eed488da13231dd5f70d238bcaec0e5d67b1b25f0aecb892a51fa0c158b864"
+    },
+    {
+      "arquivo": "dn100_c01/divisor/cad/ZYF300.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\divisor\\cad\\ZYF300.step",
+      "bytes": 19774,
+      "sha256": "8d962255821a0a87b070e67c51eb14366fe4020a7ebe223dfa02223ed595a22a"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/C09_PVC_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\C09_PVC_Nexxim.aedt",
+      "bytes": 70474,
+      "sha256": "773f0a8c7ad5f45f2b842bbcca97094434fdbc12d4331951c14920508517b33a"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/C09_PVC_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\C09_PVC_Nexxim_sem_malhas.aedtz",
+      "bytes": 27582,
+      "sha256": "90d9a4672770b1ea601716c7e815a36bf962e306c8e0959485aede3033fe0b84"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/resultado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\resultado.json",
+      "bytes": 7345,
+      "sha256": "e388823ff431c4bee61955978e40a2de4c4af35cfb9c98c5daabfad5e6dafb22"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\verificacao_nexxim.json",
+      "bytes": 884,
+      "sha256": "a14a791b5136eb7c5037076c0fce6bba6ac96849e72b5d77558834fca8108de6"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\antena.s6p",
+      "bytes": 2096,
+      "sha256": "506bb46f9517c67572b93ccf652e1b94d4b7c1f26329cb3de0ed9cf58a9e77ca"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\divisor.s8p",
+      "bytes": 3622,
+      "sha256": "4848f9bb412973cb60a34f2c71988afbdb9c557ca3c815d650ee39871124b853"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\conjunto.s2p",
+      "bytes": 332,
+      "sha256": "5af521be7f011a9d623c4eb742196c8d499024197d885d405e29943779f59324"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\nexxim.s2p",
+      "bytes": 365,
+      "sha256": "651f93912bc8f4372d22461214c71a6ba264555d89a2e7e68d664d87983cdd96"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/ondas.npz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\ondas.npz",
+      "bytes": 1904,
+      "sha256": "e623ee7cc7a62be103133511514318d8d8a3c8b527ead8d0cfdfcf0c5b8c9e47"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/polar_HV.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\polar_HV.png",
+      "bytes": 213403,
+      "sha256": "8313fca53cf1eadd5bebb253cc51529be2f44340a3e0f4d8af0a7f47509849b2"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/diagrama_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\diagrama_H.csv",
+      "bytes": 66435,
+      "sha256": "6427f49844881de1391f7b6f1e97c335d9a0e801450648e8291292ba78d6429f"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/diagrama_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\diagrama_V.csv",
+      "bytes": 67656,
+      "sha256": "bf04113460c82ab0c5e22c7697a6840365618d67b50406408e162aa9c216f1a1"
+    },
+    {
+      "arquivo": "dn100_c01/circuito/diagrama_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\circuito\\diagrama_V_fino.csv",
+      "bytes": 108267,
+      "sha256": "7dfd1c4a2e8dc033ac646e52804f8b5fe34d867157ca5037db504aced86f0ff6"
+    },
+    {
+      "arquivo": "dn100_c01/visual/Antena_PVC_DN100_C01_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\visual\\Antena_PVC_DN100_C01_PRELIMINAR.FCStd",
+      "bytes": 1474414,
+      "sha256": "8814c40b23c47c0a04d044d4c47766b826fa0611e663b15c4c420a183fe70045"
+    },
+    {
+      "arquivo": "dn100_c01/visual/auditoria_cad.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c01\\visual\\auditoria_cad.json",
+      "bytes": 174,
+      "sha256": "06484674d7cc7ad682ad95a6f96b30fcc54c90c6971e7aefb1a107a3cf4fec83"
+    },
+    {
+      "arquivo": "guia_dn100_c01/guia_local_limitada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\guia_dn100_c01\\guia_local_limitada.json",
+      "bytes": 1544,
+      "sha256": "f48e5867724a889732fa8b1e502061edd58a92d42c554e823ceed888b288e775"
+    },
+    {
+      "arquivo": "guia_dn100_c01/guia_passiva.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\guia_dn100_c01\\guia_passiva.json",
+      "bytes": 1542,
+      "sha256": "ea597e0194f6c0942d7334cd0f2be3707eed0062d15a24215a85d4b1fb82f542"
+    },
+    {
+      "arquivo": "dn100_c02/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\configuracao.json",
+      "bytes": 9440,
+      "sha256": "eb49f1d96dbf1df588ede1daf927358c92187f3c2173613f61f93f288c64615e"
+    },
+    {
+      "arquivo": "dn100_c02/alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\alteracoes.json",
+      "bytes": 678,
+      "sha256": "51ea3a6d5457137bd79315c9914037f73398348f7f57c755933d547d151e4eca"
+    },
+    {
+      "arquivo": "dn100_c02/pipeline.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\pipeline.json",
+      "bytes": 126,
+      "sha256": "13222518248d0488f7c1d5078dc1d7a56ec69f89d44d03e2588d09ff8aa189d0"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/Divisor_Duplo3.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\Divisor_Duplo3.aedt",
+      "bytes": 1037167,
+      "sha256": "16c7eba782aaa3c6a9c753223d852fb4ab3d4b937f95774468e12b54c67daa38"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/Divisor_Duplo3.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\Divisor_Duplo3.FCStd",
+      "bytes": 56900,
+      "sha256": "f7912be96952a6bf6dc56e7f86c07f04f60878cf44e34f6ac25568961e494af6"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/configuracao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\configuracao.json",
+      "bytes": 39895,
+      "sha256": "ec6b3efd9252aa8dfa992b9947bb516bb4eef9e8c2eed6d9c89d6d293af5481f"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/igualdade_ramais.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\igualdade_ramais.json",
+      "bytes": 647,
+      "sha256": "4f41f90ed7fff10ab5fb70576912afd9734e7a091a921808cf6ac2c708c213b3"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/HFSS_14nucleos.acf",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\HFSS_14nucleos.acf",
+      "bytes": 998,
+      "sha256": "46bd75bfe568539ac72195870904e7bcfad08505119125ddae6a5a9eab0b6853"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/tubo_criado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\tubo_criado.json",
+      "bytes": 1466,
+      "sha256": "1b100bf559cbb13b63472523bcb48760286a87f53e4ad07053c0377c45ad2e9a"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/geometria_importada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\geometria_importada.json",
+      "bytes": 7460,
+      "sha256": "d0086b1eb871217a468039d12f9b7d36dffbe6bc6139d304c1b5610ebdd60412"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/hfss_validacao.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\hfss_validacao.json",
+      "bytes": 208,
+      "sha256": "fdc27412cf8647d29a9244c75be253bc31fd86f9073ca3cab7a99e478bf7538b"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\divisor.s8p",
+      "bytes": 4191,
+      "sha256": "158a976cead525adccd80853de69e9b5a8e4fd1fbe275b5fc1b3e9bb1f6e07ae"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/auditoria_em.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\auditoria_em.json",
+      "bytes": 9808,
+      "sha256": "a465a32a1fd216fa25340c180b0b81b27726e1b9858779d990c32a9be9631ca1"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/convergencia.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\convergencia.txt",
+      "bytes": 623,
+      "sha256": "d672ac4a8ee60a1d56d37e7ba7a357ab335c9647561ea3654d2e0b744206cecc"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/convergencia_metadados.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\convergencia_metadados.txt",
+      "bytes": 2834,
+      "sha256": "32320ab7d547312487764cf4e7547c13a97e03c16db86fba0d3dafcca477c7ad"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/perfil_recursos.txt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\perfil_recursos.txt",
+      "bytes": 12754,
+      "sha256": "bbbdffc84f7ab8dc7aa52c9506bdc5ac7e1400ba1b3daa986ebf0d2732b124dc"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/mensagens.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\mensagens.json",
+      "bytes": 176,
+      "sha256": "8b8b0c6364de41d81b7953e813d7a30d15f80817d394c2a8253c5e931ae0d82d"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/conferencia_alteracoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\conferencia_alteracoes.json",
+      "bytes": 123,
+      "sha256": "5b6087a9bfce35cc939e9e2c9efb41397a611431d1462bb7682f7ce5a11fcfae"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/copper.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\copper.step",
+      "bytes": 118369,
+      "sha256": "83c9cb011cdbdabcf9c9038fcf53e3d614d49e22b86f6f13e27eda63fe460df2"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/enig_hfss.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\enig_hfss.json",
+      "bytes": 6310,
+      "sha256": "278f377649761b4794dfacfe1965fe303cd205b33588affffbc2ba23067a8b72"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/folha_cu.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\folha_cu.step",
+      "bytes": 158620,
+      "sha256": "0020a1c6a589b03ae46f8e7fb77548bc76620b38192f10d1bdeb408f94cfb074"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/folhas_solidas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\folhas_solidas.json",
+      "bytes": 2489,
+      "sha256": "c56c19c9163cf3fbd9d08e16679ac1df76321a85ade0a380d3ae58232a62fe79"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/geometria_esperada.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\geometria_esperada.json",
+      "bytes": 11500,
+      "sha256": "0d62615966fd0ec95b17b64b9394cd00561a6170619e26647302d1282c66035d"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/intersecoes.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\intersecoes.json",
+      "bytes": 83,
+      "sha256": "67802d4406fb6e8971f4df92cba76dd40c968a4a95b6cdbad633b8b084c18c99"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/manifesto.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\manifesto.json",
+      "bytes": 1531,
+      "sha256": "3743c5d63e1eb314a632ef172c64f199dfa915dea7450a31d5369381cc96ebcd"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/portas.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\portas.json",
+      "bytes": 1105,
+      "sha256": "2f66b18fe23d3797c3c373ce37715c17ec10e190a1e5a1f79856b940db93c9ed"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/PTFE_terminal.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\PTFE_terminal.step",
+      "bytes": 58792,
+      "sha256": "4604d4c0a8838f3dac6b8661dad0d133714fea68e331f26fc91f2ad44c7ac947"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/reabertura.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\reabertura.json",
+      "bytes": 122,
+      "sha256": "064ad0be294b48831928a0bdf6958433a02b661750a4f7a4c82239b27ae6509d"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/SAC305.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\SAC305.step",
+      "bytes": 43840,
+      "sha256": "530767d6301d7f3f0a2c06117a9c277d41cb4f466adeb86e6a9edb98220a7511"
+    },
+    {
+      "arquivo": "dn100_c02/divisor/cad/ZYF300.step",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor\\cad\\ZYF300.step",
+      "bytes": 19774,
+      "sha256": "1271e3567e28ec3c68721d14cd79bb574c6a37793406dd83121a915e4dc3c706"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/C09_PVC_Nexxim.aedt",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\C09_PVC_Nexxim.aedt",
+      "bytes": 70474,
+      "sha256": "4efdb4eab54fef1b7dd50b9998bf32cc965ce24a58b62135e52bb0701943645e"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/C09_PVC_Nexxim_sem_malhas.aedtz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\C09_PVC_Nexxim_sem_malhas.aedtz",
+      "bytes": 27555,
+      "sha256": "d9aec309aa757f0fc3b90d9d323099570c7c09d31840e0ad3e942dccacc89563"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/resultado.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\resultado.json",
+      "bytes": 7356,
+      "sha256": "6b04e280a874527f076d4ac15cb91400a4abe1ba7cd7d1ff02200235db1ee150"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/verificacao_nexxim.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\verificacao_nexxim.json",
+      "bytes": 884,
+      "sha256": "699ff11b35538026cae18fff5c231ad6d6088a82adde366abf40e15f2b1e04ca"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/antena.s6p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\antena.s6p",
+      "bytes": 2096,
+      "sha256": "506bb46f9517c67572b93ccf652e1b94d4b7c1f26329cb3de0ed9cf58a9e77ca"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/divisor.s8p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\divisor.s8p",
+      "bytes": 3624,
+      "sha256": "23af5392c8e865d8926ddf85db648c945e97279d167ad57e4804bec24e7b5786"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/coaxial.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\coaxial.s2p",
+      "bytes": 336,
+      "sha256": "11bd5ed229b95b10a333e3813f1da331d3cd0ddf6d9e2e2b07ace125d36092e2"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/conjunto.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\conjunto.s2p",
+      "bytes": 341,
+      "sha256": "aa2ece1ab3c7017df64ab9ee15c097428da954fe12222bcec1402af85d4b1636"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/nexxim.s2p",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\nexxim.s2p",
+      "bytes": 367,
+      "sha256": "969d9867f87cc5d9bdf94d04480713c14ce7ec8b4d16db0b18fa73d153d0a296"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/ondas.npz",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\ondas.npz",
+      "bytes": 1904,
+      "sha256": "8c4ab86b84b43015fc3bdef9d6c5e35fa8d12b477dd587ee411b0b6aed8c428c"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/polar_HV.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\polar_HV.png",
+      "bytes": 213558,
+      "sha256": "efbefbf7fe01d4d162a1cb689db9f7a6e0e5aeb9669013cb638e9c7941064bd8"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/diagrama_H.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\diagrama_H.csv",
+      "bytes": 66368,
+      "sha256": "78678388bdcd07065bf4ac21c6f37f3c18c33c67bedbfc8a8f0e7e6f141f8fc3"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/diagrama_V.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\diagrama_V.csv",
+      "bytes": 67652,
+      "sha256": "68d89532c76b01021d50514655ebb8fdf9769b19888ad5423d3e89d8eced9921"
+    },
+    {
+      "arquivo": "dn100_c02/circuito/diagrama_V_fino.csv",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\circuito\\diagrama_V_fino.csv",
+      "bytes": 108262,
+      "sha256": "61fe994acb3f7ffcca8433eedf649390ea7013f696ce5961130c6a367bc381e7"
+    },
+    {
+      "arquivo": "dn100_c02/visual/Antena_PVC_DN100_C02_PRELIMINAR.FCStd",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\visual\\Antena_PVC_DN100_C02_PRELIMINAR.FCStd",
+      "bytes": 1551603,
+      "sha256": "57898b3334744fc3ac9f71d30683042164301d983e00f191530da9063b17bf98"
+    },
+    {
+      "arquivo": "dn100_c02/visual/auditoria_cad.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\visual\\auditoria_cad.json",
+      "bytes": 174,
+      "sha256": "06484674d7cc7ad682ad95a6f96b30fcc54c90c6971e7aefb1a107a3cf4fec83"
+    },
+    {
+      "arquivo": "dn100_c02/visual/montagem_tubo_ajustada.png",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\visual\\montagem_tubo_ajustada.png",
+      "bytes": 114385,
+      "sha256": "f3ba463ffce72359dca0f935368efced06fa3ed404f553eaab14abc46333b35d"
+    },
+    {
+      "arquivo": "guia_dn100_c02/guia_passiva.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\guia_dn100_c02\\guia_passiva.json",
+      "bytes": 1549,
+      "sha256": "9188c9380f0b66dfcb0b2bdcfb86b0bd9f67f2304a8277e9dcee6d486b27af34"
+    },
+    {
+      "arquivo": "estado_final.json",
+      "origem": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\estado_final.json",
+      "bytes": 702,
+      "sha256": "e40ce2cb4a384e30cfad0c867f1ec7b0af62a2cafb55529b807e09734e178cfa"
+    }
+  ],
+  "material_comercial_validado": false,
+  "sem_malhas": true
+}

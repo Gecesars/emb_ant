@@ -1,0 +1,23 @@
+Setup : Centro
+
+==================
+Number of Passes
+Completed : 6
+Maximum   : 6
+Minimum   : 2
+==================
+Criterion : Max Mag. Delta S
+Target    : 0.05
+Current   : 0.016394
+Target Consecutive Passes  : 2
+Current Consecutive Passes : 2
+Converged : Yes
+==================
+Pass Number|Solved Elements|Max Mag. Delta S|
+          1|          15122|             N/A|
+          2|          22811|         0.80797|
+          3|          32382|           0.128|
+          4|          47489|        0.052946|
+          5|          67500|        0.033117|
+          6|          91580|        0.016394|
+

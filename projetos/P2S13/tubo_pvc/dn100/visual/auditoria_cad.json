@@ -1,0 +1,28 @@
+{
+  "solidos_anteriores": 122,
+  "solidos_com_tubo": 123,
+  "tubo_solidos": 1,
+  "intersecoes": [],
+  "objetos_anteriores_preservados": true,
+  "tubo": {
+    "DN": 100,
+    "De_mm": 101.6,
+    "espessura_mm": 1.8,
+    "Di_mm": 98.0,
+    "comprimento_mm": 350,
+    "eixo": "X",
+    "centro_y_mm": 0,
+    "centro_z_mm": -10.141,
+    "tampas": false,
+    "bolsa": false,
+    "material": "PVC_referencia_preliminar",
+    "er": 2.68,
+    "tand": 0.008,
+    "fonte_dimensoes": "https://www.tigre.com.br/produto/tubo-serie-normal-6m",
+    "codigo_6m": "11031030",
+    "ficha": "https://tigresite.s3.amazonaws.com/2023/07/FT_Esgoto-Serie-Normal_2023_final_compressed-1.pdf",
+    "fonte_referencia_dieletrica": "https://iemsl.engr.tamu.edu/services/material-characterization-services/material-characterization-examples/",
+    "ressalva_material": "Hipotese em 5.17GHz; referencia de filme PVC em 10.2-52.2GHz, NAO propriedade medida/certificada do tubo Tigre. Composto/lote podem diferir.",
+    "folga_conservadora_mm": 1.3855412806692229
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "matriz_conferida": true,
+  "erro_absoluto_max": 5.790547498447946e-16,
+  "frequencia_Hz": 5170000000.0,
+  "VSWR_ativo": [
+    1.4344922025003255,
+    1.4421625300942684
+  ],
+  "VSWR_outra_casada": [
+    1.3753009027394016,
+    1.393094671548477
+  ],
+  "entradas": {
+    "A": {
+      "potencia": "0.5W",
+      "fase": "0deg",
+      "frequencia": "5.17GHz"
+    },
+    "B": {
+      "potencia": "0.5W",
+      "fase": "0deg",
+      "frequencia": "5.17GHz"
+    }
+  },
+  "pinos": {
+    "DIV": [
+      "IN_A",
+      "IN_B",
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ],
+    "ANT": [
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ]
+  },
+  "origem_divisor": "HFSS do novo divisor, max6passes/DeltaS0.05/14cores",
+  "cabos_em_HFSS": false,
+  "guia": false
+}

@@ -1,0 +1,50 @@
+{
+  "metodo": "Modelo passivo de linhas e parasitas LC/R comuns ajustado ao S4 medio do HFSS. Guia de dimensoes; nao valida ganho/VSWR.",
+  "parasitas_efetivos": {
+    "Lin_nH": 0.3229691097809347,
+    "Lout_nH": 0.19112471908142178,
+    "Cj_pF": 0.5463550839608989,
+    "Cout_pF": 1.3101000361989823e-18,
+    "Rin_ohm": 0.03254435556360124,
+    "Rout_ohm": 0.6534622747779539
+  },
+  "erro_max_fit_S4": 0.00813192789968331,
+  "referencia_HFSS": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100",
+  "residuo_S8_local_preservado": true,
+  "base": {
+    "W1_mm": 1.003349,
+    "W2_mm": 2.070673,
+    "L1_mm": 9.05548,
+    "L2_mm": 10.268426720365607,
+    "VSWR_ativo_estimado": [
+      1.4344922025003244,
+      1.4421625300942684
+    ],
+    "VSWR_casado_estimado": [
+      1.3753009027394008,
+      1.393094671548477
+    ],
+    "sigma_max": 0.9918236667502603,
+    "ganho_frontal_estimado_dBi": 14.179800795962338,
+    "pico_V_estimado_graus": 0.06914406008765207,
+    "custo": 12.335278106262216
+  },
+  "candidato": {
+    "W1_mm": 1.0976573384814454,
+    "W2_mm": 2.381273945857456,
+    "L1_mm": 9.455479999310974,
+    "L2_mm": 9.868426721054632,
+    "VSWR_ativo_estimado": [
+      1.2953074715493604,
+      1.37002114758171
+    ],
+    "VSWR_casado_estimado": [
+      1.2445616618365787,
+      1.3379937024955726
+    ],
+    "sigma_max": 0.9918503977138706,
+    "ganho_frontal_estimado_dBi": 14.229851276180515,
+    "pico_V_estimado_graus": 0.06897301237502138,
+    "custo": 5.454502153221367
+  }
+}

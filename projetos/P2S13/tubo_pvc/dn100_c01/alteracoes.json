@@ -1,0 +1,24 @@
+{
+  "antes": {
+    "Z1_ohm": 113.97535284773888,
+    "Z2_ohm": 65.80370064762462,
+    "L1_mm": 9.850324420534196,
+    "L2_mm": 9.473582299831408,
+    "W1_mm": 0.7033405695928752,
+    "W2_mm": 2.433234397895152,
+    "comprimento_por_ramal_mm": 19.323906720365606,
+    "distancia_centros_AB_mm": 38.2
+  },
+  "depois": {
+    "W1_mm": 0.6,
+    "W2_mm": 1.831896,
+    "L1_mm": 11.408422,
+    "L2_mm": 7.9154847203656065,
+    "Z1_ohm": 120.21936664778903,
+    "Z2_ohm": 76.38356598293537,
+    "comprimento_por_ramal_mm": 19.323906720365606,
+    "distancia_centros_AB_mm": 38.2
+  },
+  "portas_placa_cabos_preservados": true,
+  "antena_nao_alterada": true
+}

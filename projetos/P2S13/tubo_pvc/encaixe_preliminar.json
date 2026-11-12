@@ -1,0 +1,64 @@
+{
+  "eixo": "X",
+  "centro_y_mm": 0,
+  "centro_z_mm": -10.141,
+  "raio_conservador_montagem_mm": 47.61445871933078,
+  "diametro_conservador_mm": 95.22891743866155,
+  "comprimento_montagem_mm": 296,
+  "limites_controladores": [
+    [
+      "R3_Blindagem_B",
+      47.61445871933078
+    ],
+    [
+      "R3_Blindagem_A",
+      47.61445871933077
+    ],
+    [
+      "R3_Blindagem_A",
+      47.61445871933077
+    ],
+    [
+      "R3_Blindagem_B",
+      47.61445871933077
+    ],
+    [
+      "R3_PTFE_A",
+      47.39892454998682
+    ],
+    [
+      "R3_PTFE_B",
+      47.39892454998682
+    ]
+  ],
+  "tubos": [
+    {
+      "DN": 75,
+      "De_mm": 75.5,
+      "parede_mm": 1.7,
+      "Di_mm": 72.1,
+      "folga_radial_conservadora_mm": -11.56445871933078
+    },
+    {
+      "DN": 100,
+      "De_mm": 101.6,
+      "parede_mm": 1.8,
+      "Di_mm": 98.0,
+      "folga_radial_conservadora_mm": 1.3855412806692229
+    },
+    {
+      "DN": 150,
+      "De_mm": 150,
+      "parede_mm": 2.5,
+      "Di_mm": 145.0,
+      "folga_radial_conservadora_mm": 24.885541280669223
+    },
+    {
+      "DN": 200,
+      "De_mm": 200,
+      "parede_mm": 3.6,
+      "Di_mm": 192.8,
+      "folga_radial_conservadora_mm": 48.78554128066923
+    }
+  ]
+}
