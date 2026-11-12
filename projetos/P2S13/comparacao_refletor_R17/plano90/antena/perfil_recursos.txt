@@ -1,0 +1,224 @@
+$begin 'Profile'
+	$begin 'ProfileGroup'
+		MajorVer=2024
+		MinorVer=2
+		Name='Solution Process'
+		$begin 'StartInfo'
+			I(1, 'Start Time', '11/12/2026 11:12:41')
+			I(1, 'Host', 'RF01')
+			I(1, 'Processor', '20')
+			I(1, 'OS', 'NT 10.0')
+			I(1, 'Product', 'HFSS Version 2024.2.0')
+		$end 'StartInfo'
+		$begin 'TotalInfo'
+			I(1, 'Elapsed Time', '00:21:19')
+			I(1, 'ComEngine Memory', '259 M')
+		$end 'TotalInfo'
+		GroupOptions=8
+		TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 1, 'Executing From', 'C:\\\\Program Files\\\\AnsysEM\\\\v242\\\\Win64\\\\HFSSCOMENGINE.exe')', false, true)
+		$begin 'ProfileGroup'
+			MajorVer=2024
+			MinorVer=2
+			Name='HPC'
+			$begin 'StartInfo'
+				I(1, 'Type', 'Manual')
+				I(1, 'Distribution Types', 'Variations, Frequencies, Domain Solver, Transient Excitations, Direct Solver, Iterative Solver, Solver, Mesh Assembly, Mesher')
+				I(1, 'MPI Vendor', 'Intel')
+				I(1, 'MPI Version', '2021')
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(0, ' ')
+			$end 'TotalInfo'
+			GroupOptions=0
+			TaskDataOptions(Memory=8)
+			ProfileItem('Two Level', 0, 0, 0, 0, 0, 'I(1, 0, 'Disabled')', false, true)
+			ProfileItem('Machine', 0, 0, 0, 0, 0, 'I(6, 1, 'Name', 'RF01', 1, 'Memory', '39.7 GB', 3, 'RAM Limit', 90, '%f%%', 2, 'Tasks', 1, false, 2, 'Cores', 14, false, 1, 'Free Disk Space', '185 GB')', false, true)
+		$end 'ProfileGroup'
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 1, 'Allow off core', 'True')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 1, 'Solution Basis Order', '1')', false, true)
+		ProfileItem('Design Validation', 0, 0, 0, 0, 0, 'I(1, 0, 'Elapsed time : 00:00:00 , HFSS ComEngine Memory : 229 M')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, 'Perform full validations with standard port validations')', false, true)
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+		$begin 'ProfileGroup'
+			MajorVer=2024
+			MinorVer=2
+			Name='Initial Meshing'
+			$begin 'StartInfo'
+				I(1, 'Time', '11/12/2026 11:12:45')
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(1, 'Elapsed Time', '00:03:42')
+			$end 'TotalInfo'
+			GroupOptions=4
+			TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+			ProfileItem('Stitch', 65, 0, 96, 0, 1807888, 'I(1, 2, 'Triangles', 36788, false)', true, true)
+			ProfileItem('Mesh', 115, 0, 113, 0, 1807888, 'I(2, 1, 'Type', 'Classic', 2, 'Tetrahedra', 102131, false)', true, true)
+			ProfileItem('Post', 32, 0, 31, 0, 1807888, 'I(2, 2, 'Tetrahedra', 126598, false, 2, 'Cores', 9, false)', true, true)
+			ProfileItem('Simulation Setup', 1, 0, 1, 0, 432164, 'I(1, 1, 'Disk', '0 Bytes')', true, true)
+			ProfileItem('Port Adapt', 1, 0, 1, 0, 444876, 'I(2, 2, 'Tetrahedra', 88081, false, 1, 'Disk', '232 KB')', true, true)
+			ProfileItem('Port Refine', 2, 0, 2, 0, 224532, 'I(2, 2, 'Tetrahedra', 126951, false, 2, 'Cores', 1, false)', true, true)
+		$end 'ProfileGroup'
+		$begin 'ProfileGroup'
+			MajorVer=2024
+			MinorVer=2
+			Name='Adaptive Meshing'
+			$begin 'StartInfo'
+				I(1, 'Time', '11/12/2026 11:16:28')
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(1, 'Elapsed Time', '00:17:32')
+			$end 'TotalInfo'
+			GroupOptions=4
+			TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Adaptive Pass 1'
+				$begin 'StartInfo'
+					I(1, 'Frequency', '5.17GHz')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, ' ')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				ProfileItem(' ', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+				ProfileItem('Simulation Setup ', 1, 0, 1, 0, 454236, 'I(2, 2, 'Tetrahedra', 88433, false, 1, 'Disk', '42.8 KB')', true, true)
+				ProfileItem('Matrix Assembly', 7, 0, 11, 0, 1321012, 'I(3, 2, 'Tetrahedra', 88433, false, 2, 'Lumped ports', 6, false, 1, 'Disk', '2 Bytes')', true, true)
+				ProfileItem('Matrix Solve', 16, 0, 69, 0, 3616452, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 628628, false, 3, 'Matrix bandwidth', 20.3906, '%5.1f', 1, 'Disk', '2.4 MB')', true, true)
+				ProfileItem('Field Recovery', 2, 0, 9, 0, 3616452, 'I(2, 2, 'Excitations', 6, false, 1, 'Disk', '9.76 MB')', true, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 252976, 'I(1, 0, 'Adaptive Pass 1')', true, true)
+			$end 'ProfileGroup'
+			ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Adaptive Pass 2'
+				$begin 'StartInfo'
+					I(1, 'Frequency', '5.17GHz')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, ' ')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				ProfileItem('Adaptive Refine', 14, 0, 13, 0, 354552, 'I(2, 2, 'Tetrahedra', 179942, false, 2, 'Cores', 1, false)', true, true)
+				ProfileItem(' ', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+				ProfileItem('Simulation Setup ', 3, 0, 3, 0, 575400, 'I(2, 2, 'Tetrahedra', 137778, false, 1, 'Disk', '64.9 KB')', true, true)
+				ProfileItem('Matrix Assembly', 16, 0, 22, 0, 1911124, 'I(3, 2, 'Tetrahedra', 137778, false, 2, 'Lumped ports', 6, false, 1, 'Disk', '3.59 KB')', true, true)
+				ProfileItem('Matrix Solve', 39, 0, 182, 0, 7056748, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 950106, false, 3, 'Matrix bandwidth', 20.8778, '%5.1f', 1, 'Disk', '1.23 MB')', true, true)
+				ProfileItem('Field Recovery', 3, 0, 13, 0, 7056748, 'I(2, 2, 'Excitations', 6, false, 1, 'Disk', '6.3 MB')', true, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 253396, 'I(1, 0, 'Adaptive Pass 2')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 3, 'Max Mag. Delta S', 0.621237, '%.5f')', false, true)
+			$end 'ProfileGroup'
+			ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Adaptive Pass 3'
+				$begin 'StartInfo'
+					I(1, 'Frequency', '5.17GHz')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, ' ')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				ProfileItem('Adaptive Refine', 16, 0, 15, 0, 386092, 'I(2, 2, 'Tetrahedra', 230456, false, 2, 'Cores', 1, false)', true, true)
+				ProfileItem(' ', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+				ProfileItem('Simulation Setup ', 4, 0, 4, 0, 674208, 'I(2, 2, 'Tetrahedra', 183627, false, 1, 'Disk', '83.5 KB')', true, true)
+				ProfileItem('Matrix Assembly', 18, 0, 27, 0, 2443376, 'I(3, 2, 'Tetrahedra', 183627, false, 2, 'Lumped ports', 6, false, 1, 'Disk', '223 Bytes')', true, true)
+				ProfileItem('Matrix Solve', 64, 0, 312, 0, 10040672, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 1251896, false, 3, 'Matrix bandwidth', 21.084, '%5.1f', 1, 'Disk', '1.15 MB')', true, true)
+				ProfileItem('Field Recovery', 8, 0, 24, 0, 10040672, 'I(2, 2, 'Excitations', 6, false, 1, 'Disk', '6.24 MB')', true, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 253804, 'I(1, 0, 'Adaptive Pass 3')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 3, 'Max Mag. Delta S', 0.125628, '%.5f')', false, true)
+			$end 'ProfileGroup'
+			ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Adaptive Pass 4'
+				$begin 'StartInfo'
+					I(1, 'Frequency', '5.17GHz')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, ' ')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				ProfileItem('Adaptive Refine', 20, 0, 19, 0, 449216, 'I(2, 2, 'Tetrahedra', 296423, false, 2, 'Cores', 1, false)', true, true)
+				ProfileItem(' ', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+				ProfileItem('Simulation Setup ', 5, 0, 5, 0, 813628, 'I(2, 2, 'Tetrahedra', 243369, false, 1, 'Disk', '106 KB')', true, true)
+				ProfileItem('Matrix Assembly', 35, 0, 40, 0, 3153912, 'I(3, 2, 'Tetrahedra', 243369, false, 2, 'Lumped ports', 6, false, 1, 'Disk', '76 Bytes')', true, true)
+				ProfileItem('Matrix Solve', 130, 0, 525, 0, 12119284, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 1644802, false, 3, 'Matrix bandwidth', 21.2426, '%5.1f', 1, 'Disk', '1.5 MB')', true, true)
+				ProfileItem('Field Recovery', 7, 0, 25, 0, 12119284, 'I(2, 2, 'Excitations', 6, false, 1, 'Disk', '7.95 MB')', true, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 253956, 'I(1, 0, 'Adaptive Pass 4')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 3, 'Max Mag. Delta S', 0.0941067, '%.5f')', false, true)
+			$end 'ProfileGroup'
+			ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Adaptive Pass 5'
+				$begin 'StartInfo'
+					I(1, 'Frequency', '5.17GHz')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, ' ')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				ProfileItem('Adaptive Refine', 32, 0, 31, 0, 609068, 'I(2, 2, 'Tetrahedra', 408063, false, 2, 'Cores', 1, false)', true, true)
+				ProfileItem(' ', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+				ProfileItem('Simulation Setup ', 8, 0, 7, 0, 1074724, 'I(2, 2, 'Tetrahedra', 346170, false, 1, 'Disk', '146 KB')', true, true)
+				ProfileItem('Matrix Assembly', 29, 0, 50, 0, 4381928, 'I(3, 2, 'Tetrahedra', 346170, false, 2, 'Lumped ports', 6, false, 1, 'Disk', '1.03 KB')', true, true)
+				ProfileItem('Matrix Solve', 177, 0, 793, 0, 16400064, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 2316318, false, 3, 'Matrix bandwidth', 21.4179, '%5.1f', 1, 'Disk', '2.56 MB')', true, true)
+				ProfileItem('Field Recovery', 11, 0, 35, 0, 16400064, 'I(2, 2, 'Excitations', 6, false, 1, 'Disk', '13 MB')', true, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 122804, 'I(1, 0, 'Adaptive Pass 5')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 3, 'Max Mag. Delta S', 0.0565067, '%.5f')', false, true)
+			$end 'ProfileGroup'
+			ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+			$begin 'ProfileGroup'
+				MajorVer=2024
+				MinorVer=2
+				Name='Adaptive Pass 6'
+				$begin 'StartInfo'
+					I(1, 'Frequency', '5.17GHz')
+				$end 'StartInfo'
+				$begin 'TotalInfo'
+					I(0, ' ')
+				$end 'TotalInfo'
+				GroupOptions=0
+				TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+				ProfileItem('Adaptive Refine', 39, 0, 38, 0, 725780, 'I(2, 2, 'Tetrahedra', 534651, false, 2, 'Cores', 1, false)', true, true)
+				ProfileItem(' ', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+				ProfileItem('Simulation Setup ', 9, 0, 9, 0, 1324352, 'I(2, 2, 'Tetrahedra', 463828, false, 1, 'Disk', '190 KB')', true, true)
+				ProfileItem('Matrix Assembly', 33, 0, 56, 0, 5791728, 'I(3, 2, 'Tetrahedra', 463828, false, 2, 'Lumped ports', 6, false, 1, 'Disk', '2.19 KB')', true, true)
+				ProfileItem('Matrix Solve', 254, 0, 1160, 0, 21894408, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 3082286, false, 3, 'Matrix bandwidth', 21.5354, '%5.1f', 1, 'Disk', '2.92 MB')', true, true)
+				ProfileItem('Field Recovery', 17, 0, 50, 0, 21894408, 'I(2, 2, 'Excitations', 6, false, 1, 'Disk', '15.2 MB')', true, true)
+				ProfileItem('Data Transfer', 0, 0, 0, 0, 45008, 'I(1, 0, 'Adaptive Pass 6')', true, true)
+				ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 3, 'Max Mag. Delta S', 0.0305069, '%.5f')', false, true)
+			$end 'ProfileGroup'
+			ProfileFootnote('I(1, 0, 'The last 1 adaptive passes converged, but 2 consecutive converged passes were requested.')', 1)
+		$end 'ProfileGroup'
+		ProfileItem('', 0, 0, 0, 0, 0, 'I(1, 0, '')', false, true)
+		$begin 'ProfileGroup'
+			MajorVer=2024
+			MinorVer=2
+			Name='Simulation Summary'
+			$begin 'StartInfo'
+			$end 'StartInfo'
+			$begin 'TotalInfo'
+				I(0, ' ')
+			$end 'TotalInfo'
+			GroupOptions=0
+			TaskDataOptions('CPU Time'=8, Memory=8, 'Real Time'=8)
+			ProfileItem('Design Validation', 0, 0, 0, 0, 0, 'I(2, 1, 'Elapsed Time', '00:00:00', 1, 'Total Memory', '229 MB')', false, true)
+			ProfileItem('Initial Meshing', 0, 0, 0, 0, 0, 'I(2, 1, 'Elapsed Time', '00:03:42', 1, 'Total Memory', '2.15 GB')', false, true)
+			ProfileItem('Adaptive Meshing', 0, 0, 0, 0, 0, 'I(5, 1, 'Elapsed Time', '00:17:32', 1, 'Average memory/process', '20.9 GB', 1, 'Max memory/process', '20.9 GB', 2, 'Max number of processes/frequency', 1, false, 2, 'Total number of cores', 14, false)', false, true)
+			ProfileFootnote('I(3, 2, 'Max solved tets', 463828, false, 2, 'Max matrix size', 3082286, false, 1, 'Matrix bandwidth', '21.5')', 0)
+		$end 'ProfileGroup'
+		ProfileFootnote('I(2, 1, 'Stop Time', '11/12/2026 11:34:00', 1, 'Status', 'Normal Completion')', 0)
+	$end 'ProfileGroup'
+$end 'Profile'

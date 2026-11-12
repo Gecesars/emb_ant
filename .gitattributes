@@ -46,3 +46,8 @@ projetos/P2S13/kicad/**/*.svg -text whitespace=-blank-at-eol,-blank-at-eof
 projetos/P2S13/fabricavel_radome/**/*.kicad_pcb -text whitespace=cr-at-eol
 projetos/P2S13/fabricavel_radome/**/*.kicad_pro -text whitespace=cr-at-eol
 projetos/P2S13/fabricavel_radome/**/gerbers/* -text whitespace=-blank-at-eol,-blank-at-eof
+# R17: bytes exatos de CAD, campos exportados e evidencias do pacote.
+projetos/P2S13/mecanica_R17/** -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2S13/comparacao_refletor_R17/** -text whitespace=-blank-at-eol,-blank-at-eof
+projetos/P2S13/mecanica_R17/**/*.step -diff
+projetos/P2S13/mecanica_R17/**/*.stp -diff

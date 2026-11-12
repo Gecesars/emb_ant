@@ -1,0 +1,48 @@
+{
+  "matriz_conferida": true,
+  "erro_absoluto_max": 7.34474626806716e-16,
+  "frequencia_Hz": 5170000000.0,
+  "VSWR_ativo": [
+    1.1240652384594911,
+    1.0569585055031778
+  ],
+  "VSWR_outra_casada": [
+    1.1290422119891272,
+    1.0946618925097047
+  ],
+  "entradas": {
+    "A": {
+      "potencia": "0.5W",
+      "fase": "0deg",
+      "frequencia": "5.17GHz"
+    },
+    "B": {
+      "potencia": "0.5W",
+      "fase": "0deg",
+      "frequencia": "5.17GHz"
+    }
+  },
+  "pinos": {
+    "DIV": [
+      "IN_A",
+      "IN_B",
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ],
+    "ANT": [
+      "R1_A",
+      "R1_B",
+      "R2_A",
+      "R2_B",
+      "R3_A",
+      "R3_B"
+    ]
+  },
+  "origem_divisor": "S8 C02 HFSS R16 preservado e reauditado; nenhum novo solve do divisor nesta comparacao",
+  "cabos_em_HFSS": false,
+  "guia": false
+}

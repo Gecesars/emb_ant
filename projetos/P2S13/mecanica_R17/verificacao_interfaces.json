@@ -1,0 +1,61 @@
+{
+  "contatos": [
+    {
+      "a": "Refletor_Al2mm",
+      "b": "Flange_Inferior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "Refletor_Al2mm",
+      "b": "Flange_Superior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "Junta_Inferior",
+      "b": "Tubo_PVC_DN100",
+      "distancia_mm": 2.4e-14
+    },
+    {
+      "a": "Junta_Superior",
+      "b": "Tubo_PVC_DN100",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "Junta_Inferior",
+      "b": "Flange_Inferior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "Junta_Superior",
+      "b": "Flange_Superior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "N_A_Corpo",
+      "b": "Flange_Inferior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "N_A_Porca_arruela",
+      "b": "Flange_Inferior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "N_B_Corpo",
+      "b": "Flange_Inferior",
+      "distancia_mm": 0.0
+    },
+    {
+      "a": "N_B_Porca_arruela",
+      "b": "Flange_Inferior",
+      "distancia_mm": 0.0
+    }
+  ],
+  "objetos": 219,
+  "solidos": 235,
+  "STEP_valido": true,
+  "volume_nativo_mm3": 388039.37829173973,
+  "volume_STEP_mm3": 388038.5738792722,
+  "erro_relativo_volume_STEP": 2.0730176176007418e-06,
+  "observacao_STEP": "FCStd/BREP e a autoridade geometrica. Volume STEP reimportado reportado, nao alegado identico bit a bit."
+}

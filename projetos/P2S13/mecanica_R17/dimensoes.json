@@ -1,0 +1,259 @@
+{
+  "estado": "PRELIMINAR",
+  "refletor": "dobrado150",
+  "tubo": {
+    "DE": 101.6,
+    "DI": 98.0,
+    "parede": 1.8,
+    "comprimento": 350.0,
+    "centro_z": -10.141
+  },
+  "flange": {
+    "diametro": 110.0,
+    "espessura": 4.76,
+    "canal_DI": 97.3,
+    "canal_DE": 102.3,
+    "canal_largura": 2.5,
+    "canal_profundidade": 2.5,
+    "face_interna_x": 172.8,
+    "face_externa_x": 177.56,
+    "parede_residual": 2.26,
+    "folga_radial_tubo": 0.35,
+    "insercao": 2.2
+  },
+  "junta": {
+    "material": "EPDM 60 Shore A nominal; anel recortado",
+    "DI": 98.0,
+    "DE": 101.6,
+    "espessura_livre": 0.5,
+    "espessura_montada": 0.3,
+    "compressao_percent": 40
+  },
+  "chapa": {
+    "material": "Aluminio 5052-H32 nominal",
+    "espessura": 2.0,
+    "face_comprimento": 296.0,
+    "largura_desenvolvida": 90.0,
+    "Ri": 2.0,
+    "K": 0.4,
+    "angulo_abas": 150,
+    "linha_dobra_lateral": 28.5,
+    "lingueta_largura": 20.0,
+    "tangencia_x": 168.8,
+    "leg_reta": 14.0,
+    "aba_final_z": [
+      -18.0,
+      -4.0
+    ],
+    "centros_furos_flange_y": [
+      -5.0,
+      5.0
+    ],
+    "centros_furos_flange_z": -11.0,
+    "furo_fixacao": 3.4,
+    "BA_extremidade": 4.39822971502571,
+    "comprimento_plano_total": 374.39645943005144
+  },
+  "pcb": {
+    "quantidade": 3,
+    "dimensoes": [
+      88.0,
+      50.0,
+      0.76
+    ],
+    "centros_x": [
+      -96.0,
+      0.0,
+      96.0
+    ],
+    "passo_elementos": 48.0,
+    "apoio_z": 14.949,
+    "folga_lip": 0.05
+  },
+  "divisor": {
+    "pcb": [
+      36.0,
+      78.0,
+      1.52
+    ],
+    "x_min": -10.6598549068686,
+    "x_max": 25.3401450931314,
+    "centro_x": 7.3401450931314,
+    "z_solo": -35.196,
+    "z_core_top": -35.231,
+    "z_sinal": -36.786
+  },
+  "conector": {
+    "modelo": "Amphenol 082-6784",
+    "quantidade": 2,
+    "y": [
+      -22.0,
+      22.0
+    ],
+    "z": -25.0,
+    "furo_diametro": 16.5,
+    "entre_planos": 14.0,
+    "face_junta_x": -177.56,
+    "face_junta_no_step_x": 10.9,
+    "translacao_step_x": -166.66,
+    "deslocamento_porcas_no_step": 1.69,
+    "torque_catalogo_Nm": 3.39
+  },
+  "fixacoes_radiantes": [
+    {
+      "x": -141.5,
+      "y": -14.0,
+      "edge": -140.0,
+      "sentido": -1,
+      "celula_x": -96.0
+    },
+    {
+      "x": -141.5,
+      "y": 14.0,
+      "edge": -140.0,
+      "sentido": -1,
+      "celula_x": -96.0
+    },
+    {
+      "x": -50.5,
+      "y": -14.0,
+      "edge": -52.0,
+      "sentido": 1,
+      "celula_x": -96.0
+    },
+    {
+      "x": -50.5,
+      "y": 14.0,
+      "edge": -52.0,
+      "sentido": 1,
+      "celula_x": -96.0
+    },
+    {
+      "x": -45.5,
+      "y": -14.0,
+      "edge": -44.0,
+      "sentido": -1,
+      "celula_x": 0.0
+    },
+    {
+      "x": -45.5,
+      "y": 14.0,
+      "edge": -44.0,
+      "sentido": -1,
+      "celula_x": 0.0
+    },
+    {
+      "x": 45.5,
+      "y": -14.0,
+      "edge": 44.0,
+      "sentido": 1,
+      "celula_x": 0.0
+    },
+    {
+      "x": 45.5,
+      "y": 14.0,
+      "edge": 44.0,
+      "sentido": 1,
+      "celula_x": 0.0
+    },
+    {
+      "x": 50.5,
+      "y": -14.0,
+      "edge": 52.0,
+      "sentido": -1,
+      "celula_x": 96.0
+    },
+    {
+      "x": 50.5,
+      "y": 14.0,
+      "edge": 52.0,
+      "sentido": -1,
+      "celula_x": 96.0
+    },
+    {
+      "x": 141.5,
+      "y": -14.0,
+      "edge": 140.0,
+      "sentido": 1,
+      "celula_x": 96.0
+    },
+    {
+      "x": 141.5,
+      "y": 14.0,
+      "edge": 140.0,
+      "sentido": 1,
+      "celula_x": 96.0
+    }
+  ],
+  "fixacoes_divisor": [
+    {
+      "x": -12.1598549068686,
+      "y": -12.0,
+      "edge": -10.6598549068686,
+      "sentido": -1
+    },
+    {
+      "x": -12.1598549068686,
+      "y": 12.0,
+      "edge": -10.6598549068686,
+      "sentido": -1
+    },
+    {
+      "x": 26.8401450931314,
+      "y": -12.0,
+      "edge": 25.3401450931314,
+      "sentido": 1
+    },
+    {
+      "x": 26.8401450931314,
+      "y": 12.0,
+      "edge": 25.3401450931314,
+      "sentido": 1
+    }
+  ],
+  "cabos_entrada": [
+    {
+      "porta": "A",
+      "comprimento_eixo_entre_planos": 158.62533313720292,
+      "raio_dobra_minimo": 6.0,
+      "inicio": [
+        -148.61,
+        -22.0,
+        -25.0
+      ],
+      "fim": [
+        2.50916841304,
+        -19.1,
+        -35.051
+      ],
+      "corte": "Acrescentar preparo de solda/encaixe do conector conforme desenho Amphenol. Nao usar este percurso como comprimento de corte pronto."
+    },
+    {
+      "porta": "B",
+      "comprimento_eixo_entre_planos": 158.62533313720292,
+      "raio_dobra_minimo": 6.0,
+      "inicio": [
+        -148.61,
+        22.0,
+        -25.0
+      ],
+      "fim": [
+        2.50916841304,
+        19.1,
+        -35.051
+      ],
+      "corte": "Acrescentar preparo de solda/encaixe do conector conforme desenho Amphenol. Nao usar este percurso como comprimento de corte pronto."
+    }
+  ],
+  "comprimento_cabos_saida": 134.0,
+  "limites": "Nao validado estruturalmente/IP. Conferir lote do tubo e corte/preparo do coaxial antes da fabricacao em serie.",
+  "comprimento_externo_sem_conectores": 355.12,
+  "envelope_completo_mm": [
+    -190.66,
+    -55.0,
+    -65.141,
+    181.06,
+    55.0,
+    44.859
+  ]
+}

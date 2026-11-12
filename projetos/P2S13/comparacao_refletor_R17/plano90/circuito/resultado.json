@@ -1,0 +1,217 @@
+{
+  "revisao": "R17_Plano90",
+  "frequencia_GHz": 5.17,
+  "entradas_W": [
+    0.5,
+    0.5
+  ],
+  "fases_graus": [
+    0,
+    0
+  ],
+  "VSWR_ativo": [
+    1.1240652384594911,
+    1.0569585055031783
+  ],
+  "VSWR_outra_casada": [
+    1.1290422119891266,
+    1.0946618925097058
+  ],
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 14.305150058943163,
+      "pico_graus": -1.0,
+      "ganho_pico_dBi": 14.30662454622722,
+      "abertura_graus": 78.77356391366627,
+      "cruzamentos_graus": [
+        -39.86411166499014,
+        38.909452248676125
+      ],
+      "SLL": {
+        "nivel_dB": null,
+        "limites_lobo_principal_graus": [
+          -132.5,
+          128.0
+        ],
+        "lobos": []
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 14.305150058943163,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 14.305150058943163,
+      "abertura_graus": 10.106208851217737,
+      "cruzamentos_graus": [
+        -5.141412900728538,
+        4.964795950489199
+      ],
+      "SLL": {
+        "nivel_dB": -6.479860564959176,
+        "limites_lobo_principal_graus": [
+          -11.75,
+          11.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -32.5,
+            "nivel_dB": -12.549941420851479
+          },
+          {
+            "angulo_graus": -17.0,
+            "nivel_dB": -13.242324005444726
+          },
+          {
+            "angulo_graus": 16.5,
+            "nivel_dB": -12.775833957670702
+          },
+          {
+            "angulo_graus": 38.75,
+            "nivel_dB": -6.479860564959176
+          },
+          {
+            "angulo_graus": 62.0,
+            "nivel_dB": -17.73311706603875
+          }
+        ]
+      }
+    }
+  },
+  "pico_H_global": {
+    "angulo_graus": -1.0,
+    "ganho_dBi": 14.30662454622722
+  },
+  "queda_H_0_vs_pico_dB": 0.0014744872840566359,
+  "pico_V_fino_graus": -0.07100193011850968,
+  "assimetria_principal_V_dB": 0.21944143717597875,
+  "divisor_casado": {
+    "A": {
+      "VSWR": 2.154265387644441,
+      "perda_excedente_dB": 0.7409087963222096,
+      "dispersao_amplitude_dB": 0.10618301871314273,
+      "dispersao_fase_graus": 0.8000014072745275,
+      "fase_relativa_graus": [
+        -0.0,
+        0.5756056529959397,
+        0.8000014072745275
+      ],
+      "maior_acoplamento_entre_saidas_dB": -9.61662115354638
+    },
+    "B": {
+      "VSWR": 2.1527120296443005,
+      "perda_excedente_dB": 0.7389765270664839,
+      "dispersao_amplitude_dB": 0.09274734541760665,
+      "dispersao_fase_graus": 0.6482186621745188,
+      "fase_relativa_graus": [
+        -2.673572428952533e-15,
+        0.5512714997584549,
+        0.6482186621745162
+      ],
+      "maior_acoplamento_entre_saidas_dB": -9.64785585328222
+    }
+  },
+  "ramais_carregados": [
+    {
+      "porta": "R1_A",
+      "potencia_incidente_W": 0.1750462363041223,
+      "fase_relativa_R2A_graus": 3.88514286190639
+    },
+    {
+      "porta": "R1_B",
+      "potencia_incidente_W": 0.1813601207288378,
+      "fase_relativa_R2A_graus": 2.4423084164996456
+    },
+    {
+      "porta": "R2_A",
+      "potencia_incidente_W": 0.18328928401359618,
+      "fase_relativa_R2A_graus": 0.0
+    },
+    {
+      "porta": "R2_B",
+      "potencia_incidente_W": 0.1901706327764874,
+      "fase_relativa_R2A_graus": -1.391213544485925
+    },
+    {
+      "porta": "R3_A",
+      "potencia_incidente_W": 0.1741987534984237,
+      "fase_relativa_R2A_graus": 3.578858948577848
+    },
+    {
+      "porta": "R3_B",
+      "potencia_incidente_W": 0.18358217573995497,
+      "fase_relativa_R2A_graus": 2.1192947809162073
+    }
+  ],
+  "isolamento_entradas_divisor_dB": 47.566435381203185,
+  "potencia": {
+    "incidente_W": 1,
+    "refletida_W": 0.002089211098078995,
+    "aceita_antena_W": 0.9406716906931704,
+    "perda_divisor_W": 0.021281603707956287,
+    "perda_cabos_W": 0.03595749450079433,
+    "balanco_aprovado": true
+  },
+  "cabo": {
+    "comprimento_mm": 133.82,
+    "perda_insercao_dB": 0.12307499347941966,
+    "fase_graus": -105.55315522722876,
+    "RLGC_por_m": {
+      "R_ohm": 8.464650411138784,
+      "L_H": 2.3849757089180785e-07,
+      "G_S": 0.0008543077974599864,
+      "C_F": 9.500138681891723e-11
+    },
+    "eps_r": 2.036363533774732,
+    "tand": 0.00027683054882040843,
+    "condutividade_S_m": 58000000.0
+  },
+  "convergencia": {
+    "antena": {
+      "passes": 6,
+      "delta_s": 0.030506948135143912,
+      "convergiu": false
+    },
+    "divisor": {
+      "passes": 6,
+      "delta_s": 0.017252188346412723,
+      "convergiu": true
+    }
+  },
+  "metas": {
+    "VSWR_ativo": true,
+    "ganho_frontal": true,
+    "H_frontal_ate_05dB": true,
+    "maximo_vertical": true,
+    "simetria_vertical": false
+  },
+  "metas_numericas_atendidas": false,
+  "nexxim_pendente": false,
+  "campos_monitorados": {
+    "ultimos_deltas_max_dB": [
+      1.3908095465391197,
+      0.8152988092646902
+    ],
+    "referencia_dB": 0.1,
+    "estabilidade_observada": false,
+    "criterio_somente_monitoramento": true
+  },
+  "erro_circuito_independente": 1.0591761858187546e-16,
+  "recomposicao_uniforme_erro": {
+    "H": 1.6876850730849092e-14,
+    "V": 1.3334236103572998e-14,
+    "V_fino": 1.6011864169946884e-14
+  },
+  "limites": "HFSS separado: acoplamento entre radiadores incluido no S6; nao inclui acoplamento espacial antena-divisor, radiacao dos cabos nem contribuicao direta do campo do divisor. Cabos somente RLGC no circuito; PVC nominal aberto; sem flanges, novos suportes e conectores N.",
+  "erro_Nexxim": 7.34474626806716e-16,
+  "casamento_confirmado_HFSS_Nexxim": false,
+  "qualificado": false,
+  "divisor_reutilizado": {
+    "pasta": "D:\\dev\\EMBRAER\\P2S13\\R16_Tubo_PVC\\dn100_c02\\divisor",
+    "sha256": {
+      "Divisor_Duplo3.aedt": "16c7eba782aaa3c6a9c753223d852fb4ab3d4b937f95774468e12b54c67daa38",
+      "divisor.s8p": "158a976cead525adccd80853de69e9b5a8e4fd1fbe275b5fc1b3e9bb1f6e07ae",
+      "configuracao.json": "ec6b3efd9252aa8dfa992b9947bb516bb4eef9e8c2eed6d9c89d6d293af5481f"
+    },
+    "novo_solve": false
+  },
+  "escopo_comparacao": "Somente refletor lateral: mesmas PCBs, C02 e seis cabos de saida no circuito. Flanges, suportes, linguetas e duas novas entradas N-divisor do CAD R17 nao simulados."
+}
