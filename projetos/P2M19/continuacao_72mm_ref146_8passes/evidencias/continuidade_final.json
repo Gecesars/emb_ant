@@ -1,0 +1,29 @@
+{
+  "passes_1_a_6_identicos": true,
+  "passes_adicionais": [
+    7,
+    8
+  ],
+  "historico_inicial_tetraedros": 602282,
+  "referencia_nativa_sha256": "3779593de438b798aa6e9330dfeee2f00fdb9011d065bae6a788c4f0412ef772",
+  "nativo_final_sha256": "29ecf853bae4d91cdb0b6b4d98edee175621c9689b8ce842daeca29190a25100",
+  "geometria_materiais_portas_malha_campos_iguais": true,
+  "somente_min_max_setup_alterados": true,
+  "trace_ids_preservados": [
+    "145",
+    "146",
+    "147",
+    "148",
+    "149",
+    "150",
+    "151",
+    "152",
+    "153"
+  ],
+  "sem_sweep": true,
+  "radfield_definicoes_iguais": true,
+  "radfield_metadados_atualizados": [
+    "VersionID",
+    "NextUniqueID"
+  ]
+}

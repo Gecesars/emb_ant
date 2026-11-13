@@ -1,5 +1,9 @@
 # Automação local da P2M19
 
+A continuação solicitada após o lote usa `R05_72mm_ref146_8passes`: uma cópia integral da R04 fechada, com malha e campos nativos preservados. `preparar_continuacao8.py` cria essa cópia uma única vez; `continuacao8_resolver.py` altera por API somente mínimo/máximo para oito passes, compara os blocos físicos e preserva os nove identificadores de campo. `continuacao8_continuar.ps1` executa apenas os passes 7/8 e a análise, sem recriar CAD, malha inicial ou sweep. Não repetir o preparador nem o solver sobre uma execução existente.
+
+Consulta da continuação: `python projetos/P2M19/automacao/monitorar_continuacao8.py`. O acompanhamento ocorre neste trabalho; não há agendamento recorrente nem autorização implícita para passes além de oito. `finalizar_continuacao8.py` compara o histórico preservado e gera a documentação; a opção `--empacotar` exige revisão visual dos quatro gráficos e exclui resultados nativos volumétricos e malhas do Git.
+
 O estudo de 13/11/2026 usa uma fila **finita**, executada neste computador. Não é um agendamento recorrente do Codex. Os casos são resolvidos em sequência para respeitar a memória disponível:
 
 1. R02: colunas a 72 mm, refletor de 178 mm, para comparação direta com a R01 de 88 mm.

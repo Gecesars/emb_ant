@@ -1,5 +1,9 @@
 # P2M19 — 16 níveis, duas colunas, objetivo de 19 dBi
 
+**P2M19 R05 — dois passes adicionais concluídos em 13/11, PRELIMINAR.** Preservados a geometria de colunas a 72 mm, refletor 146 mm e os seis passes anteriores; executados somente os passes 7/8, com 14 núcleos, 5,17 GHz, 16 entradas iguais/em fase, sem sweep. Resultado: **20,101 dBi**, H **22,734°**, V **3,753°**, VSWR ativo **1,143–1,353**. **ΔS=0,05196469 >0,05: não convergiu.** Balanço de potência consistente, zero reparos Major/Minor; ganho ainda variou +0,241 dB no último passe. O acompanhamento desta execução está concluído, sem novos passes programados. [Relatório e arquivos da continuação](continuacao_72mm_ref146_8passes/README.md).
+
+A comparação de seis passes abaixo permanece preservada como histórico.
+
 **Comparação de 13/11/2026 concluída como estudo preliminar. Nenhuma geometria convergiu em seis passes ao alvo ΔS≤0,05.** Todos os ganhos abaixo superam 19 dBi numericamente; ainda não validam essa meta. A abertura próxima de 30° continua como orientação, sem tolerância numérica inventada.
 
 Oito placas C12 de quatro radiadores, 32 radiadores e 16 entradas de **0,0625 W / 0°**, total 1 W. Simulações efetivas em **5,17 GHz**, com **14 núcleos**, até **seis passes por geometria**, sem sweep. Passo vertical de 48 mm, PCBs a 14,949 mm da face do refletor e espessura de alumínio de 2 mm.

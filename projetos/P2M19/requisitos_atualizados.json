@@ -1,6 +1,6 @@
 {
   "data": "2026-11-13",
-  "orientacao_usuario": "Simular 72 mm entre colunas, manter 16 niveis, entradas iguais/em fase, 14 nucleos, ate 6 passes, DeltaS 0,05, 5,17 GHz sem sweep; comparar com 88 mm e executar proximos ajustes automaticamente.",
+  "orientacao_usuario": "Continuar somente a versao de 72 mm com refletor 146 mm por mais dois passes, preservando a malha, 14 nucleos, 16 entradas iguais/em fase e 5,17 GHz sem sweep. Conferir DeltaS <=0,05, ganho, VSWR e H/V.",
   "ganho_frontal_realizado_total_min_dBi": 19,
   "abertura_horizontal_proxima_30_graus_aceitavel": true,
   "tolerancia_horizontal_numerica_definida": false,
@@ -9,16 +9,17 @@
   "frequencia_GHz": 5.17,
   "fontes": "Iguais e em fase",
   "nucleos": 14,
-  "limite_passes": 6,
+  "limite_passes": 8,
   "delta_s_alvo": 0.05,
   "sweep": false,
-  "observacao": "Nenhum caso atingiu DeltaS <=0,05 em seis passes. H de 23,55 a 24,24 graus nas versoes de 72 mm; ganho de 19,21 a 19,50 dBi ainda preliminar. Sem liberacao RF por banda ou por entrada MIMO.",
+  "observacao": "Oito passes totais: DeltaS 0,05196469, nao convergiu. Ganho 20,10098 dBi, H 22,73419 graus, V 3,75340 graus, VSWR ativo 1,14303 a 1,35297. Balanço de potencia valido, zero Major/Minor; campo ainda nao estavel. Sem qualificacao de banda ou ganho por entrada MIMO.",
   "orientacao_anterior_abertura": "o diagrama horizontal pode ficar prÃ³ximo de 30 graus",
   "rodadas_concluidas": [
     "R01_16x2_88mm",
     "R02_16x2_72mm",
     "R03_72mm_ref162",
-    "R04_72mm_ref146"
+    "R04_72mm_ref146",
+    "R05_72mm_ref146_8passes"
   ],
   "espacamentos_efetivamente_simulados_mm": [
     88,
@@ -30,6 +31,8 @@
     146
   ],
   "todos_casos_convergidos": false,
-  "estado": "COMPARACAO_PRELIMINAR_CONCLUIDA",
-  "automacao": "Fila local finita concluida, sem agendamento recorrente"
+  "estado": "CONTINUACAO_8PASSES_PRELIMINAR_CONCLUIDA",
+  "automacao": "Acompanhamento da continuacao concluido; nenhuma execucao ou agendamento recorrente ativo",
+  "limite_original_por_geometria": 6,
+  "passes_adicionais_autorizados": 2
 }

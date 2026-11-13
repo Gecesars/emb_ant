@@ -1,0 +1,15 @@
+{
+  "malha_origem_tetraedros": 602282, 
+  "minimum_passes": 8, 
+  "blocos_fisicos_sha256": {
+    "RadField": "93e1900a30fac66e95632be760c186f9a919a2be2ce7a5d385d822dff660c01d", 
+    "GeometryCore": "07fbdf797ed82581acfad993681201010cff346bc4e6aabc4cba53fdcb8083e9", 
+    "MeshSetup": "2cf480e6cedfb0d7a31594414735b04bf1f8dd560538c5a34f253f378664de05", 
+    "Materials": "d2b30813e977d4652c09e2cada27cd9df0bccb41b78c515fd41b1930e015eab1", 
+    "BoundarySetup": "3252318f0f8e4d1f6b4b7948610353688dfb3e3c6a7dbf6713975fcc477ee125"
+  }, 
+  "malha_origem_passes": 6, 
+  "somente_min_max_alterados": true, 
+  "maximum_passes": 8, 
+  "cache_preservado": true
+}
