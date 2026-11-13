@@ -1,0 +1,66 @@
+{
+  "aprovado": true,
+  "referencia": "D:\\dev\\EMBRAER\\P2M19\\R01_16x2_88mm",
+  "casos": [
+    {
+      "caso": "R02_16x2_72mm",
+      "objetos": 329,
+      "corpos_PCB_e_terminais_preservados": 328,
+      "deslocamentos_colunas_Y_mm": [
+        8,
+        -8
+      ],
+      "erro_bbox_mm": 3.552713678800501e-15,
+      "erro_volume_mm3": 5.684341886080802e-14,
+      "refletor_mm": [
+        178.0,
+        776,
+        2
+      ],
+      "altura_pcb_mm": 14.949,
+      "folga_lateral_mm": 2.0,
+      "setup_configuracao_igual_R01": true,
+      "geometria_sha256": "f6042c30b8ae6436dcb719362dff504e7f367254440853589dc50eb2bb968c0b"
+    },
+    {
+      "caso": "R03_72mm_ref162",
+      "objetos": 329,
+      "corpos_PCB_e_terminais_preservados": 328,
+      "deslocamentos_colunas_Y_mm": [
+        8,
+        -8
+      ],
+      "erro_bbox_mm": 3.552713678800501e-15,
+      "erro_volume_mm3": 5.684341886080802e-14,
+      "refletor_mm": [
+        162.0,
+        776,
+        2
+      ],
+      "altura_pcb_mm": 14.949,
+      "folga_lateral_mm": 2.0,
+      "setup_configuracao_igual_R01": true,
+      "geometria_sha256": "f08989d979f447ccba5ef904b7eb2b8ce8a68863baa67375d33c1033a6356895"
+    },
+    {
+      "caso": "R04_72mm_ref146",
+      "objetos": 329,
+      "corpos_PCB_e_terminais_preservados": 328,
+      "deslocamentos_colunas_Y_mm": [
+        8,
+        -8
+      ],
+      "erro_bbox_mm": 3.552713678800501e-15,
+      "erro_volume_mm3": 5.684341886080802e-14,
+      "refletor_mm": [
+        146.0,
+        776,
+        2
+      ],
+      "altura_pcb_mm": 14.949,
+      "folga_lateral_mm": 2.0,
+      "setup_configuracao_igual_R01": true,
+      "geometria_sha256": "54e5d4bac2ad1bb4cfac166461d4169fa8a3d942a5607dd715ef83e175e76c55"
+    }
+  ]
+}

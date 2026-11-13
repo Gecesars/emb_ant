@@ -1,0 +1,26 @@
+{
+  "tipo": "Lote local finito de HFSS, sem agendamento recorrente",
+  "casos": [
+    "R02_16x2_72mm",
+    "R03_72mm_ref162",
+    "R04_72mm_ref146"
+  ],
+  "limite_passes_por_caso": 6,
+  "total_maximo_passes_novos": 18,
+  "frequencia_GHz": 5.17,
+  "nucleos": 14,
+  "delta_s": 0.05,
+  "sweep": false,
+  "placas_preservadas": true,
+  "alteracoes": "Colunas 72 mm; refletor 178, 162 e 146 mm; demais parâmetros iguais.",
+  "resultado_sem_convergencia": "Exploratório; nunca aprovado nem promovido como validado.",
+  "condicoes_interrupcao": [
+    "Erro do solver ou exportação",
+    "Reparo Major",
+    "Balanço de potência inválido",
+    "Passividade ou reciprocidade inválida",
+    "Arquivo PARAR_APOS_CASO"
+  ],
+  "inicio": "2026-11-13T13:10:02.562846-03:00",
+  "controller_pid": 352292
+}

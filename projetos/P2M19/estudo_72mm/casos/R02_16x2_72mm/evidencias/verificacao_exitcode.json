@@ -1,0 +1,32 @@
+﻿[
+    {
+        "mode":  "original",
+        "expected":  0,
+        "observed":  null
+    },
+    {
+        "mode":  "original",
+        "expected":  7,
+        "observed":  null
+    },
+    {
+        "mode":  "corrigido",
+        "expected":  0,
+        "observed":  0
+    },
+    {
+        "mode":  "corrigido",
+        "expected":  7,
+        "observed":  7
+    },
+    {
+        "mode":  "handle_preservado",
+        "expected":  0,
+        "observed":  0
+    },
+    {
+        "mode":  "handle_preservado",
+        "expected":  7,
+        "observed":  7
+    }
+]

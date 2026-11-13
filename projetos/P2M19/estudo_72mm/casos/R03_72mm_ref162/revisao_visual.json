@@ -1,0 +1,27 @@
+{
+  "revisado": true,
+  "em": "2026-11-13T13:50:13.220748-03:00",
+  "observacao": "Cinco imagens revisadas: legendas sem cortes, preliminar explicitamente marcado. Maximos H -0,18/V +0,12 graus. Plano 72 mm/refletor 162 mm e folga 2 mm conferidos.",
+  "imagens": [
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\polar_HV.png",
+      "sha256": "9e8ae2b554ee256d7d8abbecbec6c52bbc775a57abc86145c1c9f851c08f24da"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\comparacao_diagramas.png",
+      "sha256": "15fbaabfa249c1d7c972cca90d8e1e659e2119891743b5f2a705eb5e075afd6c"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\acoplamento_vswr.png",
+      "sha256": "91050db6d9919309ff7f27fbb08a42b6b7ecaeb5bda187ed65565320dfcce7aa"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\montagem_frontal.png",
+      "sha256": "e3fa3ac2fb7707e43dbdd6bacb622dad29256da262fa8afdf79e0a3b358409d2"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\montagem_duas_faces.png",
+      "sha256": "7d06b37e874d0cdd1e684c45ef57664b6cf7813f92d7f37dddff840dd1e4dd35"
+    }
+  ]
+}

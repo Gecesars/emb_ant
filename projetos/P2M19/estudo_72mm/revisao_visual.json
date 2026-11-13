@@ -1,0 +1,75 @@
+{
+  "revisado": true,
+  "em": "2026-11-13T14:30:14.500231-03:00",
+  "observacao": "17 figuras inspecionadas. Quatro curvas identificadas, unidades/normalizacao corretas e sem texto cortado. Tabelas conferidas contra resultado.json. Todos os casos nao convergidos permanecem preliminares.",
+  "imagens": [
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\polar_HV.png",
+      "sha256": "e22bd2b9e1b4b26b99e39d8152b13038f27faf2d881ffb725c4dc0f471a95da9"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\comparacao_diagramas.png",
+      "sha256": "8ac5628cd86ac78b85d26dd663f9e305049f949040108c245adfd8b9f72a4578"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\acoplamento_vswr.png",
+      "sha256": "bf33d39523ddaf2b8761e7eabe501d31348302b563f400a1347d4330bb5a385e"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\montagem_frontal.png",
+      "sha256": "40f6348bf7b97beb8627d0434f3a4082410d6b00a0db99e00e25ad52de3ff831"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\montagem_duas_faces.png",
+      "sha256": "539b1416bdf8532b15f71f8008a5e5449175a15cdfafc74e0aa07fadb94eb5fe"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\polar_HV.png",
+      "sha256": "9e8ae2b554ee256d7d8abbecbec6c52bbc775a57abc86145c1c9f851c08f24da"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\comparacao_diagramas.png",
+      "sha256": "15fbaabfa249c1d7c972cca90d8e1e659e2119891743b5f2a705eb5e075afd6c"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\acoplamento_vswr.png",
+      "sha256": "91050db6d9919309ff7f27fbb08a42b6b7ecaeb5bda187ed65565320dfcce7aa"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\montagem_frontal.png",
+      "sha256": "e3fa3ac2fb7707e43dbdd6bacb622dad29256da262fa8afdf79e0a3b358409d2"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R03_72mm_ref162\\montagem_duas_faces.png",
+      "sha256": "7d06b37e874d0cdd1e684c45ef57664b6cf7813f92d7f37dddff840dd1e4dd35"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\polar_HV.png",
+      "sha256": "5b0bfb1682f811b5f0b2cd351bfb6c2fabcefb092934dac723e925f4c43db967"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\comparacao_diagramas.png",
+      "sha256": "2d81044acbc923a10072c85dc0f643efaeda4b27c077b39db82af026df8567ee"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\acoplamento_vswr.png",
+      "sha256": "dda46d966abcfca826473a7da6ec3456b6fd24c4f1d5fbed06dd53ab184a76fa"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\montagem_frontal.png",
+      "sha256": "98e416ecaf9ec74001d0cf4a431aa5d4f36c8d649bce1902800e69cc66505e79"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\montagem_duas_faces.png",
+      "sha256": "86227063606be9a68cd6018aec3148bd68e0e7328b00f036a29c85e5e748b601"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\Campanha_72mm_20261113\\comparacao_HV.png",
+      "sha256": "21755d3793caad08cb5267982c4fcaade1fea23f442abeef646b2a416dac4d6e"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\Campanha_72mm_20261113\\comparacao_polar_HV.png",
+      "sha256": "6dedcf9ff63f96691442e2d39908eed617e3c88e01477c8285e74c88ab415a23"
+    }
+  ]
+}

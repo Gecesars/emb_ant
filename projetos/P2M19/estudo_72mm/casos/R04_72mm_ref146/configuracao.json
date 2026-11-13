@@ -1,0 +1,312 @@
+{
+  "revisao": "P2M19_R04_72mm_ref146",
+  "native": "P2M19_R04_72mm_ref146.aedt",
+  "design": "P2M19_R04_72mm_ref146",
+  "fonte": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\quatro_elementos_casamento_banda\\c12_raiz_intermediaria",
+  "fontes_sha256": {
+    "geometria.json": "89adc0231bc3f8fa3d9bc110dcfd1d43dbb12f9b8b3872fe34e02c2602cd2995",
+    "4_elementos.FCStd": "e0b189c9d7a29c72ad480d7759cfe38bacbaf40121c87b994c43ff7bb3dcc681",
+    "P2M21_4_elementos.aedt": "f6d74e4d3f362119ad2925db0e876c3a5971e2c8c6a8beb90d86bf4fd1777e60"
+  },
+  "celulas": [
+    {
+      "nome": "C1R1",
+      "coluna": 1,
+      "nivel_placa": 1,
+      "x": -288.0,
+      "y": -36.0,
+      "z": 0
+    },
+    {
+      "nome": "C1R2",
+      "coluna": 1,
+      "nivel_placa": 2,
+      "x": -96.0,
+      "y": -36.0,
+      "z": 0
+    },
+    {
+      "nome": "C1R3",
+      "coluna": 1,
+      "nivel_placa": 3,
+      "x": 96.0,
+      "y": -36.0,
+      "z": 0
+    },
+    {
+      "nome": "C1R4",
+      "coluna": 1,
+      "nivel_placa": 4,
+      "x": 288.0,
+      "y": -36.0,
+      "z": 0
+    },
+    {
+      "nome": "C2R1",
+      "coluna": 2,
+      "nivel_placa": 1,
+      "x": -288.0,
+      "y": 36.0,
+      "z": 0
+    },
+    {
+      "nome": "C2R2",
+      "coluna": 2,
+      "nivel_placa": 2,
+      "x": -96.0,
+      "y": 36.0,
+      "z": 0
+    },
+    {
+      "nome": "C2R3",
+      "coluna": 2,
+      "nivel_placa": 3,
+      "x": 96.0,
+      "y": 36.0,
+      "z": 0
+    },
+    {
+      "nome": "C2R4",
+      "coluna": 2,
+      "nivel_placa": 4,
+      "x": 288.0,
+      "y": 36.0,
+      "z": 0
+    }
+  ],
+  "portas": [
+    {
+      "name": "C1R1_A",
+      "celula": "C1R1",
+      "polarizacao": "A",
+      "x": -285.49083158695936,
+      "y": -68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R1_B",
+      "celula": "C1R1",
+      "polarizacao": "B",
+      "x": -285.49083158695936,
+      "y": -4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R2_A",
+      "celula": "C1R2",
+      "polarizacao": "A",
+      "x": -93.49083158695937,
+      "y": -68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R2_B",
+      "celula": "C1R2",
+      "polarizacao": "B",
+      "x": -93.49083158695937,
+      "y": -4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R3_A",
+      "celula": "C1R3",
+      "polarizacao": "A",
+      "x": 98.50916841304063,
+      "y": -68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R3_B",
+      "celula": "C1R3",
+      "polarizacao": "B",
+      "x": 98.50916841304063,
+      "y": -4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R4_A",
+      "celula": "C1R4",
+      "polarizacao": "A",
+      "x": 290.50916841304064,
+      "y": -68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C1R4_B",
+      "celula": "C1R4",
+      "polarizacao": "B",
+      "x": 290.50916841304064,
+      "y": -4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R1_A",
+      "celula": "C2R1",
+      "polarizacao": "A",
+      "x": -285.49083158695936,
+      "y": 4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R1_B",
+      "celula": "C2R1",
+      "polarizacao": "B",
+      "x": -285.49083158695936,
+      "y": 68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R2_A",
+      "celula": "C2R2",
+      "polarizacao": "A",
+      "x": -93.49083158695937,
+      "y": 4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R2_B",
+      "celula": "C2R2",
+      "polarizacao": "B",
+      "x": -93.49083158695937,
+      "y": 68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R3_A",
+      "celula": "C2R3",
+      "polarizacao": "A",
+      "x": 98.50916841304063,
+      "y": 4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R3_B",
+      "celula": "C2R3",
+      "polarizacao": "B",
+      "x": 98.50916841304063,
+      "y": 68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R4_A",
+      "celula": "C2R4",
+      "polarizacao": "A",
+      "x": 290.50916841304064,
+      "y": 4.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    },
+    {
+      "name": "C2R4_B",
+      "celula": "C2R4",
+      "polarizacao": "B",
+      "x": 290.50916841304064,
+      "y": 68.0,
+      "z": 14.769,
+      "ri": 0.525,
+      "ro": 1.515
+    }
+  ],
+  "niveis_placas": 4,
+  "colunas": 2,
+  "radiadores": 32,
+  "niveis_radiadores": 16,
+  "passo_vertical_radiadores_mm": 48,
+  "passo_vertical_placas_mm": 192,
+  "passo_horizontal_mm": 72.0,
+  "folga_placas_vertical_mm": 8,
+  "folga_placas_horizontal_mm": 2.0,
+  "placa_largura_altura_mm": [
+    70,
+    184
+  ],
+  "envolvente_placas_mm": [
+    142.0,
+    760
+  ],
+  "refletor_mm": [
+    146.0,
+    776,
+    2
+  ],
+  "distancia_face_inferior_laminado_ao_refletor_mm": 14.949,
+  "frequencia_GHz": 5.17,
+  "max_passes": 6,
+  "min_passes": 2,
+  "max_delta_s": 0.05,
+  "passes_consecutivos": 2,
+  "nucleos": 14,
+  "gui": false,
+  "sweep": false,
+  "basis_order": 1,
+  "percent_refinement": 20,
+  "potencia_total_W": 1,
+  "potencia_por_porta_W": 0.0625,
+  "fase_graus": 0,
+  "malha": "Classic automÃ¡tico5, curvilinear; sem operaÃ§Ãµes locais, MeshLink ou LambdaRefine inicial. First Order, adaptaÃ§Ã£o20%.",
+  "cabos_fisicos_com_perdas": false,
+  "comprimento_cabo_mm": 0,
+  "apoios_plasticos": false,
+  "rede_distribuicao_externa": false,
+  "conectores_N": false,
+  "observacao": "Somente5.17GHz, 16 portas diretas iguais/em fase, 1Wtotal; sem rede externa, cabos, N, radome ou suportes plÃ¡sticos. Ganho total, nÃ£o MIMO por entrada.",
+  "referencia_historica": "projetos/P2M19/centro_16x2_88mm",
+  "limites_referencia": "R01 não convergiu; diferenças entre candidatos são preliminares até confirmação.",
+  "monitoramento_estabilidade_campo_dB": 0.1,
+  "monitoramento_campo_nao_altera_parada": true,
+  "cad_native": "P2M19_R04_72mm_ref146.FCStd",
+  "controle_comparacao": "Mesmo CAD C12, materiais, portas, excitação e setup da R01. Apenas passo horizontal e parâmetros do refletor declarados neste caso.",
+  "fonte_referencia_8passes": "D:/dev/EMBRAER/P2M21/R15_Oito_Celulas_8passes",
+  "terminal_local_mm": 0.18,
+  "curvilinear": true,
+  "solver_type": "Direct Solver",
+  "meta_ganho_frontal_dBi": 19,
+  "meta_H_graus": 30,
+  "tolerancia_H_graus": null,
+  "refletor_topo_z_mm": 0.0,
+  "referencia_comparacao": "D:\\dev\\EMBRAER\\P2M19\\R01_16x2_88mm",
+  "alteracoes_vs_R01": {
+    "passo_horizontal_mm": [
+      88,
+      72.0
+    ],
+    "largura_refletor_mm": [
+      178,
+      146.0
+    ],
+    "altura_pcb_ao_refletor_mm": [
+      14.949,
+      14.949
+    ]
+  },
+  "gerador_sha256": "5069a86fddb0692a0e275d7373dabc0e8de75c775f65b69dfd27b030bba1e47c"
+}

@@ -1,0 +1,15 @@
+{
+  "aprovado": true,
+  "objetos": 329,
+  "intersecoes": [],
+  "metodo": "328 solidos e posicoes preservados; somente refletor alterado e verificado contra todos os demais.",
+  "fonte_sem_intersecoes": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\cad\\intersecoes.json",
+  "fonte_auditoria_sha256": "31620a1ff89c170c2141c829ab53556e544159deafb45eb6fe201cff32d8cd2b",
+  "nao_refletor_inalterados": 328,
+  "refletor_mm": [
+    162.0,
+    776,
+    2
+  ],
+  "topo_z_mm": 0.0
+}

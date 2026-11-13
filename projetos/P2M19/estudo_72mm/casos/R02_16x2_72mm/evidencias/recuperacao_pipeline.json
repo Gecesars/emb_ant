@@ -1,0 +1,10 @@
+{
+  "motivo": "Start-Process com WaitForExit retornou ExitCode nulo no wrapper; teste reproduziu null para saidas 0 e 7. A analise havia terminado com sucesso.",
+  "correcao": "Analise usa Start-Process -Wait -PassThru; native preserva Handle. Ambos distinguidos em testes de saida 0 e 7.",
+  "analise_reexecutada": true,
+  "exit_code_real_reexecucao": 0,
+  "novos_passes": 0,
+  "RF_inalterado": true,
+  "delta_s": 0.15613816998242455,
+  "atualizado": "2026-11-13T13:09:44.443051-03:00"
+}

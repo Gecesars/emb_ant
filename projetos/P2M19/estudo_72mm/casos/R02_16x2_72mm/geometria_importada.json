@@ -1,0 +1,1647 @@
+{
+  "C1R4_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995205978649, 
+    "aprovado": true
+  }, 
+  "C1R4_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395251001, 
+    "aprovado": true
+  }, 
+  "C1R3_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922400158696, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922408640356, 
+    "aprovado": true
+  }, 
+  "C1R4_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394344272, 
+    "aprovado": true
+  }, 
+  "C2R1_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038051856355586e-06, 
+    "aprovado": true
+  }, 
+  "C2R4_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051273951378e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393505869, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922396595824, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692237067229, 
+    "aprovado": true
+  }, 
+  "C1R1_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027835501035e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922394886525, 
+    "aprovado": true
+  }, 
+  "C2R1_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3703348343193833e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513867398919786e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922358780261, 
+    "aprovado": true
+  }, 
+  "C2R3_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027765463292e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051281804021e-06, 
+    "aprovado": true
+  }, 
+  "C1R2_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027928884547e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027820040695e-05, 
+    "aprovado": true
+  }, 
+  "C2R1_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027834418774e-05, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922431619414, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922437403199, 
+    "aprovado": true
+  }, 
+  "C2R2_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038052097171106e-06, 
+    "aprovado": true
+  }, 
+  "C2R4_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922408637147, 
+    "aprovado": true
+  }, 
+  "C2R3_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.6666660496156283e-08, 
+    "erro_volume_rel": 4.9141308059881585e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027752785401e-05, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667007621981611e-09, 
+    "erro_volume_rel": 6.3514126587640216e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394842073, 
+    "aprovado": true
+  }, 
+  "C1R1_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.178497655018873e-08, 
+    "erro_volume_rel": 4.9141295015254231e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513870556005974e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922379210252, 
+    "aprovado": true
+  }, 
+  "C2R2_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393951487, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513872714014334e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.6893535442608336e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922385313345, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922359046943, 
+    "aprovado": true
+  }, 
+  "C1R1_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995252294014, 
+    "aprovado": true
+  }, 
+  "C1R3_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027806588771e-05, 
+    "aprovado": true
+  }, 
+  "C2R2_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027914505543e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922387396217, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922444677458, 
+    "aprovado": true
+  }, 
+  "C2R3_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393376047, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514113150982879e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329928990307963e-07, 
+    "erro_volume_rel": 0.00040741995233034621, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922356792886, 
+    "aprovado": true
+  }, 
+  "C2R3_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329919042709662e-07, 
+    "erro_volume_rel": 0.00040741995245151036, 
+    "aprovado": true
+  }, 
+  "C1R1_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051598526831e-06, 
+    "aprovado": true
+  }, 
+  "C1R2_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922408924829, 
+    "aprovado": true
+  }, 
+  "C2R2_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709373153729812e-08, 
+    "aprovado": true
+  }, 
+  "C2R2_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922402629886, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513866120099999e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514110839959627e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.0004074199527581635, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692241392685, 
+    "aprovado": true
+  }, 
+  "C2R2_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 4.914130873129611e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329928990307963e-07, 
+    "erro_volume_rel": 0.00040741995713164137, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922390200961, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239625198, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922358226689, 
+    "aprovado": true
+  }, 
+  "C1R1_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027812155607e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514117241289576e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393973215, 
+    "aprovado": true
+  }, 
+  "C2R4_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393497965, 
+    "aprovado": true
+  }, 
+  "C1R2_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027882346961e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395230857, 
+    "aprovado": true
+  }, 
+  "C2R3_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.1785118658735882e-08, 
+    "erro_volume_rel": 1.5390027923472836e-05, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.351387285388515e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922409111669, 
+    "aprovado": true
+  }, 
+  "C2R4_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027817875353e-05, 
+    "aprovado": true
+  }, 
+  "C2R1_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027765463052e-05, 
+    "aprovado": true
+  }, 
+  "C2R3_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393951487, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692241923338, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922449907682, 
+    "aprovado": true
+  }, 
+  "Refletor_Al2mm": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 2.3961394940763883e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038053289464631e-06, 
+    "aprovado": true
+  }, 
+  "C1R3_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394263716, 
+    "aprovado": true
+  }, 
+  "C1R4_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027854517578e-05, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922413373289, 
+    "aprovado": true
+  }, 
+  "C1R3_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239428386, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.351387481207776e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393973215, 
+    "aprovado": true
+  }, 
+  "C2R1_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038052468862472e-06, 
+    "aprovado": true
+  }, 
+  "C2R4_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051492516863e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393559526, 
+    "aprovado": true
+  }, 
+  "C1R4_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.0004991692239290778, 
+    "aprovado": true
+  }, 
+  "C2R2_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239696107, 
+    "aprovado": true
+  }, 
+  "C2R2_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922398255846, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922389169201, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922356525652, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692243795676, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514103927341373e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329919042709662e-07, 
+    "erro_volume_rel": 0.0004074199569942098, 
+    "aprovado": true
+  }, 
+  "C1R4_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051013505073e-06, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513857987605816e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 6.3703444495674702e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922421695787, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513868677739552e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922400165353, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922327780113, 
+    "aprovado": true
+  }, 
+  "C2R4_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922384438968, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514109449255364e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.1785004971898161e-08, 
+    "erro_volume_rel": 4.9141299059728155e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922404288444, 
+    "aprovado": true
+  }, 
+  "C1R1_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393761015, 
+    "aprovado": true
+  }, 
+  "C2R3_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692240232516, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513858906757488e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027842148895e-05, 
+    "aprovado": true
+  }, 
+  "C2R2_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329928990307963e-07, 
+    "erro_volume_rel": 0.00040741995237372612, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922412552482, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922417916117, 
+    "aprovado": true
+  }, 
+  "C1R1_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051504295002e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513855210169271e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.6666660496156283e-08, 
+    "erro_volume_rel": 1.6893546430394953e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051009578728e-06, 
+    "aprovado": true
+  }, 
+  "C1R4_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027924709864e-05, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667043149118399e-09, 
+    "erro_volume_rel": 6.3514122845009649e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922419691542, 
+    "aprovado": true
+  }, 
+  "C2R4_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.003805216260903e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394399414, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922392185159, 
+    "aprovado": true
+  }, 
+  "C1R3_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393951487, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514118202511618e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.1785118658735882e-08, 
+    "erro_volume_rel": 1.539002800031329e-05, 
+    "aprovado": true
+  }, 
+  "C1R1_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393437554, 
+    "aprovado": true
+  }, 
+  "C1R4_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051881222317e-06, 
+    "aprovado": true
+  }, 
+  "C1R1_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395251001, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.351411407130189e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922432993781, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514101718575728e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922396117441, 
+    "aprovado": true
+  }, 
+  "C2R3_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393356997, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667007621981611e-09, 
+    "erro_volume_rel": 6.3514104397726636e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514120043149618e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922384703503, 
+    "aprovado": true
+  }, 
+  "C2R4_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393908022, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513870116411693e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395210723, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922419424308, 
+    "aprovado": true
+  }, 
+  "C2R2_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394263716, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514111780730153e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393973215, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514124665196123e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922407631777, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513870296245607e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670062955745379e-09, 
+    "erro_volume_rel": 6.3514117732126365e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922383808993, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513863822220844e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922407254236, 
+    "aprovado": true
+  }, 
+  "C1R1_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922357591661, 
+    "aprovado": true
+  }, 
+  "C1R3_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051686214765e-06, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514107649520404e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922416541197, 
+    "aprovado": true
+  }, 
+  "C1R1_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922392738395, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922390754522, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667007621981611e-09, 
+    "erro_volume_rel": 6.3514107956293514e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3703348035656752e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513870615950612e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922411091292, 
+    "aprovado": true
+  }, 
+  "C1R3_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.1785104447881167e-08, 
+    "erro_volume_rel": 1.689355505615743e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667043149118399e-09, 
+    "erro_volume_rel": 6.3514114500784102e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922404517254, 
+    "aprovado": true
+  }, 
+  "C1R2_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395170445, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922403752729, 
+    "aprovado": true
+  }, 
+  "C1R2_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239428386, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513853411829025e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513849335591154e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038053545984611e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1666972094844823e-09, 
+    "erro_volume_rel": 6.3703354687569901e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922368209893, 
+    "aprovado": true
+  }, 
+  "C2R1_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922403120823, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513853391847476e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513860565226908e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051198042386e-06, 
+    "aprovado": true
+  }, 
+  "C2R2_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051883840693e-06, 
+    "aprovado": true
+  }, 
+  "C1R3_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922414627884, 
+    "aprovado": true
+  }, 
+  "C1R1_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922406620541, 
+    "aprovado": true
+  }, 
+  "C1R2_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395742307, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922390812039, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513873293479431e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239696107, 
+    "aprovado": true
+  }, 
+  "C2R1_PTFE_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922396218142, 
+    "aprovado": true
+  }, 
+  "C2R2_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 6.3703432329205145e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670062955745379e-09, 
+    "erro_volume_rel": 6.3513850774263295e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_PTFE_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922392510691, 
+    "aprovado": true
+  }, 
+  "C2R1_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922357313759, 
+    "aprovado": true
+  }, 
+  "C1R3_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.1785118658735882e-08, 
+    "erro_volume_rel": 1.5390027933522394e-05, 
+    "aprovado": true
+  }, 
+  "C2R2_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027852044096e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995753010155, 
+    "aprovado": true
+  }, 
+  "C2R3_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922383730204, 
+    "aprovado": true
+  }, 
+  "C1R2_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922375610408, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922354103046, 
+    "aprovado": true
+  }, 
+  "C1R1_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922400769558, 
+    "aprovado": true
+  }, 
+  "C1R2_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 6.370343008080506e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513864801317144e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995795380245, 
+    "aprovado": true
+  }, 
+  "C1R1_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922396389988, 
+    "aprovado": true
+  }, 
+  "C2R1_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922396491545, 
+    "aprovado": true
+  }, 
+  "C2R1_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922399639732, 
+    "aprovado": true
+  }, 
+  "C2R3_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038051556646864e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513868857573455e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995756020578, 
+    "aprovado": true
+  }, 
+  "C1R1_B_RET_A_Cu0": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 6.3703347033313707e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394612991, 
+    "aprovado": true
+  }, 
+  "C2R3_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709373153729812e-08, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513846178504944e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.539002782328665e-05, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670062955745379e-09, 
+    "erro_volume_rel": 6.3514124603841567e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329928990307963e-07, 
+    "erro_volume_rel": 0.00040741995702375284, 
+    "aprovado": true
+  }, 
+  "C2R3_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.539002783441831e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514112210212364e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239767003, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3514134277416821e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038053875796011e-06, 
+    "aprovado": true
+  }, 
+  "C1R3_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692239916239, 
+    "aprovado": true
+  }, 
+  "C2R4_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394206513, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513856049394755e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667043149118399e-09, 
+    "erro_volume_rel": 6.3514118570639283e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_2": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922397359113, 
+    "aprovado": true
+  }, 
+  "C2R4_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394841162, 
+    "aprovado": true
+  }, 
+  "C2R1_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038052594505755e-06, 
+    "aprovado": true
+  }, 
+  "C1R2_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692238851056, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514101636769646e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922385944459, 
+    "aprovado": true
+  }, 
+  "C1R4_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514110901314194e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514124603841567e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027839056964e-05, 
+    "aprovado": true
+  }, 
+  "C2R2_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027839521311e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_Solda_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692241297015, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E2_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3513866000210733e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514110369574364e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.1785104447881167e-08, 
+    "erro_volume_rel": 1.6893547410197583e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_PTH_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922398706559, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922370002057, 
+    "aprovado": true
+  }, 
+  "C2R3_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 6.3703449197912431e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995259118888, 
+    "aprovado": true
+  }, 
+  "C2R4_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922395865028, 
+    "aprovado": true
+  }, 
+  "C1R2_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.1785104447881167e-08, 
+    "erro_volume_rel": 1.6893545258131119e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.539002790352849e-05, 
+    "aprovado": true
+  }, 
+  "C1R2_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709374083102785e-08, 
+    "aprovado": true
+  }, 
+  "C2R3_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.1785104447881167e-08, 
+    "erro_volume_rel": 1.6893545608060658e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709373153729812e-08, 
+    "aprovado": true
+  }, 
+  "C1R1_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514112639694586e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051437548304e-06, 
+    "aprovado": true
+  }, 
+  "C1R3_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922390142848, 
+    "aprovado": true
+  }, 
+  "C2R1_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.1785104447881167e-08, 
+    "erro_volume_rel": 1.6893534987699967e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.0004991692239290778, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922389020124, 
+    "aprovado": true
+  }, 
+  "C2R1_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.178497655018873e-08, 
+    "erro_volume_rel": 4.9141304974571402e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922391951015, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_6": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395395634, 
+    "aprovado": true
+  }, 
+  "C2R3_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395805863, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E4_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513880846508517e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 4.9141290171477105e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922398141603, 
+    "aprovado": true
+  }, 
+  "C2R4_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709373153729812e-08, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514119041024536e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.1785004971898161e-08, 
+    "erro_volume_rel": 4.9141299587268184e-07, 
+    "aprovado": true
+  }, 
+  "C2R3_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027826688812e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922363951038, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.351386969679894e-07, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E2_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514115114330014e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_SIG_B_Cu4": {
+    "erro_bbox_mm": 4.1329919042709662e-07, 
+    "erro_volume_rel": 0.00040741995242701568, 
+    "aprovado": true
+  }, 
+  "C2R4_B_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027795148145e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 6.3703437453731256e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922480716902, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922474112322, 
+    "aprovado": true
+  }, 
+  "C1R1_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051847194994e-06, 
+    "aprovado": true
+  }, 
+  "C2R2_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3703356453060536e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3703356099962432e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922391364364, 
+    "aprovado": true
+  }, 
+  "C1R2_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038051670510327e-06, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E3_Q3_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3514138429078075e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922405471883, 
+    "aprovado": true
+  }, 
+  "C1R4_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027769947525e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395970987, 
+    "aprovado": true
+  }, 
+  "C1R4_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922394104945, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_3": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922406559924, 
+    "aprovado": true
+  }, 
+  "C1R1_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 6.3703439291256167e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.0004991692239492999, 
+    "aprovado": true
+  }, 
+  "C1R4_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709373153729812e-08, 
+    "aprovado": true
+  }, 
+  "C2R1_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038052459701883e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_F_SIG_B_Cu0": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038051455871141e-06, 
+    "aprovado": true
+  }, 
+  "C1R3_Via_4": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922393236011, 
+    "aprovado": true
+  }, 
+  "C1R4_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3703344607187878e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_B_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027850188542e-05, 
+    "aprovado": true
+  }, 
+  "C2R1_B_E4_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514120533986396e-07, 
+    "aprovado": true
+  }, 
+  "C2R2_B_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.1785118658735882e-08, 
+    "erro_volume_rel": 1.5390027962434194e-05, 
+    "aprovado": true
+  }, 
+  "C1R3_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6666657165487209e-08, 
+    "erro_volume_rel": 6.3703444883723407e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513869297167758e-07, 
+    "aprovado": true
+  }, 
+  "C2R4_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038052186166985e-06, 
+    "aprovado": true
+  }, 
+  "C1R4_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922378997694, 
+    "aprovado": true
+  }, 
+  "C1R2_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027823905848e-05, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922320621961, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E1_Q3_Cu0": {
+    "erro_bbox_mm": 4.1670205064292531e-09, 
+    "erro_volume_rel": 6.3514114030398849e-07, 
+    "aprovado": true
+  }, 
+  "C1R4_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038051975454146e-06, 
+    "aprovado": true
+  }, 
+  "C2R4_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922391364364, 
+    "aprovado": true
+  }, 
+  "C2R2_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922387135184, 
+    "aprovado": true
+  }, 
+  "C2R1_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027869051556e-05, 
+    "aprovado": true
+  }, 
+  "C2R1_Via_5": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922423699349, 
+    "aprovado": true
+  }, 
+  "C1R3_F_SIG_B_Cu2": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038052983211186e-06, 
+    "aprovado": true
+  }, 
+  "C2R2_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.6666700020095959e-08, 
+    "erro_volume_rel": 1.0038053310405038e-06, 
+    "aprovado": true
+  }, 
+  "C1R3_Vivo_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395513812, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513874152686476e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E3_Q2_Cu0": {
+    "erro_bbox_mm": 4.1670062955745379e-09, 
+    "erro_volume_rel": 6.3513856568915214e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393908022, 
+    "aprovado": true
+  }, 
+  "C1R3_Vivo_B": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395818559, 
+    "aprovado": true
+  }, 
+  "C2R1_Blindagem_B": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922394886525, 
+    "aprovado": true
+  }, 
+  "C1R2_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922396254593, 
+    "aprovado": true
+  }, 
+  "C2R1_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709372038482247e-08, 
+    "aprovado": true
+  }, 
+  "C2R2_Via_7": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922395433798, 
+    "aprovado": true
+  }, 
+  "C1R4_B_RET_B_Cu0": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 6.3703437339599242e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_F_SIG_A_Cu0": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 4.9141298755992887e-07, 
+    "aprovado": true
+  }, 
+  "C1R2_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692240810218, 
+    "aprovado": true
+  }, 
+  "C1R3_B_RET_A_Cu0": {
+    "erro_bbox_mm": 4.1666972094844823e-09, 
+    "erro_volume_rel": 6.3703351771662813e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.178509734245381e-08, 
+    "erro_volume_rel": 1.5390027825606551e-05, 
+    "aprovado": true
+  }, 
+  "C2R4_PTH_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922398326232, 
+    "aprovado": true
+  }, 
+  "C1R4_Solda_A": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.0004991692236295689, 
+    "aprovado": true
+  }, 
+  "C1R1_Via_0": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922418202444, 
+    "aprovado": true
+  }, 
+  "C1R3_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1667078676255187e-09, 
+    "erro_volume_rel": 6.3513864841280233e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_F_SIG_B_Cu3": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038052263385581e-06, 
+    "aprovado": true
+  }, 
+  "C2R1_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329900568598532e-07, 
+    "erro_volume_rel": 0.00040741995715819484, 
+    "aprovado": true
+  }, 
+  "C1R4_Via_1": {
+    "erro_bbox_mm": 1.2499999257897798e-08, 
+    "erro_volume_rel": 0.00049916922387241273, 
+    "aprovado": true
+  }, 
+  "C2R2_B_E1_Q2_Cu0": {
+    "erro_bbox_mm": 4.1669920847198227e-09, 
+    "erro_volume_rel": 6.3513864341741303e-07, 
+    "aprovado": true
+  }, 
+  "C1R1_PCB_RO4350B": {
+    "erro_bbox_mm": 1.6667002000758657e-08, 
+    "erro_volume_rel": 3.5709373153729812e-08, 
+    "aprovado": true
+  }, 
+  "C2R2_F_SIG_B_Cu4": {
+    "erro_bbox_mm": 1.1785104447881167e-08, 
+    "erro_volume_rel": 1.6893532888122928e-07, 
+    "aprovado": true
+  }, 
+  "C1R3_B_SIG_A_Cu0": {
+    "erro_bbox_mm": 4.1329919042709662e-07, 
+    "erro_volume_rel": 0.00040741995720493848, 
+    "aprovado": true
+  }, 
+  "C1R2_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.6666703572809638e-08, 
+    "erro_volume_rel": 1.0038053171674844e-06, 
+    "aprovado": true
+  }, 
+  "C2R3_Blindagem_A": {
+    "erro_bbox_mm": 1.1250001463736226e-07, 
+    "erro_volume_rel": 0.00049916922393973215, 
+    "aprovado": true
+  }, 
+  "C2R3_F_SIG_B_Cu1": {
+    "erro_bbox_mm": 1.1785203923864174e-08, 
+    "erro_volume_rel": 1.0038052343220019e-06, 
+    "aprovado": true
+  }
+}

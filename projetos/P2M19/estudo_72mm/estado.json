@@ -1,0 +1,45 @@
+{
+  "estado": "LOTE_CONCLUIDO_REVISADO",
+  "atualizado": "2026-11-13T14:28:07.821227-03:00",
+  "casos": [
+    {
+      "caso": "R02_16x2_72mm",
+      "passes": 6,
+      "delta_s": 0.15613816998242455,
+      "convergiu": false,
+      "ganho_dBi": 19.20930293018343,
+      "H_graus": 24.23807628513379,
+      "V_graus": 3.752048717981172,
+      "SLL_H_dB": -4.865521203054341,
+      "SLL_V_dB": -5.775310846383356,
+      "validado_numericamente": false
+    },
+    {
+      "caso": "R03_72mm_ref162",
+      "passes": 6,
+      "delta_s": 0.116890531425151,
+      "convergiu": false,
+      "ganho_dBi": 19.417974985422003,
+      "H_graus": 23.98861264166008,
+      "V_graus": 3.7645080110053715,
+      "SLL_H_dB": -5.261047194026819,
+      "SLL_V_dB": -5.956614515459201,
+      "validado_numericamente": false
+    },
+    {
+      "caso": "R04_72mm_ref146",
+      "passes": 6,
+      "delta_s": 0.13960010276851664,
+      "convergiu": false,
+      "ganho_dBi": 19.500282197172638,
+      "H_graus": 23.54983240269145,
+      "V_graus": 3.693246026616692,
+      "SLL_H_dB": -5.446880020287281,
+      "SLL_V_dB": -6.239980802478563,
+      "validado_numericamente": false
+    }
+  ],
+  "qualificados": [],
+  "observacao": "Comparacao revisada; nenhum caso RF validado. Fila encerrada sem novos passes ou geometrias.",
+  "revisado": "2026-11-13T14:30:14.500231-03:00"
+}

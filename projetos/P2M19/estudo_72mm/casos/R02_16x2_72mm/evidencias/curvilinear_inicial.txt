@@ -1,0 +1,11 @@
+vcsv::Reporting Details about 1 suspect edges
+vcsv::summary Faces: nplanar= 9292 ncurv= 1216 total= 10508 ndemoted= 1 Percent= 0.082237
+vcsv::summary Edges: nbad   = 1 nwarn= 0 total= 139415.
+vcsv::RSE    1: Severity 4 Description: Crease angle after projection 66.522858 on face 154 of body 153
+vcsv::RSE      Edge [15391 39209] is on 2 bodies, 3 faces
+vcsv::RSE      Pt1    15391 [2.89014831e+02 4.24936080e+00 1.49140000e+01]
+vcsv::RSE      Pt2    39209 [2.89014831e+02 3.83182643e+00 1.49140000e+01]
+vcsv::RSE          FacdId  Ntri   FaceType   BodyType   BodyId
+vcsv::RSE             154     2     curved   nonprior      153
+vcsv::RSE            1630     1     planar   nonprior     1628
+vcsv::RSE            1631     1     curved   nonprior     1628

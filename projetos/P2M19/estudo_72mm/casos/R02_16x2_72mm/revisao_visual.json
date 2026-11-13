@@ -1,0 +1,27 @@
+{
+  "revisado": true,
+  "em": "2026-11-13T13:10:45.425876-03:00",
+  "observacao": "Cinco imagens revisadas: legendas sem cortes, preliminar explicitamente marcado. Polar H evidencia lobos em torno de -42/+44 graus; V estreito e secundarios fortes. Plano 72 mm/178 mm e folga 2 mm conferidos.",
+  "imagens": [
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\polar_HV.png",
+      "sha256": "e22bd2b9e1b4b26b99e39d8152b13038f27faf2d881ffb725c4dc0f471a95da9"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\comparacao_diagramas.png",
+      "sha256": "8ac5628cd86ac78b85d26dd663f9e305049f949040108c245adfd8b9f72a4578"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\acoplamento_vswr.png",
+      "sha256": "bf33d39523ddaf2b8761e7eabe501d31348302b563f400a1347d4330bb5a385e"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\montagem_frontal.png",
+      "sha256": "40f6348bf7b97beb8627d0434f3a4082410d6b00a0db99e00e25ad52de3ff831"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\montagem_duas_faces.png",
+      "sha256": "539b1416bdf8532b15f71f8008a5e5449175a15cdfafc74e0aa07fadb94eb5fe"
+    }
+  ]
+}

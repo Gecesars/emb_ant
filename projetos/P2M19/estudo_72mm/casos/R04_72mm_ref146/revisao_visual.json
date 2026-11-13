@@ -1,0 +1,27 @@
+{
+  "revisado": true,
+  "em": "2026-11-13T14:30:12.330221-03:00",
+  "observacao": "Cinco imagens revisadas: legendas e unidades legiveis, status preliminar explicito. H +0,37/V +0,08 graus; largura 23,55/3,69 graus. Layout 72 mm/refletor 146 mm conferido.",
+  "imagens": [
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\polar_HV.png",
+      "sha256": "5b0bfb1682f811b5f0b2cd351bfb6c2fabcefb092934dac723e925f4c43db967"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\comparacao_diagramas.png",
+      "sha256": "2d81044acbc923a10072c85dc0f643efaeda4b27c077b39db82af026df8567ee"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\acoplamento_vswr.png",
+      "sha256": "dda46d966abcfca826473a7da6ec3456b6fd24c4f1d5fbed06dd53ab184a76fa"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\montagem_frontal.png",
+      "sha256": "98e416ecaf9ec74001d0cf4a431aa5d4f36c8d649bce1902800e69cc66505e79"
+    },
+    {
+      "origem": "D:\\dev\\EMBRAER\\P2M19\\R04_72mm_ref146\\montagem_duas_faces.png",
+      "sha256": "86227063606be9a68cd6018aec3148bd68e0e7328b00f036a29c85e5e748b601"
+    }
+  ]
+}

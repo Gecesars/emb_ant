@@ -1,0 +1,641 @@
+{
+  "frequencia_GHz": 5.17,
+  "radiadores": 32,
+  "celulas": 8,
+  "portas": 16,
+  "potencia_total_W": 1,
+  "potencia_por_porta_W": 0.0625,
+  "fase_graus": 0,
+  "passes": 6,
+  "max_passes": 6,
+  "delta_s": 0.15613816998242455,
+  "alvo_delta_s": 0.05,
+  "consecutivos": 0,
+  "convergiu": false,
+  "nucleos": 14,
+  "solver_efetivo": {
+    "configurado": "Direct Solver",
+    "perfil": "D:\\dev\\EMBRAER\\P2M19\\R02_16x2_72mm\\P2M19_R02_16x2_72mm.aedtresults\\P2M19_R02_16x2_72mm.results\\DV142_S139_V0.profile",
+    "selecao_perfil": "unico_perfil",
+    "avisos_troca_automatica_direto": 0,
+    "aviso": null,
+    "registros_matriz": [
+      {
+        "passe_adaptativo": 1,
+        "nucleos": 14,
+        "grupos": [
+          "Solution Process",
+          "Adaptive Meshing",
+          "Adaptive Pass 1"
+        ],
+        "linha": "ProfileItem('Matrix Solve', 52, 0, 207, 0, 9781524, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 1690766, false, 3, 'Matrix bandwidth', 20.3691, '%5.1f', 1, 'Disk', '6.45 MB')', true, true)"
+      },
+      {
+        "passe_adaptativo": 2,
+        "nucleos": 14,
+        "grupos": [
+          "Solution Process",
+          "Adaptive Meshing",
+          "Adaptive Pass 2"
+        ],
+        "linha": "ProfileItem('Matrix Solve', 62, 0, 276, 0, 12287948, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 1967602, false, 3, 'Matrix bandwidth', 20.5343, '%5.1f', 1, 'Disk', '1.06 MB')', true, true)"
+      },
+      {
+        "passe_adaptativo": 3,
+        "nucleos": 14,
+        "grupos": [
+          "Solution Process",
+          "Adaptive Meshing",
+          "Adaptive Pass 3"
+        ],
+        "linha": "ProfileItem('Matrix Solve', 75, 0, 347, 0, 15003252, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 2292342, false, 3, 'Matrix bandwidth', 20.6673, '%5.1f', 1, 'Disk', '1.24 MB')', true, true)"
+      },
+      {
+        "passe_adaptativo": 4,
+        "nucleos": 14,
+        "grupos": [
+          "Solution Process",
+          "Adaptive Meshing",
+          "Adaptive Pass 4"
+        ],
+        "linha": "ProfileItem('Matrix Solve', 97, 0, 442, 0, 18004716, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 2673478, false, 3, 'Matrix bandwidth', 20.7855, '%5.1f', 1, 'Disk', '1.45 MB')', true, true)"
+      },
+      {
+        "passe_adaptativo": 5,
+        "nucleos": 14,
+        "grupos": [
+          "Solution Process",
+          "Adaptive Meshing",
+          "Adaptive Pass 5"
+        ],
+        "linha": "ProfileItem('Matrix Solve', 118, 0, 533, 0, 21257848, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 3120622, false, 3, 'Matrix bandwidth', 20.8907, '%5.1f', 1, 'Disk', '1.71 MB')', true, true)"
+      },
+      {
+        "passe_adaptativo": 6,
+        "nucleos": 14,
+        "grupos": [
+          "Solution Process",
+          "Adaptive Meshing",
+          "Adaptive Pass 6"
+        ],
+        "linha": "ProfileItem('Matrix Solve', 139, 0, 630, 0, 23970116, 'I(5, 1, 'Type', 'DCS', 2, 'Cores', 14, false, 2, 'Matrix size', 3646324, false, 3, 'Matrix bandwidth', 20.983, '%5.1f', 1, 'Disk', '2.01 MB')', true, true)"
+      }
+    ]
+  },
+  "ordem_portas": [
+    "C1R1_A",
+    "C1R1_B",
+    "C1R2_A",
+    "C1R2_B",
+    "C1R3_A",
+    "C1R3_B",
+    "C1R4_A",
+    "C1R4_B",
+    "C2R1_A",
+    "C2R1_B",
+    "C2R2_A",
+    "C2R2_B",
+    "C2R3_A",
+    "C2R3_B",
+    "C2R4_A",
+    "C2R4_B"
+  ],
+  "VSWR_ativo": [
+    1.4051557197984268,
+    1.6100476165978137,
+    1.3695421063970357,
+    1.738145691625407,
+    1.6001969110051848,
+    1.614093407106381,
+    1.3978123577270156,
+    1.6584987747055606,
+    1.5836316430502786,
+    1.412978558722401,
+    1.7287722774168846,
+    1.6013081334691002,
+    1.494911678692608,
+    1.6646825151997444,
+    1.4768653014445081,
+    1.733180573387359
+  ],
+  "VSWR_casado": [
+    1.0980927003716106,
+    1.4603648361332382,
+    1.0901125483732828,
+    1.6865389396320278,
+    1.1739140684589429,
+    1.4328697396052748,
+    1.114906893017612,
+    1.5766259671805223,
+    1.589986705274652,
+    1.566821955208661,
+    1.3737034840593483,
+    1.2302432824833365,
+    1.3404898856915886,
+    1.3390297052248215,
+    1.366340843587647,
+    1.6517519708809218
+  ],
+  "potencia_aceita_W": 0.9504360383697127,
+  "maior_singular": 0.35468474696560154,
+  "reciprocidade": 9.992505076366969e-16,
+  "major": 0,
+  "minor": 0,
+  "cortes": {
+    "H": {
+      "ganho_frontal_dBi": 19.20930293018343,
+      "pico_graus": 1.0,
+      "ganho_pico_dBi": 19.22643702403049,
+      "abertura_graus": 24.237414359208948,
+      "cruzamentos_graus": [
+        -11.357910424041236,
+        12.879503935167712
+      ],
+      "SLL": {
+        "nivel_dB": -4.865521203054341,
+        "limites_lobo_principal_graus": [
+          -24.0,
+          25.0
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -41.75,
+            "nivel_dB": -5.706573785476378
+          },
+          {
+            "angulo_graus": 43.75,
+            "nivel_dB": -4.865521203054341
+          }
+        ]
+      }
+    },
+    "V": {
+      "ganho_frontal_dBi": 19.209302930183433,
+      "pico_graus": 0.0,
+      "ganho_pico_dBi": 19.209302930183433,
+      "abertura_graus": 3.7470047026242854,
+      "cruzamentos_graus": [
+        -1.8107721960156271,
+        1.9362325066086583
+      ],
+      "SLL": {
+        "nivel_dB": -5.775310846383356,
+        "limites_lobo_principal_graus": [
+          -4.25,
+          4.25
+        ],
+        "lobos": [
+          {
+            "angulo_graus": -63.0,
+            "nivel_dB": -9.297051090106176
+          },
+          {
+            "angulo_graus": -52.5,
+            "nivel_dB": -16.97092441039766
+          },
+          {
+            "angulo_graus": -45.75,
+            "nivel_dB": -16.13861741357638
+          },
+          {
+            "angulo_graus": -37.75,
+            "nivel_dB": -6.185690376441796
+          },
+          {
+            "angulo_graus": -29.75,
+            "nivel_dB": -16.80672620833705
+          },
+          {
+            "angulo_graus": -24.0,
+            "nivel_dB": -17.225950762691248
+          },
+          {
+            "angulo_graus": -18.5,
+            "nivel_dB": -12.82832280338961
+          },
+          {
+            "angulo_graus": -13.75,
+            "nivel_dB": -23.73521073151548
+          },
+          {
+            "angulo_graus": -10.25,
+            "nivel_dB": -23.130572103456903
+          },
+          {
+            "angulo_graus": -6.0,
+            "nivel_dB": -14.40922840456389
+          },
+          {
+            "angulo_graus": 6.25,
+            "nivel_dB": -10.340305834767715
+          },
+          {
+            "angulo_graus": 10.75,
+            "nivel_dB": -13.829709192584264
+          },
+          {
+            "angulo_graus": 17.0,
+            "nivel_dB": -5.775310846383356
+          },
+          {
+            "angulo_graus": 24.75,
+            "nivel_dB": -20.759288493126427
+          },
+          {
+            "angulo_graus": 30.0,
+            "nivel_dB": -24.593062968197945
+          },
+          {
+            "angulo_graus": 36.75,
+            "nivel_dB": -13.698726614770163
+          },
+          {
+            "angulo_graus": 44.5,
+            "nivel_dB": -23.27565122297436
+          },
+          {
+            "angulo_graus": 53.75,
+            "nivel_dB": -20.575513094703144
+          },
+          {
+            "angulo_graus": 65.0,
+            "nivel_dB": -8.6450592005165
+          }
+        ]
+      }
+    }
+  },
+  "grupos_polarizacao": {
+    "A": {
+      "H": {
+        "ganho_frontal_dBi": 18.88065666152451,
+        "pico_graus": 3.0,
+        "ganho_pico_dBi": 19.03919287729324,
+        "abertura_graus": 23.715660130772584,
+        "cruzamentos_graus": [
+          -9.72268876079445,
+          13.992971369978136
+        ],
+        "SLL": {
+          "nivel_dB": -3.448272900829515,
+          "limites_lobo_principal_graus": [
+            -23.5,
+            24.5
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -43.75,
+              "nivel_dB": -4.118455971608615
+            },
+            {
+              "angulo_graus": 42.0,
+              "nivel_dB": -3.448272900829515
+            }
+          ]
+        }
+      },
+      "V": {
+        "ganho_frontal_dBi": 18.8806566615245,
+        "pico_graus": 0.25,
+        "ganho_pico_dBi": 18.901697090130398,
+        "abertura_graus": 3.767098827751294,
+        "cruzamentos_graus": [
+          -1.7290235115801558,
+          2.0380753161711382
+        ],
+        "SLL": {
+          "nivel_dB": -3.673612444438481,
+          "limites_lobo_principal_graus": [
+            -4.25,
+            4.25
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -88.0,
+              "nivel_dB": -24.80470808475978
+            },
+            {
+              "angulo_graus": -63.25,
+              "nivel_dB": -12.013337054498916
+            },
+            {
+              "angulo_graus": -52.25,
+              "nivel_dB": -18.475989870070368
+            },
+            {
+              "angulo_graus": -45.75,
+              "nivel_dB": -15.675594886011625
+            },
+            {
+              "angulo_graus": -37.5,
+              "nivel_dB": -3.673612444438481
+            },
+            {
+              "angulo_graus": -29.75,
+              "nivel_dB": -17.93267488333143
+            },
+            {
+              "angulo_graus": -24.5,
+              "nivel_dB": -16.737389090510863
+            },
+            {
+              "angulo_graus": -18.5,
+              "nivel_dB": -14.361923600466536
+            },
+            {
+              "angulo_graus": -10.25,
+              "nivel_dB": -20.6789109800688
+            },
+            {
+              "angulo_graus": -6.0,
+              "nivel_dB": -14.864277923260332
+            },
+            {
+              "angulo_graus": 6.25,
+              "nivel_dB": -10.846345248208904
+            },
+            {
+              "angulo_graus": 10.75,
+              "nivel_dB": -13.482772437680582
+            },
+            {
+              "angulo_graus": 16.75,
+              "nivel_dB": -7.729450933244397
+            },
+            {
+              "angulo_graus": 24.5,
+              "nivel_dB": -22.140160177679043
+            },
+            {
+              "angulo_graus": 29.5,
+              "nivel_dB": -22.25997724235346
+            },
+            {
+              "angulo_graus": 37.25,
+              "nivel_dB": -7.641374436817149
+            },
+            {
+              "angulo_graus": 45.75,
+              "nivel_dB": -18.692213938427365
+            },
+            {
+              "angulo_graus": 53.0,
+              "nivel_dB": -20.42582459067582
+            },
+            {
+              "angulo_graus": 64.75,
+              "nivel_dB": -11.092776248675229
+            },
+            {
+              "angulo_graus": 88.75,
+              "nivel_dB": -29.37324857671355
+            }
+          ]
+        }
+      }
+    },
+    "B": {
+      "H": {
+        "ganho_frontal_dBi": 18.766389124740183,
+        "pico_graus": -2.75,
+        "ganho_pico_dBi": 18.918612058914135,
+        "abertura_graus": 23.656782228545524,
+        "cruzamentos_graus": [
+          -13.814731376220855,
+          9.84205085232467
+        ],
+        "SLL": {
+          "nivel_dB": -3.323481855254933,
+          "limites_lobo_principal_graus": [
+            -24.0,
+            23.5
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -40.75,
+              "nivel_dB": -3.323481855254933
+            },
+            {
+              "angulo_graus": 44.5,
+              "nivel_dB": -3.4858923424008896
+            }
+          ]
+        }
+      },
+      "V": {
+        "ganho_frontal_dBi": 18.766389124740183,
+        "pico_graus": 0.0,
+        "ganho_pico_dBi": 18.766389124740183,
+        "abertura_graus": 3.7940060700037366,
+        "cruzamentos_graus": [
+          -1.8257279903034487,
+          1.9682780797002877
+        ],
+        "SLL": {
+          "nivel_dB": -4.301620013710576,
+          "limites_lobo_principal_graus": [
+            -4.25,
+            4.25
+          ],
+          "lobos": [
+            {
+              "angulo_graus": -88.25,
+              "nivel_dB": -24.330200459637727
+            },
+            {
+              "angulo_graus": -63.0,
+              "nivel_dB": -11.711552575152606
+            },
+            {
+              "angulo_graus": -52.25,
+              "nivel_dB": -19.20469184792597
+            },
+            {
+              "angulo_graus": -45.75,
+              "nivel_dB": -17.354704300690766
+            },
+            {
+              "angulo_graus": -37.75,
+              "nivel_dB": -4.301620013710576
+            },
+            {
+              "angulo_graus": -30.25,
+              "nivel_dB": -17.49538314159514
+            },
+            {
+              "angulo_graus": -24.25,
+              "nivel_dB": -16.54438191886833
+            },
+            {
+              "angulo_graus": -18.25,
+              "nivel_dB": -15.307785133355482
+            },
+            {
+              "angulo_graus": -10.75,
+              "nivel_dB": -20.373803028120165
+            },
+            {
+              "angulo_graus": -6.0,
+              "nivel_dB": -14.177942568182349
+            },
+            {
+              "angulo_graus": 6.25,
+              "nivel_dB": -10.83504741230323
+            },
+            {
+              "angulo_graus": 10.75,
+              "nivel_dB": -15.142213164490602
+            },
+            {
+              "angulo_graus": 16.75,
+              "nivel_dB": -8.305203352586972
+            },
+            {
+              "angulo_graus": 25.25,
+              "nivel_dB": -22.48040580566445
+            },
+            {
+              "angulo_graus": 30.0,
+              "nivel_dB": -25.13221842804043
+            },
+            {
+              "angulo_graus": 37.5,
+              "nivel_dB": -7.659063570283745
+            },
+            {
+              "angulo_graus": 45.5,
+              "nivel_dB": -17.339622913484387
+            },
+            {
+              "angulo_graus": 53.25,
+              "nivel_dB": -20.72757838456863
+            },
+            {
+              "angulo_graus": 65.0,
+              "nivel_dB": -11.058940421277185
+            },
+            {
+              "angulo_graus": 89.75,
+              "nivel_dB": -29.91643885739036
+            }
+          ]
+        }
+      }
+    }
+  },
+  "recomposicao": {
+    "H": 1.4784047260035108e-15,
+    "V": 1.3775326712060696e-15
+  },
+  "potencia": {
+    "H": {
+      "eficiencia_radiacao": 0.7681614510378403,
+      "eficiencia_total": 0.7300883263527232,
+      "erro_aceita_W": 1.5210055437364645e-14
+    },
+    "V": {
+      "eficiencia_radiacao": 0.7681614510378403,
+      "eficiencia_total": 0.7300883263527232,
+      "erro_aceita_W": 1.5210055437364645e-14
+    }
+  },
+  "historico_cache": [
+    {
+      "passe": 5,
+      "tetraedros": 450252,
+      "delta_s": 0.10247639498502809,
+      "campos_dBi": {
+        "P2M19_Campo_00": 18.3879347545137,
+        "P2M19_Campo_01": 15.7577473815509,
+        "P2M19_Campo_02": 16.9162100468393,
+        "P2M19_Campo_03": 10.7076677644554,
+        "P2M19_Campo_04": 12.3396805863625,
+        "P2M19_Campo_05": 15.6380165695016,
+        "P2M19_Campo_06": 16.0415818495814,
+        "P2M19_Campo_07": 2.27982655257079,
+        "P2M19_Campo_08": -3.82023496792126
+      },
+      "delta_campo_max_dB": 2.0746676108004003
+    },
+    {
+      "passe": 6,
+      "tetraedros": 529059,
+      "delta_s": 0.15613816998242455,
+      "campos_dBi": {
+        "P2M19_Campo_00": 19.2093029301834,
+        "P2M19_Campo_01": 16.9224168905999,
+        "P2M19_Campo_02": 17.6217344334015,
+        "P2M19_Campo_03": 11.0965516223887,
+        "P2M19_Campo_04": 12.8677237675513,
+        "P2M19_Campo_05": 16.4236659558481,
+        "P2M19_Campo_06": 16.8375250416658,
+        "P2M19_Campo_07": 2.58506875916023,
+        "P2M19_Campo_08": -4.18276424328364
+      },
+      "delta_campo_max_dB": 1.164669509049002
+    }
+  ],
+  "fisica_ok": true,
+  "metas": {
+    "ganho_total_19dBi": true,
+    "desvio_H_para_30_graus": -5.762585640791052,
+    "apontamento_H": false,
+    "apontamento_V": true
+  },
+  "limite_monitoramento_campo_dB": 0.1,
+  "cache_confere_fontes_finais": true,
+  "estavel_nove_sondas": false,
+  "balanco_potencia_valido": true,
+  "balanco_potencia": {
+    "incidente_W": 1.0,
+    "refletida_W": 0.04956396163028731,
+    "aceita_W": 0.950436038369713,
+    "radiada_W": 0.730088326352722,
+    "dissipada_W": 0.220347712016991
+  },
+  "avisos_solver_matricial": [],
+  "cortes_finos": {
+    "H": {
+      "passo_graus": 0.05,
+      "pico_grade_graus": 1.0,
+      "pico_interpolado_graus": 0.992127573806315,
+      "abertura_graus": 24.23807628513379,
+      "cruzamentos_graus": [
+        -11.35819911248571,
+        12.87987717264808
+      ]
+    },
+    "V": {
+      "passo_graus": 0.05,
+      "pico_grade_graus": 0.100000000000001,
+      "pico_interpolado_graus": 0.08256121700088058,
+      "abertura_graus": 3.752048717981172,
+      "cruzamentos_graus": [
+        -1.8130909299701505,
+        1.9389577880110216
+      ]
+    }
+  },
+  "consistencia_contextos": {
+    "H": {
+      "diferenca_frontal_dB": 2.7510317774925852e-05,
+      "limite_dB": 0.001
+    },
+    "V": {
+      "diferenca_frontal_dB": 2.7510317767820425e-05,
+      "limite_dB": 0.001
+    }
+  },
+  "validado_numericamente": false,
+  "qualificacao_mimo_por_entrada": false,
+  "escopo": "Somente5.17GHz, 16 portas diretas iguais/em fase, 1Wtotal; sem rede externa, cabos, N, radome ou suportes plÃƒÆ’Ã‚Â¡sticos. Ganho total, nÃƒÆ’Ã‚Â£o MIMO por entrada.",
+  "geometria": {
+    "passo_horizontal_mm": 72.0,
+    "passo_vertical_mm": 48,
+    "refletor_mm": [
+      178.0,
+      776,
+      2
+    ]
+  }
+}

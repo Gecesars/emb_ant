@@ -1,0 +1,23 @@
+vcsv::Reporting Details about 3 suspect edges
+vcsv::summary Faces: nplanar= 9292 ncurv= 1216 total= 10508 ndemoted= 1 Percent= 0.082237
+vcsv::summary Edges: nbad   = 3 nwarn= 0 total= 145247.
+vcsv::RSE    1: Severity 4 Description: Crease angle after projection 79.447229 on face 430 of body 429
+vcsv::RSE      Edge [20853 7202] is on 2 bodies, 3 faces
+vcsv::RSE      Pt1    20853 [-9.49851690e+01 -6.82493608e+01 1.49140000e+01]
+vcsv::RSE      Pt2     7202 [-9.48232343e+01 -6.87210603e+01 1.49140000e+01]
+vcsv::RSE          FacdId  Ntri   FaceType   BodyType   BodyId
+vcsv::RSE             430     2     curved   nonprior      429
+vcsv::RSE            2902     1     planar   nonprior     2900
+vcsv::RSE            2903     1     curved   nonprior     2900
+vcsv::RSE    2: Severity 4 Description: Crease angle after projection 63.828113 on face 430 of body 429
+vcsv::RSE      Edge [7202 39929] is on 1 bodies, 1 faces
+vcsv::RSE      Pt1     7202 [-9.48232343e+01 -6.87210603e+01 1.49140000e+01]
+vcsv::RSE      Pt2    39929 [-9.48459052e+01 -6.86550224e+01 1.49189000e+01]
+vcsv::RSE          FacdId  Ntri   FaceType   BodyType   BodyId
+vcsv::RSE             430     2     curved   nonprior      429
+vcsv::RSE    3: Severity 4 Description: Crease angle after projection 63.547054 on face 430 of body 429
+vcsv::RSE      Edge [39929 20853] is on 1 bodies, 1 faces
+vcsv::RSE      Pt1    39929 [-9.48459052e+01 -6.86550224e+01 1.49189000e+01]
+vcsv::RSE      Pt2    20853 [-9.49851690e+01 -6.82493608e+01 1.49140000e+01]
+vcsv::RSE          FacdId  Ntri   FaceType   BodyType   BodyId
+vcsv::RSE             430     2     curved   nonprior      429
