@@ -1,0 +1,32 @@
+{
+  "IncidentPower": {
+    "units": "", 
+    "real": [
+      1.0
+    ]
+  }, 
+  "AcceptedPower": {
+    "units": "", 
+    "real": [
+      0.94929526417139398
+    ]
+  }, 
+  "RadiatedPower": {
+    "units": "", 
+    "real": [
+      0.73041227518441698
+    ]
+  }, 
+  "SystemEfficiency": {
+    "units": "", 
+    "real": [
+      0.73041227518441698
+    ]
+  }, 
+  "RadiationEfficiency": {
+    "units": "", 
+    "real": [
+      0.76942580749306499
+    ]
+  }
+}

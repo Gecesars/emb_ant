@@ -1,0 +1,27 @@
+{
+  "revisado_em": "2026-11-13T12:05:00.933801",
+  "status": "PRELIMINAR_NAO_CONVERGIDO",
+  "observacao": "Cinco imagens inspecionadas; figuras RF legíveis e identificadas como preliminares. Lóbulos laterais fortes preservados nos gráficos.",
+  "imagens": [
+    {
+      "arquivo": "polar_HV.png",
+      "sha256": "c552e0680b9bcbb5968f3c430ab458dc97426b9f94120c27bd9663f4736d4638"
+    },
+    {
+      "arquivo": "comparacao_diagramas.png",
+      "sha256": "7ebd65ea7186d928364b99005d605cb448e13bea5a140d8434033498d3df513f"
+    },
+    {
+      "arquivo": "acoplamento_vswr.png",
+      "sha256": "73a5be5d00be7ab842fdc29016b5fa17a0e6b4c3880aa5b430d268de4c6b7191"
+    },
+    {
+      "arquivo": "montagem_frontal.png",
+      "sha256": "9be458b2c5b9e2c24f753d70e283ff72afb5e7278d9ef35bed046a9479f69f2d"
+    },
+    {
+      "arquivo": "montagem_duas_faces.png",
+      "sha256": "740aafda387510f5fb8f23b9d1ffd2a1c0ec20553396e99f5e276cca83c0e5ae"
+    }
+  ]
+}

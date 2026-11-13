@@ -51,3 +51,5 @@ projetos/P2S13/mecanica_R17/** -text whitespace=-blank-at-eol,-blank-at-eof
 projetos/P2S13/comparacao_refletor_R17/** -text whitespace=-blank-at-eol,-blank-at-eof
 projetos/P2S13/mecanica_R17/**/*.step -diff
 projetos/P2S13/mecanica_R17/**/*.stp -diff
+# P2M19: preservar exatamente o pacote e os hashes de engenharia.
+projetos/P2M19/centro_16x2_88mm/** -text whitespace=-blank-at-eol,-blank-at-eof

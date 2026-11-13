@@ -1,0 +1,18 @@
+{
+  "motivo": "Diferença de 0,0000561464 dB entre esferas HV e Centro_fino excedeu o assert inicial de 1e-7 dB.",
+  "alteracao": "Conferência entre relatórios passou a 0,001 dB, com diferenças registradas em resultado.json.",
+  "criterio_RF_delta_s": 0.05,
+  "criterio_RF_alterado": false,
+  "novos_passes": 0,
+  "contextos": {
+    "H": {
+      "diferenca_frontal_dB": 5.6146441757221055e-05,
+      "limite_dB": 0.001
+    },
+    "V": {
+      "diferenca_frontal_dB": 5.6146441757221055e-05,
+      "limite_dB": 0.001
+    }
+  },
+  "analise_reexecutada": true
+}

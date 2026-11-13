@@ -1,0 +1,155 @@
+{
+  "estado": "ESTIMATIVA_INICIAL_NAO_SIMULADA",
+  "data": "2026-11-13",
+  "frequencia_GHz": 5.17,
+  "comprimento_onda_mm": 57.98693578336557,
+  "fontes": [
+    {
+      "path": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\quatro_elementos_casamento_banda\\c12_raiz_intermediaria\\AB_H.csv",
+      "sha256": "d623d13f6aece935f7738ca0af83c6f46fb5b76a7df440139dde355771310fa3"
+    },
+    {
+      "path": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\quatro_elementos_casamento_banda\\c12_raiz_intermediaria\\AB_V.csv",
+      "sha256": "8cd0ca59f5bcccf890d28af866a85e70066f907eda1eaeb9389a8dc823871475"
+    },
+    {
+      "path": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\quatro_elementos_casamento_banda\\c12_raiz_intermediaria\\resultado.json",
+      "sha256": "c99aa29c4c94d79616aa52a7b279db64e65142b8daf93210412b945487ca6b77"
+    },
+    {
+      "path": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\comparacao_colunas_niveis\\R15_Oito_Celulas_8passes\\resultado.json",
+      "sha256": "7dfe9625b4ffe860b0814e437b7e037dbe004f1804631c9163af32a45da3cd89"
+    },
+    {
+      "path": "D:\\dev\\EMBRAER\\emb_ant\\projetos\\P2M21\\comparacao_colunas_niveis\\R16_Oito_Celulas_78mm\\resultado.json",
+      "sha256": "5f9dae4923b1fc9bfeea1fff9e55819fe6213c4ccebbf88684abeb2a02014e3b"
+    }
+  ],
+  "meta": {
+    "ganho_frontal_total_dBi": 19,
+    "H_graus": 20,
+    "V_desejavel_graus": 20
+  },
+  "excitacao": "Todas as entradas das células iguais e em fase; 1 W incidente total. Não é ganho MIMO por entrada.",
+  "referencia": [
+    {
+      "passes": 8,
+      "convergiu": false,
+      "delta_s": 0.05001532690640461,
+      "G": 19.846869644445047,
+      "H": 24.35128924228745,
+      "V": 3.7484035050432007
+    },
+    {
+      "passes": 6,
+      "convergiu": false,
+      "delta_s": 0.10314416451674145,
+      "G": 19.47983143000513,
+      "H": 22.956932627440395,
+      "V": 3.7124672450748424
+    }
+  ],
+  "niveis": [
+    {
+      "niveis": 4,
+      "colunas": 2,
+      "radiadores": 8,
+      "placas": 2,
+      "ganho_estimado_min_dBi": 13.459231516725506,
+      "ganho_estimado_max_dBi": 13.826269731165421,
+      "largura_vertical_estimada_graus": 15.18375692817641,
+      "altura_envelope_pcbs_mm": 184
+    },
+    {
+      "niveis": 8,
+      "colunas": 2,
+      "radiadores": 16,
+      "placas": 4,
+      "ganho_estimado_min_dBi": 16.46953147336532,
+      "ganho_estimado_max_dBi": 16.836569687805234,
+      "largura_vertical_estimada_graus": 7.629906899250594,
+      "altura_envelope_pcbs_mm": 376
+    },
+    {
+      "niveis": 12,
+      "colunas": 2,
+      "radiadores": 24,
+      "placas": 6,
+      "ganho_estimado_min_dBi": 18.230444063922132,
+      "ganho_estimado_max_dBi": 18.597482278362047,
+      "largura_vertical_estimada_graus": 5.0947395173809085,
+      "altura_envelope_pcbs_mm": 568
+    },
+    {
+      "niveis": 16,
+      "colunas": 2,
+      "radiadores": 32,
+      "placas": 8,
+      "ganho_estimado_min_dBi": 19.47983143000513,
+      "ganho_estimado_max_dBi": 19.846869644445047,
+      "largura_vertical_estimada_graus": 3.823311450997628,
+      "altura_envelope_pcbs_mm": 760
+    },
+    {
+      "niveis": 20,
+      "colunas": 2,
+      "radiadores": 40,
+      "placas": 10,
+      "ganho_estimado_min_dBi": 20.448931560085697,
+      "ganho_estimado_max_dBi": 20.815969774525612,
+      "largura_vertical_estimada_graus": 3.0595216826634464,
+      "altura_envelope_pcbs_mm": 952
+    }
+  ],
+  "horizontal": [
+    {
+      "passo_mm": 72.0,
+      "abertura_graus": 22.32652771648531,
+      "maximo_graus": 0.060000000000002274,
+      "lobulo_lateral_dB": -5.433407464550824,
+      "lobulo_lateral_graus": 42.96000000000001,
+      "replica_fator_arranjo_graus": 53.646400451669344
+    },
+    {
+      "passo_mm": 78.0,
+      "abertura_graus": 20.706766830678195,
+      "maximo_graus": 0.04999999999999716,
+      "lobulo_lateral_dB": -4.5391597195256415,
+      "lobulo_lateral_graus": 40.30500000000001,
+      "replica_fator_arranjo_graus": 48.02376086838371
+    },
+    {
+      "passo_mm": 80.91135836347426,
+      "abertura_graus": 20.000000000000007,
+      "maximo_graus": 0.04999999999999716,
+      "lobulo_lateral_dB": -4.177174842655482,
+      "lobulo_lateral_graus": 39.10499999999999,
+      "replica_fator_arranjo_graus": 45.780424965971555
+    }
+  ],
+  "extrapolacao_passo_horizontal_mm": [
+    87.66464127223483,
+    89.53203724701754
+  ],
+  "advertencia_horizontal": "O fator de arranjo prevê 22,33/20,71 graus a 72/78 mm, enquanto os painéis HFSS preliminares deram 24,35/22,96. Portanto 80,91 mm não é dimensão validada. A extrapolação inversa das larguras HFSS aponta 87,7–89,5 mm; usar 88 mm apenas como candidato inicial, acompanhado de controle dos lóbulos laterais.",
+  "metodo_ganho": "G_ref + 10 log10(N/16), nas geometrias horizontais de referência de 72/78 mm. Intervalo entre duas referências preliminares, não intervalo de confiança. Não transfere o ganho para a nova separação horizontal.",
+  "metodo_cortes": "Padrão C12 + fator de arranjo normalizado. Cópias idênticas, sem novo acoplamento. Vertical usa centros das células a 192 mm. Horizontal usa duas colunas. Interpolação não aumenta a resolução física de 0,25 grau da fonte.",
+  "limites": "Ganhos R15/R16 não convergidos. Incluem divisores locais e cabos de 50 mm originais; excluem futura distribuição externa, radome e tolerâncias. Novo espaçamento e refletor requerem HFSS. Nenhum solve executado.",
+  "candidato": {
+    "niveis": 16,
+    "colunas": 2,
+    "placas": 8,
+    "passo_vertical_mm": 48,
+    "distancia_pcb_refletor_mm": 14.949,
+    "passo_horizontal_exploratorio_mm": 88,
+    "passos_horizontais_a_comparar_mm": [
+      84,
+      88,
+      92
+    ],
+    "entrada_por_polarizacao": 1,
+    "externas": 2,
+    "conexoes_celulas": 16,
+    "distribuicao_proposta": "Uma rede simétrica 1:8 por polarização: raiz 1:2 central e 1:4 por coluna. Caminhos elétricos iguais; perdas e casamento ainda não dimensionados."
+  }
+}

@@ -1,0 +1,392 @@
+[
+  {
+    "arquivo": "RELATORIO.md",
+    "bytes": 5221,
+    "sha256": "d71efc43ae677edac6e70cfcf0566c155195189556d648f7a5135f262c244e3f"
+  },
+  {
+    "arquivo": "configuracao.json",
+    "bytes": 6958,
+    "sha256": "15500188a6f6500f3dcc4b0b3135d0a249c6c05dbf42f25ce09d4d8e9a6b44d8"
+  },
+  {
+    "arquivo": "resultado.json",
+    "bytes": 18200,
+    "sha256": "b26d01f80e174e6ec29d06adbb1f84ed15e0e52d679e6e33b13c648b22dd86be"
+  },
+  {
+    "arquivo": "qualificacao.json",
+    "bytes": 189,
+    "sha256": "b1bec095a94bb3827a4b2826614bf5516dd4e614d8626e3c778485c574d03303"
+  },
+  {
+    "arquivo": "P2M19_16x2_88mm.aedt",
+    "bytes": 57078271,
+    "sha256": "17c3c5a2833dd5b0f071ee983c8d2d0d2d1a3508e0ee4faa9e0281a866d15087"
+  },
+  {
+    "arquivo": "P2M19_16x2_88mm.FCStd",
+    "bytes": 3473168,
+    "sha256": "5addf0437e68c89b77d7fec5d39cc21bff952f33cf62a9c769eff3d0e79840d4"
+  },
+  {
+    "arquivo": "centro.s16p",
+    "bytes": 14411,
+    "sha256": "1c1a02119f14f75186512925dd79bf6e2ce229ac9a49f6027e0e5dee41fae434"
+  },
+  {
+    "arquivo": "convergencia.txt",
+    "bytes": 620,
+    "sha256": "5d5a21093f12bbb7972cba9825b62716fa4e6f54aff370a4c5eb34f0d9de14d0"
+  },
+  {
+    "arquivo": "mensagens.json",
+    "bytes": 349,
+    "sha256": "f4ea73a30905e20ace955322679c4017e644ad4996c18c552ce06991cca07c3c"
+  },
+  {
+    "arquivo": "ordem_fontes.json",
+    "bytes": 226,
+    "sha256": "03611c4c49c066bb4c374c21d2d8f314ba422eba7b1eb17cf07fa35fb8391276"
+  },
+  {
+    "arquivo": "HFSS_14nucleos.acf",
+    "bytes": 998,
+    "sha256": "05b22166510b3bab67d4d7d571e635c261259fa915d0ea257123214cc494935d"
+  },
+  {
+    "arquivo": "malha.json",
+    "bytes": 48164,
+    "sha256": "279b7786699a92f50624fe569df73d5f06daf47a774a1f57aec0478aacda0af9"
+  },
+  {
+    "arquivo": "historico_passes.json",
+    "bytes": 3719,
+    "sha256": "597dfe28e4e0c8a113ad305e461bc46d38751500f2b0cdb5f32eb8fa60b858b1"
+  },
+  {
+    "arquivo": "recursos_matriz.json",
+    "bytes": 2346,
+    "sha256": "297d0905a181557868672b4ddd41ee2a69f2e68c4adfa00eb2282e5fafe4c61e"
+  },
+  {
+    "arquivo": "solver_efetivo.json",
+    "bytes": 2753,
+    "sha256": "7fa457a51ac35b2e57627df80eeefcabcb2a50d83d55d59cd21d9ab5574f0d95"
+  },
+  {
+    "arquivo": "potencia.json",
+    "bytes": 480,
+    "sha256": "921ce4bc2cb115983a9bd0ba2204e1dd68576c7d06fa83afdcf337f6286dfae0"
+  },
+  {
+    "arquivo": "hfss_validacao.json",
+    "bytes": 307,
+    "sha256": "9bd2746d489dbb8efe4e7cbfa17cc98203a63806092b236cb3faf9f1c406cbcb"
+  },
+  {
+    "arquivo": "geometria_importada.json",
+    "bytes": 48245,
+    "sha256": "995d07c0f7233fddec4f13c80cceec5bea1f52a035b53713a5625a21588cd852"
+  },
+  {
+    "arquivo": "polar_HV.png",
+    "bytes": 231740,
+    "sha256": "c552e0680b9bcbb5968f3c430ab458dc97426b9f94120c27bd9663f4736d4638"
+  },
+  {
+    "arquivo": "comparacao_diagramas.png",
+    "bytes": 237334,
+    "sha256": "7ebd65ea7186d928364b99005d605cb448e13bea5a140d8434033498d3df513f"
+  },
+  {
+    "arquivo": "acoplamento_vswr.png",
+    "bytes": 98604,
+    "sha256": "73a5be5d00be7ab842fdc29016b5fa17a0e6b4c3880aa5b430d268de4c6b7191"
+  },
+  {
+    "arquivo": "comparacao.csv",
+    "bytes": 244,
+    "sha256": "a6f65c308444926dd483495efd40262bfb7bdb17fbcc8aecea2299659d147b02"
+  },
+  {
+    "arquivo": "montagem_frontal.png",
+    "bytes": 115323,
+    "sha256": "9be458b2c5b9e2c24f753d70e283ff72afb5e7278d9ef35bed046a9479f69f2d"
+  },
+  {
+    "arquivo": "montagem_duas_faces.png",
+    "bytes": 196125,
+    "sha256": "740aafda387510f5fb8f23b9d1ffd2a1c0ec20553396e99f5e276cca83c0e5ae"
+  },
+  {
+    "arquivo": "evidencias/curvilinear_inicial.txt",
+    "bytes": 771,
+    "sha256": "7c644a659f0c488006e21158f8905e325daafe6bb426cb618349a5818d4e5e28"
+  },
+  {
+    "arquivo": "pipeline.json",
+    "bytes": 266,
+    "sha256": "5d3646900696dd5a0efa9c88af20bd69b7a3cb841d1f5880fa8063e7c09decb5"
+  },
+  {
+    "arquivo": "revisao_visual.json",
+    "bytes": 977,
+    "sha256": "41c4da963d9beb7d1eeaccad7c47d1103ebb3d2916db504aea47622e3f6482b2"
+  },
+  {
+    "arquivo": "evidencias/pipeline_analise_original.json",
+    "bytes": 185,
+    "sha256": "6917bd41ad5e2fffcd818a59ea93a4f43deba1589ba28891652bc76c111be0c4"
+  },
+  {
+    "arquivo": "evidencias/recuperacao_analise.json",
+    "bytes": 580,
+    "sha256": "da916400b9a5bc17b91ec3d8910b55e79400d9189b3ae909aa5ee0279796adf3"
+  },
+  {
+    "arquivo": "ALL_H.csv",
+    "bytes": 197518,
+    "sha256": "3c9cb17e9bbd0ab096ca60fb938137f5afb8e60db743f024cd6e32a91186e3bd"
+  },
+  {
+    "arquivo": "ALL_H_fino.csv",
+    "bytes": 82351,
+    "sha256": "3ab38e2159e70b91b06ef66c06bdca029d725c008ffddec31e92b1c457eb657f"
+  },
+  {
+    "arquivo": "ALL_Potencia.csv",
+    "bytes": 508348,
+    "sha256": "10643504fdfcab49f1f179d831ed43e8cc76f3f8b60cfc6fce7abbb473f65038"
+  },
+  {
+    "arquivo": "ALL_V.csv",
+    "bytes": 196934,
+    "sha256": "55f6b6e85807adcd5c0e96fb54b7e2a7a8573954be88e7164395f97d500e24a1"
+  },
+  {
+    "arquivo": "ALL_V_fino.csv",
+    "bytes": 80749,
+    "sha256": "1b4064dc1125e77a1c32c06a24cd229a8169b919bdf090e6c7d6aa02db15b271"
+  },
+  {
+    "arquivo": "C1R1_A_H.csv",
+    "bytes": 197095,
+    "sha256": "3ebc0f6f3f813c74678a5d7c6a41f4d9a4348d28b16b13ade83c2b397a622ff2"
+  },
+  {
+    "arquivo": "C1R1_A_V.csv",
+    "bytes": 196754,
+    "sha256": "da277f6e558de130958e4b3bd12046b005a11616e8054d341b3a3986661ea93d"
+  },
+  {
+    "arquivo": "C1R1_B_H.csv",
+    "bytes": 197537,
+    "sha256": "b91f6cb5ea009185764fef1a0a5f27d6a972e8c180e8d95bd84306c4e18f4731"
+  },
+  {
+    "arquivo": "C1R1_B_V.csv",
+    "bytes": 197096,
+    "sha256": "99f2668bd4228e265220d705c1c1c3f6f402766941b65fb6849db9470d41ae70"
+  },
+  {
+    "arquivo": "C1R2_A_H.csv",
+    "bytes": 196955,
+    "sha256": "48b448890653ea7cd8c93ca9046ecc461ac3b98de25510a6a408c4866e401fc7"
+  },
+  {
+    "arquivo": "C1R2_A_V.csv",
+    "bytes": 196925,
+    "sha256": "c8404e48cf388bccf8df632d76997f0308a942b36d006e4c3758411a63233f00"
+  },
+  {
+    "arquivo": "C1R2_B_H.csv",
+    "bytes": 197303,
+    "sha256": "98e9ac8739ea237f5e4dd2c19adb3411ad26fc01d8bd3c4288b453ccf0f6006e"
+  },
+  {
+    "arquivo": "C1R2_B_V.csv",
+    "bytes": 196756,
+    "sha256": "561d703647a6bee57656a533ae7691268c8301ac4a0389b3b796191c27a96c7d"
+  },
+  {
+    "arquivo": "C1R3_A_H.csv",
+    "bytes": 197065,
+    "sha256": "d7ccce5fe702e110da80284ab01fabe5b216f2f38513ed4190fced1fe2ca7d11"
+  },
+  {
+    "arquivo": "C1R3_A_V.csv",
+    "bytes": 197046,
+    "sha256": "86702686b66d1aaaccf259742d1a4b0837fd872edeb82a8ae0238a27c5fd747f"
+  },
+  {
+    "arquivo": "C1R3_B_H.csv",
+    "bytes": 197390,
+    "sha256": "e9a907aa6ec2dfa8fc63e52cf29f7e4d780ed57f590836b6283a8cb6f457da1a"
+  },
+  {
+    "arquivo": "C1R3_B_V.csv",
+    "bytes": 197036,
+    "sha256": "19f1c3d00c7b261a759e9120900771a98224fafdcdda9fef1defb30410a9d835"
+  },
+  {
+    "arquivo": "C1R4_A_H.csv",
+    "bytes": 197095,
+    "sha256": "4e3e572e1b4664b8695155b6dcffc80afe47ae90bc5eb3713e4c5512e5d0caa1"
+  },
+  {
+    "arquivo": "C1R4_A_V.csv",
+    "bytes": 196690,
+    "sha256": "29743d820120145b73ef72eae1a15ccef8ce8e4264769cf7b9bfd16838a95e5e"
+  },
+  {
+    "arquivo": "C1R4_B_H.csv",
+    "bytes": 197427,
+    "sha256": "01cf0ed119b00f1733886cfdb810fc75e289b291fec484fc74408dfb5e0b4712"
+  },
+  {
+    "arquivo": "C1R4_B_V.csv",
+    "bytes": 197205,
+    "sha256": "2e3bb3859e2cc9c7b17175e94f1534f31016c246c2e975dbd27bd2f54ee1318b"
+  },
+  {
+    "arquivo": "C2R1_A_H.csv",
+    "bytes": 197499,
+    "sha256": "97897d71901f4cb0b1cfe829252e5d0459902b3718304be059b22203019d94f7"
+  },
+  {
+    "arquivo": "C2R1_A_V.csv",
+    "bytes": 196761,
+    "sha256": "b07c44732d2e57f1c2c02ae46b32f354ffde2a945f066750e42d0f7d922afd31"
+  },
+  {
+    "arquivo": "C2R1_B_H.csv",
+    "bytes": 197798,
+    "sha256": "c04e6db6630c46f7f30bd4bad1221cbd68263b2576a16a99655c65dee8e85cd9"
+  },
+  {
+    "arquivo": "C2R1_B_V.csv",
+    "bytes": 196762,
+    "sha256": "603b72ff15b2ee88898449518334822215a22312a0c56f2b4d5797b993b9afea"
+  },
+  {
+    "arquivo": "C2R2_A_H.csv",
+    "bytes": 197382,
+    "sha256": "41f0766cfbbfb136697fce535574155d938cb706786e854ddbcce2da692b37f7"
+  },
+  {
+    "arquivo": "C2R2_A_V.csv",
+    "bytes": 197380,
+    "sha256": "95dec2156877cf5602b297b0e897189db45cbd895143f70d4d672ef9bd990335"
+  },
+  {
+    "arquivo": "C2R2_B_H.csv",
+    "bytes": 197788,
+    "sha256": "3a92708bc5adf92fc416e6ead8f03cbe898fc447309f233e12f25e85d592e369"
+  },
+  {
+    "arquivo": "C2R2_B_V.csv",
+    "bytes": 196913,
+    "sha256": "c213b8a6beb1245f2e04ccdf8ec947f23803db2f4d94d9daebf05185289e2417"
+  },
+  {
+    "arquivo": "C2R3_A_H.csv",
+    "bytes": 197567,
+    "sha256": "f10a0a0af1a161073fd03e150327bdfc265f006146a38c05b04c8651a272cd68"
+  },
+  {
+    "arquivo": "C2R3_A_V.csv",
+    "bytes": 197083,
+    "sha256": "88abfb2a6d3712f906ea1fb6d1fc28de894a549c0ce2b7a6373aee08a466fe57"
+  },
+  {
+    "arquivo": "C2R3_B_H.csv",
+    "bytes": 197820,
+    "sha256": "9275bdf5cb098f50bb21d0e48354fb49d56226274c5ad027f73d5bab2504aff6"
+  },
+  {
+    "arquivo": "C2R3_B_V.csv",
+    "bytes": 196943,
+    "sha256": "682bd443877f7e56ec5782286a4e8b005970c4dfdac88b2cffdfe824685f6270"
+  },
+  {
+    "arquivo": "C2R4_A_H.csv",
+    "bytes": 197500,
+    "sha256": "8e85bae14001684a4e7bb408f12ea5af030e5669c0d8e65e83eec47bd1690eae"
+  },
+  {
+    "arquivo": "C2R4_A_V.csv",
+    "bytes": 196561,
+    "sha256": "2dc281ae2ab81ab87e78071e0f5170de0106a793ca58584953b8eac5b37acb31"
+  },
+  {
+    "arquivo": "C2R4_B_H.csv",
+    "bytes": 198027,
+    "sha256": "ef86b1e3696ed7dd4f0a6eb5de79ec3b8b96ac8264b6c388ae757d800ddcfa9d"
+  },
+  {
+    "arquivo": "C2R4_B_V.csv",
+    "bytes": 196849,
+    "sha256": "013d93475cccff5b2399d3c1716bc0616bb14e4335aed5f5a5781c00c3c4205b"
+  },
+  {
+    "arquivo": "POL_A_H.csv",
+    "bytes": 197075,
+    "sha256": "8ef76a0f05edf8810c93617141ed5da831ae6f2cd9195700bbcef119beb8fbc9"
+  },
+  {
+    "arquivo": "POL_A_V.csv",
+    "bytes": 197005,
+    "sha256": "fbaf37693cc9bc7a436eff99c4453e64fa06bdea4943676cd6dc1e708bf5a849"
+  },
+  {
+    "arquivo": "POL_B_H.csv",
+    "bytes": 197569,
+    "sha256": "172ef20f531b17f9837c5f7d094b8f4772ca05ce1c0062520748f0455a5991ac"
+  },
+  {
+    "arquivo": "POL_B_V.csv",
+    "bytes": 196685,
+    "sha256": "849866f74df6a0cfcc730202c598ef20dbb78e0de5f29f4c1d2921b151b3d19e"
+  },
+  {
+    "arquivo": "cad/manifesto.json",
+    "bytes": 10660,
+    "sha256": "5eba21d4bfc629db54400bfa74dda9354fda113e1a52db883023e1ca728ac911"
+  },
+  {
+    "arquivo": "cad/folhas_solidas.json",
+    "bytes": 18261,
+    "sha256": "d7bbc28155c306ac6faed2e9c378ad8a75ca509508809fb46356821eb5ad471e"
+  },
+  {
+    "arquivo": "cad/portas.json",
+    "bytes": 2909,
+    "sha256": "b6fa6d1e2460c7494be07f9786e032a363e6939aada8f4f3e6d60209bdf6b223"
+  },
+  {
+    "arquivo": "cad/intersecoes.json",
+    "bytes": 47830,
+    "sha256": "3a92589709bf30c4e078d6fcb3942c66f3385722d0e896beeb47b762b58ec406"
+  },
+  {
+    "arquivo": "cad/reabertura.json",
+    "bytes": 131,
+    "sha256": "d074367556fdaeed229f2fbcaa67c5135208e23b84d65c6b38a5ebff7feb9cb4"
+  },
+  {
+    "arquivo": "cad/contatos_portas.json",
+    "bytes": 2803,
+    "sha256": "fb991920162263e4aa9689f2c2d02a8bf60483315b572239b65e22c075a35c08"
+  },
+  {
+    "arquivo": "cad/geometria_esperada.json",
+    "bytes": 69663,
+    "sha256": "ecfd5fff11104b26c9c5497c60a25081f1c24fadd53d75dedf084c2e25d42393"
+  },
+  {
+    "arquivo": "cad/enig_hfss.json",
+    "bytes": 269895,
+    "sha256": "32d77045807b4e469ce8b1fe809a9fe88e0fe0de01918eee5ada923427f36467"
+  }
+]
