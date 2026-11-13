@@ -1,0 +1,20 @@
+{
+  "data": "2026-11-13",
+  "orientacao_usuario": "o diagrama horizontal pode ficar próximo de 30 graus",
+  "ganho_frontal_realizado_total_min_dBi": 19,
+  "abertura_horizontal_proxima_30_graus_aceitavel": true,
+  "tolerancia_horizontal_numerica_definida": false,
+  "niveis_verticais": 16,
+  "colunas": 2,
+  "frequencia_GHz": 5.17,
+  "fontes": "Iguais e em fase",
+  "nucleos": 14,
+  "limite_passes": 6,
+  "delta_s_alvo": 0.05,
+  "sweep": false,
+  "rodada_concluida": "R01_16x2_88mm",
+  "espacamento_efetivamente_simulado_mm": 88,
+  "candidato_futuro_proposto_mm": 72,
+  "candidato_futuro_simulado_nesta_versao": false,
+  "observacao": "Os resultados da R01 permanecem preliminares e nao convergidos. A flexibilizacao da abertura nao equivale a validar ganho, casamento ou lobulos."
+}
