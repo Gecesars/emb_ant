@@ -1,0 +1,6 @@
+{
+  "ProcessId": 424588,
+  "ParentProcessId": 424332,
+  "CreationDate": "2026-11-14T13:40:53.556436-03:00",
+  "CommandLine": "424332_0 424332_1 \"C:\\Users\\geral\\AppData\\Local\\Temp\\hfss_RF01_424332.pjt/\" \"-exedir 'C:/Program Files/AnsysEM/v242/Win64/'  -solve_adapt 11 -freq 5170000000 -max_processors 14 -save_fields -numParallelGroups 1 -solve_frequency_sweep\""
+}

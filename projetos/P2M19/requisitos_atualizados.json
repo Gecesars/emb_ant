@@ -1,6 +1,6 @@
 {
   "data": "2026-11-14",
-  "orientacao_usuario": "Continuar a versao de 72 mm com refletor 146 mm por mais dois passes (9 e 10), preservando a malha, 14 nucleos, 16 entradas iguais/em fase e 5,17 GHz sem sweep. Conferir DeltaS <=0,05, ganho, VSWR e H/V.",
+  "orientacao_usuario": "Executar somente os passes 11 e 12, preservando a malha de 72 mm / refletor 146 mm, 14 nucleos, 16 entradas iguais/em fase, 5,17 GHz sem sweep; conferir estabilidade do ganho, H/V e VSWR.",
   "ganho_frontal_realizado_total_min_dBi": 19,
   "abertura_horizontal_proxima_30_graus_aceitavel": true,
   "tolerancia_horizontal_numerica_definida": false,
@@ -9,18 +9,19 @@
   "frequencia_GHz": 5.17,
   "fontes": "Iguais e em fase",
   "nucleos": 14,
-  "limite_passes": 10,
+  "limite_passes": 12,
   "delta_s_alvo": 0.05,
   "sweep": false,
-  "observacao": "Dez passes totais. DeltaS 9/10 = 0,02161726/0,02450976, convergencia S confirmada por dois passes. Ganho 20,39075 dBi, H 22,76093 graus, V 3,76793 graus, VSWR ativo 1,05404 a 1,22092. Balanco de potencia valido, zero Major/Minor. Estabilidade das nove sondas ainda nao confirmada: variacao maxima 0,4632 dB no ultimo passe, ganho frontal +0,1222 dB. Sem qualificacao de banda ou ganho por entrada MIMO.",
-  "orientacao_anterior_abertura": "o diagrama horizontal pode ficar prÃ³ximo de 30 graus",
+  "observacao": "Doze passes totais; DeltaS 11/12=0,01913621/0,01426822. G=20,47487 dBi; H/V=22,68259/3,77794 graus; VSWR ativo=1,00921 a 1,17386; casado maximo=1,30123. Entre 11/12, DeltaG=+0,024813 dB, DeltaH=-0,063387 grau, DeltaV=+0,004367 grau. Balanco valido, zero Major/Minor. Criterio de campo 0,1 dB em nove sondas por dois passes ainda nao atendido; nenhuma qualificacao de banda ou MIMO por entrada.",
+  "orientacao_anterior_abertura": "o diagrama horizontal pode ficar próximo de 30 graus",
   "rodadas_concluidas": [
     "R01_16x2_88mm",
     "R02_16x2_72mm",
     "R03_72mm_ref162",
     "R04_72mm_ref146",
     "R05_72mm_ref146_8passes",
-    "R06_72mm_ref146_10passes"
+    "R06_72mm_ref146_10passes",
+    "R07_72mm_ref146_12passes"
   ],
   "espacamentos_efetivamente_simulados_mm": [
     88,
@@ -32,8 +33,8 @@
     146
   ],
   "todos_casos_convergidos": false,
-  "estado": "CONTINUACAO_10PASSES_DELTA_S_ATENDIDO_CAMPO_PENDENTE",
-  "automacao": "Acompanhamento dos passes 9/10 concluido; nenhuma execucao ou agendamento recorrente ativo",
+  "estado": "CONTINUACAO_12PASSES_DELTA_S_ATENDIDO_CAMPO_COMPLETO_PENDENTE",
+  "automacao": "Acompanhamento dos passes 11/12 concluido; nenhum solver desta tarefa ou agendamento recorrente ativo",
   "limite_original_por_geometria": 6,
   "passes_adicionais_autorizados": 2,
   "continuacao_atual_convergiu": true

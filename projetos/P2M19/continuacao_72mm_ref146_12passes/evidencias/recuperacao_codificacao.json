@@ -1,0 +1,37 @@
+{
+  "causa": "Erro de codificacao ao serializar configuracao no IronPython apos exportar passe 11; nenhum erro RF",
+  "passe11_preservado": true,
+  "passe12_ainda_nao_executado": false,
+  "nativo_passe11_sha256": "91dfadf35d06b9531a56da3ee35053316759cb143c9352cf299506e9ac6f892b",
+  "script_interrompido_sha256": "a00cec8951e5ea3417c8e49627e9233a13a3d41f7f71e0d03f4c1053c82c3170",
+  "historico_final": {
+    "passe": 11,
+    "tetraedros": 1377459,
+    "delta_s": 0.01913620726115643,
+    "campos_dBi": {
+      "P2M19_Campo_00": 20.4500542785026,
+      "P2M19_Campo_01": 18.1081691807938,
+      "P2M19_Campo_02": 18.2672380677404,
+      "P2M19_Campo_03": 13.6093871856491,
+      "P2M19_Campo_04": 13.7712434677172,
+      "P2M19_Campo_05": 17.8310124617027,
+      "P2M19_Campo_06": 17.9669635108958,
+      "P2M19_Campo_07": 3.0341064293666,
+      "P2M19_Campo_08": -9.77886515184968
+    },
+    "delta_campo_max_dB": 0.510311509764021
+  },
+  "estado": "PASSE12_CONCLUIDO_SEM_REPETIR_PASSE11",
+  "segunda_guarda_hash": "Leitura de bytes .NET, sem conversao Unicode",
+  "tentativa_hash_interrompida_antes_solver": true,
+  "registros_erros": {
+    "falha_original.json": {
+      "erro": "Traceback (most recent call last):\n  File \"D:/dev/EMBRAER/P2M19/R07_72mm_ref146_12passes/scripts/resolver.py\", line 81, in <module>\n    write('passe11/configuracao.json',cp_cfg)\n  File \"D:/dev/EMBRAER/P2M19/R07_72mm_ref146_12passes/scripts/resolver.py\", line 10, in write\n    with open(os.path.join(root,n),'w') as f:json.dump(v,f,indent=2)\n  File \"C:\\Program Files\\AnsysEM\\v242\\Win64\\common\\IronPython\\Lib\\json\\__init__.py\", line 181, in dump\n    for chunk in iterable:\n  File \"C:\\Program Files\\AnsysEM\\v242\\Win64\\common\\IronPython\\Lib\\json\\encoder.py\", line 428, in _iterencode\n    for chunk in _iterencode_dict(o, _current_indent_level):\n  File \"C:\\Program Files\\AnsysEM\\v242\\Win64\\common\\IronPython\\Lib\\json\\encoder.py\", line 384, in _iterencode_dict\n    yield _encoder(value)\n  File \"C:\\Program Files\\AnsysEM\\v242\\Win64\\common\\IronPython\\Lib\\json\\encoder.py\", line 48, in py_encode_basestring_ascii\n    s = s.decode('utf-8')\nUnicodeEncodeError: ('unknown', '\\x00', 0, 1, '')\n"
+    },
+    "falha_hash_native.json": {
+      "erro": "Traceback (most recent call last):\n  File \"D:/dev/EMBRAER/P2M19/R07_72mm_ref146_12passes/scripts/resolver_passe12.py\", line 25, in <module>\n    assert hashlib.sha256(before12).hexdigest()==snapshot['nativo_sha256']\nUnicodeEncodeError: ('unknown', '\\x00', 0, 1, '')\n"
+    }
+  },
+  "resolver_ativo_sha256": "2f16c6dd1f4bb352f7236102d3d0071fcb29d77d156025b29111e430d0fb6cb7",
+  "cadeia_historica_1_a_12_verificada": true
+}

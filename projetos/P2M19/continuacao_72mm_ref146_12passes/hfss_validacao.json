@@ -1,0 +1,10 @@
+{
+  "validacao": 1, 
+  "erros": [], 
+  "modo": "8 celulas C12, 16x2 radiadores; 16 portas iguais, terminais locais0.18mm e refletor comum; sem cabos ou rede externa", 
+  "max_passes": 6, 
+  "modelo": "P2M19_R04_72mm_ref146", 
+  "max_delta_s": 0.050000000000000003, 
+  "simulado": false, 
+  "portas": 16
+}

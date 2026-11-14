@@ -1,0 +1,25 @@
+{
+  "revisado": true,
+  "data": "2026-11-14T14:31:15.597242",
+  "imagens": [
+    "polar_HV.png",
+    "comparacao_diagramas.png",
+    "acoplamento_vswr.png",
+    "historico_convergencia.png",
+    "estabilidade_HV_10_11_12.png"
+  ],
+  "sha256": {
+    "polar_HV.png": "38a4a638664deceecfab997aa7a616b4cfa27fdec4e57a4d2f2d578de6244f87",
+    "comparacao_diagramas.png": "48fd703df6bd6c3a284c5d69912a1da8e1c1c90f6c21b7d3df2ba227178972c1",
+    "acoplamento_vswr.png": "d3e14030e94f380f7195718bc8e3bd4ab3ce27db22c2783306e865f18275e37a",
+    "historico_convergencia.png": "8fe96ddd70a7ced987b08f193f24b004b2896089db93d580d6f8f37da0b9ed17",
+    "estabilidade_HV_10_11_12.png": "1971206b4e280c840e9d00f90ec8fae2b2c4d086d5edf105d12f466e7d46ed04"
+  },
+  "verificacoes": [
+    "Titulos, escalas, legendas e unidades legiveis, sem cortes",
+    "Polar E/Emax H e V, zero frontal e resultados corretos",
+    "Comparacoes 10/11/12 e grafico de VSWR coerentes com CSV/JSON",
+    "Ressalva da estabilidade completa de campo indicada"
+  ],
+  "resultado": "aprovada a apresentacao; convergencia S atendida, criterio completo de campo nao atendido"
+}
