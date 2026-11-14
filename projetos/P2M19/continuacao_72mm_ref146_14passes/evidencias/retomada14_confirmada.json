@@ -1,0 +1,26 @@
+{
+  "nativo_anterior_sha256": "9f0336dd673691089fc5743574d1fc018cfd8d868752afd3a447ec535dca7dd8", 
+  "passes_preservados": 13, 
+  "blocos_preservados": [
+    "GeometryCore", 
+    "Materials", 
+    "BoundarySetup", 
+    "MeshSetup", 
+    "RadField"
+  ], 
+  "minimum_passes": 14, 
+  "somente_min_max_alterados": true, 
+  "trace_ids_preservados": [
+    "145", 
+    "146", 
+    "147", 
+    "148", 
+    "149", 
+    "150", 
+    "151", 
+    "152", 
+    "153"
+  ], 
+  "nativo_configurado_sha256": "ddb16617ce362797de33c5f8e136688ac429bf05bb29c82c0d9592d05e3bc9ec", 
+  "maximum_passes": 14
+}

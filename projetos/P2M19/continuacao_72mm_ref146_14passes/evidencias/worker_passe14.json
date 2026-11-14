@@ -1,0 +1,7 @@
+{
+  "ProcessId": 427032,
+  "ParentProcessId": 421724,
+  "Name": "hf3d.exe",
+  "CommandLine": "421724_0 421724_1 \"C:\\Users\\geral\\AppData\\Local\\Temp\\hfss_RF01_421724.pjt/\" \"-exedir 'C:/Program Files/AnsysEM/v242/Win64/'  -solve_adapt 14 -freq 5170000000 -max_processors 14 -save_fields -numParallelGroups 1 -solve_frequency_sweep\"",
+  "CreationDate": "2026-11-14T15:06:39.805836-03:00"
+}

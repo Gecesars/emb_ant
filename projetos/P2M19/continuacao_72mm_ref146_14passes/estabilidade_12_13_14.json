@@ -1,0 +1,248 @@
+{
+  "casos": [
+    {
+      "passe": 12,
+      "delta_s": 0.01426822020053586,
+      "ganho_frontal_dBi": 20.47486753297588,
+      "H_graus": 22.682593318356187,
+      "V_graus": 3.7779389423316694,
+      "pico_H_graus": 0.1440621061685375,
+      "pico_V_graus": 0.03902029116246765,
+      "SLL_H_dB": -4.90665626580798,
+      "SLL_V_dB": -8.42194980744989,
+      "VSWR_ativo_min": 1.009214461958131,
+      "VSWR_ativo_max": 1.173863503668609,
+      "VSWR_casado_max": 1.3012257848085187
+    },
+    {
+      "passe": 13,
+      "delta_s": 0.010744277572321282,
+      "ganho_frontal_dBi": 20.504075590510364,
+      "H_graus": 22.58960517358402,
+      "V_graus": 3.7816991768462866,
+      "pico_H_graus": 0.19284948072987054,
+      "pico_V_graus": 0.04936005516540713,
+      "SLL_H_dB": -4.940087353320523,
+      "SLL_V_dB": -8.721791783685479,
+      "VSWR_ativo_min": 1.0185474734309476,
+      "VSWR_ativo_max": 1.1739554297550854,
+      "VSWR_casado_max": 1.3165260460329833
+    },
+    {
+      "passe": 14,
+      "delta_s": 0.01048444580807996,
+      "ganho_frontal_dBi": 20.544040492811696,
+      "H_graus": 22.491047181581433,
+      "V_graus": 3.783220942377872,
+      "pico_H_graus": 0.1876822194460691,
+      "pico_V_graus": 0.047560913681330315,
+      "SLL_H_dB": -4.951599926612753,
+      "SLL_V_dB": -8.948741425344322,
+      "VSWR_ativo_min": 1.0330466614361977,
+      "VSWR_ativo_max": 1.1816777894746233,
+      "VSWR_casado_max": 1.3159835249048795
+    }
+  ],
+  "comparacoes": [
+    {
+      "de": 12,
+      "para": 13,
+      "diferencas": {
+        "ganho_frontal_dBi": 0.029208057534486187,
+        "H_graus": -0.09298814477216766,
+        "V_graus": 0.0037602345146172667,
+        "pico_H_graus": 0.04878737456133303,
+        "pico_V_graus": 0.010339764002939483,
+        "SLL_H_dB": -0.0334310875125432,
+        "SLL_V_dB": -0.29984197623558906,
+        "VSWR_ativo_min": 0.009333011472816732,
+        "VSWR_ativo_max": 9.192608647645706e-05,
+        "VSWR_casado_max": 0.015300261224464595
+      },
+      "diagramas": {
+        "H": {
+          "max_diferenca_E_Emax": 0.004633158796812142,
+          "rms_diferenca_E_Emax": 0.002076218226486812,
+          "max_diferenca_normalizada_dB_acima_menos20": 0.35172249702680247
+        },
+        "V": {
+          "max_diferenca_E_Emax": 0.014357105262709946,
+          "rms_diferenca_E_Emax": 0.00370210946469488,
+          "max_diferenca_normalizada_dB_acima_menos20": 0.5359613923088311
+        }
+      },
+      "variacao_max_VSWR_ativo_por_porta": 0.02514751012732419
+    },
+    {
+      "de": 13,
+      "para": 14,
+      "diferencas": {
+        "ganho_frontal_dBi": 0.03996490230133176,
+        "H_graus": -0.0985579920025863,
+        "V_graus": 0.0015217655315855616,
+        "pico_H_graus": -0.005167261283801433,
+        "pico_V_graus": -0.0017991414840768175,
+        "SLL_H_dB": -0.011512573292229433,
+        "SLL_V_dB": -0.2269496416588428,
+        "VSWR_ativo_min": 0.014499188005250074,
+        "VSWR_ativo_max": 0.007722359719537941,
+        "VSWR_casado_max": -0.0005425211281038234
+      },
+      "diagramas": {
+        "H": {
+          "max_diferenca_E_Emax": 0.0035316017080906925,
+          "rms_diferenca_E_Emax": 0.0014348777144985896,
+          "max_diferenca_normalizada_dB_acima_menos20": 0.24814363412870577
+        },
+        "V": {
+          "max_diferenca_E_Emax": 0.010062056025953225,
+          "rms_diferenca_E_Emax": 0.002941825079411833,
+          "max_diferenca_normalizada_dB_acima_menos20": 0.4378710758513371
+        }
+      },
+      "variacao_max_VSWR_ativo_por_porta": 0.032368665576716804
+    },
+    {
+      "de": 12,
+      "para": 14,
+      "diferencas": {
+        "ganho_frontal_dBi": 0.06917295983581795,
+        "H_graus": -0.19154613677475396,
+        "V_graus": 0.005282000046202828,
+        "pico_H_graus": 0.0436201132775316,
+        "pico_V_graus": 0.008540622518862666,
+        "SLL_H_dB": -0.044943660804772634,
+        "SLL_V_dB": -0.5267916178944319,
+        "VSWR_ativo_min": 0.023832199478066807,
+        "VSWR_ativo_max": 0.007814285806014398,
+        "VSWR_casado_max": 0.014757740096360772
+      },
+      "diagramas": {
+        "H": {
+          "max_diferenca_E_Emax": 0.007878346944530712,
+          "rms_diferenca_E_Emax": 0.0030272027609789813,
+          "max_diferenca_normalizada_dB_acima_menos20": 0.5353444692665192
+        },
+        "V": {
+          "max_diferenca_E_Emax": 0.024415644173053475,
+          "rms_diferenca_E_Emax": 0.006348798478965502,
+          "max_diferenca_normalizada_dB_acima_menos20": 0.9659288898139238
+        }
+      },
+      "variacao_max_VSWR_ativo_por_porta": 0.057302734487210794
+    }
+  ],
+  "criterio_monitoramento_sondas_dB": 0.1,
+  "criterio_sondas_dois_passes_atendido": false,
+  "nota": "Diferencas completas dos diagramas sao diagnosticos, sem tolerancia adicional inventada. E/Emax normalizado por corte no hemisferio frontal; diferencas em dB excluem pontos abaixo de -20 dB em qualquer um dos diagramas para nao amplificar nulos.",
+  "sondas_monitoradas": [
+    {
+      "nome": "P2M19_Campo_00",
+      "theta_graus": 0,
+      "phi_graus": 90,
+      "ganho_dBi_12_13_14": [
+        20.4748675329759,
+        20.5040755905104,
+        20.5440404928117
+      ],
+      "delta_12_13_dB": 0.029208057534500398,
+      "delta_13_14_dB": 0.03996490230129979
+    },
+    {
+      "nome": "P2M19_Campo_01",
+      "theta_graus": -10,
+      "phi_graus": 90,
+      "ganho_dBi_12_13_14": [
+        18.1470556884363,
+        18.1344049557581,
+        18.1563809386649
+      ],
+      "delta_12_13_dB": -0.012650732678199716,
+      "delta_13_14_dB": 0.02197598290679892
+    },
+    {
+      "nome": "P2M19_Campo_02",
+      "theta_graus": 10,
+      "phi_graus": 90,
+      "ganho_dBi_12_13_14": [
+        18.2493207505938,
+        18.2790047043189,
+        18.2914053594839
+      ],
+      "delta_12_13_dB": 0.02968395372510102,
+      "delta_13_14_dB": 0.012400655164999108
+    },
+    {
+      "nome": "P2M19_Campo_03",
+      "theta_graus": -54,
+      "phi_graus": 90,
+      "ganho_dBi_12_13_14": [
+        13.7034130566316,
+        13.7696733931056,
+        13.7964330469714
+      ],
+      "delta_12_13_dB": 0.06626033647400043,
+      "delta_13_14_dB": 0.026759653865799038
+    },
+    {
+      "nome": "P2M19_Campo_04",
+      "theta_graus": 54,
+      "phi_graus": 90,
+      "ganho_dBi_12_13_14": [
+        13.8769507947954,
+        13.9226866017765,
+        13.9607195869298
+      ],
+      "delta_12_13_dB": 0.04573580698109936,
+      "delta_13_14_dB": 0.03803298515330056
+    },
+    {
+      "nome": "P2M19_Campo_05",
+      "theta_graus": -1.75,
+      "phi_graus": 0,
+      "ganho_dBi_12_13_14": [
+        17.8391027994305,
+        17.8424956582508,
+        17.8904393159552
+      ],
+      "delta_12_13_dB": 0.003392858820301825,
+      "delta_13_14_dB": 0.04794365770439768
+    },
+    {
+      "nome": "P2M19_Campo_06",
+      "theta_graus": 1.75,
+      "phi_graus": 0,
+      "ganho_dBi_12_13_14": [
+        18.021740026938,
+        18.0880966140588,
+        18.1244486083489
+      ],
+      "delta_12_13_dB": 0.06635658712079717,
+      "delta_13_14_dB": 0.03635199429010072
+    },
+    {
+      "nome": "P2M19_Campo_07",
+      "theta_graus": -45,
+      "phi_graus": 0,
+      "ganho_dBi_12_13_14": [
+        3.13601990242453,
+        3.0334099535521,
+        2.93695069262135
+      ],
+      "delta_12_13_dB": -0.10260994887242969,
+      "delta_13_14_dB": -0.09645926093075019
+    },
+    {
+      "nome": "P2M19_Campo_08",
+      "theta_graus": 45,
+      "phi_graus": 0,
+      "ganho_dBi_12_13_14": [
+        -10.1540721629779,
+        -10.2073763195718,
+        -10.0253080796563
+      ],
+      "delta_12_13_dB": -0.05330415659389942,
+      "delta_13_14_dB": 0.18206823991550003
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "revisado": true,
+  "data": "2026-11-14T15:40:30.170014",
+  "imagens": [
+    "polar_HV.png",
+    "comparacao_diagramas.png",
+    "acoplamento_vswr.png",
+    "historico_convergencia.png",
+    "estabilidade_HV_12_13_14.png"
+  ],
+  "sha256": {
+    "polar_HV.png": "56f0dad434b6f8698cb3941647395f92117d7299de772189a926c565fd9803c1",
+    "comparacao_diagramas.png": "c3488bde4448b9e014e25c7322f5b03a22c506b467e8d359dd8d3bebda3309cf",
+    "acoplamento_vswr.png": "6e835a22c017ca945fdfd2f03f9e0eee44cc081a63a2fd0c4aeaf21d34c0b251",
+    "historico_convergencia.png": "1ae7abc0c93d0c347d284c8b518ce68f92b99b5f23c79c2fe365cd5bfb754f27",
+    "estabilidade_HV_12_13_14.png": "a46eb367b95703529836ca48b89440d4d4cb6ef083ae06fdb635497db8c8d9f9"
+  },
+  "verificacoes": [
+    "Titulos, eixos, unidades e legendas legiveis, sem cortes",
+    "Diagramas polares E/Emax com zero frontal e H/V corretos",
+    "Sobreposicao dos passes 12/13/14 e VSWR coerentes com CSV/JSON",
+    "Convergencia S e ressalva de estabilidade completa de campo claramente separadas"
+  ],
+  "resultado": "Apresentacao aprovada; criterio S atendido; nove sondas ainda nao estaveis em 0,1 dB por dois passes"
+}
