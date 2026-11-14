@@ -1,6 +1,6 @@
 {
-  "data": "2026-11-13",
-  "orientacao_usuario": "Continuar somente a versao de 72 mm com refletor 146 mm por mais dois passes, preservando a malha, 14 nucleos, 16 entradas iguais/em fase e 5,17 GHz sem sweep. Conferir DeltaS <=0,05, ganho, VSWR e H/V.",
+  "data": "2026-11-14",
+  "orientacao_usuario": "Continuar a versao de 72 mm com refletor 146 mm por mais dois passes (9 e 10), preservando a malha, 14 nucleos, 16 entradas iguais/em fase e 5,17 GHz sem sweep. Conferir DeltaS <=0,05, ganho, VSWR e H/V.",
   "ganho_frontal_realizado_total_min_dBi": 19,
   "abertura_horizontal_proxima_30_graus_aceitavel": true,
   "tolerancia_horizontal_numerica_definida": false,
@@ -9,17 +9,18 @@
   "frequencia_GHz": 5.17,
   "fontes": "Iguais e em fase",
   "nucleos": 14,
-  "limite_passes": 8,
+  "limite_passes": 10,
   "delta_s_alvo": 0.05,
   "sweep": false,
-  "observacao": "Oito passes totais: DeltaS 0,05196469, nao convergiu. Ganho 20,10098 dBi, H 22,73419 graus, V 3,75340 graus, VSWR ativo 1,14303 a 1,35297. Balanço de potencia valido, zero Major/Minor; campo ainda nao estavel. Sem qualificacao de banda ou ganho por entrada MIMO.",
+  "observacao": "Dez passes totais. DeltaS 9/10 = 0,02161726/0,02450976, convergencia S confirmada por dois passes. Ganho 20,39075 dBi, H 22,76093 graus, V 3,76793 graus, VSWR ativo 1,05404 a 1,22092. Balanco de potencia valido, zero Major/Minor. Estabilidade das nove sondas ainda nao confirmada: variacao maxima 0,4632 dB no ultimo passe, ganho frontal +0,1222 dB. Sem qualificacao de banda ou ganho por entrada MIMO.",
   "orientacao_anterior_abertura": "o diagrama horizontal pode ficar prÃ³ximo de 30 graus",
   "rodadas_concluidas": [
     "R01_16x2_88mm",
     "R02_16x2_72mm",
     "R03_72mm_ref162",
     "R04_72mm_ref146",
-    "R05_72mm_ref146_8passes"
+    "R05_72mm_ref146_8passes",
+    "R06_72mm_ref146_10passes"
   ],
   "espacamentos_efetivamente_simulados_mm": [
     88,
@@ -31,8 +32,9 @@
     146
   ],
   "todos_casos_convergidos": false,
-  "estado": "CONTINUACAO_8PASSES_PRELIMINAR_CONCLUIDA",
-  "automacao": "Acompanhamento da continuacao concluido; nenhuma execucao ou agendamento recorrente ativo",
+  "estado": "CONTINUACAO_10PASSES_DELTA_S_ATENDIDO_CAMPO_PENDENTE",
+  "automacao": "Acompanhamento dos passes 9/10 concluido; nenhuma execucao ou agendamento recorrente ativo",
   "limite_original_por_geometria": 6,
-  "passes_adicionais_autorizados": 2
+  "passes_adicionais_autorizados": 2,
+  "continuacao_atual_convergiu": true
 }

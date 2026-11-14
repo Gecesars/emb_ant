@@ -1,5 +1,7 @@
 # P2M19 — 16 níveis, duas colunas, objetivo de 19 dBi
 
+**P2M19 R06 — convergência de ΔS confirmada em 14/11.** Executados somente os passes **9 e 10**, preservando os oito anteriores, colunas de 72 mm e refletor de 146 mm. 14 núcleos, 5,17 GHz, 16 entradas de 0,0625 W / 0°, sem sweep. ΔS **0,021617 / 0,024510**, dois passes consecutivos abaixo de 0,05. Ganho frontal total **20,391 dBi**, H/V **22,761° / 3,768°**, VSWR ativo **1,054–1,221** e máximo com demais entradas casadas **1,294**. Balanço de potência consistente e zero reparos Major/Minor. **A estabilidade completa dos campos ainda não foi confirmada**: ganho frontal variou +0,122 dB no último passe; maior variação entre as nove sondas foi 0,463 dB. Nenhum passe além de dez foi executado. [Resultados, HFSS e diagramas atualizados](continuacao_72mm_ref146_10passes/README.md).
+
 **P2M19 R05 — dois passes adicionais concluídos em 13/11, PRELIMINAR.** Preservados a geometria de colunas a 72 mm, refletor 146 mm e os seis passes anteriores; executados somente os passes 7/8, com 14 núcleos, 5,17 GHz, 16 entradas iguais/em fase, sem sweep. Resultado: **20,101 dBi**, H **22,734°**, V **3,753°**, VSWR ativo **1,143–1,353**. **ΔS=0,05196469 >0,05: não convergiu.** Balanço de potência consistente, zero reparos Major/Minor; ganho ainda variou +0,241 dB no último passe. O acompanhamento desta execução está concluído, sem novos passes programados. [Relatório e arquivos da continuação](continuacao_72mm_ref146_8passes/README.md).
 
 A comparação de seis passes abaixo permanece preservada como histórico.

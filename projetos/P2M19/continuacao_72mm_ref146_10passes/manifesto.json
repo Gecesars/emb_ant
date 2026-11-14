@@ -1,0 +1,530 @@
+[
+  {
+    "arquivo": "ALL_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\ALL_H.csv",
+    "bytes": 197323,
+    "sha256": "01526207d370236b96cbc0e585d592b731cb6fc7a5eef3fccba301735f7ea106"
+  },
+  {
+    "arquivo": "ALL_H_fino.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\ALL_H_fino.csv",
+    "bytes": 82060,
+    "sha256": "a0a6eb5d46c798798ee6c23815aece345d6e20b2ed06ad4c9f739770906f9d30"
+  },
+  {
+    "arquivo": "ALL_Potencia.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\ALL_Potencia.csv",
+    "bytes": 508392,
+    "sha256": "4b5e1d5352a98721a604ec095728437b859a7081c5c17c0d60ee61367e240d70"
+  },
+  {
+    "arquivo": "ALL_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\ALL_V.csv",
+    "bytes": 196848,
+    "sha256": "280133d72885899a3da906313a2c589c0c3efd5d722c5ca377c96c69bcbd0823"
+  },
+  {
+    "arquivo": "ALL_V_fino.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\ALL_V_fino.csv",
+    "bytes": 81008,
+    "sha256": "f8863d4c4aa7bfe09c7dd00f6469c8cfe4c522f1311d9f0b4948dd3c94ecdcaf"
+  },
+  {
+    "arquivo": "C1R1_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R1_A_H.csv",
+    "bytes": 197400,
+    "sha256": "5e335179aa44bd78e49debfc88ac13ed0ac96a39fcc36ee8a7cd645be827e6d3"
+  },
+  {
+    "arquivo": "C1R1_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R1_A_V.csv",
+    "bytes": 197330,
+    "sha256": "ebee39ece92bf9a20667e8377fb30e6d8384c3ddb921afce7900d107bede0098"
+  },
+  {
+    "arquivo": "C1R1_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R1_B_H.csv",
+    "bytes": 197627,
+    "sha256": "ab08004c9d6d2361c2eb03c60cde3d31e0b5c961e7c32098c8f063840ca4e548"
+  },
+  {
+    "arquivo": "C1R1_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R1_B_V.csv",
+    "bytes": 197329,
+    "sha256": "44622b370685d7a7acf3c0dd7ddf623608e5be69b36ba950a162439faf34c8cc"
+  },
+  {
+    "arquivo": "C1R2_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R2_A_H.csv",
+    "bytes": 197315,
+    "sha256": "99db27555022fd9f82e5e10566d9426d782544661f62a841b4af91740e0dc93d"
+  },
+  {
+    "arquivo": "C1R2_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R2_A_V.csv",
+    "bytes": 197261,
+    "sha256": "49a1146d6ee2245f086df5dc61a1221e37fca3e476e5f764aeecc8ce13e86f9c"
+  },
+  {
+    "arquivo": "C1R2_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R2_B_H.csv",
+    "bytes": 197668,
+    "sha256": "6f344ac7d20e4da1403d1da00717f94ba47c97d2707701dba78183f159c77163"
+  },
+  {
+    "arquivo": "C1R2_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R2_B_V.csv",
+    "bytes": 196835,
+    "sha256": "550c0b55f2b65a133a3ebf36dc75929e00b93dc6ee2dac0fb26524c7df6c07c4"
+  },
+  {
+    "arquivo": "C1R3_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R3_A_H.csv",
+    "bytes": 197421,
+    "sha256": "23ea247aa552a0fc4b2e1cdd5e6c8233c7fb45db30330d850997eec2fa83b6b2"
+  },
+  {
+    "arquivo": "C1R3_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R3_A_V.csv",
+    "bytes": 197354,
+    "sha256": "14c00f05c853bc5744852c82f79a2319cd5fa45cca636d89eea59240fbc21850"
+  },
+  {
+    "arquivo": "C1R3_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R3_B_H.csv",
+    "bytes": 197698,
+    "sha256": "37b412801a1611dc9af2d441cd98ad62e5eedb55de4cacaf5ec572d4e8dfb081"
+  },
+  {
+    "arquivo": "C1R3_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R3_B_V.csv",
+    "bytes": 197069,
+    "sha256": "40d220e6de87c4d4e0e8279074d6ab28667f228aa6a4163e35c4e2710e303d36"
+  },
+  {
+    "arquivo": "C1R4_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R4_A_H.csv",
+    "bytes": 197351,
+    "sha256": "ea5208239927f6939fb19492a4dcf9c4816fd27bd4a4a78754524f3ca1948b60"
+  },
+  {
+    "arquivo": "C1R4_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R4_A_V.csv",
+    "bytes": 196982,
+    "sha256": "b7a7dfb52e9c6c8d209290cc35a0e96280e61f0ae96cc861d03589404273a143"
+  },
+  {
+    "arquivo": "C1R4_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R4_B_H.csv",
+    "bytes": 197767,
+    "sha256": "3466b7ba319f193a7ec77df264711205ab968e62c11b7e9b16c8ade55a07e906"
+  },
+  {
+    "arquivo": "C1R4_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C1R4_B_V.csv",
+    "bytes": 197178,
+    "sha256": "30caf0fff523cd05b49d91f9db2fdeb0b6b8ed0e6ce33b12f1c0b4ffe0728dc7"
+  },
+  {
+    "arquivo": "C2R1_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R1_A_H.csv",
+    "bytes": 197263,
+    "sha256": "430285bb6f4b1536134e3d0c112451e1c14382d20e75a91f5f8f6e6dd8c2859c"
+  },
+  {
+    "arquivo": "C2R1_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R1_A_V.csv",
+    "bytes": 197146,
+    "sha256": "d742ffba0f8c1a03607cff918952936908a87a6db983d8a0d1fbd2bfd276e460"
+  },
+  {
+    "arquivo": "C2R1_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R1_B_H.csv",
+    "bytes": 197924,
+    "sha256": "dfd8577e2238fc328c43fb9344c841e3f6ba1a3aa4e097f2f98759594443562c"
+  },
+  {
+    "arquivo": "C2R1_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R1_B_V.csv",
+    "bytes": 197212,
+    "sha256": "2034cc68df6e33c17e3f5e064c21eb91860c0f7a6cf0ab43ce6e23a1989ce917"
+  },
+  {
+    "arquivo": "C2R2_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R2_A_H.csv",
+    "bytes": 197378,
+    "sha256": "ed211db1f2afa134bdb216b0247c5aa194a494d7c533c2950c4fe9c4ac5329c6"
+  },
+  {
+    "arquivo": "C2R2_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R2_A_V.csv",
+    "bytes": 197492,
+    "sha256": "621bf238abbb53d45ead4baa2de8a39c75c824ef616247419a406680b2c98516"
+  },
+  {
+    "arquivo": "C2R2_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R2_B_H.csv",
+    "bytes": 197909,
+    "sha256": "36d904761907b17da70ae4ff4ae158f241de96b855e22967d406c0ac6cccfa83"
+  },
+  {
+    "arquivo": "C2R2_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R2_B_V.csv",
+    "bytes": 197116,
+    "sha256": "3de47c311f35c3724af255bbfafd7cff8bec58586d9308b9abcba8395bfaff33"
+  },
+  {
+    "arquivo": "C2R3_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R3_A_H.csv",
+    "bytes": 197435,
+    "sha256": "13dd117fcc5861fe4433b8a3be6d5cc5f67d8741d26af56c004c25b41771fdb5"
+  },
+  {
+    "arquivo": "C2R3_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R3_A_V.csv",
+    "bytes": 197127,
+    "sha256": "efc4ee6db5257901c62de8ff121ff1096863d6e747e71d090bf81c8fcecc998b"
+  },
+  {
+    "arquivo": "C2R3_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R3_B_H.csv",
+    "bytes": 197932,
+    "sha256": "3bb9e4282e5a4619503163ece22a0a373acb6538dbabe3f2a29a4c3f9c8754ea"
+  },
+  {
+    "arquivo": "C2R3_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R3_B_V.csv",
+    "bytes": 197289,
+    "sha256": "ac85f6eaed82700cb2ffce5fdae1e579655a34c7a452d2d6f870d4d929475c46"
+  },
+  {
+    "arquivo": "C2R4_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R4_A_H.csv",
+    "bytes": 197436,
+    "sha256": "90fb2b756b011127e68261290637033a8ea12b4ef31d3976ec9ede1cea1aa332"
+  },
+  {
+    "arquivo": "C2R4_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R4_A_V.csv",
+    "bytes": 197070,
+    "sha256": "32c69551a3007958d2bbfa10c5434f8de0e6b38727290113c2c2b46cca891833"
+  },
+  {
+    "arquivo": "C2R4_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R4_B_H.csv",
+    "bytes": 197964,
+    "sha256": "d8d6cf7fd983b21d7a9b260459ddd87624ce9957591011fc2a89d576447dce68"
+  },
+  {
+    "arquivo": "C2R4_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\C2R4_B_V.csv",
+    "bytes": 197221,
+    "sha256": "35839892d746de11836c452543dbb7535dd12f4587a4f3e5eaf590437d43c818"
+  },
+  {
+    "arquivo": "HFSS_14nucleos.acf",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\HFSS_14nucleos.acf",
+    "bytes": 998,
+    "sha256": "05b22166510b3bab67d4d7d571e635c261259fa915d0ea257123214cc494935d"
+  },
+  {
+    "arquivo": "P2M19_R04_72mm_ref146.FCStd",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\P2M19_R04_72mm_ref146.FCStd",
+    "bytes": 3473155,
+    "sha256": "c153b0dcec3c2b95caa837468cc8c86d1de6a60f863a594aa3eb5b09817507cd"
+  },
+  {
+    "arquivo": "P2M19_R04_72mm_ref146.aedt",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\P2M19_R04_72mm_ref146.aedt",
+    "bytes": 57084765,
+    "sha256": "d946068b6f4e0e7530f74cb7ada1961e1b00c50e98bd7952003f15060031c888"
+  },
+  {
+    "arquivo": "POL_A_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\POL_A_H.csv",
+    "bytes": 197129,
+    "sha256": "efbc516659ddf7030670ce68d48eb0d18981bb8531a12f786293e2a22fdde3f8"
+  },
+  {
+    "arquivo": "POL_A_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\POL_A_V.csv",
+    "bytes": 197074,
+    "sha256": "ac9252409a56c69d89947b6a6891d74ae30f3ccb52cf506a5bff65f8e51ac8ab"
+  },
+  {
+    "arquivo": "POL_B_H.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\POL_B_H.csv",
+    "bytes": 197646,
+    "sha256": "62c25e7e84688ff8fab85f8d9a209070d25757baafe4867285b6e468828e88b0"
+  },
+  {
+    "arquivo": "POL_B_V.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\POL_B_V.csv",
+    "bytes": 196917,
+    "sha256": "72ae964526c31c7e269d12fd388124ecfbfdfc344cd631316aa995363fbbd7d4"
+  },
+  {
+    "arquivo": "RELATORIO.md",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\RELATORIO.md",
+    "bytes": 4104,
+    "sha256": "fcf759fbef8b1ed29c9ada2a62eeb2d4a24d64590cf7f0f411742d669144760b"
+  },
+  {
+    "arquivo": "acoplamento_vswr.png",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\acoplamento_vswr.png",
+    "bytes": 103750,
+    "sha256": "72ed37aeaac799f83fab4568c0c8964a9923b7c1c2d20ccf00f446b29154fdbb"
+  },
+  {
+    "arquivo": "analise_exitcode.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\analise_exitcode.json",
+    "bytes": 108,
+    "sha256": "35b384ec5b2509b1435428dca1ccab4f8380ea9945e69ae6fd18777d8d36e89d"
+  },
+  {
+    "arquivo": "cad/contatos_portas.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\contatos_portas.json",
+    "bytes": 2803,
+    "sha256": "fb991920162263e4aa9689f2c2d02a8bf60483315b572239b65e22c075a35c08"
+  },
+  {
+    "arquivo": "cad/enig_hfss.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\enig_hfss.json",
+    "bytes": 269895,
+    "sha256": "32d77045807b4e469ce8b1fe809a9fe88e0fe0de01918eee5ada923427f36467"
+  },
+  {
+    "arquivo": "cad/folhas_solidas.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\folhas_solidas.json",
+    "bytes": 18261,
+    "sha256": "d7bbc28155c306ac6faed2e9c378ad8a75ca509508809fb46356821eb5ad471e"
+  },
+  {
+    "arquivo": "cad/geometria_esperada.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\geometria_esperada.json",
+    "bytes": 69452,
+    "sha256": "54e5d4bac2ad1bb4cfac166461d4169fa8a3d942a5607dd715ef83e175e76c55"
+  },
+  {
+    "arquivo": "cad/intersecoes.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\intersecoes.json",
+    "bytes": 484,
+    "sha256": "0dabb3f0c0a0b600ac2d2d86e8ec0501a35a7a92f8171f002402fceb7257bc98"
+  },
+  {
+    "arquivo": "cad/manifesto.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\manifesto.json",
+    "bytes": 10660,
+    "sha256": "5eba21d4bfc629db54400bfa74dda9354fda113e1a52db883023e1ca728ac911"
+  },
+  {
+    "arquivo": "cad/portas.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\portas.json",
+    "bytes": 2901,
+    "sha256": "848c319b2f96deb93710ebfcdc7b7e6aa95be3135ca09043db54adb53449b972"
+  },
+  {
+    "arquivo": "cad/reabertura.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\cad\\reabertura.json",
+    "bytes": 131,
+    "sha256": "5e450a7e512c2ab2623b3b618dbc48c47c501ee03ed4a8cbd29a87e9d7fe7495"
+  },
+  {
+    "arquivo": "centro.s16p",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\centro.s16p",
+    "bytes": 14462,
+    "sha256": "74f95b82168628d7548814865b02a2fdaa6ce5b91ad8b44028319ef64958d5c1"
+  },
+  {
+    "arquivo": "comparacao.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\comparacao.csv",
+    "bytes": 250,
+    "sha256": "1d31e05508fcaabd03a4dd34e97bb13322cd2c4e6a14afe4e71d2b6c08e58d84"
+  },
+  {
+    "arquivo": "comparacao_8_10.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\comparacao_8_10.json",
+    "bytes": 1387,
+    "sha256": "397855156d6a9ccae134ecec821a52e90ac67e7525c9651f857d4c38b4b212cb"
+  },
+  {
+    "arquivo": "comparacao_diagramas.png",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\comparacao_diagramas.png",
+    "bytes": 224302,
+    "sha256": "14c638ec3c800c7e44b578139462aefb199fd15e6137dbf730b472eef726d511"
+  },
+  {
+    "arquivo": "configuracao.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\configuracao.json",
+    "bytes": 7519,
+    "sha256": "3b1621ae4bc7c3dd81e535e07bf23e8bc623c7f8503240c54fad3db0c88d9ee9"
+  },
+  {
+    "arquivo": "convergencia.txt",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\convergencia.txt",
+    "bytes": 813,
+    "sha256": "4389b8be69496449e0251ffa9b73a2d7ed052d008e94717d0982adc6b0707e52"
+  },
+  {
+    "arquivo": "evidencias/continuidade_final.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\continuidade_final.json",
+    "bytes": 714,
+    "sha256": "8baaa3186d4c8b53a683f8800a462b5bdbdead0c61071648a8a791f3de4f2659"
+  },
+  {
+    "arquivo": "evidencias/referencia8_convergencia.txt",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\referencia8_convergencia.txt",
+    "bytes": 716,
+    "sha256": "8034e29bf65344f7ca895266ff33f45ed7d97cb63891e7e81a464eaa5fd16814"
+  },
+  {
+    "arquivo": "evidencias/referencia8_historico_passes.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\referencia8_historico_passes.json",
+    "bytes": 4918,
+    "sha256": "9672d8896077a3606d7a730c3ebbc43bfa1b4e08146d2d93c754afc51cab3588"
+  },
+  {
+    "arquivo": "evidencias/referencia8_resultado.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\referencia8_resultado.json",
+    "bytes": 18995,
+    "sha256": "2a69f7a622f871a9bbb2426a1c113d53f3def1ad1d1bba2ecc93871e66bcdf25"
+  },
+  {
+    "arquivo": "evidencias/retomada_confirmada.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\retomada_confirmada.json",
+    "bytes": 668,
+    "sha256": "dc9158fde9a538d62706f7f5f80c21126797148b716d05b3379a300ea45f43f3"
+  },
+  {
+    "arquivo": "evidencias/worker_passe10.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\worker_passe10.json",
+    "bytes": 380,
+    "sha256": "d3bf9e49b9e05af52d9f3c4ed5ed88b1bb1a8dc4f5e8bcf40b328b8d03b34c9d"
+  },
+  {
+    "arquivo": "evidencias/worker_passe9.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\evidencias\\worker_passe9.json",
+    "bytes": 379,
+    "sha256": "c9d520007956cbdc0ab536b555db02a321004b49322a74aae063ed353b301932"
+  },
+  {
+    "arquivo": "geometria_importada.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\geometria_importada.json",
+    "bytes": 48253,
+    "sha256": "0e6106f82f481420aed6d14061f4587aefc27e86d29b7e35997d1b189ecf1b44"
+  },
+  {
+    "arquivo": "hfss_validacao.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\hfss_validacao.json",
+    "bytes": 313,
+    "sha256": "b9a6fdb1b2676b721359f5f74d3166af62d66786e717a525e7c4bf263a84888c"
+  },
+  {
+    "arquivo": "historico_convergencia.png",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\historico_convergencia.png",
+    "bytes": 99889,
+    "sha256": "10eb577905db9172a9690217d75094891ed6b1c22259f64a277adf50e0296052"
+  },
+  {
+    "arquivo": "historico_passes.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\historico_passes.json",
+    "bytes": 6096,
+    "sha256": "f4d2c8379493a1eaf448b8e2755042d59fabe3fbc405e2c626bcc2f818205343"
+  },
+  {
+    "arquivo": "malha.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\malha.json",
+    "bytes": 59521,
+    "sha256": "fc612a5682fea853b1c2adf6b6068af3b91c02f463754a58e81c115e6e9c7466"
+  },
+  {
+    "arquivo": "mensagens.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\mensagens.json",
+    "bytes": 189,
+    "sha256": "2865d2cfda1661b462eb3baf382293d2fccffdadd941d579d679e0e26079cdb7"
+  },
+  {
+    "arquivo": "ordem_fontes.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\ordem_fontes.json",
+    "bytes": 226,
+    "sha256": "03611c4c49c066bb4c374c21d2d8f314ba422eba7b1eb17cf07fa35fb8391276"
+  },
+  {
+    "arquivo": "pipeline.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\pipeline.json",
+    "bytes": 311,
+    "sha256": "179e860180fa316718bcd536340ae744a0cc80272e1c313fdd29ec70d112dc19"
+  },
+  {
+    "arquivo": "polar_HV.png",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\polar_HV.png",
+    "bytes": 223813,
+    "sha256": "6b8b258d8f70b5b3ff1f8e709f6ae944a6c61e6288b7b0e71a17a1f2a4fc9c40"
+  },
+  {
+    "arquivo": "potencia.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\potencia.json",
+    "bytes": 480,
+    "sha256": "dc77c18ec0a4aa4567fc0ef1664d8d87b9bedb54b0cb4872d610f5e0beb07ba0"
+  },
+  {
+    "arquivo": "qualificacao.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\qualificacao.json",
+    "bytes": 188,
+    "sha256": "13363b344c56803ecf2432a6156f6e1619bc8013e509bc98d03b5e3483fa9866"
+  },
+  {
+    "arquivo": "recursos_matriz.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\recursos_matriz.json",
+    "bytes": 3914,
+    "sha256": "8ef5c06d8edd758141e5260243eae5d2929a5cbf91668d4ac78c41dc95e885f4"
+  },
+  {
+    "arquivo": "resultado.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\resultado.json",
+    "bytes": 19871,
+    "sha256": "368af0ef8ddfe6659953f0ea2a85fd4bb2a4a428c9266a0cfe30c8a8def1851b"
+  },
+  {
+    "arquivo": "revisao_visual.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\revisao_visual.json",
+    "bytes": 681,
+    "sha256": "b7307fedd56baabe09bb078d28653e51e9b4cfb02092fd635c6a3e36559569b3"
+  },
+  {
+    "arquivo": "scripts/analisar.py",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\scripts\\analisar.py",
+    "bytes": 15482,
+    "sha256": "b09d77d027e9258d51ae1dbc34f79ef6e14e20ae1052fc808cdebd8ee8f78467"
+  },
+  {
+    "arquivo": "scripts/continuar.ps1",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\scripts\\continuar.ps1",
+    "bytes": 2391,
+    "sha256": "340240181f893470d3b07ab60e5d489e39862d0d229f10bfa9e2fd7e358bcbae"
+  },
+  {
+    "arquivo": "scripts/resolver.py",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\scripts\\resolver.py",
+    "bytes": 6807,
+    "sha256": "595961aa6b7edb26a072b9a31c64cfd79be531a8b5550a970a2d4e8b9ad34e70"
+  },
+  {
+    "arquivo": "solver_efetivo.json",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\solver_efetivo.json",
+    "bytes": 4429,
+    "sha256": "fcc2792416530ce76e2d0b375ac794a780bdecf6443a6a822f64b5b9b7dbc480"
+  },
+  {
+    "arquivo": "vswr_por_porta.csv",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\vswr_por_porta.csv",
+    "bytes": 1392,
+    "sha256": "953734b3a0245c36dd402175974c2c290dacca86afdcfb33c42015fede77077d"
+  },
+  {
+    "arquivo": "README.md",
+    "origem": "D:\\dev\\EMBRAER\\P2M19\\R06_72mm_ref146_10passes\\RELATORIO.md",
+    "bytes": 4104,
+    "sha256": "fcf759fbef8b1ed29c9ada2a62eeb2d4a24d64590cf7f0f411742d669144760b"
+  }
+]
