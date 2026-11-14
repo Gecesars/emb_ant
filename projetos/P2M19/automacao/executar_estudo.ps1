@@ -1,4 +1,5 @@
 param([Parameter(Mandatory=$true)][string]$Pasta)
+. (Join-Path $PSScriptRoot 'verificar_politica_execucao.ps1')
 $ErrorActionPreference='Stop'
 $casePath=(Resolve-Path -LiteralPath $Pasta).Path
 if(!$casePath.StartsWith('D:\dev\EMBRAER\P2M19\')){throw 'Pasta fora da campanha P2M19'}

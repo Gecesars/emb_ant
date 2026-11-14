@@ -1,0 +1,27 @@
+{
+  "hora": "2026-11-14T16:16:02.056274-03:00",
+  "aprovado": true,
+  "pacotes": [
+    {
+      "pacote": "mecanica_R09_PRELIMINAR",
+      "arquivos": 31,
+      "bytes": 41530478
+    },
+    {
+      "pacote": "rede_R09_PLANEJAMENTO",
+      "arquivos": 11,
+      "bytes": 568666
+    }
+  ],
+  "total_artefatos_conferidos": 42,
+  "total_bytes": 42099144,
+  "byte_a_byte_indice_git": true,
+  "sem_malhas": true,
+  "rf_historico_inalterado": true,
+  "escopo_staged_conferido": true,
+  "arquivos_staged": 76,
+  "scripts_sintaxe_valida": true,
+  "gui_pid": 422012,
+  "gui_aberta_e_salva": true,
+  "email": "1a1db636cf5f699f"
+}

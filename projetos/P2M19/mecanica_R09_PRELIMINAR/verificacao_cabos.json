@@ -1,0 +1,238 @@
+{
+  "estado": "PRELIMINAR",
+  "plano_rede_sha256": "5ee180f49d67fa1d26430e51acc6bf7ebc6eaff4132a446e3cf6267c73a32173",
+  "cabos": [
+    {
+      "id": "IN_A",
+      "comprimento_plano_mm": 425.0,
+      "comprimento_CAD_mm": 424.9999999999999,
+      "erro_mm": 1.1368683772161603e-13,
+      "solido_valido": true
+    },
+    {
+      "id": "T_D1_A",
+      "comprimento_plano_mm": 259.99999999999994,
+      "comprimento_CAD_mm": 259.9999999999999,
+      "erro_mm": 5.684341886080802e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R1_A",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 204.99999999999994,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R1_A",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R2_A",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 205.0,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R2_A",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 205.0,
+      "erro_mm": 0.0,
+      "solido_valido": true
+    },
+    {
+      "id": "T_D2_A",
+      "comprimento_plano_mm": 259.99999999999994,
+      "comprimento_CAD_mm": 259.9999999999999,
+      "erro_mm": 5.684341886080802e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R3_A",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 0.0,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R3_A",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R4_A",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R4_A",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 204.99999999999994,
+      "erro_mm": 5.684341886080802e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "IN_B",
+      "comprimento_plano_mm": 425.0,
+      "comprimento_CAD_mm": 424.9999999999999,
+      "erro_mm": 1.1368683772161603e-13,
+      "solido_valido": true
+    },
+    {
+      "id": "T_D1_B",
+      "comprimento_plano_mm": 260.0,
+      "comprimento_CAD_mm": 259.99999999999994,
+      "erro_mm": 5.684341886080802e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R1_B",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 0.0,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R1_B",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 205.0,
+      "erro_mm": 0.0,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R2_B",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 205.0,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R2_B",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 204.99999999999994,
+      "erro_mm": 5.684341886080802e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "T_D2_B",
+      "comprimento_plano_mm": 260.0,
+      "comprimento_CAD_mm": 259.99999999999994,
+      "erro_mm": 5.684341886080802e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R3_B",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 0.0,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R3_B",
+      "comprimento_plano_mm": 204.99999999999994,
+      "comprimento_CAD_mm": 204.99999999999997,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C1R4_B",
+      "comprimento_plano_mm": 204.99999999999997,
+      "comprimento_CAD_mm": 204.99999999999994,
+      "erro_mm": 2.842170943040401e-14,
+      "solido_valido": true
+    },
+    {
+      "id": "R_C2R4_B",
+      "comprimento_plano_mm": 205.0,
+      "comprimento_CAD_mm": 205.0,
+      "erro_mm": 0.0,
+      "solido_valido": true
+    }
+  ],
+  "menores_folgas_cabo_cabo": [
+    {
+      "a": "Cabo_R_C2R2_A",
+      "b": "Cabo_R_C1R2_B",
+      "distancia_eixos_mm": 4.737834225702977,
+      "folga_superficies_mm": 1.1568342257029767
+    },
+    {
+      "a": "Cabo_R_C1R4_A",
+      "b": "Cabo_R_C1R4_B",
+      "distancia_eixos_mm": 5.145032974454153,
+      "folga_superficies_mm": 1.5640329744541535
+    },
+    {
+      "a": "Cabo_R_C2R4_A",
+      "b": "Cabo_R_C1R4_B",
+      "distancia_eixos_mm": 5.603975392395026,
+      "folga_superficies_mm": 2.022975392395026
+    },
+    {
+      "a": "Cabo_R_C2R1_A",
+      "b": "Cabo_R_C2R1_B",
+      "distancia_eixos_mm": 6.0,
+      "folga_superficies_mm": 2.419
+    },
+    {
+      "a": "Cabo_R_C2R3_A",
+      "b": "Cabo_R_C1R3_B",
+      "distancia_eixos_mm": 6.0,
+      "folga_superficies_mm": 2.419
+    },
+    {
+      "a": "Cabo_R_C2R4_A",
+      "b": "Cabo_R_C2R4_B",
+      "distancia_eixos_mm": 6.0,
+      "folga_superficies_mm": 2.419
+    },
+    {
+      "a": "Cabo_R_C1R2_B",
+      "b": "Cabo_R_C2R2_B",
+      "distancia_eixos_mm": 6.0,
+      "folga_superficies_mm": 2.419
+    },
+    {
+      "a": "Cabo_IN_A",
+      "b": "Cabo_T_D1_A",
+      "distancia_eixos_mm": 6.535900132466879,
+      "folga_superficies_mm": 2.954900132466879
+    },
+    {
+      "a": "Cabo_T_D1_A",
+      "b": "Cabo_R_C2R2_A",
+      "distancia_eixos_mm": 7.230277945825723,
+      "folga_superficies_mm": 3.6492779458257227
+    },
+    {
+      "a": "Cabo_T_D1_B",
+      "b": "Cabo_R_C1R2_B",
+      "distancia_eixos_mm": 7.681071604918513,
+      "folga_superficies_mm": 4.100071604918513
+    }
+  ],
+  "teste_acesso_ferramenta": [
+    {
+      "conector": "A",
+      "ferramenta_envelope_OD_mm": 30,
+      "folga_radial_rebaixo_mm": 1,
+      "intersecoes": []
+    },
+    {
+      "conector": "B",
+      "ferramenta_envelope_OD_mm": 30,
+      "folga_radial_rebaixo_mm": 1,
+      "intersecoes": []
+    }
+  ],
+  "sem_alteracao_RF": true,
+  "metodo": "Arcos circulares R10 exatos, sweep de secao circular OD3.581; distancia exata entre fios-eixo no OCCT. Solid exterior sem internosRF."
+}

@@ -1,0 +1,378 @@
+{
+  "estado": "INTERFACES_GEOMETRICAS_PRELIMINARES",
+  "plano_rede_sha256": "5ee180f49d67fa1d26430e51acc6bf7ebc6eaff4132a446e3cf6267c73a32173",
+  "N": {
+    "plano_X_mm": -367.25,
+    "centros_Y_mm": [
+      -24,
+      24
+    ],
+    "Z_mm": -45,
+    "OD_manga_STEP_mm": 6.5,
+    "ID_manga_STEP_mm": 5.9,
+    "OD_cabo_mm": 3.581,
+    "limite": "Plano extremo da manga externa do STEP. Interface soldavel real, insercao e decapagem nao comprovadas; nenhuma conexao metalurgica foi modelada."
+  },
+  "divisores": {
+    "plano_proposto_Z_mm": -12.035,
+    "limite": "Plano de cobre proposto, mas as PCBs sao envelopes sem cobre; nao ha pad ou solda validados."
+  },
+  "C12": {
+    "plano_Z_mm": 14.769,
+    "limite": "Coincide com inicio dos stubs diretos RF preservados; internos do coax/preparos/soldas nao representados no envelope mecanico."
+  },
+  "cabos": [
+    {
+      "id": "IN_A",
+      "origem": "N_A",
+      "destino": "D0_A_IN",
+      "primeiro_ponto_mm": [
+        -367.25,
+        -24.0,
+        -45.0
+      ],
+      "ultimo_ponto_mm": [
+        0.0,
+        -19.25,
+        -12.035
+      ],
+      "comprimento_eixo_mm": 425.0
+    },
+    {
+      "id": "T_D1_A",
+      "origem": "D0_A_INF",
+      "destino": "D1_A_IN",
+      "primeiro_ponto_mm": [
+        -15.2,
+        -19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -192.0,
+        -19.25,
+        -12.035
+      ],
+      "comprimento_eixo_mm": 259.99999999999994
+    },
+    {
+      "id": "R_C2R1_A",
+      "origem": "D1_A1",
+      "destino": "C2R1_A",
+      "primeiro_ponto_mm": [
+        -207.2,
+        -19.250000000000004,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -285.49083158695936,
+        4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C1R1_A",
+      "origem": "D1_A2",
+      "destino": "C1R1_A",
+      "primeiro_ponto_mm": [
+        -192.0,
+        -34.45,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -285.49083158695936,
+        -68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "R_C2R2_A",
+      "origem": "D1_A3",
+      "destino": "C2R2_A",
+      "primeiro_ponto_mm": [
+        -192.0,
+        -4.050000000000001,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -93.49083158695937,
+        4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C1R2_A",
+      "origem": "D1_A4",
+      "destino": "C1R2_A",
+      "primeiro_ponto_mm": [
+        -176.8,
+        -19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -93.49083158695937,
+        -68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "T_D2_A",
+      "origem": "D0_A_SUP",
+      "destino": "D2_A_IN",
+      "primeiro_ponto_mm": [
+        15.2,
+        -19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        192.0,
+        -19.25,
+        -12.035
+      ],
+      "comprimento_eixo_mm": 259.99999999999994
+    },
+    {
+      "id": "R_C2R3_A",
+      "origem": "D2_A1",
+      "destino": "C2R3_A",
+      "primeiro_ponto_mm": [
+        176.8,
+        -19.250000000000004,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        98.50916841304063,
+        4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C1R3_A",
+      "origem": "D2_A2",
+      "destino": "C1R3_A",
+      "primeiro_ponto_mm": [
+        192.0,
+        -34.45,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        98.50916841304063,
+        -68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "R_C2R4_A",
+      "origem": "D2_A3",
+      "destino": "C2R4_A",
+      "primeiro_ponto_mm": [
+        192.0,
+        -4.050000000000001,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        290.50916841304064,
+        4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "R_C1R4_A",
+      "origem": "D2_A4",
+      "destino": "C1R4_A",
+      "primeiro_ponto_mm": [
+        207.2,
+        -19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        290.50916841304064,
+        -68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "IN_B",
+      "origem": "N_B",
+      "destino": "D0_B_IN",
+      "primeiro_ponto_mm": [
+        -367.25,
+        24.0,
+        -45.0
+      ],
+      "ultimo_ponto_mm": [
+        0.0,
+        19.25,
+        -12.035
+      ],
+      "comprimento_eixo_mm": 425.0
+    },
+    {
+      "id": "T_D1_B",
+      "origem": "D0_B_INF",
+      "destino": "D1_B_IN",
+      "primeiro_ponto_mm": [
+        -15.2,
+        19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -192.0,
+        19.25,
+        -12.035
+      ],
+      "comprimento_eixo_mm": 260.0
+    },
+    {
+      "id": "R_C1R1_B",
+      "origem": "D1_B1",
+      "destino": "C1R1_B",
+      "primeiro_ponto_mm": [
+        -207.2,
+        19.250000000000004,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -285.49083158695936,
+        -4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C2R1_B",
+      "origem": "D1_B2",
+      "destino": "C2R1_B",
+      "primeiro_ponto_mm": [
+        -192.0,
+        34.45,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -285.49083158695936,
+        68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "R_C1R2_B",
+      "origem": "D1_B3",
+      "destino": "C1R2_B",
+      "primeiro_ponto_mm": [
+        -192.0,
+        4.050000000000001,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -93.49083158695937,
+        -4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C2R2_B",
+      "origem": "D1_B4",
+      "destino": "C2R2_B",
+      "primeiro_ponto_mm": [
+        -176.8,
+        19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        -93.49083158695937,
+        68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    },
+    {
+      "id": "T_D2_B",
+      "origem": "D0_B_SUP",
+      "destino": "D2_B_IN",
+      "primeiro_ponto_mm": [
+        15.2,
+        19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        192.0,
+        19.25,
+        -12.035
+      ],
+      "comprimento_eixo_mm": 260.0
+    },
+    {
+      "id": "R_C1R3_B",
+      "origem": "D2_B1",
+      "destino": "C1R3_B",
+      "primeiro_ponto_mm": [
+        176.8,
+        19.250000000000004,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        98.50916841304063,
+        -4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C2R3_B",
+      "origem": "D2_B2",
+      "destino": "C2R3_B",
+      "primeiro_ponto_mm": [
+        192.0,
+        34.45,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        98.50916841304063,
+        68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999994
+    },
+    {
+      "id": "R_C1R4_B",
+      "origem": "D2_B3",
+      "destino": "C1R4_B",
+      "primeiro_ponto_mm": [
+        192.0,
+        4.050000000000001,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        290.50916841304064,
+        -4.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 204.99999999999997
+    },
+    {
+      "id": "R_C2R4_B",
+      "origem": "D2_B4",
+      "destino": "C2R4_B",
+      "primeiro_ponto_mm": [
+        207.2,
+        19.25,
+        -12.035
+      ],
+      "ultimo_ponto_mm": [
+        290.50916841304064,
+        68.0,
+        14.769
+      ],
+      "comprimento_eixo_mm": 205.0
+    }
+  ]
+}

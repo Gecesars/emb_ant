@@ -1,6 +1,6 @@
 {
   "data": "2026-11-14",
-  "orientacao_usuario": "Executar somente os passes 13 e 14 na versao 72 mm / refletor 146 mm, preservando a malha, 14 nucleos e 16 entradas iguais/em fase, 5,17 GHz sem sweep; conferir estabilidade de ganho, H/V e atualizar VSWR.",
+  "orientacao_usuario": "Parar simulacoes; registrar e interromper por falta de memoria; enviar resumo; planejar rede e montar antena completa no FreeCAD em paralelo.",
   "ganho_frontal_realizado_total_min_dBi": 19,
   "abertura_horizontal_proxima_30_graus_aceitavel": true,
   "tolerancia_horizontal_numerica_definida": false,
@@ -13,7 +13,7 @@
   "delta_s_alvo": 0.05,
   "sweep": false,
   "observacao": "Quatorze passes totais. DeltaS 13/14=0,01074428/0,01048445. G frontal=20,54404 dBi; H/V=22,49105/3,78322 graus; VSWR ativo=1,03305 a 1,18168; casado maximo=1,31598. Entre 13/14, DeltaG=+0,039965 dB, DeltaH=-0,098558 grau e DeltaV=+0,001522 grau. Balanco valido, zero Major/Minor. Nove sondas ainda nao estaveis em 0,1 dB por dois passes: maximos 0,10261/0,18207 dB. Sem qualificacao de banda ou MIMO por entrada.",
-  "orientacao_anterior_abertura": "o diagrama horizontal pode ficar próximo de 30 graus",
+  "orientacao_anterior_abertura": "o diagrama horizontal pode ficar prÃ³ximo de 30 graus",
   "rodadas_concluidas": [
     "R01_16x2_88mm",
     "R02_16x2_72mm",
@@ -34,9 +34,22 @@
     146
   ],
   "todos_casos_convergidos": false,
-  "estado": "CONTINUACAO_14PASSES_DELTA_S_ATENDIDO_CAMPO_COMPLETO_PENDENTE",
-  "automacao": "Acompanhamento dos passes 13/14 concluido; nenhum solver desta tarefa ou agendamento recorrente ativo",
+  "estado": "SIMULACOES_SUSPENSAS_REDE_E_MECANICA_PRELIMINAR_R09",
+  "automacao": "Nenhum solve ativo ou programado. Guarda obrigatorio para futura retomada expressamente solicitada.",
   "limite_original_por_geometria": 6,
   "passes_adicionais_autorizados": 2,
-  "continuacao_atual_convergiu": true
+  "continuacao_atual_convergiu": true,
+  "politica_execucao": "politica_execucao.json",
+  "entregas_R09": {
+    "montagem": "mecanica_R09_PRELIMINAR",
+    "rede": "rede_R09_PLANEJAMENTO",
+    "comunicacao": "gestao_R09/envio_email.json",
+    "estado": "PRELIMINAR_SEM_NOVO_SOLVE",
+    "entrada_N": 2,
+    "conexoes_C12": 16,
+    "pcbs_externas_planejadas": 3,
+    "cabos": 22,
+    "cabo_por_caminho_mm": 890,
+    "eixos_totais_cabos_mm": 5170
+  }
 }

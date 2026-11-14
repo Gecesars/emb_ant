@@ -1,0 +1,156 @@
+[
+  {
+    "item": "01",
+    "componente": "PCB C12 4_elementos",
+    "quantidade": 8,
+    "especificacao": "184 × 70 mm, RO4350B núcleo 0,76 mm, Cu 35 µm, ENIG nominal",
+    "estado": "328 corpos RF preservados; nenhuma furação nova na PCB"
+  },
+  {
+    "item": "02",
+    "componente": "Refletor",
+    "quantidade": 1,
+    "especificacao": "Al 5052 proposto, 776 × 146 × 2 mm",
+    "estado": "16 passagens RF originais + 32 M2 + 6 M4 + 12 M3 novos; novos furos não simulados"
+  },
+  {
+    "item": "03",
+    "componente": "Base inferior",
+    "quantidade": 1,
+    "especificacao": "Al 6061-T6 proposto, 146 × 70 × 4 mm; recortes N e rebaixos Ø32 × 2 mm",
+    "estado": "Primitivas/Cuts nativos editáveis; material/acabamento/tolerâncias a confirmar"
+  },
+  {
+    "item": "04",
+    "componente": "Reforço longitudinal L",
+    "quantidade": 2,
+    "especificacao": "L 20 × 20 × 2 mm, comprimento 780 mm; pé soldado 4 × 20 × 20 mm",
+    "estado": "Al 6061-T6 proposto; solda/processo/resistência não dimensionados"
+  },
+  {
+    "item": "05",
+    "componente": "Grampo isolante de borda",
+    "quantidade": 32,
+    "especificacao": "POM natural, largura 5 mm, altura de apoio 14,949 mm",
+    "estado": "4 por PCB; retenção de borda sem furar laminado; folga a ajustar ao acabado"
+  },
+  {
+    "item": "06",
+    "componente": "Parafuso M2x25",
+    "quantidade": 32,
+    "especificacao": "Inox A2, cabeca cilindrica",
+    "estado": "Roscas simplificadas noCAD; aperto nao definido"
+  },
+  {
+    "item": "07",
+    "componente": "Porca M2",
+    "quantidade": 32,
+    "especificacao": "Inox A2",
+    "estado": "Envelope nominal; catalogo a confirmar"
+  },
+  {
+    "item": "08",
+    "componente": "Arruela M2",
+    "quantidade": 64,
+    "especificacao": "Inox A2, Ø4 / Ø2,2 × 0,5 mm",
+    "estado": "2 por fixação"
+  },
+  {
+    "item": "09",
+    "componente": "Parafuso M4 × 12",
+    "quantidade": 6,
+    "especificacao": "Inox A2; reforço ao refletor",
+    "estado": "3 por reforço; cabeça frontal abaixo das PCBs"
+  },
+  {
+    "item": "10",
+    "componente": "Parafuso M4 × 16",
+    "quantidade": 2,
+    "especificacao": "Inox A2; pé dos reforços à base",
+    "estado": "1 por reforço; roscas simplificadas"
+  },
+  {
+    "item": "11",
+    "componente": "Porca M4",
+    "quantidade": 8,
+    "especificacao": "Inox A2",
+    "estado": "3,2 mm de altura nominal"
+  },
+  {
+    "item": "12",
+    "componente": "Arruela M4",
+    "quantidade": 16,
+    "especificacao": "Inox A2, Ø9 / Ø4,4 × 0,8 mm",
+    "estado": "2 por fixação"
+  },
+  {
+    "item": "13",
+    "componente": "PCB central duplo 1:2",
+    "quantidade": 1,
+    "especificacao": "Reserva 60 × 78 × 1,52 mm, ZYF300CA-C proposto",
+    "estado": "Sem cobre/Gerbers; duas redes independentes A/B; projeto RF pendente"
+  },
+  {
+    "item": "14",
+    "componente": "PCB filial duplo 1:4",
+    "quantidade": 2,
+    "especificacao": "Reserva 39 × 78 × 1,52 mm, ZYF300CA-C proposto",
+    "estado": "Sem cobre/Gerbers; centros X=±192 mm; projeto RF pendente"
+  },
+  {
+    "item": "15",
+    "componente": "Espaçador de rede M3",
+    "quantidade": 12,
+    "especificacao": "POM, Ø5 / Ø3,2 × 8,48 mm",
+    "estado": "4 por PCB; face de apoio Z=−10,48 mm"
+  },
+  {
+    "item": "16",
+    "componente": "Parafuso M3 × 16",
+    "quantidade": 12,
+    "especificacao": "Inox A2",
+    "estado": "Suportes das PCBs da rede; roscas simplificadas"
+  },
+  {
+    "item": "17",
+    "componente": "Porca M3",
+    "quantidade": 12,
+    "especificacao": "Inox A2, altura 2,4 mm nominal",
+    "estado": "Catálogo a confirmar"
+  },
+  {
+    "item": "18",
+    "componente": "Arruela M3",
+    "quantidade": 24,
+    "especificacao": "Inox A2, Ø7 / Ø3,2 × 0,5 mm",
+    "estado": "2 por fixação"
+  },
+  {
+    "item": "19",
+    "componente": "Kit N fêmea Amphenol 082-6784",
+    "quantidade": 2,
+    "especificacao": "50 Ω, RG-402 / UT-141; STEP fornecido",
+    "estado": "Kit porca/arruela/junta já representado, não comprar duplicado; parede de montagem 2 mm"
+  },
+  {
+    "item": "20",
+    "componente": "UT-141C entrada",
+    "quantidade": 2,
+    "especificacao": "425 mm por eixo; Ø3,581 mm",
+    "estado": "Comprimento geométrico, NÃO é lista de corte; decapagens/inserções/soldas pendentes"
+  },
+  {
+    "item": "21",
+    "componente": "UT-141C tronco",
+    "quantidade": 4,
+    "especificacao": "260 mm por eixo; Ø3,581 mm",
+    "estado": "Ramais iguais por classe; raio de eixo 10 mm"
+  },
+  {
+    "item": "22",
+    "componente": "UT-141C saída",
+    "quantidade": 16,
+    "especificacao": "205 mm por eixo; Ø3,581 mm",
+    "estado": "22 cabos somam 5,170 m de eixo; total por caminho 890 mm"
+  }
+]

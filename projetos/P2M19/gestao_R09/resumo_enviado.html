@@ -1,0 +1,17 @@
+<html><body><p>Olá, Cesar.</p>
+<p>As simulações da P2M19 estão paradas conforme solicitado. A configuração mais recente concluída é a de <b>16 níveis × 2 colunas, 72 mm entre colunas e refletor de 146 × 776 × 2 mm</b>, com oito placas C12 de quatro elementos.</p>
+<p>Os passes 13 e 14 preservaram a malha anterior, com 14 núcleos, em <b>5,17 GHz</b>, sem sweep. As 16 entradas receberam 0,0625 W a 0° cada, totalizando 1 W.</p>
+<table border="1" cellpadding="6" cellspacing="0"><tr><th>Métrica</th><th>Resultado final</th></tr>
+<tr><td>Ganho frontal realizado total</td><td><b>20,544 dBi</b></td></tr>
+<tr><td>Abertura horizontal / vertical (−3 dB)</td><td>22,491° / 3,783°</td></tr>
+<tr><td>Máximos dos cortes H / V</td><td>+0,188° / +0,048°</td></tr>
+<tr><td>VSWR ativo, entradas iguais em fase</td><td>1,033 a 1,182</td></tr>
+<tr><td>VSWR máximo com demais entradas casadas</td><td>1,316</td></tr>
+<tr><td>ΔS final</td><td>0,010484 — abaixo de 0,05</td></tr>
+<tr><td>Maior lóbulo secundário H / V, hemisfério frontal</td><td>−4,952 dB / −8,949 dB</td></tr></table>
+<p>Entre os passes 13 e 14, o ganho mudou +0,040 dB; a abertura H, −0,099°; e V, +0,0015°. O balanço de potência está consistente, com 0,7968 W radiados e 0,9966 W aceitos, e não houve reparos de malha Major/Minor. <b>A estabilidade completa do campo ainda está pendente:</b> a maior variação nas nove sondas foi 0,182 dB, acima do critério de 0,1 dB por dois passes, em uma direção cerca de 31 dB abaixo do ganho frontal.</p>
+<p>O ganho inclui o acoplamento e as perdas das redes impressas locais das placas C12. <b>Não inclui a nova rede externa de distribuição, cabos, conectores N ou radome</b>; portanto, não é uma validação do produto completo nem de ganho por entrada MIMO ou de toda a banda. A margem numérica sobre 19 dBi é 1,544 dB antes desses acréscimos.</p>
+<p><a href="https://github.com/Gecesars/emb_ant/blob/043950a4be0cb407459c89d137b4e9b81b0f76de/projetos/P2M19/continuacao_72mm_ref146_14passes/README.md">Relatório completo, diagramas, HFSS e VSWR por porta</a>.</p>
+<p>A próxima etapa é o planejamento de duas redes independentes 1:8, uma por polarização, alimentando as 16 conexões. A proposta em estudo usa uma PCB duplo 1:2 central e duas PCBs duplo 1:4 distribuídas. Em paralelo, está sendo criada a montagem preliminar no FreeCAD com base de alumínio, fixação do refletor, apoios das placas, alojamento inferior para os dois conectores N já definidos e trajetos dos cabos. Essa rede e as novas peças mecânicas ainda não foram validadas em RF.</p>
+<p>Fica registrada a instrução operacional: <b>ao esgotar a memória do sistema ou ocorrer erro de falta de memória, registrar a ocorrência e interromper a simulação, sem reinício automático</b>. Nenhum novo cálculo será iniciado nesta etapa.</p>
+<p>Referência de resultados: commit <code>043950a4be0cb407459c89d137b4e9b81b0f76de</code>.</p></body></html>

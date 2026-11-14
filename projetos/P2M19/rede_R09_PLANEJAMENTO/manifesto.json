@@ -1,0 +1,57 @@
+[
+  {
+    "arquivo": "auditoria_distancias_cabos.json",
+    "bytes": 467,
+    "sha256": "999e3a56055b9d2c4d90067b0dec2ced38d5c0c05cf23b5cf778667ce23a360b"
+  },
+  {
+    "arquivo": "comparacao_topologias.json",
+    "bytes": 883,
+    "sha256": "82ac175d4bddc6c4e68fc3e13d5d46e1e353105c38f9dfa11e040a8b16e6cc3d"
+  },
+  {
+    "arquivo": "conexoes.csv",
+    "bytes": 1011,
+    "sha256": "df2331999b2de58126c820d0f07109c694c27a63c1b5e1e1dd84a7d72ae8def0"
+  },
+  {
+    "arquivo": "dimensionamento_eletrico_preliminar.json",
+    "bytes": 3142,
+    "sha256": "df4818c2196743f112ab182bdf6e435d6318ea800f709357a821eacd9ce2ce3b"
+  },
+  {
+    "arquivo": "disposicao_rede.png",
+    "bytes": 149896,
+    "sha256": "7e36f743e18e5d559e4e4bd856073500137382a81deaa55b6b86695a2c3c8d83"
+  },
+  {
+    "arquivo": "fontes.json",
+    "bytes": 1451,
+    "sha256": "e69d53862c1ab255972bc5f01fc37e8e6b1c57c06e8b84d460fb26211a279ded"
+  },
+  {
+    "arquivo": "interfaces_pcbs.png",
+    "bytes": 64862,
+    "sha256": "763de79b06d1a3820b9c030f61831cbf366930b7e314eed0d6cbd754afe0b4a2"
+  },
+  {
+    "arquivo": "lista_materiais_rede_PRELIMINAR.csv",
+    "bytes": 947,
+    "sha256": "7f4a16aa47353f0ac45b3a382f638c107928d604e40f2650607cb98b4b67671b"
+  },
+  {
+    "arquivo": "plano_rede.json",
+    "bytes": 337151,
+    "sha256": "5ee180f49d67fa1d26430e51acc6bf7ebc6eaff4132a446e3cf6267c73a32173"
+  },
+  {
+    "arquivo": "README.md",
+    "bytes": 8300,
+    "sha256": "6a6993ddbcfbb238742a59c7240f688a2f7e5a24f1dd0814c691c2626535f3e0"
+  },
+  {
+    "arquivo": "revisao_visual.json",
+    "bytes": 556,
+    "sha256": "980bef6ae6be4ac047e453e61a65e8301a499bd8b752b707f11101d1f055f663"
+  }
+]

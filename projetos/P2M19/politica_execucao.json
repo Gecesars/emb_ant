@@ -1,0 +1,16 @@
+{
+  "atualizado": "2026-11-14",
+  "simulacoes_suspensas": true,
+  "motivo": "Pedido do usuario: parar simulacao e trabalhar em rede divisora e montagem FreeCAD",
+  "interromper_por_memoria": true,
+  "reinicio_automatico": false,
+  "intervalo_monitor_s": 5,
+  "ram_livre_emergencia_MiB": 512,
+  "ram_livre_preventiva_MiB": 1024,
+  "amostras_consecutivas_preventiva": 2,
+  "commit_livre_emergencia_MiB": 512,
+  "interpretacao": "512 MiB livres dispara parada imediata; menos de 1 GiB de RAM livre por duas amostras de 5 s dispara parada preventiva. Erro explicito de memoria dispara parada imediata. Limiares operacionais preventivos, nao criterios de convergencia RF.",
+  "escopo": "Somente processos criados e identificados pela execucao desta tarefa. Preservar aplicativos e documentos alheios.",
+  "ultimo_resultado": "continuacao_72mm_ref146_14passes",
+  "novo_solve_nesta_etapa": false
+}

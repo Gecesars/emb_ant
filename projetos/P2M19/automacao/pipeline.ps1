@@ -1,3 +1,4 @@
+. (Join-Path $PSScriptRoot 'verificar_politica_execucao.ps1')
 $ErrorActionPreference='Stop'
 $root='D:/dev/EMBRAER/P2M19/R01_16x2_88mm'
 function State([string]$value) {

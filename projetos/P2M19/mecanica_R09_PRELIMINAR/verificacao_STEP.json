@@ -1,0 +1,4518 @@
+{
+  "solidos_CAD": 643,
+  "solidos_STEP": 643,
+  "valido_STEP": true,
+  "volume_CAD_mm3": 568580.0663874797,
+  "volume_STEP_mm3": 568585.2041019042,
+  "erro_volume_mm3": 5.1377144245198,
+  "erro_volume_relativo": 9.03604387182036e-06,
+  "erro_bbox_mm": 0.0,
+  "bbox_mm": [
+    -409.3,
+    388.0,
+    -73.0,
+    73.0,
+    -70.0,
+    20.059
+  ],
+  "metodo_componentes": "Pareamento de solidos por optimalBoundingBox(False,False) arredondada a0.0001mm; em grupo igual, ordena volume. Evita bbox de hull de controle das curvas. Nao usa booleanas de toda a montagem.",
+  "componentes_pareados": 561,
+  "solidos_pareados": 643,
+  "grupos_nao_pareados": [],
+  "componentes": [
+    {
+      "solidos": 16,
+      "volume_CAD_mm3": 4190.95548961878,
+      "volume_STEP_mm3": 4190.9972557529445,
+      "nome": "N_A_Corpo",
+      "delta_volume_mm3": 0.04176613416439068,
+      "delta_relativo": 9.965778512286187e-06
+    },
+    {
+      "solidos": 16,
+      "volume_CAD_mm3": 4190.95548961878,
+      "volume_STEP_mm3": 4190.997255752517,
+      "nome": "N_B_Corpo",
+      "delta_volume_mm3": 0.04176613373692817,
+      "delta_relativo": 9.965778410289754e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 420.65589174651006,
+      "volume_STEP_mm3": 420.6739310413111,
+      "nome": "N_B_Porca_arruela",
+      "delta_volume_mm3": 0.01803929480104216,
+      "delta_relativo": 4.288373265413041e-05
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 420.65589174651006,
+      "volume_STEP_mm3": 420.6739310400909,
+      "nome": "N_A_Porca_arruela",
+      "delta_volume_mm3": 0.01803929358084133,
+      "delta_relativo": 4.2883729753420225e-05
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722356,
+      "volume_STEP_mm3": 0.037110063236375,
+      "nome": "C1R4_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.68091514385749e-08,
+      "delta_relativo": 1.530831085949374e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722146,
+      "volume_STEP_mm3": 0.03711006323636529,
+      "nome": "C2R4_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.680914382660829e-08,
+      "delta_relativo": 1.5308308808304824e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722148,
+      "volume_STEP_mm3": 0.0371100632363652,
+      "nome": "C1R4_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.6809143715585986e-08,
+      "delta_relativo": 1.5308308778387734e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722358,
+      "volume_STEP_mm3": 0.03711006323636519,
+      "nome": "C2R4_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.680914161310113e-08,
+      "delta_relativo": 1.5308308211832172e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722374,
+      "volume_STEP_mm3": 0.03711006323635857,
+      "nome": "C1R3_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.6809134826862895e-08,
+      "delta_relativo": 1.5308306383150598e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427221745,
+      "volume_STEP_mm3": 0.0371100632363492,
+      "nome": "C2R3_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.680912745775757e-08,
+      "delta_relativo": 1.530830439740525e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722175,
+      "volume_STEP_mm3": 0.03711006323634911,
+      "nome": "C1R3_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.6809127360613054e-08,
+      "delta_relativo": 1.5308304371227802e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427223764,
+      "volume_STEP_mm3": 0.037110063236349244,
+      "nome": "C2R3_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.6809125480172806e-08,
+      "delta_relativo": 1.530830386450643e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427223764,
+      "volume_STEP_mm3": 0.037110063236342916,
+      "nome": "C1R2_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.6809119151901566e-08,
+      "delta_relativo": 1.5308302159232882e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427221745,
+      "volume_STEP_mm3": 0.037110063236332536,
+      "nome": "C1R2_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.680911079053441e-08,
+      "delta_relativo": 1.530829990610364e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722173,
+      "volume_STEP_mm3": 0.037110063236331675,
+      "nome": "C2R2_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.6809109943989355e-08,
+      "delta_relativo": 1.5308299677985911e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722377,
+      "volume_STEP_mm3": 0.03711006323633255,
+      "nome": "C2R2_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.680910877825518e-08,
+      "delta_relativo": 1.5308299363855732e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427223556,
+      "volume_STEP_mm3": 0.03711006323618456,
+      "nome": "C1R1_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.680896100063171e-08,
+      "delta_relativo": 1.5308259542352756e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427221495,
+      "volume_STEP_mm3": 0.03711006323617395,
+      "nome": "C1R1_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.680895245191442e-08,
+      "delta_relativo": 1.5308257238738458e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.037110006427221474,
+      "volume_STEP_mm3": 0.03711006323617384,
+      "nome": "C2R1_B_SIG_B_Cu4",
+      "delta_volume_mm3": 5.680895236864769e-08,
+      "delta_relativo": 1.5308257216300657e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03711000642722358,
+      "volume_STEP_mm3": 0.03711006323617384,
+      "nome": "C2R1_B_SIG_A_Cu0",
+      "delta_volume_mm3": 5.680895026616284e-08,
+      "delta_relativo": 1.530825664974509e-06
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2618.6163269799385,
+      "volume_STEP_mm3": 2618.616326978494,
+      "nome": "Cabo_T_D1_B",
+      "delta_volume_mm3": -1.4447323337662965e-09,
+      "delta_relativo": -5.517159267973069e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 4280.43053448644,
+      "volume_STEP_mm3": 4280.430534485193,
+      "nome": "Cabo_IN_B",
+      "delta_volume_mm3": -1.2469172361306846e-09,
+      "delta_relativo": -2.9130649968141303e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 4280.430534486442,
+      "volume_STEP_mm3": 4280.430534485251,
+      "nome": "Cabo_IN_A",
+      "delta_volume_mm3": -1.191438059322536e-09,
+      "delta_relativo": -2.7834537898078103e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.678257811105,
+      "volume_STEP_mm3": 2064.6782578120738,
+      "nome": "Cabo_R_C2R2_A",
+      "delta_volume_mm3": 9.686118573881686e-10,
+      "delta_relativo": 4.69134526759174e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111097,
+      "volume_STEP_mm3": 2064.678257810268,
+      "nome": "Cabo_R_C2R1_A",
+      "delta_volume_mm3": -8.417373464908451e-10,
+      "delta_relativo": -4.0768451128226717e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.678257811103,
+      "volume_STEP_mm3": 2064.6782578118746,
+      "nome": "Cabo_R_C1R1_A",
+      "delta_volume_mm3": 7.717062544543296e-10,
+      "delta_relativo": 3.7376586474662867e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.678257811105,
+      "volume_STEP_mm3": 2064.678257810646,
+      "nome": "Cabo_R_C1R1_B",
+      "delta_volume_mm3": -4.5929482439532876e-10,
+      "delta_relativo": -2.224534610454299e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2618.616326979937,
+      "volume_STEP_mm3": 2618.6163269795015,
+      "nome": "Cabo_T_D1_A",
+      "delta_volume_mm3": -4.3564796214923263e-10,
+      "delta_relativo": -1.6636570911923837e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.678257811107,
+      "volume_STEP_mm3": 2064.6782578107686,
+      "nome": "Cabo_R_C2R2_B",
+      "delta_volume_mm3": -3.383320290595293e-10,
+      "delta_relativo": -1.6386670793841556e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111074,
+      "volume_STEP_mm3": 2064.678257811416,
+      "nome": "Cabo_R_C1R2_A",
+      "delta_volume_mm3": 3.0877345125190914e-10,
+      "delta_relativo": 1.4955039608895716e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 36739.63363445491,
+      "volume_STEP_mm3": 36739.6336344551,
+      "nome": "Base_furada_D",
+      "delta_volume_mm3": 1.8917489796876907e-10,
+      "delta_relativo": 5.149068710128845e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111056,
+      "volume_STEP_mm3": 2064.6782578112875,
+      "nome": "Cabo_R_C1R4_A",
+      "delta_volume_mm3": 1.8189894035458565e-10,
+      "delta_relativo": 8.810038061205143e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596824,
+      "volume_STEP_mm3": 95.48284824581539,
+      "nome": "M4_base_porca_1",
+      "delta_volume_mm3": -1.5285195331671275e-10,
+      "delta_relativo": -1.6008315223584349e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596838,
+      "volume_STEP_mm3": 95.48284824581579,
+      "nome": "M4_porcas_3",
+      "delta_volume_mm3": -1.5259615793183912e-10,
+      "delta_relativo": -1.5981525555117933e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596831,
+      "volume_STEP_mm3": 95.48284824581596,
+      "nome": "M4_porcas_1",
+      "delta_volume_mm3": -1.5235457340168068e-10,
+      "delta_relativo": -1.5956224201566352e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596831,
+      "volume_STEP_mm3": 95.48284824581596,
+      "nome": "M4_porcas_5",
+      "delta_volume_mm3": -1.5235457340168068e-10,
+      "delta_relativo": -1.5956224201566352e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111033,
+      "volume_STEP_mm3": 2064.6782578112443,
+      "nome": "Cabo_R_C2R1_B",
+      "delta_volume_mm3": 1.4097167877480388e-10,
+      "delta_relativo": 6.827779497433993e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2618.616326979938,
+      "volume_STEP_mm3": 2618.6163269798235,
+      "nome": "Cabo_T_D2_A",
+      "delta_volume_mm3": -1.1459633242338896e-10,
+      "delta_relativo": -4.376216983094787e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.678257811106,
+      "volume_STEP_mm3": 2064.678257811207,
+      "nome": "Cabo_R_C1R2_B",
+      "delta_volume_mm3": 1.0095391189679503e-10,
+      "delta_relativo": 4.8895711239688533e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111042,
+      "volume_STEP_mm3": 2064.6782578112043,
+      "nome": "Cabo_R_C2R4_A",
+      "delta_volume_mm3": 1.000444171950221e-10,
+      "delta_relativo": 4.845520933662832e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111,
+      "volume_STEP_mm3": 2064.6782578110033,
+      "nome": "Cabo_R_C1R4_B",
+      "delta_volume_mm3": -9.686118573881686e-11,
+      "delta_relativo": -4.691345267591751e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2618.616326979944,
+      "volume_STEP_mm3": 2618.6163269798553,
+      "nome": "Cabo_T_D2_B",
+      "delta_volume_mm3": -8.86757334228605e-11,
+      "delta_relativo": -3.38635837977572e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111033,
+      "volume_STEP_mm3": 2064.6782578110174,
+      "nome": "Cabo_R_C1R3_B",
+      "delta_volume_mm3": -8.594724931754172e-11,
+      "delta_relativo": -4.162742983919434e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.678257811103,
+      "volume_STEP_mm3": 2064.678257811181,
+      "nome": "Cabo_R_C1R3_A",
+      "delta_volume_mm3": 7.821654435247183e-11,
+      "delta_relativo": 3.7883163663182164e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 225521.5023032892,
+      "volume_STEP_mm3": 225521.50230328922,
+      "nome": "Refletor_fabricacao",
+      "delta_volume_mm3": 2.9103830456733704e-11,
+      "delta_relativo": 1.2905124415850094e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066192663,
+      "nome": "M2_porca_04",
+      "delta_volume_mm3": -2.55226950685028e-11,
+      "delta_relativo": -1.5933889185253966e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066192663,
+      "nome": "M2_porca_06",
+      "delta_volume_mm3": -2.55226950685028e-11,
+      "delta_relativo": -1.5933889185253966e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066192663,
+      "nome": "M2_porca_12",
+      "delta_volume_mm3": -2.55226950685028e-11,
+      "delta_relativo": -1.5933889185253966e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066192663,
+      "nome": "M2_porca_14",
+      "delta_volume_mm3": -2.55226950685028e-11,
+      "delta_relativo": -1.5933889185253966e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.017869066192677,
+      "nome": "M2_porca_08",
+      "delta_volume_mm3": -2.5515589641145198e-11,
+      "delta_relativo": -1.5929453247284789e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.017869066192677,
+      "nome": "M2_porca_10",
+      "delta_volume_mm3": -2.5515589641145198e-11,
+      "delta_relativo": -1.5929453247284789e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.01786906619274,
+      "nome": "M2_porca_02",
+      "delta_volume_mm3": -2.546229893596319e-11,
+      "delta_relativo": -1.5896183712516015e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.01786906619274,
+      "nome": "M2_porca_16",
+      "delta_volume_mm3": -2.546229893596319e-11,
+      "delta_relativo": -1.5896183712516015e-12
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111047,
+      "volume_STEP_mm3": 2064.6782578110815,
+      "nome": "Cabo_R_C2R3_B",
+      "delta_volume_mm3": -2.319211489520967e-11,
+      "delta_relativo": -1.1232798528036562e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111106,
+      "volume_STEP_mm3": 2064.67825781113,
+      "nome": "Cabo_R_C2R4_B",
+      "delta_volume_mm3": 1.9554136088117957e-11,
+      "delta_relativo": 9.470790915795506e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596824,
+      "volume_STEP_mm3": 95.48284824595748,
+      "nome": "M4_base_porca_2",
+      "delta_volume_mm3": -1.0757617019407917e-11,
+      "delta_relativo": -1.1266543905032866e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596838,
+      "volume_STEP_mm3": 95.48284824595783,
+      "nome": "M4_porcas_4",
+      "delta_volume_mm3": -1.0558665053395089e-11,
+      "delta_relativo": -1.1058179816960908e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596831,
+      "volume_STEP_mm3": 95.48284824595811,
+      "nome": "M4_porcas_2",
+      "delta_volume_mm3": -1.0203393685515039e-11,
+      "delta_relativo": -1.068610108826102e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 95.48284824596831,
+      "volume_STEP_mm3": 95.48284824595811,
+      "nome": "M4_porcas_6",
+      "delta_volume_mm3": -1.0203393685515039e-11,
+      "delta_relativo": -1.068610108826102e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2064.6782578111042,
+      "volume_STEP_mm3": 2064.6782578110947,
+      "nome": "Cabo_R_C2R3_A",
+      "delta_volume_mm3": -9.549694368615746e-12,
+      "delta_relativo": -4.625269982132703e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.090085781877136,
+      "nome": "M3_rede_porca_06",
+      "delta_volume_mm3": 7.723599537712289e-12,
+      "delta_relativo": 1.6757615887863118e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.090085781877136,
+      "nome": "M3_rede_porca_08",
+      "delta_volume_mm3": 7.723599537712289e-12,
+      "delta_relativo": 1.6757615887863118e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.090085781877136,
+      "nome": "M3_rede_porca_10",
+      "delta_volume_mm3": 7.723599537712289e-12,
+      "delta_relativo": 1.6757615887863118e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.090085781877136,
+      "nome": "M3_rede_porca_12",
+      "delta_volume_mm3": 7.723599537712289e-12,
+      "delta_relativo": 1.6757615887863118e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.09008578187701,
+      "nome": "M3_rede_porca_05",
+      "delta_volume_mm3": 7.595701845275471e-12,
+      "delta_relativo": 1.6480120868560878e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.09008578187701,
+      "nome": "M3_rede_porca_07",
+      "delta_volume_mm3": 7.595701845275471e-12,
+      "delta_relativo": 1.6480120868560878e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.09008578187701,
+      "nome": "M3_rede_porca_09",
+      "delta_volume_mm3": 7.595701845275471e-12,
+      "delta_relativo": 1.6480120868560878e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186941,
+      "volume_STEP_mm3": 46.09008578187701,
+      "nome": "M3_rede_porca_11",
+      "delta_volume_mm3": 7.595701845275471e-12,
+      "delta_relativo": 1.6480120868560878e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186938,
+      "volume_STEP_mm3": 46.09008578187693,
+      "nome": "M3_rede_porca_02",
+      "delta_volume_mm3": 7.553069281129865e-12,
+      "delta_relativo": 1.6387622528793476e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186938,
+      "volume_STEP_mm3": 46.09008578187693,
+      "nome": "M3_rede_porca_04",
+      "delta_volume_mm3": 7.553069281129865e-12,
+      "delta_relativo": 1.6387622528793476e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186938,
+      "volume_STEP_mm3": 46.090085781876866,
+      "nome": "M3_rede_porca_01",
+      "delta_volume_mm3": 7.489120434911456e-12,
+      "delta_relativo": 1.6248875019142356e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 46.09008578186938,
+      "volume_STEP_mm3": 46.090085781876866,
+      "nome": "M3_rede_porca_03",
+      "delta_volume_mm3": 7.489120434911456e-12,
+      "delta_relativo": 1.6248875019142356e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573042,
+      "volume_STEP_mm3": 62.38159634573616,
+      "nome": "C2R1_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.7411853049416095e-12,
+      "delta_relativo": 9.203331817805514e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573043,
+      "volume_STEP_mm3": 62.38159634573613,
+      "nome": "C2R4_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.6985527407960035e-12,
+      "delta_relativo": 9.134990244901016e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573041,
+      "volume_STEP_mm3": 62.38159634573609,
+      "nome": "C1R1_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.6843418860808015e-12,
+      "delta_relativo": 9.11220972059952e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573036,
+      "volume_STEP_mm3": 62.38159634573604,
+      "nome": "C1R2_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.6843418860808015e-12,
+      "delta_relativo": 9.112209720599528e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573038,
+      "volume_STEP_mm3": 62.381596345736064,
+      "nome": "C2R2_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.6843418860808015e-12,
+      "delta_relativo": 9.112209720599525e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.381596345730394,
+      "volume_STEP_mm3": 62.38159634573607,
+      "nome": "C1R4_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.6772364587232005e-12,
+      "delta_relativo": 9.100819458448774e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573038,
+      "volume_STEP_mm3": 62.381596345735936,
+      "nome": "C2R3_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.5564441936439835e-12,
+      "delta_relativo": 8.907185001886035e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.38159634573036,
+      "volume_STEP_mm3": 62.381596345735886,
+      "nome": "C1R3_B_RET_A_Cu0",
+      "delta_volume_mm3": 5.5280224842135794e-12,
+      "delta_relativo": 8.861623953283041e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.223818921222733,
+      "volume_STEP_mm3": 22.22381892122562,
+      "nome": "C2R1_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.8883562208648073e-12,
+      "delta_relativo": 1.2996669164301726e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.22381892122272,
+      "volume_STEP_mm3": 22.22381892122558,
+      "nome": "C1R1_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.8599345114344032e-12,
+      "delta_relativo": 1.286878066083997e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.22381892122272,
+      "volume_STEP_mm3": 22.223818921225487,
+      "nome": "C2R3_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.7675639557855902e-12,
+      "delta_relativo": 1.2453143024589237e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.223818921222744,
+      "volume_STEP_mm3": 22.223818921225437,
+      "nome": "C1R3_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.6929569685307797e-12,
+      "delta_relativo": 1.2117435703002094e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.223818921222737,
+      "volume_STEP_mm3": 22.223818921225366,
+      "nome": "C2R4_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.6290081223123707e-12,
+      "delta_relativo": 1.182968657021313e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.22381892122277,
+      "volume_STEP_mm3": 22.223818921225376,
+      "nome": "C2R2_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.6076918402395677e-12,
+      "delta_relativo": 1.173377019261679e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.22381892122275,
+      "volume_STEP_mm3": 22.223818921225337,
+      "nome": "C1R2_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.5863755581667647e-12,
+      "delta_relativo": 1.1637853815020477e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 22.22381892122272,
+      "volume_STEP_mm3": 22.22381892122529,
+      "nome": "C1R4_F_SIG_A_Cu0",
+      "delta_volume_mm3": 2.5721647034515627e-12,
+      "delta_relativo": 1.1573909563289612e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.30531046796903,
+      "volume_STEP_mm3": 20.30531046797065,
+      "nome": "C2R1_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.6200374375330284e-12,
+      "delta_relativo": 7.97839284500764e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.30531046796905,
+      "volume_STEP_mm3": 20.305310467970635,
+      "nome": "C1R1_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.5845103007450234e-12,
+      "delta_relativo": 7.803428089634657e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.305310467969022,
+      "volume_STEP_mm3": 20.3053104679706,
+      "nome": "C2R4_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.5774048733874224e-12,
+      "delta_relativo": 7.768435138560073e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.305310467968983,
+      "volume_STEP_mm3": 20.30531046797055,
+      "nome": "C2R3_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.566746732351021e-12,
+      "delta_relativo": 7.715945711948196e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.305310467969004,
+      "volume_STEP_mm3": 20.305310467970568,
+      "nome": "C1R3_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.5631940186722204e-12,
+      "delta_relativo": 7.69844923641089e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.305310467969,
+      "volume_STEP_mm3": 20.305310467970564,
+      "nome": "C2R2_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.5631940186722204e-12,
+      "delta_relativo": 7.698449236410891e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.305310467969015,
+      "volume_STEP_mm3": 20.305310467970575,
+      "nome": "C1R2_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.55964130499342e-12,
+      "delta_relativo": 7.680952760873588e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 20.30531046796905,
+      "volume_STEP_mm3": 20.30531046797061,
+      "nome": "C1R4_F_SIG_B_Cu4",
+      "delta_volume_mm3": 1.55964130499342e-12,
+      "delta_relativo": 7.680952760873576e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.25623254781616,
+      "volume_STEP_mm3": 62.256232547817525,
+      "nome": "C2R4_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.3642420526593924e-12,
+      "delta_relativo": 2.1913340991387175e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.25623254781619,
+      "volume_STEP_mm3": 62.256232547817525,
+      "nome": "C1R4_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.3358203432289883e-12,
+      "delta_relativo": 2.14568130540666e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.25623254781615,
+      "volume_STEP_mm3": 62.25623254781745,
+      "nome": "C2R1_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.3002932064409833e-12,
+      "delta_relativo": 2.0886153132415905e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.256232547816204,
+      "volume_STEP_mm3": 62.25623254781747,
+      "nome": "C1R1_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.2647660696529783e-12,
+      "delta_relativo": 2.031549321076518e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.256232547816175,
+      "volume_STEP_mm3": 62.25623254781742,
+      "nome": "C1R2_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.2434497875801753e-12,
+      "delta_relativo": 1.9973097257774765e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.256232547816175,
+      "volume_STEP_mm3": 62.25623254781742,
+      "nome": "C2R2_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.2434497875801753e-12,
+      "delta_relativo": 1.9973097257774765e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.256232547816175,
+      "volume_STEP_mm3": 62.25623254781723,
+      "nome": "C2R3_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.0516032489249483e-12,
+      "delta_relativo": 1.6891533680860943e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 62.25623254781619,
+      "volume_STEP_mm3": 62.25623254781722,
+      "nome": "C1R3_B_RET_B_Cu0",
+      "delta_volume_mm3": 1.0302869668521453e-12,
+      "delta_relativo": 1.6549137727870516e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385263,
+      "nome": "Grampo_02",
+      "delta_volume_mm3": -1.0231815394945443e-12,
+      "delta_relativo": -1.9757984953922238e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385263,
+      "nome": "Grampo_16",
+      "delta_volume_mm3": -1.0231815394945443e-12,
+      "delta_relativo": -1.9757984953922238e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385263,
+      "nome": "Grampo_17",
+      "delta_volume_mm3": -1.0231815394945443e-12,
+      "delta_relativo": -1.9757984953922238e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385263,
+      "nome": "Grampo_31",
+      "delta_volume_mm3": -1.0231815394945443e-12,
+      "delta_relativo": -1.9757984953922238e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385264,
+      "nome": "Grampo_01",
+      "delta_volume_mm3": -9.094947017729282e-13,
+      "delta_relativo": -1.7562653292375321e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385264,
+      "nome": "Grampo_15",
+      "delta_volume_mm3": -9.094947017729282e-13,
+      "delta_relativo": -1.7562653292375321e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385264,
+      "nome": "Grampo_18",
+      "delta_volume_mm3": -9.094947017729282e-13,
+      "delta_relativo": -1.7562653292375321e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385274,
+      "volume_STEP_mm3": 517.8572318385264,
+      "nome": "Grampo_32",
+      "delta_volume_mm3": -9.094947017729282e-13,
+      "delta_relativo": -1.7562653292375321e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066217397,
+      "nome": "M2_porca_19",
+      "delta_volume_mm3": -7.887024366937112e-13,
+      "delta_relativo": -4.923891145777256e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066217397,
+      "nome": "M2_porca_21",
+      "delta_volume_mm3": -7.887024366937112e-13,
+      "delta_relativo": -4.923891145777256e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066217397,
+      "nome": "M2_porca_27",
+      "delta_volume_mm3": -7.887024366937112e-13,
+      "delta_relativo": -4.923891145777256e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218186,
+      "volume_STEP_mm3": 16.017869066217397,
+      "nome": "M2_porca_29",
+      "delta_volume_mm3": -7.887024366937112e-13,
+      "delta_relativo": -4.923891145777256e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.01786906621742,
+      "nome": "M2_porca_23",
+      "delta_volume_mm3": -7.744915819785092e-13,
+      "delta_relativo": -4.8351723863938794e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.01786906621742,
+      "nome": "M2_porca_25",
+      "delta_volume_mm3": -7.744915819785092e-13,
+      "delta_relativo": -4.8351723863938794e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_03",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_05",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_11",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_13",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_20",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_22",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_28",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.01786906621819,
+      "volume_STEP_mm3": 16.017869066217425,
+      "nome": "M2_porca_30",
+      "delta_volume_mm3": -7.638334409421077e-13,
+      "delta_relativo": -4.76863331685635e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.017869066217447,
+      "nome": "M2_porca_07",
+      "delta_volume_mm3": -7.460698725481052e-13,
+      "delta_relativo": -4.657734867627131e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.017869066217447,
+      "nome": "M2_porca_09",
+      "delta_volume_mm3": -7.460698725481052e-13,
+      "delta_relativo": -4.657734867627131e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.01786906621745,
+      "nome": "M2_porca_24",
+      "delta_volume_mm3": -7.425171588693047e-13,
+      "delta_relativo": -4.635555177781288e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218193,
+      "volume_STEP_mm3": 16.01786906621745,
+      "nome": "M2_porca_26",
+      "delta_volume_mm3": -7.425171588693047e-13,
+      "delta_relativo": -4.635555177781288e-14
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846691034,
+      "volume_STEP_mm3": 77.45910846691106,
+      "nome": "M4_base_arruelas_1",
+      "delta_volume_mm3": 7.247535904753022e-13,
+      "delta_relativo": 9.356596077850661e-15
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846691034,
+      "volume_STEP_mm3": 77.45910846691106,
+      "nome": "M4_base_arruelas_2",
+      "delta_volume_mm3": 7.247535904753022e-13,
+      "delta_relativo": 9.356596077850661e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.017869066217482,
+      "nome": "M2_porca_17",
+      "delta_volume_mm3": -7.212008767965017e-13,
+      "delta_relativo": -4.502477038706224e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.017869066217482,
+      "nome": "M2_porca_31",
+      "delta_volume_mm3": -7.212008767965017e-13,
+      "delta_relativo": -4.502477038706224e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.017869066217504,
+      "nome": "M2_porca_01",
+      "delta_volume_mm3": -6.998845947236987e-13,
+      "delta_relativo": -4.3693988996311636e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.017869066217504,
+      "nome": "M2_porca_15",
+      "delta_volume_mm3": -6.998845947236987e-13,
+      "delta_relativo": -4.3693988996311636e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.017869066217504,
+      "nome": "M2_porca_18",
+      "delta_volume_mm3": -6.998845947236987e-13,
+      "delta_relativo": -4.3693988996311636e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 16.017869066218203,
+      "volume_STEP_mm3": 16.017869066217504,
+      "nome": "M2_porca_32",
+      "delta_volume_mm3": -6.998845947236987e-13,
+      "delta_relativo": -4.3693988996311636e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 286.89024112582035,
+      "volume_STEP_mm3": 286.89024112582064,
+      "nome": "M4_refletor_1",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "delta_relativo": 9.906823361739658e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 286.89024112582035,
+      "volume_STEP_mm3": 286.89024112582064,
+      "nome": "M4_refletor_2",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "delta_relativo": 9.906823361739658e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 286.89024112582035,
+      "volume_STEP_mm3": 286.89024112582064,
+      "nome": "M4_refletor_5",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "delta_relativo": 9.906823361739658e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 286.89024112582035,
+      "volume_STEP_mm3": 286.89024112582064,
+      "nome": "M4_refletor_6",
+      "delta_volume_mm3": 2.8421709430404007e-13,
+      "delta_relativo": 9.906823361739658e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262723,
+      "volume_STEP_mm3": 2.222495383262516,
+      "nome": "C2R2_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -2.0694557179012918e-13,
+      "delta_relativo": -9.311406149529266e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262723,
+      "volume_STEP_mm3": 2.222495383262516,
+      "nome": "C2R4_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -2.0694557179012918e-13,
+      "delta_relativo": -9.311406149529266e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627232,
+      "volume_STEP_mm3": 2.2224953832625167,
+      "nome": "C2R3_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -2.0650148258027912e-13,
+      "delta_relativo": -9.291424591268471e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262723,
+      "volume_STEP_mm3": 2.222495383262517,
+      "nome": "C1R4_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -2.05613304160579e-13,
+      "delta_relativo": -9.251461474746889e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627223,
+      "volume_STEP_mm3": 2.222495383262517,
+      "nome": "C1R2_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -2.0516921495072893e-13,
+      "delta_relativo": -9.231479916486097e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627237,
+      "volume_STEP_mm3": 2.222495383262519,
+      "nome": "C1R3_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -2.0472512574087887e-13,
+      "delta_relativo": -9.2114983582253e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627197,
+      "volume_STEP_mm3": 2.2224953832625154,
+      "nome": "C2R1_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -2.042810365310288e-13,
+      "delta_relativo": -9.191516799964524e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627197,
+      "volume_STEP_mm3": 2.222495383262516,
+      "nome": "C2R3_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -2.0383694732117874e-13,
+      "delta_relativo": -9.171535241703732e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627192,
+      "volume_STEP_mm3": 2.222495383262516,
+      "nome": "C2R2_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -2.0339285811132868e-13,
+      "delta_relativo": -9.15155368344294e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627197,
+      "volume_STEP_mm3": 2.2224953832625176,
+      "nome": "C1R3_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -2.020605904817785e-13,
+      "delta_relativo": -9.091609008660561e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262719,
+      "volume_STEP_mm3": 2.222495383262517,
+      "nome": "C1R1_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -2.0161650127192843e-13,
+      "delta_relativo": -9.071627450399772e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262719,
+      "volume_STEP_mm3": 2.222495383262517,
+      "nome": "C1R3_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -2.0161650127192843e-13,
+      "delta_relativo": -9.071627450399772e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627192,
+      "volume_STEP_mm3": 2.2224953832625176,
+      "nome": "C2R3_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -2.0161650127192843e-13,
+      "delta_relativo": -9.071627450399771e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627206,
+      "volume_STEP_mm3": 2.2224953832625194,
+      "nome": "C2R2_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -2.0117241206207837e-13,
+      "delta_relativo": -9.051645892138972e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262721,
+      "volume_STEP_mm3": 2.22249538326252,
+      "nome": "C2R3_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -2.0117241206207837e-13,
+      "delta_relativo": -9.051645892138971e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262721,
+      "volume_STEP_mm3": 2.2224953832625203,
+      "nome": "C1R2_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -2.007283228522283e-13,
+      "delta_relativo": -9.031664333878179e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627183,
+      "volume_STEP_mm3": 2.2224953832625176,
+      "nome": "C1R2_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -2.007283228522283e-13,
+      "delta_relativo": -9.03166433387819e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.22249538326272,
+      "volume_STEP_mm3": 2.22249538326252,
+      "nome": "C1R3_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -2.0028423364237824e-13,
+      "delta_relativo": -9.01168277561739e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627192,
+      "volume_STEP_mm3": 2.22249538326252,
+      "nome": "C2R2_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -1.9939605522267811e-13,
+      "delta_relativo": -8.971719659095809e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627192,
+      "volume_STEP_mm3": 2.222495383262521,
+      "nome": "C1R2_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -1.9806378759312793e-13,
+      "delta_relativo": -8.911774984313431e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627254,
+      "volume_STEP_mm3": 2.2224953832625323,
+      "nome": "C2R1_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -1.9317880628477724e-13,
+      "delta_relativo": -8.69197784344469e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262721,
+      "volume_STEP_mm3": 2.2224953832625287,
+      "nome": "C2R4_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -1.9229062786507711e-13,
+      "delta_relativo": -8.652014726923122e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262725,
+      "volume_STEP_mm3": 2.222495383262533,
+      "nome": "C1R1_B_E1_Q2_Cu0",
+      "delta_volume_mm3": -1.9184653865522705e-13,
+      "delta_relativo": -8.632033168662315e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627214,
+      "volume_STEP_mm3": 2.2224953832625305,
+      "nome": "C1R4_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -1.9095836023552692e-13,
+      "delta_relativo": -8.592070052140744e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627223,
+      "volume_STEP_mm3": 2.222495383262532,
+      "nome": "C2R4_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -1.9051427102567686e-13,
+      "delta_relativo": -8.572088493879947e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262722,
+      "volume_STEP_mm3": 2.222495383262532,
+      "nome": "C2R1_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -1.900701818158268e-13,
+      "delta_relativo": -8.552106935619156e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262722,
+      "volume_STEP_mm3": 2.2224953832625323,
+      "nome": "C2R4_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -1.8962609260597674e-13,
+      "delta_relativo": -8.532125377358364e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262722,
+      "volume_STEP_mm3": 2.2224953832625336,
+      "nome": "C1R4_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -1.8829382497642655e-13,
+      "delta_relativo": -8.472180702575987e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262722,
+      "volume_STEP_mm3": 2.2224953832625336,
+      "nome": "C1R4_B_E4_Q2_Cu0",
+      "delta_volume_mm3": -1.8829382497642655e-13,
+      "delta_relativo": -8.472180702575987e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.222495383262721,
+      "volume_STEP_mm3": 2.2224953832625336,
+      "nome": "C1R1_B_E3_Q2_Cu0",
+      "delta_volume_mm3": -1.8740564655672642e-13,
+      "delta_relativo": -8.432217586054406e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627197,
+      "volume_STEP_mm3": 2.2224953832625323,
+      "nome": "C2R1_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -1.8740564655672642e-13,
+      "delta_relativo": -8.432217586054411e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.2224953832627206,
+      "volume_STEP_mm3": 2.2224953832625336,
+      "nome": "C1R1_B_E2_Q2_Cu0",
+      "delta_volume_mm3": -1.8696155734687636e-13,
+      "delta_relativo": -8.412236027793615e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_03",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_04",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_05",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_06",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_07",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_08",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_09",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_10",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_11",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_12",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_13",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_14",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_19",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_20",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_21",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_22",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_23",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_24",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_25",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385277,
+      "volume_STEP_mm3": 517.8572318385276,
+      "nome": "Grampo_26",
+      "delta_volume_mm3": -1.1368683772161603e-13,
+      "delta_relativo": -2.1953316615469137e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_27",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_28",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_29",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 517.8572318385276,
+      "volume_STEP_mm3": 517.8572318385277,
+      "nome": "Grampo_30",
+      "delta_volume_mm3": 1.1368683772161603e-13,
+      "delta_relativo": 2.1953316615469141e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548027,
+      "volume_STEP_mm3": 96.86158469548037,
+      "nome": "M2_parafuso_01",
+      "delta_volume_mm3": 9.947598300641403e-14,
+      "delta_relativo": 1.026991075142463e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548027,
+      "volume_STEP_mm3": 96.86158469548037,
+      "nome": "M2_parafuso_15",
+      "delta_volume_mm3": 9.947598300641403e-14,
+      "delta_relativo": 1.026991075142463e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548027,
+      "volume_STEP_mm3": 96.86158469548037,
+      "nome": "M2_parafuso_18",
+      "delta_volume_mm3": 9.947598300641403e-14,
+      "delta_relativo": 1.026991075142463e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548027,
+      "volume_STEP_mm3": 96.86158469548037,
+      "nome": "M2_parafuso_32",
+      "delta_volume_mm3": 9.947598300641403e-14,
+      "delta_relativo": 1.026991075142463e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548033,
+      "volume_STEP_mm3": 96.86158469548042,
+      "nome": "M2_parafuso_02",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078249e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_03",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_05",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_11",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_13",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548033,
+      "volume_STEP_mm3": 96.86158469548042,
+      "nome": "M2_parafuso_16",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078249e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548033,
+      "volume_STEP_mm3": 96.86158469548042,
+      "nome": "M2_parafuso_17",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078249e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_20",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_22",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_28",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548056,
+      "volume_STEP_mm3": 96.86158469548064,
+      "nome": "M2_parafuso_30",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078229e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548033,
+      "volume_STEP_mm3": 96.86158469548042,
+      "nome": "M2_parafuso_31",
+      "delta_volume_mm3": 8.526512829121202e-14,
+      "delta_relativo": 8.802780644078249e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_04",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_06",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_12",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_14",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_19",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_21",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_27",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548062,
+      "volume_STEP_mm3": 96.86158469548069,
+      "nome": "M2_parafuso_29",
+      "delta_volume_mm3": 7.105427357601002e-14,
+      "delta_relativo": 7.335650536731853e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 286.8902411258198,
+      "volume_STEP_mm3": 286.89024112581984,
+      "nome": "M4_refletor_3",
+      "delta_volume_mm3": 5.684341886080802e-14,
+      "delta_relativo": 1.9813646723479356e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 286.8902411258198,
+      "volume_STEP_mm3": 286.89024112581984,
+      "nome": "M4_refletor_4",
+      "delta_volume_mm3": 5.684341886080802e-14,
+      "delta_relativo": 1.9813646723479356e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946949,
+      "volume_STEP_mm3": 0.42414574149474765,
+      "nome": "C1R2_F_SIG_B_Cu0",
+      "delta_volume_mm3": 5.2735593669694936e-14,
+      "delta_relativo": 1.2433366296182543e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.424145741494695,
+      "volume_STEP_mm3": 0.4241457414947477,
+      "nome": "C1R3_F_SIG_B_Cu3",
+      "delta_volume_mm3": 5.268008251846368e-14,
+      "delta_relativo": 1.2420278542186558e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.424145741494695,
+      "volume_STEP_mm3": 0.4241457414947477,
+      "nome": "C1R4_F_SIG_B_Cu0",
+      "delta_volume_mm3": 5.268008251846368e-14,
+      "delta_relativo": 1.2420278542186558e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946951,
+      "volume_STEP_mm3": 0.42414574149474776,
+      "nome": "C2R1_F_SIG_B_Cu3",
+      "delta_volume_mm3": 5.268008251846368e-14,
+      "delta_relativo": 1.2420278542186558e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149469497,
+      "volume_STEP_mm3": 0.42414574149474765,
+      "nome": "C2R2_F_SIG_B_Cu0",
+      "delta_volume_mm3": 5.268008251846368e-14,
+      "delta_relativo": 1.242027854218656e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946951,
+      "volume_STEP_mm3": 0.42414574149474765,
+      "nome": "C2R3_F_SIG_B_Cu3",
+      "delta_volume_mm3": 5.256906021600116e-14,
+      "delta_relativo": 1.2394103034194594e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946951,
+      "volume_STEP_mm3": 0.42414574149474765,
+      "nome": "C2R4_F_SIG_B_Cu0",
+      "delta_volume_mm3": 5.256906021600116e-14,
+      "delta_relativo": 1.2394103034194594e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.424145741494695,
+      "volume_STEP_mm3": 0.42414574149474754,
+      "nome": "C1R1_F_SIG_B_Cu3",
+      "delta_volume_mm3": 5.2513549064769904e-14,
+      "delta_relativo": 1.2381015280198614e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149469586,
+      "volume_STEP_mm3": 0.424145741494746,
+      "nome": "C1R2_F_SIG_B_Cu3",
+      "delta_volume_mm3": 5.012656956182582e-14,
+      "delta_relativo": 1.1818241858371382e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149469586,
+      "volume_STEP_mm3": 0.424145741494746,
+      "nome": "C1R3_F_SIG_B_Cu0",
+      "delta_volume_mm3": 5.012656956182582e-14,
+      "delta_relativo": 1.1818241858371382e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946958,
+      "volume_STEP_mm3": 0.42414574149474593,
+      "nome": "C2R3_F_SIG_B_Cu0",
+      "delta_volume_mm3": 5.012656956182582e-14,
+      "delta_relativo": 1.1818241858371382e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946959,
+      "volume_STEP_mm3": 0.42414574149474593,
+      "nome": "C2R2_F_SIG_B_Cu3",
+      "delta_volume_mm3": 5.00155472593633e-14,
+      "delta_relativo": 1.1792066350379417e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149469536,
+      "volume_STEP_mm3": 0.42414574149474193,
+      "nome": "C2R1_F_SIG_B_Cu0",
+      "delta_volume_mm3": 4.657385588302532e-14,
+      "delta_relativo": 1.0980625602628572e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149469536,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C2R4_F_SIG_B_Cu3",
+      "delta_volume_mm3": 4.651834473179406e-14,
+      "delta_relativo": 1.096753784863259e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946954,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C1R1_F_SIG_B_Cu0",
+      "delta_volume_mm3": 4.64628335805628e-14,
+      "delta_relativo": 1.0954450094636608e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414946954,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C1R4_F_SIG_B_Cu3",
+      "delta_volume_mm3": 4.64628335805628e-14,
+      "delta_relativo": 1.0954450094636608e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380453394,
+      "volume_STEP_mm3": 0.09484782380449291,
+      "nome": "C2R1_PTH_B",
+      "delta_volume_mm3": -4.1022740759899534e-14,
+      "delta_relativo": -4.325111437921948e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380453394,
+      "volume_STEP_mm3": 0.09484782380449291,
+      "nome": "C2R4_PTH_B",
+      "delta_volume_mm3": -4.1022740759899534e-14,
+      "delta_relativo": -4.325111437921948e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380453388,
+      "volume_STEP_mm3": 0.09484782380449291,
+      "nome": "C1R1_PTH_A",
+      "delta_volume_mm3": -4.0967229608668276e-14,
+      "delta_relativo": -4.319258783743436e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380453388,
+      "volume_STEP_mm3": 0.09484782380449291,
+      "nome": "C1R4_PTH_A",
+      "delta_volume_mm3": -4.0967229608668276e-14,
+      "delta_relativo": -4.319258783743436e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380453377,
+      "volume_STEP_mm3": 0.09484782380449536,
+      "nome": "C1R1_PTH_B",
+      "delta_volume_mm3": -3.8413716652030416e-14,
+      "delta_relativo": -4.0500366915317905e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380453377,
+      "volume_STEP_mm3": 0.09484782380449536,
+      "nome": "C1R4_PTH_B",
+      "delta_volume_mm3": -3.8413716652030416e-14,
+      "delta_relativo": -4.0500366915317905e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0948478238045336,
+      "volume_STEP_mm3": 0.09484782380449536,
+      "nome": "C2R1_PTH_A",
+      "delta_volume_mm3": -3.824718319833664e-14,
+      "delta_relativo": -4.032478728996255e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0948478238045336,
+      "volume_STEP_mm3": 0.09484782380449536,
+      "nome": "C2R4_PTH_A",
+      "delta_volume_mm3": -3.824718319833664e-14,
+      "delta_relativo": -4.032478728996255e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971419,
+      "volume_STEP_mm3": 0.8745604898971151,
+      "nome": "C2R1_Vivo_B",
+      "delta_volume_mm3": -2.6756374893466273e-14,
+      "delta_relativo": -3.059408148727725e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971419,
+      "volume_STEP_mm3": 0.8745604898971151,
+      "nome": "C2R4_Vivo_B",
+      "delta_volume_mm3": -2.6756374893466273e-14,
+      "delta_relativo": -3.059408148727725e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971417,
+      "volume_STEP_mm3": 0.8745604898971151,
+      "nome": "C1R1_Vivo_A",
+      "delta_volume_mm3": -2.6645352591003757e-14,
+      "delta_relativo": -3.046713509106449e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971417,
+      "volume_STEP_mm3": 0.8745604898971151,
+      "nome": "C1R4_Vivo_A",
+      "delta_volume_mm3": -2.6645352591003757e-14,
+      "delta_relativo": -3.046713509106449e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422108,
+      "volume_STEP_mm3": 0.0832718402742466,
+      "nome": "C2R1_Solda_B",
+      "delta_volume_mm3": 2.5521251778570786e-14,
+      "delta_relativo": 3.0648117892587925e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422108,
+      "volume_STEP_mm3": 0.0832718402742466,
+      "nome": "C2R4_Solda_B",
+      "delta_volume_mm3": 2.5521251778570786e-14,
+      "delta_relativo": 3.0648117892587925e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422119,
+      "volume_STEP_mm3": 0.0832718402742466,
+      "nome": "C1R1_Solda_A",
+      "delta_volume_mm3": 2.541022947610827e-14,
+      "delta_relativo": 3.0514792746779994e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422119,
+      "volume_STEP_mm3": 0.0832718402742466,
+      "nome": "C1R4_Solda_A",
+      "delta_volume_mm3": 2.541022947610827e-14,
+      "delta_relativo": 3.0514792746779994e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971404,
+      "volume_STEP_mm3": 0.8745604898971162,
+      "nome": "C1R1_Vivo_B",
+      "delta_volume_mm3": -2.4202861936828413e-14,
+      "delta_relativo": -2.767431437438362e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971404,
+      "volume_STEP_mm3": 0.8745604898971162,
+      "nome": "C1R4_Vivo_B",
+      "delta_volume_mm3": -2.4202861936828413e-14,
+      "delta_relativo": -2.767431437438362e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971403,
+      "volume_STEP_mm3": 0.8745604898971162,
+      "nome": "C2R1_Vivo_A",
+      "delta_volume_mm3": -2.4091839634365897e-14,
+      "delta_relativo": -2.7547367978170853e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971403,
+      "volume_STEP_mm3": 0.8745604898971162,
+      "nome": "C2R4_Vivo_A",
+      "delta_volume_mm3": -2.4091839634365897e-14,
+      "delta_relativo": -2.7547367978170853e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422163,
+      "volume_STEP_mm3": 0.08327184027424438,
+      "nome": "C2R1_Solda_A",
+      "delta_volume_mm3": 2.2745694217007895e-14,
+      "delta_relativo": 2.7314989247390577e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422163,
+      "volume_STEP_mm3": 0.08327184027424438,
+      "nome": "C2R4_Solda_A",
+      "delta_volume_mm3": 2.2745694217007895e-14,
+      "delta_relativo": 2.7314989247390577e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422174,
+      "volume_STEP_mm3": 0.08327184027424427,
+      "nome": "C1R1_Solda_B",
+      "delta_volume_mm3": 2.2523649612082863e-14,
+      "delta_relativo": 2.704833895577477e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027422174,
+      "volume_STEP_mm3": 0.08327184027424427,
+      "nome": "C1R4_Solda_B",
+      "delta_volume_mm3": 2.2523649612082863e-14,
+      "delta_relativo": 2.704833895577477e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548047,
+      "volume_STEP_mm3": 96.86158469548046,
+      "nome": "M2_parafuso_09",
+      "delta_volume_mm3": -1.4210854715202004e-14,
+      "delta_relativo": -1.4671301073463727e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.8615846954805,
+      "volume_STEP_mm3": 96.86158469548052,
+      "nome": "M2_parafuso_10",
+      "delta_volume_mm3": 1.4210854715202004e-14,
+      "delta_relativo": 1.4671301073463722e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.8615846954805,
+      "volume_STEP_mm3": 96.86158469548052,
+      "nome": "M2_parafuso_25",
+      "delta_volume_mm3": 1.4210854715202004e-14,
+      "delta_relativo": 1.4671301073463722e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548047,
+      "volume_STEP_mm3": 96.86158469548046,
+      "nome": "M2_parafuso_26",
+      "delta_volume_mm3": -1.4210854715202004e-14,
+      "delta_relativo": -1.4671301073463727e-16
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846691007,
+      "volume_STEP_mm3": 77.45910846691005,
+      "nome": "M4_arruelas_1",
+      "delta_volume_mm3": -1.4210854715202004e-14,
+      "delta_relativo": -1.8346266819315087e-16
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846691007,
+      "volume_STEP_mm3": 77.45910846691005,
+      "nome": "M4_arruelas_2",
+      "delta_volume_mm3": -1.4210854715202004e-14,
+      "delta_relativo": -1.8346266819315087e-16
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846691007,
+      "volume_STEP_mm3": 77.45910846691005,
+      "nome": "M4_arruelas_5",
+      "delta_volume_mm3": -1.4210854715202004e-14,
+      "delta_relativo": -1.8346266819315087e-16
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846691007,
+      "volume_STEP_mm3": 77.45910846691005,
+      "nome": "M4_arruelas_6",
+      "delta_volume_mm3": -1.4210854715202004e-14,
+      "delta_relativo": -1.8346266819315087e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473144,
+      "volume_STEP_mm3": 0.42414574149474554,
+      "nome": "C2R2_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.4099832412739488e-14,
+      "delta_relativo": 3.324289514979046e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473144,
+      "volume_STEP_mm3": 0.42414574149474554,
+      "nome": "C2R3_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.4099832412739488e-14,
+      "delta_relativo": 3.324289514979046e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473144,
+      "volume_STEP_mm3": 0.4241457414947455,
+      "nome": "C2R2_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.404432126150823e-14,
+      "delta_relativo": 3.311201760983066e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473144,
+      "volume_STEP_mm3": 0.4241457414947454,
+      "nome": "C2R3_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.3933298959045715e-14,
+      "delta_relativo": 3.285026252991105e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473155,
+      "volume_STEP_mm3": 0.42414574149474543,
+      "nome": "C1R2_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.3877787807814457e-14,
+      "delta_relativo": 3.271938498995124e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473155,
+      "volume_STEP_mm3": 0.42414574149474543,
+      "nome": "C1R2_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.3877787807814457e-14,
+      "delta_relativo": 3.271938498995124e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473155,
+      "volume_STEP_mm3": 0.42414574149474543,
+      "nome": "C1R3_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.3877787807814457e-14,
+      "delta_relativo": 3.271938498995124e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473155,
+      "volume_STEP_mm3": 0.4241457414947454,
+      "nome": "C1R3_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.3822276656583199e-14,
+      "delta_relativo": 3.258850744999143e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414947308,
+      "volume_STEP_mm3": 0.424145741494742,
+      "nome": "C2R1_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.1213252548714081e-14,
+      "delta_relativo": 2.643726307188065e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414947308,
+      "volume_STEP_mm3": 0.42414574149474193,
+      "nome": "C2R4_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.1157741397482823e-14,
+      "delta_relativo": 2.630638553192084e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.1714225693873277,
+      "nome": "C1R1_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 1.1102230246251565e-14,
+      "delta_relativo": 5.112883324862993e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473083,
+      "volume_STEP_mm3": 0.42414574149474193,
+      "nome": "C1R1_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1102230246251565e-14,
+      "delta_relativo": 2.6175507991961034e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414947308,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C2R1_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1102230246251565e-14,
+      "delta_relativo": 2.6175507991961037e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.4241457414947308,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C2R4_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.1102230246251565e-14,
+      "delta_relativo": 2.6175507991961037e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473083,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C1R1_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.1046719095020308e-14,
+      "delta_relativo": 2.604463045200123e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473083,
+      "volume_STEP_mm3": 0.4241457414947419,
+      "nome": "C1R4_F_SIG_B_Cu2",
+      "delta_volume_mm3": 1.1046719095020308e-14,
+      "delta_relativo": 2.604463045200123e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.42414574149473083,
+      "volume_STEP_mm3": 0.4241457414947418,
+      "nome": "C1R4_F_SIG_B_Cu1",
+      "delta_volume_mm3": 1.099120794378905e-14,
+      "delta_relativo": 2.5913752912041422e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469926,
+      "nome": "C1R2_Via_0",
+      "delta_volume_mm3": 1.0547118733938987e-14,
+      "delta_relativo": 2.901436491026647e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469926,
+      "nome": "C2R4_Via_0",
+      "delta_volume_mm3": 1.0547118733938987e-14,
+      "delta_relativo": 2.901436491026647e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C1R2_Via_1",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C1R4_Via_0",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C2R1_Via_6",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C2R2_Via_0",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C2R3_Via_6",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C2R3_Via_7",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C2R4_Via_1",
+      "delta_volume_mm3": 1.0533240946131173e-14,
+      "delta_relativo": 2.897618811433191e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469923,
+      "nome": "C1R1_Via_6",
+      "delta_volume_mm3": 1.0519363158323358e-14,
+      "delta_relativo": 2.893801131839735e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469923,
+      "nome": "C1R3_Via_7",
+      "delta_volume_mm3": 1.0519363158323358e-14,
+      "delta_relativo": 2.893801131839735e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469923,
+      "nome": "C1R4_Via_1",
+      "delta_volume_mm3": 1.0519363158323358e-14,
+      "delta_relativo": 2.893801131839735e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.03635136859469923,
+      "nome": "C2R2_Via_1",
+      "delta_volume_mm3": 1.0519363158323358e-14,
+      "delta_relativo": 2.893801131839735e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468874,
+      "volume_STEP_mm3": 0.03635136859469924,
+      "nome": "C1R1_Via_7",
+      "delta_volume_mm3": 1.0505485370515544e-14,
+      "delta_relativo": 2.8899834522462764e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468871,
+      "volume_STEP_mm3": 0.036351368594699215,
+      "nome": "C1R3_Via_6",
+      "delta_volume_mm3": 1.0505485370515544e-14,
+      "delta_relativo": 2.889983452246279e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468874,
+      "volume_STEP_mm3": 0.03635136859469923,
+      "nome": "C2R1_Via_7",
+      "delta_volume_mm3": 1.049160758270773e-14,
+      "delta_relativo": 2.8861657726528205e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.1714225693873273,
+      "nome": "C1R1_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 9.769962616701378e-15,
+      "delta_relativo": 4.4993373258794316e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387318,
+      "volume_STEP_mm3": 2.1714225693873277,
+      "nome": "C1R4_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 9.769962616701378e-15,
+      "delta_relativo": 4.499337325879431e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.1714225693873273,
+      "nome": "C2R1_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 9.769962616701378e-15,
+      "delta_relativo": 4.4993373258794316e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.1714225693873273,
+      "nome": "C2R1_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 9.769962616701378e-15,
+      "delta_relativo": 4.4993373258794316e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.1714225693873273,
+      "nome": "C2R4_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 9.769962616701378e-15,
+      "delta_relativo": 4.4993373258794316e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468886,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R1_Via_0",
+      "delta_volume_mm3": 9.478529072737274e-15,
+      "delta_relativo": 2.607475162330515e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468886,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R4_Via_6",
+      "delta_volume_mm3": 9.478529072737274e-15,
+      "delta_relativo": 2.607475162330515e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468886,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R1_Via_0",
+      "delta_volume_mm3": 9.478529072737274e-15,
+      "delta_relativo": 2.607475162330515e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468886,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R4_Via_6",
+      "delta_volume_mm3": 9.478529072737274e-15,
+      "delta_relativo": 2.607475162330515e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468889,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R1_Via_1",
+      "delta_volume_mm3": 9.450773497121645e-15,
+      "delta_relativo": 2.599839803143601e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468889,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R4_Via_7",
+      "delta_volume_mm3": 9.450773497121645e-15,
+      "delta_relativo": 2.599839803143601e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468889,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R1_Via_1",
+      "delta_volume_mm3": 9.450773497121645e-15,
+      "delta_relativo": 2.599839803143601e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468889,
+      "volume_STEP_mm3": 0.03635136859469833,
+      "nome": "C2R4_Via_7",
+      "delta_volume_mm3": 9.43689570931383e-15,
+      "delta_relativo": 2.596022123550145e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387318,
+      "volume_STEP_mm3": 2.1714225693873273,
+      "nome": "C2R4_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 9.325873406851315e-15,
+      "delta_relativo": 4.294821992884911e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594689265,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R1_Via_5",
+      "delta_volume_mm3": 9.076073226310655e-15,
+      "delta_relativo": 2.496762454120261e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594689265,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R4_Via_3",
+      "delta_volume_mm3": 9.076073226310655e-15,
+      "delta_relativo": 2.496762454120261e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594689265,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R1_Via_5",
+      "delta_volume_mm3": 9.076073226310655e-15,
+      "delta_relativo": 2.496762454120261e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594689265,
+      "volume_STEP_mm3": 0.03635136859469833,
+      "nome": "C2R4_Via_3",
+      "delta_volume_mm3": 9.06219543850284e-15,
+      "delta_relativo": 2.492944774526805e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468929,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R1_Via_3",
+      "delta_volume_mm3": 9.048317650695026e-15,
+      "delta_relativo": 2.489127094933347e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468929,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R4_Via_5",
+      "delta_volume_mm3": 9.048317650695026e-15,
+      "delta_relativo": 2.489127094933347e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468929,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R1_Via_3",
+      "delta_volume_mm3": 9.048317650695026e-15,
+      "delta_relativo": 2.489127094933347e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468929,
+      "volume_STEP_mm3": 0.03635136859469833,
+      "nome": "C2R4_Via_5",
+      "delta_volume_mm3": 9.034439862887211e-15,
+      "delta_relativo": 2.485309415339891e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873193,
+      "volume_STEP_mm3": 2.1714225693873277,
+      "nome": "C1R1_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 8.43769498715119e-15,
+      "delta_relativo": 3.8857913268958695e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387315,
+      "volume_STEP_mm3": 2.171422569387323,
+      "nome": "C1R3_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 7.993605777301127e-15,
+      "delta_relativo": 3.681275993901358e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387319,
+      "volume_STEP_mm3": 2.171422569387327,
+      "nome": "C1R4_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 7.993605777301127e-15,
+      "delta_relativo": 3.681275993901351e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R1_Via_2",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R1_Via_4",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R4_Via_2",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C1R4_Via_4",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R1_Via_2",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R1_Via_4",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R4_Via_2",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594690445,
+      "volume_STEP_mm3": 0.03635136859469834,
+      "nome": "C2R4_Via_4",
+      "delta_volume_mm3": 7.896461262646426e-15,
+      "delta_relativo": 2.1722596886764256e-13
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.171422569387324,
+      "nome": "C1R2_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 7.549516567451064e-15,
+      "delta_relativo": 3.476760660906835e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.171422569387325,
+      "nome": "C1R2_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 7.549516567451064e-15,
+      "delta_relativo": 3.4767606609068335e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.171422569387324,
+      "nome": "C1R4_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 7.549516567451064e-15,
+      "delta_relativo": 3.476760660906835e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387317,
+      "volume_STEP_mm3": 2.1714225693873246,
+      "nome": "C2R2_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 7.549516567451064e-15,
+      "delta_relativo": 3.4767606609068343e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873157,
+      "volume_STEP_mm3": 2.1714225693873233,
+      "nome": "C2R4_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 7.549516567451064e-15,
+      "delta_relativo": 3.4767606609068362e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016891,
+      "volume_STEP_mm3": 1.0211523082016818,
+      "nome": "C1R2_Blindagem_A",
+      "delta_volume_mm3": -7.327471962526033e-15,
+      "delta_relativo": -7.175689565281554e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016891,
+      "volume_STEP_mm3": 1.0211523082016818,
+      "nome": "C1R3_Blindagem_A",
+      "delta_volume_mm3": -7.327471962526033e-15,
+      "delta_relativo": -7.175689565281554e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016891,
+      "volume_STEP_mm3": 1.0211523082016818,
+      "nome": "C2R2_Blindagem_B",
+      "delta_volume_mm3": -7.327471962526033e-15,
+      "delta_relativo": -7.175689565281554e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016891,
+      "volume_STEP_mm3": 1.0211523082016818,
+      "nome": "C2R3_Blindagem_B",
+      "delta_volume_mm3": -7.327471962526033e-15,
+      "delta_relativo": -7.175689565281554e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.1714225693873246,
+      "nome": "C1R4_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "delta_relativo": 3.272245327912314e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.17142256938732,
+      "volume_STEP_mm3": 2.1714225693873273,
+      "nome": "C2R1_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 7.105427357601002e-15,
+      "delta_relativo": 3.27224532791231e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.171422569387324,
+      "nome": "C1R3_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 6.661338147750939e-15,
+      "delta_relativo": 3.0677299949177942e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016893,
+      "volume_STEP_mm3": 1.0211523082016827,
+      "nome": "C1R3_Blindagem_B",
+      "delta_volume_mm3": -6.661338147750939e-15,
+      "delta_relativo": -6.523354150255956e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016893,
+      "volume_STEP_mm3": 1.021152308201683,
+      "nome": "C1R2_Blindagem_B",
+      "delta_volume_mm3": -6.439293542825908e-15,
+      "delta_relativo": -6.305909011914091e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016893,
+      "volume_STEP_mm3": 1.021152308201683,
+      "nome": "C2R2_Blindagem_A",
+      "delta_volume_mm3": -6.439293542825908e-15,
+      "delta_relativo": -6.305909011914091e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016893,
+      "volume_STEP_mm3": 1.021152308201683,
+      "nome": "C2R3_Blindagem_A",
+      "delta_volume_mm3": -6.439293542825908e-15,
+      "delta_relativo": -6.305909011914091e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387318,
+      "volume_STEP_mm3": 2.171422569387324,
+      "nome": "C1R1_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 6.217248937900877e-15,
+      "delta_relativo": 2.8632146619232742e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.171422569387323,
+      "nome": "C2R2_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 6.217248937900877e-15,
+      "delta_relativo": 2.863214661923276e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873153,
+      "volume_STEP_mm3": 2.1714225693873215,
+      "nome": "C2R3_B_E1_Q3_Cu0",
+      "delta_volume_mm3": 6.217248937900877e-15,
+      "delta_relativo": 2.8632146619232778e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.1714225693873237,
+      "nome": "C2R4_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 6.217248937900877e-15,
+      "delta_relativo": 2.8632146619232746e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380452994,
+      "volume_STEP_mm3": 0.09484782380452428,
+      "nome": "C2R3_PTH_B",
+      "delta_volume_mm3": -5.662137425588298e-15,
+      "delta_relativo": -5.969707262084672e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380452977,
+      "volume_STEP_mm3": 0.09484782380452428,
+      "nome": "C1R3_PTH_A",
+      "delta_volume_mm3": -5.495603971894525e-15,
+      "delta_relativo": -5.794127636729252e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380452988,
+      "volume_STEP_mm3": 0.09484782380452439,
+      "nome": "C2R2_PTH_B",
+      "delta_volume_mm3": -5.495603971894525e-15,
+      "delta_relativo": -5.794127636729244e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380452977,
+      "volume_STEP_mm3": 0.09484782380452439,
+      "nome": "C1R2_PTH_A",
+      "delta_volume_mm3": -5.384581669432009e-15,
+      "delta_relativo": -5.677074553158963e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387318,
+      "volume_STEP_mm3": 2.1714225693873233,
+      "nome": "C2R1_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 5.329070518200751e-15,
+      "delta_relativo": 2.454183995934235e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.171422569387323,
+      "nome": "C2R3_B_E4_Q3_Cu0",
+      "delta_volume_mm3": 5.329070518200751e-15,
+      "delta_relativo": 2.4541839959342354e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421447,
+      "volume_STEP_mm3": 0.08327184027420949,
+      "nome": "C2R2_Solda_A",
+      "delta_volume_mm3": -4.98212582300539e-15,
+      "delta_relativo": -5.982965918129384e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421447,
+      "volume_STEP_mm3": 0.08327184027420949,
+      "nome": "C2R3_Solda_A",
+      "delta_volume_mm3": -4.98212582300539e-15,
+      "delta_relativo": -5.982965918129384e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421436,
+      "volume_STEP_mm3": 0.08327184027420949,
+      "nome": "C1R2_Solda_B",
+      "delta_volume_mm3": -4.871103520542874e-15,
+      "delta_relativo": -5.849640772321494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421436,
+      "volume_STEP_mm3": 0.08327184027420949,
+      "nome": "C1R3_Solda_B",
+      "delta_volume_mm3": -4.871103520542874e-15,
+      "delta_relativo": -5.849640772321494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971433,
+      "volume_STEP_mm3": 0.874560489897148,
+      "nome": "C2R3_Vivo_A",
+      "delta_volume_mm3": 4.6629367034256575e-15,
+      "delta_relativo": 5.331748640936276e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971434,
+      "volume_STEP_mm3": 0.874560489897148,
+      "nome": "C1R2_Vivo_B",
+      "delta_volume_mm3": 4.551914400963142e-15,
+      "delta_relativo": 5.204802244723507e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971434,
+      "volume_STEP_mm3": 0.874560489897148,
+      "nome": "C1R3_Vivo_B",
+      "delta_volume_mm3": 4.551914400963142e-15,
+      "delta_relativo": 5.204802244723507e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971434,
+      "volume_STEP_mm3": 0.874560489897148,
+      "nome": "C2R2_Vivo_A",
+      "delta_volume_mm3": 4.551914400963142e-15,
+      "delta_relativo": 5.204802244723507e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569528,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C1R1_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.802513859341161e-15,
+      "delta_relativo": 4.2362743623641234e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569528,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C1R3_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.802513859341161e-15,
+      "delta_relativo": 4.2362743623641234e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569528,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C2R1_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.802513859341161e-15,
+      "delta_relativo": 4.2362743623641234e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569528,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C2R3_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.802513859341161e-15,
+      "delta_relativo": 4.2362743623641234e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569534,
+      "volume_STEP_mm3": 0.08976080239569884,
+      "nome": "C1R2_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.497202527569243e-15,
+      "delta_relativo": 3.8961355449480235e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569534,
+      "volume_STEP_mm3": 0.08976080239569884,
+      "nome": "C2R2_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.497202527569243e-15,
+      "delta_relativo": 3.8961355449480235e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569498,
+      "volume_STEP_mm3": 0.08976080239569846,
+      "nome": "C2R4_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.4833247397614286e-15,
+      "delta_relativo": 3.8806746896109435e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569498,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C1R4_B_SIG_B_Cu3",
+      "delta_volume_mm3": 3.469446951953614e-15,
+      "delta_relativo": 3.8652138342738485e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.1714225693873197,
+      "nome": "C1R2_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 3.1086244689504383e-15,
+      "delta_relativo": 1.431607330961638e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873193,
+      "volume_STEP_mm3": 2.1714225693873224,
+      "nome": "C1R3_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 3.1086244689504383e-15,
+      "delta_relativo": 1.4316073309616361e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0948478238045295,
+      "volume_STEP_mm3": 0.09484782380452661,
+      "nome": "C1R2_PTH_B",
+      "delta_volume_mm3": -2.886579864025407e-15,
+      "delta_relativo": -3.043380172827494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0948478238045295,
+      "volume_STEP_mm3": 0.09484782380452661,
+      "nome": "C1R3_PTH_B",
+      "delta_volume_mm3": -2.886579864025407e-15,
+      "delta_relativo": -3.043380172827494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0948478238045295,
+      "volume_STEP_mm3": 0.09484782380452661,
+      "nome": "C2R2_PTH_A",
+      "delta_volume_mm3": -2.886579864025407e-15,
+      "delta_relativo": -3.043380172827494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.09484782380452939,
+      "volume_STEP_mm3": 0.09484782380452661,
+      "nome": "C2R3_PTH_A",
+      "delta_volume_mm3": -2.7755575615628914e-15,
+      "delta_relativo": -2.926327089257209e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421403,
+      "volume_STEP_mm3": 0.08327184027421132,
+      "nome": "C1R3_Solda_A",
+      "delta_volume_mm3": -2.706168622523819e-15,
+      "delta_relativo": -3.24980042906751e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.171422569387317,
+      "volume_STEP_mm3": 2.1714225693873197,
+      "nome": "C1R3_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 2.6645352591003757e-15,
+      "delta_relativo": 1.2270919979671179e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873184,
+      "volume_STEP_mm3": 2.171422569387321,
+      "nome": "C2R3_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 2.6645352591003757e-15,
+      "delta_relativo": 1.2270919979671173e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421392,
+      "volume_STEP_mm3": 0.08327184027421132,
+      "nome": "C2R3_Solda_B",
+      "delta_volume_mm3": -2.5951463200613034e-15,
+      "delta_relativo": -3.116475283259616e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421403,
+      "volume_STEP_mm3": 0.08327184027421154,
+      "nome": "C1R2_Solda_A",
+      "delta_volume_mm3": -2.4841240175987878e-15,
+      "delta_relativo": -2.983150137451714e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08327184027421392,
+      "volume_STEP_mm3": 0.08327184027421154,
+      "nome": "C2R2_Solda_B",
+      "delta_volume_mm3": -2.373101715136272e-15,
+      "delta_relativo": -2.84982499164382e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569834,
+      "nome": "C1R3_B_SIG_B_Cu1",
+      "delta_volume_mm3": -2.3592239273284576e-15,
+      "delta_relativo": -2.6283454073060494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569834,
+      "nome": "C1R3_B_SIG_B_Cu2",
+      "delta_volume_mm3": -2.3592239273284576e-15,
+      "delta_relativo": -2.6283454073060494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569834,
+      "nome": "C2R2_B_SIG_B_Cu2",
+      "delta_volume_mm3": -2.3592239273284576e-15,
+      "delta_relativo": -2.6283454073060494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569834,
+      "nome": "C2R3_B_SIG_B_Cu1",
+      "delta_volume_mm3": -2.3592239273284576e-15,
+      "delta_relativo": -2.6283454073060494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569834,
+      "nome": "C2R3_B_SIG_B_Cu2",
+      "delta_volume_mm3": -2.3592239273284576e-15,
+      "delta_relativo": -2.6283454073060494e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569835,
+      "nome": "C1R2_B_SIG_B_Cu1",
+      "delta_volume_mm3": -2.345346139520643e-15,
+      "delta_relativo": -2.612884551968955e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569835,
+      "nome": "C1R2_B_SIG_B_Cu2",
+      "delta_volume_mm3": -2.345346139520643e-15,
+      "delta_relativo": -2.612884551968955e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.0897608023957007,
+      "volume_STEP_mm3": 0.08976080239569835,
+      "nome": "C2R2_B_SIG_B_Cu1",
+      "delta_volume_mm3": -2.345346139520643e-15,
+      "delta_relativo": -2.612884551968955e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.101991770363874,
+      "volume_STEP_mm3": 1.1019917703638762,
+      "nome": "C1R2_PTFE_A",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "delta_relativo": 2.0149388670272275e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.101991770363874,
+      "volume_STEP_mm3": 1.1019917703638762,
+      "nome": "C1R3_PTFE_A",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "delta_relativo": 2.0149388670272275e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.171422569387319,
+      "nome": "C2R3_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 2.220446049250313e-15,
+      "delta_relativo": 1.0225766649725985e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971447,
+      "volume_STEP_mm3": 0.8745604898971469,
+      "nome": "C1R2_Vivo_A",
+      "delta_volume_mm3": 2.1094237467877974e-15,
+      "delta_relativo": 2.411981528042597e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971447,
+      "volume_STEP_mm3": 0.8745604898971469,
+      "nome": "C1R3_Vivo_A",
+      "delta_volume_mm3": 2.1094237467877974e-15,
+      "delta_relativo": 2.411981528042597e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971447,
+      "volume_STEP_mm3": 0.8745604898971469,
+      "nome": "C2R2_Vivo_B",
+      "delta_volume_mm3": 2.1094237467877974e-15,
+      "delta_relativo": 2.411981528042597e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.8745604898971447,
+      "volume_STEP_mm3": 0.8745604898971469,
+      "nome": "C2R3_Vivo_B",
+      "delta_volume_mm3": 2.1094237467877974e-15,
+      "delta_relativo": 2.411981528042597e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638737,
+      "volume_STEP_mm3": 1.1019917703638757,
+      "nome": "C1R2_PTFE_B",
+      "delta_volume_mm3": 1.9984014443252818e-15,
+      "delta_relativo": 1.8134449803245055e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638737,
+      "volume_STEP_mm3": 1.1019917703638757,
+      "nome": "C1R3_PTFE_B",
+      "delta_volume_mm3": 1.9984014443252818e-15,
+      "delta_relativo": 1.8134449803245055e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638737,
+      "volume_STEP_mm3": 1.1019917703638757,
+      "nome": "C2R2_PTFE_A",
+      "delta_volume_mm3": 1.9984014443252818e-15,
+      "delta_relativo": 1.8134449803245055e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638742,
+      "volume_STEP_mm3": 1.1019917703638762,
+      "nome": "C2R2_PTFE_B",
+      "delta_volume_mm3": 1.9984014443252818e-15,
+      "delta_relativo": 1.8134449803245047e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638737,
+      "volume_STEP_mm3": 1.1019917703638757,
+      "nome": "C2R3_PTFE_A",
+      "delta_volume_mm3": 1.9984014443252818e-15,
+      "delta_relativo": 1.8134449803245055e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638742,
+      "volume_STEP_mm3": 1.1019917703638762,
+      "nome": "C2R3_PTFE_B",
+      "delta_volume_mm3": 1.9984014443252818e-15,
+      "delta_relativo": 1.8134449803245047e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468606,
+      "volume_STEP_mm3": 0.036351368594688016,
+      "nome": "C1R3_Via_0",
+      "delta_volume_mm3": 1.9567680809018384e-15,
+      "delta_relativo": 5.3829282267735143e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468607,
+      "volume_STEP_mm3": 0.036351368594688016,
+      "nome": "C1R2_Via_6",
+      "delta_volume_mm3": 1.942890293094024e-15,
+      "delta_relativo": 5.3447514308389484e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468609,
+      "volume_STEP_mm3": 0.03635136859468803,
+      "nome": "C1R2_Via_7",
+      "delta_volume_mm3": 1.942890293094024e-15,
+      "delta_relativo": 5.344751430838946e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468606,
+      "volume_STEP_mm3": 0.036351368594688,
+      "nome": "C2R3_Via_0",
+      "delta_volume_mm3": 1.942890293094024e-15,
+      "delta_relativo": 5.34475143083895e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468609,
+      "volume_STEP_mm3": 0.036351368594688016,
+      "nome": "C1R3_Via_1",
+      "delta_volume_mm3": 1.9290125052862095e-15,
+      "delta_relativo": 5.3065746349043824e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468607,
+      "volume_STEP_mm3": 0.036351368594688,
+      "nome": "C2R2_Via_6",
+      "delta_volume_mm3": 1.9290125052862095e-15,
+      "delta_relativo": 5.306574634904384e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468609,
+      "volume_STEP_mm3": 0.036351368594688,
+      "nome": "C2R2_Via_7",
+      "delta_volume_mm3": 1.915134717478395e-15,
+      "delta_relativo": 5.268397838969818e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468609,
+      "volume_STEP_mm3": 0.036351368594688,
+      "nome": "C2R3_Via_1",
+      "delta_volume_mm3": 1.915134717478395e-15,
+      "delta_relativo": 5.268397838969818e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873166,
+      "volume_STEP_mm3": 2.1714225693873184,
+      "nome": "C2R2_B_E3_Q3_Cu0",
+      "delta_volume_mm3": 1.7763568394002505e-15,
+      "delta_relativo": 8.180613319780788e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468635,
+      "nome": "C1R3_Via_2",
+      "delta_volume_mm3": -1.6375789613221059e-15,
+      "delta_relativo": -4.504861920278305e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468635,
+      "nome": "C2R3_Via_2",
+      "delta_volume_mm3": -1.6375789613221059e-15,
+      "delta_relativo": -4.504861920278305e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R2_Via_2",
+      "delta_volume_mm3": -1.609823385706477e-15,
+      "delta_relativo": -4.428508328409181e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R2_Via_4",
+      "delta_volume_mm3": -1.609823385706477e-15,
+      "delta_relativo": -4.428508328409181e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R3_Via_4",
+      "delta_volume_mm3": -1.609823385706477e-15,
+      "delta_relativo": -4.428508328409181e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R2_Via_2",
+      "delta_volume_mm3": -1.609823385706477e-15,
+      "delta_relativo": -4.428508328409181e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R2_Via_4",
+      "delta_volume_mm3": -1.609823385706477e-15,
+      "delta_relativo": -4.428508328409181e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468799,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R3_Via_4",
+      "delta_volume_mm3": -1.609823385706477e-15,
+      "delta_relativo": -4.428508328409181e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016887,
+      "volume_STEP_mm3": 1.0211523082016871,
+      "nome": "C1R1_Blindagem_A",
+      "delta_volume_mm3": -1.5543122344752192e-15,
+      "delta_relativo": -1.5221159683930573e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016887,
+      "volume_STEP_mm3": 1.0211523082016871,
+      "nome": "C2R1_Blindagem_B",
+      "delta_volume_mm3": -1.5543122344752192e-15,
+      "delta_relativo": -1.5221159683930573e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594687836,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R2_Via_3",
+      "delta_volume_mm3": -1.457167719820518e-15,
+      "delta_relativo": -4.008563573129017e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594687836,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R3_Via_5",
+      "delta_volume_mm3": -1.457167719820518e-15,
+      "delta_relativo": -4.008563573129017e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594687836,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R2_Via_3",
+      "delta_volume_mm3": -1.457167719820518e-15,
+      "delta_relativo": -4.008563573129017e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.036351368594687836,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R3_Via_5",
+      "delta_volume_mm3": -1.457167719820518e-15,
+      "delta_relativo": -4.008563573129017e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468781,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R2_Via_5",
+      "delta_volume_mm3": -1.429412144204889e-15,
+      "delta_relativo": -3.932209981259896e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468781,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C1R3_Via_3",
+      "delta_volume_mm3": -1.429412144204889e-15,
+      "delta_relativo": -3.932209981259896e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468781,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R2_Via_5",
+      "delta_volume_mm3": -1.429412144204889e-15,
+      "delta_relativo": -3.932209981259896e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.03635136859468781,
+      "volume_STEP_mm3": 0.03635136859468638,
+      "nome": "C2R3_Via_3",
+      "delta_volume_mm3": -1.429412144204889e-15,
+      "delta_relativo": -3.932209981259896e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569979,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C2R1_B_SIG_B_Cu2",
+      "delta_volume_mm3": -1.3461454173580023e-15,
+      "delta_relativo": -1.4997029676981727e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569979,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C2R4_B_SIG_B_Cu1",
+      "delta_volume_mm3": -1.3461454173580023e-15,
+      "delta_relativo": -1.4997029676981727e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569978,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C1R1_B_SIG_B_Cu1",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.4842421123610783e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569979,
+      "volume_STEP_mm3": 0.08976080239569846,
+      "nome": "C1R1_B_SIG_B_Cu2",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.4842421123610783e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873175,
+      "volume_STEP_mm3": 2.171422569387319,
+      "nome": "C1R2_B_E2_Q3_Cu0",
+      "delta_volume_mm3": 1.3322676295501878e-15,
+      "delta_relativo": 6.135459989835588e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569979,
+      "volume_STEP_mm3": 0.08976080239569846,
+      "nome": "C1R4_B_SIG_B_Cu1",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.4842421123610783e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569978,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C1R4_B_SIG_B_Cu2",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.4842421123610783e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016887,
+      "volume_STEP_mm3": 1.0211523082016873,
+      "nome": "C1R4_Blindagem_A",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.304670830051192e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569978,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C2R1_B_SIG_B_Cu1",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.4842421123610783e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 2.1714225693873184,
+      "volume_STEP_mm3": 2.171422569387317,
+      "nome": "C2R2_B_E2_Q3_Cu0",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -6.135459989835587e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569978,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C2R4_B_SIG_B_Cu2",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.4842421123610783e-14
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016887,
+      "volume_STEP_mm3": 1.0211523082016873,
+      "nome": "C2R4_Blindagem_B",
+      "delta_volume_mm3": -1.3322676295501878e-15,
+      "delta_relativo": -1.304670830051192e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016887,
+      "volume_STEP_mm3": 1.0211523082016876,
+      "nome": "C2R4_Blindagem_A",
+      "delta_volume_mm3": -1.1102230246251565e-15,
+      "delta_relativo": -1.0872256917093268e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016887,
+      "volume_STEP_mm3": 1.0211523082016878,
+      "nome": "C2R1_Blindagem_A",
+      "delta_volume_mm3": -8.881784197001252e-16,
+      "delta_relativo": -8.697805533674613e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569831,
+      "volume_STEP_mm3": 0.0897608023956991,
+      "nome": "C1R2_B_SIG_B_Cu0",
+      "delta_volume_mm3": 7.91033905045424e-16,
+      "delta_relativo": 8.812687542144048e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569831,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C2R2_B_SIG_B_Cu0",
+      "delta_volume_mm3": 7.771561172376096e-16,
+      "delta_relativo": 8.658078988773099e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569832,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C1R4_B_SIG_B_Cu0",
+      "delta_volume_mm3": 7.632783294297951e-16,
+      "delta_relativo": 8.50347043540215e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569832,
+      "volume_STEP_mm3": 0.08976080239569909,
+      "nome": "C2R4_B_SIG_B_Cu0",
+      "delta_volume_mm3": 7.632783294297951e-16,
+      "delta_relativo": 8.50347043540215e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016885,
+      "volume_STEP_mm3": 1.0211523082016878,
+      "nome": "C1R1_Blindagem_B",
+      "delta_volume_mm3": -6.661338147750939e-16,
+      "delta_relativo": -6.523354150255962e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.0211523082016885,
+      "volume_STEP_mm3": 1.0211523082016878,
+      "nome": "C1R4_Blindagem_B",
+      "delta_volume_mm3": -6.661338147750939e-16,
+      "delta_relativo": -6.523354150255962e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638753,
+      "volume_STEP_mm3": 1.1019917703638746,
+      "nome": "C2R1_PTFE_B",
+      "delta_volume_mm3": -6.661338147750939e-16,
+      "delta_relativo": -6.044816601081675e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638753,
+      "volume_STEP_mm3": 1.1019917703638746,
+      "nome": "C2R4_PTFE_B",
+      "delta_volume_mm3": -6.661338147750939e-16,
+      "delta_relativo": -6.044816601081675e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569799,
+      "volume_STEP_mm3": 0.08976080239569846,
+      "nome": "C1R1_B_SIG_B_Cu0",
+      "delta_volume_mm3": 4.718447854656915e-16,
+      "delta_relativo": 5.256690814612257e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569838,
+      "volume_STEP_mm3": 0.08976080239569884,
+      "nome": "C1R3_B_SIG_B_Cu0",
+      "delta_volume_mm3": 4.579669976578771e-16,
+      "delta_relativo": 5.102082261241287e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569799,
+      "volume_STEP_mm3": 0.08976080239569845,
+      "nome": "C2R1_B_SIG_B_Cu0",
+      "delta_volume_mm3": 4.579669976578771e-16,
+      "delta_relativo": 5.102082261241309e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 0.08976080239569838,
+      "volume_STEP_mm3": 0.08976080239569884,
+      "nome": "C2R3_B_SIG_B_Cu0",
+      "delta_volume_mm3": 4.579669976578771e-16,
+      "delta_relativo": 5.102082261241287e-15
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638744,
+      "volume_STEP_mm3": 1.101991770363874,
+      "nome": "C2R1_PTFE_A",
+      "delta_volume_mm3": -4.440892098500626e-16,
+      "delta_relativo": -4.029877734054454e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638744,
+      "volume_STEP_mm3": 1.101991770363874,
+      "nome": "C2R4_PTFE_A",
+      "delta_volume_mm3": -4.440892098500626e-16,
+      "delta_relativo": -4.029877734054454e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638746,
+      "volume_STEP_mm3": 1.1019917703638744,
+      "nome": "C1R1_PTFE_B",
+      "delta_volume_mm3": -2.220446049250313e-16,
+      "delta_relativo": -2.0149388670272265e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638746,
+      "volume_STEP_mm3": 1.1019917703638744,
+      "nome": "C1R4_PTFE_B",
+      "delta_volume_mm3": -2.220446049250313e-16,
+      "delta_relativo": -2.0149388670272265e-16
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C1R1_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638746,
+      "volume_STEP_mm3": 1.1019917703638746,
+      "nome": "C1R1_PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C1R2_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C1R3_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C1R4_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 1.1019917703638746,
+      "volume_STEP_mm3": 1.1019917703638746,
+      "nome": "C1R4_PTFE_A",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C2R1_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C2R2_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C2R3_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 9786.110953768162,
+      "volume_STEP_mm3": 9786.110953768162,
+      "nome": "C2R4_PCB_RO4350B",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 60356.13563813849,
+      "volume_STEP_mm3": 60356.13563813849,
+      "nome": "Reforco_L_E",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 60356.1356381385,
+      "volume_STEP_mm3": 60356.1356381385,
+      "nome": "Reforco_L_D",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_01",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_02",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515546,
+      "volume_STEP_mm3": 8.765043503515546,
+      "nome": "M2_arruelas_03",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_04",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515546,
+      "volume_STEP_mm3": 8.765043503515546,
+      "nome": "M2_arruelas_05",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_06",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548047,
+      "volume_STEP_mm3": 96.86158469548047,
+      "nome": "M2_parafuso_07",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515523,
+      "volume_STEP_mm3": 8.765043503515523,
+      "nome": "M2_arruelas_07",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.8615846954805,
+      "volume_STEP_mm3": 96.8615846954805,
+      "nome": "M2_parafuso_08",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515521,
+      "volume_STEP_mm3": 8.765043503515521,
+      "nome": "M2_arruelas_08",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515521,
+      "volume_STEP_mm3": 8.765043503515521,
+      "nome": "M2_arruelas_09",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351552,
+      "volume_STEP_mm3": 8.76504350351552,
+      "nome": "M2_arruelas_10",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515546,
+      "volume_STEP_mm3": 8.765043503515546,
+      "nome": "M2_arruelas_11",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_12",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515544,
+      "volume_STEP_mm3": 8.765043503515544,
+      "nome": "M2_arruelas_13",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_14",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_15",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_16",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_17",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_18",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_19",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515546,
+      "volume_STEP_mm3": 8.765043503515546,
+      "nome": "M2_arruelas_20",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_21",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515546,
+      "volume_STEP_mm3": 8.765043503515546,
+      "nome": "M2_arruelas_22",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.8615846954805,
+      "volume_STEP_mm3": 96.8615846954805,
+      "nome": "M2_parafuso_23",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515521,
+      "volume_STEP_mm3": 8.765043503515521,
+      "nome": "M2_arruelas_23",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 96.86158469548047,
+      "volume_STEP_mm3": 96.86158469548047,
+      "nome": "M2_parafuso_24",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515523,
+      "volume_STEP_mm3": 8.765043503515523,
+      "nome": "M2_arruelas_24",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351552,
+      "volume_STEP_mm3": 8.76504350351552,
+      "nome": "M2_arruelas_25",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515521,
+      "volume_STEP_mm3": 8.765043503515521,
+      "nome": "M2_arruelas_26",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_27",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515546,
+      "volume_STEP_mm3": 8.765043503515546,
+      "nome": "M2_arruelas_28",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.76504350351554,
+      "volume_STEP_mm3": 8.76504350351554,
+      "nome": "M2_arruelas_29",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515544,
+      "volume_STEP_mm3": 8.765043503515544,
+      "nome": "M2_arruelas_30",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_31",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 8.765043503515471,
+      "volume_STEP_mm3": 8.765043503515471,
+      "nome": "M2_arruelas_32",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846690992,
+      "volume_STEP_mm3": 77.45910846690992,
+      "nome": "M4_arruelas_3",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 77.45910846690992,
+      "volume_STEP_mm3": 77.45910846690992,
+      "nome": "M4_arruelas_4",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 337.15572358325653,
+      "volume_STEP_mm3": 337.15572358325653,
+      "nome": "M4_base_1",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 337.15572358325653,
+      "volume_STEP_mm3": 337.15572358325653,
+      "nome": "M4_base_2",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 7064.701738665404,
+      "volume_STEP_mm3": 7064.701738665404,
+      "nome": "PCB_RESERVA_Central_duplo_1x2",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 4574.941738665405,
+      "volume_STEP_mm3": 4574.941738665405,
+      "nome": "PCB_RESERVA_Inferior_duplo_1x4",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 4574.941738665405,
+      "volume_STEP_mm3": 4574.941738665405,
+      "nome": "PCB_RESERVA_Superior_duplo_1x4",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.3042040420089,
+      "volume_STEP_mm3": 98.3042040420089,
+      "nome": "Espacador_rede_M3_01",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477818,
+      "volume_STEP_mm3": 160.61392441477818,
+      "nome": "M3_rede_01",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328509,
+      "volume_STEP_mm3": 30.44203281328509,
+      "nome": "M3_rede_arruelas_01",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.3042040420089,
+      "volume_STEP_mm3": 98.3042040420089,
+      "nome": "Espacador_rede_M3_02",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477818,
+      "volume_STEP_mm3": 160.61392441477818,
+      "nome": "M3_rede_02",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328509,
+      "volume_STEP_mm3": 30.44203281328509,
+      "nome": "M3_rede_arruelas_02",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.3042040420089,
+      "volume_STEP_mm3": 98.3042040420089,
+      "nome": "Espacador_rede_M3_03",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477818,
+      "volume_STEP_mm3": 160.61392441477818,
+      "nome": "M3_rede_03",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328509,
+      "volume_STEP_mm3": 30.44203281328509,
+      "nome": "M3_rede_arruelas_03",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.3042040420089,
+      "volume_STEP_mm3": 98.3042040420089,
+      "nome": "Espacador_rede_M3_04",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477818,
+      "volume_STEP_mm3": 160.61392441477818,
+      "nome": "M3_rede_04",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328509,
+      "volume_STEP_mm3": 30.44203281328509,
+      "nome": "M3_rede_arruelas_04",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200908,
+      "volume_STEP_mm3": 98.30420404200908,
+      "nome": "Espacador_rede_M3_05",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_05",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328512,
+      "volume_STEP_mm3": 30.44203281328512,
+      "nome": "M3_rede_arruelas_05",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200908,
+      "volume_STEP_mm3": 98.30420404200908,
+      "nome": "Espacador_rede_M3_06",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_06",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.442032813285113,
+      "volume_STEP_mm3": 30.442032813285113,
+      "nome": "M3_rede_arruelas_06",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200908,
+      "volume_STEP_mm3": 98.30420404200908,
+      "nome": "Espacador_rede_M3_07",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_07",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328512,
+      "volume_STEP_mm3": 30.44203281328512,
+      "nome": "M3_rede_arruelas_07",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200908,
+      "volume_STEP_mm3": 98.30420404200908,
+      "nome": "Espacador_rede_M3_08",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_08",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328512,
+      "volume_STEP_mm3": 30.44203281328512,
+      "nome": "M3_rede_arruelas_08",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200909,
+      "volume_STEP_mm3": 98.30420404200909,
+      "nome": "Espacador_rede_M3_09",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_09",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328512,
+      "volume_STEP_mm3": 30.44203281328512,
+      "nome": "M3_rede_arruelas_09",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200909,
+      "volume_STEP_mm3": 98.30420404200909,
+      "nome": "Espacador_rede_M3_10",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_10",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328512,
+      "volume_STEP_mm3": 30.44203281328512,
+      "nome": "M3_rede_arruelas_10",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200908,
+      "volume_STEP_mm3": 98.30420404200908,
+      "nome": "Espacador_rede_M3_11",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_11",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.44203281328512,
+      "volume_STEP_mm3": 30.44203281328512,
+      "nome": "M3_rede_arruelas_11",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 98.30420404200908,
+      "volume_STEP_mm3": 98.30420404200908,
+      "nome": "Espacador_rede_M3_12",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 1,
+      "volume_CAD_mm3": 160.61392441477813,
+      "volume_STEP_mm3": 160.61392441477813,
+      "nome": "M3_rede_12",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    },
+    {
+      "solidos": 2,
+      "volume_CAD_mm3": 30.442032813285113,
+      "volume_STEP_mm3": 30.442032813285113,
+      "nome": "M3_rede_arruelas_12",
+      "delta_volume_mm3": 0.0,
+      "delta_relativo": 0.0
+    }
+  ],
+  "uso": "STEP para visualizacao/integracao mecanica; NAO reimportar como novo modelo RF. FCStd e referencia.",
+  "soma_volumes_solidos_CAD_mm3": 568587.0476538958,
+  "soma_volumes_solidos_STEP_mm3": 568587.1672656568,
+  "delta_soma_volumes_solidos_mm3": 0.1196117610399885,
+  "maior_delta_volume_corpo_RF_mm3": 5.68091514385749e-08,
+  "observacao_integracao": "Volume global do compound e soma individual dos solidos possuem integracoes numericas distintas no OCCT. Todos os 643 solidos foram pareados; use as duas medidas registradas, sem atribuir toda a diferenca global a geometria perdida."
+}

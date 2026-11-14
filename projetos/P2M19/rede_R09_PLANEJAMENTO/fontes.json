@@ -1,0 +1,36 @@
+{
+  "data": "2026-11-14",
+  "arquivos": [
+    {
+      "arquivo": "projetos/P2M19/continuacao_72mm_ref146_14passes/configuracao.json",
+      "sha256": "7b0377e83864bbd45701980ef02f6f9785a50e48e2bfdb8c1bb635771b065298"
+    },
+    {
+      "arquivo": "projetos/P2M19/continuacao_72mm_ref146_14passes/resultado.json",
+      "sha256": "b31d0595d5bf8cea70d10cb684e2ec056053461c59f9d2620c3b9d2e6d3a676f"
+    },
+    {
+      "arquivo": "projetos/P2M21/hfss/divisor_1x4/geometria.json",
+      "sha256": "6900b1e0f354375444a3fa859cd8802562fdd600c834ed84b68bc32f94fb4166"
+    },
+    {
+      "arquivo": "projetos/P2M21/hfss/divisor_1x4/analise.json",
+      "sha256": "946743d1760d46a30e846d67dd86859ee84cb2427d186ff944d486b8000d3c1b"
+    },
+    {
+      "arquivo": "projetos/P2M21/hfss/divisor_1x8/analise.json",
+      "sha256": "6cfc24e913b9cb91e95325bc32565517efc37df903a9ffd3c2210f7c3f0ed3ac"
+    },
+    {
+      "arquivo": "resultados/r05/rede/cobre_solido_1x2/comparacao.json",
+      "sha256": "12eabc75485d9f2985099ed6ddcf639802bb39fa6f0099a1aa39aa17cde3b1db"
+    }
+  ],
+  "cabo": {
+    "fonte": "https://www.micro-coax.com/wp-content/uploads/2024/12/micro-coax-ut-141c-datasheet.pdf",
+    "consultado": "2026-11-14",
+    "descricao": "UT-141C, Rev1 02/2025, fabricanteMicro-Coax/Amphenol CIT"
+  },
+  "plano_cad_sha256": "5ee180f49d67fa1d26430e51acc6bf7ebc6eaff4132a446e3cf6267c73a32173",
+  "simulacao_nova_executada": false
+}

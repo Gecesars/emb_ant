@@ -1,0 +1,163 @@
+{
+  "estado": "PRELIMINAR",
+  "data": "2026-11-14",
+  "arquivos": [
+    {
+      "arquivo": "Base_aluminio_PRELIMINAR.step",
+      "bytes": 24870,
+      "sha256": "22bdc4713febd3c282786372e1a4f30121a0d3335f0b816f1caba92be8851cef"
+    },
+    {
+      "arquivo": "cores.json",
+      "bytes": 33989,
+      "sha256": "b0bd5fdf98ad596146ccbd0ea72b6e5ae0e5b17f6293dd52affc5e488d6126ba"
+    },
+    {
+      "arquivo": "dimensoes.json",
+      "bytes": 2026,
+      "sha256": "03740d180fc644b0fd35b8ee68ff7d089ba6c39eb1b4318383cc6b5817c743c1"
+    },
+    {
+      "arquivo": "estado.json",
+      "bytes": 327,
+      "sha256": "5238bf52ef2233b33acde64b2eda2509864227dd94f00100023cc55eac38497d"
+    },
+    {
+      "arquivo": "estado_GUI.json",
+      "bytes": 466,
+      "sha256": "40fbe78484e547e8cb1e6c6353390cb946d27099463ffc9bf34309bc0cb45471"
+    },
+    {
+      "arquivo": "furacao_PRELIMINAR.csv",
+      "bytes": 4683,
+      "sha256": "29d5d2cebf874919ba4c197ae846cc469b6f3476fb61b36bff1691b49ac35f18"
+    },
+    {
+      "arquivo": "imagens/base_acesso_porcas.png",
+      "bytes": 42811,
+      "sha256": "869bf9f7995bf06377735cbc3e5dd1aa2a9f2ca3072f2736981d9bc8f31f11b1"
+    },
+    {
+      "arquivo": "imagens/base_conectores.png",
+      "bytes": 69105,
+      "sha256": "d4c9ec0ef5e017af02cf5dc3ab4f482ebac718920fea58720d68ba5e43bf82c2"
+    },
+    {
+      "arquivo": "imagens/conector_N.png",
+      "bytes": 123693,
+      "sha256": "cda24a6903ed8cc74efaedacab9edde6f75d59bb18f845064bc179bde678040a"
+    },
+    {
+      "arquivo": "imagens/divisor_central_reserva.png",
+      "bytes": 174766,
+      "sha256": "f4dffe44f1cef0fc1850fa413d90f96f9b9bbc91caf10306db3f071878deb9e9"
+    },
+    {
+      "arquivo": "imagens/fixacao_refletor_base.png",
+      "bytes": 46536,
+      "sha256": "7157f42340163b5c5ed5f09f46cd16b33de62f99eb6fc5ec7c4e9af38f506d62"
+    },
+    {
+      "arquivo": "imagens/frente.png",
+      "bytes": 35928,
+      "sha256": "e4fe0494929c4184a1ed39b78bba68dc37e2ea29619c1779c5f0a749e421c6e6"
+    },
+    {
+      "arquivo": "imagens/grampo_placa.png",
+      "bytes": 13274,
+      "sha256": "7b5c74e2287d7b979b8bbc3cebd4e7fa80502e974756f48779912c5af07cf380"
+    },
+    {
+      "arquivo": "imagens/montagem_isometrica.png",
+      "bytes": 58102,
+      "sha256": "24a52de5a22e7098387dd655a6007af8e2981380b8dee7614066cb845003d2e2"
+    },
+    {
+      "arquivo": "imagens/traseira.png",
+      "bytes": 180718,
+      "sha256": "78f29bb766c81087e3fd3255d962947c0b970a68d50915b7ceef10bb30abedfd"
+    },
+    {
+      "arquivo": "imagens_estado.json",
+      "bytes": 385,
+      "sha256": "0e8586920e1effaf957be85346d403b6cb71d73a164be2080397216bfee6cf22"
+    },
+    {
+      "arquivo": "interfaces_cabos.json",
+      "bytes": 8041,
+      "sha256": "a1df6900768664c0997449a697b6919be592a2b3b9d033c9361bcaa0603688b8"
+    },
+    {
+      "arquivo": "lista_materiais.json",
+      "bytes": 4844,
+      "sha256": "0a2b0d86844e36e10ab767b722885e5bff46b1dd4e655c5c8376af6bab584d35"
+    },
+    {
+      "arquivo": "lista_materiais_PRELIMINAR.csv",
+      "bytes": 2523,
+      "sha256": "fce7258e0bf4e343a383907afc65bfadaa763e66e192d5b496737aeea677d3c5"
+    },
+    {
+      "arquivo": "objetos.json",
+      "bytes": 78153,
+      "sha256": "340e5bcde7454640d44d59c7ac96fd32d09445ce10f29345e0163410f5a335ab"
+    },
+    {
+      "arquivo": "P2M19_R09_PRELIMINAR.FCStd",
+      "bytes": 6555429,
+      "sha256": "2d2ec37f7dc0fd3506d9ce6f1a13a8ec7177d88425f5ca8af36c2b7f2c405963"
+    },
+    {
+      "arquivo": "P2M19_R09_PRELIMINAR.step",
+      "bytes": 31992004,
+      "sha256": "c733d667d106411afea85ae4cb7facbb3e5767b10f6637c9394a3969efaf05b3"
+    },
+    {
+      "arquivo": "README.md",
+      "bytes": 9276,
+      "sha256": "1d36e3cc02bf0564ab50ca50ca0bb3ad810b53a4ab0ccbc89ae48d1fc134f8d3"
+    },
+    {
+      "arquivo": "referencias/82-6784.stp",
+      "bytes": 1799855,
+      "sha256": "1a580268d364f89b05919758eb490cd97395ca6d59d594f9a5181af40a4f4dc9"
+    },
+    {
+      "arquivo": "Refletor_furado_PRELIMINAR.step",
+      "bytes": 108037,
+      "sha256": "eb58b0162bfbd2f0febea41d35b1b3f4224fd10ce434efeb9c0a200265209c37"
+    },
+    {
+      "arquivo": "revisao_visual.json",
+      "bytes": 1642,
+      "sha256": "d62eb375ed010baf006851b1c0e86ed990b460fa750f7ca86379b45ede3082d6"
+    },
+    {
+      "arquivo": "verificacao_cabos.json",
+      "bytes": 6539,
+      "sha256": "18acc40268d6027aec0116a985648228a6b394e95f4840af599e1e0c7ce0e547"
+    },
+    {
+      "arquivo": "verificacao_cad.json",
+      "bytes": 2666,
+      "sha256": "0137f2848f87122be568454012d72138ac4a273f55c05010a45103f9b4643e9c"
+    },
+    {
+      "arquivo": "verificacao_inicial.json",
+      "bytes": 660,
+      "sha256": "87c319c8d900f19ae348bb9abc6c36a7904d627f1228e20f3e93bfa76b7eb917"
+    },
+    {
+      "arquivo": "verificacao_rf_reabertura.json",
+      "bytes": 6588,
+      "sha256": "79dda8862fff8c3ac28e1893207d582f838795a683626ffb500f035a422ee17c"
+    },
+    {
+      "arquivo": "verificacao_STEP.json",
+      "bytes": 142542,
+      "sha256": "5d0692961384022ca2a08e639efb5cf660c223c754a142af6d75d34a360b85fc"
+    }
+  ],
+  "total_arquivos": 31,
+  "total_bytes": 41530478
+}

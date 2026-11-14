@@ -1,0 +1,81 @@
+{
+  "frequencia_GHz": 5.17,
+  "impedancia_interfaces_ohm": 50.0,
+  "material": "ZYF300CA-C",
+  "h_core_mm": 1.52,
+  "dk": 2.94,
+  "tandelta": 0.0016,
+  "cu_um": 35,
+  "acabamento": "ENIG nominal; NiP e espessura deverão corresponder ao stackup contratado",
+  "linhas_semente": [
+    {
+      "Z_ohm": 50.0,
+      "largura_semente_mm": 3.9064443442268066,
+      "epsilon_efetivo": 2.3773901743253236,
+      "lambda_quarto_mm": 9.401993287309596
+    },
+    {
+      "Z_ohm": 70.71067811865476,
+      "largura_semente_mm": 2.1720342264559847,
+      "epsilon_efetivo": 2.2864185401927286,
+      "lambda_quarto_mm": 9.58721136034862
+    },
+    {
+      "Z_ohm": 100.0,
+      "largura_semente_mm": 1.0418982511693535,
+      "epsilon_efetivo": 2.199319472024065,
+      "lambda_quarto_mm": 9.775208036329653
+    }
+  ],
+  "formulas": "Aproximação quasi-estática de microstrip, condutor sem espessura; corrigir 35um/ENIG/junções/terminais no projeto RF.",
+  "transformacao": "1:2: dois ramos de 70.7107ohm/90graus; 1:4: quatro ramos de100ohm/90graus. Todos terminados nominalmente em50ohm.",
+  "isolamento": "T/radial sem resistores; as saídas não são isoladas. Cargas C12 acopladas exigem análise multip portas.",
+  "metas_propostas_nao_qualificadas": {
+    "vswr_final_ativo_max": 1.25,
+    "desequilibrio_amplitude_pp_dB": 0.15,
+    "desequilibrio_fase_pp_graus": 3
+  },
+  "cabo": {
+    "OD_mm": 3.581,
+    "diametro_central_mm": 0.9195,
+    "raio_interno_min_ficha_mm": 1.905,
+    "raio_eixo_min_derivado_mm": 3.6955,
+    "raio_eixo_projetado_mm": 10.0,
+    "capacitancia_pF_m": 95.2,
+    "velocidade_derivada_m_s": 210084033.61344537,
+    "fator_velocidade_derivado": 0.7007649058784706,
+    "fase_graus_por_mm": 8.859312,
+    "diferenca_comprimento_equivalente_3graus_mm": 0.3386267466367592,
+    "atenuacao_tipica_interpolada_517_GHz_dB_m": 0.9211286089238845,
+    "atenuacao_tipica_por_caminho_890mm_dB": 0.8198044619422572,
+    "aviso": "Interpolação linear entre pontos5/10GHz da ficha; não medição do cabo montado. Equalizar eletricamente comVNA, além do comprimento físico."
+  },
+  "orcamento": {
+    "ganho_frontal_baseline_dBi": 20.544040492811696,
+    "meta_produto_dBi": 19.0,
+    "orcamento_perdas_adicionais_dB": 1.544040492811696,
+    "saldo_apos_estimativa_cabos_dB": 0.7242360308694388,
+    "aviso": "Saldo precisa cobrir PCBs externas, conectores, soldas, descasamento e desequilíbrio. Não prediz ganho final."
+  },
+  "referencias_historicas": {
+    "duplo1x4_vswr_AB": [
+      1.5366479139179567,
+      1.5364643986338682
+    ],
+    "duplo1x4_ILexcess_AB_dB": [
+      0.3319305937637802,
+      0.33038328780092396
+    ],
+    "duplo1x8_vswr_AB": [
+      1.6961379550500706,
+      1.6967262149272893
+    ],
+    "duplo1x8_ILexcess_AB_dB": [
+      0.5249395159473819,
+      0.5229614583150618
+    ],
+    "duplo1x2_R05_ILexcess_centro_dB": 0.2216646489816128,
+    "aviso": "Históricos de geometrias distintas; não representam a rede R09 e não podem ser somados como validação do produto."
+  },
+  "nenhuma_simulacao_executada": true
+}

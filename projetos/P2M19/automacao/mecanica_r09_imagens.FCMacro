@@ -1,0 +1,48 @@
+import FreeCAD as A, FreeCADGui as G, json, math, traceback
+from pathlib import Path
+from PySide import QtCore
+ROOT=Path('D:/dev/EMBRAER/emb_ant/projetos/P2M19/mecanica_R09_PRELIMINAR')
+OUT=ROOT/'imagens';OUT.mkdir(exist_ok=True)
+def run():
+ try:
+  d=A.openDocument(str(ROOT/'P2M19_R09_PRELIMINAR.FCStd'));A.setActiveDocument(d.Name)
+  spec=json.loads((ROOT/'objetos.json').read_text());colors=json.loads((ROOT/'cores.json').read_text())
+  for o in d.Objects:
+   if o.isDerivedFrom('Part::Feature'):
+    o.ViewObject.Visibility=o.Name in spec['finais']
+    o.ViewObject.ShapeColor=tuple(colors.get(o.Name,[.68,.70,.73]));o.ViewObject.LineColor=(.16,.18,.21)
+    o.ViewObject.DisplayMode='Flat Lines';o.ViewObject.LineWidth=.7
+  def visible(pred):
+   for o in d.Objects:
+    if o.isDerivedFrom('Part::Feature'):o.ViewObject.Visibility=o.Name in spec['finais'] and pred(o.Name)
+   G.updateGui()
+  def shot(name,target,right,up,back,height,w,h):
+   m=A.Matrix();m.A11,m.A21,m.A31=right;m.A12,m.A22,m.A32=up;m.A13,m.A23,m.A33=back
+   rot=A.Rotation(m);axis=rot.Axis;ang=rot.Angle
+   pos=A.Vector(*target)+rot.multVec(A.Vector(0,0,2000))
+   view=G.activeDocument().activeView()
+   view.setCamera('#Inventor V2.1 ascii\nOrthographicCamera { viewportMapping ADJUST_CAMERA position %g %g %g orientation %g %g %g %g nearDistance 1 farDistance 5000 aspectRatio %g focalDistance 2000 height %g }'%(pos.x,pos.y,pos.z,axis.x,axis.y,axis.z,ang,w/h,height))
+   G.updateGui();view.saveImage(str(OUT/(name+'.png')),w,h,'White')
+  visible(lambda n:True)
+  shot('frente',(-10.65,0,0),(0,-1,0),(1,0,0),(0,0,1),310,800,2200)
+  shot('traseira',(-10.65,0,-30),(0,1,0),(1,0,0),(0,0,-1),310,800,2200)
+  rot=A.Rotation(A.Vector(1,0,0),24).multiply(A.Rotation(A.Vector(0,1,0),15))
+  vectors=[rot.multVec(A.Vector(*v)) for v in [(1,0,0),(0,1,0),(0,0,1)]]
+  shot('montagem_isometrica',(-8,0,-12),*(tuple(v) for v in vectors),270,2600,850)
+  shot('base_conectores',(-384,0,-34),(0,1,0),(.8,0,.6),(.6,0,-.8),150,1800,1200)
+  visible(lambda n:n.startswith(('Base_','N_','Reforco_L','M4_base')))
+  shot('base_acesso_porcas',(-386,0,-42),(0,1,0),(-.8,0,.6),(.6,0,.8),125,1800,1200)
+  visible(lambda n:n.startswith(('Base_','N_','Reforco_L','M4_base','M4_refletor','M4_arruelas','M4_porcas')) or n=='Refletor_fabricacao')
+  shot('fixacao_refletor_base',(-380,52,-12),(0,1,0),(.8,0,.6),(.6,0,-.8),60,1500,1300)
+  visible(lambda n:n.startswith(('PCB_RESERVA_Central','Espacador_rede_M3_0','M3_rede','Cabo_T_','Cabo_IN')) or n=='Refletor_fabricacao')
+  shot('divisor_central_reserva',(0,0,-20),(0,1,0),(1,0,0),(0,0,-1),95,1800,1500)
+  visible(lambda n:n.startswith(('C1R2','Grampo_05','M2_parafuso_05','M2_arruelas_05','M2_porca_05')) or n=='Refletor_fabricacao')
+  shot('grampo_placa',(-189,-61,8),(0,-1,0),(.8,0,.6),(-.6,0,.8),35,1500,1200)
+  visible(lambda n:n.startswith('N_A'))
+  shot('conector_N',(-389,-24,-45),(.8,.6,0),(-.3,.4,.8660254),(.519615,-.69282,.5),47,1400,1100)
+  visible(lambda n:True)
+  view=G.activeDocument().activeView();view.viewAxonometric();view.fitAll();G.updateGui();d.recompute();d.save()
+  (ROOT/'imagens_estado.json').write_text(json.dumps(dict(estado='GERADAS_AGUARDA_REVISAO',documento=d.Name,arquivos=sorted(p.name for p in OUT.glob('*.png')),GUI_deixada_aberta=True),indent=2))
+ except:
+  (ROOT/'erro_imagens.txt').write_text(traceback.format_exc())
+QtCore.QTimer.singleShot(1800,run)

@@ -1,0 +1,123 @@
+{
+  "unidade": "mm",
+  "sistema": "X vertical positivo para cima, Y horizontal, Z para frente",
+  "estado": "PRELIMINAR",
+  "refletor": {
+    "X": [
+      -388,
+      388
+    ],
+    "Y": [
+      -73,
+      73
+    ],
+    "Z": [
+      -2,
+      0
+    ],
+    "material": "Al5052 2mm proposto"
+  },
+  "base": {
+    "X": [
+      -396,
+      -392
+    ],
+    "Y": [
+      -73,
+      73
+    ],
+    "Z": [
+      -70,
+      0
+    ],
+    "material": "Al6061-T6 proposto",
+    "espessura": 4,
+    "parede_local_N": 2,
+    "rebaixo_N": [
+      32,
+      2
+    ]
+  },
+  "reforcos": {
+    "quantidade": 2,
+    "perfil": "L20x20x2",
+    "comprimento": 780,
+    "pe": "4x20x20mm soldado",
+    "Y": [
+      [
+        45,
+        65
+      ],
+      [
+        -65,
+        -45
+      ]
+    ],
+    "Z": [
+      -22,
+      -2
+    ]
+  },
+  "N": {
+    "modelo": "Amphenol082-6784",
+    "plano_fixacao_X": -396,
+    "centros_Y": [
+      -24,
+      24
+    ],
+    "centro_Z": -45,
+    "recorte_diametro": 16.5,
+    "entre_planos": 14,
+    "terminacao_cabo_X": -367.25
+  },
+  "PCBs_rede": {
+    "central": [
+      60,
+      78,
+      1.52
+    ],
+    "filiais": [
+      39,
+      78,
+      1.52
+    ],
+    "centros_X": [
+      0,
+      -192,
+      192
+    ],
+    "Z": [
+      -12,
+      -10.48
+    ],
+    "furos": "M3 Ã˜3.2, a4mm das bordas"
+  },
+  "PCBs_radiantes": {
+    "quantidade": 8,
+    "dimensoes": [
+      184,
+      70,
+      0.76
+    ],
+    "passo_X": 192,
+    "passo_Y": 72,
+    "nucleo_Z": 14.949,
+    "grampos": 32
+  },
+  "nao_qualificado": [
+    "RF das adicoes",
+    "cargas de vento",
+    "resistencia/rigidez",
+    "solda dos pes",
+    "vedacao do produto",
+    "chicote final",
+    "cobre da rede externa"
+  ],
+  "chicote": {
+    "quantidade": 22,
+    "eixo_total_mm": 5169.999999999999,
+    "raio_eixo_mm": 10,
+    "OD_mm": 3.581,
+    "aviso": "Nao e lista de corte; soldas/decapagens/tolerancias pendentes"
+  }
+}

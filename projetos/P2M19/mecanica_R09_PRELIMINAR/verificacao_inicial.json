@@ -1,0 +1,14 @@
+{
+  "estado": "PRELIMINAR",
+  "rf_corpos_preservados": 328,
+  "refletor_RF_original_preservado_oculto": true,
+  "geometria_RF_hashes_iguais": true,
+  "corpos_finais": 539,
+  "solidos_finais": 621,
+  "todos_validos": true,
+  "base_parametro_70_71_70_testado": true,
+  "fonte_cad_sha256": "c153b0dcec3c2b95caa837468cc8c86d1de6a60f863a594aa3eb5b09817507cd",
+  "conector_step_sha256": "1a580268d364f89b05919758eb490cd97395ca6d59d594f9a5181af40a4f4dc9",
+  "conector_boolean_delta_volume_mm3": 0.05354563899254572,
+  "observacao": "Montagem posicionada, sem juntas cinematicas. Interferencias e cabos em etapa seguinte; nenhuma analise RF/estrutural."
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "topologia": "Duplo1:8 central",
+    "pcbs": 1,
+    "cabos": 18,
+    "entrada_mm": 425.0,
+    "ramal_mm": 390.0,
+    "comprimento_por_caminho_mm": 815.0,
+    "total_mm": 7090.0,
+    "observacao": "Proposta comparativa de reserva de comprimento, sem roteamento3D; menos juntas e aproximadamente0.069dB menos cabo por caminho, mais1.92m de cabo total; 1:8radial exige141.4ohm e históricoVSWR1.697."
+  },
+  {
+    "topologia": "Duplo1:2 + dois duplos1:4 distribuídos",
+    "pcbs": 3,
+    "cabos": 22,
+    "entrada_mm": 425.0,
+    "tronco_mm": 260.0,
+    "ramal_mm": 205.0,
+    "comprimento_por_caminho_mm": 890.0,
+    "total_mm": 5170.0,
+    "observacao": "Proposta adotada: ramaisfinais menores, menos27.08% de cabo total; 22curvas calculadas e auditadas entre si; mais quatrocabos e duasPCBs. Não afirma menor perda RF que alternativa central."
+  }
+]

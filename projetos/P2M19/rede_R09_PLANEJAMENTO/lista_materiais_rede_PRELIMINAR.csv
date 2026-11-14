@@ -1,0 +1,10 @@
+﻿id;item;quantidade;especificacao;estado
+D0;PCB duplo1:2;1;60x78mm, ZYF300CA-C1.52, Cu35um, ENIG;"Planejamento; cobre/ajuste RF pendentes"
+D1/D2;PCB duplo1:4;2;39x78mm, mesmo stackup deD0;"Referência radial a ajustar; não fabricar"
+ANT;PCB radiante C12 de4elementos;8;184x70mm, RO4350B0.76mm;"Existentes; geometria preservada"
+IN;UT-141C entrada;2;425mm de eixo cada;"Não é corte; incluir inserção/decapagem após ensaio"
+T;UT-141C tronco;4;260mm de eixo cada;Mesma classe/mesmo comprimento e fase
+R;UT-141C ramal;16;205mm de eixo cada;"Mesmo comprimento; não encurtar os destinos próximos"
+N;Amphenol 082-6784 Nfêmea;2;"STEP existente; caudas emX=-367.25,Y=±24,Z=-45";Alojamento e fixação na mecânicaR09
+SP;Espaçador POM para PCBdistribuidora;12;OD5x8.48mm, interfaceM3;Centros/quantidade coordenados com mecânica
+FIX;Conjunto fixaçãoM3 de distribuidoras;12;Furo passantePCBØ3.2;Comprimentos/arruelas naBOMmecânica

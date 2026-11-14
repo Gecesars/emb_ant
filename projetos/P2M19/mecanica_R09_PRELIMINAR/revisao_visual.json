@@ -1,0 +1,44 @@
+{
+  "data": "2026-11-14",
+  "revisor": "Codex",
+  "estado": "REVISADO",
+  "imagens": [
+    {
+      "arquivo": "imagens/base_acesso_porcas.png",
+      "sha256": "869bf9f7995bf06377735cbc3e5dd1aa2a9f2ca3072f2736981d9bc8f31f11b1"
+    },
+    {
+      "arquivo": "imagens/base_conectores.png",
+      "sha256": "d4c9ec0ef5e017af02cf5dc3ab4f482ebac718920fea58720d68ba5e43bf82c2"
+    },
+    {
+      "arquivo": "imagens/conector_N.png",
+      "sha256": "cda24a6903ed8cc74efaedacab9edde6f75d59bb18f845064bc179bde678040a"
+    },
+    {
+      "arquivo": "imagens/divisor_central_reserva.png",
+      "sha256": "f4dffe44f1cef0fc1850fa413d90f96f9b9bbc91caf10306db3f071878deb9e9"
+    },
+    {
+      "arquivo": "imagens/fixacao_refletor_base.png",
+      "sha256": "7157f42340163b5c5ed5f09f46cd16b33de62f99eb6fc5ec7c4e9af38f506d62"
+    },
+    {
+      "arquivo": "imagens/frente.png",
+      "sha256": "e4fe0494929c4184a1ed39b78bba68dc37e2ea29619c1779c5f0a749e421c6e6"
+    },
+    {
+      "arquivo": "imagens/grampo_placa.png",
+      "sha256": "7b5c74e2287d7b979b8bbc3cebd4e7fa80502e974756f48779912c5af07cf380"
+    },
+    {
+      "arquivo": "imagens/montagem_isometrica.png",
+      "sha256": "24a52de5a22e7098387dd655a6007af8e2981380b8dee7614066cb845003d2e2"
+    },
+    {
+      "arquivo": "imagens/traseira.png",
+      "sha256": "78f29bb766c81087e3fd3255d962947c0b970a68d50915b7ceef10bb30abedfd"
+    }
+  ],
+  "observacao": "Nove vistas. Frente/traseira ajustadas para margem; detalhes base/N/grampos/rede legiveis. Vista acesso porcas oculta cabos/parteferragens intencionalmente; azul nas PCBs indica reserva semcobre."
+}

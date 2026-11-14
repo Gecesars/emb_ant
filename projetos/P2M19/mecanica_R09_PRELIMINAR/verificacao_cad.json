@@ -1,0 +1,87 @@
+{
+  "estado": "PRELIMINAR",
+  "corpos": 561,
+  "invalidos": [],
+  "RF_BREP_serializacao_divergente": [
+    "C1R1_PCB_RO4350B",
+    "C1R2_PCB_RO4350B",
+    "C1R3_PCB_RO4350B",
+    "C1R4_PCB_RO4350B",
+    "C2R1_PCB_RO4350B",
+    "C2R2_PCB_RO4350B",
+    "C2R3_PCB_RO4350B",
+    "C2R4_PCB_RO4350B"
+  ],
+  "RF_geometria_divergente": [],
+  "RF_conferencia_geometrica": [
+    {
+      "nome": "C1R1_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C1R2_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C1R3_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C1R4_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C2R1_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C2R2_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C2R3_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    },
+    {
+      "nome": "C2R4_PCB_RO4350B",
+      "diferenca_origem_menos_salvo_mm3": 0.0,
+      "diferenca_salvo_menos_origem_mm3": 0.0,
+      "delta_bbox_mm": 0.0,
+      "delta_centroide_mm": 0.0,
+      "aprovado": true
+    }
+  ],
+  "pares_testados": 744,
+  "intersecoes": [],
+  "reaberto": true,
+  "referencia_conferencia_RF_sha256": "79dda8862fff8c3ac28e1893207d582f838795a683626ffb500f035a422ee17c",
+  "observacao": "Intersecoes medem volume positivo >1e-5 mm3; contatos de faces sao permitidos. BREP posicionado, sem analise estrutural. Conferencia RF anterior reaproveitada apenas com fonte SHA e formas BREP pos-reabertura identicas."
+}

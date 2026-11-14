@@ -1,0 +1,13 @@
+{
+  "metodo": "Amostragem dos arcos e segmentos <=0,5mm; limite conservador subtrai0,5mm +0,004mm de discretizacao de arco",
+  "distancia_minima_amostras_mm": 4.740336380521298,
+  "par_minimo": [
+    "R_C1R2_B",
+    "R_C2R2_A"
+  ],
+  "diametro_mm": 3.581,
+  "folga_conservadora_minima_mm": 0.6553363805212977,
+  "sem_interferencia_cabo_cabo": true,
+  "penalidade_selecao": 0.0,
+  "aviso": "Nao substitui auditoria CAD com ferragens, reforcos e refletor"
+}

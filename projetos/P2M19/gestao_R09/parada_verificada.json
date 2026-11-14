@@ -1,0 +1,24 @@
+{
+  "hora": "2026-11-14T15:53:24.409347-03:00",
+  "simulacao_p2m19_ativa": false,
+  "novos_solves_iniciados": false,
+  "processos_inspecionados": [
+    {
+      "ProcessId": 341520,
+      "ParentProcessId": 335088,
+      "Name": "ansysedt.exe",
+      "CreationDate": "/Date(1794573216255)/",
+      "CommandLine": "\"C:\\Program Files\\AnsysEM\\v242\\Win64\\ansysedt.exe\" -grpcsrv 60541 -ng"
+    }
+  ],
+  "pids_finalizados_da_rodada_anterior": [
+    420620,
+    423176,
+    427400,
+    427964,
+    421724,
+    427032
+  ],
+  "acao": "Nenhuma terminacao necessaria; solver R08 ja concluido; AEDT alheio preservado",
+  "erro_memoria_novo_na_rodada_R08": false
+}

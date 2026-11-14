@@ -1,0 +1,16 @@
+{
+  "hora": "2026-11-14T15:55:19.736602-03:00",
+  "aprovado": true,
+  "teste_sem_hfss": true,
+  "verificacoes": [
+    "limiares fisicos e de comprometimento",
+    "histerese preventiva e recuperacao",
+    "erro explicito OOM",
+    "log UTF16 e truncamento",
+    "suspensao impede inicio",
+    "PID com criacao diferente nao identificado",
+    "arvore de 2 processos inertes encerrada",
+    "processo alheio preservado"
+  ],
+  "limitacao": "Nao se provocou falta real de memoria nem se executou HFSS para testar o guarda."
+}

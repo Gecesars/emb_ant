@@ -1,0 +1,16 @@
+{
+  "estado": "REVISADO",
+  "itens": [
+    {
+      "arquivo": "disposicao_rede.png",
+      "sha256": "7e36f743e18e5d559e4e4bd856073500137382a81deaa55b6b86695a2c3c8d83",
+      "revisado_visualmente": true
+    },
+    {
+      "arquivo": "interfaces_pcbs.png",
+      "sha256": "763de79b06d1a3820b9c030f61831cbf366930b7e314eed0d6cbd754afe0b4a2",
+      "revisado_visualmente": true
+    }
+  ],
+  "observacao": "Mapa das8C12,3distribuidoras,2polarizacoes e22rotas; interfaces deplanejamento rotuladas semcobre/semGerbers. Semrecortes naslegendas."
+}
